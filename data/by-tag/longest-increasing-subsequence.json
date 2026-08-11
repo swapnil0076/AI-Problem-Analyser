@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Delete Columns to Make Sorted",
+    "slug": "delete-columns-to-make-sorted",
+    "difficulty": "Easy",
+    "acRate": 78.2
+  },
+  {
+    "title": "Find the Longest Valid Obstacle Course at Each Position",
+    "slug": "find-the-longest-valid-obstacle-course-at-each-position",
+    "difficulty": "Hard",
+    "acRate": 62.5
+  },
+  {
+    "title": "Maximum Length of Pair Chain",
+    "slug": "maximum-length-of-pair-chain",
+    "difficulty": "Medium",
+    "acRate": 62.1
+  },
+  {
+    "title": "Longest Increasing Subsequence",
+    "slug": "longest-increasing-subsequence",
+    "difficulty": "Medium",
+    "acRate": 59.8
+  },
+  {
+    "title": "Make Array Strictly Increasing",
+    "slug": "make-array-strictly-increasing",
+    "difficulty": "Hard",
+    "acRate": 58.2
+  },
+  {
+    "title": "Number of Longest Increasing Subsequence",
+    "slug": "number-of-longest-increasing-subsequence",
+    "difficulty": "Medium",
+    "acRate": 52.5
+  },
+  {
+    "title": "Best Team With No Conflicts",
+    "slug": "best-team-with-no-conflicts",
+    "difficulty": "Medium",
+    "acRate": 50.8
+  },
+  {
+    "title": "Minimum Operations to Make a Subsequence",
+    "slug": "minimum-operations-to-make-a-subsequence",
+    "difficulty": "Hard",
+    "acRate": 50
+  },
+  {
+    "title": "Minimum Operations to Make the Array K-Increasing",
+    "slug": "minimum-operations-to-make-the-array-k-increasing",
+    "difficulty": "Hard",
+    "acRate": 40.8
+  },
+  {
+    "title": "Increasing Triplet Subsequence",
+    "slug": "increasing-triplet-subsequence",
+    "difficulty": "Medium",
+    "acRate": 39.6
+  },
+  {
+    "title": "Russian Doll Envelopes",
+    "slug": "russian-doll-envelopes",
+    "difficulty": "Hard",
+    "acRate": 38.1
+  },
+  {
+    "title": "Length of the Longest Increasing Path",
+    "slug": "length-of-the-longest-increasing-path",
+    "difficulty": "Hard",
+    "acRate": 19.9
+  }
+]

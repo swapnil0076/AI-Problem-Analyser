@@ -1,0 +1,182 @@
+[
+  {
+    "title": "Build a Matrix With Conditions",
+    "slug": "build-a-matrix-with-conditions",
+    "difficulty": "Hard",
+    "acRate": 79.4
+  },
+  {
+    "title": "Find Eventual Safe States",
+    "slug": "find-eventual-safe-states",
+    "difficulty": "Medium",
+    "acRate": 71.4
+  },
+  {
+    "title": "Parallel Courses III",
+    "slug": "parallel-courses-iii",
+    "difficulty": "Hard",
+    "acRate": 66.8
+  },
+  {
+    "title": "Sort Items by Groups Respecting Dependencies",
+    "slug": "sort-items-by-groups-respecting-dependencies",
+    "difficulty": "Hard",
+    "acRate": 66
+  },
+  {
+    "title": "Minimum Edge Toggles on a Tree",
+    "slug": "minimum-edge-toggles-on-a-tree",
+    "difficulty": "Hard",
+    "acRate": 65.6
+  },
+  {
+    "title": "Loud and Rich",
+    "slug": "loud-and-rich",
+    "difficulty": "Medium",
+    "acRate": 64
+  },
+  {
+    "title": "All Ancestors of a Node in a Directed Acyclic Graph",
+    "slug": "all-ancestors-of-a-node-in-a-directed-acyclic-graph",
+    "difficulty": "Medium",
+    "acRate": 62.3
+  },
+  {
+    "title": "Maximum Employees to Be Invited to a Meeting",
+    "slug": "maximum-employees-to-be-invited-to-a-meeting",
+    "difficulty": "Hard",
+    "acRate": 61.8
+  },
+  {
+    "title": "Strange Printer II",
+    "slug": "strange-printer-ii",
+    "difficulty": "Hard",
+    "acRate": 61
+  },
+  {
+    "title": "Course Schedule IV",
+    "slug": "course-schedule-iv",
+    "difficulty": "Medium",
+    "acRate": 60.2
+  },
+  {
+    "title": "Number of Increasing Paths in a Grid",
+    "slug": "number-of-increasing-paths-in-a-grid",
+    "difficulty": "Hard",
+    "acRate": 57.3
+  },
+  {
+    "title": "Largest Color Value in a Directed Graph",
+    "slug": "largest-color-value-in-a-directed-graph",
+    "difficulty": "Hard",
+    "acRate": 57.2
+  },
+  {
+    "title": "Find All Possible Recipes from Given Supplies",
+    "slug": "find-all-possible-recipes-from-given-supplies",
+    "difficulty": "Medium",
+    "acRate": 57.1
+  },
+  {
+    "title": "Longest Increasing Path in a Matrix",
+    "slug": "longest-increasing-path-in-a-matrix",
+    "difficulty": "Hard",
+    "acRate": 56.9
+  },
+  {
+    "title": "Course Schedule II",
+    "slug": "course-schedule-ii",
+    "difficulty": "Medium",
+    "acRate": 56.1
+  },
+  {
+    "title": "Longest Path With Different Adjacent Characters",
+    "slug": "longest-path-with-different-adjacent-characters",
+    "difficulty": "Hard",
+    "acRate": 54
+  },
+  {
+    "title": "Course Schedule",
+    "slug": "course-schedule",
+    "difficulty": "Medium",
+    "acRate": 52
+  },
+  {
+    "title": "Count Ways to Build Rooms in an Ant Colony",
+    "slug": "count-ways-to-build-rooms-in-an-ant-colony",
+    "difficulty": "Hard",
+    "acRate": 51.9
+  },
+  {
+    "title": "Longest Cycle in a Graph",
+    "slug": "longest-cycle-in-a-graph",
+    "difficulty": "Hard",
+    "acRate": 51
+  },
+  {
+    "title": "Network Recovery Pathways",
+    "slug": "network-recovery-pathways",
+    "difficulty": "Hard",
+    "acRate": 50.6
+  },
+  {
+    "title": "Minimum Height Trees",
+    "slug": "minimum-height-trees",
+    "difficulty": "Medium",
+    "acRate": 42.7
+  },
+  {
+    "title": "Rank Transform of a Matrix",
+    "slug": "rank-transform-of-a-matrix",
+    "difficulty": "Hard",
+    "acRate": 42.5
+  },
+  {
+    "title": "Number of Restricted Paths From First to Last Node",
+    "slug": "number-of-restricted-paths-from-first-to-last-node",
+    "difficulty": "Medium",
+    "acRate": 41.7
+  },
+  {
+    "title": "Cat and Mouse II",
+    "slug": "cat-and-mouse-ii",
+    "difficulty": "Hard",
+    "acRate": 40.3
+  },
+  {
+    "title": "Collect Coins in a Tree",
+    "slug": "collect-coins-in-a-tree",
+    "difficulty": "Hard",
+    "acRate": 39.7
+  },
+  {
+    "title": "Number of Ways to Arrive at Destination",
+    "slug": "number-of-ways-to-arrive-at-destination",
+    "difficulty": "Medium",
+    "acRate": 37.7
+  },
+  {
+    "title": "Cat and Mouse",
+    "slug": "cat-and-mouse",
+    "difficulty": "Hard",
+    "acRate": 35.8
+  },
+  {
+    "title": "Count Visited Nodes in a Directed Graph",
+    "slug": "count-visited-nodes-in-a-directed-graph",
+    "difficulty": "Hard",
+    "acRate": 31.4
+  },
+  {
+    "title": "Maximum Profit from Valid Topological Order in DAG",
+    "slug": "maximum-profit-from-valid-topological-order-in-dag",
+    "difficulty": "Hard",
+    "acRate": 30.7
+  },
+  {
+    "title": "Frequencies of Shortest Supersequences",
+    "slug": "frequencies-of-shortest-supersequences",
+    "difficulty": "Hard",
+    "acRate": 23.1
+  }
+]

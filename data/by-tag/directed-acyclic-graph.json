@@ -1,0 +1,86 @@
+[
+  {
+    "title": "All Paths From Source to Target",
+    "slug": "all-paths-from-source-to-target",
+    "difficulty": "Medium",
+    "acRate": 83.8
+  },
+  {
+    "title": "Minimum Number of Vertices to Reach All Nodes",
+    "slug": "minimum-number-of-vertices-to-reach-all-nodes",
+    "difficulty": "Medium",
+    "acRate": 81.7
+  },
+  {
+    "title": "Build a Matrix With Conditions",
+    "slug": "build-a-matrix-with-conditions",
+    "difficulty": "Hard",
+    "acRate": 79.4
+  },
+  {
+    "title": "Parallel Courses III",
+    "slug": "parallel-courses-iii",
+    "difficulty": "Hard",
+    "acRate": 66.8
+  },
+  {
+    "title": "Sort Items by Groups Respecting Dependencies",
+    "slug": "sort-items-by-groups-respecting-dependencies",
+    "difficulty": "Hard",
+    "acRate": 66
+  },
+  {
+    "title": "Loud and Rich",
+    "slug": "loud-and-rich",
+    "difficulty": "Medium",
+    "acRate": 64
+  },
+  {
+    "title": "All Ancestors of a Node in a Directed Acyclic Graph",
+    "slug": "all-ancestors-of-a-node-in-a-directed-acyclic-graph",
+    "difficulty": "Medium",
+    "acRate": 62.3
+  },
+  {
+    "title": "Check If a String Contains All Binary Codes of Size K",
+    "slug": "check-if-a-string-contains-all-binary-codes-of-size-k",
+    "difficulty": "Medium",
+    "acRate": 61.6
+  },
+  {
+    "title": "Strange Printer II",
+    "slug": "strange-printer-ii",
+    "difficulty": "Hard",
+    "acRate": 61
+  },
+  {
+    "title": "Largest Color Value in a Directed Graph",
+    "slug": "largest-color-value-in-a-directed-graph",
+    "difficulty": "Hard",
+    "acRate": 57.2
+  },
+  {
+    "title": "Find All Possible Recipes from Given Supplies",
+    "slug": "find-all-possible-recipes-from-given-supplies",
+    "difficulty": "Medium",
+    "acRate": 57.1
+  },
+  {
+    "title": "Longest Increasing Path in a Matrix",
+    "slug": "longest-increasing-path-in-a-matrix",
+    "difficulty": "Hard",
+    "acRate": 56.9
+  },
+  {
+    "title": "Course Schedule",
+    "slug": "course-schedule",
+    "difficulty": "Medium",
+    "acRate": 52
+  },
+  {
+    "title": "Parallel Courses II",
+    "slug": "parallel-courses-ii",
+    "difficulty": "Hard",
+    "acRate": 31.3
+  }
+]

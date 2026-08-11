@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Design Browser History",
+    "slug": "design-browser-history",
+    "difficulty": "Medium",
+    "acRate": 78.4
+  },
+  {
+    "title": "Minimum Pair Removal to Sort Array I",
+    "slug": "minimum-pair-removal-to-sort-array-i",
+    "difficulty": "Easy",
+    "acRate": 65.3
+  },
+  {
+    "title": "Flatten a Multilevel Doubly Linked List",
+    "slug": "flatten-a-multilevel-doubly-linked-list",
+    "difficulty": "Medium",
+    "acRate": 63.3
+  },
+  {
+    "title": "Design Authentication Manager",
+    "slug": "design-authentication-manager",
+    "difficulty": "Medium",
+    "acRate": 58.7
+  },
+  {
+    "title": "Design Front Middle Back Queue",
+    "slug": "design-front-middle-back-queue",
+    "difficulty": "Medium",
+    "acRate": 58.4
+  },
+  {
+    "title": "Design a Text Editor",
+    "slug": "design-a-text-editor",
+    "difficulty": "Hard",
+    "acRate": 51.4
+  },
+  {
+    "title": "LFU Cache",
+    "slug": "lfu-cache",
+    "difficulty": "Hard",
+    "acRate": 50
+  },
+  {
+    "title": "LRU Cache",
+    "slug": "lru-cache",
+    "difficulty": "Medium",
+    "acRate": 47.8
+  },
+  {
+    "title": "All O`one Data Structure",
+    "slug": "all-oone-data-structure",
+    "difficulty": "Hard",
+    "acRate": 44.5
+  },
+  {
+    "title": "Minimum Pair Removal to Sort Array II",
+    "slug": "minimum-pair-removal-to-sort-array-ii",
+    "difficulty": "Hard",
+    "acRate": 38.8
+  }
+]

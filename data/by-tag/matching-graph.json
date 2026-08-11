@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Maximum Compatibility Score Sum",
+    "slug": "maximum-compatibility-score-sum",
+    "difficulty": "Medium",
+    "acRate": 64.8
+  },
+  {
+    "title": "Maximum Students Taking Exam",
+    "slug": "maximum-students-taking-exam",
+    "difficulty": "Hard",
+    "acRate": 54.3
+  },
+  {
+    "title": "Minimum Cost to Connect Two Groups of Points",
+    "slug": "minimum-cost-to-connect-two-groups-of-points",
+    "difficulty": "Hard",
+    "acRate": 50.5
+  },
+  {
+    "title": "Number of Ways to Wear Different Hats to Each Other",
+    "slug": "number-of-ways-to-wear-different-hats-to-each-other",
+    "difficulty": "Hard",
+    "acRate": 46.6
+  }
+]

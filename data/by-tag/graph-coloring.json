@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Number of Ways to Paint N × 3 Grid",
+    "slug": "number-of-ways-to-paint-n-3-grid",
+    "difficulty": "Hard",
+    "acRate": 80.6
+  },
+  {
+    "title": "Painting a Grid With Three Different Colors",
+    "slug": "painting-a-grid-with-three-different-colors",
+    "difficulty": "Hard",
+    "acRate": 76.9
+  },
+  {
+    "title": "Is Graph Bipartite?",
+    "slug": "is-graph-bipartite",
+    "difficulty": "Medium",
+    "acRate": 59.7
+  },
+  {
+    "title": "Flower Planting With No Adjacent",
+    "slug": "flower-planting-with-no-adjacent",
+    "difficulty": "Medium",
+    "acRate": 54.1
+  },
+  {
+    "title": "Possible Bipartition",
+    "slug": "possible-bipartition",
+    "difficulty": "Medium",
+    "acRate": 52.9
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Linked List Random Node",
+    "slug": "linked-list-random-node",
+    "difficulty": "Medium",
+    "acRate": 65.1
+  },
+  {
+    "title": "Random Pick Index",
+    "slug": "random-pick-index",
+    "difficulty": "Medium",
+    "acRate": 65.1
+  },
+  {
+    "title": "Shuffle an Array",
+    "slug": "shuffle-an-array",
+    "difficulty": "Medium",
+    "acRate": 59.9
+  },
+  {
+    "title": "Insert Delete GetRandom O(1)",
+    "slug": "insert-delete-getrandom-o1",
+    "difficulty": "Medium",
+    "acRate": 55.5
+  },
+  {
+    "title": "Random Pick with Weight",
+    "slug": "random-pick-with-weight",
+    "difficulty": "Medium",
+    "acRate": 49.2
+  },
+  {
+    "title": "Implement Rand10() Using Rand7()",
+    "slug": "implement-rand10-using-rand7",
+    "difficulty": "Medium",
+    "acRate": 46.6
+  },
+  {
+    "title": "Random Flip Matrix",
+    "slug": "random-flip-matrix",
+    "difficulty": "Medium",
+    "acRate": 46.6
+  },
+  {
+    "title": "Generate Random Point in a Circle",
+    "slug": "generate-random-point-in-a-circle",
+    "difficulty": "Medium",
+    "acRate": 43.5
+  },
+  {
+    "title": "Random Point in Non-overlapping Rectangles",
+    "slug": "random-point-in-non-overlapping-rectangles",
+    "difficulty": "Medium",
+    "acRate": 40.4
+  },
+  {
+    "title": "Insert Delete GetRandom O(1) - Duplicates allowed",
+    "slug": "insert-delete-getrandom-o1-duplicates-allowed",
+    "difficulty": "Hard",
+    "acRate": 36.9
+  },
+  {
+    "title": "Best Position for a Service Centre",
+    "slug": "best-position-for-a-service-centre",
+    "difficulty": "Hard",
+    "acRate": 35.6
+  },
+  {
+    "title": "Random Pick with Blacklist",
+    "slug": "random-pick-with-blacklist",
+    "difficulty": "Hard",
+    "acRate": 35.4
+  }
+]

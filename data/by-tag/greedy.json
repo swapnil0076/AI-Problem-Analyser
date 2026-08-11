@@ -1,0 +1,2528 @@
+[
+  {
+    "title": "Partitioning Into Minimum Number Of Deci-Binary Numbers",
+    "slug": "partitioning-into-minimum-number-of-deci-binary-numbers",
+    "difficulty": "Medium",
+    "acRate": 90.5
+  },
+  {
+    "title": "Split a String in Balanced Strings",
+    "slug": "split-a-string-in-balanced-strings",
+    "difficulty": "Easy",
+    "acRate": 87.6
+  },
+  {
+    "title": "Group the People Given the Group Size They Belong To",
+    "slug": "group-the-people-given-the-group-size-they-belong-to",
+    "difficulty": "Medium",
+    "acRate": 87.5
+  },
+  {
+    "title": "Minimum Number of Moves to Seat Everyone",
+    "slug": "minimum-number-of-moves-to-seat-everyone",
+    "difficulty": "Easy",
+    "acRate": 87.1
+  },
+  {
+    "title": "Max Increase to Keep City Skyline",
+    "slug": "max-increase-to-keep-city-skyline",
+    "difficulty": "Medium",
+    "acRate": 86.4
+  },
+  {
+    "title": "Balance a Binary Search Tree",
+    "slug": "balance-a-binary-search-tree",
+    "difficulty": "Medium",
+    "acRate": 86.3
+  },
+  {
+    "title": "Minimum Sum of Four Digit Number After Splitting Digits",
+    "slug": "minimum-sum-of-four-digit-number-after-splitting-digits",
+    "difficulty": "Easy",
+    "acRate": 86.3
+  },
+  {
+    "title": "Construct Smallest Number From DI String",
+    "slug": "construct-smallest-number-from-di-string",
+    "difficulty": "Medium",
+    "acRate": 85.5
+  },
+  {
+    "title": "Maximum Number of Coins You Can Get",
+    "slug": "maximum-number-of-coins-you-can-get",
+    "difficulty": "Medium",
+    "acRate": 84.8
+  },
+  {
+    "title": "Maximum 69 Number",
+    "slug": "maximum-69-number",
+    "difficulty": "Easy",
+    "acRate": 84.6
+  },
+  {
+    "title": "Minimize Maximum Pair Sum in Array",
+    "slug": "minimize-maximum-pair-sum-in-array",
+    "difficulty": "Medium",
+    "acRate": 83.3
+  },
+  {
+    "title": "Minimum Number of Pushes to Type Word II",
+    "slug": "minimum-number-of-pushes-to-type-word-ii",
+    "difficulty": "Medium",
+    "acRate": 83.3
+  },
+  {
+    "title": "Maximum Odd Binary Number",
+    "slug": "maximum-odd-binary-number",
+    "difficulty": "Easy",
+    "acRate": 83
+  },
+  {
+    "title": "Find Valid Matrix Given Row and Column Sums",
+    "slug": "find-valid-matrix-given-row-and-column-sums",
+    "difficulty": "Medium",
+    "acRate": 82.6
+  },
+  {
+    "title": "Minimum Operations to Make the Array Increasing",
+    "slug": "minimum-operations-to-make-the-array-increasing",
+    "difficulty": "Easy",
+    "acRate": 82.3
+  },
+  {
+    "title": "Array Partition",
+    "slug": "array-partition",
+    "difficulty": "Easy",
+    "acRate": 82.1
+  },
+  {
+    "title": "Partition Labels",
+    "slug": "partition-labels",
+    "difficulty": "Medium",
+    "acRate": 82
+  },
+  {
+    "title": "Partition Array Such That Maximum Difference Is K",
+    "slug": "partition-array-such-that-maximum-difference-is-k",
+    "difficulty": "Medium",
+    "acRate": 81.8
+  },
+  {
+    "title": "Lexicographically Smallest Palindrome",
+    "slug": "lexicographically-smallest-palindrome",
+    "difficulty": "Easy",
+    "acRate": 81.6
+  },
+  {
+    "title": "DI String Match",
+    "slug": "di-string-match",
+    "difficulty": "Easy",
+    "acRate": 81.2
+  },
+  {
+    "title": "Score After Flipping Matrix",
+    "slug": "score-after-flipping-matrix",
+    "difficulty": "Medium",
+    "acRate": 80.3
+  },
+  {
+    "title": "Largest Submatrix With Rearrangements",
+    "slug": "largest-submatrix-with-rearrangements",
+    "difficulty": "Medium",
+    "acRate": 80.2
+  },
+  {
+    "title": "Maximum Sum With Exactly K Elements ",
+    "slug": "maximum-sum-with-exactly-k-elements",
+    "difficulty": "Easy",
+    "acRate": 80.2
+  },
+  {
+    "title": "Divide Array Into Arrays With Max Difference",
+    "slug": "divide-array-into-arrays-with-max-difference",
+    "difficulty": "Medium",
+    "acRate": 79.1
+  },
+  {
+    "title": "Minimum Time to Type Word Using Special Typewriter",
+    "slug": "minimum-time-to-type-word-using-special-typewriter",
+    "difficulty": "Easy",
+    "acRate": 78.9
+  },
+  {
+    "title": "Optimal Partition of String",
+    "slug": "optimal-partition-of-string",
+    "difficulty": "Medium",
+    "acRate": 78.5
+  },
+  {
+    "title": "Apple Redistribution into Boxes",
+    "slug": "apple-redistribution-into-boxes",
+    "difficulty": "Easy",
+    "acRate": 78.4
+  },
+  {
+    "title": "Minimum Number of Increments on Subarrays to Form a Target Array",
+    "slug": "minimum-number-of-increments-on-subarrays-to-form-a-target-array",
+    "difficulty": "Hard",
+    "acRate": 78.2
+  },
+  {
+    "title": "Minimum Number of Swaps to Make the String Balanced",
+    "slug": "minimum-number-of-swaps-to-make-the-string-balanced",
+    "difficulty": "Medium",
+    "acRate": 78
+  },
+  {
+    "title": "Minimum Number of Pushes to Type Word I",
+    "slug": "minimum-number-of-pushes-to-type-word-i",
+    "difficulty": "Easy",
+    "acRate": 77.4
+  },
+  {
+    "title": "Maximum Ice Cream Bars",
+    "slug": "maximum-ice-cream-bars",
+    "difficulty": "Medium",
+    "acRate": 77.3
+  },
+  {
+    "title": "Reducing Dishes",
+    "slug": "reducing-dishes",
+    "difficulty": "Hard",
+    "acRate": 76.8
+  },
+  {
+    "title": "Maximize Sum of At Most K Distinct Elements",
+    "slug": "maximize-sum-of-at-most-k-distinct-elements",
+    "difficulty": "Easy",
+    "acRate": 76.7
+  },
+  {
+    "title": "Minimum Initial Energy to Finish Tasks",
+    "slug": "minimum-initial-energy-to-finish-tasks",
+    "difficulty": "Hard",
+    "acRate": 76.5
+  },
+  {
+    "title": "Maximum Matching of Players With Trainers",
+    "slug": "maximum-matching-of-players-with-trainers",
+    "difficulty": "Medium",
+    "acRate": 75.5
+  },
+  {
+    "title": "Maximum Difference by Remapping a Digit",
+    "slug": "maximum-difference-by-remapping-a-digit",
+    "difficulty": "Easy",
+    "acRate": 75.5
+  },
+  {
+    "title": "Maximum Units on a Truck",
+    "slug": "maximum-units-on-a-truck",
+    "difficulty": "Easy",
+    "acRate": 75.2
+  },
+  {
+    "title": "Minimum Add to Make Parentheses Valid",
+    "slug": "minimum-add-to-make-parentheses-valid",
+    "difficulty": "Medium",
+    "acRate": 74.3
+  },
+  {
+    "title": "Maximum Average Pass Ratio",
+    "slug": "maximum-average-pass-ratio",
+    "difficulty": "Medium",
+    "acRate": 74.1
+  },
+  {
+    "title": "Minimum Subsequence in Non-Increasing Order",
+    "slug": "minimum-subsequence-in-non-increasing-order",
+    "difficulty": "Easy",
+    "acRate": 74
+  },
+  {
+    "title": "Minimum Suffix Flips",
+    "slug": "minimum-suffix-flips",
+    "difficulty": "Medium",
+    "acRate": 74
+  },
+  {
+    "title": "Make Array Zero by Subtracting Equal Amounts",
+    "slug": "make-array-zero-by-subtracting-equal-amounts",
+    "difficulty": "Easy",
+    "acRate": 73.9
+  },
+  {
+    "title": "Longest Subsequence With Limited Sum",
+    "slug": "longest-subsequence-with-limited-sum",
+    "difficulty": "Easy",
+    "acRate": 73.8
+  },
+  {
+    "title": "Split With Minimum Sum",
+    "slug": "split-with-minimum-sum",
+    "difficulty": "Easy",
+    "acRate": 73.8
+  },
+  {
+    "title": "Minimum Deletions for At Most K Distinct Characters",
+    "slug": "minimum-deletions-for-at-most-k-distinct-characters",
+    "difficulty": "Easy",
+    "acRate": 73.3
+  },
+  {
+    "title": "Minimum Cost to Move Chips to The Same Position",
+    "slug": "minimum-cost-to-move-chips-to-the-same-position",
+    "difficulty": "Easy",
+    "acRate": 73.1
+  },
+  {
+    "title": "Append Characters to String to Make Subsequence",
+    "slug": "append-characters-to-string-to-make-subsequence",
+    "difficulty": "Medium",
+    "acRate": 73.1
+  },
+  {
+    "title": "Earliest Finish Time for Land and Water Rides I",
+    "slug": "earliest-finish-time-for-land-and-water-rides-i",
+    "difficulty": "Easy",
+    "acRate": 73
+  },
+  {
+    "title": "Maximize Expression of Three Elements",
+    "slug": "maximize-expression-of-three-elements",
+    "difficulty": "Easy",
+    "acRate": 73
+  },
+  {
+    "title": "Minimum Operations to Make Columns Strictly Increasing",
+    "slug": "minimum-operations-to-make-columns-strictly-increasing",
+    "difficulty": "Easy",
+    "acRate": 72.8
+  },
+  {
+    "title": "Best Time to Buy and Sell Stock with Transaction Fee",
+    "slug": "best-time-to-buy-and-sell-stock-with-transaction-fee",
+    "difficulty": "Medium",
+    "acRate": 72.5
+  },
+  {
+    "title": "Put Marbles in Bags",
+    "slug": "put-marbles-in-bags",
+    "difficulty": "Hard",
+    "acRate": 72.1
+  },
+  {
+    "title": "Pancake Sorting",
+    "slug": "pancake-sorting",
+    "difficulty": "Medium",
+    "acRate": 71.9
+  },
+  {
+    "title": "Maximum Total Subarray Value I",
+    "slug": "maximum-total-subarray-value-i",
+    "difficulty": "Medium",
+    "acRate": 71.9
+  },
+  {
+    "title": "Minimum Adjacent Swaps to Reach the Kth Smallest Number",
+    "slug": "minimum-adjacent-swaps-to-reach-the-kth-smallest-number",
+    "difficulty": "Medium",
+    "acRate": 71.8
+  },
+  {
+    "title": "Two Furthest Houses With Different Colors",
+    "slug": "two-furthest-houses-with-different-colors",
+    "difficulty": "Easy",
+    "acRate": 71.7
+  },
+  {
+    "title": "Minimum Cost of Buying Candies With Discount",
+    "slug": "minimum-cost-of-buying-candies-with-discount",
+    "difficulty": "Easy",
+    "acRate": 71.6
+  },
+  {
+    "title": "Best Time to Buy and Sell Stock II",
+    "slug": "best-time-to-buy-and-sell-stock-ii",
+    "difficulty": "Medium",
+    "acRate": 71.5
+  },
+  {
+    "title": "Maximum Bitwise XOR After Rearrangement",
+    "slug": "maximum-bitwise-xor-after-rearrangement",
+    "difficulty": "Medium",
+    "acRate": 71.5
+  },
+  {
+    "title": "Check If a String Can Break Another String",
+    "slug": "check-if-a-string-can-break-another-string",
+    "difficulty": "Medium",
+    "acRate": 71.2
+  },
+  {
+    "title": "Earliest Possible Day of Full Bloom",
+    "slug": "earliest-possible-day-of-full-bloom",
+    "difficulty": "Hard",
+    "acRate": 71.1
+  },
+  {
+    "title": "Construct String With Repeat Limit",
+    "slug": "construct-string-with-repeat-limit",
+    "difficulty": "Medium",
+    "acRate": 70.8
+  },
+  {
+    "title": "Minimum Processing Time",
+    "slug": "minimum-processing-time",
+    "difficulty": "Medium",
+    "acRate": 70.8
+  },
+  {
+    "title": "Smallest Subsequence of Distinct Characters",
+    "slug": "smallest-subsequence-of-distinct-characters",
+    "difficulty": "Medium",
+    "acRate": 70.6
+  },
+  {
+    "title": "Smallest Range Covering Elements from K Lists",
+    "slug": "smallest-range-covering-elements-from-k-lists",
+    "difficulty": "Hard",
+    "acRate": 70.3
+  },
+  {
+    "title": "Minimum Swaps to Arrange a Binary Grid",
+    "slug": "minimum-swaps-to-arrange-a-binary-grid",
+    "difficulty": "Medium",
+    "acRate": 70.2
+  },
+  {
+    "title": "Reduce Array Size to The Half",
+    "slug": "reduce-array-size-to-the-half",
+    "difficulty": "Medium",
+    "acRate": 69.4
+  },
+  {
+    "title": "Find the Maximum Sum of Node Values",
+    "slug": "find-the-maximum-sum-of-node-values",
+    "difficulty": "Hard",
+    "acRate": 69.4
+  },
+  {
+    "title": "Merge Triplets to Form Target Triplet",
+    "slug": "merge-triplets-to-form-target-triplet",
+    "difficulty": "Medium",
+    "acRate": 69.3
+  },
+  {
+    "title": "Maximum Element After Decreasing and Rearranging",
+    "slug": "maximum-element-after-decreasing-and-rearranging",
+    "difficulty": "Medium",
+    "acRate": 69.2
+  },
+  {
+    "title": "Shortest Impossible Sequence of Rolls",
+    "slug": "shortest-impossible-sequence-of-rolls",
+    "difficulty": "Hard",
+    "acRate": 69.2
+  },
+  {
+    "title": "Maximum Total Importance of Roads",
+    "slug": "maximum-total-importance-of-roads",
+    "difficulty": "Medium",
+    "acRate": 69.1
+  },
+  {
+    "title": "Two City Scheduling",
+    "slug": "two-city-scheduling",
+    "difficulty": "Medium",
+    "acRate": 68.8
+  },
+  {
+    "title": "Maximum Score From Removing Stones",
+    "slug": "maximum-score-from-removing-stones",
+    "difficulty": "Medium",
+    "acRate": 68.7
+  },
+  {
+    "title": "Maximum Number of Groups Entering a Competition",
+    "slug": "maximum-number-of-groups-entering-a-competition",
+    "difficulty": "Medium",
+    "acRate": 68.7
+  },
+  {
+    "title": "Maximum Tastiness of Candy Basket",
+    "slug": "maximum-tastiness-of-candy-basket",
+    "difficulty": "Medium",
+    "acRate": 68.7
+  },
+  {
+    "title": "Construct K Palindrome Strings",
+    "slug": "construct-k-palindrome-strings",
+    "difficulty": "Medium",
+    "acRate": 68.5
+  },
+  {
+    "title": "Buy Two Chocolates",
+    "slug": "buy-two-chocolates",
+    "difficulty": "Easy",
+    "acRate": 68.4
+  },
+  {
+    "title": "Maximum Bags With Full Capacity of Rocks",
+    "slug": "maximum-bags-with-full-capacity-of-rocks",
+    "difficulty": "Medium",
+    "acRate": 68.2
+  },
+  {
+    "title": "Maximum Number of Integers to Choose From a Range I",
+    "slug": "maximum-number-of-integers-to-choose-from-a-range-i",
+    "difficulty": "Medium",
+    "acRate": 68
+  },
+  {
+    "title": "Minimum Cost Tree From Leaf Values",
+    "slug": "minimum-cost-tree-from-leaf-values",
+    "difficulty": "Medium",
+    "acRate": 67.9
+  },
+  {
+    "title": "Largest Odd Number in String",
+    "slug": "largest-odd-number-in-string",
+    "difficulty": "Easy",
+    "acRate": 67.9
+  },
+  {
+    "title": "Smallest String With A Given Numeric Value",
+    "slug": "smallest-string-with-a-given-numeric-value",
+    "difficulty": "Medium",
+    "acRate": 67.5
+  },
+  {
+    "title": "Maximum Matrix Sum",
+    "slug": "maximum-matrix-sum",
+    "difficulty": "Medium",
+    "acRate": 67.5
+  },
+  {
+    "title": "Minimum Number of People to Teach",
+    "slug": "minimum-number-of-people-to-teach",
+    "difficulty": "Medium",
+    "acRate": 67.3
+  },
+  {
+    "title": "Minimum Deletions to Make String K-Special",
+    "slug": "minimum-deletions-to-make-string-k-special",
+    "difficulty": "Medium",
+    "acRate": 67.2
+  },
+  {
+    "title": "Maximum Number of Operations to Move Ones to the End",
+    "slug": "maximum-number-of-operations-to-move-ones-to-the-end",
+    "difficulty": "Medium",
+    "acRate": 67.1
+  },
+  {
+    "title": "Longest Unequal Adjacent Groups Subsequence I",
+    "slug": "longest-unequal-adjacent-groups-subsequence-i",
+    "difficulty": "Easy",
+    "acRate": 66.8
+  },
+  {
+    "title": "Minimum Number of Operations to Convert Time",
+    "slug": "minimum-number-of-operations-to-convert-time",
+    "difficulty": "Easy",
+    "acRate": 66.5
+  },
+  {
+    "title": "Maximum Score From Removing Substrings",
+    "slug": "maximum-score-from-removing-substrings",
+    "difficulty": "Medium",
+    "acRate": 66.4
+  },
+  {
+    "title": "Remove Stones to Minimize the Total",
+    "slug": "remove-stones-to-minimize-the-total",
+    "difficulty": "Medium",
+    "acRate": 66.1
+  },
+  {
+    "title": "Maximize Spanning Tree Stability with Upgrades",
+    "slug": "maximize-spanning-tree-stability-with-upgrades",
+    "difficulty": "Hard",
+    "acRate": 65.8
+  },
+  {
+    "title": "Find Polygon With the Largest Perimeter",
+    "slug": "find-polygon-with-the-largest-perimeter",
+    "difficulty": "Medium",
+    "acRate": 65.6
+  },
+  {
+    "title": "Minimum Swaps to Make Strings Equal",
+    "slug": "minimum-swaps-to-make-strings-equal",
+    "difficulty": "Medium",
+    "acRate": 65.5
+  },
+  {
+    "title": "Longest Happy String",
+    "slug": "longest-happy-string",
+    "difficulty": "Medium",
+    "acRate": 65.5
+  },
+  {
+    "title": "Minimum Time to Make Rope Colorful",
+    "slug": "minimum-time-to-make-rope-colorful",
+    "difficulty": "Medium",
+    "acRate": 65.2
+  },
+  {
+    "title": "Maximum Median Sum of Subsequences of Size 3",
+    "slug": "maximum-median-sum-of-subsequences-of-size-3",
+    "difficulty": "Medium",
+    "acRate": 65.1
+  },
+  {
+    "title": "Minimum Operations to Make Binary Array Elements Equal to One II",
+    "slug": "minimum-operations-to-make-binary-array-elements-equal-to-one-ii",
+    "difficulty": "Medium",
+    "acRate": 64.8
+  },
+  {
+    "title": "Find the Minimum Number of Fibonacci Numbers Whose Sum Is K",
+    "slug": "find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k",
+    "difficulty": "Medium",
+    "acRate": 64.7
+  },
+  {
+    "title": "Largest Values From Labels",
+    "slug": "largest-values-from-labels",
+    "difficulty": "Medium",
+    "acRate": 64.6
+  },
+  {
+    "title": "House Robber IV",
+    "slug": "house-robber-iv",
+    "difficulty": "Medium",
+    "acRate": 64.6
+  },
+  {
+    "title": "Maximum Number of Consecutive Values You Can Make",
+    "slug": "maximum-number-of-consecutive-values-you-can-make",
+    "difficulty": "Medium",
+    "acRate": 64.3
+  },
+  {
+    "title": "Max Chunks To Make Sorted",
+    "slug": "max-chunks-to-make-sorted",
+    "difficulty": "Medium",
+    "acRate": 64.2
+  },
+  {
+    "title": "Maximal Score After Applying K Operations",
+    "slug": "maximal-score-after-applying-k-operations",
+    "difficulty": "Medium",
+    "acRate": 64.2
+  },
+  {
+    "title": "Minimum Rectangles to Cover Points",
+    "slug": "minimum-rectangles-to-cover-points",
+    "difficulty": "Medium",
+    "acRate": 64.2
+  },
+  {
+    "title": "Earliest Finish Time for Land and Water Rides II",
+    "slug": "earliest-finish-time-for-land-and-water-rides-ii",
+    "difficulty": "Medium",
+    "acRate": 64.1
+  },
+  {
+    "title": "Minimum Operations to Reach Target Array",
+    "slug": "minimum-operations-to-reach-target-array",
+    "difficulty": "Medium",
+    "acRate": 64.1
+  },
+  {
+    "title": "Least Number of Unique Integers after K Removals",
+    "slug": "least-number-of-unique-integers-after-k-removals",
+    "difficulty": "Medium",
+    "acRate": 63.9
+  },
+  {
+    "title": "Separate Black and White Balls",
+    "slug": "separate-black-and-white-balls",
+    "difficulty": "Medium",
+    "acRate": 63.8
+  },
+  {
+    "title": "Path Existence Queries in a Graph II",
+    "slug": "path-existence-queries-in-a-graph-ii",
+    "difficulty": "Hard",
+    "acRate": 63.8
+  },
+  {
+    "title": "Minimum Cost to Hire K Workers",
+    "slug": "minimum-cost-to-hire-k-workers",
+    "difficulty": "Hard",
+    "acRate": 63.7
+  },
+  {
+    "title": "Task Scheduler",
+    "slug": "task-scheduler",
+    "difficulty": "Medium",
+    "acRate": 63.6
+  },
+  {
+    "title": "Divide Intervals Into Minimum Number of Groups",
+    "slug": "divide-intervals-into-minimum-number-of-groups",
+    "difficulty": "Medium",
+    "acRate": 63.6
+  },
+  {
+    "title": "Maximize Y‑Sum by Picking a Triplet of Distinct X‑Values",
+    "slug": "maximize-ysum-by-picking-a-triplet-of-distinct-xvalues",
+    "difficulty": "Medium",
+    "acRate": 63.6
+  },
+  {
+    "title": "Minimum Rounds to Complete All Tasks",
+    "slug": "minimum-rounds-to-complete-all-tasks",
+    "difficulty": "Medium",
+    "acRate": 63.4
+  },
+  {
+    "title": "Minimized Maximum of Products Distributed to Any Store",
+    "slug": "minimized-maximum-of-products-distributed-to-any-store",
+    "difficulty": "Medium",
+    "acRate": 63.2
+  },
+  {
+    "title": "Remove Colored Pieces if Both Neighbors are the Same Color",
+    "slug": "remove-colored-pieces-if-both-neighbors-are-the-same-color",
+    "difficulty": "Medium",
+    "acRate": 63.1
+  },
+  {
+    "title": "Minimum Operations to Reduce an Integer to 0",
+    "slug": "minimum-operations-to-reduce-an-integer-to-0",
+    "difficulty": "Medium",
+    "acRate": 63.1
+  },
+  {
+    "title": "Find the String with LCP",
+    "slug": "find-the-string-with-lcp",
+    "difficulty": "Hard",
+    "acRate": 63.1
+  },
+  {
+    "title": "Minimum Numbers of Function Calls to Make Target Array",
+    "slug": "minimum-numbers-of-function-calls-to-make-target-array",
+    "difficulty": "Medium",
+    "acRate": 62.8
+  },
+  {
+    "title": "Frog Jump II",
+    "slug": "frog-jump-ii",
+    "difficulty": "Medium",
+    "acRate": 62.6
+  },
+  {
+    "title": "Find Maximum Value in a Constrained Sequence",
+    "slug": "find-maximum-value-in-a-constrained-sequence",
+    "difficulty": "Medium",
+    "acRate": 62.6
+  },
+  {
+    "title": "Maximize Alternating Sum Using Swaps",
+    "slug": "maximize-alternating-sum-using-swaps",
+    "difficulty": "Hard",
+    "acRate": 62.5
+  },
+  {
+    "title": "Largest Perimeter Triangle",
+    "slug": "largest-perimeter-triangle",
+    "difficulty": "Easy",
+    "acRate": 62.4
+  },
+  {
+    "title": "Minimum Number of Operations to Make Array Empty",
+    "slug": "minimum-number-of-operations-to-make-array-empty",
+    "difficulty": "Medium",
+    "acRate": 62.4
+  },
+  {
+    "title": "Boats to Save People",
+    "slug": "boats-to-save-people",
+    "difficulty": "Medium",
+    "acRate": 62.3
+  },
+  {
+    "title": "Stamping The Sequence",
+    "slug": "stamping-the-sequence",
+    "difficulty": "Hard",
+    "acRate": 62.3
+  },
+  {
+    "title": "Lexicographically Smallest String After Operations With Constraint",
+    "slug": "lexicographically-smallest-string-after-operations-with-constraint",
+    "difficulty": "Medium",
+    "acRate": 62.3
+  },
+  {
+    "title": "Minimize XOR",
+    "slug": "minimize-xor",
+    "difficulty": "Medium",
+    "acRate": 62.2
+  },
+  {
+    "title": "Using a Robot to Print the Lexicographically Smallest String",
+    "slug": "using-a-robot-to-print-the-lexicographically-smallest-string",
+    "difficulty": "Medium",
+    "acRate": 62.2
+  },
+  {
+    "title": "Maximum Length of Pair Chain",
+    "slug": "maximum-length-of-pair-chain",
+    "difficulty": "Medium",
+    "acRate": 62.1
+  },
+  {
+    "title": "Maximize Greatness of an Array",
+    "slug": "maximize-greatness-of-an-array",
+    "difficulty": "Medium",
+    "acRate": 62.1
+  },
+  {
+    "title": "Minimum Operations to Transform String",
+    "slug": "minimum-operations-to-transform-string",
+    "difficulty": "Medium",
+    "acRate": 62.1
+  },
+  {
+    "title": "Minimum Number of Arrows to Burst Balloons",
+    "slug": "minimum-number-of-arrows-to-burst-balloons",
+    "difficulty": "Medium",
+    "acRate": 61.8
+  },
+  {
+    "title": "Maximum Spending After Buying Items",
+    "slug": "maximum-spending-after-buying-items",
+    "difficulty": "Hard",
+    "acRate": 61.6
+  },
+  {
+    "title": "Maximum Balanced Shipments",
+    "slug": "maximum-balanced-shipments",
+    "difficulty": "Medium",
+    "acRate": 61.6
+  },
+  {
+    "title": "Minimum Deletions to Make Character Frequencies Unique",
+    "slug": "minimum-deletions-to-make-character-frequencies-unique",
+    "difficulty": "Medium",
+    "acRate": 61.5
+  },
+  {
+    "title": "Minimum Number of Operations to Make Arrays Similar",
+    "slug": "minimum-number-of-operations-to-make-arrays-similar",
+    "difficulty": "Hard",
+    "acRate": 61.5
+  },
+  {
+    "title": "Stone Game VI",
+    "slug": "stone-game-vi",
+    "difficulty": "Medium",
+    "acRate": 61.4
+  },
+  {
+    "title": "Maximize the Minimum Powered City",
+    "slug": "maximize-the-minimum-powered-city",
+    "difficulty": "Hard",
+    "acRate": 61.4
+  },
+  {
+    "title": "Maximum Alternating Sum of Squares",
+    "slug": "maximum-alternating-sum-of-squares",
+    "difficulty": "Medium",
+    "acRate": 61.4
+  },
+  {
+    "title": "Split Array Largest Sum",
+    "slug": "split-array-largest-sum",
+    "difficulty": "Hard",
+    "acRate": 61.2
+  },
+  {
+    "title": "Determine the Minimum Sum of a k-avoiding Array",
+    "slug": "determine-the-minimum-sum-of-a-k-avoiding-array",
+    "difficulty": "Medium",
+    "acRate": 61.2
+  },
+  {
+    "title": "Minimum Increment to Make Array Unique",
+    "slug": "minimum-increment-to-make-array-unique",
+    "difficulty": "Medium",
+    "acRate": 60.8
+  },
+  {
+    "title": "Container With Most Water",
+    "slug": "container-with-most-water",
+    "difficulty": "Medium",
+    "acRate": 60.6
+  },
+  {
+    "title": "Minimum Amount of Time to Fill Cups",
+    "slug": "minimum-amount-of-time-to-fill-cups",
+    "difficulty": "Easy",
+    "acRate": 60.5
+  },
+  {
+    "title": "Maximum Sum With at Most K Elements",
+    "slug": "maximum-sum-with-at-most-k-elements",
+    "difficulty": "Medium",
+    "acRate": 60.5
+  },
+  {
+    "title": "K Items With the Maximum Sum",
+    "slug": "k-items-with-the-maximum-sum",
+    "difficulty": "Easy",
+    "acRate": 60.3
+  },
+  {
+    "title": "Reschedule Meetings for Maximum Free Time II",
+    "slug": "reschedule-meetings-for-maximum-free-time-ii",
+    "difficulty": "Medium",
+    "acRate": 60.3
+  },
+  {
+    "title": "Maximum Split of Positive Even Integers",
+    "slug": "maximum-split-of-positive-even-integers",
+    "difficulty": "Medium",
+    "acRate": 59.9
+  },
+  {
+    "title": "Bag of Tokens",
+    "slug": "bag-of-tokens",
+    "difficulty": "Medium",
+    "acRate": 59.8
+  },
+  {
+    "title": "Destroying Asteroids",
+    "slug": "destroying-asteroids",
+    "difficulty": "Medium",
+    "acRate": 59.8
+  },
+  {
+    "title": "Couples Holding Hands",
+    "slug": "couples-holding-hands",
+    "difficulty": "Hard",
+    "acRate": 59.6
+  },
+  {
+    "title": "Divide Array in Sets of K Consecutive Numbers",
+    "slug": "divide-array-in-sets-of-k-consecutive-numbers",
+    "difficulty": "Medium",
+    "acRate": 59.5
+  },
+  {
+    "title": "Lemonade Change",
+    "slug": "lemonade-change",
+    "difficulty": "Easy",
+    "acRate": 59.4
+  },
+  {
+    "title": "Minimum Difference Between Largest and Smallest Value in Three Moves",
+    "slug": "minimum-difference-between-largest-and-smallest-value-in-three-moves",
+    "difficulty": "Medium",
+    "acRate": 59.2
+  },
+  {
+    "title": "Maximize Sum of Squares of Digits",
+    "slug": "maximize-sum-of-squares-of-digits",
+    "difficulty": "Medium",
+    "acRate": 59.2
+  },
+  {
+    "title": "Maximize Points After Choosing K Tasks",
+    "slug": "maximize-points-after-choosing-k-tasks",
+    "difficulty": "Medium",
+    "acRate": 59.2
+  },
+  {
+    "title": "Longest Chunked Palindrome Decomposition",
+    "slug": "longest-chunked-palindrome-decomposition",
+    "difficulty": "Hard",
+    "acRate": 59
+  },
+  {
+    "title": "Make Costs of Paths Equal in a Binary Tree",
+    "slug": "make-costs-of-paths-equal-in-a-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 59
+  },
+  {
+    "title": "Maximize Happiness of Selected Children",
+    "slug": "maximize-happiness-of-selected-children",
+    "difficulty": "Medium",
+    "acRate": 58.6
+  },
+  {
+    "title": "Hand of Straights",
+    "slug": "hand-of-straights",
+    "difficulty": "Medium",
+    "acRate": 58.3
+  },
+  {
+    "title": "Minimum Number of Seconds to Make Mountain Height Zero",
+    "slug": "minimum-number-of-seconds-to-make-mountain-height-zero",
+    "difficulty": "Medium",
+    "acRate": 58.3
+  },
+  {
+    "title": "Minimum Moves to Convert String",
+    "slug": "minimum-moves-to-convert-string",
+    "difficulty": "Easy",
+    "acRate": 58.2
+  },
+  {
+    "title": "Minimum Cost for Cutting Cake I",
+    "slug": "minimum-cost-for-cutting-cake-i",
+    "difficulty": "Medium",
+    "acRate": 58.2
+  },
+  {
+    "title": "Set Intersection Size At Least Two",
+    "slug": "set-intersection-size-at-least-two",
+    "difficulty": "Hard",
+    "acRate": 58.1
+  },
+  {
+    "title": "Rabbits in Forest",
+    "slug": "rabbits-in-forest",
+    "difficulty": "Medium",
+    "acRate": 58
+  },
+  {
+    "title": "Minimum Number of Coins to be Added",
+    "slug": "minimum-number-of-coins-to-be-added",
+    "difficulty": "Medium",
+    "acRate": 57.9
+  },
+  {
+    "title": "Find the Lexicographically Smallest Valid Sequence",
+    "slug": "find-the-lexicographically-smallest-valid-sequence",
+    "difficulty": "Medium",
+    "acRate": 57.9
+  },
+  {
+    "title": "Make Array Non-decreasing",
+    "slug": "make-array-non-decreasing",
+    "difficulty": "Medium",
+    "acRate": 57.7
+  },
+  {
+    "title": "Non-overlapping Intervals",
+    "slug": "non-overlapping-intervals",
+    "difficulty": "Medium",
+    "acRate": 57.5
+  },
+  {
+    "title": "Reorganize String",
+    "slug": "reorganize-string",
+    "difficulty": "Medium",
+    "acRate": 57.4
+  },
+  {
+    "title": "Rearranging Fruits",
+    "slug": "rearranging-fruits",
+    "difficulty": "Hard",
+    "acRate": 57.3
+  },
+  {
+    "title": "Lexicographically Maximum MEX Array",
+    "slug": "lexicographically-maximum-mex-array",
+    "difficulty": "Hard",
+    "acRate": 57.2
+  },
+  {
+    "title": "Valid Triangle Number",
+    "slug": "valid-triangle-number",
+    "difficulty": "Medium",
+    "acRate": 57.1
+  },
+  {
+    "title": "Greatest Sum Divisible by Three",
+    "slug": "greatest-sum-divisible-by-three",
+    "difficulty": "Medium",
+    "acRate": 57
+  },
+  {
+    "title": "Removing Minimum and Maximum From Array",
+    "slug": "removing-minimum-and-maximum-from-array",
+    "difficulty": "Medium",
+    "acRate": 56.7
+  },
+  {
+    "title": "Minimum Domino Rotations For Equal Row",
+    "slug": "minimum-domino-rotations-for-equal-row",
+    "difficulty": "Medium",
+    "acRate": 56.5
+  },
+  {
+    "title": "Broken Calculator",
+    "slug": "broken-calculator",
+    "difficulty": "Medium",
+    "acRate": 56.4
+  },
+  {
+    "title": "Maximum Running Time of N Computers",
+    "slug": "maximum-running-time-of-n-computers",
+    "difficulty": "Hard",
+    "acRate": 56.4
+  },
+  {
+    "title": "Most Profit Assigning Work",
+    "slug": "most-profit-assigning-work",
+    "difficulty": "Medium",
+    "acRate": 56.3
+  },
+  {
+    "title": "Longest Palindrome",
+    "slug": "longest-palindrome",
+    "difficulty": "Easy",
+    "acRate": 56.2
+  },
+  {
+    "title": "Smallest Missing Non-negative Integer After Operations",
+    "slug": "smallest-missing-non-negative-integer-after-operations",
+    "difficulty": "Medium",
+    "acRate": 55.9
+  },
+  {
+    "title": "Minimum Operations to Make Array Non Decreasing",
+    "slug": "minimum-operations-to-make-array-non-decreasing",
+    "difficulty": "Medium",
+    "acRate": 55.8
+  },
+  {
+    "title": "Assign Cookies",
+    "slug": "assign-cookies",
+    "difficulty": "Easy",
+    "acRate": 55.4
+  },
+  {
+    "title": "Prime Subtraction Operation",
+    "slug": "prime-subtraction-operation",
+    "difficulty": "Medium",
+    "acRate": 55.4
+  },
+  {
+    "title": "Construct the Longest New String",
+    "slug": "construct-the-longest-new-string",
+    "difficulty": "Medium",
+    "acRate": 55.1
+  },
+  {
+    "title": "Max Chunks To Make Sorted II",
+    "slug": "max-chunks-to-make-sorted-ii",
+    "difficulty": "Hard",
+    "acRate": 55
+  },
+  {
+    "title": "Form Array by Concatenating Subarrays of Another Array",
+    "slug": "form-array-by-concatenating-subarrays-of-another-array",
+    "difficulty": "Medium",
+    "acRate": 55
+  },
+  {
+    "title": "Advantage Shuffle",
+    "slug": "advantage-shuffle",
+    "difficulty": "Medium",
+    "acRate": 54.9
+  },
+  {
+    "title": "Maximum Subsequence Score",
+    "slug": "maximum-subsequence-score",
+    "difficulty": "Medium",
+    "acRate": 54.9
+  },
+  {
+    "title": "Lexicographically Smallest String After a Swap",
+    "slug": "lexicographically-smallest-string-after-a-swap",
+    "difficulty": "Easy",
+    "acRate": 54.9
+  },
+  {
+    "title": "Minimum Number of Removals to Make Mountain Array",
+    "slug": "minimum-number-of-removals-to-make-mountain-array",
+    "difficulty": "Hard",
+    "acRate": 54.8
+  },
+  {
+    "title": "Equal Sum Arrays With Minimum Number of Operations",
+    "slug": "equal-sum-arrays-with-minimum-number-of-operations",
+    "difficulty": "Medium",
+    "acRate": 54.8
+  },
+  {
+    "title": "Minimum Cost to Make All Characters Equal",
+    "slug": "minimum-cost-to-make-all-characters-equal",
+    "difficulty": "Medium",
+    "acRate": 54.7
+  },
+  {
+    "title": "Zero Array Transformation III",
+    "slug": "zero-array-transformation-iii",
+    "difficulty": "Medium",
+    "acRate": 54.7
+  },
+  {
+    "title": "Patching Array",
+    "slug": "patching-array",
+    "difficulty": "Hard",
+    "acRate": 54.6
+  },
+  {
+    "title": "Largest Merge Of Two Strings",
+    "slug": "largest-merge-of-two-strings",
+    "difficulty": "Medium",
+    "acRate": 54.5
+  },
+  {
+    "title": "Remove Duplicate Letters",
+    "slug": "remove-duplicate-letters",
+    "difficulty": "Medium",
+    "acRate": 54.2
+  },
+  {
+    "title": "Maximize Sum Of Array After K Negations",
+    "slug": "maximize-sum-of-array-after-k-negations",
+    "difficulty": "Easy",
+    "acRate": 54.2
+  },
+  {
+    "title": "Pizza With 3n Slices",
+    "slug": "pizza-with-3n-slices",
+    "difficulty": "Hard",
+    "acRate": 54.2
+  },
+  {
+    "title": "Minimum Cost for Cutting Cake II",
+    "slug": "minimum-cost-for-cutting-cake-ii",
+    "difficulty": "Hard",
+    "acRate": 54.1
+  },
+  {
+    "title": "Minimize Deviation in Array",
+    "slug": "minimize-deviation-in-array",
+    "difficulty": "Hard",
+    "acRate": 54
+  },
+  {
+    "title": "Remove Adjacent Almost-Equal Characters",
+    "slug": "remove-adjacent-almost-equal-characters",
+    "difficulty": "Medium",
+    "acRate": 54
+  },
+  {
+    "title": "Reschedule Meetings for Maximum Free Time I",
+    "slug": "reschedule-meetings-for-maximum-free-time-i",
+    "difficulty": "Medium",
+    "acRate": 53.9
+  },
+  {
+    "title": "IPO",
+    "slug": "ipo",
+    "difficulty": "Hard",
+    "acRate": 53.7
+  },
+  {
+    "title": "Minimum Insertions to Balance a Parentheses String",
+    "slug": "minimum-insertions-to-balance-a-parentheses-string",
+    "difficulty": "Medium",
+    "acRate": 53.7
+  },
+  {
+    "title": "Apply Operations to Maximize Score",
+    "slug": "apply-operations-to-maximize-score",
+    "difficulty": "Hard",
+    "acRate": 53.7
+  },
+  {
+    "title": "Lexicographically Smallest Generated String",
+    "slug": "lexicographically-smallest-generated-string",
+    "difficulty": "Hard",
+    "acRate": 53.6
+  },
+  {
+    "title": "Longest Palindrome by Concatenating Two Letter Words",
+    "slug": "longest-palindrome-by-concatenating-two-letter-words",
+    "difficulty": "Medium",
+    "acRate": 53.5
+  },
+  {
+    "title": "Find the Most Competitive Subsequence",
+    "slug": "find-the-most-competitive-subsequence",
+    "difficulty": "Medium",
+    "acRate": 53.4
+  },
+  {
+    "title": "Minimum Replacements to Sort the Array",
+    "slug": "minimum-replacements-to-sort-the-array",
+    "difficulty": "Hard",
+    "acRate": 53.1
+  },
+  {
+    "title": "Minimum Operations to Convert All Elements to Zero",
+    "slug": "minimum-operations-to-convert-all-elements-to-zero",
+    "difficulty": "Medium",
+    "acRate": 53.1
+  },
+  {
+    "title": "Minimum Number of Moves to Make Palindrome",
+    "slug": "minimum-number-of-moves-to-make-palindrome",
+    "difficulty": "Hard",
+    "acRate": 53
+  },
+  {
+    "title": "Video Stitching",
+    "slug": "video-stitching",
+    "difficulty": "Medium",
+    "acRate": 52.9
+  },
+  {
+    "title": "Longest Binary Subsequence Less Than or Equal to K",
+    "slug": "longest-binary-subsequence-less-than-or-equal-to-k",
+    "difficulty": "Medium",
+    "acRate": 52.7
+  },
+  {
+    "title": "Minimum Moves to Reach Target Score",
+    "slug": "minimum-moves-to-reach-target-score",
+    "difficulty": "Medium",
+    "acRate": 52.6
+  },
+  {
+    "title": "Building Boxes",
+    "slug": "building-boxes",
+    "difficulty": "Hard",
+    "acRate": 52.5
+  },
+  {
+    "title": "Split Array into Consecutive Subsequences",
+    "slug": "split-array-into-consecutive-subsequences",
+    "difficulty": "Medium",
+    "acRate": 52.4
+  },
+  {
+    "title": "Maximum Swap",
+    "slug": "maximum-swap",
+    "difficulty": "Medium",
+    "acRate": 52.1
+  },
+  {
+    "title": "Maximum Number of Distinct Elements After Operations",
+    "slug": "maximum-number-of-distinct-elements-after-operations",
+    "difficulty": "Medium",
+    "acRate": 52.1
+  },
+  {
+    "title": "Minimum Sideway Jumps",
+    "slug": "minimum-sideway-jumps",
+    "difficulty": "Medium",
+    "acRate": 51.9
+  },
+  {
+    "title": "Minimum Cost Homecoming of a Robot in a Grid",
+    "slug": "minimum-cost-homecoming-of-a-robot-in-a-grid",
+    "difficulty": "Medium",
+    "acRate": 51.9
+  },
+  {
+    "title": "Check If String Is Transformable With Substring Sort Operations",
+    "slug": "check-if-string-is-transformable-with-substring-sort-operations",
+    "difficulty": "Hard",
+    "acRate": 51.7
+  },
+  {
+    "title": "Break a Palindrome",
+    "slug": "break-a-palindrome",
+    "difficulty": "Medium",
+    "acRate": 51.6
+  },
+  {
+    "title": "Minimum Additions to Make Valid String",
+    "slug": "minimum-additions-to-make-valid-string",
+    "difficulty": "Medium",
+    "acRate": 51.3
+  },
+  {
+    "title": "Eliminate Maximum Number of Monsters",
+    "slug": "eliminate-maximum-number-of-monsters",
+    "difficulty": "Medium",
+    "acRate": 51.2
+  },
+  {
+    "title": "Minimum Number of Taps to Open to Water a Garden",
+    "slug": "minimum-number-of-taps-to-open-to-water-a-garden",
+    "difficulty": "Hard",
+    "acRate": 51.1
+  },
+  {
+    "title": "Furthest Building You Can Reach",
+    "slug": "furthest-building-you-can-reach",
+    "difficulty": "Medium",
+    "acRate": 51.1
+  },
+  {
+    "title": "Minimize the Maximum Difference of Pairs",
+    "slug": "minimize-the-maximum-difference-of-pairs",
+    "difficulty": "Medium",
+    "acRate": 51
+  },
+  {
+    "title": "Array With Elements Not Equal to Average of Neighbors",
+    "slug": "array-with-elements-not-equal-to-average-of-neighbors",
+    "difficulty": "Medium",
+    "acRate": 50.9
+  },
+  {
+    "title": "Lexicographically Minimum String After Removing Stars",
+    "slug": "lexicographically-minimum-string-after-removing-stars",
+    "difficulty": "Medium",
+    "acRate": 50.9
+  },
+  {
+    "title": "Minimum Cost to Move Between Indices",
+    "slug": "minimum-cost-to-move-between-indices",
+    "difficulty": "Medium",
+    "acRate": 50.8
+  },
+  {
+    "title": "Minimum Operations to Halve Array Sum",
+    "slug": "minimum-operations-to-halve-array-sum",
+    "difficulty": "Medium",
+    "acRate": 50.4
+  },
+  {
+    "title": "Dota2 Senate",
+    "slug": "dota2-senate",
+    "difficulty": "Medium",
+    "acRate": 50.3
+  },
+  {
+    "title": "Minimum Deletions to Make Array Beautiful",
+    "slug": "minimum-deletions-to-make-array-beautiful",
+    "difficulty": "Medium",
+    "acRate": 50.3
+  },
+  {
+    "title": "Minimum Score by Changing Two Elements",
+    "slug": "minimum-score-by-changing-two-elements",
+    "difficulty": "Medium",
+    "acRate": 50.2
+  },
+  {
+    "title": "Minimum Equal Sum of Two Arrays After Replacing Zeros",
+    "slug": "minimum-equal-sum-of-two-arrays-after-replacing-zeros",
+    "difficulty": "Medium",
+    "acRate": 50.1
+  },
+  {
+    "title": "Minimum Operations to Make a Subsequence",
+    "slug": "minimum-operations-to-make-a-subsequence",
+    "difficulty": "Hard",
+    "acRate": 50
+  },
+  {
+    "title": "Maximum Number of Tasks You Can Assign",
+    "slug": "maximum-number-of-tasks-you-can-assign",
+    "difficulty": "Hard",
+    "acRate": 50
+  },
+  {
+    "title": "Monotone Increasing Digits",
+    "slug": "monotone-increasing-digits",
+    "difficulty": "Medium",
+    "acRate": 49.9
+  },
+  {
+    "title": "Wiggle Subsequence",
+    "slug": "wiggle-subsequence",
+    "difficulty": "Medium",
+    "acRate": 49.7
+  },
+  {
+    "title": "Delete Columns to Make Sorted II",
+    "slug": "delete-columns-to-make-sorted-ii",
+    "difficulty": "Medium",
+    "acRate": 49.7
+  },
+  {
+    "title": "Sum Game",
+    "slug": "sum-game",
+    "difficulty": "Medium",
+    "acRate": 49.6
+  },
+  {
+    "title": "Decrease Elements To Make Array Zigzag",
+    "slug": "decrease-elements-to-make-array-zigzag",
+    "difficulty": "Medium",
+    "acRate": 49.5
+  },
+  {
+    "title": "Maximum XOR of Subsequences",
+    "slug": "maximum-xor-of-subsequences",
+    "difficulty": "Hard",
+    "acRate": 49.5
+  },
+  {
+    "title": "Maximum Total Sum of K Selected Elements",
+    "slug": "maximum-total-sum-of-k-selected-elements",
+    "difficulty": "Medium",
+    "acRate": 49.4
+  },
+  {
+    "title": "Previous Permutation With One Swap",
+    "slug": "previous-permutation-with-one-swap",
+    "difficulty": "Medium",
+    "acRate": 49.3
+  },
+  {
+    "title": "Distant Barcodes",
+    "slug": "distant-barcodes",
+    "difficulty": "Medium",
+    "acRate": 49.3
+  },
+  {
+    "title": "Reconstruct a 2-Row Binary Matrix",
+    "slug": "reconstruct-a-2-row-binary-matrix",
+    "difficulty": "Medium",
+    "acRate": 49.2
+  },
+  {
+    "title": "Maximum Number of Non-Overlapping Subarrays With Sum Equals Target",
+    "slug": "maximum-number-of-non-overlapping-subarrays-with-sum-equals-target",
+    "difficulty": "Medium",
+    "acRate": 49.2
+  },
+  {
+    "title": "Candy",
+    "slug": "candy",
+    "difficulty": "Hard",
+    "acRate": 49
+  },
+  {
+    "title": "Minimum Cost to Equalize Arrays Using Swaps",
+    "slug": "minimum-cost-to-equalize-arrays-using-swaps",
+    "difficulty": "Medium",
+    "acRate": 49
+  },
+  {
+    "title": "Remove Digit From Number to Maximize Result",
+    "slug": "remove-digit-from-number-to-maximize-result",
+    "difficulty": "Easy",
+    "acRate": 48.8
+  },
+  {
+    "title": "Mice and Cheese",
+    "slug": "mice-and-cheese",
+    "difficulty": "Medium",
+    "acRate": 48.8
+  },
+  {
+    "title": "Max Difference You Can Get From Changing an Integer",
+    "slug": "max-difference-you-can-get-from-changing-an-integer",
+    "difficulty": "Medium",
+    "acRate": 48.6
+  },
+  {
+    "title": "Gas Station",
+    "slug": "gas-station",
+    "difficulty": "Medium",
+    "acRate": 48.5
+  },
+  {
+    "title": "Minimum Number of Food Buckets to Feed the Hamsters",
+    "slug": "minimum-number-of-food-buckets-to-feed-the-hamsters",
+    "difficulty": "Medium",
+    "acRate": 48.4
+  },
+  {
+    "title": "Largest Element in an Array after Merge Operations",
+    "slug": "largest-element-in-an-array-after-merge-operations",
+    "difficulty": "Medium",
+    "acRate": 48.2
+  },
+  {
+    "title": "Minimum Operations to Make Median of Array Equal to K",
+    "slug": "minimum-operations-to-make-median-of-array-equal-to-k",
+    "difficulty": "Medium",
+    "acRate": 48.2
+  },
+  {
+    "title": "Maximum Product of Three Elements After One Replacement",
+    "slug": "maximum-product-of-three-elements-after-one-replacement",
+    "difficulty": "Medium",
+    "acRate": 48.2
+  },
+  {
+    "title": "Maximum Performance of a Team",
+    "slug": "maximum-performance-of-a-team",
+    "difficulty": "Hard",
+    "acRate": 48.1
+  },
+  {
+    "title": "Partition String Into Substrings With Values at Most K",
+    "slug": "partition-string-into-substrings-with-values-at-most-k",
+    "difficulty": "Medium",
+    "acRate": 47.9
+  },
+  {
+    "title": "Maximum Binary String After Change",
+    "slug": "maximum-binary-string-after-change",
+    "difficulty": "Medium",
+    "acRate": 47.8
+  },
+  {
+    "title": "Maximum Sum of Three Numbers Divisible by Three",
+    "slug": "maximum-sum-of-three-numbers-divisible-by-three",
+    "difficulty": "Medium",
+    "acRate": 47.6
+  },
+  {
+    "title": "Maximum Size of a Set After Removals",
+    "slug": "maximum-size-of-a-set-after-removals",
+    "difficulty": "Medium",
+    "acRate": 47
+  },
+  {
+    "title": "Maximum Palindromes After Operations",
+    "slug": "maximum-palindromes-after-operations",
+    "difficulty": "Medium",
+    "acRate": 47
+  },
+  {
+    "title": "Minimum Cost to Make Array Equal",
+    "slug": "minimum-cost-to-make-array-equal",
+    "difficulty": "Hard",
+    "acRate": 46.9
+  },
+  {
+    "title": "Minimize Maximum of Array",
+    "slug": "minimize-maximum-of-array",
+    "difficulty": "Medium",
+    "acRate": 46.6
+  },
+  {
+    "title": "Design an ATM Machine",
+    "slug": "design-an-atm-machine",
+    "difficulty": "Medium",
+    "acRate": 45.9
+  },
+  {
+    "title": "Maximum Distance in Arrays",
+    "slug": "maximum-distance-in-arrays",
+    "difficulty": "Medium",
+    "acRate": 45.6
+  },
+  {
+    "title": "String Without AAA or BBB",
+    "slug": "string-without-aaa-or-bbb",
+    "difficulty": "Medium",
+    "acRate": 45.6
+  },
+  {
+    "title": "Minimum Elements to Add to Form a Given Sum",
+    "slug": "minimum-elements-to-add-to-form-a-given-sum",
+    "difficulty": "Medium",
+    "acRate": 45.4
+  },
+  {
+    "title": "Smallest Divisible Digit Product II",
+    "slug": "smallest-divisible-digit-product-ii",
+    "difficulty": "Hard",
+    "acRate": 45.3
+  },
+  {
+    "title": "Super Washing Machines",
+    "slug": "super-washing-machines",
+    "difficulty": "Hard",
+    "acRate": 45.2
+  },
+  {
+    "title": "Check if a Parentheses String Can Be Valid",
+    "slug": "check-if-a-parentheses-string-can-be-valid",
+    "difficulty": "Medium",
+    "acRate": 45.2
+  },
+  {
+    "title": "Apply Operations on Array to Maximize Sum of Squares",
+    "slug": "apply-operations-on-array-to-maximize-sum-of-squares",
+    "difficulty": "Hard",
+    "acRate": 45.2
+  },
+  {
+    "title": "Frequency of the Most Frequent Element",
+    "slug": "frequency-of-the-most-frequent-element",
+    "difficulty": "Medium",
+    "acRate": 45.1
+  },
+  {
+    "title": "Maximum Number of Non-overlapping Palindrome Substrings",
+    "slug": "maximum-number-of-non-overlapping-palindrome-substrings",
+    "difficulty": "Hard",
+    "acRate": 45
+  },
+  {
+    "title": "Cinema Seat Allocation",
+    "slug": "cinema-seat-allocation",
+    "difficulty": "Medium",
+    "acRate": 44.9
+  },
+  {
+    "title": "Removing Minimum Number of Magic Beans",
+    "slug": "removing-minimum-number-of-magic-beans",
+    "difficulty": "Medium",
+    "acRate": 44.9
+  },
+  {
+    "title": "Maximum Length of Subarray With Positive Product",
+    "slug": "maximum-length-of-subarray-with-positive-product",
+    "difficulty": "Medium",
+    "acRate": 44.8
+  },
+  {
+    "title": "Valid Palindrome II",
+    "slug": "valid-palindrome-ii",
+    "difficulty": "Easy",
+    "acRate": 44.6
+  },
+  {
+    "title": "The Number of Weak Characters in the Game",
+    "slug": "the-number-of-weak-characters-in-the-game",
+    "difficulty": "Medium",
+    "acRate": 44.6
+  },
+  {
+    "title": "Reverse Subarray To Maximize Array Value",
+    "slug": "reverse-subarray-to-maximize-array-value",
+    "difficulty": "Hard",
+    "acRate": 44.4
+  },
+  {
+    "title": "Apply Operations to Make Sum of Array Greater Than or Equal to k",
+    "slug": "apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k",
+    "difficulty": "Medium",
+    "acRate": 44.3
+  },
+  {
+    "title": "Maximum Product After K Increments",
+    "slug": "maximum-product-after-k-increments",
+    "difficulty": "Medium",
+    "acRate": 44.2
+  },
+  {
+    "title": "Minimum Number of Swaps to Make the Binary String Alternating",
+    "slug": "minimum-number-of-swaps-to-make-the-binary-string-alternating",
+    "difficulty": "Medium",
+    "acRate": 44.1
+  },
+  {
+    "title": "Add Minimum Number of Rungs",
+    "slug": "add-minimum-number-of-rungs",
+    "difficulty": "Medium",
+    "acRate": 44.1
+  },
+  {
+    "title": "Maximum Number of Eaten Apples",
+    "slug": "maximum-number-of-eaten-apples",
+    "difficulty": "Medium",
+    "acRate": 44
+  },
+  {
+    "title": "Latest Time by Replacing Hidden Digits",
+    "slug": "latest-time-by-replacing-hidden-digits",
+    "difficulty": "Easy",
+    "acRate": 44
+  },
+  {
+    "title": "Maximum OR",
+    "slug": "maximum-or",
+    "difficulty": "Medium",
+    "acRate": 43.7
+  },
+  {
+    "title": "Largest Number",
+    "slug": "largest-number",
+    "difficulty": "Medium",
+    "acRate": 43.6
+  },
+  {
+    "title": "Maximum Number of Non-Overlapping Substrings",
+    "slug": "maximum-number-of-non-overlapping-substrings",
+    "difficulty": "Hard",
+    "acRate": 43.6
+  },
+  {
+    "title": "Jump Game II",
+    "slug": "jump-game-ii",
+    "difficulty": "Medium",
+    "acRate": 43.3
+  },
+  {
+    "title": "Rearrange Array to Maximize Prefix Score",
+    "slug": "rearrange-array-to-maximize-prefix-score",
+    "difficulty": "Medium",
+    "acRate": 43.1
+  },
+  {
+    "title": "Partition Array Into Three Parts With Equal Sum",
+    "slug": "partition-array-into-three-parts-with-equal-sum",
+    "difficulty": "Easy",
+    "acRate": 43
+  },
+  {
+    "title": "Split Array Into Maximum Number of Subarrays",
+    "slug": "split-array-into-maximum-number-of-subarrays",
+    "difficulty": "Medium",
+    "acRate": 42.8
+  },
+  {
+    "title": "Maximum Number of Weeks for Which You Can Work",
+    "slug": "maximum-number-of-weeks-for-which-you-can-work",
+    "difficulty": "Medium",
+    "acRate": 42.7
+  },
+  {
+    "title": "Minimum Hours of Training to Win a Competition",
+    "slug": "minimum-hours-of-training-to-win-a-competition",
+    "difficulty": "Easy",
+    "acRate": 42.7
+  },
+  {
+    "title": "Maximum Star Sum of a Graph",
+    "slug": "maximum-star-sum-of-a-graph",
+    "difficulty": "Medium",
+    "acRate": 42.7
+  },
+  {
+    "title": "Minimum Adjacent Swaps to Alternate Parity",
+    "slug": "minimum-adjacent-swaps-to-alternate-parity",
+    "difficulty": "Medium",
+    "acRate": 42.7
+  },
+  {
+    "title": "Minimum Adjacent Swaps for K Consecutive Ones",
+    "slug": "minimum-adjacent-swaps-for-k-consecutive-ones",
+    "difficulty": "Hard",
+    "acRate": 42.5
+  },
+  {
+    "title": "Minimum Money Required Before Transactions",
+    "slug": "minimum-money-required-before-transactions",
+    "difficulty": "Hard",
+    "acRate": 42.4
+  },
+  {
+    "title": "Course Schedule III",
+    "slug": "course-schedule-iii",
+    "difficulty": "Hard",
+    "acRate": 42
+  },
+  {
+    "title": "Minimum Number of Refueling Stops",
+    "slug": "minimum-number-of-refueling-stops",
+    "difficulty": "Hard",
+    "acRate": 41.8
+  },
+  {
+    "title": "Minimum Possible Integer After at Most K Adjacent Swaps On Digits",
+    "slug": "minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits",
+    "difficulty": "Hard",
+    "acRate": 41.8
+  },
+  {
+    "title": "Maximum Total Subarray Value II",
+    "slug": "maximum-total-subarray-value-ii",
+    "difficulty": "Hard",
+    "acRate": 41.8
+  },
+  {
+    "title": "Minimum Operations to Make Array Equal to Target",
+    "slug": "minimum-operations-to-make-array-equal-to-target",
+    "difficulty": "Hard",
+    "acRate": 41.7
+  },
+  {
+    "title": "Find the Maximum Number of Marked Indices",
+    "slug": "find-the-maximum-number-of-marked-indices",
+    "difficulty": "Medium",
+    "acRate": 41.6
+  },
+  {
+    "title": "Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts",
+    "slug": "maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts",
+    "difficulty": "Medium",
+    "acRate": 41.5
+  },
+  {
+    "title": "Minimum Total Cost to Make Arrays Unequal",
+    "slug": "minimum-total-cost-to-make-arrays-unequal",
+    "difficulty": "Hard",
+    "acRate": 41.5
+  },
+  {
+    "title": "Jump Game",
+    "slug": "jump-game",
+    "difficulty": "Medium",
+    "acRate": 41.4
+  },
+  {
+    "title": "Get the Maximum Score",
+    "slug": "get-the-maximum-score",
+    "difficulty": "Hard",
+    "acRate": 41.4
+  },
+  {
+    "title": "Maximum Sum Obtained of Any Permutation",
+    "slug": "maximum-sum-obtained-of-any-permutation",
+    "difficulty": "Medium",
+    "acRate": 41.3
+  },
+  {
+    "title": "Find Original Array From Doubled Array",
+    "slug": "find-original-array-from-doubled-array",
+    "difficulty": "Medium",
+    "acRate": 40.9
+  },
+  {
+    "title": "Minimum Moves to Balance Circular Array",
+    "slug": "minimum-moves-to-balance-circular-array",
+    "difficulty": "Medium",
+    "acRate": 40.6
+  },
+  {
+    "title": "Maximum Unique Subarray Sum After Deletion",
+    "slug": "maximum-unique-subarray-sum-after-deletion",
+    "difficulty": "Easy",
+    "acRate": 40.5
+  },
+  {
+    "title": "Valid Parenthesis String",
+    "slug": "valid-parenthesis-string",
+    "difficulty": "Medium",
+    "acRate": 40.4
+  },
+  {
+    "title": "Minimum Operations to Transform Array",
+    "slug": "minimum-operations-to-transform-array",
+    "difficulty": "Medium",
+    "acRate": 40.4
+  },
+  {
+    "title": "Minimum Time to Complete All Tasks",
+    "slug": "minimum-time-to-complete-all-tasks",
+    "difficulty": "Hard",
+    "acRate": 40.3
+  },
+  {
+    "title": "Minimum Amount of Damage Dealt to Bob",
+    "slug": "minimum-amount-of-damage-dealt-to-bob",
+    "difficulty": "Hard",
+    "acRate": 40.3
+  },
+  {
+    "title": "Smallest K-Length Subsequence With Occurrences of a Letter",
+    "slug": "smallest-k-length-subsequence-with-occurrences-of-a-letter",
+    "difficulty": "Hard",
+    "acRate": 40.1
+  },
+  {
+    "title": "Array of Doubled Pairs",
+    "slug": "array-of-doubled-pairs",
+    "difficulty": "Medium",
+    "acRate": 40
+  },
+  {
+    "title": "Minimum Cost to Make Two Binary Strings Equal",
+    "slug": "minimum-cost-to-make-two-binary-strings-equal",
+    "difficulty": "Medium",
+    "acRate": 39.8
+  },
+  {
+    "title": "Increasing Triplet Subsequence",
+    "slug": "increasing-triplet-subsequence",
+    "difficulty": "Medium",
+    "acRate": 39.6
+  },
+  {
+    "title": "Maximum Value after Insertion",
+    "slug": "maximum-value-after-insertion",
+    "difficulty": "Medium",
+    "acRate": 39.6
+  },
+  {
+    "title": "Maximum Number of Events That Can Be Attended",
+    "slug": "maximum-number-of-events-that-can-be-attended",
+    "difficulty": "Medium",
+    "acRate": 39
+  },
+  {
+    "title": "Avoid Flood in The City",
+    "slug": "avoid-flood-in-the-city",
+    "difficulty": "Medium",
+    "acRate": 39
+  },
+  {
+    "title": "Make K-Subarray Sums Equal",
+    "slug": "make-k-subarray-sums-equal",
+    "difficulty": "Medium",
+    "acRate": 39
+  },
+  {
+    "title": "Minimum Addition to Make Integer Beautiful",
+    "slug": "minimum-addition-to-make-integer-beautiful",
+    "difficulty": "Medium",
+    "acRate": 38.9
+  },
+  {
+    "title": "Maximum Value at a Given Index in a Bounded Array",
+    "slug": "maximum-value-at-a-given-index-in-a-bounded-array",
+    "difficulty": "Medium",
+    "acRate": 38.8
+  },
+  {
+    "title": "Minimum Operations to Make a Special Number",
+    "slug": "minimum-operations-to-make-a-special-number",
+    "difficulty": "Medium",
+    "acRate": 38.8
+  },
+  {
+    "title": "Lexicographically Smallest Beautiful String",
+    "slug": "lexicographically-smallest-beautiful-string",
+    "difficulty": "Hard",
+    "acRate": 38.6
+  },
+  {
+    "title": "Shortest Unsorted Continuous Subarray",
+    "slug": "shortest-unsorted-continuous-subarray",
+    "difficulty": "Medium",
+    "acRate": 38.5
+  },
+  {
+    "title": "Largest Number After Mutating Substring",
+    "slug": "largest-number-after-mutating-substring",
+    "difficulty": "Medium",
+    "acRate": 38.3
+  },
+  {
+    "title": "Smallest Range II",
+    "slug": "smallest-range-ii",
+    "difficulty": "Medium",
+    "acRate": 38.2
+  },
+  {
+    "title": "Minimum Cost to Make Arrays Identical",
+    "slug": "minimum-cost-to-make-arrays-identical",
+    "difficulty": "Medium",
+    "acRate": 38.2
+  },
+  {
+    "title": "Wiggle Sort II",
+    "slug": "wiggle-sort-ii",
+    "difficulty": "Medium",
+    "acRate": 38
+  },
+  {
+    "title": "Integer Replacement",
+    "slug": "integer-replacement",
+    "difficulty": "Medium",
+    "acRate": 37.9
+  },
+  {
+    "title": "Minimum Non-Zero Product of the Array Elements",
+    "slug": "minimum-non-zero-product-of-the-array-elements",
+    "difficulty": "Medium",
+    "acRate": 37.6
+  },
+  {
+    "title": "Maximize the Total Height of Unique Towers",
+    "slug": "maximize-the-total-height-of-unique-towers",
+    "difficulty": "Medium",
+    "acRate": 37.6
+  },
+  {
+    "title": "Remove K Digits",
+    "slug": "remove-k-digits",
+    "difficulty": "Medium",
+    "acRate": 37.4
+  },
+  {
+    "title": "Maximum Number of Items From Sale I",
+    "slug": "maximum-number-of-items-from-sale-i",
+    "difficulty": "Medium",
+    "acRate": 37.4
+  },
+  {
+    "title": "Largest Palindromic Number",
+    "slug": "largest-palindromic-number",
+    "difficulty": "Medium",
+    "acRate": 37.3
+  },
+  {
+    "title": "Maximum Sum of Edge Values in a Graph",
+    "slug": "maximum-sum-of-edge-values-in-a-graph",
+    "difficulty": "Hard",
+    "acRate": 37.3
+  },
+  {
+    "title": "Create Maximum Number",
+    "slug": "create-maximum-number",
+    "difficulty": "Hard",
+    "acRate": 36.4
+  },
+  {
+    "title": "Maximum White Tiles Covered by a Carpet",
+    "slug": "maximum-white-tiles-covered-by-a-carpet",
+    "difficulty": "Medium",
+    "acRate": 36.3
+  },
+  {
+    "title": "Maximize Number of Subsequences in a String",
+    "slug": "maximize-number-of-subsequences-in-a-string",
+    "difficulty": "Medium",
+    "acRate": 36.2
+  },
+  {
+    "title": "Minimum Operations to Make the Array Alternating",
+    "slug": "minimum-operations-to-make-the-array-alternating",
+    "difficulty": "Medium",
+    "acRate": 35.9
+  },
+  {
+    "title": "Minimize Length of Array Using Operations",
+    "slug": "minimize-length-of-array-using-operations",
+    "difficulty": "Medium",
+    "acRate": 35.9
+  },
+  {
+    "title": "Stamping the Grid",
+    "slug": "stamping-the-grid",
+    "difficulty": "Hard",
+    "acRate": 35.7
+  },
+  {
+    "title": "Maximize Score of Numbers in Ranges",
+    "slug": "maximize-score-of-numbers-in-ranges",
+    "difficulty": "Medium",
+    "acRate": 35.7
+  },
+  {
+    "title": "Maximum Score After Binary Swaps",
+    "slug": "maximum-score-after-binary-swaps",
+    "difficulty": "Medium",
+    "acRate": 35.6
+  },
+  {
+    "title": "Lexicographically Smallest String After Substring Operation",
+    "slug": "lexicographically-smallest-string-after-substring-operation",
+    "difficulty": "Medium",
+    "acRate": 35.4
+  },
+  {
+    "title": "Minimum Cost to Acquire Required Items",
+    "slug": "minimum-cost-to-acquire-required-items",
+    "difficulty": "Medium",
+    "acRate": 35.2
+  },
+  {
+    "title": "Find the Minimum Possible Sum of a Beautiful Array",
+    "slug": "find-the-minimum-possible-sum-of-a-beautiful-array",
+    "difficulty": "Medium",
+    "acRate": 34.7
+  },
+  {
+    "title": "Check if it is Possible to Split Array",
+    "slug": "check-if-it-is-possible-to-split-array",
+    "difficulty": "Medium",
+    "acRate": 34.6
+  },
+  {
+    "title": "Reach End of Array With Max Score",
+    "slug": "reach-end-of-array-with-max-score",
+    "difficulty": "Medium",
+    "acRate": 33.8
+  },
+  {
+    "title": "Eat Pizzas!",
+    "slug": "eat-pizzas",
+    "difficulty": "Medium",
+    "acRate": 33.8
+  },
+  {
+    "title": "Maximum Total from Optimal Activation Order",
+    "slug": "maximum-total-from-optimal-activation-order",
+    "difficulty": "Medium",
+    "acRate": 33.6
+  },
+  {
+    "title": "Largest Multiple of Three",
+    "slug": "largest-multiple-of-three",
+    "difficulty": "Hard",
+    "acRate": 33.5
+  },
+  {
+    "title": "Minimum Operations to Make Array Equal II",
+    "slug": "minimum-operations-to-make-array-equal-ii",
+    "difficulty": "Medium",
+    "acRate": 33.4
+  },
+  {
+    "title": "Maximum Points After Enemy Battles",
+    "slug": "maximum-points-after-enemy-battles",
+    "difficulty": "Medium",
+    "acRate": 33.4
+  },
+  {
+    "title": "Transform Array to All Equal Elements",
+    "slug": "transform-array-to-all-equal-elements",
+    "difficulty": "Medium",
+    "acRate": 33.3
+  },
+  {
+    "title": "Minimum Operations to Form Subsequence With Target Sum",
+    "slug": "minimum-operations-to-form-subsequence-with-target-sum",
+    "difficulty": "Hard",
+    "acRate": 32.8
+  },
+  {
+    "title": "Wildcard Matching",
+    "slug": "wildcard-matching",
+    "difficulty": "Hard",
+    "acRate": 32.6
+  },
+  {
+    "title": "Maximum Bitwise AND After Increment Operations",
+    "slug": "maximum-bitwise-and-after-increment-operations",
+    "difficulty": "Hard",
+    "acRate": 32.3
+  },
+  {
+    "title": "Minimize Array Sum Using Divisible Replacements",
+    "slug": "minimize-array-sum-using-divisible-replacements",
+    "difficulty": "Medium",
+    "acRate": 32.3
+  },
+  {
+    "title": "Shortest String That Contains Three Strings",
+    "slug": "shortest-string-that-contains-three-strings",
+    "difficulty": "Medium",
+    "acRate": 32.2
+  },
+  {
+    "title": "Maximum Number of Subsequences After One Inserting",
+    "slug": "maximum-number-of-subsequences-after-one-inserting",
+    "difficulty": "Medium",
+    "acRate": 32.2
+  },
+  {
+    "title": "Maximum Frequency After Subarray Operation",
+    "slug": "maximum-frequency-after-subarray-operation",
+    "difficulty": "Medium",
+    "acRate": 31.5
+  },
+  {
+    "title": "Lexicographically Smallest Negated Permutation that Sums to Target",
+    "slug": "lexicographically-smallest-negated-permutation-that-sums-to-target",
+    "difficulty": "Medium",
+    "acRate": 31.5
+  },
+  {
+    "title": "Find Maximum Number of Non Intersecting Substrings",
+    "slug": "find-maximum-number-of-non-intersecting-substrings",
+    "difficulty": "Medium",
+    "acRate": 31.2
+  },
+  {
+    "title": "Minimize OR of Remaining Elements Using Operations",
+    "slug": "minimize-or-of-remaining-elements-using-operations",
+    "difficulty": "Hard",
+    "acRate": 31.1
+  },
+  {
+    "title": "Minimum Swaps to Avoid Forbidden Values",
+    "slug": "minimum-swaps-to-avoid-forbidden-values",
+    "difficulty": "Hard",
+    "acRate": 31.1
+  },
+  {
+    "title": "Maximum Number of Items From Sale II",
+    "slug": "maximum-number-of-items-from-sale-ii",
+    "difficulty": "Medium",
+    "acRate": 31.1
+  },
+  {
+    "title": "Stone Game IX",
+    "slug": "stone-game-ix",
+    "difficulty": "Medium",
+    "acRate": 30.9
+  },
+  {
+    "title": "Maximum Xor Product",
+    "slug": "maximum-xor-product",
+    "difficulty": "Medium",
+    "acRate": 30.5
+  },
+  {
+    "title": "Sell Diminishing-Valued Colored Balls",
+    "slug": "sell-diminishing-valued-colored-balls",
+    "difficulty": "Medium",
+    "acRate": 30.4
+  },
+  {
+    "title": "Maximum Total Beauty of the Gardens",
+    "slug": "maximum-total-beauty-of-the-gardens",
+    "difficulty": "Hard",
+    "acRate": 30.3
+  },
+  {
+    "title": "Count K-Subsequences of a String With Maximum Beauty",
+    "slug": "count-k-subsequences-of-a-string-with-maximum-beauty",
+    "difficulty": "Hard",
+    "acRate": 30.2
+  },
+  {
+    "title": "Find Maximum Area of a Triangle",
+    "slug": "find-maximum-area-of-a-triangle",
+    "difficulty": "Medium",
+    "acRate": 29.9
+  },
+  {
+    "title": "Maximum Total Value",
+    "slug": "maximum-total-value",
+    "difficulty": "Hard",
+    "acRate": 29.7
+  },
+  {
+    "title": "Maximum Elegance of a K-Length Subsequence",
+    "slug": "maximum-elegance-of-a-k-length-subsequence",
+    "difficulty": "Hard",
+    "acRate": 29.4
+  },
+  {
+    "title": "Minimum Division Operations to Make Array Non Decreasing",
+    "slug": "minimum-division-operations-to-make-array-non-decreasing",
+    "difficulty": "Medium",
+    "acRate": 29.4
+  },
+  {
+    "title": "Can Place Flowers",
+    "slug": "can-place-flowers",
+    "difficulty": "Easy",
+    "acRate": 29.3
+  },
+  {
+    "title": "Replace Question Marks in String to Minimize Its Value",
+    "slug": "replace-question-marks-in-string-to-minimize-its-value",
+    "difficulty": "Medium",
+    "acRate": 29.3
+  },
+  {
+    "title": "Maximum Total Value of Covered Indices",
+    "slug": "maximum-total-value-of-covered-indices",
+    "difficulty": "Medium",
+    "acRate": 28.6
+  },
+  {
+    "title": "Sum of Numbers With Units Digit K",
+    "slug": "sum-of-numbers-with-units-digit-k",
+    "difficulty": "Medium",
+    "acRate": 28.4
+  },
+  {
+    "title": "Minimum Array Length After Pair Removals",
+    "slug": "minimum-array-length-after-pair-removals",
+    "difficulty": "Medium",
+    "acRate": 27.9
+  },
+  {
+    "title": "Minimum Bitwise OR From Grid",
+    "slug": "minimum-bitwise-or-from-grid",
+    "difficulty": "Medium",
+    "acRate": 27.6
+  },
+  {
+    "title": "Append K Integers With Minimal Sum",
+    "slug": "append-k-integers-with-minimal-sum",
+    "difficulty": "Medium",
+    "acRate": 27.2
+  },
+  {
+    "title": "Make Array Empty",
+    "slug": "make-array-empty",
+    "difficulty": "Hard",
+    "acRate": 27.1
+  },
+  {
+    "title": "Minimum Sum of Squared Difference",
+    "slug": "minimum-sum-of-squared-difference",
+    "difficulty": "Medium",
+    "acRate": 27
+  },
+  {
+    "title": "Lexicographically Smallest Permutation Greater Than Target",
+    "slug": "lexicographically-smallest-permutation-greater-than-target",
+    "difficulty": "Medium",
+    "acRate": 27
+  },
+  {
+    "title": "Shortest Distance After Road Addition Queries II",
+    "slug": "shortest-distance-after-road-addition-queries-ii",
+    "difficulty": "Hard",
+    "acRate": 26.8
+  },
+  {
+    "title": "Maximum Value of Concatenated Binary Segments",
+    "slug": "maximum-value-of-concatenated-binary-segments",
+    "difficulty": "Hard",
+    "acRate": 26.6
+  },
+  {
+    "title": "Maximum Coins From K Consecutive Bags",
+    "slug": "maximum-coins-from-k-consecutive-bags",
+    "difficulty": "Medium",
+    "acRate": 26.5
+  },
+  {
+    "title": "Maximize the Minimum Game Score",
+    "slug": "maximize-the-minimum-game-score",
+    "difficulty": "Hard",
+    "acRate": 26.4
+  },
+  {
+    "title": "Maximum Strength of a Group",
+    "slug": "maximum-strength-of-a-group",
+    "difficulty": "Medium",
+    "acRate": 25.9
+  },
+  {
+    "title": "Minimum Number of Groups to Create a Valid Assignment",
+    "slug": "minimum-number-of-groups-to-create-a-valid-assignment",
+    "difficulty": "Medium",
+    "acRate": 25.3
+  },
+  {
+    "title": "Generate Schedule",
+    "slug": "generate-schedule",
+    "difficulty": "Medium",
+    "acRate": 25
+  },
+  {
+    "title": "Maximize the Topmost Element After K Moves",
+    "slug": "maximize-the-topmost-element-after-k-moves",
+    "difficulty": "Medium",
+    "acRate": 24.2
+  },
+  {
+    "title": "Minimum Cost to Make Array Equalindromic",
+    "slug": "minimum-cost-to-make-array-equalindromic",
+    "difficulty": "Medium",
+    "acRate": 23.5
+  },
+  {
+    "title": "Maximum Number of Groups With Increasing Length",
+    "slug": "maximum-number-of-groups-with-increasing-length",
+    "difficulty": "Hard",
+    "acRate": 23.3
+  },
+  {
+    "title": "Earliest Second to Mark Indices II",
+    "slug": "earliest-second-to-mark-indices-ii",
+    "difficulty": "Hard",
+    "acRate": 22.3
+  },
+  {
+    "title": "Minimum Number of Valid Strings to Form Target I",
+    "slug": "minimum-number-of-valid-strings-to-form-target-i",
+    "difficulty": "Medium",
+    "acRate": 22.3
+  },
+  {
+    "title": "Minimum Moves to Pick K Ones",
+    "slug": "minimum-moves-to-pick-k-ones",
+    "difficulty": "Hard",
+    "acRate": 21.9
+  },
+  {
+    "title": "Lexicographically Smallest String After Deleting Duplicate Characters",
+    "slug": "lexicographically-smallest-string-after-deleting-duplicate-characters",
+    "difficulty": "Hard",
+    "acRate": 21.2
+  },
+  {
+    "title": "Minimum Number of Valid Strings to Form Target II",
+    "slug": "minimum-number-of-valid-strings-to-form-target-ii",
+    "difficulty": "Hard",
+    "acRate": 21.1
+  },
+  {
+    "title": "Minimum Stability Factor of Array",
+    "slug": "minimum-stability-factor-of-array",
+    "difficulty": "Hard",
+    "acRate": 21.1
+  },
+  {
+    "title": "Distribute Money to Maximum Children",
+    "slug": "distribute-money-to-maximum-children",
+    "difficulty": "Easy",
+    "acRate": 20.7
+  },
+  {
+    "title": "Minimize the Maximum Adjacent Element Difference",
+    "slug": "minimize-the-maximum-adjacent-element-difference",
+    "difficulty": "Hard",
+    "acRate": 20.1
+  },
+  {
+    "title": "Minimum Increase to Maximize Special Indices",
+    "slug": "minimum-increase-to-maximize-special-indices",
+    "difficulty": "Medium",
+    "acRate": 20
+  },
+  {
+    "title": "Select K Disjoint Special Substrings",
+    "slug": "select-k-disjoint-special-substrings",
+    "difficulty": "Medium",
+    "acRate": 19.5
+  },
+  {
+    "title": "Minimum Cost to Equalize Array",
+    "slug": "minimum-cost-to-equalize-array",
+    "difficulty": "Hard",
+    "acRate": 18.8
+  },
+  {
+    "title": "Partition Array for Maximum XOR and AND",
+    "slug": "partition-array-for-maximum-xor-and-and",
+    "difficulty": "Hard",
+    "acRate": 17.7
+  },
+  {
+    "title": "Minimum Operations to Make Array Parity Alternating",
+    "slug": "minimum-operations-to-make-array-parity-alternating",
+    "difficulty": "Medium",
+    "acRate": 17.5
+  },
+  {
+    "title": "Find the Largest Palindrome Divisible by K",
+    "slug": "find-the-largest-palindrome-divisible-by-k",
+    "difficulty": "Hard",
+    "acRate": 17.1
+  },
+  {
+    "title": "Strong Password Checker",
+    "slug": "strong-password-checker",
+    "difficulty": "Hard",
+    "acRate": 16.2
+  }
+]

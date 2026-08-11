@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Form Array by Concatenating Subarrays of Another Array",
+    "slug": "form-array-by-concatenating-subarrays-of-another-array",
+    "difficulty": "Medium",
+    "acRate": 55
+  },
+  {
+    "title": "Longest Happy Prefix",
+    "slug": "longest-happy-prefix",
+    "difficulty": "Hard",
+    "acRate": 53.7
+  },
+  {
+    "title": "Sum of Scores of Built Strings",
+    "slug": "sum-of-scores-of-built-strings",
+    "difficulty": "Hard",
+    "acRate": 50.2
+  },
+  {
+    "title": "Repeated Substring Pattern",
+    "slug": "repeated-substring-pattern",
+    "difficulty": "Easy",
+    "acRate": 48.6
+  },
+  {
+    "title": "Find the Index of the First Occurrence in a String",
+    "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+    "difficulty": "Easy",
+    "acRate": 47.1
+  },
+  {
+    "title": "Shortest Palindrome",
+    "slug": "shortest-palindrome",
+    "difficulty": "Hard",
+    "acRate": 42.9
+  },
+  {
+    "title": "Find Beautiful Indices in the Given Array I",
+    "slug": "find-beautiful-indices-in-the-given-array-i",
+    "difficulty": "Medium",
+    "acRate": 41.1
+  },
+  {
+    "title": "Repeated String Match",
+    "slug": "repeated-string-match",
+    "difficulty": "Medium",
+    "acRate": 39.6
+  },
+  {
+    "title": "Find Beautiful Indices in the Given Array II",
+    "slug": "find-beautiful-indices-in-the-given-array-ii",
+    "difficulty": "Hard",
+    "acRate": 28.4
+  },
+  {
+    "title": "Find the Occurrence of First Almost Equal Substring",
+    "slug": "find-the-occurrence-of-first-almost-equal-substring",
+    "difficulty": "Hard",
+    "acRate": 16.2
+  }
+]

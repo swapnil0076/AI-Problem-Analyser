@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Find Eventual Safe States",
+    "slug": "find-eventual-safe-states",
+    "difficulty": "Medium",
+    "acRate": 71.4
+  },
+  {
+    "title": "Maximum Employees to Be Invited to a Meeting",
+    "slug": "maximum-employees-to-be-invited-to-a-meeting",
+    "difficulty": "Hard",
+    "acRate": 61.8
+  },
+  {
+    "title": "Longest Cycle in a Graph",
+    "slug": "longest-cycle-in-a-graph",
+    "difficulty": "Hard",
+    "acRate": 51
+  },
+  {
+    "title": "Count Visited Nodes in a Directed Graph",
+    "slug": "count-visited-nodes-in-a-directed-graph",
+    "difficulty": "Hard",
+    "acRate": 31.4
+  }
+]

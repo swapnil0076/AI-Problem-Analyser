@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Two City Scheduling",
+    "slug": "two-city-scheduling",
+    "difficulty": "Medium",
+    "acRate": 68.8
+  },
+  {
+    "title": "Maximum Compatibility Score Sum",
+    "slug": "maximum-compatibility-score-sum",
+    "difficulty": "Medium",
+    "acRate": 64.8
+  },
+  {
+    "title": "Minimum XOR Sum of Two Arrays",
+    "slug": "minimum-xor-sum-of-two-arrays",
+    "difficulty": "Hard",
+    "acRate": 51.8
+  },
+  {
+    "title": "Minimum Cost to Connect Two Groups of Points",
+    "slug": "minimum-cost-to-connect-two-groups-of-points",
+    "difficulty": "Hard",
+    "acRate": 50.5
+  }
+]

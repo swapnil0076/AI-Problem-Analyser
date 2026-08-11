@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Repeated DNA Sequences",
+    "slug": "repeated-dna-sequences",
+    "difficulty": "Medium",
+    "acRate": 53.8
+  },
+  {
+    "title": "Find the Index of the First Occurrence in a String",
+    "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+    "difficulty": "Easy",
+    "acRate": 47.1
+  },
+  {
+    "title": "Find Beautiful Indices in the Given Array I",
+    "slug": "find-beautiful-indices-in-the-given-array-i",
+    "difficulty": "Medium",
+    "acRate": 41.1
+  },
+  {
+    "title": "Repeated String Match",
+    "slug": "repeated-string-match",
+    "difficulty": "Medium",
+    "acRate": 39.6
+  },
+  {
+    "title": "Longest Duplicate Substring",
+    "slug": "longest-duplicate-substring",
+    "difficulty": "Hard",
+    "acRate": 31.4
+  },
+  {
+    "title": "Find Beautiful Indices in the Given Array II",
+    "slug": "find-beautiful-indices-in-the-given-array-ii",
+    "difficulty": "Hard",
+    "acRate": 28.4
+  }
+]

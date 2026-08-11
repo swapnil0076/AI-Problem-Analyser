@@ -1,0 +1,866 @@
+[
+  {
+    "title": "Minimum Operations to Make Binary Array Elements Equal to One I",
+    "slug": "minimum-operations-to-make-binary-array-elements-equal-to-one-i",
+    "difficulty": "Medium",
+    "acRate": 80.3
+  },
+  {
+    "title": "Defuse the Bomb",
+    "slug": "defuse-the-bomb",
+    "difficulty": "Easy",
+    "acRate": 79.4
+  },
+  {
+    "title": "Count Substrings That Satisfy K-Constraint I",
+    "slug": "count-substrings-that-satisfy-k-constraint-i",
+    "difficulty": "Easy",
+    "acRate": 79.4
+  },
+  {
+    "title": "Substrings of Size Three with Distinct Characters",
+    "slug": "substrings-of-size-three-with-distinct-characters",
+    "difficulty": "Easy",
+    "acRate": 77
+  },
+  {
+    "title": "Maximum Strong Pair XOR I",
+    "slug": "maximum-strong-pair-xor-i",
+    "difficulty": "Easy",
+    "acRate": 76.4
+  },
+  {
+    "title": "Count Complete Subarrays in an Array",
+    "slug": "count-complete-subarrays-in-an-array",
+    "difficulty": "Medium",
+    "acRate": 76.1
+  },
+  {
+    "title": "Find X-Sum of All K-Long Subarrays I",
+    "slug": "find-x-sum-of-all-k-long-subarrays-i",
+    "difficulty": "Easy",
+    "acRate": 76.1
+  },
+  {
+    "title": "Count Number of Nice Subarrays",
+    "slug": "count-number-of-nice-subarrays",
+    "difficulty": "Medium",
+    "acRate": 75.6
+  },
+  {
+    "title": "Number of Substrings Containing All Three Characters",
+    "slug": "number-of-substrings-containing-all-three-characters",
+    "difficulty": "Medium",
+    "acRate": 74.4
+  },
+  {
+    "title": "Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold",
+    "slug": "number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold",
+    "difficulty": "Medium",
+    "acRate": 73.8
+  },
+  {
+    "title": "Longest Subarray of 1's After Deleting One Element",
+    "slug": "longest-subarray-of-1s-after-deleting-one-element",
+    "difficulty": "Medium",
+    "acRate": 71.5
+  },
+  {
+    "title": "Maximize the Confusion of an Exam",
+    "slug": "maximize-the-confusion-of-an-exam",
+    "difficulty": "Medium",
+    "acRate": 70.4
+  },
+  {
+    "title": "Smallest Range Covering Elements from K Lists",
+    "slug": "smallest-range-covering-elements-from-k-lists",
+    "difficulty": "Hard",
+    "acRate": 70.3
+  },
+  {
+    "title": "Binary Subarrays With Sum",
+    "slug": "binary-subarrays-with-sum",
+    "difficulty": "Medium",
+    "acRate": 69.6
+  },
+  {
+    "title": "Alternating Groups I",
+    "slug": "alternating-groups-i",
+    "difficulty": "Easy",
+    "acRate": 69.4
+  },
+  {
+    "title": "Count Subarrays With Fixed Bounds",
+    "slug": "count-subarrays-with-fixed-bounds",
+    "difficulty": "Hard",
+    "acRate": 69.2
+  },
+  {
+    "title": "Minimum Recolors to Get K Consecutive Black Blocks",
+    "slug": "minimum-recolors-to-get-k-consecutive-black-blocks",
+    "difficulty": "Easy",
+    "acRate": 68.9
+  },
+  {
+    "title": "Subarrays with K Different Integers",
+    "slug": "subarrays-with-k-different-integers",
+    "difficulty": "Hard",
+    "acRate": 68.8
+  },
+  {
+    "title": "Max Consecutive Ones III",
+    "slug": "max-consecutive-ones-iii",
+    "difficulty": "Medium",
+    "acRate": 68.2
+  },
+  {
+    "title": "Number of Smooth Descent Periods of a Stock",
+    "slug": "number-of-smooth-descent-periods-of-a-stock",
+    "difficulty": "Medium",
+    "acRate": 67.7
+  },
+  {
+    "title": "Minimum Difference Between Highest and Lowest of K Scores",
+    "slug": "minimum-difference-between-highest-and-lowest-of-k-scores",
+    "difficulty": "Easy",
+    "acRate": 66.4
+  },
+  {
+    "title": "Maximum Length Substring With Two Occurrences",
+    "slug": "maximum-length-substring-with-two-occurrences",
+    "difficulty": "Easy",
+    "acRate": 66.1
+  },
+  {
+    "title": "Minimum Swaps to Group All 1's Together II",
+    "slug": "minimum-swaps-to-group-all-1s-together-ii",
+    "difficulty": "Medium",
+    "acRate": 65.7
+  },
+  {
+    "title": "Count the Number of Good Subarrays",
+    "slug": "count-the-number-of-good-subarrays",
+    "difficulty": "Medium",
+    "acRate": 65.7
+  },
+  {
+    "title": "Longest Harmonious Subsequence",
+    "slug": "longest-harmonious-subsequence",
+    "difficulty": "Easy",
+    "acRate": 65
+  },
+  {
+    "title": "Arithmetic Slices",
+    "slug": "arithmetic-slices",
+    "difficulty": "Medium",
+    "acRate": 64.9
+  },
+  {
+    "title": "Longest Nice Subarray",
+    "slug": "longest-nice-subarray",
+    "difficulty": "Medium",
+    "acRate": 64.8
+  },
+  {
+    "title": "Longest Nice Substring",
+    "slug": "longest-nice-substring",
+    "difficulty": "Easy",
+    "acRate": 64.6
+  },
+  {
+    "title": "Maximum Erasure Value",
+    "slug": "maximum-erasure-value",
+    "difficulty": "Medium",
+    "acRate": 64.4
+  },
+  {
+    "title": "Grumpy Bookstore Owner",
+    "slug": "grumpy-bookstore-owner",
+    "difficulty": "Medium",
+    "acRate": 64.1
+  },
+  {
+    "title": "Find the K-Beauty of a Number",
+    "slug": "find-the-k-beauty-of-a-number",
+    "difficulty": "Easy",
+    "acRate": 63.7
+  },
+  {
+    "title": "Maximum Number of Vowels in a Substring of Given Length",
+    "slug": "maximum-number-of-vowels-in-a-substring-of-given-length",
+    "difficulty": "Medium",
+    "acRate": 62.6
+  },
+  {
+    "title": "Minimum Number of K Consecutive Bit Flips",
+    "slug": "minimum-number-of-k-consecutive-bit-flips",
+    "difficulty": "Hard",
+    "acRate": 62.4
+  },
+  {
+    "title": "Count Subarrays Where Max Element Appears at Least K Times",
+    "slug": "count-subarrays-where-max-element-appears-at-least-k-times",
+    "difficulty": "Medium",
+    "acRate": 62.3
+  },
+  {
+    "title": "Count Subarrays With Score Less Than K",
+    "slug": "count-subarrays-with-score-less-than-k",
+    "difficulty": "Hard",
+    "acRate": 62.2
+  },
+  {
+    "title": "Find the Power of K-Size Subarrays I",
+    "slug": "find-the-power-of-k-size-subarrays-i",
+    "difficulty": "Medium",
+    "acRate": 62.1
+  },
+  {
+    "title": "Smallest Subarrays With Maximum Bitwise OR",
+    "slug": "smallest-subarrays-with-maximum-bitwise-or",
+    "difficulty": "Medium",
+    "acRate": 61.9
+  },
+  {
+    "title": "Find Longest Special Substring That Occurs Thrice I",
+    "slug": "find-longest-special-substring-that-occurs-thrice-i",
+    "difficulty": "Medium",
+    "acRate": 61.8
+  },
+  {
+    "title": "Maximize the Minimum Powered City",
+    "slug": "maximize-the-minimum-powered-city",
+    "difficulty": "Hard",
+    "acRate": 61.4
+  },
+  {
+    "title": "Maximum Sum of Two Non-Overlapping Subarrays",
+    "slug": "maximum-sum-of-two-non-overlapping-subarrays",
+    "difficulty": "Medium",
+    "acRate": 61.3
+  },
+  {
+    "title": "Maximum Fruits Harvested After at Most K Steps",
+    "slug": "maximum-fruits-harvested-after-at-most-k-steps",
+    "difficulty": "Hard",
+    "acRate": 61
+  },
+  {
+    "title": "Longest Repeating Character Replacement",
+    "slug": "longest-repeating-character-replacement",
+    "difficulty": "Medium",
+    "acRate": 60.4
+  },
+  {
+    "title": "Maximum Sum of 3 Non-Overlapping Subarrays",
+    "slug": "maximum-sum-of-3-non-overlapping-subarrays",
+    "difficulty": "Hard",
+    "acRate": 60
+  },
+  {
+    "title": "Get Equal Substrings Within Budget",
+    "slug": "get-equal-substrings-within-budget",
+    "difficulty": "Medium",
+    "acRate": 60
+  },
+  {
+    "title": "Alternating Groups II",
+    "slug": "alternating-groups-ii",
+    "difficulty": "Medium",
+    "acRate": 59.9
+  },
+  {
+    "title": "Best Time to Buy and Sell Stock using Strategy",
+    "slug": "best-time-to-buy-and-sell-stock-using-strategy",
+    "difficulty": "Medium",
+    "acRate": 59.7
+  },
+  {
+    "title": "Moving Stones Until Consecutive II",
+    "slug": "moving-stones-until-consecutive-ii",
+    "difficulty": "Medium",
+    "acRate": 59.4
+  },
+  {
+    "title": "Binary String With Substrings Representing 1 To N",
+    "slug": "binary-string-with-substrings-representing-1-to-n",
+    "difficulty": "Medium",
+    "acRate": 58.7
+  },
+  {
+    "title": "Count Partitions With Max-Min Difference at Most K",
+    "slug": "count-partitions-with-max-min-difference-at-most-k",
+    "difficulty": "Medium",
+    "acRate": 58.4
+  },
+  {
+    "title": "Maximum Beauty of an Array After Applying Operation",
+    "slug": "maximum-beauty-of-an-array-after-applying-operation",
+    "difficulty": "Medium",
+    "acRate": 58.3
+  },
+  {
+    "title": "Maximum Points You Can Obtain from Cards",
+    "slug": "maximum-points-you-can-obtain-from-cards",
+    "difficulty": "Medium",
+    "acRate": 58.2
+  },
+  {
+    "title": "Continuous Subarrays",
+    "slug": "continuous-subarrays",
+    "difficulty": "Medium",
+    "acRate": 58
+  },
+  {
+    "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
+    "slug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
+    "difficulty": "Medium",
+    "acRate": 57.9
+  },
+  {
+    "title": "Length of Longest Subarray With at Most K Frequency",
+    "slug": "length-of-longest-subarray-with-at-most-k-frequency",
+    "difficulty": "Medium",
+    "acRate": 56.8
+  },
+  {
+    "title": "Constrained Subsequence Sum",
+    "slug": "constrained-subsequence-sum",
+    "difficulty": "Hard",
+    "acRate": 56.5
+  },
+  {
+    "title": "Count Substrings That Can Be Rearranged to Contain a String II",
+    "slug": "count-substrings-that-can-be-rearranged-to-contain-a-string-ii",
+    "difficulty": "Hard",
+    "acRate": 56.4
+  },
+  {
+    "title": "Count Substrings With K-Frequency Characters I",
+    "slug": "count-substrings-with-k-frequency-characters-i",
+    "difficulty": "Medium",
+    "acRate": 55.9
+  },
+  {
+    "title": "Subarray Product Less Than K",
+    "slug": "subarray-product-less-than-k",
+    "difficulty": "Medium",
+    "acRate": 54.8
+  },
+  {
+    "title": "Maximum Number of Occurrences of a Substring",
+    "slug": "maximum-number-of-occurrences-of-a-substring",
+    "difficulty": "Medium",
+    "acRate": 54.8
+  },
+  {
+    "title": "Divide an Array Into Subarrays With Minimum Cost II",
+    "slug": "divide-an-array-into-subarrays-with-minimum-cost-ii",
+    "difficulty": "Hard",
+    "acRate": 54.4
+  },
+  {
+    "title": "Find All Anagrams in a String",
+    "slug": "find-all-anagrams-in-a-string",
+    "difficulty": "Medium",
+    "acRate": 54.3
+  },
+  {
+    "title": "Minimum Consecutive Cards to Pick Up",
+    "slug": "minimum-consecutive-cards-to-pick-up",
+    "difficulty": "Medium",
+    "acRate": 54
+  },
+  {
+    "title": "Reschedule Meetings for Maximum Free Time I",
+    "slug": "reschedule-meetings-for-maximum-free-time-i",
+    "difficulty": "Medium",
+    "acRate": 53.9
+  },
+  {
+    "title": "Repeated DNA Sequences",
+    "slug": "repeated-dna-sequences",
+    "difficulty": "Medium",
+    "acRate": 53.8
+  },
+  {
+    "title": "Minimum Number of Flips to Make the Binary String Alternating",
+    "slug": "minimum-number-of-flips-to-make-the-binary-string-alternating",
+    "difficulty": "Medium",
+    "acRate": 53.7
+  },
+  {
+    "title": "Maximum Frequency of an Element After Performing Operations II",
+    "slug": "maximum-frequency-of-an-element-after-performing-operations-ii",
+    "difficulty": "Hard",
+    "acRate": 53.6
+  },
+  {
+    "title": "Distinct Points Reachable After Substring Removal",
+    "slug": "distinct-points-reachable-after-substring-removal",
+    "difficulty": "Medium",
+    "acRate": 53.4
+  },
+  {
+    "title": "Minimum Size Subarray Sum",
+    "slug": "minimum-size-subarray-sum",
+    "difficulty": "Medium",
+    "acRate": 52.6
+  },
+  {
+    "title": "Longest Substring Of All Vowels in Order",
+    "slug": "longest-substring-of-all-vowels-in-order",
+    "difficulty": "Medium",
+    "acRate": 52.2
+  },
+  {
+    "title": "Fruit Into Baskets",
+    "slug": "fruit-into-baskets",
+    "difficulty": "Medium",
+    "acRate": 52.1
+  },
+  {
+    "title": "New 21 Game",
+    "slug": "new-21-game",
+    "difficulty": "Medium",
+    "acRate": 51.9
+  },
+  {
+    "title": "Contains Duplicate II",
+    "slug": "contains-duplicate-ii",
+    "difficulty": "Easy",
+    "acRate": 51.8
+  },
+  {
+    "title": "Minimum Number of Operations to Make Array Continuous",
+    "slug": "minimum-number-of-operations-to-make-array-continuous",
+    "difficulty": "Hard",
+    "acRate": 51.8
+  },
+  {
+    "title": "Maximum Length of Repeated Subarray",
+    "slug": "maximum-length-of-repeated-subarray",
+    "difficulty": "Medium",
+    "acRate": 51.5
+  },
+  {
+    "title": "Take K of Each Character From Left and Right",
+    "slug": "take-k-of-each-character-from-left-and-right",
+    "difficulty": "Medium",
+    "acRate": 51.5
+  },
+  {
+    "title": "Shortest Subarray With OR at Least K II",
+    "slug": "shortest-subarray-with-or-at-least-k-ii",
+    "difficulty": "Medium",
+    "acRate": 50.3
+  },
+  {
+    "title": "Find K Closest Elements",
+    "slug": "find-k-closest-elements",
+    "difficulty": "Medium",
+    "acRate": 50
+  },
+  {
+    "title": "Permutation in String",
+    "slug": "permutation-in-string",
+    "difficulty": "Medium",
+    "acRate": 49.5
+  },
+  {
+    "title": "Longest Turbulent Subarray",
+    "slug": "longest-turbulent-subarray",
+    "difficulty": "Medium",
+    "acRate": 49.4
+  },
+  {
+    "title": "Sliding Window Maximum",
+    "slug": "sliding-window-maximum",
+    "difficulty": "Hard",
+    "acRate": 49.1
+  },
+  {
+    "title": "Maximum Average Subarray I",
+    "slug": "maximum-average-subarray-i",
+    "difficulty": "Easy",
+    "acRate": 48.8
+  },
+  {
+    "title": "Maximum Difference Between Even and Odd Frequency II",
+    "slug": "maximum-difference-between-even-and-odd-frequency-ii",
+    "difficulty": "Hard",
+    "acRate": 48.6
+  },
+  {
+    "title": "Minimum Window Substring",
+    "slug": "minimum-window-substring",
+    "difficulty": "Hard",
+    "acRate": 48.2
+  },
+  {
+    "title": "Minimum Removals to Balance Array",
+    "slug": "minimum-removals-to-balance-array",
+    "difficulty": "Medium",
+    "acRate": 47.8
+  },
+  {
+    "title": "Maximum Subarray With Equal Products",
+    "slug": "maximum-subarray-with-equal-products",
+    "difficulty": "Easy",
+    "acRate": 47.3
+  },
+  {
+    "title": "Valid Subarrays With Matching Sum Digits I",
+    "slug": "valid-subarrays-with-matching-sum-digits-i",
+    "difficulty": "Medium",
+    "acRate": 46.6
+  },
+  {
+    "title": "Longest Substring with At Least K Repeating Characters",
+    "slug": "longest-substring-with-at-least-k-repeating-characters",
+    "difficulty": "Medium",
+    "acRate": 46.5
+  },
+  {
+    "title": "K Radius Subarray Averages",
+    "slug": "k-radius-subarray-averages",
+    "difficulty": "Medium",
+    "acRate": 46.4
+  },
+  {
+    "title": "Minimum Positive Sum Subarray ",
+    "slug": "minimum-positive-sum-subarray",
+    "difficulty": "Easy",
+    "acRate": 45.5
+  },
+  {
+    "title": "Max Value of Equation",
+    "slug": "max-value-of-equation",
+    "difficulty": "Hard",
+    "acRate": 45.2
+  },
+  {
+    "title": "Frequency of the Most Frequent Element",
+    "slug": "frequency-of-the-most-frequent-element",
+    "difficulty": "Medium",
+    "acRate": 45.1
+  },
+  {
+    "title": "Shortest Subarray With OR at Least K I",
+    "slug": "shortest-subarray-with-or-at-least-k-i",
+    "difficulty": "Easy",
+    "acRate": 45
+  },
+  {
+    "title": "Swap For Longest Repeated Character Substring",
+    "slug": "swap-for-longest-repeated-character-substring",
+    "difficulty": "Medium",
+    "acRate": 44.9
+  },
+  {
+    "title": "Count Substrings That Can Be Rearranged to Contain a String I",
+    "slug": "count-substrings-that-can-be-rearranged-to-contain-a-string-i",
+    "difficulty": "Medium",
+    "acRate": 43.5
+  },
+  {
+    "title": "Maximum Sum of Distinct Subarrays With Length K",
+    "slug": "maximum-sum-of-distinct-subarrays-with-length-k",
+    "difficulty": "Medium",
+    "acRate": 43.4
+  },
+  {
+    "title": "Minimum Inversion Count in Subarrays of Fixed Length",
+    "slug": "minimum-inversion-count-in-subarrays-of-fixed-length",
+    "difficulty": "Hard",
+    "acRate": 43
+  },
+  {
+    "title": "Minimum Adjacent Swaps for K Consecutive Ones",
+    "slug": "minimum-adjacent-swaps-for-k-consecutive-ones",
+    "difficulty": "Hard",
+    "acRate": 42.5
+  },
+  {
+    "title": "Count of Substrings Containing Every Vowel and K Consonants I",
+    "slug": "count-of-substrings-containing-every-vowel-and-k-consonants-i",
+    "difficulty": "Medium",
+    "acRate": 42.2
+  },
+  {
+    "title": "Maximum Sum of Almost Unique Subarray",
+    "slug": "maximum-sum-of-almost-unique-subarray",
+    "difficulty": "Medium",
+    "acRate": 41.6
+  },
+  {
+    "title": "Replace the Substring for Balanced String",
+    "slug": "replace-the-substring-for-balanced-string",
+    "difficulty": "Medium",
+    "acRate": 41.3
+  },
+  {
+    "title": "Shortest and Lexicographically Smallest Beautiful String",
+    "slug": "shortest-and-lexicographically-smallest-beautiful-string",
+    "difficulty": "Medium",
+    "acRate": 41.2
+  },
+  {
+    "title": "Find X-Sum of All K-Long Subarrays II",
+    "slug": "find-x-sum-of-all-k-long-subarrays-ii",
+    "difficulty": "Hard",
+    "acRate": 41.2
+  },
+  {
+    "title": "Minimum Operations to Reduce X to Zero",
+    "slug": "minimum-operations-to-reduce-x-to-zero",
+    "difficulty": "Medium",
+    "acRate": 40.8
+  },
+  {
+    "title": "Count of Substrings Containing Every Vowel and K Consonants II",
+    "slug": "count-of-substrings-containing-every-vowel-and-k-consonants-ii",
+    "difficulty": "Medium",
+    "acRate": 40.7
+  },
+  {
+    "title": "Maximum Frequency of an Element After Performing Operations I",
+    "slug": "maximum-frequency-of-an-element-after-performing-operations-i",
+    "difficulty": "Medium",
+    "acRate": 40.2
+  },
+  {
+    "title": "Longest Substring Without Repeating Characters",
+    "slug": "longest-substring-without-repeating-characters",
+    "difficulty": "Medium",
+    "acRate": 39.7
+  },
+  {
+    "title": "Apply Operations to Maximize Frequency Score",
+    "slug": "apply-operations-to-maximize-frequency-score",
+    "difficulty": "Hard",
+    "acRate": 39.7
+  },
+  {
+    "title": "Find Longest Special Substring That Occurs Thrice II",
+    "slug": "find-longest-special-substring-that-occurs-thrice-ii",
+    "difficulty": "Medium",
+    "acRate": 39.4
+  },
+  {
+    "title": "Find the Longest Semi-Repetitive Substring",
+    "slug": "find-the-longest-semi-repetitive-substring",
+    "difficulty": "Medium",
+    "acRate": 39.3
+  },
+  {
+    "title": "Sliding Window Median",
+    "slug": "sliding-window-median",
+    "difficulty": "Hard",
+    "acRate": 39.1
+  },
+  {
+    "title": "Maximum Number of Robots Within Budget",
+    "slug": "maximum-number-of-robots-within-budget",
+    "difficulty": "Hard",
+    "acRate": 39
+  },
+  {
+    "title": "Length of the Longest Valid Substring",
+    "slug": "length-of-the-longest-valid-substring",
+    "difficulty": "Hard",
+    "acRate": 38.6
+  },
+  {
+    "title": "Find the Longest Equal Subarray",
+    "slug": "find-the-longest-equal-subarray",
+    "difficulty": "Medium",
+    "acRate": 38.6
+  },
+  {
+    "title": "Maximum Number of Visible Points",
+    "slug": "maximum-number-of-visible-points",
+    "difficulty": "Hard",
+    "acRate": 38.4
+  },
+  {
+    "title": "Maximize Win From Two Segments",
+    "slug": "maximize-win-from-two-segments",
+    "difficulty": "Medium",
+    "acRate": 38.3
+  },
+  {
+    "title": "Sliding Subarray Beauty",
+    "slug": "sliding-subarray-beauty",
+    "difficulty": "Medium",
+    "acRate": 37.9
+  },
+  {
+    "title": "Find Two Non-overlapping Sub-arrays Each With Target Sum",
+    "slug": "find-two-non-overlapping-sub-arrays-each-with-target-sum",
+    "difficulty": "Medium",
+    "acRate": 37
+  },
+  {
+    "title": "Count Zero Request Servers",
+    "slug": "count-zero-request-servers",
+    "difficulty": "Medium",
+    "acRate": 36.4
+  },
+  {
+    "title": "Maximum White Tiles Covered by a Carpet",
+    "slug": "maximum-white-tiles-covered-by-a-carpet",
+    "difficulty": "Medium",
+    "acRate": 36.3
+  },
+  {
+    "title": "Jump Game VII",
+    "slug": "jump-game-vii",
+    "difficulty": "Medium",
+    "acRate": 35.6
+  },
+  {
+    "title": " Minimum Discards to Balance Inventory",
+    "slug": "minimum-discards-to-balance-inventory",
+    "difficulty": "Medium",
+    "acRate": 35.2
+  },
+  {
+    "title": "Substring with Concatenation of All Words",
+    "slug": "substring-with-concatenation-of-all-words",
+    "difficulty": "Hard",
+    "acRate": 35
+  },
+  {
+    "title": "Maximum Subarray XOR with Bounded Range",
+    "slug": "maximum-subarray-xor-with-bounded-range",
+    "difficulty": "Hard",
+    "acRate": 33.5
+  },
+  {
+    "title": "Shortest Subarray with Sum at Least K",
+    "slug": "shortest-subarray-with-sum-at-least-k",
+    "difficulty": "Hard",
+    "acRate": 33
+  },
+  {
+    "title": "Maximum Strong Pair XOR II",
+    "slug": "maximum-strong-pair-xor-ii",
+    "difficulty": "Hard",
+    "acRate": 32.8
+  },
+  {
+    "title": "Longest Even Odd Subarray With Threshold",
+    "slug": "longest-even-odd-subarray-with-threshold",
+    "difficulty": "Easy",
+    "acRate": 32.5
+  },
+  {
+    "title": "Minimum Size Subarray in Infinite Array",
+    "slug": "minimum-size-subarray-in-infinite-array",
+    "difficulty": "Medium",
+    "acRate": 32.3
+  },
+  {
+    "title": "Minimum Subarray Length With Distinct Sum At Least K",
+    "slug": "minimum-subarray-length-with-distinct-sum-at-least-k",
+    "difficulty": "Medium",
+    "acRate": 32
+  },
+  {
+    "title": "Find the Power of K-Size Subarrays II",
+    "slug": "find-the-power-of-k-size-subarrays-ii",
+    "difficulty": "Medium",
+    "acRate": 31.8
+  },
+  {
+    "title": "Longest Duplicate Substring",
+    "slug": "longest-duplicate-substring",
+    "difficulty": "Hard",
+    "acRate": 31.4
+  },
+  {
+    "title": "Count Complete Substrings",
+    "slug": "count-complete-substrings",
+    "difficulty": "Hard",
+    "acRate": 31.3
+  },
+  {
+    "title": "Find the Median of the Uniqueness Array",
+    "slug": "find-the-median-of-the-uniqueness-array",
+    "difficulty": "Hard",
+    "acRate": 30.6
+  },
+  {
+    "title": "Minimum Operations to Make Elements Within K Subarrays Equal",
+    "slug": "minimum-operations-to-make-elements-within-k-subarrays-equal",
+    "difficulty": "Hard",
+    "acRate": 29
+  },
+  {
+    "title": "Find Substring With Given Hash Value",
+    "slug": "find-substring-with-given-hash-value",
+    "difficulty": "Hard",
+    "acRate": 27
+  },
+  {
+    "title": "Maximum Sum of M Non-Overlapping Subarrays I",
+    "slug": "maximum-sum-of-m-non-overlapping-subarrays-i",
+    "difficulty": "Hard",
+    "acRate": 26.8
+  },
+  {
+    "title": "Maximum Coins From K Consecutive Bags",
+    "slug": "maximum-coins-from-k-consecutive-bags",
+    "difficulty": "Medium",
+    "acRate": 26.5
+  },
+  {
+    "title": "Count Non-Decreasing Subarrays After K Operations",
+    "slug": "count-non-decreasing-subarrays-after-k-operations",
+    "difficulty": "Hard",
+    "acRate": 25.3
+  },
+  {
+    "title": "Contains Duplicate III",
+    "slug": "contains-duplicate-iii",
+    "difficulty": "Hard",
+    "acRate": 25.1
+  },
+  {
+    "title": "Count Prime-Gap Balanced Subarrays",
+    "slug": "count-prime-gap-balanced-subarrays",
+    "difficulty": "Medium",
+    "acRate": 24.1
+  },
+  {
+    "title": "Count Substrings That Satisfy K-Constraint II",
+    "slug": "count-substrings-that-satisfy-k-constraint-ii",
+    "difficulty": "Hard",
+    "acRate": 23.6
+  },
+  {
+    "title": "Count of Sub-Multisets With Bounded Sum",
+    "slug": "count-of-sub-multisets-with-bounded-sum",
+    "difficulty": "Hard",
+    "acRate": 22.4
+  },
+  {
+    "title": "Minimum Moves to Pick K Ones",
+    "slug": "minimum-moves-to-pick-k-ones",
+    "difficulty": "Hard",
+    "acRate": 21.9
+  },
+  {
+    "title": "Count Subarrays With K Distinct Integers",
+    "slug": "count-subarrays-with-k-distinct-integers",
+    "difficulty": "Hard",
+    "acRate": 20.8
+  },
+  {
+    "title": "Maximum Sum of M Non-Overlapping Subarrays II",
+    "slug": "maximum-sum-of-m-non-overlapping-subarrays-ii",
+    "difficulty": "Hard",
+    "acRate": 16.8
+  }
+]

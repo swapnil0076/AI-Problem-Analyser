@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Airplane Seat Assignment Probability",
+    "slug": "airplane-seat-assignment-probability",
+    "difficulty": "Medium",
+    "acRate": 67.6
+  },
+  {
+    "title": "Probability of a Two Boxes Having The Same Number of Distinct Balls",
+    "slug": "probability-of-a-two-boxes-having-the-same-number-of-distinct-balls",
+    "difficulty": "Hard",
+    "acRate": 61.6
+  },
+  {
+    "title": "Soup Servings",
+    "slug": "soup-servings",
+    "difficulty": "Medium",
+    "acRate": 59.6
+  },
+  {
+    "title": "New 21 Game",
+    "slug": "new-21-game",
+    "difficulty": "Medium",
+    "acRate": 51.9
+  },
+  {
+    "title": "Implement Rand10() Using Rand7()",
+    "slug": "implement-rand10-using-rand7",
+    "difficulty": "Medium",
+    "acRate": 46.6
+  },
+  {
+    "title": "Statistics from a Large Sample",
+    "slug": "statistics-from-a-large-sample",
+    "difficulty": "Medium",
+    "acRate": 43.5
+  }
+]

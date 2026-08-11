@@ -1,0 +1,386 @@
+[
+  {
+    "title": "Merge Similar Items",
+    "slug": "merge-similar-items",
+    "difficulty": "Easy",
+    "acRate": 77.7
+  },
+  {
+    "title": "Display Table of Food Orders in a Restaurant",
+    "slug": "display-table-of-food-orders-in-a-restaurant",
+    "difficulty": "Medium",
+    "acRate": 76.5
+  },
+  {
+    "title": "My Calendar III",
+    "slug": "my-calendar-iii",
+    "difficulty": "Hard",
+    "acRate": 72.1
+  },
+  {
+    "title": "Smallest Number in Infinite Set",
+    "slug": "smallest-number-in-infinite-set",
+    "difficulty": "Medium",
+    "acRate": 70.7
+  },
+  {
+    "title": "Fruits Into Baskets II",
+    "slug": "fruits-into-baskets-ii",
+    "difficulty": "Easy",
+    "acRate": 70.3
+  },
+  {
+    "title": "Maximum Frequency Stack",
+    "slug": "maximum-frequency-stack",
+    "difficulty": "Hard",
+    "acRate": 67
+  },
+  {
+    "title": "Count Good Triplets in an Array",
+    "slug": "count-good-triplets-in-an-array",
+    "difficulty": "Hard",
+    "acRate": 65.3
+  },
+  {
+    "title": "Minimum Pair Removal to Sort Array I",
+    "slug": "minimum-pair-removal-to-sort-array-i",
+    "difficulty": "Easy",
+    "acRate": 65.3
+  },
+  {
+    "title": "My Calendar II",
+    "slug": "my-calendar-ii",
+    "difficulty": "Medium",
+    "acRate": 63.4
+  },
+  {
+    "title": "Design Movie Rental System",
+    "slug": "design-movie-rental-system",
+    "difficulty": "Hard",
+    "acRate": 62.2
+  },
+  {
+    "title": "Sequentially Ordinal Rank Tracker",
+    "slug": "sequentially-ordinal-rank-tracker",
+    "difficulty": "Hard",
+    "acRate": 61.3
+  },
+  {
+    "title": "Data Stream as Disjoint Intervals",
+    "slug": "data-stream-as-disjoint-intervals",
+    "difficulty": "Hard",
+    "acRate": 60.5
+  },
+  {
+    "title": "My Calendar I",
+    "slug": "my-calendar-i",
+    "difficulty": "Medium",
+    "acRate": 58.4
+  },
+  {
+    "title": "Number of Flowers in Full Bloom",
+    "slug": "number-of-flowers-in-full-bloom",
+    "difficulty": "Hard",
+    "acRate": 58.1
+  },
+  {
+    "title": "Continuous Subarrays",
+    "slug": "continuous-subarrays",
+    "difficulty": "Medium",
+    "acRate": 58
+  },
+  {
+    "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
+    "slug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
+    "difficulty": "Medium",
+    "acRate": 57.9
+  },
+  {
+    "title": "Design a Number Container System",
+    "slug": "design-a-number-container-system",
+    "difficulty": "Medium",
+    "acRate": 57.1
+  },
+  {
+    "title": "Rectangle Area II",
+    "slug": "rectangle-area-ii",
+    "difficulty": "Hard",
+    "acRate": 56.6
+  },
+  {
+    "title": "Power Grid Maintenance",
+    "slug": "power-grid-maintenance",
+    "difficulty": "Medium",
+    "acRate": 55.9
+  },
+  {
+    "title": "Longest Uploaded Prefix",
+    "slug": "longest-uploaded-prefix",
+    "difficulty": "Medium",
+    "acRate": 55.4
+  },
+  {
+    "title": "Minimize Deviation in Array",
+    "slug": "minimize-deviation-in-array",
+    "difficulty": "Hard",
+    "acRate": 54
+  },
+  {
+    "title": "Design a Food Rating System",
+    "slug": "design-a-food-rating-system",
+    "difficulty": "Medium",
+    "acRate": 52.9
+  },
+  {
+    "title": "Design Event Manager",
+    "slug": "design-event-manager",
+    "difficulty": "Medium",
+    "acRate": 50.9
+  },
+  {
+    "title": "Maximum Segment Sum After Removals",
+    "slug": "maximum-segment-sum-after-removals",
+    "difficulty": "Hard",
+    "acRate": 50.1
+  },
+  {
+    "title": "Stock Price Fluctuation ",
+    "slug": "stock-price-fluctuation",
+    "difficulty": "Medium",
+    "acRate": 49.2
+  },
+  {
+    "title": "Design Task Manager",
+    "slug": "design-task-manager",
+    "difficulty": "Medium",
+    "acRate": 48.7
+  },
+  {
+    "title": "Falling Squares",
+    "slug": "falling-squares",
+    "difficulty": "Hard",
+    "acRate": 48.5
+  },
+  {
+    "title": "Number of Pairs Satisfying Inequality",
+    "slug": "number-of-pairs-satisfying-inequality",
+    "difficulty": "Hard",
+    "acRate": 47.8
+  },
+  {
+    "title": "Tweet Counts Per Frequency",
+    "slug": "tweet-counts-per-frequency",
+    "difficulty": "Medium",
+    "acRate": 46.5
+  },
+  {
+    "title": "Max Sum of Rectangle No Larger Than K",
+    "slug": "max-sum-of-rectangle-no-larger-than-k",
+    "difficulty": "Hard",
+    "acRate": 45.9
+  },
+  {
+    "title": "The Skyline Problem",
+    "slug": "the-skyline-problem",
+    "difficulty": "Hard",
+    "acRate": 45.8
+  },
+  {
+    "title": "Find Servers That Handled Most Number of Requests",
+    "slug": "find-servers-that-handled-most-number-of-requests",
+    "difficulty": "Hard",
+    "acRate": 45.6
+  },
+  {
+    "title": "Range Module",
+    "slug": "range-module",
+    "difficulty": "Hard",
+    "acRate": 45.4
+  },
+  {
+    "title": "Minimum Operations to Equalize Binary String",
+    "slug": "minimum-operations-to-equalize-binary-string",
+    "difficulty": "Hard",
+    "acRate": 45.1
+  },
+  {
+    "title": "Count of Smaller Numbers After Self",
+    "slug": "count-of-smaller-numbers-after-self",
+    "difficulty": "Hard",
+    "acRate": 43.9
+  },
+  {
+    "title": "Exam Room",
+    "slug": "exam-room",
+    "difficulty": "Medium",
+    "acRate": 43.7
+  },
+  {
+    "title": "Most Frequent IDs",
+    "slug": "most-frequent-ids",
+    "difficulty": "Medium",
+    "acRate": 43
+  },
+  {
+    "title": "Create Sorted Array through Instructions",
+    "slug": "create-sorted-array-through-instructions",
+    "difficulty": "Hard",
+    "acRate": 42.2
+  },
+  {
+    "title": "Design Auction System",
+    "slug": "design-auction-system",
+    "difficulty": "Medium",
+    "acRate": 41.9
+  },
+  {
+    "title": "Closest Room",
+    "slug": "closest-room",
+    "difficulty": "Hard",
+    "acRate": 41.8
+  },
+  {
+    "title": "Odd Even Jump",
+    "slug": "odd-even-jump",
+    "difficulty": "Hard",
+    "acRate": 41.5
+  },
+  {
+    "title": "Block Placement Queries",
+    "slug": "block-placement-queries",
+    "difficulty": "Hard",
+    "acRate": 41.4
+  },
+  {
+    "title": "Random Point in Non-overlapping Rectangles",
+    "slug": "random-point-in-non-overlapping-rectangles",
+    "difficulty": "Medium",
+    "acRate": 40.4
+  },
+  {
+    "title": "Count of Range Sum",
+    "slug": "count-of-range-sum",
+    "difficulty": "Hard",
+    "acRate": 39.6
+  },
+  {
+    "title": "Fruits Into Baskets III",
+    "slug": "fruits-into-baskets-iii",
+    "difficulty": "Medium",
+    "acRate": 39.4
+  },
+  {
+    "title": "Implement Router",
+    "slug": "implement-router",
+    "difficulty": "Medium",
+    "acRate": 39
+  },
+  {
+    "title": "Finding MK Average",
+    "slug": "finding-mk-average",
+    "difficulty": "Hard",
+    "acRate": 38.9
+  },
+  {
+    "title": "Minimum Pair Removal to Sort Array II",
+    "slug": "minimum-pair-removal-to-sort-array-ii",
+    "difficulty": "Hard",
+    "acRate": 38.8
+  },
+  {
+    "title": "Minimum Absolute Difference Between Elements With Constraint",
+    "slug": "minimum-absolute-difference-between-elements-with-constraint",
+    "difficulty": "Medium",
+    "acRate": 38
+  },
+  {
+    "title": "Count Integers in Intervals",
+    "slug": "count-integers-in-intervals",
+    "difficulty": "Hard",
+    "acRate": 36.2
+  },
+  {
+    "title": "Longest Substring of One Repeating Character",
+    "slug": "longest-substring-of-one-repeating-character",
+    "difficulty": "Hard",
+    "acRate": 35.1
+  },
+  {
+    "title": "132 Pattern",
+    "slug": "132-pattern",
+    "difficulty": "Medium",
+    "acRate": 35
+  },
+  {
+    "title": "Reverse Pairs",
+    "slug": "reverse-pairs",
+    "difficulty": "Hard",
+    "acRate": 34.9
+  },
+  {
+    "title": "Minimum Absolute Sum Difference",
+    "slug": "minimum-absolute-sum-difference",
+    "difficulty": "Medium",
+    "acRate": 32.8
+  },
+  {
+    "title": "Minimize Manhattan Distances",
+    "slug": "minimize-manhattan-distances",
+    "difficulty": "Hard",
+    "acRate": 32.8
+  },
+  {
+    "title": "Maximum Strictly Increasing Cells in a Matrix",
+    "slug": "maximum-strictly-increasing-cells-in-a-matrix",
+    "difficulty": "Hard",
+    "acRate": 31.3
+  },
+  {
+    "title": "Kth Smallest Path XOR Sum",
+    "slug": "kth-smallest-path-xor-sum",
+    "difficulty": "Hard",
+    "acRate": 29.1
+  },
+  {
+    "title": "Make Array Empty",
+    "slug": "make-array-empty",
+    "difficulty": "Hard",
+    "acRate": 27.1
+  },
+  {
+    "title": "Shortest Distance After Road Addition Queries II",
+    "slug": "shortest-distance-after-road-addition-queries-ii",
+    "difficulty": "Hard",
+    "acRate": 26.8
+  },
+  {
+    "title": "Contains Duplicate III",
+    "slug": "contains-duplicate-iii",
+    "difficulty": "Hard",
+    "acRate": 25.1
+  },
+  {
+    "title": "Partition Array Into Two Arrays to Minimize Sum Difference",
+    "slug": "partition-array-into-two-arrays-to-minimize-sum-difference",
+    "difficulty": "Hard",
+    "acRate": 24.3
+  },
+  {
+    "title": "Alternating Groups III",
+    "slug": "alternating-groups-iii",
+    "difficulty": "Hard",
+    "acRate": 19.7
+  },
+  {
+    "title": "Maximize Count of Distinct Primes After Split",
+    "slug": "maximize-count-of-distinct-primes-after-split",
+    "difficulty": "Hard",
+    "acRate": 19.4
+  },
+  {
+    "title": "Minimum Reverse Operations",
+    "slug": "minimum-reverse-operations",
+    "difficulty": "Hard",
+    "acRate": 17.3
+  }
+]

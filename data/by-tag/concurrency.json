@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Fizz Buzz Multithreaded",
+    "slug": "fizz-buzz-multithreaded",
+    "difficulty": "Medium",
+    "acRate": 75.1
+  },
+  {
+    "title": "Print in Order",
+    "slug": "print-in-order",
+    "difficulty": "Easy",
+    "acRate": 73.3
+  },
+  {
+    "title": "Print FooBar Alternately",
+    "slug": "print-foobar-alternately",
+    "difficulty": "Medium",
+    "acRate": 73
+  },
+  {
+    "title": "Print Zero Even Odd",
+    "slug": "print-zero-even-odd",
+    "difficulty": "Medium",
+    "acRate": 66
+  },
+  {
+    "title": "Building H2O",
+    "slug": "building-h2o",
+    "difficulty": "Medium",
+    "acRate": 58.5
+  },
+  {
+    "title": "The Dining Philosophers",
+    "slug": "the-dining-philosophers",
+    "difficulty": "Medium",
+    "acRate": 54.1
+  }
+]

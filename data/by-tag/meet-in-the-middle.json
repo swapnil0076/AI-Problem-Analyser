@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Tallest Billboard",
+    "slug": "tallest-billboard",
+    "difficulty": "Hard",
+    "acRate": 51.9
+  },
+  {
+    "title": "Closest Subsequence Sum",
+    "slug": "closest-subsequence-sum",
+    "difficulty": "Hard",
+    "acRate": 44.7
+  },
+  {
+    "title": "Split Array With Same Average",
+    "slug": "split-array-with-same-average",
+    "difficulty": "Hard",
+    "acRate": 27.4
+  },
+  {
+    "title": "Partition Array Into Two Arrays to Minimize Sum Difference",
+    "slug": "partition-array-into-two-arrays-to-minimize-sum-difference",
+    "difficulty": "Hard",
+    "acRate": 24.3
+  }
+]

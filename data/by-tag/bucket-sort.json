@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Sort Characters By Frequency",
+    "slug": "sort-characters-by-frequency",
+    "difficulty": "Medium",
+    "acRate": 75.7
+  },
+  {
+    "title": "Top K Frequent Elements",
+    "slug": "top-k-frequent-elements",
+    "difficulty": "Medium",
+    "acRate": 67.1
+  },
+  {
+    "title": "Top K Frequent Words",
+    "slug": "top-k-frequent-words",
+    "difficulty": "Medium",
+    "acRate": 60.5
+  },
+  {
+    "title": "Sort an Array",
+    "slug": "sort-an-array",
+    "difficulty": "Medium",
+    "acRate": 55.8
+  },
+  {
+    "title": "Maximum Gap",
+    "slug": "maximum-gap",
+    "difficulty": "Medium",
+    "acRate": 52.8
+  },
+  {
+    "title": "Contains Duplicate III",
+    "slug": "contains-duplicate-iii",
+    "difficulty": "Hard",
+    "acRate": 25.1
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Stone Game",
+    "slug": "stone-game",
+    "difficulty": "Medium",
+    "acRate": 76.9
+  },
+  {
+    "title": "Stone Game II",
+    "slug": "stone-game-ii",
+    "difficulty": "Medium",
+    "acRate": 75.8
+  },
+  {
+    "title": "Swim in Rising Water",
+    "slug": "swim-in-rising-water",
+    "difficulty": "Hard",
+    "acRate": 68.2
+  },
+  {
+    "title": "Stone Game III",
+    "slug": "stone-game-iii",
+    "difficulty": "Hard",
+    "acRate": 67.9
+  },
+  {
+    "title": "Stone Game IV",
+    "slug": "stone-game-iv",
+    "difficulty": "Hard",
+    "acRate": 65.2
+  },
+  {
+    "title": "Stone Game VI",
+    "slug": "stone-game-vi",
+    "difficulty": "Medium",
+    "acRate": 61.4
+  },
+  {
+    "title": "Nim Game",
+    "slug": "nim-game",
+    "difficulty": "Easy",
+    "acRate": 60.3
+  },
+  {
+    "title": "Predict the Winner",
+    "slug": "predict-the-winner",
+    "difficulty": "Medium",
+    "acRate": 59.8
+  },
+  {
+    "title": "Stone Game VII",
+    "slug": "stone-game-vii",
+    "difficulty": "Medium",
+    "acRate": 59.1
+  },
+  {
+    "title": "Stone Game VIII",
+    "slug": "stone-game-viii",
+    "difficulty": "Hard",
+    "acRate": 54.4
+  },
+  {
+    "title": "Guess Number Higher or Lower II",
+    "slug": "guess-number-higher-or-lower-ii",
+    "difficulty": "Medium",
+    "acRate": 53.3
+  },
+  {
+    "title": "Cat and Mouse II",
+    "slug": "cat-and-mouse-ii",
+    "difficulty": "Hard",
+    "acRate": 40.3
+  },
+  {
+    "title": "Guess the Word",
+    "slug": "guess-the-word",
+    "difficulty": "Hard",
+    "acRate": 36.6
+  },
+  {
+    "title": "Cat and Mouse",
+    "slug": "cat-and-mouse",
+    "difficulty": "Hard",
+    "acRate": 35.8
+  },
+  {
+    "title": "Stone Game IX",
+    "slug": "stone-game-ix",
+    "difficulty": "Medium",
+    "acRate": 30.9
+  }
+]

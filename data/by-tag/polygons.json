@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Largest Triangle Area",
+    "slug": "largest-triangle-area",
+    "difficulty": "Easy",
+    "acRate": 72.1
+  },
+  {
+    "title": "Minimum Score Triangulation of Polygon",
+    "slug": "minimum-score-triangulation-of-polygon",
+    "difficulty": "Medium",
+    "acRate": 67.6
+  },
+  {
+    "title": "Find Polygon With the Largest Perimeter",
+    "slug": "find-polygon-with-the-largest-perimeter",
+    "difficulty": "Medium",
+    "acRate": 65.6
+  },
+  {
+    "title": "Largest Perimeter Triangle",
+    "slug": "largest-perimeter-triangle",
+    "difficulty": "Easy",
+    "acRate": 62.4
+  },
+  {
+    "title": "Erect the Fence",
+    "slug": "erect-the-fence",
+    "difficulty": "Hard",
+    "acRate": 53.3
+  },
+  {
+    "title": "Type of Triangle",
+    "slug": "type-of-triangle",
+    "difficulty": "Easy",
+    "acRate": 44
+  }
+]

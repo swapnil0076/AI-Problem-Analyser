@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Find the City With the Smallest Number of Neighbors at a Threshold Distance",
+    "slug": "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+    "difficulty": "Medium",
+    "acRate": 73.6
+  },
+  {
+    "title": "Minimum Cost to Make at Least One Valid Path in a Grid",
+    "slug": "minimum-cost-to-make-at-least-one-valid-path-in-a-grid",
+    "difficulty": "Hard",
+    "acRate": 71.1
+  },
+  {
+    "title": "Minimum Obstacle Removal to Reach Corner",
+    "slug": "minimum-obstacle-removal-to-reach-corner",
+    "difficulty": "Hard",
+    "acRate": 71
+  },
+  {
+    "title": "Swim in Rising Water",
+    "slug": "swim-in-rising-water",
+    "difficulty": "Hard",
+    "acRate": 68.2
+  },
+  {
+    "title": "Path with Maximum Probability",
+    "slug": "path-with-maximum-probability",
+    "difficulty": "Medium",
+    "acRate": 65.7
+  },
+  {
+    "title": "Path With Minimum Effort",
+    "slug": "path-with-minimum-effort",
+    "difficulty": "Medium",
+    "acRate": 63.9
+  },
+  {
+    "title": "Second Minimum Time to Reach Destination",
+    "slug": "second-minimum-time-to-reach-destination",
+    "difficulty": "Hard",
+    "acRate": 62.3
+  },
+  {
+    "title": "Network Delay Time",
+    "slug": "network-delay-time",
+    "difficulty": "Medium",
+    "acRate": 61.3
+  },
+  {
+    "title": "Reachable Nodes In Subdivided Graph",
+    "slug": "reachable-nodes-in-subdivided-graph",
+    "difficulty": "Hard",
+    "acRate": 52.7
+  },
+  {
+    "title": "Minimum Cost to Reach Destination in Time",
+    "slug": "minimum-cost-to-reach-destination-in-time",
+    "difficulty": "Hard",
+    "acRate": 42.2
+  },
+  {
+    "title": "Number of Restricted Paths From First to Last Node",
+    "slug": "number-of-restricted-paths-from-first-to-last-node",
+    "difficulty": "Medium",
+    "acRate": 41.7
+  },
+  {
+    "title": "Number of Ways to Arrive at Destination",
+    "slug": "number-of-ways-to-arrive-at-destination",
+    "difficulty": "Medium",
+    "acRate": 37.7
+  }
+]

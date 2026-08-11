@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Valid Arrangement of Pairs",
+    "slug": "valid-arrangement-of-pairs",
+    "difficulty": "Hard",
+    "acRate": 66.7
+  },
+  {
+    "title": "Cracking the Safe",
+    "slug": "cracking-the-safe",
+    "difficulty": "Hard",
+    "acRate": 58.6
+  },
+  {
+    "title": "Reconstruct Itinerary",
+    "slug": "reconstruct-itinerary",
+    "difficulty": "Hard",
+    "acRate": 44.9
+  }
+]

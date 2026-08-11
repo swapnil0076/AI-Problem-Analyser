@@ -1,0 +1,20 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.suo
+*.user
+
+# Node (if any tooling added later)
+node_modules/
+npm-debug.log*
+
+# Build output (if added later)
+dist/
+build/
+
+# Secrets — never commit raw keys
+*.env
+.env*

@@ -1,0 +1,94 @@
+{
+  "scrapedAt": "2026-08-11T18:38:51.602Z",
+  "totalProblems": 4018,
+  "freeProblems": 3240,
+  "paidOnlyProblems": 778,
+  "byDifficulty": {
+    "Easy": 829,
+    "Medium": 1638,
+    "Hard": 773
+  },
+  "tagCount": 172,
+  "topTags": [
+    {
+      "slug": "array",
+      "count": 1879
+    },
+    {
+      "slug": "string",
+      "count": 758
+    },
+    {
+      "slug": "hash-table",
+      "count": 701
+    },
+    {
+      "slug": "math",
+      "count": 598
+    },
+    {
+      "slug": "dynamic-programming",
+      "count": 584
+    },
+    {
+      "slug": "sorting",
+      "count": 453
+    },
+    {
+      "slug": "greedy",
+      "count": 421
+    },
+    {
+      "slug": "binary-search",
+      "count": 292
+    },
+    {
+      "slug": "depth-first-search",
+      "count": 262
+    },
+    {
+      "slug": "bit-manipulation",
+      "count": 259
+    },
+    {
+      "slug": "prefix-sum",
+      "count": 236
+    },
+    {
+      "slug": "matrix",
+      "count": 233
+    },
+    {
+      "slug": "two-pointers",
+      "count": 212
+    },
+    {
+      "slug": "breadth-first-search",
+      "count": 204
+    },
+    {
+      "slug": "tree",
+      "count": 198
+    },
+    {
+      "slug": "simulation",
+      "count": 193
+    },
+    {
+      "slug": "counting",
+      "count": 184
+    },
+    {
+      "slug": "heap-priority-queue",
+      "count": 183
+    },
+    {
+      "slug": "graph",
+      "count": 150
+    },
+    {
+      "slug": "stack",
+      "count": 147
+    }
+  ]
+}

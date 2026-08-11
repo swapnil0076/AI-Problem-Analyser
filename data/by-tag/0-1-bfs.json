@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Minimum Cost to Make at Least One Valid Path in a Grid",
+    "slug": "minimum-cost-to-make-at-least-one-valid-path-in-a-grid",
+    "difficulty": "Hard",
+    "acRate": 71.1
+  },
+  {
+    "title": "Minimum Obstacle Removal to Reach Corner",
+    "slug": "minimum-obstacle-removal-to-reach-corner",
+    "difficulty": "Hard",
+    "acRate": 71
+  }
+]

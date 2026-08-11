@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Lowest Common Ancestor of Deepest Leaves",
+    "slug": "lowest-common-ancestor-of-deepest-leaves",
+    "difficulty": "Medium",
+    "acRate": 79.5
+  },
+  {
+    "title": "Smallest Subtree with all the Deepest Nodes",
+    "slug": "smallest-subtree-with-all-the-deepest-nodes",
+    "difficulty": "Medium",
+    "acRate": 77.7
+  },
+  {
+    "title": "Lowest Common Ancestor of a Binary Search Tree",
+    "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+    "difficulty": "Medium",
+    "acRate": 71.2
+  },
+  {
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "slug": "lowest-common-ancestor-of-a-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 69.9
+  },
+  {
+    "title": "Cycle Length Queries in a Tree",
+    "slug": "cycle-length-queries-in-a-tree",
+    "difficulty": "Hard",
+    "acRate": 60.8
+  },
+  {
+    "title": "Step-By-Step Directions From a Binary Tree Node to Another",
+    "slug": "step-by-step-directions-from-a-binary-tree-node-to-another",
+    "difficulty": "Medium",
+    "acRate": 56.5
+  },
+  {
+    "title": "Kth Ancestor of a Tree Node",
+    "slug": "kth-ancestor-of-a-tree-node",
+    "difficulty": "Hard",
+    "acRate": 39.4
+  }
+]

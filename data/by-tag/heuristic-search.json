@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Sliding Puzzle",
+    "slug": "sliding-puzzle",
+    "difficulty": "Hard",
+    "acRate": 74.5
+  },
+  {
+    "title": "Race Car",
+    "slug": "race-car",
+    "difficulty": "Hard",
+    "acRate": 45
+  }
+]

@@ -1,0 +1,284 @@
+[
+  {
+    "title": "Reveal Cards In Increasing Order",
+    "slug": "reveal-cards-in-increasing-order",
+    "difficulty": "Medium",
+    "acRate": 83.8
+  },
+  {
+    "title": "Find the Winner of the Circular Game",
+    "slug": "find-the-winner-of-the-circular-game",
+    "difficulty": "Medium",
+    "acRate": 82.3
+  },
+  {
+    "title": "Minimum Operations to Make Binary Array Elements Equal to One I",
+    "slug": "minimum-operations-to-make-binary-array-elements-equal-to-one-i",
+    "difficulty": "Medium",
+    "acRate": 80.3
+  },
+  {
+    "title": "Number of Students Unable to Eat Lunch",
+    "slug": "number-of-students-unable-to-eat-lunch",
+    "difficulty": "Easy",
+    "acRate": 79.9
+  },
+  {
+    "title": "Number of Recent Calls",
+    "slug": "number-of-recent-calls",
+    "difficulty": "Easy",
+    "acRate": 78.9
+  },
+  {
+    "title": "Time Needed to Buy Tickets",
+    "slug": "time-needed-to-buy-tickets",
+    "difficulty": "Easy",
+    "acRate": 73.1
+  },
+  {
+    "title": "Implement Stack using Queues",
+    "slug": "implement-stack-using-queues",
+    "difficulty": "Easy",
+    "acRate": 70.5
+  },
+  {
+    "title": "Implement Queue using Stacks",
+    "slug": "implement-queue-using-stacks",
+    "difficulty": "Easy",
+    "acRate": 70.2
+  },
+  {
+    "title": "Count Subarrays With Fixed Bounds",
+    "slug": "count-subarrays-with-fixed-bounds",
+    "difficulty": "Hard",
+    "acRate": 69.2
+  },
+  {
+    "title": "First Unique Character in a String",
+    "slug": "first-unique-character-in-a-string",
+    "difficulty": "Easy",
+    "acRate": 66.1
+  },
+  {
+    "title": "Flatten Nested List Iterator",
+    "slug": "flatten-nested-list-iterator",
+    "difficulty": "Medium",
+    "acRate": 65.8
+  },
+  {
+    "title": "Design Circular Deque",
+    "slug": "design-circular-deque",
+    "difficulty": "Medium",
+    "acRate": 64.9
+  },
+  {
+    "title": "Design Ride Sharing System",
+    "slug": "design-ride-sharing-system",
+    "difficulty": "Medium",
+    "acRate": 63.4
+  },
+  {
+    "title": "Minimum Number of K Consecutive Bit Flips",
+    "slug": "minimum-number-of-k-consecutive-bit-flips",
+    "difficulty": "Hard",
+    "acRate": 62.4
+  },
+  {
+    "title": "Stamping The Sequence",
+    "slug": "stamping-the-sequence",
+    "difficulty": "Hard",
+    "acRate": 62.3
+  },
+  {
+    "title": "Maximize the Minimum Powered City",
+    "slug": "maximize-the-minimum-powered-city",
+    "difficulty": "Hard",
+    "acRate": 61.4
+  },
+  {
+    "title": "Number of People Aware of a Secret",
+    "slug": "number-of-people-aware-of-a-secret",
+    "difficulty": "Medium",
+    "acRate": 60.6
+  },
+  {
+    "title": "Design Front Middle Back Queue",
+    "slug": "design-front-middle-back-queue",
+    "difficulty": "Medium",
+    "acRate": 58.4
+  },
+  {
+    "title": "Count Partitions With Max-Min Difference at Most K",
+    "slug": "count-partitions-with-max-min-difference-at-most-k",
+    "difficulty": "Medium",
+    "acRate": 58.4
+  },
+  {
+    "title": "Continuous Subarrays",
+    "slug": "continuous-subarrays",
+    "difficulty": "Medium",
+    "acRate": 58
+  },
+  {
+    "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
+    "slug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
+    "difficulty": "Medium",
+    "acRate": 57.9
+  },
+  {
+    "title": "Lexicographically Maximum MEX Array",
+    "slug": "lexicographically-maximum-mex-array",
+    "difficulty": "Hard",
+    "acRate": 57.2
+  },
+  {
+    "title": "Constrained Subsequence Sum",
+    "slug": "constrained-subsequence-sum",
+    "difficulty": "Hard",
+    "acRate": 56.5
+  },
+  {
+    "title": "Design Circular Queue",
+    "slug": "design-circular-queue",
+    "difficulty": "Medium",
+    "acRate": 55.2
+  },
+  {
+    "title": "Find Consecutive Integers from a Data Stream",
+    "slug": "find-consecutive-integers-from-a-data-stream",
+    "difficulty": "Medium",
+    "acRate": 51.6
+  },
+  {
+    "title": "Maximum Sum Circular Subarray",
+    "slug": "maximum-sum-circular-subarray",
+    "difficulty": "Medium",
+    "acRate": 51.1
+  },
+  {
+    "title": "Dota2 Senate",
+    "slug": "dota2-senate",
+    "difficulty": "Medium",
+    "acRate": 50.3
+  },
+  {
+    "title": "Maximum Number of Tasks You Can Assign",
+    "slug": "maximum-number-of-tasks-you-can-assign",
+    "difficulty": "Hard",
+    "acRate": 50
+  },
+  {
+    "title": "Minimum Number of Coins for Fruits",
+    "slug": "minimum-number-of-coins-for-fruits",
+    "difficulty": "Medium",
+    "acRate": 49.2
+  },
+  {
+    "title": "Sliding Window Maximum",
+    "slug": "sliding-window-maximum",
+    "difficulty": "Hard",
+    "acRate": 49.1
+  },
+  {
+    "title": "Jump Game VI",
+    "slug": "jump-game-vi",
+    "difficulty": "Medium",
+    "acRate": 46.6
+  },
+  {
+    "title": "Count Subarrays With Cost Less Than or Equal to K",
+    "slug": "count-subarrays-with-cost-less-than-or-equal-to-k",
+    "difficulty": "Medium",
+    "acRate": 46.3
+  },
+  {
+    "title": "Max Value of Equation",
+    "slug": "max-value-of-equation",
+    "difficulty": "Hard",
+    "acRate": 45.2
+  },
+  {
+    "title": "Delivering Boxes from Storage to Ports",
+    "slug": "delivering-boxes-from-storage-to-ports",
+    "difficulty": "Hard",
+    "acRate": 40
+  },
+  {
+    "title": "Maximum Number of Robots Within Budget",
+    "slug": "maximum-number-of-robots-within-budget",
+    "difficulty": "Hard",
+    "acRate": 39
+  },
+  {
+    "title": "Implement Router",
+    "slug": "implement-router",
+    "difficulty": "Medium",
+    "acRate": 39
+  },
+  {
+    "title": "Finding MK Average",
+    "slug": "finding-mk-average",
+    "difficulty": "Hard",
+    "acRate": 38.9
+  },
+  {
+    "title": "Minimum Partition Score",
+    "slug": "minimum-partition-score",
+    "difficulty": "Hard",
+    "acRate": 33.9
+  },
+  {
+    "title": "Maximum Subarray XOR with Bounded Range",
+    "slug": "maximum-subarray-xor-with-bounded-range",
+    "difficulty": "Hard",
+    "acRate": 33.5
+  },
+  {
+    "title": "Shortest Subarray with Sum at Least K",
+    "slug": "shortest-subarray-with-sum-at-least-k",
+    "difficulty": "Hard",
+    "acRate": 33
+  },
+  {
+    "title": "Minimum Sum of Values by Dividing Array",
+    "slug": "minimum-sum-of-values-by-dividing-array",
+    "difficulty": "Hard",
+    "acRate": 28.1
+  },
+  {
+    "title": "Maximum Sum of M Non-Overlapping Subarrays I",
+    "slug": "maximum-sum-of-m-non-overlapping-subarrays-i",
+    "difficulty": "Hard",
+    "acRate": 26.8
+  },
+  {
+    "title": "Longest Increasing Subsequence II",
+    "slug": "longest-increasing-subsequence-ii",
+    "difficulty": "Hard",
+    "acRate": 26.5
+  },
+  {
+    "title": "Count Non-Decreasing Subarrays After K Operations",
+    "slug": "count-non-decreasing-subarrays-after-k-operations",
+    "difficulty": "Hard",
+    "acRate": 25.3
+  },
+  {
+    "title": "Count Prime-Gap Balanced Subarrays",
+    "slug": "count-prime-gap-balanced-subarrays",
+    "difficulty": "Medium",
+    "acRate": 24.1
+  },
+  {
+    "title": "Find Maximum Non-decreasing Array Length",
+    "slug": "find-maximum-non-decreasing-array-length",
+    "difficulty": "Hard",
+    "acRate": 19
+  },
+  {
+    "title": "Maximum Sum of M Non-Overlapping Subarrays II",
+    "slug": "maximum-sum-of-m-non-overlapping-subarrays-ii",
+    "difficulty": "Hard",
+    "acRate": 16.8
+  }
+]

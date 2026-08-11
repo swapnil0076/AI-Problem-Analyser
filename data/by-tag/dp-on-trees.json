@@ -1,0 +1,140 @@
+[
+  {
+    "title": "Lowest Common Ancestor of Deepest Leaves",
+    "slug": "lowest-common-ancestor-of-deepest-leaves",
+    "difficulty": "Medium",
+    "acRate": 79.5
+  },
+  {
+    "title": "Smallest Subtree with all the Deepest Nodes",
+    "slug": "smallest-subtree-with-all-the-deepest-nodes",
+    "difficulty": "Medium",
+    "acRate": 77.7
+  },
+  {
+    "title": "Distribute Coins in Binary Tree",
+    "slug": "distribute-coins-in-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 77.3
+  },
+  {
+    "title": "Number of Good Leaf Nodes Pairs",
+    "slug": "number-of-good-leaf-nodes-pairs",
+    "difficulty": "Medium",
+    "acRate": 71.8
+  },
+  {
+    "title": "Most Frequent Subtree Sum",
+    "slug": "most-frequent-subtree-sum",
+    "difficulty": "Medium",
+    "acRate": 69.6
+  },
+  {
+    "title": "Longest ZigZag Path in a Binary Tree",
+    "slug": "longest-zigzag-path-in-a-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 67.3
+  },
+  {
+    "title": "Binary Tree Tilt",
+    "slug": "binary-tree-tilt",
+    "difficulty": "Easy",
+    "acRate": 66.3
+  },
+  {
+    "title": "Diameter of Binary Tree",
+    "slug": "diameter-of-binary-tree",
+    "difficulty": "Easy",
+    "acRate": 66.1
+  },
+  {
+    "title": "Sum of Distances in Tree",
+    "slug": "sum-of-distances-in-tree",
+    "difficulty": "Hard",
+    "acRate": 65.7
+  },
+  {
+    "title": "Minimum Time to Collect All Apples in a Tree",
+    "slug": "minimum-time-to-collect-all-apples-in-a-tree",
+    "difficulty": "Medium",
+    "acRate": 63.8
+  },
+  {
+    "title": "House Robber III",
+    "slug": "house-robber-iii",
+    "difficulty": "Medium",
+    "acRate": 56.2
+  },
+  {
+    "title": "Number of Nodes in the Sub-Tree With the Same Label",
+    "slug": "number-of-nodes-in-the-sub-tree-with-the-same-label",
+    "difficulty": "Medium",
+    "acRate": 55.6
+  },
+  {
+    "title": "Count Nodes With the Highest Score",
+    "slug": "count-nodes-with-the-highest-score",
+    "difficulty": "Medium",
+    "acRate": 52.8
+  },
+  {
+    "title": "Count Ways to Build Rooms in an Ant Colony",
+    "slug": "count-ways-to-build-rooms-in-an-ant-colony",
+    "difficulty": "Hard",
+    "acRate": 51.9
+  },
+  {
+    "title": "Maximum Sum BST in Binary Tree",
+    "slug": "maximum-sum-bst-in-binary-tree",
+    "difficulty": "Hard",
+    "acRate": 48.6
+  },
+  {
+    "title": "Binary Tree Cameras",
+    "slug": "binary-tree-cameras",
+    "difficulty": "Hard",
+    "acRate": 48.1
+  },
+  {
+    "title": "Maximum Score After Applying Operations on a Tree",
+    "slug": "maximum-score-after-applying-operations-on-a-tree",
+    "difficulty": "Medium",
+    "acRate": 47.6
+  },
+  {
+    "title": "Longest Univalue Path",
+    "slug": "longest-univalue-path",
+    "difficulty": "Medium",
+    "acRate": 44.3
+  },
+  {
+    "title": "Binary Tree Maximum Path Sum",
+    "slug": "binary-tree-maximum-path-sum",
+    "difficulty": "Hard",
+    "acRate": 42.6
+  },
+  {
+    "title": "Find Number of Coins to Place in Tree Nodes",
+    "slug": "find-number-of-coins-to-place-in-tree-nodes",
+    "difficulty": "Hard",
+    "acRate": 37.2
+  },
+  {
+    "title": "Maximum Points After Collecting Coins From All Nodes",
+    "slug": "maximum-points-after-collecting-coins-from-all-nodes",
+    "difficulty": "Hard",
+    "acRate": 36.6
+  },
+  {
+    "title": "Difference Between Maximum and Minimum Price Sum",
+    "slug": "difference-between-maximum-and-minimum-price-sum",
+    "difficulty": "Hard",
+    "acRate": 34.1
+  },
+  {
+    "title": "Time Taken to Mark All Nodes",
+    "slug": "time-taken-to-mark-all-nodes",
+    "difficulty": "Hard",
+    "acRate": 29.1
+  }
+]

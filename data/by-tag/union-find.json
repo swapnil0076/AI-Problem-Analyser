@@ -1,0 +1,494 @@
+[
+  {
+    "title": "Lexicographically Smallest Equivalent String",
+    "slug": "lexicographically-smallest-equivalent-string",
+    "difficulty": "Medium",
+    "acRate": 81.1
+  },
+  {
+    "title": "Count the Number of Complete Components",
+    "slug": "count-the-number-of-complete-components",
+    "difficulty": "Medium",
+    "acRate": 80.8
+  },
+  {
+    "title": "Regions Cut By Slashes",
+    "slug": "regions-cut-by-slashes",
+    "difficulty": "Medium",
+    "acRate": 77.5
+  },
+  {
+    "title": "Max Area of Island",
+    "slug": "max-area-of-island",
+    "difficulty": "Medium",
+    "acRate": 74.2
+  },
+  {
+    "title": "Count Servers that Communicate",
+    "slug": "count-servers-that-communicate",
+    "difficulty": "Medium",
+    "acRate": 73.6
+  },
+  {
+    "title": "Count Sub Islands",
+    "slug": "count-sub-islands",
+    "difficulty": "Medium",
+    "acRate": 73.1
+  },
+  {
+    "title": "Number of Enclaves",
+    "slug": "number-of-enclaves",
+    "difficulty": "Medium",
+    "acRate": 72.2
+  },
+  {
+    "title": "Min Cost to Connect All Points",
+    "slug": "min-cost-to-connect-all-points",
+    "difficulty": "Medium",
+    "acRate": 71.5
+  },
+  {
+    "title": "Number of Provinces",
+    "slug": "number-of-provinces",
+    "difficulty": "Medium",
+    "acRate": 70.9
+  },
+  {
+    "title": "Maximum Number of Fish in a Grid",
+    "slug": "maximum-number-of-fish-in-a-grid",
+    "difficulty": "Medium",
+    "acRate": 70.4
+  },
+  {
+    "title": "Path Existence Queries in a Graph I",
+    "slug": "path-existence-queries-in-a-graph-i",
+    "difficulty": "Medium",
+    "acRate": 70.2
+  },
+  {
+    "title": "Remove Max Number of Edges to Keep Graph Fully Traversable",
+    "slug": "remove-max-number-of-edges-to-keep-graph-fully-traversable",
+    "difficulty": "Hard",
+    "acRate": 70.1
+  },
+  {
+    "title": "Minimize Hamming Distance After Swap Operations",
+    "slug": "minimize-hamming-distance-after-swap-operations",
+    "difficulty": "Medium",
+    "acRate": 69.6
+  },
+  {
+    "title": "Last Day Where You Can Still Cross",
+    "slug": "last-day-where-you-can-still-cross",
+    "difficulty": "Hard",
+    "acRate": 68.7
+  },
+  {
+    "title": "Swim in Rising Water",
+    "slug": "swim-in-rising-water",
+    "difficulty": "Hard",
+    "acRate": 68.2
+  },
+  {
+    "title": "Redundant Connection",
+    "slug": "redundant-connection",
+    "difficulty": "Medium",
+    "acRate": 68.1
+  },
+  {
+    "title": "Minimum Cost Walk in Weighted Graph",
+    "slug": "minimum-cost-walk-in-weighted-graph",
+    "difficulty": "Hard",
+    "acRate": 68
+  },
+  {
+    "title": "Number of Closed Islands",
+    "slug": "number-of-closed-islands",
+    "difficulty": "Medium",
+    "acRate": 67.2
+  },
+  {
+    "title": "Number of Operations to Make Network Connected",
+    "slug": "number-of-operations-to-make-network-connected",
+    "difficulty": "Medium",
+    "acRate": 67.1
+  },
+  {
+    "title": "Divide Nodes Into the Maximum Number of Groups",
+    "slug": "divide-nodes-into-the-maximum-number-of-groups",
+    "difficulty": "Hard",
+    "acRate": 66.9
+  },
+  {
+    "title": "Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree",
+    "slug": "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree",
+    "difficulty": "Hard",
+    "acRate": 66.7
+  },
+  {
+    "title": "Minimum Score of a Path Between Two Cities",
+    "slug": "minimum-score-of-a-path-between-two-cities",
+    "difficulty": "Medium",
+    "acRate": 66.2
+  },
+  {
+    "title": "Maximize Spanning Tree Stability with Upgrades",
+    "slug": "maximize-spanning-tree-stability-with-upgrades",
+    "difficulty": "Hard",
+    "acRate": 65.8
+  },
+  {
+    "title": "Number of Islands",
+    "slug": "number-of-islands",
+    "difficulty": "Medium",
+    "acRate": 64.9
+  },
+  {
+    "title": "Evaluate Division",
+    "slug": "evaluate-division",
+    "difficulty": "Medium",
+    "acRate": 64.5
+  },
+  {
+    "title": "Check if There is a Valid Path in a Grid",
+    "slug": "check-if-there-is-a-valid-path-in-a-grid",
+    "difficulty": "Medium",
+    "acRate": 64.5
+  },
+  {
+    "title": "Path With Minimum Effort",
+    "slug": "path-with-minimum-effort",
+    "difficulty": "Medium",
+    "acRate": 63.9
+  },
+  {
+    "title": "Checking Existence of Edge Length Limited Paths",
+    "slug": "checking-existence-of-edge-length-limited-paths",
+    "difficulty": "Hard",
+    "acRate": 63.6
+  },
+  {
+    "title": "Detect Cycles in 2D Grid",
+    "slug": "detect-cycles-in-2d-grid",
+    "difficulty": "Medium",
+    "acRate": 63.5
+  },
+  {
+    "title": "Most Stones Removed with Same Row or Column",
+    "slug": "most-stones-removed-with-same-row-or-column",
+    "difficulty": "Medium",
+    "acRate": 63.4
+  },
+  {
+    "title": "Find the String with LCP",
+    "slug": "find-the-string-with-lcp",
+    "difficulty": "Hard",
+    "acRate": 63.1
+  },
+  {
+    "title": "Maximize Alternating Sum Using Swaps",
+    "slug": "maximize-alternating-sum-using-swaps",
+    "difficulty": "Hard",
+    "acRate": 62.5
+  },
+  {
+    "title": "Count Connected Subgraphs with Even Node Sum",
+    "slug": "count-connected-subgraphs-with-even-node-sum",
+    "difficulty": "Hard",
+    "acRate": 62.3
+  },
+  {
+    "title": "Accounts Merge",
+    "slug": "accounts-merge",
+    "difficulty": "Medium",
+    "acRate": 61.9
+  },
+  {
+    "title": "Process Restricted Friend Requests",
+    "slug": "process-restricted-friend-requests",
+    "difficulty": "Hard",
+    "acRate": 61.4
+  },
+  {
+    "title": "Smallest String With Swaps",
+    "slug": "smallest-string-with-swaps",
+    "difficulty": "Medium",
+    "acRate": 60.9
+  },
+  {
+    "title": "Reachable Nodes With Restrictions",
+    "slug": "reachable-nodes-with-restrictions",
+    "difficulty": "Medium",
+    "acRate": 60.7
+  },
+  {
+    "title": "Data Stream as Disjoint Intervals",
+    "slug": "data-stream-as-disjoint-intervals",
+    "difficulty": "Hard",
+    "acRate": 60.5
+  },
+  {
+    "title": "Make Lexicographically Smallest Array by Swapping Elements",
+    "slug": "make-lexicographically-smallest-array-by-swapping-elements",
+    "difficulty": "Medium",
+    "acRate": 60.1
+  },
+  {
+    "title": "Is Graph Bipartite?",
+    "slug": "is-graph-bipartite",
+    "difficulty": "Medium",
+    "acRate": 59.7
+  },
+  {
+    "title": "Couples Holding Hands",
+    "slug": "couples-holding-hands",
+    "difficulty": "Hard",
+    "acRate": 59.6
+  },
+  {
+    "title": "Maximum Number of Points From Grid Queries",
+    "slug": "maximum-number-of-points-from-grid-queries",
+    "difficulty": "Hard",
+    "acRate": 59.2
+  },
+  {
+    "title": "Find the Safest Path in a Grid",
+    "slug": "find-the-safest-path-in-a-grid",
+    "difficulty": "Medium",
+    "acRate": 57.3
+  },
+  {
+    "title": "Making A Large Island",
+    "slug": "making-a-large-island",
+    "difficulty": "Hard",
+    "acRate": 57.1
+  },
+  {
+    "title": "Similar String Groups",
+    "slug": "similar-string-groups",
+    "difficulty": "Hard",
+    "acRate": 56.5
+  },
+  {
+    "title": "Number of Good Paths",
+    "slug": "number-of-good-paths",
+    "difficulty": "Hard",
+    "acRate": 56.5
+  },
+  {
+    "title": "Power Grid Maintenance",
+    "slug": "power-grid-maintenance",
+    "difficulty": "Medium",
+    "acRate": 55.9
+  },
+  {
+    "title": "Find if Path Exists in Graph",
+    "slug": "find-if-path-exists-in-graph",
+    "difficulty": "Easy",
+    "acRate": 55.7
+  },
+  {
+    "title": "Count Islands With Total Value Divisible by K",
+    "slug": "count-islands-with-total-value-divisible-by-k",
+    "difficulty": "Medium",
+    "acRate": 55.5
+  },
+  {
+    "title": "Longest Uploaded Prefix",
+    "slug": "longest-uploaded-prefix",
+    "difficulty": "Medium",
+    "acRate": 55.4
+  },
+  {
+    "title": "Number of Ways to Reorder Array to Get Same BST",
+    "slug": "number-of-ways-to-reorder-array-to-get-same-bst",
+    "difficulty": "Hard",
+    "acRate": 54.2
+  },
+  {
+    "title": "Possible Bipartition",
+    "slug": "possible-bipartition",
+    "difficulty": "Medium",
+    "acRate": 52.9
+  },
+  {
+    "title": "Satisfiability of Equality Equations",
+    "slug": "satisfiability-of-equality-equations",
+    "difficulty": "Medium",
+    "acRate": 52.1
+  },
+  {
+    "title": "Incremental Even-Weighted Cycle Queries",
+    "slug": "incremental-even-weighted-cycle-queries",
+    "difficulty": "Hard",
+    "acRate": 52
+  },
+  {
+    "title": "GCD Sort of an Array",
+    "slug": "gcd-sort-of-an-array",
+    "difficulty": "Hard",
+    "acRate": 50.7
+  },
+  {
+    "title": "Count Unreachable Pairs of Nodes in an Undirected Graph",
+    "slug": "count-unreachable-pairs-of-nodes-in-an-undirected-graph",
+    "difficulty": "Medium",
+    "acRate": 50.2
+  },
+  {
+    "title": "Maximum Segment Sum After Removals",
+    "slug": "maximum-segment-sum-after-removals",
+    "difficulty": "Hard",
+    "acRate": 50.1
+  },
+  {
+    "title": "Graph Connectivity With Threshold",
+    "slug": "graph-connectivity-with-threshold",
+    "difficulty": "Hard",
+    "acRate": 49.9
+  },
+  {
+    "title": "Properties Graph",
+    "slug": "properties-graph",
+    "difficulty": "Medium",
+    "acRate": 48.6
+  },
+  {
+    "title": "Find All People With Secret",
+    "slug": "find-all-people-with-secret",
+    "difficulty": "Hard",
+    "acRate": 48.4
+  },
+  {
+    "title": "Smallest Missing Genetic Value in Each Subtree",
+    "slug": "smallest-missing-genetic-value-in-each-subtree",
+    "difficulty": "Hard",
+    "acRate": 48.3
+  },
+  {
+    "title": "Longest Consecutive Sequence",
+    "slug": "longest-consecutive-sequence",
+    "difficulty": "Medium",
+    "acRate": 47.2
+  },
+  {
+    "title": "Surrounded Regions",
+    "slug": "surrounded-regions",
+    "difficulty": "Medium",
+    "acRate": 46
+  },
+  {
+    "title": "Minimize Malware Spread II",
+    "slug": "minimize-malware-spread-ii",
+    "difficulty": "Hard",
+    "acRate": 46
+  },
+  {
+    "title": "Subarray With Elements Greater Than Varying Threshold",
+    "slug": "subarray-with-elements-greater-than-varying-threshold",
+    "difficulty": "Hard",
+    "acRate": 45.9
+  },
+  {
+    "title": "Minimum Time for K Connected Components",
+    "slug": "minimum-time-for-k-connected-components",
+    "difficulty": "Medium",
+    "acRate": 45.2
+  },
+  {
+    "title": "Minimum Operations to Equalize Binary String",
+    "slug": "minimum-operations-to-equalize-binary-string",
+    "difficulty": "Hard",
+    "acRate": 45.1
+  },
+  {
+    "title": "Maximum Points Activated with One Addition",
+    "slug": "maximum-points-activated-with-one-addition",
+    "difficulty": "Hard",
+    "acRate": 44.8
+  },
+  {
+    "title": "Validate Binary Tree Nodes",
+    "slug": "validate-binary-tree-nodes",
+    "difficulty": "Medium",
+    "acRate": 44.2
+  },
+  {
+    "title": "Largest Component Size by Common Factor",
+    "slug": "largest-component-size-by-common-factor",
+    "difficulty": "Hard",
+    "acRate": 43.7
+  },
+  {
+    "title": "Minimize Malware Spread",
+    "slug": "minimize-malware-spread",
+    "difficulty": "Hard",
+    "acRate": 43.4
+  },
+  {
+    "title": "Minimize Maximum Component Cost",
+    "slug": "minimize-maximum-component-cost",
+    "difficulty": "Medium",
+    "acRate": 43.3
+  },
+  {
+    "title": "Rank Transform of a Matrix",
+    "slug": "rank-transform-of-a-matrix",
+    "difficulty": "Hard",
+    "acRate": 42.5
+  },
+  {
+    "title": "Greatest Common Divisor Traversal",
+    "slug": "greatest-common-divisor-traversal",
+    "difficulty": "Hard",
+    "acRate": 41.6
+  },
+  {
+    "title": "Bricks Falling When Hit",
+    "slug": "bricks-falling-when-hit",
+    "difficulty": "Hard",
+    "acRate": 37.7
+  },
+  {
+    "title": "Redundant Connection II",
+    "slug": "redundant-connection-ii",
+    "difficulty": "Hard",
+    "acRate": 36.5
+  },
+  {
+    "title": "Maximum Partition Factor",
+    "slug": "maximum-partition-factor",
+    "difficulty": "Hard",
+    "acRate": 32.3
+  },
+  {
+    "title": "Count Connected Components in LCM Graph",
+    "slug": "count-connected-components-in-lcm-graph",
+    "difficulty": "Hard",
+    "acRate": 31.7
+  },
+  {
+    "title": "Groups of Strings",
+    "slug": "groups-of-strings",
+    "difficulty": "Hard",
+    "acRate": 28.2
+  },
+  {
+    "title": "Check if the Rectangle Corner Is Reachable",
+    "slug": "check-if-the-rectangle-corner-is-reachable",
+    "difficulty": "Hard",
+    "acRate": 25.2
+  },
+  {
+    "title": "Minimum Number of Visited Cells in a Grid",
+    "slug": "minimum-number-of-visited-cells-in-a-grid",
+    "difficulty": "Hard",
+    "acRate": 24.1
+  },
+  {
+    "title": "Minimum Reverse Operations",
+    "slug": "minimum-reverse-operations",
+    "difficulty": "Hard",
+    "acRate": 17.3
+  }
+]

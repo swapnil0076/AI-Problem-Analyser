@@ -1,0 +1,254 @@
+[
+  {
+    "title": "All Possible Full Binary Trees",
+    "slug": "all-possible-full-binary-trees",
+    "difficulty": "Medium",
+    "acRate": 82.8
+  },
+  {
+    "title": "Find the Winner of the Circular Game",
+    "slug": "find-the-winner-of-the-circular-game",
+    "difficulty": "Medium",
+    "acRate": 82.3
+  },
+  {
+    "title": "Find the K-th Character in String Game I",
+    "slug": "find-the-k-th-character-in-string-game-i",
+    "difficulty": "Easy",
+    "acRate": 81.6
+  },
+  {
+    "title": "Reverse Linked List",
+    "slug": "reverse-linked-list",
+    "difficulty": "Easy",
+    "acRate": 80.9
+  },
+  {
+    "title": "Finding 3-Digit Even Numbers",
+    "slug": "finding-3-digit-even-numbers",
+    "difficulty": "Easy",
+    "acRate": 78.6
+  },
+  {
+    "title": "Minimum One Bit Operations to Make Integers Zero",
+    "slug": "minimum-one-bit-operations-to-make-integers-zero",
+    "difficulty": "Hard",
+    "acRate": 78.2
+  },
+  {
+    "title": "Remove Nodes From Linked List",
+    "slug": "remove-nodes-from-linked-list",
+    "difficulty": "Medium",
+    "acRate": 75.2
+  },
+  {
+    "title": "Fibonacci Number",
+    "slug": "fibonacci-number",
+    "difficulty": "Easy",
+    "acRate": 74.5
+  },
+  {
+    "title": "Find Kth Bit in Nth Binary String",
+    "slug": "find-kth-bit-in-nth-binary-string",
+    "difficulty": "Medium",
+    "acRate": 73.7
+  },
+  {
+    "title": "Different Ways to Add Parentheses",
+    "slug": "different-ways-to-add-parentheses",
+    "difficulty": "Medium",
+    "acRate": 73.5
+  },
+  {
+    "title": "Unique 3-Digit Even Numbers",
+    "slug": "unique-3-digit-even-numbers",
+    "difficulty": "Easy",
+    "acRate": 70.4
+  },
+  {
+    "title": "Swap Nodes in Pairs",
+    "slug": "swap-nodes-in-pairs",
+    "difficulty": "Medium",
+    "acRate": 70.1
+  },
+  {
+    "title": "Parsing A Boolean Expression",
+    "slug": "parsing-a-boolean-expression",
+    "difficulty": "Hard",
+    "acRate": 69.8
+  },
+  {
+    "title": "Merge Two Sorted Lists",
+    "slug": "merge-two-sorted-lists",
+    "difficulty": "Easy",
+    "acRate": 68.7
+  },
+  {
+    "title": "Reverse Nodes in k-Group",
+    "slug": "reverse-nodes-in-k-group",
+    "difficulty": "Hard",
+    "acRate": 66.9
+  },
+  {
+    "title": "Reorder List",
+    "slug": "reorder-list",
+    "difficulty": "Medium",
+    "acRate": 66
+  },
+  {
+    "title": "Decode String",
+    "slug": "decode-string",
+    "difficulty": "Medium",
+    "acRate": 63.1
+  },
+  {
+    "title": "Predict the Winner",
+    "slug": "predict-the-winner",
+    "difficulty": "Medium",
+    "acRate": 59.8
+  },
+  {
+    "title": "Palindrome Linked List",
+    "slug": "palindrome-linked-list",
+    "difficulty": "Easy",
+    "acRate": 58.6
+  },
+  {
+    "title": "Count Good Numbers",
+    "slug": "count-good-numbers",
+    "difficulty": "Medium",
+    "acRate": 58
+  },
+  {
+    "title": "Remove Linked List Elements",
+    "slug": "remove-linked-list-elements",
+    "difficulty": "Easy",
+    "acRate": 55.2
+  },
+  {
+    "title": "Permutation Sequence",
+    "slug": "permutation-sequence",
+    "difficulty": "Hard",
+    "acRate": 54
+  },
+  {
+    "title": "Parse Lisp Expression",
+    "slug": "parse-lisp-expression",
+    "difficulty": "Hard",
+    "acRate": 53.9
+  },
+  {
+    "title": "Power of Four",
+    "slug": "power-of-four",
+    "difficulty": "Easy",
+    "acRate": 52.5
+  },
+  {
+    "title": "Power of Three",
+    "slug": "power-of-three",
+    "difficulty": "Easy",
+    "acRate": 51.4
+  },
+  {
+    "title": "Power of Two",
+    "slug": "power-of-two",
+    "difficulty": "Easy",
+    "acRate": 50.4
+  },
+  {
+    "title": "Basic Calculator IV",
+    "slug": "basic-calculator-iv",
+    "difficulty": "Hard",
+    "acRate": 49.9
+  },
+  {
+    "title": "Add Two Numbers",
+    "slug": "add-two-numbers",
+    "difficulty": "Medium",
+    "acRate": 49.1
+  },
+  {
+    "title": "Last Remaining Integer After Alternating Deletion Operations",
+    "slug": "last-remaining-integer-after-alternating-deletion-operations",
+    "difficulty": "Hard",
+    "acRate": 49.1
+  },
+  {
+    "title": "K-th Symbol in Grammar",
+    "slug": "k-th-symbol-in-grammar",
+    "difficulty": "Medium",
+    "acRate": 48.6
+  },
+  {
+    "title": "Find the K-th Character in String Game II",
+    "slug": "find-the-k-th-character-in-string-game-ii",
+    "difficulty": "Hard",
+    "acRate": 48.4
+  },
+  {
+    "title": "Basic Calculator",
+    "slug": "basic-calculator",
+    "difficulty": "Hard",
+    "acRate": 47.1
+  },
+  {
+    "title": "Elimination Game",
+    "slug": "elimination-game",
+    "difficulty": "Medium",
+    "acRate": 46.6
+  },
+  {
+    "title": "Number of Digit One",
+    "slug": "number-of-digit-one",
+    "difficulty": "Hard",
+    "acRate": 39.5
+  },
+  {
+    "title": "Pow(x, n)",
+    "slug": "powx-n",
+    "difficulty": "Medium",
+    "acRate": 39.1
+  },
+  {
+    "title": "Minimum Non-Zero Product of the Array Elements",
+    "slug": "minimum-non-zero-product-of-the-array-elements",
+    "difficulty": "Medium",
+    "acRate": 37.6
+  },
+  {
+    "title": "Maximize Number of Nice Divisors",
+    "slug": "maximize-number-of-nice-divisors",
+    "difficulty": "Hard",
+    "acRate": 36.9
+  },
+  {
+    "title": "Partition Array into Two Equal Product Subsets",
+    "slug": "partition-array-into-two-equal-product-subsets",
+    "difficulty": "Medium",
+    "acRate": 35.3
+  },
+  {
+    "title": "Integer to English Words",
+    "slug": "integer-to-english-words",
+    "difficulty": "Hard",
+    "acRate": 35.2
+  },
+  {
+    "title": "Wildcard Matching",
+    "slug": "wildcard-matching",
+    "difficulty": "Hard",
+    "acRate": 32.6
+  },
+  {
+    "title": "Regular Expression Matching",
+    "slug": "regular-expression-matching",
+    "difficulty": "Hard",
+    "acRate": 31.5
+  },
+  {
+    "title": "Count Collisions of Monkeys on a Polygon",
+    "slug": "count-collisions-of-monkeys-on-a-polygon",
+    "difficulty": "Medium",
+    "acRate": 30.4
+  }
+]

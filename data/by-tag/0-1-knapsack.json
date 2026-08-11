@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Last Stone Weight II",
+    "slug": "last-stone-weight-ii",
+    "difficulty": "Medium",
+    "acRate": 60.5
+  },
+  {
+    "title": "Ones and Zeroes",
+    "slug": "ones-and-zeroes",
+    "difficulty": "Medium",
+    "acRate": 53.7
+  },
+  {
+    "title": "Target Sum",
+    "slug": "target-sum",
+    "difficulty": "Medium",
+    "acRate": 52.7
+  },
+  {
+    "title": "Tallest Billboard",
+    "slug": "tallest-billboard",
+    "difficulty": "Hard",
+    "acRate": 51.9
+  },
+  {
+    "title": "Partition Equal Subset Sum",
+    "slug": "partition-equal-subset-sum",
+    "difficulty": "Medium",
+    "acRate": 49.9
+  },
+  {
+    "title": "Profitable Schemes",
+    "slug": "profitable-schemes",
+    "difficulty": "Hard",
+    "acRate": 48.6
+  },
+  {
+    "title": "Length of the Longest Subsequence That Sums to Target",
+    "slug": "length-of-the-longest-subsequence-that-sums-to-target",
+    "difficulty": "Medium",
+    "acRate": 40.3
+  },
+  {
+    "title": "Find the Sum of the Power of All Subsequences",
+    "slug": "find-the-sum-of-the-power-of-all-subsequences",
+    "difficulty": "Hard",
+    "acRate": 38.1
+  }
+]

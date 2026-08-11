@@ -1,0 +1,74 @@
+[
+  {
+    "title": "The kth Factor of n",
+    "slug": "the-kth-factor-of-n",
+    "difficulty": "Medium",
+    "acRate": 70.7
+  },
+  {
+    "title": "Three Divisors",
+    "slug": "three-divisors",
+    "difficulty": "Easy",
+    "acRate": 64.7
+  },
+  {
+    "title": "Closest Divisors",
+    "slug": "closest-divisors",
+    "difficulty": "Medium",
+    "acRate": 62.5
+  },
+  {
+    "title": "Count the Number of Ideal Arrays",
+    "slug": "count-the-number-of-ideal-arrays",
+    "difficulty": "Hard",
+    "acRate": 56.9
+  },
+  {
+    "title": "Four Divisors",
+    "slug": "four-divisors",
+    "difficulty": "Medium",
+    "acRate": 56.5
+  },
+  {
+    "title": "Count Ways to Make Array With Product",
+    "slug": "count-ways-to-make-array-with-product",
+    "difficulty": "Hard",
+    "acRate": 55.4
+  },
+  {
+    "title": "Distinct Prime Factors of Product of Array",
+    "slug": "distinct-prime-factors-of-product-of-array",
+    "difficulty": "Medium",
+    "acRate": 55.1
+  },
+  {
+    "title": "GCD Sort of an Array",
+    "slug": "gcd-sort-of-an-array",
+    "difficulty": "Hard",
+    "acRate": 50.7
+  },
+  {
+    "title": "Smallest Value After Replacing With Sum of Prime Factors",
+    "slug": "smallest-value-after-replacing-with-sum-of-prime-factors",
+    "difficulty": "Medium",
+    "acRate": 50.2
+  },
+  {
+    "title": "Largest Component Size by Common Factor",
+    "slug": "largest-component-size-by-common-factor",
+    "difficulty": "Hard",
+    "acRate": 43.7
+  },
+  {
+    "title": "Greatest Common Divisor Traversal",
+    "slug": "greatest-common-divisor-traversal",
+    "difficulty": "Hard",
+    "acRate": 41.6
+  },
+  {
+    "title": "Split the Array to Make Coprime Products",
+    "slug": "split-the-array-to-make-coprime-products",
+    "difficulty": "Hard",
+    "acRate": 29.2
+  }
+]

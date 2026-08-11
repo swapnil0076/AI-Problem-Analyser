@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Strictly Palindromic Number",
+    "slug": "strictly-palindromic-number",
+    "difficulty": "Medium",
+    "acRate": 90.4
+  },
+  {
+    "title": "Vowels Game in a String",
+    "slug": "vowels-game-in-a-string",
+    "difficulty": "Medium",
+    "acRate": 77.1
+  },
+  {
+    "title": "Divisor Game",
+    "slug": "divisor-game",
+    "difficulty": "Easy",
+    "acRate": 72.4
+  },
+  {
+    "title": "Last Moment Before All Ants Fall Out of a Plank",
+    "slug": "last-moment-before-all-ants-fall-out-of-a-plank",
+    "difficulty": "Medium",
+    "acRate": 68.1
+  },
+  {
+    "title": "Airplane Seat Assignment Probability",
+    "slug": "airplane-seat-assignment-probability",
+    "difficulty": "Medium",
+    "acRate": 67.6
+  },
+  {
+    "title": "Chalkboard XOR Game",
+    "slug": "chalkboard-xor-game",
+    "difficulty": "Hard",
+    "acRate": 66.9
+  },
+  {
+    "title": "Bitwise XOR of All Pairings",
+    "slug": "bitwise-xor-of-all-pairings",
+    "difficulty": "Medium",
+    "acRate": 66.9
+  },
+  {
+    "title": "Longest Subarray With Maximum Bitwise AND",
+    "slug": "longest-subarray-with-maximum-bitwise-and",
+    "difficulty": "Medium",
+    "acRate": 65.4
+  },
+  {
+    "title": "Minimum Operations to Equalize Array",
+    "slug": "minimum-operations-to-equalize-array",
+    "difficulty": "Easy",
+    "acRate": 60.9
+  },
+  {
+    "title": "Nim Game",
+    "slug": "nim-game",
+    "difficulty": "Easy",
+    "acRate": 60.3
+  },
+  {
+    "title": "Minimum Impossible OR",
+    "slug": "minimum-impossible-or",
+    "difficulty": "Medium",
+    "acRate": 59.4
+  },
+  {
+    "title": "Count the Number of Computer Unlocking Permutations",
+    "slug": "count-the-number-of-computer-unlocking-permutations",
+    "difficulty": "Medium",
+    "acRate": 59
+  },
+  {
+    "title": "Minimum Operations to Make the Integer Zero",
+    "slug": "minimum-operations-to-make-the-integer-zero",
+    "difficulty": "Medium",
+    "acRate": 58
+  },
+  {
+    "title": "Bulb Switcher",
+    "slug": "bulb-switcher",
+    "difficulty": "Medium",
+    "acRate": 56.3
+  },
+  {
+    "title": "Construct the Longest New String",
+    "slug": "construct-the-longest-new-string",
+    "difficulty": "Medium",
+    "acRate": 55.1
+  },
+  {
+    "title": "Moving Stones Until Consecutive",
+    "slug": "moving-stones-until-consecutive",
+    "difficulty": "Medium",
+    "acRate": 52.6
+  },
+  {
+    "title": "Final Element After Subarray Deletions",
+    "slug": "final-element-after-subarray-deletions",
+    "difficulty": "Medium",
+    "acRate": 41.2
+  },
+  {
+    "title": "Movement of Robots",
+    "slug": "movement-of-robots",
+    "difficulty": "Medium",
+    "acRate": 28.2
+  }
+]

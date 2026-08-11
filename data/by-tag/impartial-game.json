@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Divisor Game",
+    "slug": "divisor-game",
+    "difficulty": "Easy",
+    "acRate": 72.4
+  },
+  {
+    "title": "Chalkboard XOR Game",
+    "slug": "chalkboard-xor-game",
+    "difficulty": "Hard",
+    "acRate": 66.9
+  },
+  {
+    "title": "Nim Game",
+    "slug": "nim-game",
+    "difficulty": "Easy",
+    "acRate": 60.3
+  }
+]

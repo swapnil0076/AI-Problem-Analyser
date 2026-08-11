@@ -1,0 +1,1160 @@
+[
+  {
+    "title": "Concatenate Array With Reverse",
+    "slug": "concatenate-array-with-reverse",
+    "difficulty": "Easy",
+    "acRate": 91.7
+  },
+  {
+    "title": "Build Array from Permutation",
+    "slug": "build-array-from-permutation",
+    "difficulty": "Easy",
+    "acRate": 91.1
+  },
+  {
+    "title": "Partition Array According to Given Pivot",
+    "slug": "partition-array-according-to-given-pivot",
+    "difficulty": "Medium",
+    "acRate": 90.8
+  },
+  {
+    "title": "Final Value of Variable After Performing Operations",
+    "slug": "final-value-of-variable-after-performing-operations",
+    "difficulty": "Easy",
+    "acRate": 90.6
+  },
+  {
+    "title": "Weighted Word Mapping",
+    "slug": "weighted-word-mapping",
+    "difficulty": "Easy",
+    "acRate": 90.6
+  },
+  {
+    "title": "Compute Alternating Sum",
+    "slug": "compute-alternating-sum",
+    "difficulty": "Easy",
+    "acRate": 90.3
+  },
+  {
+    "title": "Concatenation of Array",
+    "slug": "concatenation-of-array",
+    "difficulty": "Easy",
+    "acRate": 90.1
+  },
+  {
+    "title": "Merge Nodes in Between Zeros",
+    "slug": "merge-nodes-in-between-zeros",
+    "difficulty": "Medium",
+    "acRate": 89.7
+  },
+  {
+    "title": "Reverse Degree of a String",
+    "slug": "reverse-degree-of-a-string",
+    "difficulty": "Easy",
+    "acRate": 88.9
+  },
+  {
+    "title": "Design Parking System",
+    "slug": "design-parking-system",
+    "difficulty": "Easy",
+    "acRate": 87.2
+  },
+  {
+    "title": "Final Array State After K Multiplication Operations I",
+    "slug": "final-array-state-after-k-multiplication-operations-i",
+    "difficulty": "Easy",
+    "acRate": 86.9
+  },
+  {
+    "title": "Create Target Array in the Given Order",
+    "slug": "create-target-array-in-the-given-order",
+    "difficulty": "Easy",
+    "acRate": 86.6
+  },
+  {
+    "title": "Count of Matches in Tournament",
+    "slug": "count-of-matches-in-tournament",
+    "difficulty": "Easy",
+    "acRate": 86.5
+  },
+  {
+    "title": "Separate the Digits in an Array",
+    "slug": "separate-the-digits-in-an-array",
+    "difficulty": "Easy",
+    "acRate": 85.8
+  },
+  {
+    "title": "Minimum Number Game",
+    "slug": "minimum-number-game",
+    "difficulty": "Easy",
+    "acRate": 85.7
+  },
+  {
+    "title": "Bitwise OR of Even Numbers in an Array",
+    "slug": "bitwise-or-of-even-numbers-in-an-array",
+    "difficulty": "Easy",
+    "acRate": 85.3
+  },
+  {
+    "title": "Queries on a Permutation With Key",
+    "slug": "queries-on-a-permutation-with-key",
+    "difficulty": "Medium",
+    "acRate": 85
+  },
+  {
+    "title": "Rearrange Array Elements by Sign",
+    "slug": "rearrange-array-elements-by-sign",
+    "difficulty": "Medium",
+    "acRate": 84.8
+  },
+  {
+    "title": "Spiral Matrix III",
+    "slug": "spiral-matrix-iii",
+    "difficulty": "Medium",
+    "acRate": 84.6
+  },
+  {
+    "title": "Difference Between Ones and Zeros in Row and Column",
+    "slug": "difference-between-ones-and-zeros-in-row-and-column",
+    "difficulty": "Medium",
+    "acRate": 84.6
+  },
+  {
+    "title": "Flipping an Image",
+    "slug": "flipping-an-image",
+    "difficulty": "Easy",
+    "acRate": 83.9
+  },
+  {
+    "title": "Traffic Signal Color",
+    "slug": "traffic-signal-color",
+    "difficulty": "Easy",
+    "acRate": 83.9
+  },
+  {
+    "title": "Reveal Cards In Increasing Order",
+    "slug": "reveal-cards-in-increasing-order",
+    "difficulty": "Medium",
+    "acRate": 83.8
+  },
+  {
+    "title": "Hash Divided String",
+    "slug": "hash-divided-string",
+    "difficulty": "Medium",
+    "acRate": 83.5
+  },
+  {
+    "title": "Clear Digits",
+    "slug": "clear-digits",
+    "difficulty": "Easy",
+    "acRate": 82.7
+  },
+  {
+    "title": "Snake in Matrix",
+    "slug": "snake-in-matrix",
+    "difficulty": "Easy",
+    "acRate": 82.5
+  },
+  {
+    "title": "Check If Digits Are Equal in String After Operations I",
+    "slug": "check-if-digits-are-equal-in-string-after-operations-i",
+    "difficulty": "Easy",
+    "acRate": 82.5
+  },
+  {
+    "title": "Find Maximum Number of String Pairs",
+    "slug": "find-maximum-number-of-string-pairs",
+    "difficulty": "Easy",
+    "acRate": 82.4
+  },
+  {
+    "title": "Reverse Letters Then Special Characters in a String",
+    "slug": "reverse-letters-then-special-characters-in-a-string",
+    "difficulty": "Easy",
+    "acRate": 82.4
+  },
+  {
+    "title": "Find the Winner of the Circular Game",
+    "slug": "find-the-winner-of-the-circular-game",
+    "difficulty": "Medium",
+    "acRate": 82.3
+  },
+  {
+    "title": "Spiral Matrix IV",
+    "slug": "spiral-matrix-iv",
+    "difficulty": "Medium",
+    "acRate": 82.3
+  },
+  {
+    "title": "Execution of All Suffix Instructions Staying in a Grid",
+    "slug": "execution-of-all-suffix-instructions-staying-in-a-grid",
+    "difficulty": "Medium",
+    "acRate": 82.1
+  },
+  {
+    "title": "Find Triangular Sum of an Array",
+    "slug": "find-triangular-sum-of-an-array",
+    "difficulty": "Medium",
+    "acRate": 82
+  },
+  {
+    "title": "Find the K-th Character in String Game I",
+    "slug": "find-the-k-th-character-in-string-game-i",
+    "difficulty": "Easy",
+    "acRate": 81.6
+  },
+  {
+    "title": "Baseball Game",
+    "slug": "baseball-game",
+    "difficulty": "Easy",
+    "acRate": 81
+  },
+  {
+    "title": "Build an Array With Stack Operations",
+    "slug": "build-an-array-with-stack-operations",
+    "difficulty": "Medium",
+    "acRate": 80.9
+  },
+  {
+    "title": "Faulty Keyboard",
+    "slug": "faulty-keyboard",
+    "difficulty": "Easy",
+    "acRate": 80.6
+  },
+  {
+    "title": "Find the Sequence of Strings Appeared on the Screen",
+    "slug": "find-the-sequence-of-strings-appeared-on-the-screen",
+    "difficulty": "Medium",
+    "acRate": 80.6
+  },
+  {
+    "title": "Delete Greatest Value in Each Row",
+    "slug": "delete-greatest-value-in-each-row",
+    "difficulty": "Easy",
+    "acRate": 80.5
+  },
+  {
+    "title": "Watering Plants",
+    "slug": "watering-plants",
+    "difficulty": "Medium",
+    "acRate": 80
+  },
+  {
+    "title": "Cells with Odd Values in a Matrix",
+    "slug": "cells-with-odd-values-in-a-matrix",
+    "difficulty": "Easy",
+    "acRate": 79.9
+  },
+  {
+    "title": "Number of Students Unable to Eat Lunch",
+    "slug": "number-of-students-unable-to-eat-lunch",
+    "difficulty": "Easy",
+    "acRate": 79.9
+  },
+  {
+    "title": "Count Operations to Obtain Zero",
+    "slug": "count-operations-to-obtain-zero",
+    "difficulty": "Easy",
+    "acRate": 79.8
+  },
+  {
+    "title": "Removing Stars From a String",
+    "slug": "removing-stars-from-a-string",
+    "difficulty": "Medium",
+    "acRate": 79.8
+  },
+  {
+    "title": "Minimum Number of Chairs in a Waiting Room",
+    "slug": "minimum-number-of-chairs-in-a-waiting-room",
+    "difficulty": "Easy",
+    "acRate": 79.6
+  },
+  {
+    "title": "Remove All Occurrences of a Substring",
+    "slug": "remove-all-occurrences-of-a-substring",
+    "difficulty": "Medium",
+    "acRate": 78.6
+  },
+  {
+    "title": "Count Tested Devices After Test Operations",
+    "slug": "count-tested-devices-after-test-operations",
+    "difficulty": "Easy",
+    "acRate": 78.5
+  },
+  {
+    "title": "Robot Return to Origin",
+    "slug": "robot-return-to-origin",
+    "difficulty": "Easy",
+    "acRate": 78.2
+  },
+  {
+    "title": "Water Bottles II",
+    "slug": "water-bottles-ii",
+    "difficulty": "Medium",
+    "acRate": 78.1
+  },
+  {
+    "title": "Minimum String Length After Removing Substrings",
+    "slug": "minimum-string-length-after-removing-substrings",
+    "difficulty": "Easy",
+    "acRate": 77.2
+  },
+  {
+    "title": "Transpose Matrix",
+    "slug": "transpose-matrix",
+    "difficulty": "Easy",
+    "acRate": 77
+  },
+  {
+    "title": "Divide a String Into Groups of Size k",
+    "slug": "divide-a-string-into-groups-of-size-k",
+    "difficulty": "Easy",
+    "acRate": 76.9
+  },
+  {
+    "title": "Remove Zeros in Decimal Representation",
+    "slug": "remove-zeros-in-decimal-representation",
+    "difficulty": "Easy",
+    "acRate": 76.6
+  },
+  {
+    "title": "Design Neighbor Sum Service",
+    "slug": "design-neighbor-sum-service",
+    "difficulty": "Easy",
+    "acRate": 76
+  },
+  {
+    "title": "Fizz Buzz",
+    "slug": "fizz-buzz",
+    "difficulty": "Easy",
+    "acRate": 75.8
+  },
+  {
+    "title": "Spiral Matrix II",
+    "slug": "spiral-matrix-ii",
+    "difficulty": "Medium",
+    "acRate": 75.6
+  },
+  {
+    "title": "Take Gifts From the Richest Pile",
+    "slug": "take-gifts-from-the-richest-pile",
+    "difficulty": "Easy",
+    "acRate": 75.5
+  },
+  {
+    "title": "Keep Multiplying Found Values by Two",
+    "slug": "keep-multiplying-found-values-by-two",
+    "difficulty": "Easy",
+    "acRate": 75
+  },
+  {
+    "title": "Sum of GCD of Formed Pairs",
+    "slug": "sum-of-gcd-of-formed-pairs",
+    "difficulty": "Medium",
+    "acRate": 75
+  },
+  {
+    "title": "Sum of Digits of String After Convert",
+    "slug": "sum-of-digits-of-string-after-convert",
+    "difficulty": "Easy",
+    "acRate": 74.8
+  },
+  {
+    "title": "Apply Operations to an Array",
+    "slug": "apply-operations-to-an-array",
+    "difficulty": "Easy",
+    "acRate": 74.8
+  },
+  {
+    "title": "Shift 2D Grid",
+    "slug": "shift-2d-grid",
+    "difficulty": "Easy",
+    "acRate": 74.5
+  },
+  {
+    "title": "Matrix Similarity After Cyclic Shifts",
+    "slug": "matrix-similarity-after-cyclic-shifts",
+    "difficulty": "Easy",
+    "acRate": 74.4
+  },
+  {
+    "title": "Ant on the Boundary",
+    "slug": "ant-on-the-boundary",
+    "difficulty": "Easy",
+    "acRate": 74.3
+  },
+  {
+    "title": "Cyclically Rotating a Grid",
+    "slug": "cyclically-rotating-a-grid",
+    "difficulty": "Medium",
+    "acRate": 74
+  },
+  {
+    "title": "Make Array Zero by Subtracting Equal Amounts",
+    "slug": "make-array-zero-by-subtracting-equal-amounts",
+    "difficulty": "Easy",
+    "acRate": 73.9
+  },
+  {
+    "title": "Distribute Elements Into Two Arrays I",
+    "slug": "distribute-elements-into-two-arrays-i",
+    "difficulty": "Easy",
+    "acRate": 73.8
+  },
+  {
+    "title": "Complex Number Multiplication",
+    "slug": "complex-number-multiplication",
+    "difficulty": "Medium",
+    "acRate": 73.7
+  },
+  {
+    "title": "Find Kth Bit in Nth Binary String",
+    "slug": "find-kth-bit-in-nth-binary-string",
+    "difficulty": "Medium",
+    "acRate": 73.7
+  },
+  {
+    "title": "Score Validator",
+    "slug": "score-validator",
+    "difficulty": "Easy",
+    "acRate": 73.7
+  },
+  {
+    "title": "XOR After Range Multiplication Queries I",
+    "slug": "xor-after-range-multiplication-queries-i",
+    "difficulty": "Medium",
+    "acRate": 73.3
+  },
+  {
+    "title": "Average Waiting Time",
+    "slug": "average-waiting-time",
+    "difficulty": "Medium",
+    "acRate": 73.1
+  },
+  {
+    "title": "Time Needed to Buy Tickets",
+    "slug": "time-needed-to-buy-tickets",
+    "difficulty": "Easy",
+    "acRate": 73.1
+  },
+  {
+    "title": "Game of Life",
+    "slug": "game-of-life",
+    "difficulty": "Medium",
+    "acRate": 72.9
+  },
+  {
+    "title": "Queens That Can Attack the King",
+    "slug": "queens-that-can-attack-the-king",
+    "difficulty": "Medium",
+    "acRate": 72.8
+  },
+  {
+    "title": "Incremental Memory Leak",
+    "slug": "incremental-memory-leak",
+    "difficulty": "Medium",
+    "acRate": 72.8
+  },
+  {
+    "title": "Minimum Number of Operations to Reinitialize a Permutation",
+    "slug": "minimum-number-of-operations-to-reinitialize-a-permutation",
+    "difficulty": "Medium",
+    "acRate": 72.7
+  },
+  {
+    "title": "Water Bottles",
+    "slug": "water-bottles",
+    "difficulty": "Easy",
+    "acRate": 72.6
+  },
+  {
+    "title": "Find the Score Difference in a Game",
+    "slug": "find-the-score-difference-in-a-game",
+    "difficulty": "Medium",
+    "acRate": 72.6
+  },
+  {
+    "title": "Where Will the Ball Fall",
+    "slug": "where-will-the-ball-fall",
+    "difficulty": "Medium",
+    "acRate": 72.4
+  },
+  {
+    "title": "Convert 1D Array Into 2D Array",
+    "slug": "convert-1d-array-into-2d-array",
+    "difficulty": "Easy",
+    "acRate": 72.4
+  },
+  {
+    "title": "Find the Array Concatenation Value",
+    "slug": "find-the-array-concatenation-value",
+    "difficulty": "Easy",
+    "acRate": 72.1
+  },
+  {
+    "title": "Available Captures for Rook",
+    "slug": "available-captures-for-rook",
+    "difficulty": "Easy",
+    "acRate": 72
+  },
+  {
+    "title": "Toggle Light Bulbs",
+    "slug": "toggle-light-bulbs",
+    "difficulty": "Easy",
+    "acRate": 71.9
+  },
+  {
+    "title": "Adding Spaces to a String",
+    "slug": "adding-spaces-to-a-string",
+    "difficulty": "Medium",
+    "acRate": 71.8
+  },
+  {
+    "title": "Process String with Special Operations I",
+    "slug": "process-string-with-special-operations-i",
+    "difficulty": "Medium",
+    "acRate": 71.5
+  },
+  {
+    "title": "Equal Row and Column Pairs",
+    "slug": "equal-row-and-column-pairs",
+    "difficulty": "Medium",
+    "acRate": 71.3
+  },
+  {
+    "title": "Count Integers With Even Digit Sum",
+    "slug": "count-integers-with-even-digit-sum",
+    "difficulty": "Easy",
+    "acRate": 70.8
+  },
+  {
+    "title": "Validate Stack Sequences",
+    "slug": "validate-stack-sequences",
+    "difficulty": "Medium",
+    "acRate": 70.7
+  },
+  {
+    "title": "Transformed Array",
+    "slug": "transformed-array",
+    "difficulty": "Easy",
+    "acRate": 70.6
+  },
+  {
+    "title": "Fruits Into Baskets II",
+    "slug": "fruits-into-baskets-ii",
+    "difficulty": "Easy",
+    "acRate": 70.3
+  },
+  {
+    "title": "Simple Bank System",
+    "slug": "simple-bank-system",
+    "difficulty": "Medium",
+    "acRate": 69.6
+  },
+  {
+    "title": "Calculate Amount Paid in Taxes",
+    "slug": "calculate-amount-paid-in-taxes",
+    "difficulty": "Easy",
+    "acRate": 69.4
+  },
+  {
+    "title": "Add Digits",
+    "slug": "add-digits",
+    "difficulty": "Easy",
+    "acRate": 69.2
+  },
+  {
+    "title": "Count Unguarded Cells in the Grid",
+    "slug": "count-unguarded-cells-in-the-grid",
+    "difficulty": "Medium",
+    "acRate": 69.2
+  },
+  {
+    "title": "Sum of Even Numbers After Queries",
+    "slug": "sum-of-even-numbers-after-queries",
+    "difficulty": "Medium",
+    "acRate": 68.9
+  },
+  {
+    "title": "Last Moment Before All Ants Fall Out of a Plank",
+    "slug": "last-moment-before-all-ants-fall-out-of-a-plank",
+    "difficulty": "Medium",
+    "acRate": 68.1
+  },
+  {
+    "title": "Make Array Elements Equal to Zero",
+    "slug": "make-array-elements-equal-to-zero",
+    "difficulty": "Easy",
+    "acRate": 68.1
+  },
+  {
+    "title": "Print Words Vertically",
+    "slug": "print-words-vertically",
+    "difficulty": "Medium",
+    "acRate": 68
+  },
+  {
+    "title": "Calculate Digit Sum of a String",
+    "slug": "calculate-digit-sum-of-a-string",
+    "difficulty": "Easy",
+    "acRate": 68
+  },
+  {
+    "title": "Distribute Candies to People",
+    "slug": "distribute-candies-to-people",
+    "difficulty": "Easy",
+    "acRate": 67.8
+  },
+  {
+    "title": "Decode the Slanted Ciphertext",
+    "slug": "decode-the-slanted-ciphertext",
+    "difficulty": "Medium",
+    "acRate": 67.6
+  },
+  {
+    "title": "Diagonal Traverse",
+    "slug": "diagonal-traverse",
+    "difficulty": "Medium",
+    "acRate": 67.4
+  },
+  {
+    "title": "Reverse Words With Same Vowel Count",
+    "slug": "reverse-words-with-same-vowel-count",
+    "difficulty": "Medium",
+    "acRate": 67.1
+  },
+  {
+    "title": "Concatenation of Consecutive Binary Numbers",
+    "slug": "concatenation-of-consecutive-binary-numbers",
+    "difficulty": "Medium",
+    "acRate": 66.7
+  },
+  {
+    "title": "Fraction Addition and Subtraction",
+    "slug": "fraction-addition-and-subtraction",
+    "difficulty": "Medium",
+    "acRate": 66.6
+  },
+  {
+    "title": "Zigzag Grid Traversal With Skip",
+    "slug": "zigzag-grid-traversal-with-skip",
+    "difficulty": "Easy",
+    "acRate": 65.7
+  },
+  {
+    "title": "Reshape the Matrix",
+    "slug": "reshape-the-matrix",
+    "difficulty": "Easy",
+    "acRate": 65.4
+  },
+  {
+    "title": "Minimum Pair Removal to Sort Array I",
+    "slug": "minimum-pair-removal-to-sort-array-i",
+    "difficulty": "Easy",
+    "acRate": 65.3
+  },
+  {
+    "title": "Find Three Consecutive Integers That Sum to a Given Number",
+    "slug": "find-three-consecutive-integers-that-sum-to-a-given-number",
+    "difficulty": "Medium",
+    "acRate": 65.2
+  },
+  {
+    "title": "Walking Robot Simulation",
+    "slug": "walking-robot-simulation",
+    "difficulty": "Medium",
+    "acRate": 64.6
+  },
+  {
+    "title": "Find Score of an Array After Marking All Elements",
+    "slug": "find-score-of-an-array-after-marking-all-elements",
+    "difficulty": "Medium",
+    "acRate": 64.6
+  },
+  {
+    "title": "Min Max Game",
+    "slug": "min-max-game",
+    "difficulty": "Easy",
+    "acRate": 64.5
+  },
+  {
+    "title": "Semi-Ordered Permutation",
+    "slug": "semi-ordered-permutation",
+    "difficulty": "Easy",
+    "acRate": 64.5
+  },
+  {
+    "title": "Number of Steps to Reduce a Number in Binary Representation to One",
+    "slug": "number-of-steps-to-reduce-a-number-in-binary-representation-to-one",
+    "difficulty": "Medium",
+    "acRate": 63.7
+  },
+  {
+    "title": "Find the Minimum Amount of Time to Brew Potions",
+    "slug": "find-the-minimum-amount-of-time-to-brew-potions",
+    "difficulty": "Medium",
+    "acRate": 62.7
+  },
+  {
+    "title": "Count Unhappy Friends",
+    "slug": "count-unhappy-friends",
+    "difficulty": "Medium",
+    "acRate": 62.6
+  },
+  {
+    "title": "Last Visited Integers",
+    "slug": "last-visited-integers",
+    "difficulty": "Easy",
+    "acRate": 62.6
+  },
+  {
+    "title": "Find the Child Who Has the Ball After K Seconds",
+    "slug": "find-the-child-who-has-the-ball-after-k-seconds",
+    "difficulty": "Easy",
+    "acRate": 62.2
+  },
+  {
+    "title": "Clumsy Factorial",
+    "slug": "clumsy-factorial",
+    "difficulty": "Medium",
+    "acRate": 61.9
+  },
+  {
+    "title": "Check Knight Tour Configuration",
+    "slug": "check-knight-tour-configuration",
+    "difficulty": "Medium",
+    "acRate": 61.9
+  },
+  {
+    "title": "Count Distinct Numbers on Board",
+    "slug": "count-distinct-numbers-on-board",
+    "difficulty": "Easy",
+    "acRate": 61.8
+  },
+  {
+    "title": "Robot Collisions",
+    "slug": "robot-collisions",
+    "difficulty": "Hard",
+    "acRate": 61.6
+  },
+  {
+    "title": "Sum in a Matrix",
+    "slug": "sum-in-a-matrix",
+    "difficulty": "Medium",
+    "acRate": 61.1
+  },
+  {
+    "title": "Number of People Aware of a Secret",
+    "slug": "number-of-people-aware-of-a-secret",
+    "difficulty": "Medium",
+    "acRate": 60.6
+  },
+  {
+    "title": "Most Visited Sector in  a Circular Track",
+    "slug": "most-visited-sector-in-a-circular-track",
+    "difficulty": "Easy",
+    "acRate": 60
+  },
+  {
+    "title": "Replace Elements in an Array",
+    "slug": "replace-elements-in-an-array",
+    "difficulty": "Medium",
+    "acRate": 59.9
+  },
+  {
+    "title": "Partition String ",
+    "slug": "partition-string",
+    "difficulty": "Medium",
+    "acRate": 59.5
+  },
+  {
+    "title": "Add Binary",
+    "slug": "add-binary",
+    "difficulty": "Easy",
+    "acRate": 58.5
+  },
+  {
+    "title": "Count Collisions on a Road",
+    "slug": "count-collisions-on-a-road",
+    "difficulty": "Medium",
+    "acRate": 58.1
+  },
+  {
+    "title": "Teemo Attacking",
+    "slug": "teemo-attacking",
+    "difficulty": "Easy",
+    "acRate": 58
+  },
+  {
+    "title": "Spiral Matrix",
+    "slug": "spiral-matrix",
+    "difficulty": "Medium",
+    "acRate": 57.6
+  },
+  {
+    "title": "Find Missing Observations",
+    "slug": "find-missing-observations",
+    "difficulty": "Medium",
+    "acRate": 57.4
+  },
+  {
+    "title": "Count Artifacts That Can Be Extracted",
+    "slug": "count-artifacts-that-can-be-extracted",
+    "difficulty": "Medium",
+    "acRate": 57.4
+  },
+  {
+    "title": "Resulting String After Adjacent Removals",
+    "slug": "resulting-string-after-adjacent-removals",
+    "difficulty": "Medium",
+    "acRate": 57.2
+  },
+  {
+    "title": "Find the Winner of an Array Game",
+    "slug": "find-the-winner-of-an-array-game",
+    "difficulty": "Medium",
+    "acRate": 56.9
+  },
+  {
+    "title": "Calculate Score After Performing Instructions",
+    "slug": "calculate-score-after-performing-instructions",
+    "difficulty": "Medium",
+    "acRate": 56.8
+  },
+  {
+    "title": "Robot Bounded In Circle",
+    "slug": "robot-bounded-in-circle",
+    "difficulty": "Medium",
+    "acRate": 56.6
+  },
+  {
+    "title": "Pass the Pillow",
+    "slug": "pass-the-pillow",
+    "difficulty": "Easy",
+    "acRate": 56.6
+  },
+  {
+    "title": "Car Pooling",
+    "slug": "car-pooling",
+    "difficulty": "Medium",
+    "acRate": 56.5
+  },
+  {
+    "title": "Contain Virus",
+    "slug": "contain-virus",
+    "difficulty": "Hard",
+    "acRate": 55.7
+  },
+  {
+    "title": "Task Scheduler II",
+    "slug": "task-scheduler-ii",
+    "difficulty": "Medium",
+    "acRate": 55
+  },
+  {
+    "title": "Find Winner on a Tic Tac Toe Game",
+    "slug": "find-winner-on-a-tic-tac-toe-game",
+    "difficulty": "Easy",
+    "acRate": 54.7
+  },
+  {
+    "title": "Number of Orders in the Backlog",
+    "slug": "number-of-orders-in-the-backlog",
+    "difficulty": "Medium",
+    "acRate": 54.2
+  },
+  {
+    "title": "Find the Number of Distinct Colors Among the Balls",
+    "slug": "find-the-number-of-distinct-colors-among-the-balls",
+    "difficulty": "Medium",
+    "acRate": 54.1
+  },
+  {
+    "title": "Find the N-th Value After K Seconds",
+    "slug": "find-the-n-th-value-after-k-seconds",
+    "difficulty": "Medium",
+    "acRate": 54.1
+  },
+  {
+    "title": "Find the Winning Player in Coin Game",
+    "slug": "find-the-winning-player-in-coin-game",
+    "difficulty": "Easy",
+    "acRate": 54
+  },
+  {
+    "title": "Vowel-Consonant Score",
+    "slug": "vowel-consonant-score",
+    "difficulty": "Easy",
+    "acRate": 53.8
+  },
+  {
+    "title": "Time Needed to Rearrange a Binary String",
+    "slug": "time-needed-to-rearrange-a-binary-string",
+    "difficulty": "Medium",
+    "acRate": 53.5
+  },
+  {
+    "title": "Find the Student that Will Replace the Chalk",
+    "slug": "find-the-student-that-will-replace-the-chalk",
+    "difficulty": "Medium",
+    "acRate": 53.2
+  },
+  {
+    "title": "Maximum Number of Operations With the Same Score I",
+    "slug": "maximum-number-of-operations-with-the-same-score-i",
+    "difficulty": "Easy",
+    "acRate": 52.9
+  },
+  {
+    "title": "Add Strings",
+    "slug": "add-strings",
+    "difficulty": "Easy",
+    "acRate": 52.2
+  },
+  {
+    "title": "Relocate Marbles",
+    "slug": "relocate-marbles",
+    "difficulty": "Medium",
+    "acRate": 51.9
+  },
+  {
+    "title": "Text Justification",
+    "slug": "text-justification",
+    "difficulty": "Hard",
+    "acRate": 51.8
+  },
+  {
+    "title": "Get Maximum in Generated Array",
+    "slug": "get-maximum-in-generated-array",
+    "difficulty": "Easy",
+    "acRate": 51.6
+  },
+  {
+    "title": "Design a Text Editor",
+    "slug": "design-a-text-editor",
+    "difficulty": "Hard",
+    "acRate": 51.4
+  },
+  {
+    "title": "Meeting Rooms III",
+    "slug": "meeting-rooms-iii",
+    "difficulty": "Hard",
+    "acRate": 51.4
+  },
+  {
+    "title": "Count Mentions Per User",
+    "slug": "count-mentions-per-user",
+    "difficulty": "Medium",
+    "acRate": 50.6
+  },
+  {
+    "title": "Design Memory Allocator",
+    "slug": "design-memory-allocator",
+    "difficulty": "Medium",
+    "acRate": 50.5
+  },
+  {
+    "title": "Find the Losers of the Circular Game",
+    "slug": "find-the-losers-of-the-circular-game",
+    "difficulty": "Easy",
+    "acRate": 50.5
+  },
+  {
+    "title": "Backspace String Compare",
+    "slug": "backspace-string-compare",
+    "difficulty": "Easy",
+    "acRate": 50.2
+  },
+  {
+    "title": "Smallest Value After Replacing With Sum of Prime Factors",
+    "slug": "smallest-value-after-replacing-with-sum-of-prime-factors",
+    "difficulty": "Medium",
+    "acRate": 50.2
+  },
+  {
+    "title": "Mark Elements on Array by Performing Queries",
+    "slug": "mark-elements-on-array-by-performing-queries",
+    "difficulty": "Medium",
+    "acRate": 49.1
+  },
+  {
+    "title": "Watering Plants II",
+    "slug": "watering-plants-ii",
+    "difficulty": "Medium",
+    "acRate": 49
+  },
+  {
+    "title": "Asteroid Collision",
+    "slug": "asteroid-collision",
+    "difficulty": "Medium",
+    "acRate": 48.7
+  },
+  {
+    "title": "Number of Valid Move Combinations On Chessboard",
+    "slug": "number-of-valid-move-combinations-on-chessboard",
+    "difficulty": "Hard",
+    "acRate": 48.4
+  },
+  {
+    "title": "Rotate Non Negative Elements",
+    "slug": "rotate-non-negative-elements",
+    "difficulty": "Medium",
+    "acRate": 48.1
+  },
+  {
+    "title": "Double Modular Exponentiation",
+    "slug": "double-modular-exponentiation",
+    "difficulty": "Medium",
+    "acRate": 48
+  },
+  {
+    "title": "Solve the Equation",
+    "slug": "solve-the-equation",
+    "difficulty": "Medium",
+    "acRate": 46.6
+  },
+  {
+    "title": "Number Of Ways To Reconstruct A Tree",
+    "slug": "number-of-ways-to-reconstruct-a-tree",
+    "difficulty": "Hard",
+    "acRate": 46.2
+  },
+  {
+    "title": "Minimum Operations to Exceed Threshold Value II",
+    "slug": "minimum-operations-to-exceed-threshold-value-ii",
+    "difficulty": "Medium",
+    "acRate": 45.8
+  },
+  {
+    "title": "Find Servers That Handled Most Number of Requests",
+    "slug": "find-servers-that-handled-most-number-of-requests",
+    "difficulty": "Hard",
+    "acRate": 45.6
+  },
+  {
+    "title": "Maximum Profit of Operating a Centennial Wheel",
+    "slug": "maximum-profit-of-operating-a-centennial-wheel",
+    "difficulty": "Medium",
+    "acRate": 44.7
+  },
+  {
+    "title": "Multiply Strings",
+    "slug": "multiply-strings",
+    "difficulty": "Medium",
+    "acRate": 44.6
+  },
+  {
+    "title": "Time to Cross a Bridge",
+    "slug": "time-to-cross-a-bridge",
+    "difficulty": "Hard",
+    "acRate": 44.4
+  },
+  {
+    "title": "Minimum Generations to Target Point",
+    "slug": "minimum-generations-to-target-point",
+    "difficulty": "Medium",
+    "acRate": 44.3
+  },
+  {
+    "title": "Find Latest Group of Size M",
+    "slug": "find-latest-group-of-size-m",
+    "difficulty": "Medium",
+    "acRate": 44
+  },
+  {
+    "title": "Total Cost to Hire K Workers",
+    "slug": "total-cost-to-hire-k-workers",
+    "difficulty": "Medium",
+    "acRate": 43.9
+  },
+  {
+    "title": "Walking Robot Simulation II",
+    "slug": "walking-robot-simulation-ii",
+    "difficulty": "Medium",
+    "acRate": 43.1
+  },
+  {
+    "title": "Stone Removal Game",
+    "slug": "stone-removal-game",
+    "difficulty": "Easy",
+    "acRate": 42.9
+  },
+  {
+    "title": "Merge Adjacent Equal Elements",
+    "slug": "merge-adjacent-equal-elements",
+    "difficulty": "Medium",
+    "acRate": 42.6
+  },
+  {
+    "title": "Total Distance Traveled",
+    "slug": "total-distance-traveled",
+    "difficulty": "Easy",
+    "acRate": 41.7
+  },
+  {
+    "title": "Find The First Player to win K Games in a Row",
+    "slug": "find-the-first-player-to-win-k-games-in-a-row",
+    "difficulty": "Medium",
+    "acRate": 40.2
+  },
+  {
+    "title": "Process String with Special Operations II",
+    "slug": "process-string-with-special-operations-ii",
+    "difficulty": "Hard",
+    "acRate": 39.8
+  },
+  {
+    "title": "Minimum Pair Removal to Sort Array II",
+    "slug": "minimum-pair-removal-to-sort-array-ii",
+    "difficulty": "Hard",
+    "acRate": 38.8
+  },
+  {
+    "title": "Determine the Winner of a Bowling Game",
+    "slug": "determine-the-winner-of-a-bowling-game",
+    "difficulty": "Easy",
+    "acRate": 38
+  },
+  {
+    "title": "Find Mirror Score of a String",
+    "slug": "find-mirror-score-of-a-string",
+    "difficulty": "Medium",
+    "acRate": 35.9
+  },
+  {
+    "title": " Minimum Discards to Balance Inventory",
+    "slug": "minimum-discards-to-balance-inventory",
+    "difficulty": "Medium",
+    "acRate": 35.2
+  },
+  {
+    "title": "Remove K-Balanced Substrings",
+    "slug": "remove-k-balanced-substrings",
+    "difficulty": "Medium",
+    "acRate": 33
+  },
+  {
+    "title": "Generate Tag for Video Caption",
+    "slug": "generate-tag-for-video-caption",
+    "difficulty": "Easy",
+    "acRate": 32.7
+  },
+  {
+    "title": "Distribute Elements Into Two Arrays II",
+    "slug": "distribute-elements-into-two-arrays-ii",
+    "difficulty": "Hard",
+    "acRate": 31.2
+  },
+  {
+    "title": "Steps to Make Array Non-decreasing",
+    "slug": "steps-to-make-array-non-decreasing",
+    "difficulty": "Medium",
+    "acRate": 25.1
+  },
+  {
+    "title": "Final Array State After K Multiplication Operations II",
+    "slug": "final-array-state-after-k-multiplication-operations-ii",
+    "difficulty": "Hard",
+    "acRate": 13.8
+  }
+]

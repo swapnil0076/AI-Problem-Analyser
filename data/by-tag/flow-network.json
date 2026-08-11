@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Find Valid Matrix Given Row and Column Sums",
+    "slug": "find-valid-matrix-given-row-and-column-sums",
+    "difficulty": "Medium",
+    "acRate": 82.6
+  },
+  {
+    "title": "Maximum Compatibility Score Sum",
+    "slug": "maximum-compatibility-score-sum",
+    "difficulty": "Medium",
+    "acRate": 64.8
+  },
+  {
+    "title": "Maximum Students Taking Exam",
+    "slug": "maximum-students-taking-exam",
+    "difficulty": "Hard",
+    "acRate": 54.3
+  },
+  {
+    "title": "Minimum Cost to Connect Two Groups of Points",
+    "slug": "minimum-cost-to-connect-two-groups-of-points",
+    "difficulty": "Hard",
+    "acRate": 50.5
+  }
+]

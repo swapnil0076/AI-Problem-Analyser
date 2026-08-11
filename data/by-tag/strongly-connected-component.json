@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree",
+    "slug": "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree",
+    "difficulty": "Hard",
+    "acRate": 66.7
+  },
+  {
+    "title": "Minimum Number of Days to Disconnect Island",
+    "slug": "minimum-number-of-days-to-disconnect-island",
+    "difficulty": "Hard",
+    "acRate": 58.7
+  }
+]

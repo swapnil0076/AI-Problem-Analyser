@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Sliding Puzzle",
+    "slug": "sliding-puzzle",
+    "difficulty": "Hard",
+    "acRate": 74.5
+  },
+  {
+    "title": "Open the Lock",
+    "slug": "open-the-lock",
+    "difficulty": "Medium",
+    "acRate": 61.5
+  },
+  {
+    "title": "Minimum Genetic Mutation",
+    "slug": "minimum-genetic-mutation",
+    "difficulty": "Medium",
+    "acRate": 57
+  },
+  {
+    "title": "Word Ladder",
+    "slug": "word-ladder",
+    "difficulty": "Hard",
+    "acRate": 46.3
+  },
+  {
+    "title": "Escape a Large Maze",
+    "slug": "escape-a-large-maze",
+    "difficulty": "Hard",
+    "acRate": 37
+  },
+  {
+    "title": "Word Ladder II",
+    "slug": "word-ladder-ii",
+    "difficulty": "Hard",
+    "acRate": 27.9
+  }
+]

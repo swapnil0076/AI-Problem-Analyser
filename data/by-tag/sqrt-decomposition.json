@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Queries on a Permutation With Key",
+    "slug": "queries-on-a-permutation-with-key",
+    "difficulty": "Medium",
+    "acRate": 85
+  },
+  {
+    "title": "Range Sum Query - Mutable",
+    "slug": "range-sum-query-mutable",
+    "difficulty": "Medium",
+    "acRate": 43.6
+  },
+  {
+    "title": "Online Majority Element In Subarray",
+    "slug": "online-majority-element-in-subarray",
+    "difficulty": "Hard",
+    "acRate": 40.9
+  }
+]

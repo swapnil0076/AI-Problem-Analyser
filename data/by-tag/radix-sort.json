@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Sort an Array",
+    "slug": "sort-an-array",
+    "difficulty": "Medium",
+    "acRate": 55.8
+  },
+  {
+    "title": "Maximum Gap",
+    "slug": "maximum-gap",
+    "difficulty": "Medium",
+    "acRate": 52.8
+  },
+  {
+    "title": "Query Kth Smallest Trimmed Number",
+    "slug": "query-kth-smallest-trimmed-number",
+    "difficulty": "Medium",
+    "acRate": 48
+  }
+]

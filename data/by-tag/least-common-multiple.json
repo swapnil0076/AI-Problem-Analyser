@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Mirror Reflection",
+    "slug": "mirror-reflection",
+    "difficulty": "Medium",
+    "acRate": 62.5
+  },
+  {
+    "title": "Replace Non-Coprime Numbers in Array",
+    "slug": "replace-non-coprime-numbers-in-array",
+    "difficulty": "Hard",
+    "acRate": 57.6
+  },
+  {
+    "title": "Find the Maximum Factor Score of Array",
+    "slug": "find-the-maximum-factor-score-of-array",
+    "difficulty": "Medium",
+    "acRate": 41.4
+  },
+  {
+    "title": "Nth Magical Number",
+    "slug": "nth-magical-number",
+    "difficulty": "Hard",
+    "acRate": 37
+  },
+  {
+    "title": "Minimize the Maximum of Two Arrays",
+    "slug": "minimize-the-maximum-of-two-arrays",
+    "difficulty": "Medium",
+    "acRate": 32.6
+  },
+  {
+    "title": "Ugly Number III",
+    "slug": "ugly-number-iii",
+    "difficulty": "Medium",
+    "acRate": 31.8
+  },
+  {
+    "title": "Count Connected Components in LCM Graph",
+    "slug": "count-connected-components-in-lcm-graph",
+    "difficulty": "Hard",
+    "acRate": 31.7
+  }
+]

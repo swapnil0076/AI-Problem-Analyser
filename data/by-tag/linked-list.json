@@ -1,0 +1,398 @@
+[
+  {
+    "title": "Insert Greatest Common Divisors in Linked List",
+    "slug": "insert-greatest-common-divisors-in-linked-list",
+    "difficulty": "Medium",
+    "acRate": 91.3
+  },
+  {
+    "title": "Merge Nodes in Between Zeros",
+    "slug": "merge-nodes-in-between-zeros",
+    "difficulty": "Medium",
+    "acRate": 89.7
+  },
+  {
+    "title": "Delete Node in a Linked List",
+    "slug": "delete-node-in-a-linked-list",
+    "difficulty": "Medium",
+    "acRate": 84.3
+  },
+  {
+    "title": "Maximum Twin Sum of a Linked List",
+    "slug": "maximum-twin-sum-of-a-linked-list",
+    "difficulty": "Medium",
+    "acRate": 83.3
+  },
+  {
+    "title": "Merge In Between Linked Lists",
+    "slug": "merge-in-between-linked-lists",
+    "difficulty": "Medium",
+    "acRate": 83.1
+  },
+  {
+    "title": "Convert Binary Number in a Linked List to Integer",
+    "slug": "convert-binary-number-in-a-linked-list-to-integer",
+    "difficulty": "Easy",
+    "acRate": 82.4
+  },
+  {
+    "title": "Middle of the Linked List",
+    "slug": "middle-of-the-linked-list",
+    "difficulty": "Easy",
+    "acRate": 82.3
+  },
+  {
+    "title": "Spiral Matrix IV",
+    "slug": "spiral-matrix-iv",
+    "difficulty": "Medium",
+    "acRate": 82.3
+  },
+  {
+    "title": "Reverse Linked List",
+    "slug": "reverse-linked-list",
+    "difficulty": "Easy",
+    "acRate": 80.9
+  },
+  {
+    "title": "Design Browser History",
+    "slug": "design-browser-history",
+    "difficulty": "Medium",
+    "acRate": 78.4
+  },
+  {
+    "title": "Remove Nodes From Linked List",
+    "slug": "remove-nodes-from-linked-list",
+    "difficulty": "Medium",
+    "acRate": 75.2
+  },
+  {
+    "title": "Flatten Binary Tree to Linked List",
+    "slug": "flatten-binary-tree-to-linked-list",
+    "difficulty": "Medium",
+    "acRate": 71.3
+  },
+  {
+    "title": "Split Linked List in Parts",
+    "slug": "split-linked-list-in-parts",
+    "difficulty": "Medium",
+    "acRate": 70.7
+  },
+  {
+    "title": "Swap Nodes in Pairs",
+    "slug": "swap-nodes-in-pairs",
+    "difficulty": "Medium",
+    "acRate": 70.1
+  },
+  {
+    "title": "Swapping Nodes in a Linked List",
+    "slug": "swapping-nodes-in-a-linked-list",
+    "difficulty": "Medium",
+    "acRate": 69.7
+  },
+  {
+    "title": "Find the Minimum and Maximum Number of Nodes Between Critical Points",
+    "slug": "find-the-minimum-and-maximum-number-of-nodes-between-critical-points",
+    "difficulty": "Medium",
+    "acRate": 69.4
+  },
+  {
+    "title": "Delete Nodes From Linked List Present in Array",
+    "slug": "delete-nodes-from-linked-list-present-in-array",
+    "difficulty": "Medium",
+    "acRate": 69.3
+  },
+  {
+    "title": "Merge Two Sorted Lists",
+    "slug": "merge-two-sorted-lists",
+    "difficulty": "Easy",
+    "acRate": 68.7
+  },
+  {
+    "title": "Design HashSet",
+    "slug": "design-hashset",
+    "difficulty": "Easy",
+    "acRate": 68.4
+  },
+  {
+    "title": "Populating Next Right Pointers in Each Node",
+    "slug": "populating-next-right-pointers-in-each-node",
+    "difficulty": "Medium",
+    "acRate": 67.6
+  },
+  {
+    "title": "Convert Sorted List to Binary Search Tree",
+    "slug": "convert-sorted-list-to-binary-search-tree",
+    "difficulty": "Medium",
+    "acRate": 67.2
+  },
+  {
+    "title": "Reverse Nodes in k-Group",
+    "slug": "reverse-nodes-in-k-group",
+    "difficulty": "Hard",
+    "acRate": 66.9
+  },
+  {
+    "title": "Design HashMap",
+    "slug": "design-hashmap",
+    "difficulty": "Easy",
+    "acRate": 66.8
+  },
+  {
+    "title": "Reorder List",
+    "slug": "reorder-list",
+    "difficulty": "Medium",
+    "acRate": 66
+  },
+  {
+    "title": "Minimum Pair Removal to Sort Array I",
+    "slug": "minimum-pair-removal-to-sort-array-i",
+    "difficulty": "Easy",
+    "acRate": 65.3
+  },
+  {
+    "title": "Sort List",
+    "slug": "sort-list",
+    "difficulty": "Medium",
+    "acRate": 65.1
+  },
+  {
+    "title": "Linked List Random Node",
+    "slug": "linked-list-random-node",
+    "difficulty": "Medium",
+    "acRate": 65.1
+  },
+  {
+    "title": "Design Circular Deque",
+    "slug": "design-circular-deque",
+    "difficulty": "Medium",
+    "acRate": 64.9
+  },
+  {
+    "title": "Reverse Nodes in Even Length Groups",
+    "slug": "reverse-nodes-in-even-length-groups",
+    "difficulty": "Medium",
+    "acRate": 64.9
+  },
+  {
+    "title": "Next Greater Node In Linked List",
+    "slug": "next-greater-node-in-linked-list",
+    "difficulty": "Medium",
+    "acRate": 64.6
+  },
+  {
+    "title": "Intersection of Two Linked Lists",
+    "slug": "intersection-of-two-linked-lists",
+    "difficulty": "Easy",
+    "acRate": 64.4
+  },
+  {
+    "title": "Copy List with Random Pointer",
+    "slug": "copy-list-with-random-pointer",
+    "difficulty": "Medium",
+    "acRate": 63.5
+  },
+  {
+    "title": "Flatten a Multilevel Doubly Linked List",
+    "slug": "flatten-a-multilevel-doubly-linked-list",
+    "difficulty": "Medium",
+    "acRate": 63.3
+  },
+  {
+    "title": "Add Two Numbers II",
+    "slug": "add-two-numbers-ii",
+    "difficulty": "Medium",
+    "acRate": 62.9
+  },
+  {
+    "title": "Odd Even Linked List",
+    "slug": "odd-even-linked-list",
+    "difficulty": "Medium",
+    "acRate": 62.7
+  },
+  {
+    "title": "Partition List",
+    "slug": "partition-list",
+    "difficulty": "Medium",
+    "acRate": 61.8
+  },
+  {
+    "title": "Double a Number Represented as a Linked List",
+    "slug": "double-a-number-represented-as-a-linked-list",
+    "difficulty": "Medium",
+    "acRate": 61.3
+  },
+  {
+    "title": "Delete the Middle Node of a Linked List",
+    "slug": "delete-the-middle-node-of-a-linked-list",
+    "difficulty": "Medium",
+    "acRate": 60.9
+  },
+  {
+    "title": "Merge k Sorted Lists",
+    "slug": "merge-k-sorted-lists",
+    "difficulty": "Hard",
+    "acRate": 60.3
+  },
+  {
+    "title": "Insertion Sort List",
+    "slug": "insertion-sort-list",
+    "difficulty": "Medium",
+    "acRate": 59.9
+  },
+  {
+    "title": "Design Skiplist",
+    "slug": "design-skiplist",
+    "difficulty": "Hard",
+    "acRate": 59.7
+  },
+  {
+    "title": "Linked List Cycle II",
+    "slug": "linked-list-cycle-ii",
+    "difficulty": "Medium",
+    "acRate": 58.8
+  },
+  {
+    "title": "Design Authentication Manager",
+    "slug": "design-authentication-manager",
+    "difficulty": "Medium",
+    "acRate": 58.7
+  },
+  {
+    "title": "Palindrome Linked List",
+    "slug": "palindrome-linked-list",
+    "difficulty": "Easy",
+    "acRate": 58.6
+  },
+  {
+    "title": "Design Front Middle Back Queue",
+    "slug": "design-front-middle-back-queue",
+    "difficulty": "Medium",
+    "acRate": 58.4
+  },
+  {
+    "title": "Linked List Components",
+    "slug": "linked-list-components",
+    "difficulty": "Medium",
+    "acRate": 58.1
+  },
+  {
+    "title": "Populating Next Right Pointers in Each Node II",
+    "slug": "populating-next-right-pointers-in-each-node-ii",
+    "difficulty": "Medium",
+    "acRate": 58
+  },
+  {
+    "title": "Remove Duplicates from Sorted List",
+    "slug": "remove-duplicates-from-sorted-list",
+    "difficulty": "Easy",
+    "acRate": 57.3
+  },
+  {
+    "title": "Remove Linked List Elements",
+    "slug": "remove-linked-list-elements",
+    "difficulty": "Easy",
+    "acRate": 55.2
+  },
+  {
+    "title": "Design Circular Queue",
+    "slug": "design-circular-queue",
+    "difficulty": "Medium",
+    "acRate": 55.2
+  },
+  {
+    "title": "Linked List Cycle",
+    "slug": "linked-list-cycle",
+    "difficulty": "Easy",
+    "acRate": 54.9
+  },
+  {
+    "title": "Remove Zero Sum Consecutive Nodes from Linked List",
+    "slug": "remove-zero-sum-consecutive-nodes-from-linked-list",
+    "difficulty": "Medium",
+    "acRate": 53.3
+  },
+  {
+    "title": "Remove Nth Node From End of List",
+    "slug": "remove-nth-node-from-end-of-list",
+    "difficulty": "Medium",
+    "acRate": 52.3
+  },
+  {
+    "title": "Remove Duplicates from Sorted List II",
+    "slug": "remove-duplicates-from-sorted-list-ii",
+    "difficulty": "Medium",
+    "acRate": 52.3
+  },
+  {
+    "title": "Reverse Linked List II",
+    "slug": "reverse-linked-list-ii",
+    "difficulty": "Medium",
+    "acRate": 52.1
+  },
+  {
+    "title": "Linked List in Binary Tree",
+    "slug": "linked-list-in-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 52
+  },
+  {
+    "title": "Design a Text Editor",
+    "slug": "design-a-text-editor",
+    "difficulty": "Hard",
+    "acRate": 51.4
+  },
+  {
+    "title": "LFU Cache",
+    "slug": "lfu-cache",
+    "difficulty": "Hard",
+    "acRate": 50
+  },
+  {
+    "title": "Add Two Numbers",
+    "slug": "add-two-numbers",
+    "difficulty": "Medium",
+    "acRate": 49.1
+  },
+  {
+    "title": "LRU Cache",
+    "slug": "lru-cache",
+    "difficulty": "Medium",
+    "acRate": 47.8
+  },
+  {
+    "title": "Design Twitter",
+    "slug": "design-twitter",
+    "difficulty": "Medium",
+    "acRate": 45.3
+  },
+  {
+    "title": "All O`one Data Structure",
+    "slug": "all-oone-data-structure",
+    "difficulty": "Hard",
+    "acRate": 44.5
+  },
+  {
+    "title": "Rotate List",
+    "slug": "rotate-list",
+    "difficulty": "Medium",
+    "acRate": 43.1
+  },
+  {
+    "title": "Minimum Pair Removal to Sort Array II",
+    "slug": "minimum-pair-removal-to-sort-array-ii",
+    "difficulty": "Hard",
+    "acRate": 38.8
+  },
+  {
+    "title": "Design Linked List",
+    "slug": "design-linked-list",
+    "difficulty": "Medium",
+    "acRate": 30.7
+  },
+  {
+    "title": "Steps to Make Array Non-decreasing",
+    "slug": "steps-to-make-array-non-decreasing",
+    "difficulty": "Medium",
+    "acRate": 25.1
+  }
+]

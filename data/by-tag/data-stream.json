@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Design an Ordered Stream",
+    "slug": "design-an-ordered-stream",
+    "difficulty": "Easy",
+    "acRate": 82.7
+  },
+  {
+    "title": "Number of Recent Calls",
+    "slug": "number-of-recent-calls",
+    "difficulty": "Easy",
+    "acRate": 78.9
+  },
+  {
+    "title": "Design Browser History",
+    "slug": "design-browser-history",
+    "difficulty": "Medium",
+    "acRate": 78.4
+  },
+  {
+    "title": "Online Stock Span",
+    "slug": "online-stock-span",
+    "difficulty": "Medium",
+    "acRate": 69.6
+  },
+  {
+    "title": "Design Ride Sharing System",
+    "slug": "design-ride-sharing-system",
+    "difficulty": "Medium",
+    "acRate": 63.4
+  },
+  {
+    "title": "Product of the Last K Numbers",
+    "slug": "product-of-the-last-k-numbers",
+    "difficulty": "Medium",
+    "acRate": 63
+  },
+  {
+    "title": "Kth Largest Element in a Stream",
+    "slug": "kth-largest-element-in-a-stream",
+    "difficulty": "Easy",
+    "acRate": 61.5
+  },
+  {
+    "title": "Sequentially Ordinal Rank Tracker",
+    "slug": "sequentially-ordinal-rank-tracker",
+    "difficulty": "Hard",
+    "acRate": 61.3
+  },
+  {
+    "title": "Data Stream as Disjoint Intervals",
+    "slug": "data-stream-as-disjoint-intervals",
+    "difficulty": "Hard",
+    "acRate": 60.5
+  },
+  {
+    "title": "Design Front Middle Back Queue",
+    "slug": "design-front-middle-back-queue",
+    "difficulty": "Medium",
+    "acRate": 58.4
+  },
+  {
+    "title": "Find Median from Data Stream",
+    "slug": "find-median-from-data-stream",
+    "difficulty": "Hard",
+    "acRate": 54.9
+  },
+  {
+    "title": "Detect Squares",
+    "slug": "detect-squares",
+    "difficulty": "Medium",
+    "acRate": 52.9
+  },
+  {
+    "title": "Stream of Characters",
+    "slug": "stream-of-characters",
+    "difficulty": "Hard",
+    "acRate": 52.7
+  },
+  {
+    "title": "Find Consecutive Integers from a Data Stream",
+    "slug": "find-consecutive-integers-from-a-data-stream",
+    "difficulty": "Medium",
+    "acRate": 51.6
+  },
+  {
+    "title": "Stock Price Fluctuation ",
+    "slug": "stock-price-fluctuation",
+    "difficulty": "Medium",
+    "acRate": 49.2
+  },
+  {
+    "title": "Finding MK Average",
+    "slug": "finding-mk-average",
+    "difficulty": "Hard",
+    "acRate": 38.9
+  }
+]

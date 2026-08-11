@@ -1,0 +1,332 @@
+[
+  {
+    "title": "Sum of All Subset XOR Totals",
+    "slug": "sum-of-all-subset-xor-totals",
+    "difficulty": "Easy",
+    "acRate": 90.1
+  },
+  {
+    "title": "Check If Digits Are Equal in String After Operations I",
+    "slug": "check-if-digits-are-equal-in-string-after-operations-i",
+    "difficulty": "Easy",
+    "acRate": 82.5
+  },
+  {
+    "title": "Find Triangular Sum of an Array",
+    "slug": "find-triangular-sum-of-an-array",
+    "difficulty": "Medium",
+    "acRate": 82
+  },
+  {
+    "title": "Count Sorted Vowel Strings",
+    "slug": "count-sorted-vowel-strings",
+    "difficulty": "Medium",
+    "acRate": 79.4
+  },
+  {
+    "title": "Distribute Candies Among Children I",
+    "slug": "distribute-candies-among-children-i",
+    "difficulty": "Easy",
+    "acRate": 76.7
+  },
+  {
+    "title": "Find the Count of Good Integers",
+    "slug": "find-the-count-of-good-integers",
+    "difficulty": "Hard",
+    "acRate": 69.3
+  },
+  {
+    "title": "Unique Paths",
+    "slug": "unique-paths",
+    "difficulty": "Medium",
+    "acRate": 67.2
+  },
+  {
+    "title": "Count All Valid Pickup and Delivery Options",
+    "slug": "count-all-valid-pickup-and-delivery-options",
+    "difficulty": "Hard",
+    "acRate": 64.9
+  },
+  {
+    "title": "Number of Ways to Rearrange Sticks With K Sticks Visible",
+    "slug": "number-of-ways-to-rearrange-sticks-with-k-sticks-visible",
+    "difficulty": "Hard",
+    "acRate": 62.3
+  },
+  {
+    "title": "Probability of a Two Boxes Having The Same Number of Distinct Balls",
+    "slug": "probability-of-a-two-boxes-having-the-same-number-of-distinct-balls",
+    "difficulty": "Hard",
+    "acRate": 61.6
+  },
+  {
+    "title": "Find Sum of Array Product of Magical Sequences",
+    "slug": "find-sum-of-array-product-of-magical-sequences",
+    "difficulty": "Hard",
+    "acRate": 61.4
+  },
+  {
+    "title": "Number of Music Playlists",
+    "slug": "number-of-music-playlists",
+    "difficulty": "Hard",
+    "acRate": 60.1
+  },
+  {
+    "title": "Poor Pigs",
+    "slug": "poor-pigs",
+    "difficulty": "Hard",
+    "acRate": 59.2
+  },
+  {
+    "title": "Count the Number of Computer Unlocking Permutations",
+    "slug": "count-the-number-of-computer-unlocking-permutations",
+    "difficulty": "Medium",
+    "acRate": 59
+  },
+  {
+    "title": "Sorted GCD Pair Queries",
+    "slug": "sorted-gcd-pair-queries",
+    "difficulty": "Hard",
+    "acRate": 58.5
+  },
+  {
+    "title": "Count the Number of Arrays with K Matching Adjacent Elements",
+    "slug": "count-the-number-of-arrays-with-k-matching-adjacent-elements",
+    "difficulty": "Hard",
+    "acRate": 58.2
+  },
+  {
+    "title": "Count the Number of Ideal Arrays",
+    "slug": "count-the-number-of-ideal-arrays",
+    "difficulty": "Hard",
+    "acRate": 56.9
+  },
+  {
+    "title": "Number of Strings Which Can Be Rearranged to Contain Substring",
+    "slug": "number-of-strings-which-can-be-rearranged-to-contain-substring",
+    "difficulty": "Medium",
+    "acRate": 56.7
+  },
+  {
+    "title": "Vowels of All Substrings",
+    "slug": "vowels-of-all-substrings",
+    "difficulty": "Medium",
+    "acRate": 55.7
+  },
+  {
+    "title": "Distribute Candies Among Children II",
+    "slug": "distribute-candies-among-children-ii",
+    "difficulty": "Medium",
+    "acRate": 55.6
+  },
+  {
+    "title": "Count Ways to Make Array With Product",
+    "slug": "count-ways-to-make-array-with-product",
+    "difficulty": "Hard",
+    "acRate": 55.4
+  },
+  {
+    "title": "Number of Ways to Reorder Array to Get Same BST",
+    "slug": "number-of-ways-to-reorder-array-to-get-same-bst",
+    "difficulty": "Hard",
+    "acRate": 54.2
+  },
+  {
+    "title": "Find the N-th Value After K Seconds",
+    "slug": "find-the-n-th-value-after-k-seconds",
+    "difficulty": "Medium",
+    "acRate": 54.1
+  },
+  {
+    "title": "Count Ways to Build Rooms in an Ant Colony",
+    "slug": "count-ways-to-build-rooms-in-an-ant-colony",
+    "difficulty": "Hard",
+    "acRate": 51.9
+  },
+  {
+    "title": "The Number of Beautiful Subsets",
+    "slug": "the-number-of-beautiful-subsets",
+    "difficulty": "Medium",
+    "acRate": 51
+  },
+  {
+    "title": "Sum of K-Digit Numbers in a Range",
+    "slug": "sum-of-k-digit-numbers-in-a-range",
+    "difficulty": "Hard",
+    "acRate": 50.9
+  },
+  {
+    "title": "Minimum Number of Operations to Make String Sorted",
+    "slug": "minimum-number-of-operations-to-make-string-sorted",
+    "difficulty": "Hard",
+    "acRate": 50.5
+  },
+  {
+    "title": "Count the Number of Good Partitions",
+    "slug": "count-the-number-of-good-partitions",
+    "difficulty": "Hard",
+    "acRate": 50.3
+  },
+  {
+    "title": "Count Number of Balanced Permutations",
+    "slug": "count-number-of-balanced-permutations",
+    "difficulty": "Hard",
+    "acRate": 49
+  },
+  {
+    "title": "Count Ways to Choose Coprime Integers from Rows",
+    "slug": "count-ways-to-choose-coprime-integers-from-rows",
+    "difficulty": "Hard",
+    "acRate": 48.7
+  },
+  {
+    "title": "Right Triangles",
+    "slug": "right-triangles",
+    "difficulty": "Medium",
+    "acRate": 48.5
+  },
+  {
+    "title": "Find the Count of Monotonic Pairs I",
+    "slug": "find-the-count-of-monotonic-pairs-i",
+    "difficulty": "Hard",
+    "acRate": 47.8
+  },
+  {
+    "title": "Number of Sets of K Non-Overlapping Line Segments",
+    "slug": "number-of-sets-of-k-non-overlapping-line-segments",
+    "difficulty": "Medium",
+    "acRate": 46.2
+  },
+  {
+    "title": "Kth Smallest Instructions",
+    "slug": "kth-smallest-instructions",
+    "difficulty": "Hard",
+    "acRate": 44.7
+  },
+  {
+    "title": "Smallest Palindromic Rearrangement II",
+    "slug": "smallest-palindromic-rearrangement-ii",
+    "difficulty": "Hard",
+    "acRate": 44.1
+  },
+  {
+    "title": "Count the Number of Infection Sequences",
+    "slug": "count-the-number-of-infection-sequences",
+    "difficulty": "Hard",
+    "acRate": 38.3
+  },
+  {
+    "title": "Count Anagrams",
+    "slug": "count-anagrams",
+    "difficulty": "Hard",
+    "acRate": 38.1
+  },
+  {
+    "title": "Find Number of Ways to Reach the K-th Stair",
+    "slug": "find-number-of-ways-to-reach-the-k-th-stair",
+    "difficulty": "Hard",
+    "acRate": 37.7
+  },
+  {
+    "title": "Number of Ways to Reach a Position After Exactly k Steps",
+    "slug": "number-of-ways-to-reach-a-position-after-exactly-k-steps",
+    "difficulty": "Medium",
+    "acRate": 37.2
+  },
+  {
+    "title": "Direction Assignments with Exactly K Visible People",
+    "slug": "direction-assignments-with-exactly-k-visible-people",
+    "difficulty": "Medium",
+    "acRate": 36.5
+  },
+  {
+    "title": "Manhattan Distances of All Arrangements of Pieces",
+    "slug": "manhattan-distances-of-all-arrangements-of-pieces",
+    "difficulty": "Hard",
+    "acRate": 35.9
+  },
+  {
+    "title": "Find Nth Smallest Integer With K One Bits",
+    "slug": "find-nth-smallest-integer-with-k-one-bits",
+    "difficulty": "Hard",
+    "acRate": 35.4
+  },
+  {
+    "title": "Permutations IV",
+    "slug": "permutations-iv",
+    "difficulty": "Hard",
+    "acRate": 34.6
+  },
+  {
+    "title": "Find the Number of Possible Ways for an Event",
+    "slug": "find-the-number-of-possible-ways-for-an-event",
+    "difficulty": "Hard",
+    "acRate": 34.4
+  },
+  {
+    "title": "Number of Effective Subsequences",
+    "slug": "number-of-effective-subsequences",
+    "difficulty": "Hard",
+    "acRate": 33
+  },
+  {
+    "title": "Ugly Number III",
+    "slug": "ugly-number-iii",
+    "difficulty": "Medium",
+    "acRate": 31.8
+  },
+  {
+    "title": "Count K-Subsequences of a String With Maximum Beauty",
+    "slug": "count-k-subsequences-of-a-string-with-maximum-beauty",
+    "difficulty": "Hard",
+    "acRate": 30.2
+  },
+  {
+    "title": "Count K-Reducible Numbers Less Than N",
+    "slug": "count-k-reducible-numbers-less-than-n",
+    "difficulty": "Hard",
+    "acRate": 28.7
+  },
+  {
+    "title": "Maximum Score with Co-Prime Element",
+    "slug": "maximum-score-with-co-prime-element",
+    "difficulty": "Hard",
+    "acRate": 28.7
+  },
+  {
+    "title": "Find the Count of Monotonic Pairs II",
+    "slug": "find-the-count-of-monotonic-pairs-ii",
+    "difficulty": "Hard",
+    "acRate": 25.2
+  },
+  {
+    "title": "Number of Integers With Popcount-Depth Equal to K I",
+    "slug": "number-of-integers-with-popcount-depth-equal-to-k-i",
+    "difficulty": "Hard",
+    "acRate": 23.3
+  },
+  {
+    "title": "Maximum and Minimum Sums of at Most Size K Subsequences",
+    "slug": "maximum-and-minimum-sums-of-at-most-size-k-subsequences",
+    "difficulty": "Medium",
+    "acRate": 22.2
+  },
+  {
+    "title": "Subsequences with a Unique Middle Mode I",
+    "slug": "subsequences-with-a-unique-middle-mode-i",
+    "difficulty": "Hard",
+    "acRate": 21.9
+  },
+  {
+    "title": "Kth Smallest Amount With Single Denomination Combination",
+    "slug": "kth-smallest-amount-with-single-denomination-combination",
+    "difficulty": "Hard",
+    "acRate": 20.4
+  },
+  {
+    "title": "Check If Digits Are Equal in String After Operations II",
+    "slug": "check-if-digits-are-equal-in-string-after-operations-ii",
+    "difficulty": "Hard",
+    "acRate": 14.4
+  }
+]

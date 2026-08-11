@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Remove Outermost Parentheses",
+    "slug": "remove-outermost-parentheses",
+    "difficulty": "Easy",
+    "acRate": 87.4
+  },
+  {
+    "title": "Maximum Nesting Depth of the Parentheses",
+    "slug": "maximum-nesting-depth-of-the-parentheses",
+    "difficulty": "Easy",
+    "acRate": 85
+  },
+  {
+    "title": "Generate Parentheses",
+    "slug": "generate-parentheses",
+    "difficulty": "Medium",
+    "acRate": 79
+  },
+  {
+    "title": "Minimum Number of Swaps to Make the String Balanced",
+    "slug": "minimum-number-of-swaps-to-make-the-string-balanced",
+    "difficulty": "Medium",
+    "acRate": 78
+  },
+  {
+    "title": "Minimum Add to Make Parentheses Valid",
+    "slug": "minimum-add-to-make-parentheses-valid",
+    "difficulty": "Medium",
+    "acRate": 74.3
+  },
+  {
+    "title": "Different Ways to Add Parentheses",
+    "slug": "different-ways-to-add-parentheses",
+    "difficulty": "Medium",
+    "acRate": 73.5
+  },
+  {
+    "title": "Maximum Nesting Depth of Two Valid Parentheses Strings",
+    "slug": "maximum-nesting-depth-of-two-valid-parentheses-strings",
+    "difficulty": "Medium",
+    "acRate": 72.1
+  },
+  {
+    "title": "Reverse Substrings Between Each Pair of Parentheses",
+    "slug": "reverse-substrings-between-each-pair-of-parentheses",
+    "difficulty": "Medium",
+    "acRate": 72.1
+  },
+  {
+    "title": "Score of Parentheses",
+    "slug": "score-of-parentheses",
+    "difficulty": "Medium",
+    "acRate": 63.5
+  },
+  {
+    "title": "Minimum Insertions to Balance a Parentheses String",
+    "slug": "minimum-insertions-to-balance-a-parentheses-string",
+    "difficulty": "Medium",
+    "acRate": 53.7
+  },
+  {
+    "title": "Check if a Parentheses String Can Be Valid",
+    "slug": "check-if-a-parentheses-string-can-be-valid",
+    "difficulty": "Medium",
+    "acRate": 45.2
+  },
+  {
+    "title": "Valid Parentheses",
+    "slug": "valid-parentheses",
+    "difficulty": "Easy",
+    "acRate": 44.7
+  },
+  {
+    "title": " Check if There Is a Valid Parentheses String Path",
+    "slug": "check-if-there-is-a-valid-parentheses-string-path",
+    "difficulty": "Hard",
+    "acRate": 40.6
+  },
+  {
+    "title": "Valid Parenthesis String",
+    "slug": "valid-parenthesis-string",
+    "difficulty": "Medium",
+    "acRate": 40.4
+  },
+  {
+    "title": "Longest Valid Parentheses",
+    "slug": "longest-valid-parentheses",
+    "difficulty": "Hard",
+    "acRate": 39.5
+  }
+]

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LeetCode AI Analyzer — Settings</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="popup-root">
+
+    <!-- Header -->
+    <header class="popup-header">
+      <div class="popup-brand">
+        <div class="popup-brand-icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="url(#pg1)" stroke-width="2.2" stroke-linejoin="round"/>
+            <path d="M2 17L12 22L22 17" stroke="url(#pg1)" stroke-width="2.2" stroke-linejoin="round"/>
+            <path d="M2 12L12 17L22 12" stroke="url(#pg1)" stroke-width="2.2" stroke-linejoin="round"/>
+            <defs>
+              <linearGradient id="pg1" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#a78bfa"/>
+                <stop offset="100%" style="stop-color:#60a5fa"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div>
+          <div class="popup-brand-name">LeetCode AI Analyzer</div>
+          <div class="popup-brand-sub">Settings</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Tabs -->
+    <div class="tab-bar">
+      <button class="tab-btn active" id="tab-settings" data-tab="settings">Settings</button>
+      <button class="tab-btn" id="tab-history" data-tab="history">History</button>
+    </div>
+
+    <!-- Settings Tab -->
+    <div class="tab-content" id="content-settings">
+
+      <!-- Provider Selection -->
+      <div class="form-group">
+        <label class="form-label">AI Provider</label>
+        <div class="provider-grid">
+          <button class="provider-btn active" id="provider-inferx" data-provider="inferx">
+            <span class="provider-logo">🔷</span>
+            <span class="provider-name">InferX</span>
+          </button>
+          <button class="provider-btn" id="provider-openai" data-provider="openai">
+            <span class="provider-logo">⚡</span>
+            <span class="provider-name">OpenAI</span>
+          </button>
+          <button class="provider-btn" id="provider-gemini" data-provider="gemini">
+            <span class="provider-logo">✦</span>
+            <span class="provider-name">Gemini</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Model Selection -->
+      <div class="form-group">
+        <label class="form-label" for="model-select">Model</label>
+        <select class="form-select" id="model-select">
+          <!-- Populated by JS based on provider -->
+        </select>
+      </div>
+
+      <!-- API Key -->
+      <div class="form-group">
+        <label class="form-label" for="api-key-input">
+          API Key
+          <span class="label-hint" id="api-key-hint">Your key is stored locally and never leaves your browser.</span>
+        </label>
+        <div class="input-wrapper">
+          <input
+            class="form-input"
+            type="password"
+            id="api-key-input"
+            placeholder="sk-..."
+            autocomplete="off"
+            spellcheck="false"
+          />
+          <button class="input-toggle" id="toggle-key-visibility" aria-label="Toggle API key visibility" title="Show/hide key">
+            <svg id="eye-icon" width="14" height="14" viewBox="0 0 24 24" fill="none">
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" stroke="currentColor" stroke-width="2"/>
+              <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </button>
+        </div>
+        <a class="get-key-link" id="get-key-link" href="#" target="_blank">Get an API key →</a>
+      </div>
+
+      <!-- Save Button -->
+      <button class="save-btn" id="save-btn">Save Settings</button>
+
+      <!-- Status Message -->
+      <div class="status-msg hidden" id="status-msg"></div>
+
+      <!-- Usage Note -->
+      <div class="info-box">
+        <div class="info-title">💡 How to use</div>
+        <ol class="info-list">
+          <li>Open any LeetCode problem</li>
+          <li>Write your solution in the editor</li>
+          <li>Click the <strong>AI Analyze</strong> button (bottom-right)</li>
+          <li>View results in the side panel</li>
+        </ol>
+      </div>
+
+    </div>
+
+    <!-- History Tab -->
+    <div class="tab-content hidden" id="content-history">
+      <div id="history-empty" class="history-empty hidden">
+        <p>No analyses yet.</p>
+        <p class="history-empty-sub">Analyze a problem to see your history here.</p>
+      </div>
+      <ul class="history-list" id="history-list"></ul>
+      <button class="clear-btn hidden" id="clear-history-btn">Clear History</button>
+    </div>
+
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

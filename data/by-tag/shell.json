@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Tenth Line",
+    "slug": "tenth-line",
+    "difficulty": "Easy",
+    "acRate": 37.4
+  },
+  {
+    "title": "Transpose File",
+    "slug": "transpose-file",
+    "difficulty": "Medium",
+    "acRate": 33.1
+  },
+  {
+    "title": "Valid Phone Numbers",
+    "slug": "valid-phone-numbers",
+    "difficulty": "Easy",
+    "acRate": 30.5
+  },
+  {
+    "title": "Word Frequency",
+    "slug": "word-frequency",
+    "difficulty": "Medium",
+    "acRate": 29.8
+  }
+]

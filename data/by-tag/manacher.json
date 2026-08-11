@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Shortest Palindrome",
+    "slug": "shortest-palindrome",
+    "difficulty": "Hard",
+    "acRate": 42.9
+  },
+  {
+    "title": "Longest Palindromic Substring",
+    "slug": "longest-palindromic-substring",
+    "difficulty": "Medium",
+    "acRate": 38.4
+  },
+  {
+    "title": "Maximum Product of the Length of Two Palindromic Substrings",
+    "slug": "maximum-product-of-the-length-of-two-palindromic-substrings",
+    "difficulty": "Hard",
+    "acRate": 31.8
+  }
+]

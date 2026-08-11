@@ -1,0 +1,242 @@
+[
+  {
+    "title": "Queries on Number of Points Inside a Circle",
+    "slug": "queries-on-number-of-points-inside-a-circle",
+    "difficulty": "Medium",
+    "acRate": 86.9
+  },
+  {
+    "title": "Minimum Time Visiting All Points",
+    "slug": "minimum-time-visiting-all-points",
+    "difficulty": "Easy",
+    "acRate": 84.8
+  },
+  {
+    "title": "Projection Area of 3D Shapes",
+    "slug": "projection-area-of-3d-shapes",
+    "difficulty": "Easy",
+    "acRate": 76.5
+  },
+  {
+    "title": "Matrix Cells in Distance Order",
+    "slug": "matrix-cells-in-distance-order",
+    "difficulty": "Easy",
+    "acRate": 74.5
+  },
+  {
+    "title": "Largest Triangle Area",
+    "slug": "largest-triangle-area",
+    "difficulty": "Easy",
+    "acRate": 72.1
+  },
+  {
+    "title": "Surface Area of 3D Shapes",
+    "slug": "surface-area-of-3d-shapes",
+    "difficulty": "Easy",
+    "acRate": 71.2
+  },
+  {
+    "title": "K Closest Points to Origin",
+    "slug": "k-closest-points-to-origin",
+    "difficulty": "Medium",
+    "acRate": 69.3
+  },
+  {
+    "title": "Find the Largest Area of Square Inside Two Rectangles",
+    "slug": "find-the-largest-area-of-square-inside-two-rectangles",
+    "difficulty": "Medium",
+    "acRate": 66.8
+  },
+  {
+    "title": "Find the Number of Ways to Place People II",
+    "slug": "find-the-number-of-ways-to-place-people-ii",
+    "difficulty": "Hard",
+    "acRate": 64.2
+  },
+  {
+    "title": "Find the Number of Ways to Place People I",
+    "slug": "find-the-number-of-ways-to-place-people-i",
+    "difficulty": "Medium",
+    "acRate": 64
+  },
+  {
+    "title": "Mirror Reflection",
+    "slug": "mirror-reflection",
+    "difficulty": "Medium",
+    "acRate": 62.5
+  },
+  {
+    "title": "Angles of a Triangle",
+    "slug": "angles-of-a-triangle",
+    "difficulty": "Medium",
+    "acRate": 62.4
+  },
+  {
+    "title": "Count Lattice Points Inside a Circle",
+    "slug": "count-lattice-points-inside-a-circle",
+    "difficulty": "Medium",
+    "acRate": 57
+  },
+  {
+    "title": "Minimum Cuts to Divide a Circle",
+    "slug": "minimum-cuts-to-divide-a-circle",
+    "difficulty": "Easy",
+    "acRate": 56.6
+  },
+  {
+    "title": "Minimum Area Rectangle II",
+    "slug": "minimum-area-rectangle-ii",
+    "difficulty": "Medium",
+    "acRate": 56
+  },
+  {
+    "title": "Minimum Area Rectangle",
+    "slug": "minimum-area-rectangle",
+    "difficulty": "Medium",
+    "acRate": 55.5
+  },
+  {
+    "title": "Erect the Fence",
+    "slug": "erect-the-fence",
+    "difficulty": "Hard",
+    "acRate": 53.3
+  },
+  {
+    "title": "Maximum Area Rectangle With Point Constraints I",
+    "slug": "maximum-area-rectangle-with-point-constraints-i",
+    "difficulty": "Medium",
+    "acRate": 52.3
+  },
+  {
+    "title": "Maximize the Distance Between Points on a Square",
+    "slug": "maximize-the-distance-between-points-on-a-square",
+    "difficulty": "Hard",
+    "acRate": 50.8
+  },
+  {
+    "title": "Circle and Rectangle Overlapping",
+    "slug": "circle-and-rectangle-overlapping",
+    "difficulty": "Medium",
+    "acRate": 50.4
+  },
+  {
+    "title": "Detonate the Maximum Bombs",
+    "slug": "detonate-the-maximum-bombs",
+    "difficulty": "Medium",
+    "acRate": 50.4
+  },
+  {
+    "title": "Rectangle Area",
+    "slug": "rectangle-area",
+    "difficulty": "Medium",
+    "acRate": 50.1
+  },
+  {
+    "title": "Count Number of Trapezoids I",
+    "slug": "count-number-of-trapezoids-i",
+    "difficulty": "Medium",
+    "acRate": 48.1
+  },
+  {
+    "title": "Rectangle Overlap",
+    "slug": "rectangle-overlap",
+    "difficulty": "Easy",
+    "acRate": 47
+  },
+  {
+    "title": "Valid Square",
+    "slug": "valid-square",
+    "difficulty": "Medium",
+    "acRate": 45.4
+  },
+  {
+    "title": "Generate Random Point in a Circle",
+    "slug": "generate-random-point-in-a-circle",
+    "difficulty": "Medium",
+    "acRate": 43.5
+  },
+  {
+    "title": "Maximum Number of Darts Inside of a Circular Dartboard",
+    "slug": "maximum-number-of-darts-inside-of-a-circular-dartboard",
+    "difficulty": "Hard",
+    "acRate": 41.4
+  },
+  {
+    "title": "Check If It Is a Straight Line",
+    "slug": "check-if-it-is-a-straight-line",
+    "difficulty": "Easy",
+    "acRate": 40.2
+  },
+  {
+    "title": "Valid Boomerang",
+    "slug": "valid-boomerang",
+    "difficulty": "Easy",
+    "acRate": 40.1
+  },
+  {
+    "title": "Count Number of Trapezoids II",
+    "slug": "count-number-of-trapezoids-ii",
+    "difficulty": "Hard",
+    "acRate": 39.7
+  },
+  {
+    "title": "Perfect Rectangle",
+    "slug": "perfect-rectangle",
+    "difficulty": "Hard",
+    "acRate": 38.8
+  },
+  {
+    "title": "Maximum Number of Visible Points",
+    "slug": "maximum-number-of-visible-points",
+    "difficulty": "Hard",
+    "acRate": 38.4
+  },
+  {
+    "title": "Self Crossing",
+    "slug": "self-crossing",
+    "difficulty": "Hard",
+    "acRate": 35.9
+  },
+  {
+    "title": "Best Position for a Service Centre",
+    "slug": "best-position-for-a-service-centre",
+    "difficulty": "Hard",
+    "acRate": 35.6
+  },
+  {
+    "title": "Minimize Manhattan Distances",
+    "slug": "minimize-manhattan-distances",
+    "difficulty": "Hard",
+    "acRate": 32.8
+  },
+  {
+    "title": "Max Points on a Line",
+    "slug": "max-points-on-a-line",
+    "difficulty": "Hard",
+    "acRate": 31.2
+  },
+  {
+    "title": "Find Maximum Area of a Triangle",
+    "slug": "find-maximum-area-of-a-triangle",
+    "difficulty": "Medium",
+    "acRate": 29.9
+  },
+  {
+    "title": "Minimum Lines to Represent a Line Chart",
+    "slug": "minimum-lines-to-represent-a-line-chart",
+    "difficulty": "Medium",
+    "acRate": 27.3
+  },
+  {
+    "title": "Check if the Rectangle Corner Is Reachable",
+    "slug": "check-if-the-rectangle-corner-is-reachable",
+    "difficulty": "Hard",
+    "acRate": 25.2
+  },
+  {
+    "title": "Maximum Area Rectangle With Point Constraints II",
+    "slug": "maximum-area-rectangle-with-point-constraints-ii",
+    "difficulty": "Hard",
+    "acRate": 23.6
+  }
+]

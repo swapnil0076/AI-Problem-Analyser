@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Stone Game IV",
+    "slug": "stone-game-iv",
+    "difficulty": "Hard",
+    "acRate": 65.2
+  },
+  {
+    "title": "Nim Game",
+    "slug": "nim-game",
+    "difficulty": "Easy",
+    "acRate": 60.3
+  },
+  {
+    "title": "Stone Game IX",
+    "slug": "stone-game-ix",
+    "difficulty": "Medium",
+    "acRate": 30.9
+  }
+]

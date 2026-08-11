@@ -1,0 +1,140 @@
+[
+  {
+    "title": "Count Subarrays With Fixed Bounds",
+    "slug": "count-subarrays-with-fixed-bounds",
+    "difficulty": "Hard",
+    "acRate": 69.2
+  },
+  {
+    "title": "Count Partitions With Max-Min Difference at Most K",
+    "slug": "count-partitions-with-max-min-difference-at-most-k",
+    "difficulty": "Medium",
+    "acRate": 58.4
+  },
+  {
+    "title": "Continuous Subarrays",
+    "slug": "continuous-subarrays",
+    "difficulty": "Medium",
+    "acRate": 58
+  },
+  {
+    "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
+    "slug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
+    "difficulty": "Medium",
+    "acRate": 57.9
+  },
+  {
+    "title": "Constrained Subsequence Sum",
+    "slug": "constrained-subsequence-sum",
+    "difficulty": "Hard",
+    "acRate": 56.5
+  },
+  {
+    "title": "Maximum Sum Circular Subarray",
+    "slug": "maximum-sum-circular-subarray",
+    "difficulty": "Medium",
+    "acRate": 51.1
+  },
+  {
+    "title": "Maximum Number of Tasks You Can Assign",
+    "slug": "maximum-number-of-tasks-you-can-assign",
+    "difficulty": "Hard",
+    "acRate": 50
+  },
+  {
+    "title": "Minimum Number of Coins for Fruits",
+    "slug": "minimum-number-of-coins-for-fruits",
+    "difficulty": "Medium",
+    "acRate": 49.2
+  },
+  {
+    "title": "Sliding Window Maximum",
+    "slug": "sliding-window-maximum",
+    "difficulty": "Hard",
+    "acRate": 49.1
+  },
+  {
+    "title": "Jump Game VI",
+    "slug": "jump-game-vi",
+    "difficulty": "Medium",
+    "acRate": 46.6
+  },
+  {
+    "title": "Count Subarrays With Cost Less Than or Equal to K",
+    "slug": "count-subarrays-with-cost-less-than-or-equal-to-k",
+    "difficulty": "Medium",
+    "acRate": 46.3
+  },
+  {
+    "title": "Max Value of Equation",
+    "slug": "max-value-of-equation",
+    "difficulty": "Hard",
+    "acRate": 45.2
+  },
+  {
+    "title": "Delivering Boxes from Storage to Ports",
+    "slug": "delivering-boxes-from-storage-to-ports",
+    "difficulty": "Hard",
+    "acRate": 40
+  },
+  {
+    "title": "Maximum Number of Robots Within Budget",
+    "slug": "maximum-number-of-robots-within-budget",
+    "difficulty": "Hard",
+    "acRate": 39
+  },
+  {
+    "title": "Minimum Partition Score",
+    "slug": "minimum-partition-score",
+    "difficulty": "Hard",
+    "acRate": 33.9
+  },
+  {
+    "title": "Maximum Subarray XOR with Bounded Range",
+    "slug": "maximum-subarray-xor-with-bounded-range",
+    "difficulty": "Hard",
+    "acRate": 33.5
+  },
+  {
+    "title": "Shortest Subarray with Sum at Least K",
+    "slug": "shortest-subarray-with-sum-at-least-k",
+    "difficulty": "Hard",
+    "acRate": 33
+  },
+  {
+    "title": "Maximum Sum of M Non-Overlapping Subarrays I",
+    "slug": "maximum-sum-of-m-non-overlapping-subarrays-i",
+    "difficulty": "Hard",
+    "acRate": 26.8
+  },
+  {
+    "title": "Longest Increasing Subsequence II",
+    "slug": "longest-increasing-subsequence-ii",
+    "difficulty": "Hard",
+    "acRate": 26.5
+  },
+  {
+    "title": "Count Non-Decreasing Subarrays After K Operations",
+    "slug": "count-non-decreasing-subarrays-after-k-operations",
+    "difficulty": "Hard",
+    "acRate": 25.3
+  },
+  {
+    "title": "Count Prime-Gap Balanced Subarrays",
+    "slug": "count-prime-gap-balanced-subarrays",
+    "difficulty": "Medium",
+    "acRate": 24.1
+  },
+  {
+    "title": "Find Maximum Non-decreasing Array Length",
+    "slug": "find-maximum-non-decreasing-array-length",
+    "difficulty": "Hard",
+    "acRate": 19
+  },
+  {
+    "title": "Maximum Sum of M Non-Overlapping Subarrays II",
+    "slug": "maximum-sum-of-m-non-overlapping-subarrays-ii",
+    "difficulty": "Hard",
+    "acRate": 16.8
+  }
+]

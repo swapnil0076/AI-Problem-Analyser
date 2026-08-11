@@ -1,0 +1,200 @@
+[
+  {
+    "title": "Find the City With the Smallest Number of Neighbors at a Threshold Distance",
+    "slug": "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+    "difficulty": "Medium",
+    "acRate": 73.6
+  },
+  {
+    "title": "Minimum Cost to Make at Least One Valid Path in a Grid",
+    "slug": "minimum-cost-to-make-at-least-one-valid-path-in-a-grid",
+    "difficulty": "Hard",
+    "acRate": 71.1
+  },
+  {
+    "title": "Minimum Obstacle Removal to Reach Corner",
+    "slug": "minimum-obstacle-removal-to-reach-corner",
+    "difficulty": "Hard",
+    "acRate": 71
+  },
+  {
+    "title": "Find Minimum Time to Reach Last Room II",
+    "slug": "find-minimum-time-to-reach-last-room-ii",
+    "difficulty": "Medium",
+    "acRate": 67.6
+  },
+  {
+    "title": "Path with Maximum Probability",
+    "slug": "path-with-maximum-probability",
+    "difficulty": "Medium",
+    "acRate": 65.7
+  },
+  {
+    "title": "Design Graph With Shortest Path Calculator",
+    "slug": "design-graph-with-shortest-path-calculator",
+    "difficulty": "Hard",
+    "acRate": 65.5
+  },
+  {
+    "title": "Evaluate Division",
+    "slug": "evaluate-division",
+    "difficulty": "Medium",
+    "acRate": 64.5
+  },
+  {
+    "title": "Minimum Cost to Convert String I",
+    "slug": "minimum-cost-to-convert-string-i",
+    "difficulty": "Medium",
+    "acRate": 63
+  },
+  {
+    "title": "Second Minimum Time to Reach Destination",
+    "slug": "second-minimum-time-to-reach-destination",
+    "difficulty": "Hard",
+    "acRate": 62.3
+  },
+  {
+    "title": "Minimum Cost Path with Edge Reversals",
+    "slug": "minimum-cost-path-with-edge-reversals",
+    "difficulty": "Medium",
+    "acRate": 61.8
+  },
+  {
+    "title": "Network Delay Time",
+    "slug": "network-delay-time",
+    "difficulty": "Medium",
+    "acRate": 61.3
+  },
+  {
+    "title": "Minimum Cost to Convert String II",
+    "slug": "minimum-cost-to-convert-string-ii",
+    "difficulty": "Hard",
+    "acRate": 59.2
+  },
+  {
+    "title": "Minimum Time to Visit a Cell In a Grid",
+    "slug": "minimum-time-to-visit-a-cell-in-a-grid",
+    "difficulty": "Hard",
+    "acRate": 56.1
+  },
+  {
+    "title": "Modify Graph Edge Weights",
+    "slug": "modify-graph-edge-weights",
+    "difficulty": "Hard",
+    "acRate": 55.6
+  },
+  {
+    "title": "Find Minimum Time to Reach Last Room I",
+    "slug": "find-minimum-time-to-reach-last-room-i",
+    "difficulty": "Medium",
+    "acRate": 55.5
+  },
+  {
+    "title": "Find a Safe Walk Through a Grid",
+    "slug": "find-a-safe-walk-through-a-grid",
+    "difficulty": "Medium",
+    "acRate": 55.4
+  },
+  {
+    "title": "Reachable Nodes In Subdivided Graph",
+    "slug": "reachable-nodes-in-subdivided-graph",
+    "difficulty": "Hard",
+    "acRate": 52.7
+  },
+  {
+    "title": "Number of Possible Sets of Closing Branches",
+    "slug": "number-of-possible-sets-of-closing-branches",
+    "difficulty": "Hard",
+    "acRate": 50.7
+  },
+  {
+    "title": "Network Recovery Pathways",
+    "slug": "network-recovery-pathways",
+    "difficulty": "Hard",
+    "acRate": 50.6
+  },
+  {
+    "title": "Find Edges in Shortest Paths",
+    "slug": "find-edges-in-shortest-paths",
+    "difficulty": "Hard",
+    "acRate": 46.6
+  },
+  {
+    "title": "Minimum Time to Reach Destination in Directed Graph",
+    "slug": "minimum-time-to-reach-destination-in-directed-graph",
+    "difficulty": "Medium",
+    "acRate": 45.6
+  },
+  {
+    "title": "Shortest Path With At Most K Consecutive Identical Characters",
+    "slug": "shortest-path-with-at-most-k-consecutive-identical-characters",
+    "difficulty": "Medium",
+    "acRate": 45.2
+  },
+  {
+    "title": "Minimize the Maximum Edge Weight of Graph",
+    "slug": "minimize-the-maximum-edge-weight-of-graph",
+    "difficulty": "Medium",
+    "acRate": 44.7
+  },
+  {
+    "title": "Minimum Cost of a Path With Special Roads",
+    "slug": "minimum-cost-of-a-path-with-special-roads",
+    "difficulty": "Medium",
+    "acRate": 43.8
+  },
+  {
+    "title": "Minimum Weighted Subgraph With the Required Paths",
+    "slug": "minimum-weighted-subgraph-with-the-required-paths",
+    "difficulty": "Hard",
+    "acRate": 43.2
+  },
+  {
+    "title": "Cheapest Flights Within K Stops",
+    "slug": "cheapest-flights-within-k-stops",
+    "difficulty": "Medium",
+    "acRate": 42.4
+  },
+  {
+    "title": "Number of Restricted Paths From First to Last Node",
+    "slug": "number-of-restricted-paths-from-first-to-last-node",
+    "difficulty": "Medium",
+    "acRate": 41.7
+  },
+  {
+    "title": "Minimum Time to Reach Target With Limited Power",
+    "slug": "minimum-time-to-reach-target-with-limited-power",
+    "difficulty": "Hard",
+    "acRate": 40.4
+  },
+  {
+    "title": "Minimum Time to Visit Disappearing Nodes",
+    "slug": "minimum-time-to-visit-disappearing-nodes",
+    "difficulty": "Medium",
+    "acRate": 38
+  },
+  {
+    "title": "Number of Ways to Arrive at Destination",
+    "slug": "number-of-ways-to-arrive-at-destination",
+    "difficulty": "Medium",
+    "acRate": 37.7
+  },
+  {
+    "title": "Minimum Cost to Buy Apples II",
+    "slug": "minimum-cost-to-buy-apples-ii",
+    "difficulty": "Hard",
+    "acRate": 32
+  },
+  {
+    "title": "Digit Operations to Make Two Integers Equal",
+    "slug": "digit-operations-to-make-two-integers-equal",
+    "difficulty": "Medium",
+    "acRate": 30.9
+  },
+  {
+    "title": "Minimum Time to Transport All Individuals",
+    "slug": "minimum-time-to-transport-all-individuals",
+    "difficulty": "Hard",
+    "acRate": 27.8
+  }
+]

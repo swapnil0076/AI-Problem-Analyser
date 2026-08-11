@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Minimum ASCII Delete Sum for Two Strings",
+    "slug": "minimum-ascii-delete-sum-for-two-strings",
+    "difficulty": "Medium",
+    "acRate": 71.1
+  },
+  {
+    "title": "Max Dot Product of Two Subsequences",
+    "slug": "max-dot-product-of-two-subsequences",
+    "difficulty": "Hard",
+    "acRate": 69.4
+  },
+  {
+    "title": "Delete Operation for Two Strings",
+    "slug": "delete-operation-for-two-strings",
+    "difficulty": "Medium",
+    "acRate": 66.1
+  },
+  {
+    "title": "Uncrossed Lines",
+    "slug": "uncrossed-lines",
+    "difficulty": "Medium",
+    "acRate": 65.5
+  },
+  {
+    "title": "Shortest Common Supersequence ",
+    "slug": "shortest-common-supersequence",
+    "difficulty": "Hard",
+    "acRate": 62.3
+  },
+  {
+    "title": "Longest Common Subsequence",
+    "slug": "longest-common-subsequence",
+    "difficulty": "Medium",
+    "acRate": 59.5
+  }
+]

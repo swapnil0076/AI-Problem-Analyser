@@ -1,0 +1,350 @@
+[
+  {
+    "title": "Maximum Binary Tree",
+    "slug": "maximum-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 86.4
+  },
+  {
+    "title": "Construct Binary Search Tree from Preorder Traversal",
+    "slug": "construct-binary-search-tree-from-preorder-traversal",
+    "difficulty": "Medium",
+    "acRate": 84.5
+  },
+  {
+    "title": "Final Prices With a Special Discount in a Shop",
+    "slug": "final-prices-with-a-special-discount-in-a-shop",
+    "difficulty": "Easy",
+    "acRate": 84.3
+  },
+  {
+    "title": "Minimum Number of Increments on Subarrays to Form a Target Array",
+    "slug": "minimum-number-of-increments-on-subarrays-to-form-a-target-array",
+    "difficulty": "Hard",
+    "acRate": 78.2
+  },
+  {
+    "title": "Next Greater Element I",
+    "slug": "next-greater-element-i",
+    "difficulty": "Easy",
+    "acRate": 76.7
+  },
+  {
+    "title": "Remove Nodes From Linked List",
+    "slug": "remove-nodes-from-linked-list",
+    "difficulty": "Medium",
+    "acRate": 75.2
+  },
+  {
+    "title": "Number of Visible People in a Queue",
+    "slug": "number-of-visible-people-in-a-queue",
+    "difficulty": "Hard",
+    "acRate": 73.4
+  },
+  {
+    "title": "Count Submatrices With All Ones",
+    "slug": "count-submatrices-with-all-ones",
+    "difficulty": "Medium",
+    "acRate": 71
+  },
+  {
+    "title": "Smallest Subsequence of Distinct Characters",
+    "slug": "smallest-subsequence-of-distinct-characters",
+    "difficulty": "Medium",
+    "acRate": 70.6
+  },
+  {
+    "title": "Online Stock Span",
+    "slug": "online-stock-span",
+    "difficulty": "Medium",
+    "acRate": 69.6
+  },
+  {
+    "title": "Next Greater Element II",
+    "slug": "next-greater-element-ii",
+    "difficulty": "Medium",
+    "acRate": 69
+  },
+  {
+    "title": "Daily Temperatures",
+    "slug": "daily-temperatures",
+    "difficulty": "Medium",
+    "acRate": 69
+  },
+  {
+    "title": "Trapping Rain Water",
+    "slug": "trapping-rain-water",
+    "difficulty": "Hard",
+    "acRate": 68
+  },
+  {
+    "title": "Minimum Cost Tree From Leaf Values",
+    "slug": "minimum-cost-tree-from-leaf-values",
+    "difficulty": "Medium",
+    "acRate": 67.9
+  },
+  {
+    "title": "Next Greater Node In Linked List",
+    "slug": "next-greater-node-in-linked-list",
+    "difficulty": "Medium",
+    "acRate": 64.6
+  },
+  {
+    "title": "Max Chunks To Make Sorted",
+    "slug": "max-chunks-to-make-sorted",
+    "difficulty": "Medium",
+    "acRate": 64.2
+  },
+  {
+    "title": "Maximum Score of a Good Subarray",
+    "slug": "maximum-score-of-a-good-subarray",
+    "difficulty": "Hard",
+    "acRate": 64.2
+  },
+  {
+    "title": "Sum of Subarray Ranges",
+    "slug": "sum-of-subarray-ranges",
+    "difficulty": "Medium",
+    "acRate": 61.8
+  },
+  {
+    "title": "Maximum Balanced Shipments",
+    "slug": "maximum-balanced-shipments",
+    "difficulty": "Medium",
+    "acRate": 61.6
+  },
+  {
+    "title": "Maximal Rectangle",
+    "slug": "maximal-rectangle",
+    "difficulty": "Hard",
+    "acRate": 59.5
+  },
+  {
+    "title": "Car Fleet II",
+    "slug": "car-fleet-ii",
+    "difficulty": "Hard",
+    "acRate": 58.3
+  },
+  {
+    "title": "Make Array Non-decreasing",
+    "slug": "make-array-non-decreasing",
+    "difficulty": "Medium",
+    "acRate": 57.7
+  },
+  {
+    "title": "Maximum Width Ramp",
+    "slug": "maximum-width-ramp",
+    "difficulty": "Medium",
+    "acRate": 55.9
+  },
+  {
+    "title": "Car Fleet",
+    "slug": "car-fleet",
+    "difficulty": "Medium",
+    "acRate": 55.5
+  },
+  {
+    "title": "Max Chunks To Make Sorted II",
+    "slug": "max-chunks-to-make-sorted-ii",
+    "difficulty": "Hard",
+    "acRate": 55
+  },
+  {
+    "title": "Remove Duplicate Letters",
+    "slug": "remove-duplicate-letters",
+    "difficulty": "Medium",
+    "acRate": 54.2
+  },
+  {
+    "title": "Apply Operations to Maximize Score",
+    "slug": "apply-operations-to-maximize-score",
+    "difficulty": "Hard",
+    "acRate": 53.7
+  },
+  {
+    "title": "Find the Most Competitive Subsequence",
+    "slug": "find-the-most-competitive-subsequence",
+    "difficulty": "Medium",
+    "acRate": 53.4
+  },
+  {
+    "title": "Minimum Operations to Convert All Elements to Zero",
+    "slug": "minimum-operations-to-convert-all-elements-to-zero",
+    "difficulty": "Medium",
+    "acRate": 53.1
+  },
+  {
+    "title": "Find Building Where Alice and Bob Can Meet",
+    "slug": "find-building-where-alice-and-bob-can-meet",
+    "difficulty": "Hard",
+    "acRate": 52.5
+  },
+  {
+    "title": "Shortest Subarray to be Removed to Make Array Sorted",
+    "slug": "shortest-subarray-to-be-removed-to-make-array-sorted",
+    "difficulty": "Medium",
+    "acRate": 51.3
+  },
+  {
+    "title": "Largest Rectangle in Histogram",
+    "slug": "largest-rectangle-in-histogram",
+    "difficulty": "Hard",
+    "acRate": 50.6
+  },
+  {
+    "title": "Count Bowl Subarrays",
+    "slug": "count-bowl-subarrays",
+    "difficulty": "Medium",
+    "acRate": 48.7
+  },
+  {
+    "title": "Subarray With Elements Greater Than Varying Threshold",
+    "slug": "subarray-with-elements-greater-than-varying-threshold",
+    "difficulty": "Hard",
+    "acRate": 45.9
+  },
+  {
+    "title": "Beautiful Towers I",
+    "slug": "beautiful-towers-i",
+    "difficulty": "Medium",
+    "acRate": 44.9
+  },
+  {
+    "title": "The Number of Weak Characters in the Game",
+    "slug": "the-number-of-weak-characters-in-the-game",
+    "difficulty": "Medium",
+    "acRate": 44.6
+  },
+  {
+    "title": "Next Greater Element IV",
+    "slug": "next-greater-element-iv",
+    "difficulty": "Hard",
+    "acRate": 42.5
+  },
+  {
+    "title": "Minimum Operations to Make Array Equal to Target",
+    "slug": "minimum-operations-to-make-array-equal-to-target",
+    "difficulty": "Hard",
+    "acRate": 41.7
+  },
+  {
+    "title": "Odd Even Jump",
+    "slug": "odd-even-jump",
+    "difficulty": "Hard",
+    "acRate": 41.5
+  },
+  {
+    "title": "Maximum Subarray Min-Product",
+    "slug": "maximum-subarray-min-product",
+    "difficulty": "Medium",
+    "acRate": 40.8
+  },
+  {
+    "title": "Smallest K-Length Subsequence With Occurrences of a Letter",
+    "slug": "smallest-k-length-subsequence-with-occurrences-of-a-letter",
+    "difficulty": "Hard",
+    "acRate": 40.1
+  },
+  {
+    "title": "Sum of Subarray Minimums",
+    "slug": "sum-of-subarray-minimums",
+    "difficulty": "Medium",
+    "acRate": 38.9
+  },
+  {
+    "title": "Shortest Unsorted Continuous Subarray",
+    "slug": "shortest-unsorted-continuous-subarray",
+    "difficulty": "Medium",
+    "acRate": 38.5
+  },
+  {
+    "title": "Longest Well-Performing Interval",
+    "slug": "longest-well-performing-interval",
+    "difficulty": "Medium",
+    "acRate": 38.1
+  },
+  {
+    "title": "Remove K Digits",
+    "slug": "remove-k-digits",
+    "difficulty": "Medium",
+    "acRate": 37.4
+  },
+  {
+    "title": "Beautiful Towers II",
+    "slug": "beautiful-towers-ii",
+    "difficulty": "Medium",
+    "acRate": 37
+  },
+  {
+    "title": "Create Maximum Number",
+    "slug": "create-maximum-number",
+    "difficulty": "Hard",
+    "acRate": 36.4
+  },
+  {
+    "title": "132 Pattern",
+    "slug": "132-pattern",
+    "difficulty": "Medium",
+    "acRate": 35
+  },
+  {
+    "title": "Find the Number of Subarrays Where Boundary Elements Are Maximum",
+    "slug": "find-the-number-of-subarrays-where-boundary-elements-are-maximum",
+    "difficulty": "Hard",
+    "acRate": 34
+  },
+  {
+    "title": "Maximum Sum Queries",
+    "slug": "maximum-sum-queries",
+    "difficulty": "Hard",
+    "acRate": 31.2
+  },
+  {
+    "title": "Sum of Total Strength of Wizards",
+    "slug": "sum-of-total-strength-of-wizards",
+    "difficulty": "Hard",
+    "acRate": 29.8
+  },
+  {
+    "title": "Count Good Subarrays",
+    "slug": "count-good-subarrays",
+    "difficulty": "Hard",
+    "acRate": 25.8
+  },
+  {
+    "title": "Maximum and Minimum Sums of at Most Size K Subarrays",
+    "slug": "maximum-and-minimum-sums-of-at-most-size-k-subarrays",
+    "difficulty": "Hard",
+    "acRate": 25.5
+  },
+  {
+    "title": "Count Non-Decreasing Subarrays After K Operations",
+    "slug": "count-non-decreasing-subarrays-after-k-operations",
+    "difficulty": "Hard",
+    "acRate": 25.3
+  },
+  {
+    "title": "Steps to Make Array Non-decreasing",
+    "slug": "steps-to-make-array-non-decreasing",
+    "difficulty": "Medium",
+    "acRate": 25.1
+  },
+  {
+    "title": "Minimum Number of Visited Cells in a Grid",
+    "slug": "minimum-number-of-visited-cells-in-a-grid",
+    "difficulty": "Hard",
+    "acRate": 24.1
+  },
+  {
+    "title": "Lexicographically Smallest String After Deleting Duplicate Characters",
+    "slug": "lexicographically-smallest-string-after-deleting-duplicate-characters",
+    "difficulty": "Hard",
+    "acRate": 21.2
+  },
+  {
+    "title": "Find Maximum Non-decreasing Array Length",
+    "slug": "find-maximum-non-decreasing-array-length",
+    "difficulty": "Hard",
+    "acRate": 19
+  }
+]

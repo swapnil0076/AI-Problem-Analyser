@@ -1,0 +1,1556 @@
+[
+  {
+    "title": "Sum of All Subset XOR Totals",
+    "slug": "sum-of-all-subset-xor-totals",
+    "difficulty": "Easy",
+    "acRate": 90.1
+  },
+  {
+    "title": "Count Number of Maximum Bitwise-OR Subsets",
+    "slug": "count-number-of-maximum-bitwise-or-subsets",
+    "difficulty": "Medium",
+    "acRate": 89.5
+  },
+  {
+    "title": "Generate Binary Strings Without Adjacent Zeros",
+    "slug": "generate-binary-strings-without-adjacent-zeros",
+    "difficulty": "Medium",
+    "acRate": 88.6
+  },
+  {
+    "title": "Count the Number of Consistent Strings",
+    "slug": "count-the-number-of-consistent-strings",
+    "difficulty": "Easy",
+    "acRate": 88.5
+  },
+  {
+    "title": "Find The Original Array of Prefix Xor",
+    "slug": "find-the-original-array-of-prefix-xor",
+    "difficulty": "Medium",
+    "acRate": 88.4
+  },
+  {
+    "title": "Find the Prefix Common Array of Two Arrays",
+    "slug": "find-the-prefix-common-array-of-two-arrays",
+    "difficulty": "Medium",
+    "acRate": 88.3
+  },
+  {
+    "title": "Minimum Bit Flips to Convert Number",
+    "slug": "minimum-bit-flips-to-convert-number",
+    "difficulty": "Easy",
+    "acRate": 87.9
+  },
+  {
+    "title": "XOR Operation in an Array",
+    "slug": "xor-operation-in-an-array",
+    "difficulty": "Easy",
+    "acRate": 87.8
+  },
+  {
+    "title": "Decode XORed Array",
+    "slug": "decode-xored-array",
+    "difficulty": "Easy",
+    "acRate": 87.5
+  },
+  {
+    "title": "Number of Steps to Reduce a Number to Zero",
+    "slug": "number-of-steps-to-reduce-a-number-to-zero",
+    "difficulty": "Easy",
+    "acRate": 85.9
+  },
+  {
+    "title": "Sum of Values at Indices With K Set Bits",
+    "slug": "sum-of-values-at-indices-with-k-set-bits",
+    "difficulty": "Easy",
+    "acRate": 85.8
+  },
+  {
+    "title": "Bitwise OR of Even Numbers in an Array",
+    "slug": "bitwise-or-of-even-numbers-in-an-array",
+    "difficulty": "Easy",
+    "acRate": 85.3
+  },
+  {
+    "title": "Minimum Number of Operations to Make Array XOR Equal to K",
+    "slug": "minimum-number-of-operations-to-make-array-xor-equal-to-k",
+    "difficulty": "Medium",
+    "acRate": 85.1
+  },
+  {
+    "title": "Construct the Minimum Bitwise Array I",
+    "slug": "construct-the-minimum-bitwise-array-i",
+    "difficulty": "Easy",
+    "acRate": 85
+  },
+  {
+    "title": "Count Triplets That Can Form Two Arrays of Equal XOR",
+    "slug": "count-triplets-that-can-form-two-arrays-of-equal-xor",
+    "difficulty": "Medium",
+    "acRate": 84.8
+  },
+  {
+    "title": "Maximum XOR for Each Query",
+    "slug": "maximum-xor-for-each-query",
+    "difficulty": "Medium",
+    "acRate": 84.6
+  },
+  {
+    "title": "Flipping an Image",
+    "slug": "flipping-an-image",
+    "difficulty": "Easy",
+    "acRate": 83.9
+  },
+  {
+    "title": "Unique Paths III",
+    "slug": "unique-paths-iii",
+    "difficulty": "Hard",
+    "acRate": 82.9
+  },
+  {
+    "title": "Subsets",
+    "slug": "subsets",
+    "difficulty": "Medium",
+    "acRate": 82.7
+  },
+  {
+    "title": "Sort Integers by The Number of 1 Bits",
+    "slug": "sort-integers-by-the-number-of-1-bits",
+    "difficulty": "Easy",
+    "acRate": 82.4
+  },
+  {
+    "title": "Find the K-th Character in String Game I",
+    "slug": "find-the-k-th-character-in-string-game-i",
+    "difficulty": "Easy",
+    "acRate": 81.6
+  },
+  {
+    "title": "Maximum Score Words Formed by Letters",
+    "slug": "maximum-score-words-formed-by-letters",
+    "difficulty": "Hard",
+    "acRate": 81.5
+  },
+  {
+    "title": "Counting Bits",
+    "slug": "counting-bits",
+    "difficulty": "Easy",
+    "acRate": 80.8
+  },
+  {
+    "title": "Largest Combination With Bitwise AND Greater Than Zero",
+    "slug": "largest-combination-with-bitwise-and-greater-than-zero",
+    "difficulty": "Medium",
+    "acRate": 80.7
+  },
+  {
+    "title": "Score After Flipping Matrix",
+    "slug": "score-after-flipping-matrix",
+    "difficulty": "Medium",
+    "acRate": 80.3
+  },
+  {
+    "title": "Minimum Operations to Make Binary Array Elements Equal to One I",
+    "slug": "minimum-operations-to-make-binary-array-elements-equal-to-one-i",
+    "difficulty": "Medium",
+    "acRate": 80.3
+  },
+  {
+    "title": "Smallest Number With All Set Bits",
+    "slug": "smallest-number-with-all-set-bits",
+    "difficulty": "Easy",
+    "acRate": 80.1
+  },
+  {
+    "title": "Maximum XOR After Operations ",
+    "slug": "maximum-xor-after-operations",
+    "difficulty": "Medium",
+    "acRate": 79.9
+  },
+  {
+    "title": "Neighboring Bitwise XOR",
+    "slug": "neighboring-bitwise-xor",
+    "difficulty": "Medium",
+    "acRate": 79.8
+  },
+  {
+    "title": "Find the XOR of Numbers Which Appear Twice",
+    "slug": "find-the-xor-of-numbers-which-appear-twice",
+    "difficulty": "Easy",
+    "acRate": 79.3
+  },
+  {
+    "title": "Divide Array Into Equal Pairs",
+    "slug": "divide-array-into-equal-pairs",
+    "difficulty": "Easy",
+    "acRate": 79.2
+  },
+  {
+    "title": "Prime Number of Set Bits in Binary Representation",
+    "slug": "prime-number-of-set-bits-in-binary-representation",
+    "difficulty": "Easy",
+    "acRate": 79
+  },
+  {
+    "title": "Valid Binary Strings With Cost Limit",
+    "slug": "valid-binary-strings-with-cost-limit",
+    "difficulty": "Medium",
+    "acRate": 78.9
+  },
+  {
+    "title": "Minimum One Bit Operations to Make Integers Zero",
+    "slug": "minimum-one-bit-operations-to-make-integers-zero",
+    "difficulty": "Hard",
+    "acRate": 78.2
+  },
+  {
+    "title": "Single Number",
+    "slug": "single-number",
+    "difficulty": "Easy",
+    "acRate": 78.1
+  },
+  {
+    "title": "XOR Queries of a Subarray",
+    "slug": "xor-queries-of-a-subarray",
+    "difficulty": "Medium",
+    "acRate": 78
+  },
+  {
+    "title": "Two Out of Three",
+    "slug": "two-out-of-three",
+    "difficulty": "Easy",
+    "acRate": 77.7
+  },
+  {
+    "title": "Number of 1 Bits",
+    "slug": "number-of-1-bits",
+    "difficulty": "Easy",
+    "acRate": 77.3
+  },
+  {
+    "title": "Hamming Distance",
+    "slug": "hamming-distance",
+    "difficulty": "Easy",
+    "acRate": 77
+  },
+  {
+    "title": "Minimum Number of Flips to Reverse Binary String",
+    "slug": "minimum-number-of-flips-to-reverse-binary-string",
+    "difficulty": "Easy",
+    "acRate": 77
+  },
+  {
+    "title": "Maximum Strong Pair XOR I",
+    "slug": "maximum-strong-pair-xor-i",
+    "difficulty": "Easy",
+    "acRate": 76.4
+  },
+  {
+    "title": "Letter Case Permutation",
+    "slug": "letter-case-permutation",
+    "difficulty": "Medium",
+    "acRate": 76
+  },
+  {
+    "title": "Minimum Score After Removals on a Tree",
+    "slug": "minimum-score-after-removals-on-a-tree",
+    "difficulty": "Hard",
+    "acRate": 76
+  },
+  {
+    "title": "Find the Longest Substring Containing Vowels in Even Counts",
+    "slug": "find-the-longest-substring-containing-vowels-in-even-counts",
+    "difficulty": "Medium",
+    "acRate": 75.6
+  },
+  {
+    "title": "First Letter to Appear Twice",
+    "slug": "first-letter-to-appear-twice",
+    "difficulty": "Easy",
+    "acRate": 75.1
+  },
+  {
+    "title": "Binary Gap",
+    "slug": "binary-gap",
+    "difficulty": "Easy",
+    "acRate": 74.4
+  },
+  {
+    "title": "Number of Even and Odd Bits",
+    "slug": "number-of-even-and-odd-bits",
+    "difficulty": "Easy",
+    "acRate": 74
+  },
+  {
+    "title": "Unique Length-3 Palindromic Subsequences",
+    "slug": "unique-length-3-palindromic-subsequences",
+    "difficulty": "Medium",
+    "acRate": 73.8
+  },
+  {
+    "title": "Count Pairs Of Similar Strings",
+    "slug": "count-pairs-of-similar-strings",
+    "difficulty": "Easy",
+    "acRate": 73.8
+  },
+  {
+    "title": "Find the K-or of an Array",
+    "slug": "find-the-k-or-of-an-array",
+    "difficulty": "Easy",
+    "acRate": 73.1
+  },
+  {
+    "title": "Circular Permutation in Binary Representation",
+    "slug": "circular-permutation-in-binary-representation",
+    "difficulty": "Medium",
+    "acRate": 73
+  },
+  {
+    "title": "Minimum Number of Flips to Convert Binary Matrix to Zero Matrix",
+    "slug": "minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix",
+    "difficulty": "Hard",
+    "acRate": 73
+  },
+  {
+    "title": "Count Complete Tree Nodes",
+    "slug": "count-complete-tree-nodes",
+    "difficulty": "Medium",
+    "acRate": 72.9
+  },
+  {
+    "title": "Missing Number",
+    "slug": "missing-number",
+    "difficulty": "Easy",
+    "acRate": 72.5
+  },
+  {
+    "title": "Minimum Flips to Make a OR b Equal to c",
+    "slug": "minimum-flips-to-make-a-or-b-equal-to-c",
+    "difficulty": "Medium",
+    "acRate": 72.1
+  },
+  {
+    "title": "Number of Ways to Assign Edge Weights II",
+    "slug": "number-of-ways-to-assign-edge-weights-ii",
+    "difficulty": "Hard",
+    "acRate": 71.9
+  },
+  {
+    "title": "Check if Bitwise OR Has Trailing Zeros",
+    "slug": "check-if-bitwise-or-has-trailing-zeros",
+    "difficulty": "Easy",
+    "acRate": 71.6
+  },
+  {
+    "title": "Maximum Bitwise XOR After Rearrangement",
+    "slug": "maximum-bitwise-xor-after-rearrangement",
+    "difficulty": "Medium",
+    "acRate": 71.5
+  },
+  {
+    "title": "Find Xor-Beauty of Array",
+    "slug": "find-xor-beauty-of-array",
+    "difficulty": "Medium",
+    "acRate": 71.2
+  },
+  {
+    "title": "Number Complement",
+    "slug": "number-complement",
+    "difficulty": "Easy",
+    "acRate": 70.5
+  },
+  {
+    "title": "Single Number III",
+    "slug": "single-number-iii",
+    "difficulty": "Medium",
+    "acRate": 70.2
+  },
+  {
+    "title": "Fair Distribution of Cookies",
+    "slug": "fair-distribution-of-cookies",
+    "difficulty": "Medium",
+    "acRate": 70.1
+  },
+  {
+    "title": "Binary Number with Alternating Bits",
+    "slug": "binary-number-with-alternating-bits",
+    "difficulty": "Easy",
+    "acRate": 70
+  },
+  {
+    "title": "Find the Maximum Sum of Node Values",
+    "slug": "find-the-maximum-sum-of-node-values",
+    "difficulty": "Hard",
+    "acRate": 69.4
+  },
+  {
+    "title": "Reverse Bits",
+    "slug": "reverse-bits",
+    "difficulty": "Easy",
+    "acRate": 69.1
+  },
+  {
+    "title": "Number of Good Ways to Split a String",
+    "slug": "number-of-good-ways-to-split-a-string",
+    "difficulty": "Medium",
+    "acRate": 68.5
+  },
+  {
+    "title": "Pseudo-Palindromic Paths in a Binary Tree",
+    "slug": "pseudo-palindromic-paths-in-a-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 68.4
+  },
+  {
+    "title": "Minimum Cost Walk in Weighted Graph",
+    "slug": "minimum-cost-walk-in-weighted-graph",
+    "difficulty": "Hard",
+    "acRate": 68
+  },
+  {
+    "title": "Single Number II",
+    "slug": "single-number-ii",
+    "difficulty": "Medium",
+    "acRate": 67.6
+  },
+  {
+    "title": "Count Subtrees With Max Distance Between Cities",
+    "slug": "count-subtrees-with-max-distance-between-cities",
+    "difficulty": "Hard",
+    "acRate": 67.5
+  },
+  {
+    "title": "Decode XORed Permutation",
+    "slug": "decode-xored-permutation",
+    "difficulty": "Medium",
+    "acRate": 67.2
+  },
+  {
+    "title": "Chalkboard XOR Game",
+    "slug": "chalkboard-xor-game",
+    "difficulty": "Hard",
+    "acRate": 66.9
+  },
+  {
+    "title": "Bitwise XOR of All Pairings",
+    "slug": "bitwise-xor-of-all-pairings",
+    "difficulty": "Medium",
+    "acRate": 66.9
+  },
+  {
+    "title": "Concatenation of Consecutive Binary Numbers",
+    "slug": "concatenation-of-consecutive-binary-numbers",
+    "difficulty": "Medium",
+    "acRate": 66.7
+  },
+  {
+    "title": "Construct the Minimum Bitwise Array II",
+    "slug": "construct-the-minimum-bitwise-array-ii",
+    "difficulty": "Medium",
+    "acRate": 66.7
+  },
+  {
+    "title": "Count Monobit Integers",
+    "slug": "count-monobit-integers",
+    "difficulty": "Easy",
+    "acRate": 66.7
+  },
+  {
+    "title": "Number of Wonderful Substrings",
+    "slug": "number-of-wonderful-substrings",
+    "difficulty": "Medium",
+    "acRate": 66.6
+  },
+  {
+    "title": "Find if Array Can Be Sorted",
+    "slug": "find-if-array-can-be-sorted",
+    "difficulty": "Medium",
+    "acRate": 66.4
+  },
+  {
+    "title": "Shortest Path Visiting All Nodes",
+    "slug": "shortest-path-visiting-all-nodes",
+    "difficulty": "Hard",
+    "acRate": 66.2
+  },
+  {
+    "title": "Binary Watch",
+    "slug": "binary-watch",
+    "difficulty": "Easy",
+    "acRate": 66.1
+  },
+  {
+    "title": "Gray Code",
+    "slug": "gray-code",
+    "difficulty": "Medium",
+    "acRate": 65.7
+  },
+  {
+    "title": "Maximum Possible Number by Binary Concatenation",
+    "slug": "maximum-possible-number-by-binary-concatenation",
+    "difficulty": "Medium",
+    "acRate": 65.7
+  },
+  {
+    "title": "Longest Subarray With Maximum Bitwise AND",
+    "slug": "longest-subarray-with-maximum-bitwise-and",
+    "difficulty": "Medium",
+    "acRate": 65.4
+  },
+  {
+    "title": "Beautiful Arrangement",
+    "slug": "beautiful-arrangement",
+    "difficulty": "Medium",
+    "acRate": 64.9
+  },
+  {
+    "title": "Maximum Number of Achievable Transfer Requests",
+    "slug": "maximum-number-of-achievable-transfer-requests",
+    "difficulty": "Hard",
+    "acRate": 64.8
+  },
+  {
+    "title": "Maximum Compatibility Score Sum",
+    "slug": "maximum-compatibility-score-sum",
+    "difficulty": "Medium",
+    "acRate": 64.8
+  },
+  {
+    "title": "Longest Nice Subarray",
+    "slug": "longest-nice-subarray",
+    "difficulty": "Medium",
+    "acRate": 64.8
+  },
+  {
+    "title": "Find the Duplicate Number",
+    "slug": "find-the-duplicate-number",
+    "difficulty": "Medium",
+    "acRate": 64.7
+  },
+  {
+    "title": "Find Kth Largest XOR Coordinate Value",
+    "slug": "find-kth-largest-xor-coordinate-value",
+    "difficulty": "Medium",
+    "acRate": 64.6
+  },
+  {
+    "title": "Longest Nice Substring",
+    "slug": "longest-nice-substring",
+    "difficulty": "Easy",
+    "acRate": 64.6
+  },
+  {
+    "title": "Path Existence Queries in a Graph II",
+    "slug": "path-existence-queries-in-a-graph-ii",
+    "difficulty": "Hard",
+    "acRate": 63.8
+  },
+  {
+    "title": "Number of Steps to Reduce a Number in Binary Representation to One",
+    "slug": "number-of-steps-to-reduce-a-number-in-binary-representation-to-one",
+    "difficulty": "Medium",
+    "acRate": 63.7
+  },
+  {
+    "title": "Complement of Base 10 Integer",
+    "slug": "complement-of-base-10-integer",
+    "difficulty": "Easy",
+    "acRate": 63.4
+  },
+  {
+    "title": "Number of Bit Changes to Make Two Integers Equal",
+    "slug": "number-of-bit-changes-to-make-two-integers-equal",
+    "difficulty": "Easy",
+    "acRate": 63.4
+  },
+  {
+    "title": "Minimum Operations to Reduce an Integer to 0",
+    "slug": "minimum-operations-to-reduce-an-integer-to-0",
+    "difficulty": "Medium",
+    "acRate": 63.1
+  },
+  {
+    "title": "Non-decreasing Subsequences",
+    "slug": "non-decreasing-subsequences",
+    "difficulty": "Medium",
+    "acRate": 63
+  },
+  {
+    "title": "Minimum Numbers of Function Calls to Make Target Array",
+    "slug": "minimum-numbers-of-function-calls-to-make-target-array",
+    "difficulty": "Medium",
+    "acRate": 62.8
+  },
+  {
+    "title": "Find XOR Sum of All Pairs Bitwise AND",
+    "slug": "find-xor-sum-of-all-pairs-bitwise-and",
+    "difficulty": "Hard",
+    "acRate": 62.8
+  },
+  {
+    "title": "Maximum Product of the Length of Two Palindromic Subsequences",
+    "slug": "maximum-product-of-the-length-of-two-palindromic-subsequences",
+    "difficulty": "Medium",
+    "acRate": 62.7
+  },
+  {
+    "title": "Minimum Number of K Consecutive Bit Flips",
+    "slug": "minimum-number-of-k-consecutive-bit-flips",
+    "difficulty": "Hard",
+    "acRate": 62.4
+  },
+  {
+    "title": "Minimum Operations to Collect Elements",
+    "slug": "minimum-operations-to-collect-elements",
+    "difficulty": "Easy",
+    "acRate": 62.3
+  },
+  {
+    "title": "Count Connected Subgraphs with Even Node Sum",
+    "slug": "count-connected-subgraphs-with-even-node-sum",
+    "difficulty": "Hard",
+    "acRate": 62.3
+  },
+  {
+    "title": "Minimize XOR",
+    "slug": "minimize-xor",
+    "difficulty": "Medium",
+    "acRate": 62.2
+  },
+  {
+    "title": "Smallest Subarrays With Maximum Bitwise OR",
+    "slug": "smallest-subarrays-with-maximum-bitwise-or",
+    "difficulty": "Medium",
+    "acRate": 61.9
+  },
+  {
+    "title": "Subsets II",
+    "slug": "subsets-ii",
+    "difficulty": "Medium",
+    "acRate": 61.8
+  },
+  {
+    "title": "Check If a String Contains All Binary Codes of Size K",
+    "slug": "check-if-a-string-contains-all-binary-codes-of-size-k",
+    "difficulty": "Medium",
+    "acRate": 61.6
+  },
+  {
+    "title": "Maximum Product of Word Lengths",
+    "slug": "maximum-product-of-word-lengths",
+    "difficulty": "Medium",
+    "acRate": 61.5
+  },
+  {
+    "title": "Find Sum of Array Product of Magical Sequences",
+    "slug": "find-sum-of-array-product-of-magical-sequences",
+    "difficulty": "Hard",
+    "acRate": 61.4
+  },
+  {
+    "title": "Range Product Queries of Powers",
+    "slug": "range-product-queries-of-powers",
+    "difficulty": "Medium",
+    "acRate": 61.2
+  },
+  {
+    "title": "Minimum Operations to Equalize Array",
+    "slug": "minimum-operations-to-equalize-array",
+    "difficulty": "Easy",
+    "acRate": 60.9
+  },
+  {
+    "title": "Find the Difference",
+    "slug": "find-the-difference",
+    "difficulty": "Easy",
+    "acRate": 60.6
+  },
+  {
+    "title": "Pyramid Transition Matrix",
+    "slug": "pyramid-transition-matrix",
+    "difficulty": "Medium",
+    "acRate": 60.6
+  },
+  {
+    "title": "Triples with Bitwise AND Equal To Zero",
+    "slug": "triples-with-bitwise-and-equal-to-zero",
+    "difficulty": "Hard",
+    "acRate": 60.4
+  },
+  {
+    "title": "Minimum Operations to Make Array Elements Zero",
+    "slug": "minimum-operations-to-make-array-elements-zero",
+    "difficulty": "Hard",
+    "acRate": 60.1
+  },
+  {
+    "title": "Minimum Impossible OR",
+    "slug": "minimum-impossible-or",
+    "difficulty": "Medium",
+    "acRate": 59.4
+  },
+  {
+    "title": "Maximum XOR With an Element From Array",
+    "slug": "maximum-xor-with-an-element-from-array",
+    "difficulty": "Hard",
+    "acRate": 59.2
+  },
+  {
+    "title": "Sum of Compatible Numbers in Range I",
+    "slug": "sum-of-compatible-numbers-in-range-i",
+    "difficulty": "Easy",
+    "acRate": 59
+  },
+  {
+    "title": "Binary String With Substrings Representing 1 To N",
+    "slug": "binary-string-with-substrings-representing-1-to-n",
+    "difficulty": "Medium",
+    "acRate": 58.7
+  },
+  {
+    "title": "Add Binary",
+    "slug": "add-binary",
+    "difficulty": "Easy",
+    "acRate": 58.5
+  },
+  {
+    "title": "Maximum Rows Covered by Columns",
+    "slug": "maximum-rows-covered-by-columns",
+    "difficulty": "Medium",
+    "acRate": 58.2
+  },
+  {
+    "title": "Minimum Operations to Make the Integer Zero",
+    "slug": "minimum-operations-to-make-the-integer-zero",
+    "difficulty": "Medium",
+    "acRate": 58
+  },
+  {
+    "title": "Maximize Score After N Operations",
+    "slug": "maximize-score-after-n-operations",
+    "difficulty": "Hard",
+    "acRate": 57.9
+  },
+  {
+    "title": "Number of Unique XOR Triplets I",
+    "slug": "number-of-unique-xor-triplets-i",
+    "difficulty": "Medium",
+    "acRate": 57.7
+  },
+  {
+    "title": "Bitwise ORs of Subarrays",
+    "slug": "bitwise-ors-of-subarrays",
+    "difficulty": "Medium",
+    "acRate": 56.9
+  },
+  {
+    "title": "Sum of Two Integers",
+    "slug": "sum-of-two-integers",
+    "difficulty": "Medium",
+    "acRate": 55.9
+  },
+  {
+    "title": "Smallest Sufficient Team",
+    "slug": "smallest-sufficient-team",
+    "difficulty": "Hard",
+    "acRate": 55.8
+  },
+  {
+    "title": "Total Hamming Distance",
+    "slug": "total-hamming-distance",
+    "difficulty": "Medium",
+    "acRate": 55.3
+  },
+  {
+    "title": "Minimum Array End",
+    "slug": "minimum-array-end",
+    "difficulty": "Medium",
+    "acRate": 55.3
+  },
+  {
+    "title": "Shortest Path to Get All Keys",
+    "slug": "shortest-path-to-get-all-keys",
+    "difficulty": "Hard",
+    "acRate": 54.9
+  },
+  {
+    "title": "Maximum Length of a Concatenated String with Unique Characters",
+    "slug": "maximum-length-of-a-concatenated-string-with-unique-characters",
+    "difficulty": "Medium",
+    "acRate": 54.9
+  },
+  {
+    "title": "Convert a Number to Hexadecimal",
+    "slug": "convert-a-number-to-hexadecimal",
+    "difficulty": "Easy",
+    "acRate": 54.7
+  },
+  {
+    "title": "Count the Number of Beautiful Subarrays",
+    "slug": "count-the-number-of-beautiful-subarrays",
+    "difficulty": "Medium",
+    "acRate": 54.6
+  },
+  {
+    "title": "Maximum Students Taking Exam",
+    "slug": "maximum-students-taking-exam",
+    "difficulty": "Hard",
+    "acRate": 54.3
+  },
+  {
+    "title": "Repeated DNA Sequences",
+    "slug": "repeated-dna-sequences",
+    "difficulty": "Medium",
+    "acRate": 53.8
+  },
+  {
+    "title": "Maximum XOR of Two Numbers in an Array",
+    "slug": "maximum-xor-of-two-numbers-in-an-array",
+    "difficulty": "Medium",
+    "acRate": 53.7
+  },
+  {
+    "title": "Binary Prefix Divisible By 5",
+    "slug": "binary-prefix-divisible-by-5",
+    "difficulty": "Easy",
+    "acRate": 53.7
+  },
+  {
+    "title": "Maximize the Number of Partitions After Operations",
+    "slug": "maximize-the-number-of-partitions-after-operations",
+    "difficulty": "Hard",
+    "acRate": 53.3
+  },
+  {
+    "title": "Number of Unique XOR Triplets II",
+    "slug": "number-of-unique-xor-triplets-ii",
+    "difficulty": "Medium",
+    "acRate": 52.9
+  },
+  {
+    "title": "Maximum Good People Based on Statements",
+    "slug": "maximum-good-people-based-on-statements",
+    "difficulty": "Hard",
+    "acRate": 52.8
+  },
+  {
+    "title": "Shopping Offers",
+    "slug": "shopping-offers",
+    "difficulty": "Medium",
+    "acRate": 52.7
+  },
+  {
+    "title": "Power of Four",
+    "slug": "power-of-four",
+    "difficulty": "Easy",
+    "acRate": 52.5
+  },
+  {
+    "title": "Maximum Points in an Archery Competition",
+    "slug": "maximum-points-in-an-archery-competition",
+    "difficulty": "Medium",
+    "acRate": 52.3
+  },
+  {
+    "title": "Minimum Operations to Make Binary Palindrome",
+    "slug": "minimum-operations-to-make-binary-palindrome",
+    "difficulty": "Medium",
+    "acRate": 52.3
+  },
+  {
+    "title": "Count Paths That Can Form a Palindrome in a Tree",
+    "slug": "count-paths-that-can-form-a-palindrome-in-a-tree",
+    "difficulty": "Hard",
+    "acRate": 52
+  },
+  {
+    "title": "Minimum XOR Sum of Two Arrays",
+    "slug": "minimum-xor-sum-of-two-arrays",
+    "difficulty": "Hard",
+    "acRate": 51.8
+  },
+  {
+    "title": "Number of Squareful Arrays",
+    "slug": "number-of-squareful-arrays",
+    "difficulty": "Hard",
+    "acRate": 51.7
+  },
+  {
+    "title": "Transform to Chessboard",
+    "slug": "transform-to-chessboard",
+    "difficulty": "Hard",
+    "acRate": 51.6
+  },
+  {
+    "title": "Stickers to Spell Word",
+    "slug": "stickers-to-spell-word",
+    "difficulty": "Hard",
+    "acRate": 51.1
+  },
+  {
+    "title": "Maximum AND Sum of Array",
+    "slug": "maximum-and-sum-of-array",
+    "difficulty": "Hard",
+    "acRate": 51
+  },
+  {
+    "title": "Exactly One Consecutive Set Bits Pair",
+    "slug": "exactly-one-consecutive-set-bits-pair",
+    "difficulty": "Easy",
+    "acRate": 50.9
+  },
+  {
+    "title": "Number of Possible Sets of Closing Branches",
+    "slug": "number-of-possible-sets-of-closing-branches",
+    "difficulty": "Hard",
+    "acRate": 50.7
+  },
+  {
+    "title": "Bulb Switcher II",
+    "slug": "bulb-switcher-ii",
+    "difficulty": "Medium",
+    "acRate": 50.6
+  },
+  {
+    "title": "Longest Strictly Increasing Subsequence With Non-Zero Bitwise AND",
+    "slug": "longest-strictly-increasing-subsequence-with-non-zero-bitwise-and",
+    "difficulty": "Medium",
+    "acRate": 50.6
+  },
+  {
+    "title": "Minimum Cost to Connect Two Groups of Points",
+    "slug": "minimum-cost-to-connect-two-groups-of-points",
+    "difficulty": "Hard",
+    "acRate": 50.5
+  },
+  {
+    "title": "Find Maximum Balanced XOR Subarray Length",
+    "slug": "find-maximum-balanced-xor-subarray-length",
+    "difficulty": "Medium",
+    "acRate": 50.5
+  },
+  {
+    "title": "Power of Two",
+    "slug": "power-of-two",
+    "difficulty": "Easy",
+    "acRate": 50.4
+  },
+  {
+    "title": "Shortest Subarray With OR at Least K II",
+    "slug": "shortest-subarray-with-or-at-least-k-ii",
+    "difficulty": "Medium",
+    "acRate": 50.3
+  },
+  {
+    "title": "Maximum XOR of Subsequences",
+    "slug": "maximum-xor-of-subsequences",
+    "difficulty": "Hard",
+    "acRate": 49.5
+  },
+  {
+    "title": "Number of Excellent Pairs",
+    "slug": "number-of-excellent-pairs",
+    "difficulty": "Hard",
+    "acRate": 49.4
+  },
+  {
+    "title": "Bitwise AND of Numbers Range",
+    "slug": "bitwise-and-of-numbers-range",
+    "difficulty": "Medium",
+    "acRate": 49
+  },
+  {
+    "title": "K-th Symbol in Grammar",
+    "slug": "k-th-symbol-in-grammar",
+    "difficulty": "Medium",
+    "acRate": 48.6
+  },
+  {
+    "title": "Find the K-th Character in String Game II",
+    "slug": "find-the-k-th-character-in-string-game-ii",
+    "difficulty": "Hard",
+    "acRate": 48.4
+  },
+  {
+    "title": "Number of Valid Words for Each Puzzle",
+    "slug": "number-of-valid-words-for-each-puzzle",
+    "difficulty": "Hard",
+    "acRate": 48.1
+  },
+  {
+    "title": "Maximum Genetic Difference Query",
+    "slug": "maximum-genetic-difference-query",
+    "difficulty": "Hard",
+    "acRate": 47.9
+  },
+  {
+    "title": "Find a Value of a Mysterious Function Closest to Target",
+    "slug": "find-a-value-of-a-mysterious-function-closest-to-target",
+    "difficulty": "Hard",
+    "acRate": 47.7
+  },
+  {
+    "title": "Minimum Weighted Subgraph With the Required Paths II",
+    "slug": "minimum-weighted-subgraph-with-the-required-paths-ii",
+    "difficulty": "Hard",
+    "acRate": 47.6
+  },
+  {
+    "title": "Minimum Edge Weight Equilibrium Queries in a Tree",
+    "slug": "minimum-edge-weight-equilibrium-queries-in-a-tree",
+    "difficulty": "Hard",
+    "acRate": 47.5
+  },
+  {
+    "title": "Find Longest Awesome Substring",
+    "slug": "find-longest-awesome-substring",
+    "difficulty": "Hard",
+    "acRate": 47.4
+  },
+  {
+    "title": "Number of Ways to Wear Different Hats to Each Other",
+    "slug": "number-of-ways-to-wear-different-hats-to-each-other",
+    "difficulty": "Hard",
+    "acRate": 46.6
+  },
+  {
+    "title": "Count Pairs With XOR in a Range",
+    "slug": "count-pairs-with-xor-in-a-range",
+    "difficulty": "Hard",
+    "acRate": 46.6
+  },
+  {
+    "title": "Naming a Company",
+    "slug": "naming-a-company",
+    "difficulty": "Hard",
+    "acRate": 46.6
+  },
+  {
+    "title": "UTF-8 Validation",
+    "slug": "utf-8-validation",
+    "difficulty": "Medium",
+    "acRate": 46.5
+  },
+  {
+    "title": "Find Minimum Time to Finish All Jobs",
+    "slug": "find-minimum-time-to-finish-all-jobs",
+    "difficulty": "Hard",
+    "acRate": 46.1
+  },
+  {
+    "title": "Find the Shortest Superstring",
+    "slug": "find-the-shortest-superstring",
+    "difficulty": "Hard",
+    "acRate": 45.7
+  },
+  {
+    "title": "Minimum Moves to Spread Stones Over Grid",
+    "slug": "minimum-moves-to-spread-stones-over-grid",
+    "difficulty": "Medium",
+    "acRate": 45.7
+  },
+  {
+    "title": "Find a Good Subset of the Matrix",
+    "slug": "find-a-good-subset-of-the-matrix",
+    "difficulty": "Hard",
+    "acRate": 45.4
+  },
+  {
+    "title": "Apply Operations on Array to Maximize Sum of Squares",
+    "slug": "apply-operations-on-array-to-maximize-sum-of-squares",
+    "difficulty": "Hard",
+    "acRate": 45.2
+  },
+  {
+    "title": "Shortest Subarray With OR at Least K I",
+    "slug": "shortest-subarray-with-or-at-least-k-i",
+    "difficulty": "Easy",
+    "acRate": 45
+  },
+  {
+    "title": "Cinema Seat Allocation",
+    "slug": "cinema-seat-allocation",
+    "difficulty": "Medium",
+    "acRate": 44.9
+  },
+  {
+    "title": "Closest Subsequence Sum",
+    "slug": "closest-subsequence-sum",
+    "difficulty": "Hard",
+    "acRate": 44.7
+  },
+  {
+    "title": "Count Words Obtained After Adding a Letter",
+    "slug": "count-words-obtained-after-adding-a-letter",
+    "difficulty": "Medium",
+    "acRate": 44.2
+  },
+  {
+    "title": "Maximum Good Subtree Score",
+    "slug": "maximum-good-subtree-score",
+    "difficulty": "Hard",
+    "acRate": 44.1
+  },
+  {
+    "title": "Maximum OR",
+    "slug": "maximum-or",
+    "difficulty": "Medium",
+    "acRate": 43.7
+  },
+  {
+    "title": "Set Mismatch",
+    "slug": "set-mismatch",
+    "difficulty": "Easy",
+    "acRate": 43.4
+  },
+  {
+    "title": "Apply Bitwise Operations to Make Strings Equal",
+    "slug": "apply-bitwise-operations-to-make-strings-equal",
+    "difficulty": "Medium",
+    "acRate": 42.9
+  },
+  {
+    "title": "Split Array Into Maximum Number of Subarrays",
+    "slug": "split-array-into-maximum-number-of-subarrays",
+    "difficulty": "Medium",
+    "acRate": 42.8
+  },
+  {
+    "title": "Matchsticks to Square",
+    "slug": "matchsticks-to-square",
+    "difficulty": "Medium",
+    "acRate": 42.2
+  },
+  {
+    "title": "Can Make Palindrome from Substring",
+    "slug": "can-make-palindrome-from-substring",
+    "difficulty": "Medium",
+    "acRate": 42.1
+  },
+  {
+    "title": "Minimum Removals to Achieve Target XOR",
+    "slug": "minimum-removals-to-achieve-target-xor",
+    "difficulty": "Medium",
+    "acRate": 41.9
+  },
+  {
+    "title": "Minimum Incompatibility",
+    "slug": "minimum-incompatibility",
+    "difficulty": "Hard",
+    "acRate": 41.7
+  },
+  {
+    "title": "Partition Array to Minimize XOR",
+    "slug": "partition-array-to-minimize-xor",
+    "difficulty": "Medium",
+    "acRate": 41.7
+  },
+  {
+    "title": "Maximum Number of Groups Getting Fresh Donuts",
+    "slug": "maximum-number-of-groups-getting-fresh-donuts",
+    "difficulty": "Hard",
+    "acRate": 41.5
+  },
+  {
+    "title": "Maximize Grid Happiness",
+    "slug": "maximize-grid-happiness",
+    "difficulty": "Hard",
+    "acRate": 41.4
+  },
+  {
+    "title": "Distribute Repeating Integers",
+    "slug": "distribute-repeating-integers",
+    "difficulty": "Hard",
+    "acRate": 41
+  },
+  {
+    "title": "Make the XOR of All Segments Equal to Zero",
+    "slug": "make-the-xor-of-all-segments-equal-to-zero",
+    "difficulty": "Hard",
+    "acRate": 41
+  },
+  {
+    "title": "Count Paths With the Given XOR Value",
+    "slug": "count-paths-with-the-given-xor-value",
+    "difficulty": "Medium",
+    "acRate": 40.5
+  },
+  {
+    "title": "Minimum XOR Path in a Grid",
+    "slug": "minimum-xor-path-in-a-grid",
+    "difficulty": "Medium",
+    "acRate": 39.9
+  },
+  {
+    "title": "Kth Ancestor of a Tree Node",
+    "slug": "kth-ancestor-of-a-tree-node",
+    "difficulty": "Hard",
+    "acRate": 39.4
+  },
+  {
+    "title": "Prison Cells After N Days",
+    "slug": "prison-cells-after-n-days",
+    "difficulty": "Medium",
+    "acRate": 39.3
+  },
+  {
+    "title": "Maximum Number That Sum of the Prices Is Less Than or Equal to K",
+    "slug": "maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k",
+    "difficulty": "Medium",
+    "acRate": 39.2
+  },
+  {
+    "title": "Partition to K Equal Sum Subsets",
+    "slug": "partition-to-k-equal-sum-subsets",
+    "difficulty": "Medium",
+    "acRate": 38.8
+  },
+  {
+    "title": "Integer Replacement",
+    "slug": "integer-replacement",
+    "difficulty": "Medium",
+    "acRate": 37.9
+  },
+  {
+    "title": "The Number of Good Subsets",
+    "slug": "the-number-of-good-subsets",
+    "difficulty": "Hard",
+    "acRate": 37.7
+  },
+  {
+    "title": "Find Number of Ways to Reach the K-th Stair",
+    "slug": "find-number-of-ways-to-reach-the-k-th-stair",
+    "difficulty": "Hard",
+    "acRate": 37.7
+  },
+  {
+    "title": "Longest Subsequence With Non-Zero Bitwise XOR",
+    "slug": "longest-subsequence-with-non-zero-bitwise-xor",
+    "difficulty": "Medium",
+    "acRate": 37.7
+  },
+  {
+    "title": "Maximum K to Sort a Permutation",
+    "slug": "maximum-k-to-sort-a-permutation",
+    "difficulty": "Medium",
+    "acRate": 37.6
+  },
+  {
+    "title": "Palindromic Path Queries in a Tree",
+    "slug": "palindromic-path-queries-in-a-tree",
+    "difficulty": "Hard",
+    "acRate": 37.2
+  },
+  {
+    "title": "Maximum Points After Collecting Coins From All Nodes",
+    "slug": "maximum-points-after-collecting-coins-from-all-nodes",
+    "difficulty": "Hard",
+    "acRate": 36.6
+  },
+  {
+    "title": "Substring XOR Queries",
+    "slug": "substring-xor-queries",
+    "difficulty": "Medium",
+    "acRate": 35.9
+  },
+  {
+    "title": "Number of Subarrays With AND Value of K",
+    "slug": "number-of-subarrays-with-and-value-of-k",
+    "difficulty": "Hard",
+    "acRate": 35.9
+  },
+  {
+    "title": "Find Nth Smallest Integer With K One Bits",
+    "slug": "find-nth-smallest-integer-with-k-one-bits",
+    "difficulty": "Hard",
+    "acRate": 35.4
+  },
+  {
+    "title": "Partition Array into Two Equal Product Subsets",
+    "slug": "partition-array-into-two-equal-product-subsets",
+    "difficulty": "Medium",
+    "acRate": 35.3
+  },
+  {
+    "title": "Minimum Cost to Merge Sorted Lists",
+    "slug": "minimum-cost-to-merge-sorted-lists",
+    "difficulty": "Hard",
+    "acRate": 35.3
+  },
+  {
+    "title": "Minimum Number of Work Sessions to Finish the Tasks",
+    "slug": "minimum-number-of-work-sessions-to-finish-the-tasks",
+    "difficulty": "Medium",
+    "acRate": 35.2
+  },
+  {
+    "title": "Maximum Number of Moves to Kill All Pawns",
+    "slug": "maximum-number-of-moves-to-kill-all-pawns",
+    "difficulty": "Hard",
+    "acRate": 34
+  },
+  {
+    "title": "Count Binary Palindromic Numbers",
+    "slug": "count-binary-palindromic-numbers",
+    "difficulty": "Hard",
+    "acRate": 33.8
+  },
+  {
+    "title": "Maximum Subarray XOR with Bounded Range",
+    "slug": "maximum-subarray-xor-with-bounded-range",
+    "difficulty": "Hard",
+    "acRate": 33.5
+  },
+  {
+    "title": "Count Pairs of Points With Distance k",
+    "slug": "count-pairs-of-points-with-distance-k",
+    "difficulty": "Medium",
+    "acRate": 33.3
+  },
+  {
+    "title": "Minimum Time to Break Locks I",
+    "slug": "minimum-time-to-break-locks-i",
+    "difficulty": "Medium",
+    "acRate": 33
+  },
+  {
+    "title": "Number of Effective Subsequences",
+    "slug": "number-of-effective-subsequences",
+    "difficulty": "Hard",
+    "acRate": 33
+  },
+  {
+    "title": "Minimum Operations to Form Subsequence With Target Sum",
+    "slug": "minimum-operations-to-form-subsequence-with-target-sum",
+    "difficulty": "Hard",
+    "acRate": 32.8
+  },
+  {
+    "title": "Maximum Strong Pair XOR II",
+    "slug": "maximum-strong-pair-xor-ii",
+    "difficulty": "Hard",
+    "acRate": 32.8
+  },
+  {
+    "title": "Maximum Bitwise AND After Increment Operations",
+    "slug": "maximum-bitwise-and-after-increment-operations",
+    "difficulty": "Hard",
+    "acRate": 32.3
+  },
+  {
+    "title": "Maximize Value of Function in a Ball Passing Game",
+    "slug": "maximize-value-of-function-in-a-ball-passing-game",
+    "difficulty": "Hard",
+    "acRate": 31.8
+  },
+  {
+    "title": "Can I Win",
+    "slug": "can-i-win",
+    "difficulty": "Medium",
+    "acRate": 31.7
+  },
+  {
+    "title": "Find Subarray With Bitwise OR Closest to K",
+    "slug": "find-subarray-with-bitwise-or-closest-to-k",
+    "difficulty": "Hard",
+    "acRate": 31.5
+  },
+  {
+    "title": "Parallel Courses II",
+    "slug": "parallel-courses-ii",
+    "difficulty": "Hard",
+    "acRate": 31.3
+  },
+  {
+    "title": "Minimize OR of Remaining Elements Using Operations",
+    "slug": "minimize-or-of-remaining-elements-using-operations",
+    "difficulty": "Hard",
+    "acRate": 31.1
+  },
+  {
+    "title": "Maximum Total Reward Using Operations I",
+    "slug": "maximum-total-reward-using-operations-i",
+    "difficulty": "Medium",
+    "acRate": 31
+  },
+  {
+    "title": "Maximum Profit from Valid Topological Order in DAG",
+    "slug": "maximum-profit-from-valid-topological-order-in-dag",
+    "difficulty": "Hard",
+    "acRate": 30.7
+  },
+  {
+    "title": "Concatenated Divisibility",
+    "slug": "concatenated-divisibility",
+    "difficulty": "Hard",
+    "acRate": 30.6
+  },
+  {
+    "title": "Maximum Xor Product",
+    "slug": "maximum-xor-product",
+    "difficulty": "Medium",
+    "acRate": 30.5
+  },
+  {
+    "title": "Special Permutations",
+    "slug": "special-permutations",
+    "difficulty": "Medium",
+    "acRate": 29.7
+  },
+  {
+    "title": "Groups of Strings",
+    "slug": "groups-of-strings",
+    "difficulty": "Hard",
+    "acRate": 28.2
+  },
+  {
+    "title": "Minimum Sum of Values by Dividing Array",
+    "slug": "minimum-sum-of-values-by-dividing-array",
+    "difficulty": "Hard",
+    "acRate": 28.1
+  },
+  {
+    "title": "Next Special Palindrome Number",
+    "slug": "next-special-palindrome-number",
+    "difficulty": "Hard",
+    "acRate": 27.9
+  },
+  {
+    "title": "Minimum Time to Transport All Individuals",
+    "slug": "minimum-time-to-transport-all-individuals",
+    "difficulty": "Hard",
+    "acRate": 27.8
+  },
+  {
+    "title": "Minimum Bitwise OR From Grid",
+    "slug": "minimum-bitwise-or-from-grid",
+    "difficulty": "Medium",
+    "acRate": 27.6
+  },
+  {
+    "title": "Minimum Increments for Target Multiples in an Array",
+    "slug": "minimum-increments-for-target-multiples-in-an-array",
+    "difficulty": "Hard",
+    "acRate": 27.5
+  },
+  {
+    "title": "Split Array With Same Average",
+    "slug": "split-array-with-same-average",
+    "difficulty": "Hard",
+    "acRate": 27.4
+  },
+  {
+    "title": "Number of Alternating XOR Partitions",
+    "slug": "number-of-alternating-xor-partitions",
+    "difficulty": "Medium",
+    "acRate": 27.4
+  },
+  {
+    "title": "Minimum Moves to Clean the Classroom",
+    "slug": "minimum-moves-to-clean-the-classroom",
+    "difficulty": "Medium",
+    "acRate": 27.1
+  },
+  {
+    "title": "Count the Number of Square-Free Subsets",
+    "slug": "count-the-number-of-square-free-subsets",
+    "difficulty": "Medium",
+    "acRate": 26.8
+  },
+  {
+    "title": "Find Weighted Median Node in Tree",
+    "slug": "find-weighted-median-node-in-tree",
+    "difficulty": "Hard",
+    "acRate": 26.4
+  },
+  {
+    "title": "Find the Minimum Cost Array Permutation",
+    "slug": "find-the-minimum-cost-array-permutation",
+    "difficulty": "Hard",
+    "acRate": 26.3
+  },
+  {
+    "title": "Maximum Strength of a Group",
+    "slug": "maximum-strength-of-a-group",
+    "difficulty": "Medium",
+    "acRate": 25.9
+  },
+  {
+    "title": "Count Good Subarrays",
+    "slug": "count-good-subarrays",
+    "difficulty": "Hard",
+    "acRate": 25.8
+  },
+  {
+    "title": "Find Products of Elements of Big Array",
+    "slug": "find-products-of-elements-of-big-array",
+    "difficulty": "Hard",
+    "acRate": 25.4
+  },
+  {
+    "title": "Partition Array Into Two Arrays to Minimize Sum Difference",
+    "slug": "partition-array-into-two-arrays-to-minimize-sum-difference",
+    "difficulty": "Hard",
+    "acRate": 24.3
+  },
+  {
+    "title": "Number of Integers With Popcount-Depth Equal to K I",
+    "slug": "number-of-integers-with-popcount-depth-equal-to-k-i",
+    "difficulty": "Hard",
+    "acRate": 23.3
+  },
+  {
+    "title": "Frequencies of Shortest Supersequences",
+    "slug": "frequencies-of-shortest-supersequences",
+    "difficulty": "Hard",
+    "acRate": 23.1
+  },
+  {
+    "title": "Longest Palindromic Path in Graph",
+    "slug": "longest-palindromic-path-in-graph",
+    "difficulty": "Hard",
+    "acRate": 22.3
+  },
+  {
+    "title": "Find the Maximum Sequence Value of Array",
+    "slug": "find-the-maximum-sequence-value-of-array",
+    "difficulty": "Hard",
+    "acRate": 21.9
+  },
+  {
+    "title": "Maximum Total Reward Using Operations II",
+    "slug": "maximum-total-reward-using-operations-ii",
+    "difficulty": "Hard",
+    "acRate": 21.8
+  },
+  {
+    "title": "Kth Smallest Amount With Single Denomination Combination",
+    "slug": "kth-smallest-amount-with-single-denomination-combination",
+    "difficulty": "Hard",
+    "acRate": 20.4
+  },
+  {
+    "title": "Divide Two Integers",
+    "slug": "divide-two-integers",
+    "difficulty": "Medium",
+    "acRate": 20.2
+  },
+  {
+    "title": "Partition Array for Maximum XOR and AND",
+    "slug": "partition-array-for-maximum-xor-and-and",
+    "difficulty": "Hard",
+    "acRate": 17.7
+  },
+  {
+    "title": "Select Cells in Grid With Maximum Score",
+    "slug": "select-cells-in-grid-with-maximum-score",
+    "difficulty": "Hard",
+    "acRate": 15.9
+  },
+  {
+    "title": "Maximum Product of Two Integers With No Common Bits",
+    "slug": "maximum-product-of-two-integers-with-no-common-bits",
+    "difficulty": "Medium",
+    "acRate": 15.5
+  }
+]

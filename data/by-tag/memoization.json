@@ -1,0 +1,254 @@
+[
+  {
+    "title": "All Possible Full Binary Trees",
+    "slug": "all-possible-full-binary-trees",
+    "difficulty": "Medium",
+    "acRate": 82.8
+  },
+  {
+    "title": "Minimum One Bit Operations to Make Integers Zero",
+    "slug": "minimum-one-bit-operations-to-make-integers-zero",
+    "difficulty": "Hard",
+    "acRate": 78.2
+  },
+  {
+    "title": "Fibonacci Number",
+    "slug": "fibonacci-number",
+    "difficulty": "Easy",
+    "acRate": 74.5
+  },
+  {
+    "title": "Sliding Puzzle",
+    "slug": "sliding-puzzle",
+    "difficulty": "Hard",
+    "acRate": 74.5
+  },
+  {
+    "title": "Different Ways to Add Parentheses",
+    "slug": "different-ways-to-add-parentheses",
+    "difficulty": "Medium",
+    "acRate": 73.5
+  },
+  {
+    "title": "The Earliest and Latest Rounds Where Players Compete",
+    "slug": "the-earliest-and-latest-rounds-where-players-compete",
+    "difficulty": "Hard",
+    "acRate": 72.1
+  },
+  {
+    "title": "Sort Integers by The Power Value",
+    "slug": "sort-integers-by-the-power-value",
+    "difficulty": "Medium",
+    "acRate": 71.7
+  },
+  {
+    "title": "Count All Possible Routes",
+    "slug": "count-all-possible-routes",
+    "difficulty": "Hard",
+    "acRate": 64.8
+  },
+  {
+    "title": "N-th Tribonacci Number",
+    "slug": "n-th-tribonacci-number",
+    "difficulty": "Easy",
+    "acRate": 63.1
+  },
+  {
+    "title": "Number of Ways of Cutting a Pizza",
+    "slug": "number-of-ways-of-cutting-a-pizza",
+    "difficulty": "Hard",
+    "acRate": 61.6
+  },
+  {
+    "title": "Number of Distinct Roll Sequences",
+    "slug": "number-of-distinct-roll-sequences",
+    "difficulty": "Hard",
+    "acRate": 58.3
+  },
+  {
+    "title": "Number of Increasing Paths in a Grid",
+    "slug": "number-of-increasing-paths-in-a-grid",
+    "difficulty": "Hard",
+    "acRate": 57.3
+  },
+  {
+    "title": "Largest Color Value in a Directed Graph",
+    "slug": "largest-color-value-in-a-directed-graph",
+    "difficulty": "Hard",
+    "acRate": 57.2
+  },
+  {
+    "title": "Longest Increasing Path in a Matrix",
+    "slug": "longest-increasing-path-in-a-matrix",
+    "difficulty": "Hard",
+    "acRate": 56.9
+  },
+  {
+    "title": "Word Break II",
+    "slug": "word-break-ii",
+    "difficulty": "Hard",
+    "acRate": 56
+  },
+  {
+    "title": "Length of Longest V-Shaped Diagonal Segment",
+    "slug": "length-of-longest-v-shaped-diagonal-segment",
+    "difficulty": "Hard",
+    "acRate": 55.9
+  },
+  {
+    "title": "Climbing Stairs",
+    "slug": "climbing-stairs",
+    "difficulty": "Easy",
+    "acRate": 54.3
+  },
+  {
+    "title": "Number of Ways to Reorder Array to Get Same BST",
+    "slug": "number-of-ways-to-reorder-array-to-get-same-bst",
+    "difficulty": "Hard",
+    "acRate": 54.2
+  },
+  {
+    "title": "Selling Pieces of Wood",
+    "slug": "selling-pieces-of-wood",
+    "difficulty": "Hard",
+    "acRate": 53.2
+  },
+  {
+    "title": "Shopping Offers",
+    "slug": "shopping-offers",
+    "difficulty": "Medium",
+    "acRate": 52.7
+  },
+  {
+    "title": "Longest Binary Subsequence Less Than or Equal to K",
+    "slug": "longest-binary-subsequence-less-than-or-equal-to-k",
+    "difficulty": "Medium",
+    "acRate": 52.7
+  },
+  {
+    "title": "Stickers to Spell Word",
+    "slug": "stickers-to-spell-word",
+    "difficulty": "Hard",
+    "acRate": 51.1
+  },
+  {
+    "title": "Word Break",
+    "slug": "word-break",
+    "difficulty": "Medium",
+    "acRate": 49.8
+  },
+  {
+    "title": "Remove Boxes",
+    "slug": "remove-boxes",
+    "difficulty": "Hard",
+    "acRate": 49.6
+  },
+  {
+    "title": "Minimum Number of Operations to Make X and Y Equal",
+    "slug": "minimum-number-of-operations-to-make-x-and-y-equal",
+    "difficulty": "Medium",
+    "acRate": 49
+  },
+  {
+    "title": "Least Operators to Express Number",
+    "slug": "least-operators-to-express-number",
+    "difficulty": "Hard",
+    "acRate": 48.4
+  },
+  {
+    "title": "Maximum Number of Groups Getting Fresh Donuts",
+    "slug": "maximum-number-of-groups-getting-fresh-donuts",
+    "difficulty": "Hard",
+    "acRate": 41.5
+  },
+  {
+    "title": "Maximize Grid Happiness",
+    "slug": "maximize-grid-happiness",
+    "difficulty": "Hard",
+    "acRate": 41.4
+  },
+  {
+    "title": "Cat and Mouse II",
+    "slug": "cat-and-mouse-ii",
+    "difficulty": "Hard",
+    "acRate": 40.3
+  },
+  {
+    "title": "Partition to K Equal Sum Subsets",
+    "slug": "partition-to-k-equal-sum-subsets",
+    "difficulty": "Medium",
+    "acRate": 38.8
+  },
+  {
+    "title": "Integer Replacement",
+    "slug": "integer-replacement",
+    "difficulty": "Medium",
+    "acRate": 37.9
+  },
+  {
+    "title": "Find Number of Ways to Reach the K-th Stair",
+    "slug": "find-number-of-ways-to-reach-the-k-th-stair",
+    "difficulty": "Hard",
+    "acRate": 37.7
+  },
+  {
+    "title": "Maximum Points After Collecting Coins From All Nodes",
+    "slug": "maximum-points-after-collecting-coins-from-all-nodes",
+    "difficulty": "Hard",
+    "acRate": 36.6
+  },
+  {
+    "title": "Minimum Number of Days to Eat N Oranges",
+    "slug": "minimum-number-of-days-to-eat-n-oranges",
+    "difficulty": "Hard",
+    "acRate": 36.4
+  },
+  {
+    "title": "Count Sequences to K",
+    "slug": "count-sequences-to-k",
+    "difficulty": "Hard",
+    "acRate": 36.2
+  },
+  {
+    "title": "Cat and Mouse",
+    "slug": "cat-and-mouse",
+    "difficulty": "Hard",
+    "acRate": 35.8
+  },
+  {
+    "title": "The Score of Students Solving Math Expression",
+    "slug": "the-score-of-students-solving-math-expression",
+    "difficulty": "Hard",
+    "acRate": 34.5
+  },
+  {
+    "title": "Maximum Number of Operations With the Same Score II",
+    "slug": "maximum-number-of-operations-with-the-same-score-ii",
+    "difficulty": "Medium",
+    "acRate": 34.2
+  },
+  {
+    "title": "Can I Win",
+    "slug": "can-i-win",
+    "difficulty": "Medium",
+    "acRate": 31.7
+  },
+  {
+    "title": "Count Visited Nodes in a Directed Graph",
+    "slug": "count-visited-nodes-in-a-directed-graph",
+    "difficulty": "Hard",
+    "acRate": 31.4
+  },
+  {
+    "title": "Maximum Strictly Increasing Cells in a Matrix",
+    "slug": "maximum-strictly-increasing-cells-in-a-matrix",
+    "difficulty": "Hard",
+    "acRate": 31.3
+  },
+  {
+    "title": "Zuma Game",
+    "slug": "zuma-game",
+    "difficulty": "Hard",
+    "acRate": 29.4
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Distinct Echo Substrings",
+    "slug": "distinct-echo-substrings",
+    "difficulty": "Hard",
+    "acRate": 53.5
+  },
+  {
+    "title": "Longest Duplicate Substring",
+    "slug": "longest-duplicate-substring",
+    "difficulty": "Hard",
+    "acRate": 31.4
+  },
+  {
+    "title": "Longest Common Subpath",
+    "slug": "longest-common-subpath",
+    "difficulty": "Hard",
+    "acRate": 30.2
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "title": "N-Queens II",
+    "slug": "n-queens-ii",
+    "difficulty": "Hard",
+    "acRate": 79.2
+  },
+  {
+    "title": "N-Queens",
+    "slug": "n-queens",
+    "difficulty": "Hard",
+    "acRate": 76.2
+  },
+  {
+    "title": "Sudoku Solver",
+    "slug": "sudoku-solver",
+    "difficulty": "Hard",
+    "acRate": 65.6
+  }
+]

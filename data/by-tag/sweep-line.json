@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Interval List Intersections",
+    "slug": "interval-list-intersections",
+    "difficulty": "Medium",
+    "acRate": 73.1
+  },
+  {
+    "title": "Separate Squares II",
+    "slug": "separate-squares-ii",
+    "difficulty": "Hard",
+    "acRate": 59.2
+  },
+  {
+    "title": "Rectangle Area II",
+    "slug": "rectangle-area-ii",
+    "difficulty": "Hard",
+    "acRate": 56.6
+  },
+  {
+    "title": "Minimum Interval to Include Each Query",
+    "slug": "minimum-interval-to-include-each-query",
+    "difficulty": "Hard",
+    "acRate": 54.9
+  },
+  {
+    "title": "The Skyline Problem",
+    "slug": "the-skyline-problem",
+    "difficulty": "Hard",
+    "acRate": 45.8
+  },
+  {
+    "title": "Perfect Rectangle",
+    "slug": "perfect-rectangle",
+    "difficulty": "Hard",
+    "acRate": 38.8
+  }
+]

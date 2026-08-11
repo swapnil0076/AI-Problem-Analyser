@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Three Divisors",
+    "slug": "three-divisors",
+    "difficulty": "Easy",
+    "acRate": 64.7
+  },
+  {
+    "title": "Prime Arrangements",
+    "slug": "prime-arrangements",
+    "difficulty": "Easy",
+    "acRate": 61.8
+  },
+  {
+    "title": "Four Divisors",
+    "slug": "four-divisors",
+    "difficulty": "Medium",
+    "acRate": 56.5
+  },
+  {
+    "title": "Distinct Prime Factors of Product of Array",
+    "slug": "distinct-prime-factors-of-product-of-array",
+    "difficulty": "Medium",
+    "acRate": 55.1
+  },
+  {
+    "title": "Closest Prime Numbers in Range",
+    "slug": "closest-prime-numbers-in-range",
+    "difficulty": "Medium",
+    "acRate": 51.9
+  },
+  {
+    "title": "Smallest Value After Replacing With Sum of Prime Factors",
+    "slug": "smallest-value-after-replacing-with-sum-of-prime-factors",
+    "difficulty": "Medium",
+    "acRate": 50.2
+  },
+  {
+    "title": "Most Frequent Prime",
+    "slug": "most-frequent-prime",
+    "difficulty": "Medium",
+    "acRate": 46.4
+  },
+  {
+    "title": "The Number of Good Subsets",
+    "slug": "the-number-of-good-subsets",
+    "difficulty": "Hard",
+    "acRate": 37.7
+  },
+  {
+    "title": "Count Valid Paths in a Tree",
+    "slug": "count-valid-paths-in-a-tree",
+    "difficulty": "Hard",
+    "acRate": 37
+  },
+  {
+    "title": "Count Primes",
+    "slug": "count-primes",
+    "difficulty": "Medium",
+    "acRate": 36.4
+  }
+]

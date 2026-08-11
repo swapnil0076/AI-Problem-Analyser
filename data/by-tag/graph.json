@@ -1,0 +1,902 @@
+[
+  {
+    "title": "Find the Degree of Each Vertex",
+    "slug": "find-the-degree-of-each-vertex",
+    "difficulty": "Easy",
+    "acRate": 92.7
+  },
+  {
+    "title": "Find Center of Star Graph",
+    "slug": "find-center-of-star-graph",
+    "difficulty": "Easy",
+    "acRate": 86.6
+  },
+  {
+    "title": "All Paths From Source to Target",
+    "slug": "all-paths-from-source-to-target",
+    "difficulty": "Medium",
+    "acRate": 83.8
+  },
+  {
+    "title": "Minimum Number of Vertices to Reach All Nodes",
+    "slug": "minimum-number-of-vertices-to-reach-all-nodes",
+    "difficulty": "Medium",
+    "acRate": 81.7
+  },
+  {
+    "title": "Count the Number of Complete Components",
+    "slug": "count-the-number-of-complete-components",
+    "difficulty": "Medium",
+    "acRate": 80.8
+  },
+  {
+    "title": "Build a Matrix With Conditions",
+    "slug": "build-a-matrix-with-conditions",
+    "difficulty": "Hard",
+    "acRate": 79.4
+  },
+  {
+    "title": "Keys and Rooms",
+    "slug": "keys-and-rooms",
+    "difficulty": "Medium",
+    "acRate": 76.1
+  },
+  {
+    "title": "Find the City With the Smallest Number of Neighbors at a Threshold Distance",
+    "slug": "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+    "difficulty": "Medium",
+    "acRate": 73.6
+  },
+  {
+    "title": "Min Cost to Connect All Points",
+    "slug": "min-cost-to-connect-all-points",
+    "difficulty": "Medium",
+    "acRate": 71.5
+  },
+  {
+    "title": "Find Eventual Safe States",
+    "slug": "find-eventual-safe-states",
+    "difficulty": "Medium",
+    "acRate": 71.4
+  },
+  {
+    "title": "Minimum Cost to Make at Least One Valid Path in a Grid",
+    "slug": "minimum-cost-to-make-at-least-one-valid-path-in-a-grid",
+    "difficulty": "Hard",
+    "acRate": 71.1
+  },
+  {
+    "title": "Minimum Obstacle Removal to Reach Corner",
+    "slug": "minimum-obstacle-removal-to-reach-corner",
+    "difficulty": "Hard",
+    "acRate": 71
+  },
+  {
+    "title": "Number of Provinces",
+    "slug": "number-of-provinces",
+    "difficulty": "Medium",
+    "acRate": 70.9
+  },
+  {
+    "title": "Find Champion II",
+    "slug": "find-champion-ii",
+    "difficulty": "Medium",
+    "acRate": 70.4
+  },
+  {
+    "title": "Remove Methods From Project",
+    "slug": "remove-methods-from-project",
+    "difficulty": "Medium",
+    "acRate": 70.2
+  },
+  {
+    "title": "Path Existence Queries in a Graph I",
+    "slug": "path-existence-queries-in-a-graph-i",
+    "difficulty": "Medium",
+    "acRate": 70.2
+  },
+  {
+    "title": "Remove Max Number of Edges to Keep Graph Fully Traversable",
+    "slug": "remove-max-number-of-edges-to-keep-graph-fully-traversable",
+    "difficulty": "Hard",
+    "acRate": 70.1
+  },
+  {
+    "title": "Maximum Total Importance of Roads",
+    "slug": "maximum-total-importance-of-roads",
+    "difficulty": "Medium",
+    "acRate": 69.1
+  },
+  {
+    "title": "Redundant Connection",
+    "slug": "redundant-connection",
+    "difficulty": "Medium",
+    "acRate": 68.1
+  },
+  {
+    "title": "Minimum Cost Walk in Weighted Graph",
+    "slug": "minimum-cost-walk-in-weighted-graph",
+    "difficulty": "Hard",
+    "acRate": 68
+  },
+  {
+    "title": "Find Minimum Time to Reach Last Room II",
+    "slug": "find-minimum-time-to-reach-last-room-ii",
+    "difficulty": "Medium",
+    "acRate": 67.6
+  },
+  {
+    "title": "Most Profitable Path in a Tree",
+    "slug": "most-profitable-path-in-a-tree",
+    "difficulty": "Medium",
+    "acRate": 67.3
+  },
+  {
+    "title": "Maximum Candies You Can Get from Boxes",
+    "slug": "maximum-candies-you-can-get-from-boxes",
+    "difficulty": "Hard",
+    "acRate": 67.1
+  },
+  {
+    "title": "Number of Operations to Make Network Connected",
+    "slug": "number-of-operations-to-make-network-connected",
+    "difficulty": "Medium",
+    "acRate": 67.1
+  },
+  {
+    "title": "Divide Nodes Into the Maximum Number of Groups",
+    "slug": "divide-nodes-into-the-maximum-number-of-groups",
+    "difficulty": "Hard",
+    "acRate": 66.9
+  },
+  {
+    "title": "Parallel Courses III",
+    "slug": "parallel-courses-iii",
+    "difficulty": "Hard",
+    "acRate": 66.8
+  },
+  {
+    "title": "Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree",
+    "slug": "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree",
+    "difficulty": "Hard",
+    "acRate": 66.7
+  },
+  {
+    "title": "Valid Arrangement of Pairs",
+    "slug": "valid-arrangement-of-pairs",
+    "difficulty": "Hard",
+    "acRate": 66.7
+  },
+  {
+    "title": "Shortest Path Visiting All Nodes",
+    "slug": "shortest-path-visiting-all-nodes",
+    "difficulty": "Hard",
+    "acRate": 66.2
+  },
+  {
+    "title": "Minimum Score of a Path Between Two Cities",
+    "slug": "minimum-score-of-a-path-between-two-cities",
+    "difficulty": "Medium",
+    "acRate": 66.2
+  },
+  {
+    "title": "Reorder Routes to Make All Paths Lead to the City Zero",
+    "slug": "reorder-routes-to-make-all-paths-lead-to-the-city-zero",
+    "difficulty": "Medium",
+    "acRate": 66.1
+  },
+  {
+    "title": "Maximal Network Rank",
+    "slug": "maximal-network-rank",
+    "difficulty": "Medium",
+    "acRate": 66.1
+  },
+  {
+    "title": "Sort Items by Groups Respecting Dependencies",
+    "slug": "sort-items-by-groups-respecting-dependencies",
+    "difficulty": "Hard",
+    "acRate": 66
+  },
+  {
+    "title": "Clone Graph",
+    "slug": "clone-graph",
+    "difficulty": "Medium",
+    "acRate": 65.9
+  },
+  {
+    "title": "Maximize Spanning Tree Stability with Upgrades",
+    "slug": "maximize-spanning-tree-stability-with-upgrades",
+    "difficulty": "Hard",
+    "acRate": 65.8
+  },
+  {
+    "title": "Sum of Distances in Tree",
+    "slug": "sum-of-distances-in-tree",
+    "difficulty": "Hard",
+    "acRate": 65.7
+  },
+  {
+    "title": "Path with Maximum Probability",
+    "slug": "path-with-maximum-probability",
+    "difficulty": "Medium",
+    "acRate": 65.7
+  },
+  {
+    "title": "Minimum Edge Toggles on a Tree",
+    "slug": "minimum-edge-toggles-on-a-tree",
+    "difficulty": "Hard",
+    "acRate": 65.6
+  },
+  {
+    "title": "Design Graph With Shortest Path Calculator",
+    "slug": "design-graph-with-shortest-path-calculator",
+    "difficulty": "Hard",
+    "acRate": 65.5
+  },
+  {
+    "title": "Minimum Fuel Cost to Report to the Capital",
+    "slug": "minimum-fuel-cost-to-report-to-the-capital",
+    "difficulty": "Medium",
+    "acRate": 65.4
+  },
+  {
+    "title": "Evaluate Division",
+    "slug": "evaluate-division",
+    "difficulty": "Medium",
+    "acRate": 64.5
+  },
+  {
+    "title": "Loud and Rich",
+    "slug": "loud-and-rich",
+    "difficulty": "Medium",
+    "acRate": 64
+  },
+  {
+    "title": "Path Existence Queries in a Graph II",
+    "slug": "path-existence-queries-in-a-graph-ii",
+    "difficulty": "Hard",
+    "acRate": 63.8
+  },
+  {
+    "title": "Checking Existence of Edge Length Limited Paths",
+    "slug": "checking-existence-of-edge-length-limited-paths",
+    "difficulty": "Hard",
+    "acRate": 63.6
+  },
+  {
+    "title": "Most Stones Removed with Same Row or Column",
+    "slug": "most-stones-removed-with-same-row-or-column",
+    "difficulty": "Medium",
+    "acRate": 63.4
+  },
+  {
+    "title": "Minimum Cost to Convert String I",
+    "slug": "minimum-cost-to-convert-string-i",
+    "difficulty": "Medium",
+    "acRate": 63
+  },
+  {
+    "title": "Maximum Path Quality of a Graph",
+    "slug": "maximum-path-quality-of-a-graph",
+    "difficulty": "Hard",
+    "acRate": 62.8
+  },
+  {
+    "title": "Second Minimum Time to Reach Destination",
+    "slug": "second-minimum-time-to-reach-destination",
+    "difficulty": "Hard",
+    "acRate": 62.3
+  },
+  {
+    "title": "All Ancestors of a Node in a Directed Acyclic Graph",
+    "slug": "all-ancestors-of-a-node-in-a-directed-acyclic-graph",
+    "difficulty": "Medium",
+    "acRate": 62.3
+  },
+  {
+    "title": "Count Connected Subgraphs with Even Node Sum",
+    "slug": "count-connected-subgraphs-with-even-node-sum",
+    "difficulty": "Hard",
+    "acRate": 62.3
+  },
+  {
+    "title": "Shortest Distance After Road Addition Queries I",
+    "slug": "shortest-distance-after-road-addition-queries-i",
+    "difficulty": "Medium",
+    "acRate": 61.9
+  },
+  {
+    "title": "Maximize Amount After Two Days of Conversions",
+    "slug": "maximize-amount-after-two-days-of-conversions",
+    "difficulty": "Medium",
+    "acRate": 61.9
+  },
+  {
+    "title": "Maximum Employees to Be Invited to a Meeting",
+    "slug": "maximum-employees-to-be-invited-to-a-meeting",
+    "difficulty": "Hard",
+    "acRate": 61.8
+  },
+  {
+    "title": "Minimum Cost Path with Edge Reversals",
+    "slug": "minimum-cost-path-with-edge-reversals",
+    "difficulty": "Medium",
+    "acRate": 61.8
+  },
+  {
+    "title": "Process Restricted Friend Requests",
+    "slug": "process-restricted-friend-requests",
+    "difficulty": "Hard",
+    "acRate": 61.4
+  },
+  {
+    "title": "Network Delay Time",
+    "slug": "network-delay-time",
+    "difficulty": "Medium",
+    "acRate": 61.3
+  },
+  {
+    "title": "Strange Printer II",
+    "slug": "strange-printer-ii",
+    "difficulty": "Hard",
+    "acRate": 61
+  },
+  {
+    "title": "Reachable Nodes With Restrictions",
+    "slug": "reachable-nodes-with-restrictions",
+    "difficulty": "Medium",
+    "acRate": 60.7
+  },
+  {
+    "title": "Critical Connections in a Network",
+    "slug": "critical-connections-in-a-network",
+    "difficulty": "Hard",
+    "acRate": 60.3
+  },
+  {
+    "title": "Course Schedule IV",
+    "slug": "course-schedule-iv",
+    "difficulty": "Medium",
+    "acRate": 60.2
+  },
+  {
+    "title": "Minimum Edge Reversals So Every Node Is Reachable",
+    "slug": "minimum-edge-reversals-so-every-node-is-reachable",
+    "difficulty": "Hard",
+    "acRate": 59.8
+  },
+  {
+    "title": "Is Graph Bipartite?",
+    "slug": "is-graph-bipartite",
+    "difficulty": "Medium",
+    "acRate": 59.7
+  },
+  {
+    "title": "Couples Holding Hands",
+    "slug": "couples-holding-hands",
+    "difficulty": "Hard",
+    "acRate": 59.6
+  },
+  {
+    "title": "Minimum Cost to Convert String II",
+    "slug": "minimum-cost-to-convert-string-ii",
+    "difficulty": "Hard",
+    "acRate": 59.2
+  },
+  {
+    "title": "Cracking the Safe",
+    "slug": "cracking-the-safe",
+    "difficulty": "Hard",
+    "acRate": 58.6
+  },
+  {
+    "title": "Count the Number of Houses at a Certain Distance I",
+    "slug": "count-the-number-of-houses-at-a-certain-distance-i",
+    "difficulty": "Medium",
+    "acRate": 58.4
+  },
+  {
+    "title": "Number of Increasing Paths in a Grid",
+    "slug": "number-of-increasing-paths-in-a-grid",
+    "difficulty": "Hard",
+    "acRate": 57.3
+  },
+  {
+    "title": "Largest Color Value in a Directed Graph",
+    "slug": "largest-color-value-in-a-directed-graph",
+    "difficulty": "Hard",
+    "acRate": 57.2
+  },
+  {
+    "title": "Find All Possible Recipes from Given Supplies",
+    "slug": "find-all-possible-recipes-from-given-supplies",
+    "difficulty": "Medium",
+    "acRate": 57.1
+  },
+  {
+    "title": "Find Minimum Diameter After Merging Two Trees",
+    "slug": "find-minimum-diameter-after-merging-two-trees",
+    "difficulty": "Hard",
+    "acRate": 57
+  },
+  {
+    "title": "Longest Increasing Path in a Matrix",
+    "slug": "longest-increasing-path-in-a-matrix",
+    "difficulty": "Hard",
+    "acRate": 56.9
+  },
+  {
+    "title": "Number of Good Paths",
+    "slug": "number-of-good-paths",
+    "difficulty": "Hard",
+    "acRate": 56.5
+  },
+  {
+    "title": "Course Schedule II",
+    "slug": "course-schedule-ii",
+    "difficulty": "Medium",
+    "acRate": 56.1
+  },
+  {
+    "title": "The Time When the Network Becomes Idle",
+    "slug": "the-time-when-the-network-becomes-idle",
+    "difficulty": "Medium",
+    "acRate": 56.1
+  },
+  {
+    "title": "Minimum Time to Visit a Cell In a Grid",
+    "slug": "minimum-time-to-visit-a-cell-in-a-grid",
+    "difficulty": "Hard",
+    "acRate": 56.1
+  },
+  {
+    "title": "Power Grid Maintenance",
+    "slug": "power-grid-maintenance",
+    "difficulty": "Medium",
+    "acRate": 55.9
+  },
+  {
+    "title": "Find if Path Exists in Graph",
+    "slug": "find-if-path-exists-in-graph",
+    "difficulty": "Easy",
+    "acRate": 55.7
+  },
+  {
+    "title": "Modify Graph Edge Weights",
+    "slug": "modify-graph-edge-weights",
+    "difficulty": "Hard",
+    "acRate": 55.6
+  },
+  {
+    "title": "Find Minimum Time to Reach Last Room I",
+    "slug": "find-minimum-time-to-reach-last-room-i",
+    "difficulty": "Medium",
+    "acRate": 55.5
+  },
+  {
+    "title": "Find a Safe Walk Through a Grid",
+    "slug": "find-a-safe-walk-through-a-grid",
+    "difficulty": "Medium",
+    "acRate": 55.4
+  },
+  {
+    "title": "Flower Planting With No Adjacent",
+    "slug": "flower-planting-with-no-adjacent",
+    "difficulty": "Medium",
+    "acRate": 54.1
+  },
+  {
+    "title": "Unit Conversion I",
+    "slug": "unit-conversion-i",
+    "difficulty": "Medium",
+    "acRate": 54.1
+  },
+  {
+    "title": "Longest Path With Different Adjacent Characters",
+    "slug": "longest-path-with-different-adjacent-characters",
+    "difficulty": "Hard",
+    "acRate": 54
+  },
+  {
+    "title": "Get Watched Videos by Your Friends",
+    "slug": "get-watched-videos-by-your-friends",
+    "difficulty": "Medium",
+    "acRate": 53.9
+  },
+  {
+    "title": "Find Closest Node to Given Two Nodes",
+    "slug": "find-closest-node-to-given-two-nodes",
+    "difficulty": "Medium",
+    "acRate": 53.1
+  },
+  {
+    "title": "Possible Bipartition",
+    "slug": "possible-bipartition",
+    "difficulty": "Medium",
+    "acRate": 52.9
+  },
+  {
+    "title": "Reachable Nodes In Subdivided Graph",
+    "slug": "reachable-nodes-in-subdivided-graph",
+    "difficulty": "Hard",
+    "acRate": 52.7
+  },
+  {
+    "title": "Satisfiability of Equality Equations",
+    "slug": "satisfiability-of-equality-equations",
+    "difficulty": "Medium",
+    "acRate": 52.1
+  },
+  {
+    "title": "Course Schedule",
+    "slug": "course-schedule",
+    "difficulty": "Medium",
+    "acRate": 52
+  },
+  {
+    "title": "Incremental Even-Weighted Cycle Queries",
+    "slug": "incremental-even-weighted-cycle-queries",
+    "difficulty": "Hard",
+    "acRate": 52
+  },
+  {
+    "title": "Count Ways to Build Rooms in an Ant Colony",
+    "slug": "count-ways-to-build-rooms-in-an-ant-colony",
+    "difficulty": "Hard",
+    "acRate": 51.9
+  },
+  {
+    "title": "Find the Town Judge",
+    "slug": "find-the-town-judge",
+    "difficulty": "Easy",
+    "acRate": 51
+  },
+  {
+    "title": "Longest Cycle in a Graph",
+    "slug": "longest-cycle-in-a-graph",
+    "difficulty": "Hard",
+    "acRate": 51
+  },
+  {
+    "title": "Number of Possible Sets of Closing Branches",
+    "slug": "number-of-possible-sets-of-closing-branches",
+    "difficulty": "Hard",
+    "acRate": 50.7
+  },
+  {
+    "title": "Network Recovery Pathways",
+    "slug": "network-recovery-pathways",
+    "difficulty": "Hard",
+    "acRate": 50.6
+  },
+  {
+    "title": "Detonate the Maximum Bombs",
+    "slug": "detonate-the-maximum-bombs",
+    "difficulty": "Medium",
+    "acRate": 50.4
+  },
+  {
+    "title": "Count Unreachable Pairs of Nodes in an Undirected Graph",
+    "slug": "count-unreachable-pairs-of-nodes-in-an-undirected-graph",
+    "difficulty": "Medium",
+    "acRate": 50.2
+  },
+  {
+    "title": "Node With Highest Edge Score",
+    "slug": "node-with-highest-edge-score",
+    "difficulty": "Medium",
+    "acRate": 49.6
+  },
+  {
+    "title": "Properties Graph",
+    "slug": "properties-graph",
+    "difficulty": "Medium",
+    "acRate": 48.6
+  },
+  {
+    "title": "Find All People With Secret",
+    "slug": "find-all-people-with-secret",
+    "difficulty": "Hard",
+    "acRate": 48.4
+  },
+  {
+    "title": "Shortest Path with Alternating Colors",
+    "slug": "shortest-path-with-alternating-colors",
+    "difficulty": "Medium",
+    "acRate": 48.2
+  },
+  {
+    "title": "Minimize the Total Price of the Trips",
+    "slug": "minimize-the-total-price-of-the-trips",
+    "difficulty": "Hard",
+    "acRate": 48.2
+  },
+  {
+    "title": "Find Edges in Shortest Paths",
+    "slug": "find-edges-in-shortest-paths",
+    "difficulty": "Hard",
+    "acRate": 46.6
+  },
+  {
+    "title": "Number Of Ways To Reconstruct A Tree",
+    "slug": "number-of-ways-to-reconstruct-a-tree",
+    "difficulty": "Hard",
+    "acRate": 46.2
+  },
+  {
+    "title": "Minimize Malware Spread II",
+    "slug": "minimize-malware-spread-ii",
+    "difficulty": "Hard",
+    "acRate": 46
+  },
+  {
+    "title": "Minimum Time to Reach Destination in Directed Graph",
+    "slug": "minimum-time-to-reach-destination-in-directed-graph",
+    "difficulty": "Medium",
+    "acRate": 45.6
+  },
+  {
+    "title": "Minimum Time for K Connected Components",
+    "slug": "minimum-time-for-k-connected-components",
+    "difficulty": "Medium",
+    "acRate": 45.2
+  },
+  {
+    "title": "Shortest Path With At Most K Consecutive Identical Characters",
+    "slug": "shortest-path-with-at-most-k-consecutive-identical-characters",
+    "difficulty": "Medium",
+    "acRate": 45.2
+  },
+  {
+    "title": "Reconstruct Itinerary",
+    "slug": "reconstruct-itinerary",
+    "difficulty": "Hard",
+    "acRate": 44.9
+  },
+  {
+    "title": "Minimum Degree of a Connected Trio in a Graph",
+    "slug": "minimum-degree-of-a-connected-trio-in-a-graph",
+    "difficulty": "Hard",
+    "acRate": 44.7
+  },
+  {
+    "title": "Minimize the Maximum Edge Weight of Graph",
+    "slug": "minimize-the-maximum-edge-weight-of-graph",
+    "difficulty": "Medium",
+    "acRate": 44.7
+  },
+  {
+    "title": "Validate Binary Tree Nodes",
+    "slug": "validate-binary-tree-nodes",
+    "difficulty": "Medium",
+    "acRate": 44.2
+  },
+  {
+    "title": "Minimum Cost of a Path With Special Roads",
+    "slug": "minimum-cost-of-a-path-with-special-roads",
+    "difficulty": "Medium",
+    "acRate": 43.8
+  },
+  {
+    "title": "Minimize Malware Spread",
+    "slug": "minimize-malware-spread",
+    "difficulty": "Hard",
+    "acRate": 43.4
+  },
+  {
+    "title": "Minimize Maximum Component Cost",
+    "slug": "minimize-maximum-component-cost",
+    "difficulty": "Medium",
+    "acRate": 43.3
+  },
+  {
+    "title": "Count Pairs Of Nodes",
+    "slug": "count-pairs-of-nodes",
+    "difficulty": "Hard",
+    "acRate": 43.2
+  },
+  {
+    "title": "Minimum Weighted Subgraph With the Required Paths",
+    "slug": "minimum-weighted-subgraph-with-the-required-paths",
+    "difficulty": "Hard",
+    "acRate": 43.2
+  },
+  {
+    "title": "Minimum Height Trees",
+    "slug": "minimum-height-trees",
+    "difficulty": "Medium",
+    "acRate": 42.7
+  },
+  {
+    "title": "Maximum Star Sum of a Graph",
+    "slug": "maximum-star-sum-of-a-graph",
+    "difficulty": "Medium",
+    "acRate": 42.7
+  },
+  {
+    "title": "Rank Transform of a Matrix",
+    "slug": "rank-transform-of-a-matrix",
+    "difficulty": "Hard",
+    "acRate": 42.5
+  },
+  {
+    "title": "Cheapest Flights Within K Stops",
+    "slug": "cheapest-flights-within-k-stops",
+    "difficulty": "Medium",
+    "acRate": 42.4
+  },
+  {
+    "title": "Minimum Cost to Reach Destination in Time",
+    "slug": "minimum-cost-to-reach-destination-in-time",
+    "difficulty": "Hard",
+    "acRate": 42.2
+  },
+  {
+    "title": "Number of Restricted Paths From First to Last Node",
+    "slug": "number-of-restricted-paths-from-first-to-last-node",
+    "difficulty": "Medium",
+    "acRate": 41.7
+  },
+  {
+    "title": "Maximum Score of a Node Sequence",
+    "slug": "maximum-score-of-a-node-sequence",
+    "difficulty": "Hard",
+    "acRate": 40.4
+  },
+  {
+    "title": "Shortest Cycle in a Graph",
+    "slug": "shortest-cycle-in-a-graph",
+    "difficulty": "Hard",
+    "acRate": 40.4
+  },
+  {
+    "title": "Minimum Time to Reach Target With Limited Power",
+    "slug": "minimum-time-to-reach-target-with-limited-power",
+    "difficulty": "Hard",
+    "acRate": 40.4
+  },
+  {
+    "title": "Cat and Mouse II",
+    "slug": "cat-and-mouse-ii",
+    "difficulty": "Hard",
+    "acRate": 40.3
+  },
+  {
+    "title": "Collect Coins in a Tree",
+    "slug": "collect-coins-in-a-tree",
+    "difficulty": "Hard",
+    "acRate": 39.7
+  },
+  {
+    "title": "Minimum Threshold Path With Limited Heavy Edges",
+    "slug": "minimum-threshold-path-with-limited-heavy-edges",
+    "difficulty": "Hard",
+    "acRate": 39.1
+  },
+  {
+    "title": "Frog Position After T Seconds",
+    "slug": "frog-position-after-t-seconds",
+    "difficulty": "Hard",
+    "acRate": 38.8
+  },
+  {
+    "title": "Minimum Time to Visit Disappearing Nodes",
+    "slug": "minimum-time-to-visit-disappearing-nodes",
+    "difficulty": "Medium",
+    "acRate": 38
+  },
+  {
+    "title": "Number of Ways to Arrive at Destination",
+    "slug": "number-of-ways-to-arrive-at-destination",
+    "difficulty": "Medium",
+    "acRate": 37.7
+  },
+  {
+    "title": "Maximum Sum of Edge Values in a Graph",
+    "slug": "maximum-sum-of-edge-values-in-a-graph",
+    "difficulty": "Hard",
+    "acRate": 37.3
+  },
+  {
+    "title": "Add Edges to Make Degrees of All Nodes Even",
+    "slug": "add-edges-to-make-degrees-of-all-nodes-even",
+    "difficulty": "Hard",
+    "acRate": 36.9
+  },
+  {
+    "title": "Redundant Connection II",
+    "slug": "redundant-connection-ii",
+    "difficulty": "Hard",
+    "acRate": 36.5
+  },
+  {
+    "title": "Cat and Mouse",
+    "slug": "cat-and-mouse",
+    "difficulty": "Hard",
+    "acRate": 35.8
+  },
+  {
+    "title": "Maximum Partition Factor",
+    "slug": "maximum-partition-factor",
+    "difficulty": "Hard",
+    "acRate": 32.3
+  },
+  {
+    "title": "Minimum Cost to Buy Apples II",
+    "slug": "minimum-cost-to-buy-apples-ii",
+    "difficulty": "Hard",
+    "acRate": 32
+  },
+  {
+    "title": "Count Visited Nodes in a Directed Graph",
+    "slug": "count-visited-nodes-in-a-directed-graph",
+    "difficulty": "Hard",
+    "acRate": 31.4
+  },
+  {
+    "title": "Parallel Courses II",
+    "slug": "parallel-courses-ii",
+    "difficulty": "Hard",
+    "acRate": 31.3
+  },
+  {
+    "title": "Digit Operations to Make Two Integers Equal",
+    "slug": "digit-operations-to-make-two-integers-equal",
+    "difficulty": "Medium",
+    "acRate": 30.9
+  },
+  {
+    "title": "Maximum Profit from Valid Topological Order in DAG",
+    "slug": "maximum-profit-from-valid-topological-order-in-dag",
+    "difficulty": "Hard",
+    "acRate": 30.7
+  },
+  {
+    "title": "Construct 2D Grid Matching Graph Layout",
+    "slug": "construct-2d-grid-matching-graph-layout",
+    "difficulty": "Hard",
+    "acRate": 30.4
+  },
+  {
+    "title": "Time Taken to Mark All Nodes",
+    "slug": "time-taken-to-mark-all-nodes",
+    "difficulty": "Hard",
+    "acRate": 29.1
+  },
+  {
+    "title": "Minimum Time to Transport All Individuals",
+    "slug": "minimum-time-to-transport-all-individuals",
+    "difficulty": "Hard",
+    "acRate": 27.8
+  },
+  {
+    "title": "Shortest Distance After Road Addition Queries II",
+    "slug": "shortest-distance-after-road-addition-queries-ii",
+    "difficulty": "Hard",
+    "acRate": 26.8
+  },
+  {
+    "title": "Count the Number of Houses at a Certain Distance II",
+    "slug": "count-the-number-of-houses-at-a-certain-distance-ii",
+    "difficulty": "Hard",
+    "acRate": 23.4
+  },
+  {
+    "title": "Frequencies of Shortest Supersequences",
+    "slug": "frequencies-of-shortest-supersequences",
+    "difficulty": "Hard",
+    "acRate": 23.1
+  },
+  {
+    "title": "Longest Palindromic Path in Graph",
+    "slug": "longest-palindromic-path-in-graph",
+    "difficulty": "Hard",
+    "acRate": 22.3
+  },
+  {
+    "title": "Maximum Weighted K-Edge Path",
+    "slug": "maximum-weighted-k-edge-path",
+    "difficulty": "Medium",
+    "acRate": 20.3
+  }
+]

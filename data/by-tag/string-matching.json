@@ -1,0 +1,200 @@
+[
+  {
+    "title": "Counting Words With a Given Prefix",
+    "slug": "counting-words-with-a-given-prefix",
+    "difficulty": "Easy",
+    "acRate": 84.4
+  },
+  {
+    "title": "Count Prefix and Suffix Pairs I",
+    "slug": "count-prefix-and-suffix-pairs-i",
+    "difficulty": "Easy",
+    "acRate": 77.7
+  },
+  {
+    "title": "String Matching in an Array",
+    "slug": "string-matching-in-an-array",
+    "difficulty": "Easy",
+    "acRate": 69.8
+  },
+  {
+    "title": "Number of Subarrays That Match a Pattern I",
+    "slug": "number-of-subarrays-that-match-a-pattern-i",
+    "difficulty": "Medium",
+    "acRate": 68.9
+  },
+  {
+    "title": "Check If a Word Occurs As a Prefix of Any Word in a Sentence",
+    "slug": "check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence",
+    "difficulty": "Easy",
+    "acRate": 68.8
+  },
+  {
+    "title": "Rotate String",
+    "slug": "rotate-string",
+    "difficulty": "Easy",
+    "acRate": 66.7
+  },
+  {
+    "title": "Camelcase Matching",
+    "slug": "camelcase-matching",
+    "difficulty": "Medium",
+    "acRate": 65.9
+  },
+  {
+    "title": "Form Array by Concatenating Subarrays of Another Array",
+    "slug": "form-array-by-concatenating-subarrays-of-another-array",
+    "difficulty": "Medium",
+    "acRate": 55
+  },
+  {
+    "title": "Longest Happy Prefix",
+    "slug": "longest-happy-prefix",
+    "difficulty": "Hard",
+    "acRate": 53.7
+  },
+  {
+    "title": "Lexicographically Smallest Generated String",
+    "slug": "lexicographically-smallest-generated-string",
+    "difficulty": "Hard",
+    "acRate": 53.6
+  },
+  {
+    "title": "Subtree of Another Tree",
+    "slug": "subtree-of-another-tree",
+    "difficulty": "Easy",
+    "acRate": 52
+  },
+  {
+    "title": "Sum of Scores of Built Strings",
+    "slug": "sum-of-scores-of-built-strings",
+    "difficulty": "Hard",
+    "acRate": 50.2
+  },
+  {
+    "title": "Repeated Substring Pattern",
+    "slug": "repeated-substring-pattern",
+    "difficulty": "Easy",
+    "acRate": 48.6
+  },
+  {
+    "title": "Find the Index of the First Occurrence in a String",
+    "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+    "difficulty": "Easy",
+    "acRate": 47.1
+  },
+  {
+    "title": "Find All Good Strings",
+    "slug": "find-all-good-strings",
+    "difficulty": "Hard",
+    "acRate": 46
+  },
+  {
+    "title": "Match Substring After Replacement",
+    "slug": "match-substring-after-replacement",
+    "difficulty": "Hard",
+    "acRate": 43.6
+  },
+  {
+    "title": "Shortest Palindrome",
+    "slug": "shortest-palindrome",
+    "difficulty": "Hard",
+    "acRate": 42.9
+  },
+  {
+    "title": "Minimum Time to Revert Word to Initial State I",
+    "slug": "minimum-time-to-revert-word-to-initial-state-i",
+    "difficulty": "Medium",
+    "acRate": 42.9
+  },
+  {
+    "title": "Maximum Repeating Substring",
+    "slug": "maximum-repeating-substring",
+    "difficulty": "Easy",
+    "acRate": 42.1
+  },
+  {
+    "title": "Find Beautiful Indices in the Given Array I",
+    "slug": "find-beautiful-indices-in-the-given-array-i",
+    "difficulty": "Medium",
+    "acRate": 41.1
+  },
+  {
+    "title": "Repeated String Match",
+    "slug": "repeated-string-match",
+    "difficulty": "Medium",
+    "acRate": 39.6
+  },
+  {
+    "title": "Maximum Deletions on a String",
+    "slug": "maximum-deletions-on-a-string",
+    "difficulty": "Hard",
+    "acRate": 36.2
+  },
+  {
+    "title": "Minimum Time to Revert Word to Initial State II",
+    "slug": "minimum-time-to-revert-word-to-initial-state-ii",
+    "difficulty": "Hard",
+    "acRate": 35.8
+  },
+  {
+    "title": "Number of Subarrays That Match a Pattern II",
+    "slug": "number-of-subarrays-that-match-a-pattern-ii",
+    "difficulty": "Hard",
+    "acRate": 34.3
+  },
+  {
+    "title": "Substring Matching Pattern",
+    "slug": "substring-matching-pattern",
+    "difficulty": "Easy",
+    "acRate": 29.2
+  },
+  {
+    "title": "Count Prefix and Suffix Pairs II",
+    "slug": "count-prefix-and-suffix-pairs-ii",
+    "difficulty": "Hard",
+    "acRate": 28.5
+  },
+  {
+    "title": "Find Beautiful Indices in the Given Array II",
+    "slug": "find-beautiful-indices-in-the-given-array-ii",
+    "difficulty": "Hard",
+    "acRate": 28.4
+  },
+  {
+    "title": "String Transformation",
+    "slug": "string-transformation",
+    "difficulty": "Hard",
+    "acRate": 27.7
+  },
+  {
+    "title": "Count Cells in Overlapping Horizontal and Vertical Substrings",
+    "slug": "count-cells-in-overlapping-horizontal-and-vertical-substrings",
+    "difficulty": "Medium",
+    "acRate": 27.2
+  },
+  {
+    "title": "Shortest Matching Substring",
+    "slug": "shortest-matching-substring",
+    "difficulty": "Hard",
+    "acRate": 24.8
+  },
+  {
+    "title": "Minimum Number of Valid Strings to Form Target I",
+    "slug": "minimum-number-of-valid-strings-to-form-target-i",
+    "difficulty": "Medium",
+    "acRate": 22.3
+  },
+  {
+    "title": "Minimum Number of Valid Strings to Form Target II",
+    "slug": "minimum-number-of-valid-strings-to-form-target-ii",
+    "difficulty": "Hard",
+    "acRate": 21.1
+  },
+  {
+    "title": "Find the Occurrence of First Almost Equal Substring",
+    "slug": "find-the-occurrence-of-first-almost-equal-substring",
+    "difficulty": "Hard",
+    "acRate": 16.2
+  }
+]

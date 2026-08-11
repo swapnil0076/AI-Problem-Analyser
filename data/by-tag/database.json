@@ -1,0 +1,566 @@
+[
+  {
+    "title": "Number of Unique Subjects Taught by Each Teacher",
+    "slug": "number-of-unique-subjects-taught-by-each-teacher",
+    "difficulty": "Easy",
+    "acRate": 89.3
+  },
+  {
+    "title": "Recyclable and Low Fat Products",
+    "slug": "recyclable-and-low-fat-products",
+    "difficulty": "Easy",
+    "acRate": 88.6
+  },
+  {
+    "title": "Daily Leads and Partners",
+    "slug": "daily-leads-and-partners",
+    "difficulty": "Easy",
+    "acRate": 86.8
+  },
+  {
+    "title": "Find Total Time Spent by Each Employee",
+    "slug": "find-total-time-spent-by-each-employee",
+    "difficulty": "Easy",
+    "acRate": 86.4
+  },
+  {
+    "title": "Product Sales Analysis I",
+    "slug": "product-sales-analysis-i",
+    "difficulty": "Easy",
+    "acRate": 86.1
+  },
+  {
+    "title": "Rearrange Products Table",
+    "slug": "rearrange-products-table",
+    "difficulty": "Easy",
+    "acRate": 85.5
+  },
+  {
+    "title": "Invalid Tweets",
+    "slug": "invalid-tweets",
+    "difficulty": "Easy",
+    "acRate": 85.2
+  },
+  {
+    "title": "DNA Pattern Recognition ",
+    "slug": "dna-pattern-recognition",
+    "difficulty": "Medium",
+    "acRate": 85.1
+  },
+  {
+    "title": "Swap Sex of Employees",
+    "slug": "swap-sex-of-employees",
+    "difficulty": "Easy",
+    "acRate": 84.8
+  },
+  {
+    "title": "Capital Gain/Loss",
+    "slug": "capital-gainloss",
+    "difficulty": "Medium",
+    "acRate": 84.5
+  },
+  {
+    "title": "Replace Employee ID With The Unique Identifier",
+    "slug": "replace-employee-id-with-the-unique-identifier",
+    "difficulty": "Easy",
+    "acRate": 83.7
+  },
+  {
+    "title": "Bank Account Summary II",
+    "slug": "bank-account-summary-ii",
+    "difficulty": "Easy",
+    "acRate": 83
+  },
+  {
+    "title": "Combine Two Tables",
+    "slug": "combine-two-tables",
+    "difficulty": "Easy",
+    "acRate": 79.9
+  },
+  {
+    "title": "Group Sold Products By The Date",
+    "slug": "group-sold-products-by-the-date",
+    "difficulty": "Easy",
+    "acRate": 78.2
+  },
+  {
+    "title": "Employee Bonus",
+    "slug": "employee-bonus",
+    "difficulty": "Easy",
+    "acRate": 77.9
+  },
+  {
+    "title": "The Latest Login in 2020",
+    "slug": "the-latest-login-in-2020",
+    "difficulty": "Easy",
+    "acRate": 77
+  },
+  {
+    "title": "Article Views I",
+    "slug": "article-views-i",
+    "difficulty": "Easy",
+    "acRate": 76.8
+  },
+  {
+    "title": "Game Play Analysis I",
+    "slug": "game-play-analysis-i",
+    "difficulty": "Easy",
+    "acRate": 76.6
+  },
+  {
+    "title": "Reformat Department Table",
+    "slug": "reformat-department-table",
+    "difficulty": "Easy",
+    "acRate": 76.4
+  },
+  {
+    "title": "Tree Node",
+    "slug": "tree-node",
+    "difficulty": "Medium",
+    "acRate": 76.3
+  },
+  {
+    "title": "Not Boring Movies",
+    "slug": "not-boring-movies",
+    "difficulty": "Easy",
+    "acRate": 75.2
+  },
+  {
+    "title": "Triangle Judgement",
+    "slug": "triangle-judgement",
+    "difficulty": "Easy",
+    "acRate": 75.1
+  },
+  {
+    "title": "Primary Department for Each Employee",
+    "slug": "primary-department-for-each-employee",
+    "difficulty": "Easy",
+    "acRate": 75.1
+  },
+  {
+    "title": "Exchange Seats",
+    "slug": "exchange-seats",
+    "difficulty": "Medium",
+    "acRate": 74.6
+  },
+  {
+    "title": "Duplicate Emails",
+    "slug": "duplicate-emails",
+    "difficulty": "Easy",
+    "acRate": 74.2
+  },
+  {
+    "title": "Employees Earning More Than Their Managers",
+    "slug": "employees-earning-more-than-their-managers",
+    "difficulty": "Easy",
+    "acRate": 73.7
+  },
+  {
+    "title": "Analyze Subscription Conversion ",
+    "slug": "analyze-subscription-conversion",
+    "difficulty": "Medium",
+    "acRate": 73.5
+  },
+  {
+    "title": "Employees With Missing Information",
+    "slug": "employees-with-missing-information",
+    "difficulty": "Easy",
+    "acRate": 73.4
+  },
+  {
+    "title": "Find Customer Referee",
+    "slug": "find-customer-referee",
+    "difficulty": "Easy",
+    "acRate": 73.3
+  },
+  {
+    "title": "Customers Who Never Order",
+    "slug": "customers-who-never-order",
+    "difficulty": "Easy",
+    "acRate": 72.2
+  },
+  {
+    "title": "List the Products Ordered in a Period",
+    "slug": "list-the-products-ordered-in-a-period",
+    "difficulty": "Easy",
+    "acRate": 72
+  },
+  {
+    "title": "Biggest Single Number",
+    "slug": "biggest-single-number",
+    "difficulty": "Easy",
+    "acRate": 71.9
+  },
+  {
+    "title": "Actors and Directors Who Cooperated At Least Three Times",
+    "slug": "actors-and-directors-who-cooperated-at-least-three-times",
+    "difficulty": "Easy",
+    "acRate": 71.3
+  },
+  {
+    "title": "Last Person to Fit in the Bus",
+    "slug": "last-person-to-fit-in-the-bus",
+    "difficulty": "Medium",
+    "acRate": 69.7
+  },
+  {
+    "title": "Find Followers Count",
+    "slug": "find-followers-count",
+    "difficulty": "Easy",
+    "acRate": 69.6
+  },
+  {
+    "title": "Big Countries",
+    "slug": "big-countries",
+    "difficulty": "Easy",
+    "acRate": 68.7
+  },
+  {
+    "title": "Rank Scores",
+    "slug": "rank-scores",
+    "difficulty": "Medium",
+    "acRate": 68.5
+  },
+  {
+    "title": "Odd and Even Transactions",
+    "slug": "odd-and-even-transactions",
+    "difficulty": "Medium",
+    "acRate": 68.5
+  },
+  {
+    "title": "Customer Who Visited but Did Not Make Any Transactions",
+    "slug": "customer-who-visited-but-did-not-make-any-transactions",
+    "difficulty": "Easy",
+    "acRate": 68.3
+  },
+  {
+    "title": "Project Employees I",
+    "slug": "project-employees-i",
+    "difficulty": "Easy",
+    "acRate": 67.2
+  },
+  {
+    "title": "Average Time of Process per Machine",
+    "slug": "average-time-of-process-per-machine",
+    "difficulty": "Easy",
+    "acRate": 66.9
+  },
+  {
+    "title": "Delete Duplicate Emails",
+    "slug": "delete-duplicate-emails",
+    "difficulty": "Easy",
+    "acRate": 66.5
+  },
+  {
+    "title": "Sales Person",
+    "slug": "sales-person",
+    "difficulty": "Easy",
+    "acRate": 66.3
+  },
+  {
+    "title": "Count Salary Categories",
+    "slug": "count-salary-categories",
+    "difficulty": "Medium",
+    "acRate": 65.1
+  },
+  {
+    "title": "Customer Placing the Largest Number of Orders",
+    "slug": "customer-placing-the-largest-number-of-orders",
+    "difficulty": "Easy",
+    "acRate": 64.6
+  },
+  {
+    "title": "Classes With at Least 5 Students",
+    "slug": "classes-with-at-least-5-students",
+    "difficulty": "Easy",
+    "acRate": 64.6
+  },
+  {
+    "title": "Customers Who Bought All Products",
+    "slug": "customers-who-bought-all-products",
+    "difficulty": "Medium",
+    "acRate": 64.4
+  },
+  {
+    "title": "Find Category Recommendation Pairs",
+    "slug": "find-category-recommendation-pairs",
+    "difficulty": "Hard",
+    "acRate": 64.1
+  },
+  {
+    "title": "Friend Requests II: Who Has the Most Friends",
+    "slug": "friend-requests-ii-who-has-the-most-friends",
+    "difficulty": "Medium",
+    "acRate": 63.4
+  },
+  {
+    "title": "Seasonal Sales Analysis",
+    "slug": "seasonal-sales-analysis",
+    "difficulty": "Medium",
+    "acRate": 63.1
+  },
+  {
+    "title": "Confirmation Rate",
+    "slug": "confirmation-rate",
+    "difficulty": "Medium",
+    "acRate": 62.5
+  },
+  {
+    "title": "Find Product Recommendation Pairs",
+    "slug": "find-product-recommendation-pairs",
+    "difficulty": "Medium",
+    "acRate": 62.4
+  },
+  {
+    "title": "Analyze Organization Hierarchy",
+    "slug": "analyze-organization-hierarchy",
+    "difficulty": "Hard",
+    "acRate": 61.8
+  },
+  {
+    "title": "Students and Examinations",
+    "slug": "students-and-examinations",
+    "difficulty": "Easy",
+    "acRate": 61.7
+  },
+  {
+    "title": "Department Top Three Salaries",
+    "slug": "department-top-three-salaries",
+    "difficulty": "Hard",
+    "acRate": 61.3
+  },
+  {
+    "title": "Percentage of Users Attended a Contest",
+    "slug": "percentage-of-users-attended-a-contest",
+    "difficulty": "Easy",
+    "acRate": 60.9
+  },
+  {
+    "title": "Fix Names in a Table",
+    "slug": "fix-names-in-a-table",
+    "difficulty": "Easy",
+    "acRate": 60.6
+  },
+  {
+    "title": "Monthly Transactions I",
+    "slug": "monthly-transactions-i",
+    "difficulty": "Medium",
+    "acRate": 59.7
+  },
+  {
+    "title": "Restaurant Growth",
+    "slug": "restaurant-growth",
+    "difficulty": "Medium",
+    "acRate": 59.5
+  },
+  {
+    "title": "Department Highest Salary",
+    "slug": "department-highest-salary",
+    "difficulty": "Medium",
+    "acRate": 59
+  },
+  {
+    "title": "Product Price at a Given Date",
+    "slug": "product-price-at-a-given-date",
+    "difficulty": "Medium",
+    "acRate": 58.3
+  },
+  {
+    "title": "Market Analysis I",
+    "slug": "market-analysis-i",
+    "difficulty": "Medium",
+    "acRate": 57.6
+  },
+  {
+    "title": "Top Travellers",
+    "slug": "top-travellers",
+    "difficulty": "Easy",
+    "acRate": 57.6
+  },
+  {
+    "title": "Find Consistently Improving Employees",
+    "slug": "find-consistently-improving-employees",
+    "difficulty": "Medium",
+    "acRate": 57.4
+  },
+  {
+    "title": "Calculate Special Bonus",
+    "slug": "calculate-special-bonus",
+    "difficulty": "Easy",
+    "acRate": 57.1
+  },
+  {
+    "title": "Immediate Food Delivery II",
+    "slug": "immediate-food-delivery-ii",
+    "difficulty": "Medium",
+    "acRate": 56.7
+  },
+  {
+    "title": "Find Books with No Available Copies",
+    "slug": "find-books-with-no-available-copies",
+    "difficulty": "Easy",
+    "acRate": 54.5
+  },
+  {
+    "title": "Queries Quality and Percentage",
+    "slug": "queries-quality-and-percentage",
+    "difficulty": "Easy",
+    "acRate": 54.3
+  },
+  {
+    "title": "The Number of Employees Which Report to Each Employee",
+    "slug": "the-number-of-employees-which-report-to-each-employee",
+    "difficulty": "Easy",
+    "acRate": 53.7
+  },
+  {
+    "title": "Rising Temperature",
+    "slug": "rising-temperature",
+    "difficulty": "Easy",
+    "acRate": 51.9
+  },
+  {
+    "title": "Human Traffic of Stadium",
+    "slug": "human-traffic-of-stadium",
+    "difficulty": "Hard",
+    "acRate": 51.9
+  },
+  {
+    "title": "Investments in 2016",
+    "slug": "investments-in-2016",
+    "difficulty": "Medium",
+    "acRate": 51.6
+  },
+  {
+    "title": "User Activity for the Past 30 Days I",
+    "slug": "user-activity-for-the-past-30-days-i",
+    "difficulty": "Easy",
+    "acRate": 51.4
+  },
+  {
+    "title": "Find Students Who Improved",
+    "slug": "find-students-who-improved",
+    "difficulty": "Medium",
+    "acRate": 49.6
+  },
+  {
+    "title": "Managers with at Least 5 Direct Reports",
+    "slug": "managers-with-at-least-5-direct-reports",
+    "difficulty": "Medium",
+    "acRate": 49.4
+  },
+  {
+    "title": "Consecutive Numbers",
+    "slug": "consecutive-numbers",
+    "difficulty": "Medium",
+    "acRate": 49
+  },
+  {
+    "title": "Employees Whose Manager Left the Company",
+    "slug": "employees-whose-manager-left-the-company",
+    "difficulty": "Easy",
+    "acRate": 48.9
+  },
+  {
+    "title": "Sales Analysis III",
+    "slug": "sales-analysis-iii",
+    "difficulty": "Easy",
+    "acRate": 48.1
+  },
+  {
+    "title": "Find Invalid IP Addresses",
+    "slug": "find-invalid-ip-addresses",
+    "difficulty": "Hard",
+    "acRate": 48
+  },
+  {
+    "title": "Second Highest Salary",
+    "slug": "second-highest-salary",
+    "difficulty": "Medium",
+    "acRate": 47.9
+  },
+  {
+    "title": "Find Drivers with Improved Fuel Efficiency",
+    "slug": "find-drivers-with-improved-fuel-efficiency",
+    "difficulty": "Medium",
+    "acRate": 47.7
+  },
+  {
+    "title": "Product Sales Analysis III",
+    "slug": "product-sales-analysis-iii",
+    "difficulty": "Medium",
+    "acRate": 46.4
+  },
+  {
+    "title": "Movie Rating",
+    "slug": "movie-rating",
+    "difficulty": "Medium",
+    "acRate": 44.1
+  },
+  {
+    "title": "Find Overbooked Employees",
+    "slug": "find-overbooked-employees",
+    "difficulty": "Medium",
+    "acRate": 43.9
+  },
+  {
+    "title": "Find COVID Recovery Patients",
+    "slug": "find-covid-recovery-patients",
+    "difficulty": "Medium",
+    "acRate": 43.5
+  },
+  {
+    "title": "Find Valid Emails",
+    "slug": "find-valid-emails",
+    "difficulty": "Easy",
+    "acRate": 43.3
+  },
+  {
+    "title": "Game Play Analysis IV",
+    "slug": "game-play-analysis-iv",
+    "difficulty": "Medium",
+    "acRate": 42.1
+  },
+  {
+    "title": "First Letter Capitalization II",
+    "slug": "first-letter-capitalization-ii",
+    "difficulty": "Hard",
+    "acRate": 40.9
+  },
+  {
+    "title": "Nth Highest Salary",
+    "slug": "nth-highest-salary",
+    "difficulty": "Medium",
+    "acRate": 39.9
+  },
+  {
+    "title": "Patients With a Condition",
+    "slug": "patients-with-a-condition",
+    "difficulty": "Easy",
+    "acRate": 39.1
+  },
+  {
+    "title": "Trips and Users",
+    "slug": "trips-and-users",
+    "difficulty": "Hard",
+    "acRate": 38.9
+  },
+  {
+    "title": "Average Selling Price",
+    "slug": "average-selling-price",
+    "difficulty": "Easy",
+    "acRate": 37.7
+  },
+  {
+    "title": "Find Users With Valid E-Mails",
+    "slug": "find-users-with-valid-e-mails",
+    "difficulty": "Easy",
+    "acRate": 35.4
+  },
+  {
+    "title": "Find Products with Valid Serial Numbers",
+    "slug": "find-products-with-valid-serial-numbers",
+    "difficulty": "Easy",
+    "acRate": 28.8
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Count of Smaller Numbers After Self",
+    "slug": "count-of-smaller-numbers-after-self",
+    "difficulty": "Hard",
+    "acRate": 43.9
+  },
+  {
+    "title": "Count of Range Sum",
+    "slug": "count-of-range-sum",
+    "difficulty": "Hard",
+    "acRate": 39.6
+  },
+  {
+    "title": "Sliding Window Median",
+    "slug": "sliding-window-median",
+    "difficulty": "Hard",
+    "acRate": 39.1
+  },
+  {
+    "title": "Finding MK Average",
+    "slug": "finding-mk-average",
+    "difficulty": "Hard",
+    "acRate": 38.9
+  },
+  {
+    "title": "Reverse Pairs",
+    "slug": "reverse-pairs",
+    "difficulty": "Hard",
+    "acRate": 34.9
+  }
+]

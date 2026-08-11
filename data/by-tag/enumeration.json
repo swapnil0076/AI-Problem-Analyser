@@ -1,0 +1,878 @@
+[
+  {
+    "title": "Sum of All Subset XOR Totals",
+    "slug": "sum-of-all-subset-xor-totals",
+    "difficulty": "Easy",
+    "acRate": 90.1
+  },
+  {
+    "title": "Count Number of Maximum Bitwise-OR Subsets",
+    "slug": "count-number-of-maximum-bitwise-or-subsets",
+    "difficulty": "Medium",
+    "acRate": 89.5
+  },
+  {
+    "title": "Total Waviness of Numbers in Range I",
+    "slug": "total-waviness-of-numbers-in-range-i",
+    "difficulty": "Medium",
+    "acRate": 87.4
+  },
+  {
+    "title": "Number of Arithmetic Triplets",
+    "slug": "number-of-arithmetic-triplets",
+    "difficulty": "Easy",
+    "acRate": 85.6
+  },
+  {
+    "title": "Count Good Triplets",
+    "slug": "count-good-triplets",
+    "difficulty": "Easy",
+    "acRate": 85.5
+  },
+  {
+    "title": "  Count Symmetric Integers",
+    "slug": "count-symmetric-integers",
+    "difficulty": "Easy",
+    "acRate": 83.2
+  },
+  {
+    "title": "Sum of Squares of Special Elements ",
+    "slug": "sum-of-squares-of-special-elements",
+    "difficulty": "Easy",
+    "acRate": 82.4
+  },
+  {
+    "title": "Divide an Array Into Subarrays With Minimum Cost I",
+    "slug": "divide-an-array-into-subarrays-with-minimum-cost-i",
+    "difficulty": "Easy",
+    "acRate": 80.6
+  },
+  {
+    "title": "Number of Common Factors",
+    "slug": "number-of-common-factors",
+    "difficulty": "Easy",
+    "acRate": 80.3
+  },
+  {
+    "title": "Lexicographically Smallest String After Applying Operations",
+    "slug": "lexicographically-smallest-string-after-applying-operations",
+    "difficulty": "Medium",
+    "acRate": 79.3
+  },
+  {
+    "title": "Valid Binary Strings With Cost Limit",
+    "slug": "valid-binary-strings-with-cost-limit",
+    "difficulty": "Medium",
+    "acRate": 78.9
+  },
+  {
+    "title": "Finding 3-Digit Even Numbers",
+    "slug": "finding-3-digit-even-numbers",
+    "difficulty": "Easy",
+    "acRate": 78.6
+  },
+  {
+    "title": "Count Square Sum Triples",
+    "slug": "count-square-sum-triples",
+    "difficulty": "Easy",
+    "acRate": 77.2
+  },
+  {
+    "title": "Distribute Candies Among Children I",
+    "slug": "distribute-candies-among-children-i",
+    "difficulty": "Easy",
+    "acRate": 76.7
+  },
+  {
+    "title": "Find the Peaks",
+    "slug": "find-the-peaks",
+    "difficulty": "Easy",
+    "acRate": 75.1
+  },
+  {
+    "title": "Smallest Divisible Digit Product I",
+    "slug": "smallest-divisible-digit-product-i",
+    "difficulty": "Easy",
+    "acRate": 73.1
+  },
+  {
+    "title": "Maximize Expression of Three Elements",
+    "slug": "maximize-expression-of-three-elements",
+    "difficulty": "Easy",
+    "acRate": 73
+  },
+  {
+    "title": "Greatest English Letter in Upper and Lower Case",
+    "slug": "greatest-english-letter-in-upper-and-lower-case",
+    "difficulty": "Easy",
+    "acRate": 72.8
+  },
+  {
+    "title": "Count Substrings That Differ by One Character",
+    "slug": "count-substrings-that-differ-by-one-character",
+    "difficulty": "Medium",
+    "acRate": 72.3
+  },
+  {
+    "title": "Longest Subsequence Repeated k Times",
+    "slug": "longest-subsequence-repeated-k-times",
+    "difficulty": "Hard",
+    "acRate": 70.9
+  },
+  {
+    "title": "Unique 3-Digit Even Numbers",
+    "slug": "unique-3-digit-even-numbers",
+    "difficulty": "Easy",
+    "acRate": 70.4
+  },
+  {
+    "title": "Longest Balanced Substring I",
+    "slug": "longest-balanced-substring-i",
+    "difficulty": "Medium",
+    "acRate": 69.7
+  },
+  {
+    "title": "Find the Count of Good Integers",
+    "slug": "find-the-count-of-good-integers",
+    "difficulty": "Hard",
+    "acRate": 69.3
+  },
+  {
+    "title": "Sequential Digits",
+    "slug": "sequential-digits",
+    "difficulty": "Medium",
+    "acRate": 68.6
+  },
+  {
+    "title": "Minimize Result by Adding Parentheses to Expression",
+    "slug": "minimize-result-by-adding-parentheses-to-expression",
+    "difficulty": "Medium",
+    "acRate": 68.3
+  },
+  {
+    "title": "Count Subtrees With Max Distance Between Cities",
+    "slug": "count-subtrees-with-max-distance-between-cities",
+    "difficulty": "Hard",
+    "acRate": 67.5
+  },
+  {
+    "title": "Number of Centered Subarrays",
+    "slug": "number-of-centered-subarrays",
+    "difficulty": "Medium",
+    "acRate": 67.4
+  },
+  {
+    "title": "Minimum Absolute Difference Between Two Values",
+    "slug": "minimum-absolute-difference-between-two-values",
+    "difficulty": "Easy",
+    "acRate": 66.9
+  },
+  {
+    "title": "Count Monobit Integers",
+    "slug": "count-monobit-integers",
+    "difficulty": "Easy",
+    "acRate": 66.7
+  },
+  {
+    "title": "Count Dominant Indices",
+    "slug": "count-dominant-indices",
+    "difficulty": "Easy",
+    "acRate": 66.2
+  },
+  {
+    "title": "Reordered Power of 2",
+    "slug": "reordered-power-of-2",
+    "difficulty": "Medium",
+    "acRate": 65.9
+  },
+  {
+    "title": "Maximum Possible Number by Binary Concatenation",
+    "slug": "maximum-possible-number-by-binary-concatenation",
+    "difficulty": "Medium",
+    "acRate": 65.7
+  },
+  {
+    "title": "Count Special Quadruplets",
+    "slug": "count-special-quadruplets",
+    "difficulty": "Easy",
+    "acRate": 64.9
+  },
+  {
+    "title": "Maximum Number of Achievable Transfer Requests",
+    "slug": "maximum-number-of-achievable-transfer-requests",
+    "difficulty": "Hard",
+    "acRate": 64.8
+  },
+  {
+    "title": "Three Divisors",
+    "slug": "three-divisors",
+    "difficulty": "Easy",
+    "acRate": 64.7
+  },
+  {
+    "title": "Find the Number of Ways to Place People II",
+    "slug": "find-the-number-of-ways-to-place-people-ii",
+    "difficulty": "Hard",
+    "acRate": 64.2
+  },
+  {
+    "title": "Maximize Subarrays After Removing One Conflicting Pair",
+    "slug": "maximize-subarrays-after-removing-one-conflicting-pair",
+    "difficulty": "Hard",
+    "acRate": 64.1
+  },
+  {
+    "title": "Find the Number of Ways to Place People I",
+    "slug": "find-the-number-of-ways-to-place-people-i",
+    "difficulty": "Medium",
+    "acRate": 64
+  },
+  {
+    "title": "Sum of k-Mirror Numbers",
+    "slug": "sum-of-k-mirror-numbers",
+    "difficulty": "Hard",
+    "acRate": 63.6
+  },
+  {
+    "title": "Find the Minimum Area to Cover All Ones II",
+    "slug": "find-the-minimum-area-to-cover-all-ones-ii",
+    "difficulty": "Hard",
+    "acRate": 63.2
+  },
+  {
+    "title": "Next Greater Numerically Balanced Number",
+    "slug": "next-greater-numerically-balanced-number",
+    "difficulty": "Medium",
+    "acRate": 63.1
+  },
+  {
+    "title": "Count Connected Subgraphs with Even Node Sum",
+    "slug": "count-connected-subgraphs-with-even-node-sum",
+    "difficulty": "Hard",
+    "acRate": 62.3
+  },
+  {
+    "title": "Count Beautiful Substrings I",
+    "slug": "count-beautiful-substrings-i",
+    "difficulty": "Medium",
+    "acRate": 60.9
+  },
+  {
+    "title": "Maximize Active Section with Trade I",
+    "slug": "maximize-active-section-with-trade-i",
+    "difficulty": "Medium",
+    "acRate": 60.9
+  },
+  {
+    "title": "Reschedule Meetings for Maximum Free Time II",
+    "slug": "reschedule-meetings-for-maximum-free-time-ii",
+    "difficulty": "Medium",
+    "acRate": 60.3
+  },
+  {
+    "title": "Sum of Compatible Numbers in Range I",
+    "slug": "sum-of-compatible-numbers-in-range-i",
+    "difficulty": "Easy",
+    "acRate": 59
+  },
+  {
+    "title": "Maximum Rows Covered by Columns",
+    "slug": "maximum-rows-covered-by-columns",
+    "difficulty": "Medium",
+    "acRate": 58.2
+  },
+  {
+    "title": "Minimum Operations to Make the Integer Zero",
+    "slug": "minimum-operations-to-make-the-integer-zero",
+    "difficulty": "Medium",
+    "acRate": 58
+  },
+  {
+    "title": "Number of Ways to Buy Pens and Pencils",
+    "slug": "number-of-ways-to-buy-pens-and-pencils",
+    "difficulty": "Medium",
+    "acRate": 57
+  },
+  {
+    "title": "Count Lattice Points Inside a Circle",
+    "slug": "count-lattice-points-inside-a-circle",
+    "difficulty": "Medium",
+    "acRate": 57
+  },
+  {
+    "title": "Ambiguous Coordinates",
+    "slug": "ambiguous-coordinates",
+    "difficulty": "Medium",
+    "acRate": 56.4
+  },
+  {
+    "title": "Count the Number of Incremovable Subarrays I",
+    "slug": "count-the-number-of-incremovable-subarrays-i",
+    "difficulty": "Easy",
+    "acRate": 56.4
+  },
+  {
+    "title": "Distribute Candies Among Children II",
+    "slug": "distribute-candies-among-children-ii",
+    "difficulty": "Medium",
+    "acRate": 55.6
+  },
+  {
+    "title": "Form Smallest Number From Two Digit Arrays",
+    "slug": "form-smallest-number-from-two-digit-arrays",
+    "difficulty": "Easy",
+    "acRate": 55.3
+  },
+  {
+    "title": "Word Squares II",
+    "slug": "word-squares-ii",
+    "difficulty": "Medium",
+    "acRate": 55.2
+  },
+  {
+    "title": "K Divisible Elements Subarrays",
+    "slug": "k-divisible-elements-subarrays",
+    "difficulty": "Medium",
+    "acRate": 55.1
+  },
+  {
+    "title": "Lexicographically Smallest String After Reverse",
+    "slug": "lexicographically-smallest-string-after-reverse",
+    "difficulty": "Medium",
+    "acRate": 55
+  },
+  {
+    "title": "Integers With Multiple Sum of Two Cubes",
+    "slug": "integers-with-multiple-sum-of-two-cubes",
+    "difficulty": "Medium",
+    "acRate": 54.9
+  },
+  {
+    "title": "Minimum Deletion Cost to Make All Characters Equal",
+    "slug": "minimum-deletion-cost-to-make-all-characters-equal",
+    "difficulty": "Medium",
+    "acRate": 54.8
+  },
+  {
+    "title": "Create Components With Same Value",
+    "slug": "create-components-with-same-value",
+    "difficulty": "Hard",
+    "acRate": 54
+  },
+  {
+    "title": "Make a Square with the Same Color",
+    "slug": "make-a-square-with-the-same-color",
+    "difficulty": "Easy",
+    "acRate": 53
+  },
+  {
+    "title": "Number of Unique XOR Triplets II",
+    "slug": "number-of-unique-xor-triplets-ii",
+    "difficulty": "Medium",
+    "acRate": 52.9
+  },
+  {
+    "title": "Maximum Good People Based on Statements",
+    "slug": "maximum-good-people-based-on-statements",
+    "difficulty": "Hard",
+    "acRate": 52.8
+  },
+  {
+    "title": "Equal Sum Grid Partition I",
+    "slug": "equal-sum-grid-partition-i",
+    "difficulty": "Medium",
+    "acRate": 52.8
+  },
+  {
+    "title": "Maximum Points in an Archery Competition",
+    "slug": "maximum-points-in-an-archery-competition",
+    "difficulty": "Medium",
+    "acRate": 52.3
+  },
+  {
+    "title": "Maximum Area Rectangle With Point Constraints I",
+    "slug": "maximum-area-rectangle-with-point-constraints-i",
+    "difficulty": "Medium",
+    "acRate": 52.3
+  },
+  {
+    "title": "Happy Students",
+    "slug": "happy-students",
+    "difficulty": "Medium",
+    "acRate": 51.4
+  },
+  {
+    "title": "Check if Word Can Be Placed In Crossword",
+    "slug": "check-if-word-can-be-placed-in-crossword",
+    "difficulty": "Medium",
+    "acRate": 50.8
+  },
+  {
+    "title": "Number of Possible Sets of Closing Branches",
+    "slug": "number-of-possible-sets-of-closing-branches",
+    "difficulty": "Hard",
+    "acRate": 50.7
+  },
+  {
+    "title": "Longest Strictly Increasing Subsequence With Non-Zero Bitwise AND",
+    "slug": "longest-strictly-increasing-subsequence-with-non-zero-bitwise-and",
+    "difficulty": "Medium",
+    "acRate": 50.6
+  },
+  {
+    "title": "Check if Move is Legal",
+    "slug": "check-if-move-is-legal",
+    "difficulty": "Medium",
+    "acRate": 50.1
+  },
+  {
+    "title": "Sum of Number and Its Reverse",
+    "slug": "sum-of-number-and-its-reverse",
+    "difficulty": "Medium",
+    "acRate": 49.9
+  },
+  {
+    "title": "Maximum Square Area by Removing Fences From a Field",
+    "slug": "maximum-square-area-by-removing-fences-from-a-field",
+    "difficulty": "Medium",
+    "acRate": 49.4
+  },
+  {
+    "title": "Remove Digit From Number to Maximize Result",
+    "slug": "remove-digit-from-number-to-maximize-result",
+    "difficulty": "Easy",
+    "acRate": 48.8
+  },
+  {
+    "title": "Maximum Difference Between Even and Odd Frequency II",
+    "slug": "maximum-difference-between-even-and-odd-frequency-ii",
+    "difficulty": "Hard",
+    "acRate": 48.6
+  },
+  {
+    "title": "Number of Valid Clock Times",
+    "slug": "number-of-valid-clock-times",
+    "difficulty": "Easy",
+    "acRate": 48.2
+  },
+  {
+    "title": "Maximum Subarray With Equal Products",
+    "slug": "maximum-subarray-with-equal-products",
+    "difficulty": "Easy",
+    "acRate": 47.3
+  },
+  {
+    "title": "Naming a Company",
+    "slug": "naming-a-company",
+    "difficulty": "Hard",
+    "acRate": 46.6
+  },
+  {
+    "title": "Valid Subarrays With Matching Sum Digits I",
+    "slug": "valid-subarrays-with-matching-sum-digits-i",
+    "difficulty": "Medium",
+    "acRate": 46.6
+  },
+  {
+    "title": "Most Frequent Prime",
+    "slug": "most-frequent-prime",
+    "difficulty": "Medium",
+    "acRate": 46.4
+  },
+  {
+    "title": "Minimum Operations to Make Array Modulo Alternating I",
+    "slug": "minimum-operations-to-make-array-modulo-alternating-i",
+    "difficulty": "Medium",
+    "acRate": 46.1
+  },
+  {
+    "title": "Substring With Largest Variance",
+    "slug": "substring-with-largest-variance",
+    "difficulty": "Hard",
+    "acRate": 46
+  },
+  {
+    "title": "Minimum Cost to Set Cooking Time",
+    "slug": "minimum-cost-to-set-cooking-time",
+    "difficulty": "Medium",
+    "acRate": 45
+  },
+  {
+    "title": "Removing Minimum Number of Magic Beans",
+    "slug": "removing-minimum-number-of-magic-beans",
+    "difficulty": "Medium",
+    "acRate": 44.9
+  },
+  {
+    "title": "Powerful Integers",
+    "slug": "powerful-integers",
+    "difficulty": "Medium",
+    "acRate": 44.7
+  },
+  {
+    "title": "Minimum Degree of a Connected Trio in a Graph",
+    "slug": "minimum-degree-of-a-connected-trio-in-a-graph",
+    "difficulty": "Hard",
+    "acRate": 44.7
+  },
+  {
+    "title": "Maximum Height of a Triangle",
+    "slug": "maximum-height-of-a-triangle",
+    "difficulty": "Easy",
+    "acRate": 44.7
+  },
+  {
+    "title": "Minimum Operations to Maximize Last Elements in Arrays",
+    "slug": "minimum-operations-to-maximize-last-elements-in-arrays",
+    "difficulty": "Medium",
+    "acRate": 44.3
+  },
+  {
+    "title": "Apply Operations to Make Sum of Array Greater Than or Equal to k",
+    "slug": "apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k",
+    "difficulty": "Medium",
+    "acRate": 44.3
+  },
+  {
+    "title": "Detect Pattern of Length M Repeated K or More Times",
+    "slug": "detect-pattern-of-length-m-repeated-k-or-more-times",
+    "difficulty": "Easy",
+    "acRate": 44.1
+  },
+  {
+    "title": "Sum of Imbalance Numbers of All Subarrays",
+    "slug": "sum-of-imbalance-numbers-of-all-subarrays",
+    "difficulty": "Hard",
+    "acRate": 43.8
+  },
+  {
+    "title": "Longest Palindrome After Substring Concatenation I",
+    "slug": "longest-palindrome-after-substring-concatenation-i",
+    "difficulty": "Medium",
+    "acRate": 43.5
+  },
+  {
+    "title": "Consecutive Numbers Sum",
+    "slug": "consecutive-numbers-sum",
+    "difficulty": "Hard",
+    "acRate": 42.8
+  },
+  {
+    "title": "Longest Mountain in Array",
+    "slug": "longest-mountain-in-array",
+    "difficulty": "Medium",
+    "acRate": 42.4
+  },
+  {
+    "title": "Find the Maximum Number of Elements in Subset",
+    "slug": "find-the-maximum-number-of-elements-in-subset",
+    "difficulty": "Medium",
+    "acRate": 42.3
+  },
+  {
+    "title": "Number of Black Blocks",
+    "slug": "number-of-black-blocks",
+    "difficulty": "Medium",
+    "acRate": 42.2
+  },
+  {
+    "title": "Split Message Based on Limit",
+    "slug": "split-message-based-on-limit",
+    "difficulty": "Hard",
+    "acRate": 42.1
+  },
+  {
+    "title": "Count the Number of Substrings With Dominant Ones",
+    "slug": "count-the-number-of-substrings-with-dominant-ones",
+    "difficulty": "Medium",
+    "acRate": 42
+  },
+  {
+    "title": "Recover the Original Array",
+    "slug": "recover-the-original-array",
+    "difficulty": "Hard",
+    "acRate": 41.9
+  },
+  {
+    "title": "Find the Lexicographically Largest String From the Box I",
+    "slug": "find-the-lexicographically-largest-string-from-the-box-i",
+    "difficulty": "Medium",
+    "acRate": 40.9
+  },
+  {
+    "title": "Maximum Score of a Node Sequence",
+    "slug": "maximum-score-of-a-node-sequence",
+    "difficulty": "Hard",
+    "acRate": 40.4
+  },
+  {
+    "title": "Super Palindromes",
+    "slug": "super-palindromes",
+    "difficulty": "Hard",
+    "acRate": 40.3
+  },
+  {
+    "title": "Coordinate With Maximum Network Quality",
+    "slug": "coordinate-with-maximum-network-quality",
+    "difficulty": "Medium",
+    "acRate": 39.9
+  },
+  {
+    "title": "Largest Palindrome Product",
+    "slug": "largest-palindrome-product",
+    "difficulty": "Hard",
+    "acRate": 39.6
+  },
+  {
+    "title": "Equal Sum Grid Partition II",
+    "slug": "equal-sum-grid-partition-ii",
+    "difficulty": "Hard",
+    "acRate": 39.5
+  },
+  {
+    "title": "Minimum Operations to Make a Special Number",
+    "slug": "minimum-operations-to-make-a-special-number",
+    "difficulty": "Medium",
+    "acRate": 38.8
+  },
+  {
+    "title": "Count Almost Equal Pairs I",
+    "slug": "count-almost-equal-pairs-i",
+    "difficulty": "Medium",
+    "acRate": 38.2
+  },
+  {
+    "title": "Prime Pairs With Target Sum",
+    "slug": "prime-pairs-with-target-sum",
+    "difficulty": "Medium",
+    "acRate": 38.1
+  },
+  {
+    "title": "Splitting a String Into Descending Consecutive Values",
+    "slug": "splitting-a-string-into-descending-consecutive-values",
+    "difficulty": "Medium",
+    "acRate": 37.7
+  },
+  {
+    "title": "Identify the Largest Outlier in an Array",
+    "slug": "identify-the-largest-outlier-in-an-array",
+    "difficulty": "Medium",
+    "acRate": 36.5
+  },
+  {
+    "title": "Complete Prime Number",
+    "slug": "complete-prime-number",
+    "difficulty": "Medium",
+    "acRate": 36.5
+  },
+  {
+    "title": "Count Primes",
+    "slug": "count-primes",
+    "difficulty": "Medium",
+    "acRate": 36.4
+  },
+  {
+    "title": "Largest Time for Given Digits",
+    "slug": "largest-time-for-given-digits",
+    "difficulty": "Medium",
+    "acRate": 36.1
+  },
+  {
+    "title": "Maximum Number of Ways to Partition an Array",
+    "slug": "maximum-number-of-ways-to-partition-an-array",
+    "difficulty": "Hard",
+    "acRate": 36
+  },
+  {
+    "title": "Longest Alternating Subarray",
+    "slug": "longest-alternating-subarray",
+    "difficulty": "Easy",
+    "acRate": 35.5
+  },
+  {
+    "title": "Latest Time You Can Obtain After Replacing Characters",
+    "slug": "latest-time-you-can-obtain-after-replacing-characters",
+    "difficulty": "Easy",
+    "acRate": 35.5
+  },
+  {
+    "title": "Collecting Chocolates",
+    "slug": "collecting-chocolates",
+    "difficulty": "Medium",
+    "acRate": 35.4
+  },
+  {
+    "title": "Partition Array into Two Equal Product Subsets",
+    "slug": "partition-array-into-two-equal-product-subsets",
+    "difficulty": "Medium",
+    "acRate": 35.3
+  },
+  {
+    "title": "Permutations IV",
+    "slug": "permutations-iv",
+    "difficulty": "Hard",
+    "acRate": 34.6
+  },
+  {
+    "title": "Count Increasing Quadruplets",
+    "slug": "count-increasing-quadruplets",
+    "difficulty": "Hard",
+    "acRate": 34.5
+  },
+  {
+    "title": "Find the Integer Added to Array II",
+    "slug": "find-the-integer-added-to-array-ii",
+    "difficulty": "Medium",
+    "acRate": 33.1
+  },
+  {
+    "title": "Shortest String That Contains Three Strings",
+    "slug": "shortest-string-that-contains-three-strings",
+    "difficulty": "Medium",
+    "acRate": 32.2
+  },
+  {
+    "title": "Sum of Sortable Integers",
+    "slug": "sum-of-sortable-integers",
+    "difficulty": "Hard",
+    "acRate": 31.8
+  },
+  {
+    "title": "Longest Alternating Subarray After Removing At Most One Element",
+    "slug": "longest-alternating-subarray-after-removing-at-most-one-element",
+    "difficulty": "Hard",
+    "acRate": 31.6
+  },
+  {
+    "title": "Maximum Frequency After Subarray Operation",
+    "slug": "maximum-frequency-after-subarray-operation",
+    "difficulty": "Medium",
+    "acRate": 31.5
+  },
+  {
+    "title": "Sum of Floored Pairs",
+    "slug": "sum-of-floored-pairs",
+    "difficulty": "Hard",
+    "acRate": 31.4
+  },
+  {
+    "title": "Maximum Total Beauty of the Gardens",
+    "slug": "maximum-total-beauty-of-the-gardens",
+    "difficulty": "Hard",
+    "acRate": 30.3
+  },
+  {
+    "title": "Count Special Subsequences",
+    "slug": "count-special-subsequences",
+    "difficulty": "Medium",
+    "acRate": 29.9
+  },
+  {
+    "title": "Find Maximum Area of a Triangle",
+    "slug": "find-maximum-area-of-a-triangle",
+    "difficulty": "Medium",
+    "acRate": 29.9
+  },
+  {
+    "title": "Maximum Score with Co-Prime Element",
+    "slug": "maximum-score-with-co-prime-element",
+    "difficulty": "Hard",
+    "acRate": 28.7
+  },
+  {
+    "title": "Sum of Numbers With Units Digit K",
+    "slug": "sum-of-numbers-with-units-digit-k",
+    "difficulty": "Medium",
+    "acRate": 28.4
+  },
+  {
+    "title": "Count Almost Equal Pairs II",
+    "slug": "count-almost-equal-pairs-ii",
+    "difficulty": "Hard",
+    "acRate": 27.4
+  },
+  {
+    "title": "Maximum Value Sum by Placing Three Rooks II",
+    "slug": "maximum-value-sum-by-placing-three-rooks-ii",
+    "difficulty": "Hard",
+    "acRate": 27.1
+  },
+  {
+    "title": "Lexicographically Smallest Permutation Greater Than Target",
+    "slug": "lexicographically-smallest-permutation-greater-than-target",
+    "difficulty": "Medium",
+    "acRate": 27
+  },
+  {
+    "title": "Minimum Operations to Make Character Frequencies Equal",
+    "slug": "minimum-operations-to-make-character-frequencies-equal",
+    "difficulty": "Hard",
+    "acRate": 26.9
+  },
+  {
+    "title": "Maximum Strength of a Group",
+    "slug": "maximum-strength-of-a-group",
+    "difficulty": "Medium",
+    "acRate": 25.9
+  },
+  {
+    "title": "Maximize Subarray GCD Score",
+    "slug": "maximize-subarray-gcd-score",
+    "difficulty": "Hard",
+    "acRate": 25.7
+  },
+  {
+    "title": "Lexicographically Smallest Palindromic Permutation Greater Than Target",
+    "slug": "lexicographically-smallest-palindromic-permutation-greater-than-target",
+    "difficulty": "Hard",
+    "acRate": 25.7
+  },
+  {
+    "title": "Frequencies of Shortest Supersequences",
+    "slug": "frequencies-of-shortest-supersequences",
+    "difficulty": "Hard",
+    "acRate": 23.1
+  },
+  {
+    "title": "Minimum Moves to Capture The Queen",
+    "slug": "minimum-moves-to-capture-the-queen",
+    "difficulty": "Medium",
+    "acRate": 22.7
+  },
+  {
+    "title": "Longest Arithmetic Sequence After Changing At Most One Element",
+    "slug": "longest-arithmetic-sequence-after-changing-at-most-one-element",
+    "difficulty": "Medium",
+    "acRate": 21.7
+  },
+  {
+    "title": "Smallest Substring With Identical Characters I",
+    "slug": "smallest-substring-with-identical-characters-i",
+    "difficulty": "Hard",
+    "acRate": 21.1
+  },
+  {
+    "title": "Minimum Cost to Equalize Array",
+    "slug": "minimum-cost-to-equalize-array",
+    "difficulty": "Hard",
+    "acRate": 18.8
+  },
+  {
+    "title": "Partition Array for Maximum XOR and AND",
+    "slug": "partition-array-for-maximum-xor-and-and",
+    "difficulty": "Hard",
+    "acRate": 17.7
+  },
+  {
+    "title": "Maximum Value Sum by Placing Three Rooks I",
+    "slug": "maximum-value-sum-by-placing-three-rooks-i",
+    "difficulty": "Hard",
+    "acRate": 17
+  },
+  {
+    "title": "Two-Letter Card Game",
+    "slug": "two-letter-card-game",
+    "difficulty": "Medium",
+    "acRate": 13.2
+  }
+]

@@ -1,0 +1,560 @@
+[
+  {
+    "title": "Insert Greatest Common Divisors in Linked List",
+    "slug": "insert-greatest-common-divisors-in-linked-list",
+    "difficulty": "Medium",
+    "acRate": 91.3
+  },
+  {
+    "title": "GCD of Odd and Even Sums",
+    "slug": "gcd-of-odd-and-even-sums",
+    "difficulty": "Easy",
+    "acRate": 89.9
+  },
+  {
+    "title": "Smallest Even Multiple",
+    "slug": "smallest-even-multiple",
+    "difficulty": "Easy",
+    "acRate": 88.5
+  },
+  {
+    "title": "Find Greatest Common Divisor of Array",
+    "slug": "find-greatest-common-divisor-of-array",
+    "difficulty": "Easy",
+    "acRate": 83.5
+  },
+  {
+    "title": "Check If Digits Are Equal in String After Operations I",
+    "slug": "check-if-digits-are-equal-in-string-after-operations-i",
+    "difficulty": "Easy",
+    "acRate": 82.5
+  },
+  {
+    "title": "Find Triangular Sum of an Array",
+    "slug": "find-triangular-sum-of-an-array",
+    "difficulty": "Medium",
+    "acRate": 82
+  },
+  {
+    "title": "Number of Common Factors",
+    "slug": "number-of-common-factors",
+    "difficulty": "Easy",
+    "acRate": 80.3
+  },
+  {
+    "title": "Sum of Primes Between Number and Its Reverse",
+    "slug": "sum-of-primes-between-number-and-its-reverse",
+    "difficulty": "Medium",
+    "acRate": 76.4
+  },
+  {
+    "title": "Sum of GCD of Formed Pairs",
+    "slug": "sum-of-gcd-of-formed-pairs",
+    "difficulty": "Medium",
+    "acRate": 75
+  },
+  {
+    "title": "The kth Factor of n",
+    "slug": "the-kth-factor-of-n",
+    "difficulty": "Medium",
+    "acRate": 70.7
+  },
+  {
+    "title": "Simplified Fractions",
+    "slug": "simplified-fractions",
+    "difficulty": "Medium",
+    "acRate": 70.1
+  },
+  {
+    "title": "Add Digits",
+    "slug": "add-digits",
+    "difficulty": "Easy",
+    "acRate": 69.2
+  },
+  {
+    "title": "Find the Number of Subsequences With Equal GCD",
+    "slug": "find-the-number-of-subsequences-with-equal-gcd",
+    "difficulty": "Hard",
+    "acRate": 66.3
+  },
+  {
+    "title": "Check If It Is a Good Array",
+    "slug": "check-if-it-is-a-good-array",
+    "difficulty": "Hard",
+    "acRate": 65.8
+  },
+  {
+    "title": "Three Divisors",
+    "slug": "three-divisors",
+    "difficulty": "Easy",
+    "acRate": 64.7
+  },
+  {
+    "title": "Mirror Reflection",
+    "slug": "mirror-reflection",
+    "difficulty": "Medium",
+    "acRate": 62.5
+  },
+  {
+    "title": "Check if Any Element Has Prime Frequency",
+    "slug": "check-if-any-element-has-prime-frequency",
+    "difficulty": "Easy",
+    "acRate": 62.2
+  },
+  {
+    "title": "Minimum Deletions to Make Array Divisible",
+    "slug": "minimum-deletions-to-make-array-divisible",
+    "difficulty": "Hard",
+    "acRate": 61.7
+  },
+  {
+    "title": "Count Beautiful Substrings I",
+    "slug": "count-beautiful-substrings-i",
+    "difficulty": "Medium",
+    "acRate": 60.9
+  },
+  {
+    "title": "Maximum Prime Difference",
+    "slug": "maximum-prime-difference",
+    "difficulty": "Medium",
+    "acRate": 59.4
+  },
+  {
+    "title": "Sorted GCD Pair Queries",
+    "slug": "sorted-gcd-pair-queries",
+    "difficulty": "Hard",
+    "acRate": 58.5
+  },
+  {
+    "title": "Maximize Score After N Operations",
+    "slug": "maximize-score-after-n-operations",
+    "difficulty": "Hard",
+    "acRate": 57.9
+  },
+  {
+    "title": "Replace Non-Coprime Numbers in Array",
+    "slug": "replace-non-coprime-numbers-in-array",
+    "difficulty": "Hard",
+    "acRate": 57.6
+  },
+  {
+    "title": "Count the Number of Ideal Arrays",
+    "slug": "count-the-number-of-ideal-arrays",
+    "difficulty": "Hard",
+    "acRate": 56.9
+  },
+  {
+    "title": "Count Ways to Make Array With Product",
+    "slug": "count-ways-to-make-array-with-product",
+    "difficulty": "Hard",
+    "acRate": 55.4
+  },
+  {
+    "title": "Prime Subtraction Operation",
+    "slug": "prime-subtraction-operation",
+    "difficulty": "Medium",
+    "acRate": 55.4
+  },
+  {
+    "title": "Distinct Prime Factors of Product of Array",
+    "slug": "distinct-prime-factors-of-product-of-array",
+    "difficulty": "Medium",
+    "acRate": 55.1
+  },
+  {
+    "title": "Minimum Number of Operations to Make All Array Elements Equal to 1",
+    "slug": "minimum-number-of-operations-to-make-all-array-elements-equal-to-1",
+    "difficulty": "Medium",
+    "acRate": 54.7
+  },
+  {
+    "title": "Apply Operations to Maximize Score",
+    "slug": "apply-operations-to-maximize-score",
+    "difficulty": "Hard",
+    "acRate": 53.7
+  },
+  {
+    "title": "Number of Subarrays With GCD Equal to K",
+    "slug": "number-of-subarrays-with-gcd-equal-to-k",
+    "difficulty": "Medium",
+    "acRate": 53.4
+  },
+  {
+    "title": "Number of Beautiful Pairs",
+    "slug": "number-of-beautiful-pairs",
+    "difficulty": "Easy",
+    "acRate": 53.1
+  },
+  {
+    "title": "Number of Pairs of Interchangeable Rectangles",
+    "slug": "number-of-pairs-of-interchangeable-rectangles",
+    "difficulty": "Medium",
+    "acRate": 53
+  },
+  {
+    "title": "Minimum Operations to Transform Array into Alternating Prime",
+    "slug": "minimum-operations-to-transform-array-into-alternating-prime",
+    "difficulty": "Medium",
+    "acRate": 52.8
+  },
+  {
+    "title": "Closest Prime Numbers in Range",
+    "slug": "closest-prime-numbers-in-range",
+    "difficulty": "Medium",
+    "acRate": 51.9
+  },
+  {
+    "title": "Sum of K-Digit Numbers in a Range",
+    "slug": "sum-of-k-digit-numbers-in-a-range",
+    "difficulty": "Hard",
+    "acRate": 50.9
+  },
+  {
+    "title": "GCD Sort of an Array",
+    "slug": "gcd-sort-of-an-array",
+    "difficulty": "Hard",
+    "acRate": 50.7
+  },
+  {
+    "title": "Smallest Value After Replacing With Sum of Prime Factors",
+    "slug": "smallest-value-after-replacing-with-sum-of-prime-factors",
+    "difficulty": "Medium",
+    "acRate": 50.2
+  },
+  {
+    "title": "Graph Connectivity With Threshold",
+    "slug": "graph-connectivity-with-threshold",
+    "difficulty": "Hard",
+    "acRate": 49.9
+  },
+  {
+    "title": "Split Array by Prime Indices",
+    "slug": "split-array-by-prime-indices",
+    "difficulty": "Medium",
+    "acRate": 49.7
+  },
+  {
+    "title": "Count Ways to Choose Coprime Integers from Rows",
+    "slug": "count-ways-to-choose-coprime-integers-from-rows",
+    "difficulty": "Hard",
+    "acRate": 48.7
+  },
+  {
+    "title": "Maximum Subarray With Equal Products",
+    "slug": "maximum-subarray-with-equal-products",
+    "difficulty": "Easy",
+    "acRate": 47.3
+  },
+  {
+    "title": "Number of Different Subsequences GCDs",
+    "slug": "number-of-different-subsequences-gcds",
+    "difficulty": "Hard",
+    "acRate": 46.8
+  },
+  {
+    "title": "Number of Subarrays With LCM Equal to K",
+    "slug": "number-of-subarrays-with-lcm-equal-to-k",
+    "difficulty": "Medium",
+    "acRate": 46.7
+  },
+  {
+    "title": "Most Frequent Prime",
+    "slug": "most-frequent-prime",
+    "difficulty": "Medium",
+    "acRate": 46.4
+  },
+  {
+    "title": "Check if Point Is Reachable",
+    "slug": "check-if-point-is-reachable",
+    "difficulty": "Hard",
+    "acRate": 45.3
+  },
+  {
+    "title": "Smallest Divisible Digit Product II",
+    "slug": "smallest-divisible-digit-product-ii",
+    "difficulty": "Hard",
+    "acRate": 45.3
+  },
+  {
+    "title": "Tree of Coprimes",
+    "slug": "tree-of-coprimes",
+    "difficulty": "Hard",
+    "acRate": 44.7
+  },
+  {
+    "title": "Minimum Jumps to Reach End via Prime Teleportation",
+    "slug": "minimum-jumps-to-reach-end-via-prime-teleportation",
+    "difficulty": "Medium",
+    "acRate": 44.5
+  },
+  {
+    "title": "Largest Component Size by Common Factor",
+    "slug": "largest-component-size-by-common-factor",
+    "difficulty": "Hard",
+    "acRate": 43.7
+  },
+  {
+    "title": "Sum of Perfect Square Ancestors",
+    "slug": "sum-of-perfect-square-ancestors",
+    "difficulty": "Hard",
+    "acRate": 42.6
+  },
+  {
+    "title": "Maximum Element-Sum of a Complete Subset of Indices",
+    "slug": "maximum-element-sum-of-a-complete-subset-of-indices",
+    "difficulty": "Hard",
+    "acRate": 42.3
+  },
+  {
+    "title": "Fancy Sequence",
+    "slug": "fancy-sequence",
+    "difficulty": "Hard",
+    "acRate": 41.6
+  },
+  {
+    "title": "Greatest Common Divisor Traversal",
+    "slug": "greatest-common-divisor-traversal",
+    "difficulty": "Hard",
+    "acRate": 41.6
+  },
+  {
+    "title": "Find the Maximum Factor Score of Array",
+    "slug": "find-the-maximum-factor-score-of-array",
+    "difficulty": "Medium",
+    "acRate": 41.4
+  },
+  {
+    "title": "Balanced K-Factor Decomposition",
+    "slug": "balanced-k-factor-decomposition",
+    "difficulty": "Medium",
+    "acRate": 40.5
+  },
+  {
+    "title": "Largest Prime from Consecutive Prime Sum",
+    "slug": "largest-prime-from-consecutive-prime-sum",
+    "difficulty": "Medium",
+    "acRate": 39.4
+  },
+  {
+    "title": "Make K-Subarray Sums Equal",
+    "slug": "make-k-subarray-sums-equal",
+    "difficulty": "Medium",
+    "acRate": 39
+  },
+  {
+    "title": "Prime In Diagonal",
+    "slug": "prime-in-diagonal",
+    "difficulty": "Easy",
+    "acRate": 39
+  },
+  {
+    "title": "Sum of Largest Prime Substrings",
+    "slug": "sum-of-largest-prime-substrings",
+    "difficulty": "Medium",
+    "acRate": 38.3
+  },
+  {
+    "title": "Prime Pairs With Target Sum",
+    "slug": "prime-pairs-with-target-sum",
+    "difficulty": "Medium",
+    "acRate": 38.1
+  },
+  {
+    "title": "The Number of Good Subsets",
+    "slug": "the-number-of-good-subsets",
+    "difficulty": "Hard",
+    "acRate": 37.7
+  },
+  {
+    "title": "Count Valid Paths in a Tree",
+    "slug": "count-valid-paths-in-a-tree",
+    "difficulty": "Hard",
+    "acRate": 37
+  },
+  {
+    "title": "Maximize Number of Nice Divisors",
+    "slug": "maximize-number-of-nice-divisors",
+    "difficulty": "Hard",
+    "acRate": 36.9
+  },
+  {
+    "title": "Complete Prime Number",
+    "slug": "complete-prime-number",
+    "difficulty": "Medium",
+    "acRate": 36.5
+  },
+  {
+    "title": "Count Primes",
+    "slug": "count-primes",
+    "difficulty": "Medium",
+    "acRate": 36.4
+  },
+  {
+    "title": "Count Sequences to K",
+    "slug": "count-sequences-to-k",
+    "difficulty": "Hard",
+    "acRate": 36.2
+  },
+  {
+    "title": "Minimize Length of Array Using Operations",
+    "slug": "minimize-length-of-array-using-operations",
+    "difficulty": "Medium",
+    "acRate": 35.9
+  },
+  {
+    "title": "Minimize the Maximum of Two Arrays",
+    "slug": "minimize-the-maximum-of-two-arrays",
+    "difficulty": "Medium",
+    "acRate": 32.6
+  },
+  {
+    "title": "Minimize Array Sum Using Divisible Replacements",
+    "slug": "minimize-array-sum-using-divisible-replacements",
+    "difficulty": "Medium",
+    "acRate": 32.3
+  },
+  {
+    "title": "Ugly Number III",
+    "slug": "ugly-number-iii",
+    "difficulty": "Medium",
+    "acRate": 31.8
+  },
+  {
+    "title": "Count Connected Components in LCM Graph",
+    "slug": "count-connected-components-in-lcm-graph",
+    "difficulty": "Hard",
+    "acRate": 31.7
+  },
+  {
+    "title": "Count Array Pairs Divisible by K",
+    "slug": "count-array-pairs-divisible-by-k",
+    "difficulty": "Hard",
+    "acRate": 31
+  },
+  {
+    "title": "Sum of Beautiful Subsequences",
+    "slug": "sum-of-beautiful-subsequences",
+    "difficulty": "Hard",
+    "acRate": 31
+  },
+  {
+    "title": "Digit Operations to Make Two Integers Equal",
+    "slug": "digit-operations-to-make-two-integers-equal",
+    "difficulty": "Medium",
+    "acRate": 30.9
+  },
+  {
+    "title": "X of a Kind in a Deck of Cards",
+    "slug": "x-of-a-kind-in-a-deck-of-cards",
+    "difficulty": "Easy",
+    "acRate": 30.5
+  },
+  {
+    "title": "Minimum Division Operations to Make Array Non Decreasing",
+    "slug": "minimum-division-operations-to-make-array-non-decreasing",
+    "difficulty": "Medium",
+    "acRate": 29.4
+  },
+  {
+    "title": "Split the Array to Make Coprime Products",
+    "slug": "split-the-array-to-make-coprime-products",
+    "difficulty": "Hard",
+    "acRate": 29.2
+  },
+  {
+    "title": "Maximum Score with Co-Prime Element",
+    "slug": "maximum-score-with-co-prime-element",
+    "difficulty": "Hard",
+    "acRate": 28.7
+  },
+  {
+    "title": "Prime Palindrome",
+    "slug": "prime-palindrome",
+    "difficulty": "Medium",
+    "acRate": 28.5
+  },
+  {
+    "title": "Find the Count of Numbers Which Are Not Special",
+    "slug": "find-the-count-of-numbers-which-are-not-special",
+    "difficulty": "Medium",
+    "acRate": 28.4
+  },
+  {
+    "title": "Minimum Increments for Target Multiples in an Array",
+    "slug": "minimum-increments-for-target-multiples-in-an-array",
+    "difficulty": "Hard",
+    "acRate": 27.5
+  },
+  {
+    "title": "Count Beautiful Substrings II",
+    "slug": "count-beautiful-substrings-ii",
+    "difficulty": "Hard",
+    "acRate": 27.4
+  },
+  {
+    "title": "Minimum Lines to Represent a Line Chart",
+    "slug": "minimum-lines-to-represent-a-line-chart",
+    "difficulty": "Medium",
+    "acRate": 27.3
+  },
+  {
+    "title": "Count the Number of Square-Free Subsets",
+    "slug": "count-the-number-of-square-free-subsets",
+    "difficulty": "Medium",
+    "acRate": 26.8
+  },
+  {
+    "title": "Maximize Subarray GCD Score",
+    "slug": "maximize-subarray-gcd-score",
+    "difficulty": "Hard",
+    "acRate": 25.7
+  },
+  {
+    "title": "Abbreviating the Product of a Range",
+    "slug": "abbreviating-the-product-of-a-range",
+    "difficulty": "Hard",
+    "acRate": 24.7
+  },
+  {
+    "title": "Count Prime-Gap Balanced Subarrays",
+    "slug": "count-prime-gap-balanced-subarrays",
+    "difficulty": "Medium",
+    "acRate": 24.1
+  },
+  {
+    "title": "Minimum Stability Factor of Array",
+    "slug": "minimum-stability-factor-of-array",
+    "difficulty": "Hard",
+    "acRate": 21.1
+  },
+  {
+    "title": "Good Subsequence Queries",
+    "slug": "good-subsequence-queries",
+    "difficulty": "Hard",
+    "acRate": 20.7
+  },
+  {
+    "title": "Kth Smallest Amount With Single Denomination Combination",
+    "slug": "kth-smallest-amount-with-single-denomination-combination",
+    "difficulty": "Hard",
+    "acRate": 20.4
+  },
+  {
+    "title": "Maximize Count of Distinct Primes After Split",
+    "slug": "maximize-count-of-distinct-primes-after-split",
+    "difficulty": "Hard",
+    "acRate": 19.4
+  },
+  {
+    "title": "Find the Largest Palindrome Divisible by K",
+    "slug": "find-the-largest-palindrome-divisible-by-k",
+    "difficulty": "Hard",
+    "acRate": 17.1
+  },
+  {
+    "title": "Check If Digits Are Equal in String After Operations II",
+    "slug": "check-if-digits-are-equal-in-string-after-operations-ii",
+    "difficulty": "Hard",
+    "acRate": 14.4
+  }
+]

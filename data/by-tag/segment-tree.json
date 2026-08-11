@@ -1,0 +1,416 @@
+[
+  {
+    "title": "Subarrays Distinct Element Sum of Squares I",
+    "slug": "subarrays-distinct-element-sum-of-squares-i",
+    "difficulty": "Easy",
+    "acRate": 80.5
+  },
+  {
+    "title": "Count Subarrays With Majority Element I",
+    "slug": "count-subarrays-with-majority-element-i",
+    "difficulty": "Medium",
+    "acRate": 75.7
+  },
+  {
+    "title": "Queue Reconstruction by Height",
+    "slug": "queue-reconstruction-by-height",
+    "difficulty": "Medium",
+    "acRate": 74.9
+  },
+  {
+    "title": "My Calendar III",
+    "slug": "my-calendar-iii",
+    "difficulty": "Hard",
+    "acRate": 72.1
+  },
+  {
+    "title": "Fruits Into Baskets II",
+    "slug": "fruits-into-baskets-ii",
+    "difficulty": "Easy",
+    "acRate": 70.3
+  },
+  {
+    "title": "Count Number of Teams",
+    "slug": "count-number-of-teams",
+    "difficulty": "Medium",
+    "acRate": 70.2
+  },
+  {
+    "title": "Longest Balanced Subarray I",
+    "slug": "longest-balanced-subarray-i",
+    "difficulty": "Medium",
+    "acRate": 65.7
+  },
+  {
+    "title": "Count Good Triplets in an Array",
+    "slug": "count-good-triplets-in-an-array",
+    "difficulty": "Hard",
+    "acRate": 65.3
+  },
+  {
+    "title": "Count Subarrays With Majority Element II",
+    "slug": "count-subarrays-with-majority-element-ii",
+    "difficulty": "Hard",
+    "acRate": 64.8
+  },
+  {
+    "title": "Maximize Active Section with Trade II",
+    "slug": "maximize-active-section-with-trade-ii",
+    "difficulty": "Hard",
+    "acRate": 64.7
+  },
+  {
+    "title": "Maximize Subarrays After Removing One Conflicting Pair",
+    "slug": "maximize-subarrays-after-removing-one-conflicting-pair",
+    "difficulty": "Hard",
+    "acRate": 64.1
+  },
+  {
+    "title": "My Calendar II",
+    "slug": "my-calendar-ii",
+    "difficulty": "Medium",
+    "acRate": 63.4
+  },
+  {
+    "title": "Separate Squares II",
+    "slug": "separate-squares-ii",
+    "difficulty": "Hard",
+    "acRate": 59.2
+  },
+  {
+    "title": "Number of Integers With Popcount-Depth Equal to K II",
+    "slug": "number-of-integers-with-popcount-depth-equal-to-k-ii",
+    "difficulty": "Hard",
+    "acRate": 58.5
+  },
+  {
+    "title": "My Calendar I",
+    "slug": "my-calendar-i",
+    "difficulty": "Medium",
+    "acRate": 58.4
+  },
+  {
+    "title": "Rectangle Area II",
+    "slug": "rectangle-area-ii",
+    "difficulty": "Hard",
+    "acRate": 56.6
+  },
+  {
+    "title": "Longest Uploaded Prefix",
+    "slug": "longest-uploaded-prefix",
+    "difficulty": "Medium",
+    "acRate": 55.4
+  },
+  {
+    "title": "Number of Longest Increasing Subsequence",
+    "slug": "number-of-longest-increasing-subsequence",
+    "difficulty": "Medium",
+    "acRate": 52.5
+  },
+  {
+    "title": "Find Building Where Alice and Bob Can Meet",
+    "slug": "find-building-where-alice-and-bob-can-meet",
+    "difficulty": "Hard",
+    "acRate": 52.5
+  },
+  {
+    "title": "Maximum Area Rectangle With Point Constraints I",
+    "slug": "maximum-area-rectangle-with-point-constraints-i",
+    "difficulty": "Medium",
+    "acRate": 52.3
+  },
+  {
+    "title": "Falling Squares",
+    "slug": "falling-squares",
+    "difficulty": "Hard",
+    "acRate": 48.5
+  },
+  {
+    "title": "Number of Pairs Satisfying Inequality",
+    "slug": "number-of-pairs-satisfying-inequality",
+    "difficulty": "Hard",
+    "acRate": 47.8
+  },
+  {
+    "title": "Find a Value of a Mysterious Function Closest to Target",
+    "slug": "find-a-value-of-a-mysterious-function-closest-to-target",
+    "difficulty": "Hard",
+    "acRate": 47.7
+  },
+  {
+    "title": "The Skyline Problem",
+    "slug": "the-skyline-problem",
+    "difficulty": "Hard",
+    "acRate": 45.8
+  },
+  {
+    "title": "Minimum Deletions to Make Alternating Substring",
+    "slug": "minimum-deletions-to-make-alternating-substring",
+    "difficulty": "Hard",
+    "acRate": 45.7
+  },
+  {
+    "title": "Range Module",
+    "slug": "range-module",
+    "difficulty": "Hard",
+    "acRate": 45.4
+  },
+  {
+    "title": "Range Frequency Queries",
+    "slug": "range-frequency-queries",
+    "difficulty": "Medium",
+    "acRate": 44
+  },
+  {
+    "title": "Count of Smaller Numbers After Self",
+    "slug": "count-of-smaller-numbers-after-self",
+    "difficulty": "Hard",
+    "acRate": 43.9
+  },
+  {
+    "title": "Range Sum Query - Mutable",
+    "slug": "range-sum-query-mutable",
+    "difficulty": "Medium",
+    "acRate": 43.6
+  },
+  {
+    "title": "Minimum Inversion Count in Subarrays of Fixed Length",
+    "slug": "minimum-inversion-count-in-subarrays-of-fixed-length",
+    "difficulty": "Hard",
+    "acRate": 43
+  },
+  {
+    "title": "Create Sorted Array through Instructions",
+    "slug": "create-sorted-array-through-instructions",
+    "difficulty": "Hard",
+    "acRate": 42.2
+  },
+  {
+    "title": "Minimum Possible Integer After at Most K Adjacent Swaps On Digits",
+    "slug": "minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits",
+    "difficulty": "Hard",
+    "acRate": 41.8
+  },
+  {
+    "title": "Maximum Total Subarray Value II",
+    "slug": "maximum-total-subarray-value-ii",
+    "difficulty": "Hard",
+    "acRate": 41.8
+  },
+  {
+    "title": "Fancy Sequence",
+    "slug": "fancy-sequence",
+    "difficulty": "Hard",
+    "acRate": 41.6
+  },
+  {
+    "title": "Shortest Path in a Weighted Tree",
+    "slug": "shortest-path-in-a-weighted-tree",
+    "difficulty": "Hard",
+    "acRate": 41.5
+  },
+  {
+    "title": "Block Placement Queries",
+    "slug": "block-placement-queries",
+    "difficulty": "Hard",
+    "acRate": 41.4
+  },
+  {
+    "title": "Online Majority Element In Subarray",
+    "slug": "online-majority-element-in-subarray",
+    "difficulty": "Hard",
+    "acRate": 40.9
+  },
+  {
+    "title": "Delivering Boxes from Storage to Ports",
+    "slug": "delivering-boxes-from-storage-to-ports",
+    "difficulty": "Hard",
+    "acRate": 40
+  },
+  {
+    "title": "Count of Range Sum",
+    "slug": "count-of-range-sum",
+    "difficulty": "Hard",
+    "acRate": 39.6
+  },
+  {
+    "title": "Fruits Into Baskets III",
+    "slug": "fruits-into-baskets-iii",
+    "difficulty": "Medium",
+    "acRate": 39.4
+  },
+  {
+    "title": "Palindromic Path Queries in a Tree",
+    "slug": "palindromic-path-queries-in-a-tree",
+    "difficulty": "Hard",
+    "acRate": 37.2
+  },
+  {
+    "title": "Count Integers in Intervals",
+    "slug": "count-integers-in-intervals",
+    "difficulty": "Hard",
+    "acRate": 36.2
+  },
+  {
+    "title": "Number of Subarrays With AND Value of K",
+    "slug": "number-of-subarrays-with-and-value-of-k",
+    "difficulty": "Hard",
+    "acRate": 35.9
+  },
+  {
+    "title": "Longest Substring of One Repeating Character",
+    "slug": "longest-substring-of-one-repeating-character",
+    "difficulty": "Hard",
+    "acRate": 35.1
+  },
+  {
+    "title": "Reverse Pairs",
+    "slug": "reverse-pairs",
+    "difficulty": "Hard",
+    "acRate": 34.9
+  },
+  {
+    "title": "Longest Balanced Subarray II",
+    "slug": "longest-balanced-subarray-ii",
+    "difficulty": "Hard",
+    "acRate": 33.8
+  },
+  {
+    "title": "Maximum Sum of Alternating Subsequence With Distance at Least K",
+    "slug": "maximum-sum-of-alternating-subsequence-with-distance-at-least-k",
+    "difficulty": "Hard",
+    "acRate": 32.4
+  },
+  {
+    "title": "Find X Value of Array II",
+    "slug": "find-x-value-of-array-ii",
+    "difficulty": "Hard",
+    "acRate": 31.8
+  },
+  {
+    "title": "Handling Sum Queries After Update",
+    "slug": "handling-sum-queries-after-update",
+    "difficulty": "Hard",
+    "acRate": 31.7
+  },
+  {
+    "title": "Find Subarray With Bitwise OR Closest to K",
+    "slug": "find-subarray-with-bitwise-or-closest-to-k",
+    "difficulty": "Hard",
+    "acRate": 31.5
+  },
+  {
+    "title": "Maximum Sum Queries",
+    "slug": "maximum-sum-queries",
+    "difficulty": "Hard",
+    "acRate": 31.2
+  },
+  {
+    "title": "Distribute Elements Into Two Arrays II",
+    "slug": "distribute-elements-into-two-arrays-ii",
+    "difficulty": "Hard",
+    "acRate": 31.2
+  },
+  {
+    "title": "Minimum Sum of Values by Dividing Array",
+    "slug": "minimum-sum-of-values-by-dividing-array",
+    "difficulty": "Hard",
+    "acRate": 28.1
+  },
+  {
+    "title": "Peaks in Array",
+    "slug": "peaks-in-array",
+    "difficulty": "Hard",
+    "acRate": 27.9
+  },
+  {
+    "title": "Make Array Empty",
+    "slug": "make-array-empty",
+    "difficulty": "Hard",
+    "acRate": 27.1
+  },
+  {
+    "title": "Longest Increasing Subsequence II",
+    "slug": "longest-increasing-subsequence-ii",
+    "difficulty": "Hard",
+    "acRate": 26.5
+  },
+  {
+    "title": "Maximum Balanced Subsequence Sum",
+    "slug": "maximum-balanced-subsequence-sum",
+    "difficulty": "Hard",
+    "acRate": 26.1
+  },
+  {
+    "title": "Count Non-Decreasing Subarrays After K Operations",
+    "slug": "count-non-decreasing-subarrays-after-k-operations",
+    "difficulty": "Hard",
+    "acRate": 25.3
+  },
+  {
+    "title": "Maximum Area Rectangle With Point Constraints II",
+    "slug": "maximum-area-rectangle-with-point-constraints-ii",
+    "difficulty": "Hard",
+    "acRate": 23.6
+  },
+  {
+    "title": "Subarrays Distinct Element Sum of Squares II",
+    "slug": "subarrays-distinct-element-sum-of-squares-ii",
+    "difficulty": "Hard",
+    "acRate": 23.3
+  },
+  {
+    "title": "Maximize Subarray Sum After Removing All Occurrences of One Element",
+    "slug": "maximize-subarray-sum-after-removing-all-occurrences-of-one-element",
+    "difficulty": "Hard",
+    "acRate": 22.9
+  },
+  {
+    "title": "Minimum Number of Valid Strings to Form Target I",
+    "slug": "minimum-number-of-valid-strings-to-form-target-i",
+    "difficulty": "Medium",
+    "acRate": 22.3
+  },
+  {
+    "title": "Minimum Number of Valid Strings to Form Target II",
+    "slug": "minimum-number-of-valid-strings-to-form-target-ii",
+    "difficulty": "Hard",
+    "acRate": 21.1
+  },
+  {
+    "title": "Minimum Stability Factor of Array",
+    "slug": "minimum-stability-factor-of-array",
+    "difficulty": "Hard",
+    "acRate": 21.1
+  },
+  {
+    "title": "Minimum Operations to Equalize Subarrays",
+    "slug": "minimum-operations-to-equalize-subarrays",
+    "difficulty": "Hard",
+    "acRate": 21
+  },
+  {
+    "title": "Good Subsequence Queries",
+    "slug": "good-subsequence-queries",
+    "difficulty": "Hard",
+    "acRate": 20.7
+  },
+  {
+    "title": "Booking Concert Tickets in Groups",
+    "slug": "booking-concert-tickets-in-groups",
+    "difficulty": "Hard",
+    "acRate": 20
+  },
+  {
+    "title": "Maximize Count of Distinct Primes After Split",
+    "slug": "maximize-count-of-distinct-primes-after-split",
+    "difficulty": "Hard",
+    "acRate": 19.4
+  },
+  {
+    "title": "Maximum Sum of Subsequence With Non-adjacent Elements",
+    "slug": "maximum-sum-of-subsequence-with-non-adjacent-elements",
+    "difficulty": "Hard",
+    "acRate": 15.7
+  }
+]

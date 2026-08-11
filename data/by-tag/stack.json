@@ -1,0 +1,884 @@
+[
+  {
+    "title": "Remove Outermost Parentheses",
+    "slug": "remove-outermost-parentheses",
+    "difficulty": "Easy",
+    "acRate": 87.4
+  },
+  {
+    "title": "Reverse Prefix of Word",
+    "slug": "reverse-prefix-of-word",
+    "difficulty": "Easy",
+    "acRate": 86.5
+  },
+  {
+    "title": "Maximum Binary Tree",
+    "slug": "maximum-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 86.4
+  },
+  {
+    "title": "Construct Smallest Number From DI String",
+    "slug": "construct-smallest-number-from-di-string",
+    "difficulty": "Medium",
+    "acRate": 85.5
+  },
+  {
+    "title": "Maximum Nesting Depth of the Parentheses",
+    "slug": "maximum-nesting-depth-of-the-parentheses",
+    "difficulty": "Easy",
+    "acRate": 85
+  },
+  {
+    "title": "Construct Binary Search Tree from Preorder Traversal",
+    "slug": "construct-binary-search-tree-from-preorder-traversal",
+    "difficulty": "Medium",
+    "acRate": 84.5
+  },
+  {
+    "title": "Final Prices With a Special Discount in a Shop",
+    "slug": "final-prices-with-a-special-discount-in-a-shop",
+    "difficulty": "Easy",
+    "acRate": 84.3
+  },
+  {
+    "title": "Maximum Twin Sum of a Linked List",
+    "slug": "maximum-twin-sum-of-a-linked-list",
+    "difficulty": "Medium",
+    "acRate": 83.3
+  },
+  {
+    "title": "Clear Digits",
+    "slug": "clear-digits",
+    "difficulty": "Easy",
+    "acRate": 82.7
+  },
+  {
+    "title": "N-ary Tree Postorder Traversal",
+    "slug": "n-ary-tree-postorder-traversal",
+    "difficulty": "Easy",
+    "acRate": 81.2
+  },
+  {
+    "title": "Baseball Game",
+    "slug": "baseball-game",
+    "difficulty": "Easy",
+    "acRate": 81
+  },
+  {
+    "title": "Build an Array With Stack Operations",
+    "slug": "build-an-array-with-stack-operations",
+    "difficulty": "Medium",
+    "acRate": 80.9
+  },
+  {
+    "title": "Binary Tree Inorder Traversal",
+    "slug": "binary-tree-inorder-traversal",
+    "difficulty": "Easy",
+    "acRate": 80.5
+  },
+  {
+    "title": "Design a Stack With Increment Operation",
+    "slug": "design-a-stack-with-increment-operation",
+    "difficulty": "Medium",
+    "acRate": 79.9
+  },
+  {
+    "title": "Number of Students Unable to Eat Lunch",
+    "slug": "number-of-students-unable-to-eat-lunch",
+    "difficulty": "Easy",
+    "acRate": 79.9
+  },
+  {
+    "title": "Removing Stars From a String",
+    "slug": "removing-stars-from-a-string",
+    "difficulty": "Medium",
+    "acRate": 79.8
+  },
+  {
+    "title": "Increasing Order Search Tree",
+    "slug": "increasing-order-search-tree",
+    "difficulty": "Easy",
+    "acRate": 79.1
+  },
+  {
+    "title": "Binary Tree Postorder Traversal",
+    "slug": "binary-tree-postorder-traversal",
+    "difficulty": "Easy",
+    "acRate": 78.8
+  },
+  {
+    "title": "Remove All Occurrences of a Substring",
+    "slug": "remove-all-occurrences-of-a-substring",
+    "difficulty": "Medium",
+    "acRate": 78.6
+  },
+  {
+    "title": "Design Browser History",
+    "slug": "design-browser-history",
+    "difficulty": "Medium",
+    "acRate": 78.4
+  },
+  {
+    "title": "Minimum Number of Increments on Subarrays to Form a Target Array",
+    "slug": "minimum-number-of-increments-on-subarrays-to-form-a-target-array",
+    "difficulty": "Hard",
+    "acRate": 78.2
+  },
+  {
+    "title": "Minimum Number of Swaps to Make the String Balanced",
+    "slug": "minimum-number-of-swaps-to-make-the-string-balanced",
+    "difficulty": "Medium",
+    "acRate": 78
+  },
+  {
+    "title": "Minimum String Length After Balanced Removals",
+    "slug": "minimum-string-length-after-balanced-removals",
+    "difficulty": "Medium",
+    "acRate": 77.6
+  },
+  {
+    "title": "Minimum String Length After Removing Substrings",
+    "slug": "minimum-string-length-after-removing-substrings",
+    "difficulty": "Easy",
+    "acRate": 77.2
+  },
+  {
+    "title": "Binary Search Tree Iterator",
+    "slug": "binary-search-tree-iterator",
+    "difficulty": "Medium",
+    "acRate": 76.9
+  },
+  {
+    "title": "N-ary Tree Preorder Traversal",
+    "slug": "n-ary-tree-preorder-traversal",
+    "difficulty": "Easy",
+    "acRate": 76.9
+  },
+  {
+    "title": "Next Greater Element I",
+    "slug": "next-greater-element-i",
+    "difficulty": "Easy",
+    "acRate": 76.7
+  },
+  {
+    "title": "Binary Tree Preorder Traversal",
+    "slug": "binary-tree-preorder-traversal",
+    "difficulty": "Easy",
+    "acRate": 76.4
+  },
+  {
+    "title": "Remove Nodes From Linked List",
+    "slug": "remove-nodes-from-linked-list",
+    "difficulty": "Medium",
+    "acRate": 75.2
+  },
+  {
+    "title": "Minimum Add to Make Parentheses Valid",
+    "slug": "minimum-add-to-make-parentheses-valid",
+    "difficulty": "Medium",
+    "acRate": 74.3
+  },
+  {
+    "title": "Remove All Adjacent Duplicates In String",
+    "slug": "remove-all-adjacent-duplicates-in-string",
+    "difficulty": "Easy",
+    "acRate": 73.8
+  },
+  {
+    "title": "Number of Visible People in a Queue",
+    "slug": "number-of-visible-people-in-a-queue",
+    "difficulty": "Hard",
+    "acRate": 73.4
+  },
+  {
+    "title": "Maximum Nesting Depth of Two Valid Parentheses Strings",
+    "slug": "maximum-nesting-depth-of-two-valid-parentheses-strings",
+    "difficulty": "Medium",
+    "acRate": 72.1
+  },
+  {
+    "title": "Reverse Substrings Between Each Pair of Parentheses",
+    "slug": "reverse-substrings-between-each-pair-of-parentheses",
+    "difficulty": "Medium",
+    "acRate": 72.1
+  },
+  {
+    "title": "Crawler Log Folder",
+    "slug": "crawler-log-folder",
+    "difficulty": "Easy",
+    "acRate": 71.7
+  },
+  {
+    "title": "Minimum Remove to Make Valid Parentheses",
+    "slug": "minimum-remove-to-make-valid-parentheses",
+    "difficulty": "Medium",
+    "acRate": 71.6
+  },
+  {
+    "title": "Flatten Binary Tree to Linked List",
+    "slug": "flatten-binary-tree-to-linked-list",
+    "difficulty": "Medium",
+    "acRate": 71.3
+  },
+  {
+    "title": "Count Submatrices With All Ones",
+    "slug": "count-submatrices-with-all-ones",
+    "difficulty": "Medium",
+    "acRate": 71
+  },
+  {
+    "title": "Validate Stack Sequences",
+    "slug": "validate-stack-sequences",
+    "difficulty": "Medium",
+    "acRate": 70.7
+  },
+  {
+    "title": "Smallest Subsequence of Distinct Characters",
+    "slug": "smallest-subsequence-of-distinct-characters",
+    "difficulty": "Medium",
+    "acRate": 70.6
+  },
+  {
+    "title": "Implement Stack using Queues",
+    "slug": "implement-stack-using-queues",
+    "difficulty": "Easy",
+    "acRate": 70.5
+  },
+  {
+    "title": "Implement Queue using Stacks",
+    "slug": "implement-queue-using-stacks",
+    "difficulty": "Easy",
+    "acRate": 70.2
+  },
+  {
+    "title": "Parsing A Boolean Expression",
+    "slug": "parsing-a-boolean-expression",
+    "difficulty": "Hard",
+    "acRate": 69.8
+  },
+  {
+    "title": "Online Stock Span",
+    "slug": "online-stock-span",
+    "difficulty": "Medium",
+    "acRate": 69.6
+  },
+  {
+    "title": "Next Greater Element II",
+    "slug": "next-greater-element-ii",
+    "difficulty": "Medium",
+    "acRate": 69
+  },
+  {
+    "title": "Daily Temperatures",
+    "slug": "daily-temperatures",
+    "difficulty": "Medium",
+    "acRate": 69
+  },
+  {
+    "title": "Make The String Great",
+    "slug": "make-the-string-great",
+    "difficulty": "Easy",
+    "acRate": 68.7
+  },
+  {
+    "title": "Minimum Deletions to Make String Balanced",
+    "slug": "minimum-deletions-to-make-string-balanced",
+    "difficulty": "Medium",
+    "acRate": 68.2
+  },
+  {
+    "title": "Trapping Rain Water",
+    "slug": "trapping-rain-water",
+    "difficulty": "Hard",
+    "acRate": 68
+  },
+  {
+    "title": "Minimum Cost Tree From Leaf Values",
+    "slug": "minimum-cost-tree-from-leaf-values",
+    "difficulty": "Medium",
+    "acRate": 67.9
+  },
+  {
+    "title": "Maximum Frequency Stack",
+    "slug": "maximum-frequency-stack",
+    "difficulty": "Hard",
+    "acRate": 67
+  },
+  {
+    "title": "Maximum Score From Removing Substrings",
+    "slug": "maximum-score-from-removing-substrings",
+    "difficulty": "Medium",
+    "acRate": 66.4
+  },
+  {
+    "title": "Exclusive Time of Functions",
+    "slug": "exclusive-time-of-functions",
+    "difficulty": "Medium",
+    "acRate": 66.3
+  },
+  {
+    "title": "Reorder List",
+    "slug": "reorder-list",
+    "difficulty": "Medium",
+    "acRate": 66
+  },
+  {
+    "title": "Flatten Nested List Iterator",
+    "slug": "flatten-nested-list-iterator",
+    "difficulty": "Medium",
+    "acRate": 65.8
+  },
+  {
+    "title": "Number of Atoms",
+    "slug": "number-of-atoms",
+    "difficulty": "Hard",
+    "acRate": 65.2
+  },
+  {
+    "title": "Next Greater Node In Linked List",
+    "slug": "next-greater-node-in-linked-list",
+    "difficulty": "Medium",
+    "acRate": 64.6
+  },
+  {
+    "title": "Max Chunks To Make Sorted",
+    "slug": "max-chunks-to-make-sorted",
+    "difficulty": "Medium",
+    "acRate": 64.2
+  },
+  {
+    "title": "Maximum Score of a Good Subarray",
+    "slug": "maximum-score-of-a-good-subarray",
+    "difficulty": "Hard",
+    "acRate": 64.2
+  },
+  {
+    "title": "Brace Expansion II",
+    "slug": "brace-expansion-ii",
+    "difficulty": "Hard",
+    "acRate": 63.9
+  },
+  {
+    "title": "Score of Parentheses",
+    "slug": "score-of-parentheses",
+    "difficulty": "Medium",
+    "acRate": 63.5
+  },
+  {
+    "title": "Decode String",
+    "slug": "decode-string",
+    "difficulty": "Medium",
+    "acRate": 63.1
+  },
+  {
+    "title": "Add Two Numbers II",
+    "slug": "add-two-numbers-ii",
+    "difficulty": "Medium",
+    "acRate": 62.9
+  },
+  {
+    "title": "Stamping The Sequence",
+    "slug": "stamping-the-sequence",
+    "difficulty": "Hard",
+    "acRate": 62.3
+  },
+  {
+    "title": "Using a Robot to Print the Lexicographically Smallest String",
+    "slug": "using-a-robot-to-print-the-lexicographically-smallest-string",
+    "difficulty": "Medium",
+    "acRate": 62.2
+  },
+  {
+    "title": "Clumsy Factorial",
+    "slug": "clumsy-factorial",
+    "difficulty": "Medium",
+    "acRate": 61.9
+  },
+  {
+    "title": "Sum of Subarray Ranges",
+    "slug": "sum-of-subarray-ranges",
+    "difficulty": "Medium",
+    "acRate": 61.8
+  },
+  {
+    "title": "Remove All Adjacent Duplicates in String II",
+    "slug": "remove-all-adjacent-duplicates-in-string-ii",
+    "difficulty": "Medium",
+    "acRate": 61.7
+  },
+  {
+    "title": "Robot Collisions",
+    "slug": "robot-collisions",
+    "difficulty": "Hard",
+    "acRate": 61.6
+  },
+  {
+    "title": "Maximum Balanced Shipments",
+    "slug": "maximum-balanced-shipments",
+    "difficulty": "Medium",
+    "acRate": 61.6
+  },
+  {
+    "title": "Check If Word Is Valid After Substitutions",
+    "slug": "check-if-word-is-valid-after-substitutions",
+    "difficulty": "Medium",
+    "acRate": 61.3
+  },
+  {
+    "title": "Double a Number Represented as a Linked List",
+    "slug": "double-a-number-represented-as-a-linked-list",
+    "difficulty": "Medium",
+    "acRate": 61.3
+  },
+  {
+    "title": "Maximal Rectangle",
+    "slug": "maximal-rectangle",
+    "difficulty": "Hard",
+    "acRate": 59.5
+  },
+  {
+    "title": "Palindrome Linked List",
+    "slug": "palindrome-linked-list",
+    "difficulty": "Easy",
+    "acRate": 58.6
+  },
+  {
+    "title": "Evaluate Reverse Polish Notation",
+    "slug": "evaluate-reverse-polish-notation",
+    "difficulty": "Medium",
+    "acRate": 58.5
+  },
+  {
+    "title": "Min Stack",
+    "slug": "min-stack",
+    "difficulty": "Medium",
+    "acRate": 58.5
+  },
+  {
+    "title": "Car Fleet II",
+    "slug": "car-fleet-ii",
+    "difficulty": "Hard",
+    "acRate": 58.3
+  },
+  {
+    "title": "Count Collisions on a Road",
+    "slug": "count-collisions-on-a-road",
+    "difficulty": "Medium",
+    "acRate": 58.1
+  },
+  {
+    "title": "Make Array Non-decreasing",
+    "slug": "make-array-non-decreasing",
+    "difficulty": "Medium",
+    "acRate": 57.7
+  },
+  {
+    "title": "Replace Non-Coprime Numbers in Array",
+    "slug": "replace-non-coprime-numbers-in-array",
+    "difficulty": "Hard",
+    "acRate": 57.6
+  },
+  {
+    "title": "Resulting String After Adjacent Removals",
+    "slug": "resulting-string-after-adjacent-removals",
+    "difficulty": "Medium",
+    "acRate": 57.2
+  },
+  {
+    "title": "Maximum Width Ramp",
+    "slug": "maximum-width-ramp",
+    "difficulty": "Medium",
+    "acRate": 55.9
+  },
+  {
+    "title": "Car Fleet",
+    "slug": "car-fleet",
+    "difficulty": "Medium",
+    "acRate": 55.5
+  },
+  {
+    "title": "Max Chunks To Make Sorted II",
+    "slug": "max-chunks-to-make-sorted-ii",
+    "difficulty": "Hard",
+    "acRate": 55
+  },
+  {
+    "title": "Remove Duplicate Letters",
+    "slug": "remove-duplicate-letters",
+    "difficulty": "Medium",
+    "acRate": 54.2
+  },
+  {
+    "title": "Parse Lisp Expression",
+    "slug": "parse-lisp-expression",
+    "difficulty": "Hard",
+    "acRate": 53.9
+  },
+  {
+    "title": "Minimum Insertions to Balance a Parentheses String",
+    "slug": "minimum-insertions-to-balance-a-parentheses-string",
+    "difficulty": "Medium",
+    "acRate": 53.7
+  },
+  {
+    "title": "Apply Operations to Maximize Score",
+    "slug": "apply-operations-to-maximize-score",
+    "difficulty": "Hard",
+    "acRate": 53.7
+  },
+  {
+    "title": "Find the Most Competitive Subsequence",
+    "slug": "find-the-most-competitive-subsequence",
+    "difficulty": "Medium",
+    "acRate": 53.4
+  },
+  {
+    "title": "Minimum Operations to Convert All Elements to Zero",
+    "slug": "minimum-operations-to-convert-all-elements-to-zero",
+    "difficulty": "Medium",
+    "acRate": 53.1
+  },
+  {
+    "title": "Find Building Where Alice and Bob Can Meet",
+    "slug": "find-building-where-alice-and-bob-can-meet",
+    "difficulty": "Hard",
+    "acRate": 52.5
+  },
+  {
+    "title": "Design a Text Editor",
+    "slug": "design-a-text-editor",
+    "difficulty": "Hard",
+    "acRate": 51.4
+  },
+  {
+    "title": "Shortest Subarray to be Removed to Make Array Sorted",
+    "slug": "shortest-subarray-to-be-removed-to-make-array-sorted",
+    "difficulty": "Medium",
+    "acRate": 51.3
+  },
+  {
+    "title": "Minimum Additions to Make Valid String",
+    "slug": "minimum-additions-to-make-valid-string",
+    "difficulty": "Medium",
+    "acRate": 51.3
+  },
+  {
+    "title": "Simplify Path",
+    "slug": "simplify-path",
+    "difficulty": "Medium",
+    "acRate": 51.2
+  },
+  {
+    "title": "Lexicographically Minimum String After Removing Stars",
+    "slug": "lexicographically-minimum-string-after-removing-stars",
+    "difficulty": "Medium",
+    "acRate": 50.9
+  },
+  {
+    "title": "Largest Rectangle in Histogram",
+    "slug": "largest-rectangle-in-histogram",
+    "difficulty": "Hard",
+    "acRate": 50.6
+  },
+  {
+    "title": "Minimum Deletions to Make Array Beautiful",
+    "slug": "minimum-deletions-to-make-array-beautiful",
+    "difficulty": "Medium",
+    "acRate": 50.3
+  },
+  {
+    "title": "Backspace String Compare",
+    "slug": "backspace-string-compare",
+    "difficulty": "Easy",
+    "acRate": 50.2
+  },
+  {
+    "title": "Basic Calculator IV",
+    "slug": "basic-calculator-iv",
+    "difficulty": "Hard",
+    "acRate": 49.9
+  },
+  {
+    "title": "Minimum Cost to Change the Final Value of Expression",
+    "slug": "minimum-cost-to-change-the-final-value-of-expression",
+    "difficulty": "Hard",
+    "acRate": 49.9
+  },
+  {
+    "title": "Longest Absolute File Path",
+    "slug": "longest-absolute-file-path",
+    "difficulty": "Medium",
+    "acRate": 49.8
+  },
+  {
+    "title": "Asteroid Collision",
+    "slug": "asteroid-collision",
+    "difficulty": "Medium",
+    "acRate": 48.7
+  },
+  {
+    "title": "Count Bowl Subarrays",
+    "slug": "count-bowl-subarrays",
+    "difficulty": "Medium",
+    "acRate": 48.7
+  },
+  {
+    "title": "Verify Preorder Serialization of a Binary Tree",
+    "slug": "verify-preorder-serialization-of-a-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 47.7
+  },
+  {
+    "title": "Basic Calculator",
+    "slug": "basic-calculator",
+    "difficulty": "Hard",
+    "acRate": 47.1
+  },
+  {
+    "title": "Basic Calculator II",
+    "slug": "basic-calculator-ii",
+    "difficulty": "Medium",
+    "acRate": 47.1
+  },
+  {
+    "title": "Subarray With Elements Greater Than Varying Threshold",
+    "slug": "subarray-with-elements-greater-than-varying-threshold",
+    "difficulty": "Hard",
+    "acRate": 45.9
+  },
+  {
+    "title": "Check if a Parentheses String Can Be Valid",
+    "slug": "check-if-a-parentheses-string-can-be-valid",
+    "difficulty": "Medium",
+    "acRate": 45.2
+  },
+  {
+    "title": "Beautiful Towers I",
+    "slug": "beautiful-towers-i",
+    "difficulty": "Medium",
+    "acRate": 44.9
+  },
+  {
+    "title": "Valid Parentheses",
+    "slug": "valid-parentheses",
+    "difficulty": "Easy",
+    "acRate": 44.7
+  },
+  {
+    "title": "The Number of Weak Characters in the Game",
+    "slug": "the-number-of-weak-characters-in-the-game",
+    "difficulty": "Medium",
+    "acRate": 44.6
+  },
+  {
+    "title": "Mini Parser",
+    "slug": "mini-parser",
+    "difficulty": "Medium",
+    "acRate": 43.3
+  },
+  {
+    "title": "Merge Adjacent Equal Elements",
+    "slug": "merge-adjacent-equal-elements",
+    "difficulty": "Medium",
+    "acRate": 42.6
+  },
+  {
+    "title": "Next Greater Element IV",
+    "slug": "next-greater-element-iv",
+    "difficulty": "Hard",
+    "acRate": 42.5
+  },
+  {
+    "title": "Minimum Operations to Make Array Equal to Target",
+    "slug": "minimum-operations-to-make-array-equal-to-target",
+    "difficulty": "Hard",
+    "acRate": 41.7
+  },
+  {
+    "title": "Odd Even Jump",
+    "slug": "odd-even-jump",
+    "difficulty": "Hard",
+    "acRate": 41.5
+  },
+  {
+    "title": "Tag Validator",
+    "slug": "tag-validator",
+    "difficulty": "Hard",
+    "acRate": 41.3
+  },
+  {
+    "title": "Maximum Subarray Min-Product",
+    "slug": "maximum-subarray-min-product",
+    "difficulty": "Medium",
+    "acRate": 40.8
+  },
+  {
+    "title": "Valid Parenthesis String",
+    "slug": "valid-parenthesis-string",
+    "difficulty": "Medium",
+    "acRate": 40.4
+  },
+  {
+    "title": "Minimum Time to Complete All Tasks",
+    "slug": "minimum-time-to-complete-all-tasks",
+    "difficulty": "Hard",
+    "acRate": 40.3
+  },
+  {
+    "title": "Smallest K-Length Subsequence With Occurrences of a Letter",
+    "slug": "smallest-k-length-subsequence-with-occurrences-of-a-letter",
+    "difficulty": "Hard",
+    "acRate": 40.1
+  },
+  {
+    "title": "Longest Valid Parentheses",
+    "slug": "longest-valid-parentheses",
+    "difficulty": "Hard",
+    "acRate": 39.5
+  },
+  {
+    "title": "Sum of Subarray Minimums",
+    "slug": "sum-of-subarray-minimums",
+    "difficulty": "Medium",
+    "acRate": 38.9
+  },
+  {
+    "title": "Shortest Unsorted Continuous Subarray",
+    "slug": "shortest-unsorted-continuous-subarray",
+    "difficulty": "Medium",
+    "acRate": 38.5
+  },
+  {
+    "title": "Longest Well-Performing Interval",
+    "slug": "longest-well-performing-interval",
+    "difficulty": "Medium",
+    "acRate": 38.1
+  },
+  {
+    "title": "Decoded String at Index",
+    "slug": "decoded-string-at-index",
+    "difficulty": "Medium",
+    "acRate": 37.5
+  },
+  {
+    "title": "Remove K Digits",
+    "slug": "remove-k-digits",
+    "difficulty": "Medium",
+    "acRate": 37.4
+  },
+  {
+    "title": "Beautiful Towers II",
+    "slug": "beautiful-towers-ii",
+    "difficulty": "Medium",
+    "acRate": 37
+  },
+  {
+    "title": "Create Maximum Number",
+    "slug": "create-maximum-number",
+    "difficulty": "Hard",
+    "acRate": 36.4
+  },
+  {
+    "title": "Find Mirror Score of a String",
+    "slug": "find-mirror-score-of-a-string",
+    "difficulty": "Medium",
+    "acRate": 35.9
+  },
+  {
+    "title": "132 Pattern",
+    "slug": "132-pattern",
+    "difficulty": "Medium",
+    "acRate": 35
+  },
+  {
+    "title": "The Score of Students Solving Math Expression",
+    "slug": "the-score-of-students-solving-math-expression",
+    "difficulty": "Hard",
+    "acRate": 34.5
+  },
+  {
+    "title": "Find the Number of Subarrays Where Boundary Elements Are Maximum",
+    "slug": "find-the-number-of-subarrays-where-boundary-elements-are-maximum",
+    "difficulty": "Hard",
+    "acRate": 34
+  },
+  {
+    "title": "Dinner Plate Stacks",
+    "slug": "dinner-plate-stacks",
+    "difficulty": "Hard",
+    "acRate": 33.9
+  },
+  {
+    "title": "Remove K-Balanced Substrings",
+    "slug": "remove-k-balanced-substrings",
+    "difficulty": "Medium",
+    "acRate": 33
+  },
+  {
+    "title": "Maximum Sum Queries",
+    "slug": "maximum-sum-queries",
+    "difficulty": "Hard",
+    "acRate": 31.2
+  },
+  {
+    "title": "Sum of Total Strength of Wizards",
+    "slug": "sum-of-total-strength-of-wizards",
+    "difficulty": "Hard",
+    "acRate": 29.8
+  },
+  {
+    "title": "Zuma Game",
+    "slug": "zuma-game",
+    "difficulty": "Hard",
+    "acRate": 29.4
+  },
+  {
+    "title": "Maximum Elegance of a K-Length Subsequence",
+    "slug": "maximum-elegance-of-a-k-length-subsequence",
+    "difficulty": "Hard",
+    "acRate": 29.4
+  },
+  {
+    "title": "Count Good Subarrays",
+    "slug": "count-good-subarrays",
+    "difficulty": "Hard",
+    "acRate": 25.8
+  },
+  {
+    "title": "Maximum and Minimum Sums of at Most Size K Subarrays",
+    "slug": "maximum-and-minimum-sums-of-at-most-size-k-subarrays",
+    "difficulty": "Hard",
+    "acRate": 25.5
+  },
+  {
+    "title": "Count Non-Decreasing Subarrays After K Operations",
+    "slug": "count-non-decreasing-subarrays-after-k-operations",
+    "difficulty": "Hard",
+    "acRate": 25.3
+  },
+  {
+    "title": "Steps to Make Array Non-decreasing",
+    "slug": "steps-to-make-array-non-decreasing",
+    "difficulty": "Medium",
+    "acRate": 25.1
+  },
+  {
+    "title": "Minimum Number of Visited Cells in a Grid",
+    "slug": "minimum-number-of-visited-cells-in-a-grid",
+    "difficulty": "Hard",
+    "acRate": 24.1
+  },
+  {
+    "title": "Lexicographically Smallest String After Deleting Duplicate Characters",
+    "slug": "lexicographically-smallest-string-after-deleting-duplicate-characters",
+    "difficulty": "Hard",
+    "acRate": 21.2
+  },
+  {
+    "title": "Find Maximum Non-decreasing Array Length",
+    "slug": "find-maximum-non-decreasing-array-length",
+    "difficulty": "Hard",
+    "acRate": 19
+  }
+]

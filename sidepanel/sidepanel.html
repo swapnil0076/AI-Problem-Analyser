@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LeetCode AI Analyzer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="sidepanel.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-brand">
+      <div class="brand-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+          <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="url(#grad1)" stroke-width="2" stroke-linejoin="round"/>
+          <path d="M2 17L12 22L22 17" stroke="url(#grad1)" stroke-width="2" stroke-linejoin="round"/>
+          <path d="M2 12L12 17L22 12" stroke="url(#grad1)" stroke-width="2" stroke-linejoin="round"/>
+          <defs>
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#7c3aed"/>
+              <stop offset="100%" style="stop-color:#3b82f6"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <span class="brand-name">AI Analyzer</span>
+    </div>
+    <div class="header-meta" id="header-meta">
+      <span class="problem-title" id="problem-title">—</span>
+      <span class="difficulty-badge" id="difficulty-badge"></span>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main" id="main-content">
+
+    <!-- Empty State -->
+    <section class="state-panel" id="state-empty">
+      <div class="empty-icon">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+          <circle cx="12" cy="12" r="10" stroke="#30363d" stroke-width="1.5"/>
+          <path d="M8 12L11 15L16 9" stroke="#30363d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <p class="empty-title">Ready to analyze</p>
+      <p class="empty-subtitle">Navigate to a LeetCode problem, write your solution, then click the <strong>AI Analyze</strong> button on the page.</p>
+    </section>
+
+    <!-- Loading State -->
+    <section class="state-panel hidden" id="state-loading">
+      <div class="loading-header">
+        <div class="pulse-ring"></div>
+        <span class="loading-text">Analyzing your solution...</span>
+      </div>
+      <div class="skeleton-group">
+        <div class="skeleton-label">Approach</div>
+        <div class="skeleton skeleton-wide"></div>
+        <div class="skeleton skeleton-medium"></div>
+      </div>
+      <div class="skeleton-row">
+        <div class="skeleton-group half">
+          <div class="skeleton-label">Time</div>
+          <div class="skeleton skeleton-wide"></div>
+        </div>
+        <div class="skeleton-group half">
+          <div class="skeleton-label">Space</div>
+          <div class="skeleton skeleton-wide"></div>
+        </div>
+      </div>
+      <div class="skeleton-group">
+        <div class="skeleton-label">Suggestions</div>
+        <div class="skeleton skeleton-full"></div>
+        <div class="skeleton skeleton-wide"></div>
+        <div class="skeleton skeleton-medium"></div>
+      </div>
+    </section>
+
+    <!-- Unsupported State -->
+    <section class="state-panel hidden" id="state-unsupported">
+      <div class="empty-icon warning">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+          <path d="M12 9V13M12 17H12.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" stroke="#f59e0b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <p class="empty-title">Unsupported Problem Type</p>
+      <p class="empty-subtitle">SQL, Shell, and system design problems aren't supported yet. This extension works with algorithmic coding problems.</p>
+    </section>
+
+    <!-- Error State -->
+    <section class="state-panel hidden" id="state-error">
+      <div class="empty-icon error">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+          <circle cx="12" cy="12" r="10" stroke="#ef4444" stroke-width="1.5"/>
+          <path d="M15 9L9 15M9 9L15 15" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <p class="empty-title">Analysis Failed</p>
+      <p class="empty-subtitle error-message" id="error-message">Something went wrong.</p>
+      <a class="settings-link" href="#" id="open-settings-link">Open Settings →</a>
+    </section>
+
+    <!-- Results State -->
+    <section class="results hidden" id="state-results">
+      <!-- Cache badge -->
+      <div class="cache-badge hidden" id="cache-badge">⚡ Cached result</div>
+
+      <!-- Approach Card -->
+      <div class="card" id="card-approach">
+        <div class="card-header">
+          <span class="card-icon approach-icon">🎯</span>
+          <span class="card-label">Approach</span>
+        </div>
+        <h2 class="approach-name" id="approach-name">—</h2>
+        <p class="approach-desc" id="approach-desc">—</p>
+      </div>
+
+      <!-- Complexity Row -->
+      <div class="complexity-row">
+        <div class="card complexity-card" id="card-tc">
+          <div class="card-header">
+            <span class="card-icon">⏱</span>
+            <span class="card-label">Time</span>
+          </div>
+          <div class="complexity-notation" id="tc-notation">—</div>
+          <p class="complexity-explanation" id="tc-explanation">—</p>
+        </div>
+        <div class="card complexity-card" id="card-sc">
+          <div class="card-header">
+            <span class="card-icon">📦</span>
+            <span class="card-label">Space</span>
+          </div>
+          <div class="complexity-notation" id="sc-notation">—</div>
+          <p class="complexity-explanation" id="sc-explanation">—</p>
+        </div>
+      </div>
+
+      <!-- Optimal Complexity (if different) -->
+      <div class="card optimal-card hidden" id="card-optimal">
+        <div class="card-header">
+          <span class="card-icon">🏆</span>
+          <span class="card-label">Optimal for this problem</span>
+        </div>
+        <div class="optimal-row">
+          <span class="optimal-item">Time: <strong id="optimal-tc">—</strong></span>
+          <span class="optimal-item">Space: <strong id="optimal-sc">—</strong></span>
+        </div>
+      </div>
+
+      <!-- Efficiency Rating -->
+      <div class="card" id="card-efficiency">
+        <div class="card-header">
+          <span class="card-icon">📊</span>
+          <span class="card-label">Efficiency Rating</span>
+          <span class="rating-number" id="rating-number">—/10</span>
+        </div>
+        <div class="rating-bar-track">
+          <div class="rating-bar-fill" id="rating-bar-fill"></div>
+        </div>
+        <p class="rating-caption" id="rating-caption"></p>
+      </div>
+
+      <!-- Suggestions -->
+      <div class="card" id="card-suggestions">
+        <div class="card-header">
+          <span class="card-icon">💡</span>
+          <span class="card-label">Suggestions</span>
+          <span class="confidence-badge" id="confidence-badge"></span>
+        </div>
+        <ul class="suggestions-list" id="suggestions-list"></ul>
+      </div>
+
+      <!-- Recommended Questions -->
+      <div class="card hidden" id="card-recommendations">
+        <div class="card-header">
+          <span class="card-icon">🔗</span>
+          <span class="card-label">Practice Next</span>
+          <span class="rec-count" id="rec-count"></span>
+        </div>
+        <ul class="rec-list" id="rec-list"></ul>
+      </div>
+
+      <!-- Disclaimer -->
+      <p class="disclaimer">AI analysis may contain errors. Always verify complexity independently.</p>
+    </section>
+
+  </main>
+
+  <script src="sidepanel.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Coin Change II",
+    "slug": "coin-change-ii",
+    "difficulty": "Medium",
+    "acRate": 59.3
+  },
+  {
+    "title": "Perfect Squares",
+    "slug": "perfect-squares",
+    "difficulty": "Medium",
+    "acRate": 56.8
+  },
+  {
+    "title": "Shopping Offers",
+    "slug": "shopping-offers",
+    "difficulty": "Medium",
+    "acRate": 52.7
+  },
+  {
+    "title": "Form Largest Integer With Digits That Add up to Target",
+    "slug": "form-largest-integer-with-digits-that-add-up-to-target",
+    "difficulty": "Hard",
+    "acRate": 50
+  },
+  {
+    "title": "Coin Change",
+    "slug": "coin-change",
+    "difficulty": "Medium",
+    "acRate": 48.9
+  }
+]

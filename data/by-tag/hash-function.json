@@ -1,0 +1,200 @@
+[
+  {
+    "title": "Encode and Decode TinyURL",
+    "slug": "encode-and-decode-tinyurl",
+    "difficulty": "Medium",
+    "acRate": 86.6
+  },
+  {
+    "title": "Count Prefix and Suffix Pairs I",
+    "slug": "count-prefix-and-suffix-pairs-i",
+    "difficulty": "Easy",
+    "acRate": 77.7
+  },
+  {
+    "title": "Delete Duplicate Folders in System",
+    "slug": "delete-duplicate-folders-in-system",
+    "difficulty": "Hard",
+    "acRate": 77.2
+  },
+  {
+    "title": "Number of Subarrays That Match a Pattern I",
+    "slug": "number-of-subarrays-that-match-a-pattern-i",
+    "difficulty": "Medium",
+    "acRate": 68.9
+  },
+  {
+    "title": "Design HashSet",
+    "slug": "design-hashset",
+    "difficulty": "Easy",
+    "acRate": 68.4
+  },
+  {
+    "title": "Design HashMap",
+    "slug": "design-hashmap",
+    "difficulty": "Easy",
+    "acRate": 66.8
+  },
+  {
+    "title": "Check If a String Contains All Binary Codes of Size K",
+    "slug": "check-if-a-string-contains-all-binary-codes-of-size-k",
+    "difficulty": "Medium",
+    "acRate": 61.6
+  },
+  {
+    "title": "Longest Chunked Palindrome Decomposition",
+    "slug": "longest-chunked-palindrome-decomposition",
+    "difficulty": "Hard",
+    "acRate": 59
+  },
+  {
+    "title": "K Divisible Elements Subarrays",
+    "slug": "k-divisible-elements-subarrays",
+    "difficulty": "Medium",
+    "acRate": 55.1
+  },
+  {
+    "title": "Repeated DNA Sequences",
+    "slug": "repeated-dna-sequences",
+    "difficulty": "Medium",
+    "acRate": 53.8
+  },
+  {
+    "title": "Longest Happy Prefix",
+    "slug": "longest-happy-prefix",
+    "difficulty": "Hard",
+    "acRate": 53.7
+  },
+  {
+    "title": "Distinct Echo Substrings",
+    "slug": "distinct-echo-substrings",
+    "difficulty": "Hard",
+    "acRate": 53.5
+  },
+  {
+    "title": "Subtree of Another Tree",
+    "slug": "subtree-of-another-tree",
+    "difficulty": "Easy",
+    "acRate": 52
+  },
+  {
+    "title": "Maximum Length of Repeated Subarray",
+    "slug": "maximum-length-of-repeated-subarray",
+    "difficulty": "Medium",
+    "acRate": 51.5
+  },
+  {
+    "title": "Sum of Scores of Built Strings",
+    "slug": "sum-of-scores-of-built-strings",
+    "difficulty": "Hard",
+    "acRate": 50.2
+  },
+  {
+    "title": "Shortest Palindrome",
+    "slug": "shortest-palindrome",
+    "difficulty": "Hard",
+    "acRate": 42.9
+  },
+  {
+    "title": "Minimum Time to Revert Word to Initial State I",
+    "slug": "minimum-time-to-revert-word-to-initial-state-i",
+    "difficulty": "Medium",
+    "acRate": 42.9
+  },
+  {
+    "title": "Find Beautiful Indices in the Given Array I",
+    "slug": "find-beautiful-indices-in-the-given-array-i",
+    "difficulty": "Medium",
+    "acRate": 41.1
+  },
+  {
+    "title": "Smallest Unique Subarray",
+    "slug": "smallest-unique-subarray",
+    "difficulty": "Hard",
+    "acRate": 41.1
+  },
+  {
+    "title": "Palindrome Pairs",
+    "slug": "palindrome-pairs",
+    "difficulty": "Hard",
+    "acRate": 37.5
+  },
+  {
+    "title": "Maximum Deletions on a String",
+    "slug": "maximum-deletions-on-a-string",
+    "difficulty": "Hard",
+    "acRate": 36.2
+  },
+  {
+    "title": "Minimum Time to Revert Word to Initial State II",
+    "slug": "minimum-time-to-revert-word-to-initial-state-ii",
+    "difficulty": "Hard",
+    "acRate": 35.8
+  },
+  {
+    "title": "Number of Subarrays That Match a Pattern II",
+    "slug": "number-of-subarrays-that-match-a-pattern-ii",
+    "difficulty": "Hard",
+    "acRate": 34.3
+  },
+  {
+    "title": "Maximum Product of the Length of Two Palindromic Substrings",
+    "slug": "maximum-product-of-the-length-of-two-palindromic-substrings",
+    "difficulty": "Hard",
+    "acRate": 31.8
+  },
+  {
+    "title": "Longest Duplicate Substring",
+    "slug": "longest-duplicate-substring",
+    "difficulty": "Hard",
+    "acRate": 31.4
+  },
+  {
+    "title": "Longest Common Subpath",
+    "slug": "longest-common-subpath",
+    "difficulty": "Hard",
+    "acRate": 30.2
+  },
+  {
+    "title": "Count Prefix and Suffix Pairs II",
+    "slug": "count-prefix-and-suffix-pairs-ii",
+    "difficulty": "Hard",
+    "acRate": 28.5
+  },
+  {
+    "title": "Find Beautiful Indices in the Given Array II",
+    "slug": "find-beautiful-indices-in-the-given-array-ii",
+    "difficulty": "Hard",
+    "acRate": 28.4
+  },
+  {
+    "title": "Count Cells in Overlapping Horizontal and Vertical Substrings",
+    "slug": "count-cells-in-overlapping-horizontal-and-vertical-substrings",
+    "difficulty": "Medium",
+    "acRate": 27.2
+  },
+  {
+    "title": "Find Substring With Given Hash Value",
+    "slug": "find-substring-with-given-hash-value",
+    "difficulty": "Hard",
+    "acRate": 27
+  },
+  {
+    "title": "Minimum Number of Valid Strings to Form Target I",
+    "slug": "minimum-number-of-valid-strings-to-form-target-i",
+    "difficulty": "Medium",
+    "acRate": 22.3
+  },
+  {
+    "title": "Minimum Number of Valid Strings to Form Target II",
+    "slug": "minimum-number-of-valid-strings-to-form-target-ii",
+    "difficulty": "Hard",
+    "acRate": 21.1
+  },
+  {
+    "title": "Check if DFS Strings Are Palindromes",
+    "slug": "check-if-dfs-strings-are-palindromes",
+    "difficulty": "Hard",
+    "acRate": 20.8
+  }
+]

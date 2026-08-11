@@ -1,0 +1,284 @@
+[
+  {
+    "title": "Maximum Score Words Formed by Letters",
+    "slug": "maximum-score-words-formed-by-letters",
+    "difficulty": "Hard",
+    "acRate": 81.5
+  },
+  {
+    "title": "Fair Distribution of Cookies",
+    "slug": "fair-distribution-of-cookies",
+    "difficulty": "Medium",
+    "acRate": 70.1
+  },
+  {
+    "title": "Count Subtrees With Max Distance Between Cities",
+    "slug": "count-subtrees-with-max-distance-between-cities",
+    "difficulty": "Hard",
+    "acRate": 67.5
+  },
+  {
+    "title": "Shortest Path Visiting All Nodes",
+    "slug": "shortest-path-visiting-all-nodes",
+    "difficulty": "Hard",
+    "acRate": 66.2
+  },
+  {
+    "title": "Beautiful Arrangement",
+    "slug": "beautiful-arrangement",
+    "difficulty": "Medium",
+    "acRate": 64.9
+  },
+  {
+    "title": "Maximum Compatibility Score Sum",
+    "slug": "maximum-compatibility-score-sum",
+    "difficulty": "Medium",
+    "acRate": 64.8
+  },
+  {
+    "title": "Maximum Product of the Length of Two Palindromic Subsequences",
+    "slug": "maximum-product-of-the-length-of-two-palindromic-subsequences",
+    "difficulty": "Medium",
+    "acRate": 62.7
+  },
+  {
+    "title": "Find Sum of Array Product of Magical Sequences",
+    "slug": "find-sum-of-array-product-of-magical-sequences",
+    "difficulty": "Hard",
+    "acRate": 61.4
+  },
+  {
+    "title": "Maximize Score After N Operations",
+    "slug": "maximize-score-after-n-operations",
+    "difficulty": "Hard",
+    "acRate": 57.9
+  },
+  {
+    "title": "Smallest Sufficient Team",
+    "slug": "smallest-sufficient-team",
+    "difficulty": "Hard",
+    "acRate": 55.8
+  },
+  {
+    "title": "Maximum Students Taking Exam",
+    "slug": "maximum-students-taking-exam",
+    "difficulty": "Hard",
+    "acRate": 54.3
+  },
+  {
+    "title": "Maximize the Number of Partitions After Operations",
+    "slug": "maximize-the-number-of-partitions-after-operations",
+    "difficulty": "Hard",
+    "acRate": 53.3
+  },
+  {
+    "title": "Shopping Offers",
+    "slug": "shopping-offers",
+    "difficulty": "Medium",
+    "acRate": 52.7
+  },
+  {
+    "title": "Minimum XOR Sum of Two Arrays",
+    "slug": "minimum-xor-sum-of-two-arrays",
+    "difficulty": "Hard",
+    "acRate": 51.8
+  },
+  {
+    "title": "Number of Squareful Arrays",
+    "slug": "number-of-squareful-arrays",
+    "difficulty": "Hard",
+    "acRate": 51.7
+  },
+  {
+    "title": "Stickers to Spell Word",
+    "slug": "stickers-to-spell-word",
+    "difficulty": "Hard",
+    "acRate": 51.1
+  },
+  {
+    "title": "Maximum AND Sum of Array",
+    "slug": "maximum-and-sum-of-array",
+    "difficulty": "Hard",
+    "acRate": 51
+  },
+  {
+    "title": "Minimum Cost to Connect Two Groups of Points",
+    "slug": "minimum-cost-to-connect-two-groups-of-points",
+    "difficulty": "Hard",
+    "acRate": 50.5
+  },
+  {
+    "title": "Number of Ways to Wear Different Hats to Each Other",
+    "slug": "number-of-ways-to-wear-different-hats-to-each-other",
+    "difficulty": "Hard",
+    "acRate": 46.6
+  },
+  {
+    "title": "Find Minimum Time to Finish All Jobs",
+    "slug": "find-minimum-time-to-finish-all-jobs",
+    "difficulty": "Hard",
+    "acRate": 46.1
+  },
+  {
+    "title": "Find the Shortest Superstring",
+    "slug": "find-the-shortest-superstring",
+    "difficulty": "Hard",
+    "acRate": 45.7
+  },
+  {
+    "title": "Minimum Moves to Spread Stones Over Grid",
+    "slug": "minimum-moves-to-spread-stones-over-grid",
+    "difficulty": "Medium",
+    "acRate": 45.7
+  },
+  {
+    "title": "Closest Subsequence Sum",
+    "slug": "closest-subsequence-sum",
+    "difficulty": "Hard",
+    "acRate": 44.7
+  },
+  {
+    "title": "Maximum Good Subtree Score",
+    "slug": "maximum-good-subtree-score",
+    "difficulty": "Hard",
+    "acRate": 44.1
+  },
+  {
+    "title": "Matchsticks to Square",
+    "slug": "matchsticks-to-square",
+    "difficulty": "Medium",
+    "acRate": 42.2
+  },
+  {
+    "title": "Minimum Incompatibility",
+    "slug": "minimum-incompatibility",
+    "difficulty": "Hard",
+    "acRate": 41.7
+  },
+  {
+    "title": "Maximum Number of Groups Getting Fresh Donuts",
+    "slug": "maximum-number-of-groups-getting-fresh-donuts",
+    "difficulty": "Hard",
+    "acRate": 41.5
+  },
+  {
+    "title": "Maximize Grid Happiness",
+    "slug": "maximize-grid-happiness",
+    "difficulty": "Hard",
+    "acRate": 41.4
+  },
+  {
+    "title": "Distribute Repeating Integers",
+    "slug": "distribute-repeating-integers",
+    "difficulty": "Hard",
+    "acRate": 41
+  },
+  {
+    "title": "Partition to K Equal Sum Subsets",
+    "slug": "partition-to-k-equal-sum-subsets",
+    "difficulty": "Medium",
+    "acRate": 38.8
+  },
+  {
+    "title": "The Number of Good Subsets",
+    "slug": "the-number-of-good-subsets",
+    "difficulty": "Hard",
+    "acRate": 37.7
+  },
+  {
+    "title": "Minimum Number of Work Sessions to Finish the Tasks",
+    "slug": "minimum-number-of-work-sessions-to-finish-the-tasks",
+    "difficulty": "Medium",
+    "acRate": 35.2
+  },
+  {
+    "title": "Maximum Number of Moves to Kill All Pawns",
+    "slug": "maximum-number-of-moves-to-kill-all-pawns",
+    "difficulty": "Hard",
+    "acRate": 34
+  },
+  {
+    "title": "Minimum Time to Break Locks I",
+    "slug": "minimum-time-to-break-locks-i",
+    "difficulty": "Medium",
+    "acRate": 33
+  },
+  {
+    "title": "Can I Win",
+    "slug": "can-i-win",
+    "difficulty": "Medium",
+    "acRate": 31.7
+  },
+  {
+    "title": "Parallel Courses II",
+    "slug": "parallel-courses-ii",
+    "difficulty": "Hard",
+    "acRate": 31.3
+  },
+  {
+    "title": "Maximum Profit from Valid Topological Order in DAG",
+    "slug": "maximum-profit-from-valid-topological-order-in-dag",
+    "difficulty": "Hard",
+    "acRate": 30.7
+  },
+  {
+    "title": "Concatenated Divisibility",
+    "slug": "concatenated-divisibility",
+    "difficulty": "Hard",
+    "acRate": 30.6
+  },
+  {
+    "title": "Special Permutations",
+    "slug": "special-permutations",
+    "difficulty": "Medium",
+    "acRate": 29.7
+  },
+  {
+    "title": "Minimum Time to Transport All Individuals",
+    "slug": "minimum-time-to-transport-all-individuals",
+    "difficulty": "Hard",
+    "acRate": 27.8
+  },
+  {
+    "title": "Minimum Increments for Target Multiples in an Array",
+    "slug": "minimum-increments-for-target-multiples-in-an-array",
+    "difficulty": "Hard",
+    "acRate": 27.5
+  },
+  {
+    "title": "Split Array With Same Average",
+    "slug": "split-array-with-same-average",
+    "difficulty": "Hard",
+    "acRate": 27.4
+  },
+  {
+    "title": "Count the Number of Square-Free Subsets",
+    "slug": "count-the-number-of-square-free-subsets",
+    "difficulty": "Medium",
+    "acRate": 26.8
+  },
+  {
+    "title": "Find the Minimum Cost Array Permutation",
+    "slug": "find-the-minimum-cost-array-permutation",
+    "difficulty": "Hard",
+    "acRate": 26.3
+  },
+  {
+    "title": "Partition Array Into Two Arrays to Minimize Sum Difference",
+    "slug": "partition-array-into-two-arrays-to-minimize-sum-difference",
+    "difficulty": "Hard",
+    "acRate": 24.3
+  },
+  {
+    "title": "Longest Palindromic Path in Graph",
+    "slug": "longest-palindromic-path-in-graph",
+    "difficulty": "Hard",
+    "acRate": 22.3
+  },
+  {
+    "title": "Select Cells in Grid With Maximum Score",
+    "slug": "select-cells-in-grid-with-maximum-score",
+    "difficulty": "Hard",
+    "acRate": 15.9
+  }
+]

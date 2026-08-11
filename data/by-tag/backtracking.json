@@ -1,0 +1,566 @@
+[
+  {
+    "title": "Sum of All Subset XOR Totals",
+    "slug": "sum-of-all-subset-xor-totals",
+    "difficulty": "Easy",
+    "acRate": 90.1
+  },
+  {
+    "title": "Count Number of Maximum Bitwise-OR Subsets",
+    "slug": "count-number-of-maximum-bitwise-or-subsets",
+    "difficulty": "Medium",
+    "acRate": 89.5
+  },
+  {
+    "title": "Generate Binary Strings Without Adjacent Zeros",
+    "slug": "generate-binary-strings-without-adjacent-zeros",
+    "difficulty": "Medium",
+    "acRate": 88.6
+  },
+  {
+    "title": "The k-th Lexicographical String of All Happy Strings of Length n",
+    "slug": "the-k-th-lexicographical-string-of-all-happy-strings-of-length-n",
+    "difficulty": "Medium",
+    "acRate": 87.1
+  },
+  {
+    "title": "Construct Smallest Number From DI String",
+    "slug": "construct-smallest-number-from-di-string",
+    "difficulty": "Medium",
+    "acRate": 85.5
+  },
+  {
+    "title": "All Paths From Source to Target",
+    "slug": "all-paths-from-source-to-target",
+    "difficulty": "Medium",
+    "acRate": 83.8
+  },
+  {
+    "title": "Letter Tile Possibilities",
+    "slug": "letter-tile-possibilities",
+    "difficulty": "Medium",
+    "acRate": 83.5
+  },
+  {
+    "title": "Unique Paths III",
+    "slug": "unique-paths-iii",
+    "difficulty": "Hard",
+    "acRate": 82.9
+  },
+  {
+    "title": "Subsets",
+    "slug": "subsets",
+    "difficulty": "Medium",
+    "acRate": 82.7
+  },
+  {
+    "title": "Permutations",
+    "slug": "permutations",
+    "difficulty": "Medium",
+    "acRate": 82.2
+  },
+  {
+    "title": "Find the Punishment Number of an Integer",
+    "slug": "find-the-punishment-number-of-an-integer",
+    "difficulty": "Medium",
+    "acRate": 81.6
+  },
+  {
+    "title": "Maximum Score Words Formed by Letters",
+    "slug": "maximum-score-words-formed-by-letters",
+    "difficulty": "Hard",
+    "acRate": 81.5
+  },
+  {
+    "title": "Find Unique Binary String",
+    "slug": "find-unique-binary-string",
+    "difficulty": "Medium",
+    "acRate": 81.2
+  },
+  {
+    "title": "N-Queens II",
+    "slug": "n-queens-ii",
+    "difficulty": "Hard",
+    "acRate": 79.2
+  },
+  {
+    "title": "Generate Parentheses",
+    "slug": "generate-parentheses",
+    "difficulty": "Medium",
+    "acRate": 79
+  },
+  {
+    "title": "Valid Binary Strings With Cost Limit",
+    "slug": "valid-binary-strings-with-cost-limit",
+    "difficulty": "Medium",
+    "acRate": 78.9
+  },
+  {
+    "title": "Combination Sum",
+    "slug": "combination-sum",
+    "difficulty": "Medium",
+    "acRate": 77
+  },
+  {
+    "title": "N-Queens",
+    "slug": "n-queens",
+    "difficulty": "Hard",
+    "acRate": 76.2
+  },
+  {
+    "title": "Letter Case Permutation",
+    "slug": "letter-case-permutation",
+    "difficulty": "Medium",
+    "acRate": 76
+  },
+  {
+    "title": "Combinations",
+    "slug": "combinations",
+    "difficulty": "Medium",
+    "acRate": 75
+  },
+  {
+    "title": "Palindrome Partitioning",
+    "slug": "palindrome-partitioning",
+    "difficulty": "Medium",
+    "acRate": 74.5
+  },
+  {
+    "title": "Sliding Puzzle",
+    "slug": "sliding-puzzle",
+    "difficulty": "Hard",
+    "acRate": 74.5
+  },
+  {
+    "title": "Combination Sum III",
+    "slug": "combination-sum-iii",
+    "difficulty": "Medium",
+    "acRate": 73.6
+  },
+  {
+    "title": "Circular Permutation in Binary Representation",
+    "slug": "circular-permutation-in-binary-representation",
+    "difficulty": "Medium",
+    "acRate": 73
+  },
+  {
+    "title": "Iterator for Combination",
+    "slug": "iterator-for-combination",
+    "difficulty": "Medium",
+    "acRate": 72.7
+  },
+  {
+    "title": "Construct the Lexicographically Largest Valid Sequence",
+    "slug": "construct-the-lexicographically-largest-valid-sequence",
+    "difficulty": "Medium",
+    "acRate": 72.6
+  },
+  {
+    "title": "Longest Subsequence Repeated k Times",
+    "slug": "longest-subsequence-repeated-k-times",
+    "difficulty": "Hard",
+    "acRate": 70.9
+  },
+  {
+    "title": "Fair Distribution of Cookies",
+    "slug": "fair-distribution-of-cookies",
+    "difficulty": "Medium",
+    "acRate": 70.1
+  },
+  {
+    "title": "Binary Tree Paths",
+    "slug": "binary-tree-paths",
+    "difficulty": "Easy",
+    "acRate": 69.1
+  },
+  {
+    "title": "Split a String Into the Max Number of Unique Substrings",
+    "slug": "split-a-string-into-the-max-number-of-unique-substrings",
+    "difficulty": "Medium",
+    "acRate": 68.7
+  },
+  {
+    "title": "Path with Maximum Gold",
+    "slug": "path-with-maximum-gold",
+    "difficulty": "Medium",
+    "acRate": 68.6
+  },
+  {
+    "title": "Letter Combinations of a Phone Number",
+    "slug": "letter-combinations-of-a-phone-number",
+    "difficulty": "Medium",
+    "acRate": 66.6
+  },
+  {
+    "title": "Binary Watch",
+    "slug": "binary-watch",
+    "difficulty": "Easy",
+    "acRate": 66.1
+  },
+  {
+    "title": "Gray Code",
+    "slug": "gray-code",
+    "difficulty": "Medium",
+    "acRate": 65.7
+  },
+  {
+    "title": "Sudoku Solver",
+    "slug": "sudoku-solver",
+    "difficulty": "Hard",
+    "acRate": 65.6
+  },
+  {
+    "title": "Beautiful Arrangement",
+    "slug": "beautiful-arrangement",
+    "difficulty": "Medium",
+    "acRate": 64.9
+  },
+  {
+    "title": "Maximum Number of Achievable Transfer Requests",
+    "slug": "maximum-number-of-achievable-transfer-requests",
+    "difficulty": "Hard",
+    "acRate": 64.8
+  },
+  {
+    "title": "Maximum Compatibility Score Sum",
+    "slug": "maximum-compatibility-score-sum",
+    "difficulty": "Medium",
+    "acRate": 64.8
+  },
+  {
+    "title": "Permutations II",
+    "slug": "permutations-ii",
+    "difficulty": "Medium",
+    "acRate": 64
+  },
+  {
+    "title": "Brace Expansion II",
+    "slug": "brace-expansion-ii",
+    "difficulty": "Hard",
+    "acRate": 63.9
+  },
+  {
+    "title": "Unique Binary Search Trees II",
+    "slug": "unique-binary-search-trees-ii",
+    "difficulty": "Medium",
+    "acRate": 63.1
+  },
+  {
+    "title": "Next Greater Numerically Balanced Number",
+    "slug": "next-greater-numerically-balanced-number",
+    "difficulty": "Medium",
+    "acRate": 63.1
+  },
+  {
+    "title": "Non-decreasing Subsequences",
+    "slug": "non-decreasing-subsequences",
+    "difficulty": "Medium",
+    "acRate": 63
+  },
+  {
+    "title": "Maximum Path Quality of a Graph",
+    "slug": "maximum-path-quality-of-a-graph",
+    "difficulty": "Hard",
+    "acRate": 62.8
+  },
+  {
+    "title": "Path Sum II",
+    "slug": "path-sum-ii",
+    "difficulty": "Medium",
+    "acRate": 62.7
+  },
+  {
+    "title": "Maximum Product of the Length of Two Palindromic Subsequences",
+    "slug": "maximum-product-of-the-length-of-two-palindromic-subsequences",
+    "difficulty": "Medium",
+    "acRate": 62.7
+  },
+  {
+    "title": "Subsets II",
+    "slug": "subsets-ii",
+    "difficulty": "Medium",
+    "acRate": 61.8
+  },
+  {
+    "title": "Probability of a Two Boxes Having The Same Number of Distinct Balls",
+    "slug": "probability-of-a-two-boxes-having-the-same-number-of-distinct-balls",
+    "difficulty": "Hard",
+    "acRate": 61.6
+  },
+  {
+    "title": "Smallest String Starting From Leaf",
+    "slug": "smallest-string-starting-from-leaf",
+    "difficulty": "Medium",
+    "acRate": 61.4
+  },
+  {
+    "title": "Pyramid Transition Matrix",
+    "slug": "pyramid-transition-matrix",
+    "difficulty": "Medium",
+    "acRate": 60.6
+  },
+  {
+    "title": "Combination Sum II",
+    "slug": "combination-sum-ii",
+    "difficulty": "Medium",
+    "acRate": 59.9
+  },
+  {
+    "title": "Maximum Split of Positive Even Integers",
+    "slug": "maximum-split-of-positive-even-integers",
+    "difficulty": "Medium",
+    "acRate": 59.9
+  },
+  {
+    "title": "24 Game",
+    "slug": "24-game",
+    "difficulty": "Hard",
+    "acRate": 59.6
+  },
+  {
+    "title": "Numbers With Same Consecutive Differences",
+    "slug": "numbers-with-same-consecutive-differences",
+    "difficulty": "Medium",
+    "acRate": 59.3
+  },
+  {
+    "title": "Maximum Rows Covered by Columns",
+    "slug": "maximum-rows-covered-by-columns",
+    "difficulty": "Medium",
+    "acRate": 58.2
+  },
+  {
+    "title": "Maximize Score After N Operations",
+    "slug": "maximize-score-after-n-operations",
+    "difficulty": "Hard",
+    "acRate": 57.9
+  },
+  {
+    "title": "Restore IP Addresses",
+    "slug": "restore-ip-addresses",
+    "difficulty": "Medium",
+    "acRate": 56.7
+  },
+  {
+    "title": "Ambiguous Coordinates",
+    "slug": "ambiguous-coordinates",
+    "difficulty": "Medium",
+    "acRate": 56.4
+  },
+  {
+    "title": "Count Numbers with Unique Digits",
+    "slug": "count-numbers-with-unique-digits",
+    "difficulty": "Medium",
+    "acRate": 56.1
+  },
+  {
+    "title": "Word Break II",
+    "slug": "word-break-ii",
+    "difficulty": "Hard",
+    "acRate": 56
+  },
+  {
+    "title": "Tiling a Rectangle with the Fewest Squares",
+    "slug": "tiling-a-rectangle-with-the-fewest-squares",
+    "difficulty": "Hard",
+    "acRate": 55.3
+  },
+  {
+    "title": "Word Squares II",
+    "slug": "word-squares-ii",
+    "difficulty": "Medium",
+    "acRate": 55.2
+  },
+  {
+    "title": "Maximum Length of a Concatenated String with Unique Characters",
+    "slug": "maximum-length-of-a-concatenated-string-with-unique-characters",
+    "difficulty": "Medium",
+    "acRate": 54.9
+  },
+  {
+    "title": "Partition String Into Minimum Beautiful Substrings",
+    "slug": "partition-string-into-minimum-beautiful-substrings",
+    "difficulty": "Medium",
+    "acRate": 54
+  },
+  {
+    "title": "Maximum Good People Based on Statements",
+    "slug": "maximum-good-people-based-on-statements",
+    "difficulty": "Hard",
+    "acRate": 52.8
+  },
+  {
+    "title": "Target Sum",
+    "slug": "target-sum",
+    "difficulty": "Medium",
+    "acRate": 52.7
+  },
+  {
+    "title": "Shopping Offers",
+    "slug": "shopping-offers",
+    "difficulty": "Medium",
+    "acRate": 52.7
+  },
+  {
+    "title": "Maximum Points in an Archery Competition",
+    "slug": "maximum-points-in-an-archery-competition",
+    "difficulty": "Medium",
+    "acRate": 52.3
+  },
+  {
+    "title": "Number of Squareful Arrays",
+    "slug": "number-of-squareful-arrays",
+    "difficulty": "Hard",
+    "acRate": 51.7
+  },
+  {
+    "title": "Stickers to Spell Word",
+    "slug": "stickers-to-spell-word",
+    "difficulty": "Hard",
+    "acRate": 51.1
+  },
+  {
+    "title": "The Number of Beautiful Subsets",
+    "slug": "the-number-of-beautiful-subsets",
+    "difficulty": "Medium",
+    "acRate": 51
+  },
+  {
+    "title": "Remove Invalid Parentheses",
+    "slug": "remove-invalid-parentheses",
+    "difficulty": "Hard",
+    "acRate": 50.1
+  },
+  {
+    "title": "Closest Dessert Cost",
+    "slug": "closest-dessert-cost",
+    "difficulty": "Medium",
+    "acRate": 48.9
+  },
+  {
+    "title": "Number of Valid Move Combinations On Chessboard",
+    "slug": "number-of-valid-move-combinations-on-chessboard",
+    "difficulty": "Hard",
+    "acRate": 48.4
+  },
+  {
+    "title": "Word Search",
+    "slug": "word-search",
+    "difficulty": "Medium",
+    "acRate": 47.9
+  },
+  {
+    "title": "Find Minimum Time to Finish All Jobs",
+    "slug": "find-minimum-time-to-finish-all-jobs",
+    "difficulty": "Hard",
+    "acRate": 46.1
+  },
+  {
+    "title": "Minimum Moves to Spread Stones Over Grid",
+    "slug": "minimum-moves-to-spread-stones-over-grid",
+    "difficulty": "Medium",
+    "acRate": 45.7
+  },
+  {
+    "title": "Smallest Divisible Digit Product II",
+    "slug": "smallest-divisible-digit-product-ii",
+    "difficulty": "Hard",
+    "acRate": 45.3
+  },
+  {
+    "title": "Expression Add Operators",
+    "slug": "expression-add-operators",
+    "difficulty": "Hard",
+    "acRate": 43.6
+  },
+  {
+    "title": "Matchsticks to Square",
+    "slug": "matchsticks-to-square",
+    "difficulty": "Medium",
+    "acRate": 42.2
+  },
+  {
+    "title": "Distribute Repeating Integers",
+    "slug": "distribute-repeating-integers",
+    "difficulty": "Hard",
+    "acRate": 41
+  },
+  {
+    "title": "Split Array into Fibonacci Sequence",
+    "slug": "split-array-into-fibonacci-sequence",
+    "difficulty": "Medium",
+    "acRate": 40.6
+  },
+  {
+    "title": "Balanced K-Factor Decomposition",
+    "slug": "balanced-k-factor-decomposition",
+    "difficulty": "Medium",
+    "acRate": 40.5
+  },
+  {
+    "title": "Word Search II",
+    "slug": "word-search-ii",
+    "difficulty": "Hard",
+    "acRate": 38.8
+  },
+  {
+    "title": "Partition to K Equal Sum Subsets",
+    "slug": "partition-to-k-equal-sum-subsets",
+    "difficulty": "Medium",
+    "acRate": 38.8
+  },
+  {
+    "title": "Splitting a String Into Descending Consecutive Values",
+    "slug": "splitting-a-string-into-descending-consecutive-values",
+    "difficulty": "Medium",
+    "acRate": 37.7
+  },
+  {
+    "title": "Largest Time for Given Digits",
+    "slug": "largest-time-for-given-digits",
+    "difficulty": "Medium",
+    "acRate": 36.1
+  },
+  {
+    "title": "Minimum Number of Work Sessions to Finish the Tasks",
+    "slug": "minimum-number-of-work-sessions-to-finish-the-tasks",
+    "difficulty": "Medium",
+    "acRate": 35.2
+  },
+  {
+    "title": "Additive Number",
+    "slug": "additive-number",
+    "difficulty": "Medium",
+    "acRate": 34.3
+  },
+  {
+    "title": "Verbal Arithmetic Puzzle",
+    "slug": "verbal-arithmetic-puzzle",
+    "difficulty": "Hard",
+    "acRate": 33.5
+  },
+  {
+    "title": "Minimum Time to Break Locks I",
+    "slug": "minimum-time-to-break-locks-i",
+    "difficulty": "Medium",
+    "acRate": 33
+  },
+  {
+    "title": "Word Ladder II",
+    "slug": "word-ladder-ii",
+    "difficulty": "Hard",
+    "acRate": 27.9
+  },
+  {
+    "title": "Next Special Palindrome Number",
+    "slug": "next-special-palindrome-number",
+    "difficulty": "Hard",
+    "acRate": 27.9
+  },
+  {
+    "title": "Maximum Strength of a Group",
+    "slug": "maximum-strength-of-a-group",
+    "difficulty": "Medium",
+    "acRate": 25.9
+  }
+]

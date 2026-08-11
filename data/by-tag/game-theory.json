@@ -1,0 +1,158 @@
+[
+  {
+    "title": "Maximum Number of Coins You Can Get",
+    "slug": "maximum-number-of-coins-you-can-get",
+    "difficulty": "Medium",
+    "acRate": 84.8
+  },
+  {
+    "title": "Vowels Game in a String",
+    "slug": "vowels-game-in-a-string",
+    "difficulty": "Medium",
+    "acRate": 77.1
+  },
+  {
+    "title": "Stone Game",
+    "slug": "stone-game",
+    "difficulty": "Medium",
+    "acRate": 76.9
+  },
+  {
+    "title": "Stone Game II",
+    "slug": "stone-game-ii",
+    "difficulty": "Medium",
+    "acRate": 75.8
+  },
+  {
+    "title": "Divisor Game",
+    "slug": "divisor-game",
+    "difficulty": "Easy",
+    "acRate": 72.4
+  },
+  {
+    "title": "Stone Game III",
+    "slug": "stone-game-iii",
+    "difficulty": "Hard",
+    "acRate": 67.9
+  },
+  {
+    "title": "Chalkboard XOR Game",
+    "slug": "chalkboard-xor-game",
+    "difficulty": "Hard",
+    "acRate": 66.9
+  },
+  {
+    "title": "Stone Game IV",
+    "slug": "stone-game-iv",
+    "difficulty": "Hard",
+    "acRate": 65.2
+  },
+  {
+    "title": "Maximum Median Sum of Subsequences of Size 3",
+    "slug": "maximum-median-sum-of-subsequences-of-size-3",
+    "difficulty": "Medium",
+    "acRate": 65.1
+  },
+  {
+    "title": "Remove Colored Pieces if Both Neighbors are the Same Color",
+    "slug": "remove-colored-pieces-if-both-neighbors-are-the-same-color",
+    "difficulty": "Medium",
+    "acRate": 63.1
+  },
+  {
+    "title": "Stone Game VI",
+    "slug": "stone-game-vi",
+    "difficulty": "Medium",
+    "acRate": 61.4
+  },
+  {
+    "title": "Nim Game",
+    "slug": "nim-game",
+    "difficulty": "Easy",
+    "acRate": 60.3
+  },
+  {
+    "title": "Predict the Winner",
+    "slug": "predict-the-winner",
+    "difficulty": "Medium",
+    "acRate": 59.8
+  },
+  {
+    "title": "Stone Game VII",
+    "slug": "stone-game-vii",
+    "difficulty": "Medium",
+    "acRate": 59.1
+  },
+  {
+    "title": "Stone Game VIII",
+    "slug": "stone-game-viii",
+    "difficulty": "Hard",
+    "acRate": 54.4
+  },
+  {
+    "title": "Find the Winning Player in Coin Game",
+    "slug": "find-the-winning-player-in-coin-game",
+    "difficulty": "Easy",
+    "acRate": 54
+  },
+  {
+    "title": "Guess Number Higher or Lower II",
+    "slug": "guess-number-higher-or-lower-ii",
+    "difficulty": "Medium",
+    "acRate": 53.3
+  },
+  {
+    "title": "Sum Game",
+    "slug": "sum-game",
+    "difficulty": "Medium",
+    "acRate": 49.6
+  },
+  {
+    "title": "Stone Game V",
+    "slug": "stone-game-v",
+    "difficulty": "Hard",
+    "acRate": 42.9
+  },
+  {
+    "title": "Final Element After Subarray Deletions",
+    "slug": "final-element-after-subarray-deletions",
+    "difficulty": "Medium",
+    "acRate": 41.2
+  },
+  {
+    "title": "Cat and Mouse II",
+    "slug": "cat-and-mouse-ii",
+    "difficulty": "Hard",
+    "acRate": 40.3
+  },
+  {
+    "title": "Guess the Word",
+    "slug": "guess-the-word",
+    "difficulty": "Hard",
+    "acRate": 36.6
+  },
+  {
+    "title": "Cat and Mouse",
+    "slug": "cat-and-mouse",
+    "difficulty": "Hard",
+    "acRate": 35.8
+  },
+  {
+    "title": "Maximum Number of Moves to Kill All Pawns",
+    "slug": "maximum-number-of-moves-to-kill-all-pawns",
+    "difficulty": "Hard",
+    "acRate": 34
+  },
+  {
+    "title": "Can I Win",
+    "slug": "can-i-win",
+    "difficulty": "Medium",
+    "acRate": 31.7
+  },
+  {
+    "title": "Stone Game IX",
+    "slug": "stone-game-ix",
+    "difficulty": "Medium",
+    "acRate": 30.9
+  }
+]

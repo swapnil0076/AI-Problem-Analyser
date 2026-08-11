@@ -1,0 +1,1226 @@
+[
+  {
+    "title": "Reverse Odd Levels of Binary Tree",
+    "slug": "reverse-odd-levels-of-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 86.7
+  },
+  {
+    "title": "Deepest Leaves Sum",
+    "slug": "deepest-leaves-sum",
+    "difficulty": "Medium",
+    "acRate": 86.6
+  },
+  {
+    "title": "Sum of Nodes with Even-Valued Grandparent",
+    "slug": "sum-of-nodes-with-even-valued-grandparent",
+    "difficulty": "Medium",
+    "acRate": 86
+  },
+  {
+    "title": "Find a Corresponding Node of a Binary Tree in a Clone of That Tree",
+    "slug": "find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree",
+    "difficulty": "Easy",
+    "acRate": 85.8
+  },
+  {
+    "title": "Find Elements in a Contaminated Binary Tree",
+    "slug": "find-elements-in-a-contaminated-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 84.2
+  },
+  {
+    "title": "All Paths From Source to Target",
+    "slug": "all-paths-from-source-to-target",
+    "difficulty": "Medium",
+    "acRate": 83.8
+  },
+  {
+    "title": "Count the Number of Complete Components",
+    "slug": "count-the-number-of-complete-components",
+    "difficulty": "Medium",
+    "acRate": 80.8
+  },
+  {
+    "title": "Invert Binary Tree",
+    "slug": "invert-binary-tree",
+    "difficulty": "Easy",
+    "acRate": 80.3
+  },
+  {
+    "title": "Lowest Common Ancestor of Deepest Leaves",
+    "slug": "lowest-common-ancestor-of-deepest-leaves",
+    "difficulty": "Medium",
+    "acRate": 79.5
+  },
+  {
+    "title": "Lexicographically Smallest String After Applying Operations",
+    "slug": "lexicographically-smallest-string-after-applying-operations",
+    "difficulty": "Medium",
+    "acRate": 79.3
+  },
+  {
+    "title": "Merge Two Binary Trees",
+    "slug": "merge-two-binary-trees",
+    "difficulty": "Easy",
+    "acRate": 79.1
+  },
+  {
+    "title": "Maximum Depth of Binary Tree",
+    "slug": "maximum-depth-of-binary-tree",
+    "difficulty": "Easy",
+    "acRate": 78.5
+  },
+  {
+    "title": "Smallest Subtree with all the Deepest Nodes",
+    "slug": "smallest-subtree-with-all-the-deepest-nodes",
+    "difficulty": "Medium",
+    "acRate": 77.7
+  },
+  {
+    "title": "Regions Cut By Slashes",
+    "slug": "regions-cut-by-slashes",
+    "difficulty": "Medium",
+    "acRate": 77.5
+  },
+  {
+    "title": "Map of Highest Peak",
+    "slug": "map-of-highest-peak",
+    "difficulty": "Medium",
+    "acRate": 76.2
+  },
+  {
+    "title": "Keys and Rooms",
+    "slug": "keys-and-rooms",
+    "difficulty": "Medium",
+    "acRate": 76.1
+  },
+  {
+    "title": "Cousins in Binary Tree II",
+    "slug": "cousins-in-binary-tree-ii",
+    "difficulty": "Medium",
+    "acRate": 76
+  },
+  {
+    "title": "Find All Groups of Farmland",
+    "slug": "find-all-groups-of-farmland",
+    "difficulty": "Medium",
+    "acRate": 75.5
+  },
+  {
+    "title": "Average of Levels in Binary Tree",
+    "slug": "average-of-levels-in-binary-tree",
+    "difficulty": "Easy",
+    "acRate": 75.1
+  },
+  {
+    "title": "Sliding Puzzle",
+    "slug": "sliding-puzzle",
+    "difficulty": "Hard",
+    "acRate": 74.5
+  },
+  {
+    "title": "Island Perimeter",
+    "slug": "island-perimeter",
+    "difficulty": "Easy",
+    "acRate": 74.3
+  },
+  {
+    "title": "Max Area of Island",
+    "slug": "max-area-of-island",
+    "difficulty": "Medium",
+    "acRate": 74.2
+  },
+  {
+    "title": "Minimum Number of Operations to Sort a Binary Tree by Level",
+    "slug": "minimum-number-of-operations-to-sort-a-binary-tree-by-level",
+    "difficulty": "Medium",
+    "acRate": 74.2
+  },
+  {
+    "title": "Count Good Nodes in Binary Tree",
+    "slug": "count-good-nodes-in-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 73.9
+  },
+  {
+    "title": "Maximum Depth of N-ary Tree",
+    "slug": "maximum-depth-of-n-ary-tree",
+    "difficulty": "Easy",
+    "acRate": 73.7
+  },
+  {
+    "title": "Count Servers that Communicate",
+    "slug": "count-servers-that-communicate",
+    "difficulty": "Medium",
+    "acRate": 73.6
+  },
+  {
+    "title": "Binary Tree Level Order Traversal",
+    "slug": "binary-tree-level-order-traversal",
+    "difficulty": "Medium",
+    "acRate": 73.3
+  },
+  {
+    "title": "Univalued Binary Tree",
+    "slug": "univalued-binary-tree",
+    "difficulty": "Easy",
+    "acRate": 73.3
+  },
+  {
+    "title": "Count Sub Islands",
+    "slug": "count-sub-islands",
+    "difficulty": "Medium",
+    "acRate": 73.1
+  },
+  {
+    "title": "Maximize the Number of Target Nodes After Connecting Trees II",
+    "slug": "maximize-the-number-of-target-nodes-after-connecting-trees-ii",
+    "difficulty": "Hard",
+    "acRate": 73.1
+  },
+  {
+    "title": "Minimum Number of Flips to Convert Binary Matrix to Zero Matrix",
+    "slug": "minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix",
+    "difficulty": "Hard",
+    "acRate": 73
+  },
+  {
+    "title": "Find Bottom Left Tree Value",
+    "slug": "find-bottom-left-tree-value",
+    "difficulty": "Medium",
+    "acRate": 72.5
+  },
+  {
+    "title": "Number of Enclaves",
+    "slug": "number-of-enclaves",
+    "difficulty": "Medium",
+    "acRate": 72.2
+  },
+  {
+    "title": "N-ary Tree Level Order Traversal",
+    "slug": "n-ary-tree-level-order-traversal",
+    "difficulty": "Medium",
+    "acRate": 71.6
+  },
+  {
+    "title": "Find Eventual Safe States",
+    "slug": "find-eventual-safe-states",
+    "difficulty": "Medium",
+    "acRate": 71.4
+  },
+  {
+    "title": "Minimum Cost to Make at Least One Valid Path in a Grid",
+    "slug": "minimum-cost-to-make-at-least-one-valid-path-in-a-grid",
+    "difficulty": "Hard",
+    "acRate": 71.1
+  },
+  {
+    "title": "Minimum Obstacle Removal to Reach Corner",
+    "slug": "minimum-obstacle-removal-to-reach-corner",
+    "difficulty": "Hard",
+    "acRate": 71
+  },
+  {
+    "title": "Binary Tree Right Side View",
+    "slug": "binary-tree-right-side-view",
+    "difficulty": "Medium",
+    "acRate": 70.9
+  },
+  {
+    "title": "Number of Provinces",
+    "slug": "number-of-provinces",
+    "difficulty": "Medium",
+    "acRate": 70.9
+  },
+  {
+    "title": "Jump Game III",
+    "slug": "jump-game-iii",
+    "difficulty": "Medium",
+    "acRate": 70.4
+  },
+  {
+    "title": "Maximum Number of Fish in a Grid",
+    "slug": "maximum-number-of-fish-in-a-grid",
+    "difficulty": "Medium",
+    "acRate": 70.4
+  },
+  {
+    "title": "Remove Methods From Project",
+    "slug": "remove-methods-from-project",
+    "difficulty": "Medium",
+    "acRate": 70.2
+  },
+  {
+    "title": "Maximum Level Sum of a Binary Tree",
+    "slug": "maximum-level-sum-of-a-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 70
+  },
+  {
+    "title": "Employee Importance",
+    "slug": "employee-importance",
+    "difficulty": "Medium",
+    "acRate": 69.7
+  },
+  {
+    "title": "Maximize the Number of Target Nodes After Connecting Trees I",
+    "slug": "maximize-the-number-of-target-nodes-after-connecting-trees-i",
+    "difficulty": "Medium",
+    "acRate": 69.4
+  },
+  {
+    "title": "Minesweeper",
+    "slug": "minesweeper",
+    "difficulty": "Medium",
+    "acRate": 68.9
+  },
+  {
+    "title": "Binary Tree Level Order Traversal II",
+    "slug": "binary-tree-level-order-traversal-ii",
+    "difficulty": "Medium",
+    "acRate": 68.8
+  },
+  {
+    "title": "Flood Fill",
+    "slug": "flood-fill",
+    "difficulty": "Easy",
+    "acRate": 68.8
+  },
+  {
+    "title": "Last Day Where You Can Still Cross",
+    "slug": "last-day-where-you-can-still-cross",
+    "difficulty": "Hard",
+    "acRate": 68.7
+  },
+  {
+    "title": "Pseudo-Palindromic Paths in a Binary Tree",
+    "slug": "pseudo-palindromic-paths-in-a-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 68.4
+  },
+  {
+    "title": "Swim in Rising Water",
+    "slug": "swim-in-rising-water",
+    "difficulty": "Hard",
+    "acRate": 68.2
+  },
+  {
+    "title": "Redundant Connection",
+    "slug": "redundant-connection",
+    "difficulty": "Medium",
+    "acRate": 68.1
+  },
+  {
+    "title": "All Nodes Distance K in Binary Tree",
+    "slug": "all-nodes-distance-k-in-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 68
+  },
+  {
+    "title": "Same Tree",
+    "slug": "same-tree",
+    "difficulty": "Easy",
+    "acRate": 67.7
+  },
+  {
+    "title": "Populating Next Right Pointers in Each Node",
+    "slug": "populating-next-right-pointers-in-each-node",
+    "difficulty": "Medium",
+    "acRate": 67.6
+  },
+  {
+    "title": "Even Odd Tree",
+    "slug": "even-odd-tree",
+    "difficulty": "Medium",
+    "acRate": 67.3
+  },
+  {
+    "title": "Most Profitable Path in a Tree",
+    "slug": "most-profitable-path-in-a-tree",
+    "difficulty": "Medium",
+    "acRate": 67.3
+  },
+  {
+    "title": "Number of Closed Islands",
+    "slug": "number-of-closed-islands",
+    "difficulty": "Medium",
+    "acRate": 67.2
+  },
+  {
+    "title": "Maximum Candies You Can Get from Boxes",
+    "slug": "maximum-candies-you-can-get-from-boxes",
+    "difficulty": "Hard",
+    "acRate": 67.1
+  },
+  {
+    "title": "Number of Operations to Make Network Connected",
+    "slug": "number-of-operations-to-make-network-connected",
+    "difficulty": "Medium",
+    "acRate": 67.1
+  },
+  {
+    "title": "Divide Nodes Into the Maximum Number of Groups",
+    "slug": "divide-nodes-into-the-maximum-number-of-groups",
+    "difficulty": "Hard",
+    "acRate": 66.9
+  },
+  {
+    "title": "Print Binary Tree",
+    "slug": "print-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 66.8
+  },
+  {
+    "title": "Find Largest Value in Each Tree Row",
+    "slug": "find-largest-value-in-each-tree-row",
+    "difficulty": "Medium",
+    "acRate": 66.4
+  },
+  {
+    "title": "Shortest Path Visiting All Nodes",
+    "slug": "shortest-path-visiting-all-nodes",
+    "difficulty": "Hard",
+    "acRate": 66.2
+  },
+  {
+    "title": "Minimum Score of a Path Between Two Cities",
+    "slug": "minimum-score-of-a-path-between-two-cities",
+    "difficulty": "Medium",
+    "acRate": 66.2
+  },
+  {
+    "title": "Reorder Routes to Make All Paths Lead to the City Zero",
+    "slug": "reorder-routes-to-make-all-paths-lead-to-the-city-zero",
+    "difficulty": "Medium",
+    "acRate": 66.1
+  },
+  {
+    "title": "Sort Items by Groups Respecting Dependencies",
+    "slug": "sort-items-by-groups-respecting-dependencies",
+    "difficulty": "Hard",
+    "acRate": 66
+  },
+  {
+    "title": "Clone Graph",
+    "slug": "clone-graph",
+    "difficulty": "Medium",
+    "acRate": 65.9
+  },
+  {
+    "title": "Amount of Time for Binary Tree to Be Infected",
+    "slug": "amount-of-time-for-binary-tree-to-be-infected",
+    "difficulty": "Medium",
+    "acRate": 65.8
+  },
+  {
+    "title": "Minimum Fuel Cost to Report to the Capital",
+    "slug": "minimum-fuel-cost-to-report-to-the-capital",
+    "difficulty": "Medium",
+    "acRate": 65.4
+  },
+  {
+    "title": "Complete Binary Tree Inserter",
+    "slug": "complete-binary-tree-inserter",
+    "difficulty": "Medium",
+    "acRate": 65.2
+  },
+  {
+    "title": "Number of Islands",
+    "slug": "number-of-islands",
+    "difficulty": "Medium",
+    "acRate": 64.9
+  },
+  {
+    "title": "Evaluate Division",
+    "slug": "evaluate-division",
+    "difficulty": "Medium",
+    "acRate": 64.5
+  },
+  {
+    "title": "Check if There is a Valid Path in a Grid",
+    "slug": "check-if-there-is-a-valid-path-in-a-grid",
+    "difficulty": "Medium",
+    "acRate": 64.5
+  },
+  {
+    "title": "Binary Tree Zigzag Level Order Traversal",
+    "slug": "binary-tree-zigzag-level-order-traversal",
+    "difficulty": "Medium",
+    "acRate": 64.3
+  },
+  {
+    "title": "Trapping Rain Water II",
+    "slug": "trapping-rain-water-ii",
+    "difficulty": "Hard",
+    "acRate": 64.2
+  },
+  {
+    "title": "Add One Row to Tree",
+    "slug": "add-one-row-to-tree",
+    "difficulty": "Medium",
+    "acRate": 64.2
+  },
+  {
+    "title": "Brace Expansion II",
+    "slug": "brace-expansion-ii",
+    "difficulty": "Hard",
+    "acRate": 63.9
+  },
+  {
+    "title": "Path With Minimum Effort",
+    "slug": "path-with-minimum-effort",
+    "difficulty": "Medium",
+    "acRate": 63.9
+  },
+  {
+    "title": "Minimum Time to Collect All Apples in a Tree",
+    "slug": "minimum-time-to-collect-all-apples-in-a-tree",
+    "difficulty": "Medium",
+    "acRate": 63.8
+  },
+  {
+    "title": "Two Sum IV - Input is a BST",
+    "slug": "two-sum-iv-input-is-a-bst",
+    "difficulty": "Easy",
+    "acRate": 63.6
+  },
+  {
+    "title": "Detect Cycles in 2D Grid",
+    "slug": "detect-cycles-in-2d-grid",
+    "difficulty": "Medium",
+    "acRate": 63.5
+  },
+  {
+    "title": "Sum of Left Leaves",
+    "slug": "sum-of-left-leaves",
+    "difficulty": "Easy",
+    "acRate": 63
+  },
+  {
+    "title": "Second Minimum Time to Reach Destination",
+    "slug": "second-minimum-time-to-reach-destination",
+    "difficulty": "Hard",
+    "acRate": 62.3
+  },
+  {
+    "title": "All Ancestors of a Node in a Directed Acyclic Graph",
+    "slug": "all-ancestors-of-a-node-in-a-directed-acyclic-graph",
+    "difficulty": "Medium",
+    "acRate": 62.3
+  },
+  {
+    "title": "Count Connected Subgraphs with Even Node Sum",
+    "slug": "count-connected-subgraphs-with-even-node-sum",
+    "difficulty": "Hard",
+    "acRate": 62.3
+  },
+  {
+    "title": "Accounts Merge",
+    "slug": "accounts-merge",
+    "difficulty": "Medium",
+    "acRate": 61.9
+  },
+  {
+    "title": "Check Knight Tour Configuration",
+    "slug": "check-knight-tour-configuration",
+    "difficulty": "Medium",
+    "acRate": 61.9
+  },
+  {
+    "title": "Shortest Distance After Road Addition Queries I",
+    "slug": "shortest-distance-after-road-addition-queries-i",
+    "difficulty": "Medium",
+    "acRate": 61.9
+  },
+  {
+    "title": "Maximize Amount After Two Days of Conversions",
+    "slug": "maximize-amount-after-two-days-of-conversions",
+    "difficulty": "Medium",
+    "acRate": 61.9
+  },
+  {
+    "title": "Symmetric Tree",
+    "slug": "symmetric-tree",
+    "difficulty": "Easy",
+    "acRate": 61.8
+  },
+  {
+    "title": "Minimum Distance Between BST Nodes",
+    "slug": "minimum-distance-between-bst-nodes",
+    "difficulty": "Easy",
+    "acRate": 61.7
+  },
+  {
+    "title": "Open the Lock",
+    "slug": "open-the-lock",
+    "difficulty": "Medium",
+    "acRate": 61.5
+  },
+  {
+    "title": "Pacific Atlantic Water Flow",
+    "slug": "pacific-atlantic-water-flow",
+    "difficulty": "Medium",
+    "acRate": 61.3
+  },
+  {
+    "title": "Network Delay Time",
+    "slug": "network-delay-time",
+    "difficulty": "Medium",
+    "acRate": 61.3
+  },
+  {
+    "title": "Serialize and Deserialize Binary Tree",
+    "slug": "serialize-and-deserialize-binary-tree",
+    "difficulty": "Hard",
+    "acRate": 61.1
+  },
+  {
+    "title": "Smallest String With Swaps",
+    "slug": "smallest-string-with-swaps",
+    "difficulty": "Medium",
+    "acRate": 60.9
+  },
+  {
+    "title": "Reachable Nodes With Restrictions",
+    "slug": "reachable-nodes-with-restrictions",
+    "difficulty": "Medium",
+    "acRate": 60.7
+  },
+  {
+    "title": "Time Needed to Inform All Employees",
+    "slug": "time-needed-to-inform-all-employees",
+    "difficulty": "Medium",
+    "acRate": 60.6
+  },
+  {
+    "title": "Course Schedule IV",
+    "slug": "course-schedule-iv",
+    "difficulty": "Medium",
+    "acRate": 60.2
+  },
+  {
+    "title": "Serialize and Deserialize BST",
+    "slug": "serialize-and-deserialize-bst",
+    "difficulty": "Medium",
+    "acRate": 59.9
+  },
+  {
+    "title": "Minimum Edge Reversals So Every Node Is Reachable",
+    "slug": "minimum-edge-reversals-so-every-node-is-reachable",
+    "difficulty": "Hard",
+    "acRate": 59.8
+  },
+  {
+    "title": "Minimum Absolute Difference in BST",
+    "slug": "minimum-absolute-difference-in-bst",
+    "difficulty": "Easy",
+    "acRate": 59.7
+  },
+  {
+    "title": "Is Graph Bipartite?",
+    "slug": "is-graph-bipartite",
+    "difficulty": "Medium",
+    "acRate": 59.7
+  },
+  {
+    "title": "Shortest Bridge",
+    "slug": "shortest-bridge",
+    "difficulty": "Medium",
+    "acRate": 59.7
+  },
+  {
+    "title": "Cousins in Binary Tree",
+    "slug": "cousins-in-binary-tree",
+    "difficulty": "Easy",
+    "acRate": 59.7
+  },
+  {
+    "title": "Couples Holding Hands",
+    "slug": "couples-holding-hands",
+    "difficulty": "Hard",
+    "acRate": 59.6
+  },
+  {
+    "title": "Freedom Trail",
+    "slug": "freedom-trail",
+    "difficulty": "Hard",
+    "acRate": 59.5
+  },
+  {
+    "title": "Check Completeness of a Binary Tree",
+    "slug": "check-completeness-of-a-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 59.4
+  },
+  {
+    "title": "Numbers With Same Consecutive Differences",
+    "slug": "numbers-with-same-consecutive-differences",
+    "difficulty": "Medium",
+    "acRate": 59.3
+  },
+  {
+    "title": "Rotting Oranges",
+    "slug": "rotting-oranges",
+    "difficulty": "Medium",
+    "acRate": 59.3
+  },
+  {
+    "title": "Maximum Number of Points From Grid Queries",
+    "slug": "maximum-number-of-points-from-grid-queries",
+    "difficulty": "Hard",
+    "acRate": 59.2
+  },
+  {
+    "title": "Kth Largest Sum in a Binary Tree",
+    "slug": "kth-largest-sum-in-a-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 59
+  },
+  {
+    "title": "Minimum Number of Days to Disconnect Island",
+    "slug": "minimum-number-of-days-to-disconnect-island",
+    "difficulty": "Hard",
+    "acRate": 58.7
+  },
+  {
+    "title": "Count the Number of Houses at a Certain Distance I",
+    "slug": "count-the-number-of-houses-at-a-certain-distance-i",
+    "difficulty": "Medium",
+    "acRate": 58.4
+  },
+  {
+    "title": "Split and Merge Array Transformation",
+    "slug": "split-and-merge-array-transformation",
+    "difficulty": "Medium",
+    "acRate": 58.3
+  },
+  {
+    "title": "Populating Next Right Pointers in Each Node II",
+    "slug": "populating-next-right-pointers-in-each-node-ii",
+    "difficulty": "Medium",
+    "acRate": 58
+  },
+  {
+    "title": "Pythagorean Distance Nodes in a Tree",
+    "slug": "pythagorean-distance-nodes-in-a-tree",
+    "difficulty": "Medium",
+    "acRate": 58
+  },
+  {
+    "title": "Number of Increasing Paths in a Grid",
+    "slug": "number-of-increasing-paths-in-a-grid",
+    "difficulty": "Hard",
+    "acRate": 57.3
+  },
+  {
+    "title": "Find the Safest Path in a Grid",
+    "slug": "find-the-safest-path-in-a-grid",
+    "difficulty": "Medium",
+    "acRate": 57.3
+  },
+  {
+    "title": "Making A Large Island",
+    "slug": "making-a-large-island",
+    "difficulty": "Hard",
+    "acRate": 57.1
+  },
+  {
+    "title": "Minimum Genetic Mutation",
+    "slug": "minimum-genetic-mutation",
+    "difficulty": "Medium",
+    "acRate": 57
+  },
+  {
+    "title": "Find Minimum Diameter After Merging Two Trees",
+    "slug": "find-minimum-diameter-after-merging-two-trees",
+    "difficulty": "Hard",
+    "acRate": 57
+  },
+  {
+    "title": "Longest Increasing Path in a Matrix",
+    "slug": "longest-increasing-path-in-a-matrix",
+    "difficulty": "Hard",
+    "acRate": 56.9
+  },
+  {
+    "title": "Perfect Squares",
+    "slug": "perfect-squares",
+    "difficulty": "Medium",
+    "acRate": 56.8
+  },
+  {
+    "title": "Similar String Groups",
+    "slug": "similar-string-groups",
+    "difficulty": "Hard",
+    "acRate": 56.5
+  },
+  {
+    "title": "Course Schedule II",
+    "slug": "course-schedule-ii",
+    "difficulty": "Medium",
+    "acRate": 56.1
+  },
+  {
+    "title": "The Time When the Network Becomes Idle",
+    "slug": "the-time-when-the-network-becomes-idle",
+    "difficulty": "Medium",
+    "acRate": 56.1
+  },
+  {
+    "title": "Minimum Time to Visit a Cell In a Grid",
+    "slug": "minimum-time-to-visit-a-cell-in-a-grid",
+    "difficulty": "Hard",
+    "acRate": 56.1
+  },
+  {
+    "title": "Power Grid Maintenance",
+    "slug": "power-grid-maintenance",
+    "difficulty": "Medium",
+    "acRate": 55.9
+  },
+  {
+    "title": "Multi Source Flood Fill",
+    "slug": "multi-source-flood-fill",
+    "difficulty": "Medium",
+    "acRate": 55.9
+  },
+  {
+    "title": "Contain Virus",
+    "slug": "contain-virus",
+    "difficulty": "Hard",
+    "acRate": 55.7
+  },
+  {
+    "title": "Find if Path Exists in Graph",
+    "slug": "find-if-path-exists-in-graph",
+    "difficulty": "Easy",
+    "acRate": 55.7
+  },
+  {
+    "title": "Number of Nodes in the Sub-Tree With the Same Label",
+    "slug": "number-of-nodes-in-the-sub-tree-with-the-same-label",
+    "difficulty": "Medium",
+    "acRate": 55.6
+  },
+  {
+    "title": "Path Sum",
+    "slug": "path-sum",
+    "difficulty": "Easy",
+    "acRate": 55.5
+  },
+  {
+    "title": "Count Islands With Total Value Divisible by K",
+    "slug": "count-islands-with-total-value-divisible-by-k",
+    "difficulty": "Medium",
+    "acRate": 55.5
+  },
+  {
+    "title": "Find a Safe Walk Through a Grid",
+    "slug": "find-a-safe-walk-through-a-grid",
+    "difficulty": "Medium",
+    "acRate": 55.4
+  },
+  {
+    "title": "Shortest Path to Get All Keys",
+    "slug": "shortest-path-to-get-all-keys",
+    "difficulty": "Hard",
+    "acRate": 54.9
+  },
+  {
+    "title": "Height of Binary Tree After Subtree Removal Queries",
+    "slug": "height-of-binary-tree-after-subtree-removal-queries",
+    "difficulty": "Hard",
+    "acRate": 54.9
+  },
+  {
+    "title": "01 Matrix",
+    "slug": "01-matrix",
+    "difficulty": "Medium",
+    "acRate": 54.7
+  },
+  {
+    "title": "Vertical Order Traversal of a Binary Tree",
+    "slug": "vertical-order-traversal-of-a-binary-tree",
+    "difficulty": "Hard",
+    "acRate": 54.5
+  },
+  {
+    "title": "Flower Planting With No Adjacent",
+    "slug": "flower-planting-with-no-adjacent",
+    "difficulty": "Medium",
+    "acRate": 54.1
+  },
+  {
+    "title": "Unit Conversion I",
+    "slug": "unit-conversion-i",
+    "difficulty": "Medium",
+    "acRate": 54.1
+  },
+  {
+    "title": "Get Watched Videos by Your Friends",
+    "slug": "get-watched-videos-by-your-friends",
+    "difficulty": "Medium",
+    "acRate": 53.9
+  },
+  {
+    "title": "Minimum Depth of Binary Tree",
+    "slug": "minimum-depth-of-binary-tree",
+    "difficulty": "Easy",
+    "acRate": 53.5
+  },
+  {
+    "title": "Possible Bipartition",
+    "slug": "possible-bipartition",
+    "difficulty": "Medium",
+    "acRate": 52.9
+  },
+  {
+    "title": "Minimum Moves to Reach Target with Rotations",
+    "slug": "minimum-moves-to-reach-target-with-rotations",
+    "difficulty": "Hard",
+    "acRate": 52.7
+  },
+  {
+    "title": "As Far from Land as Possible",
+    "slug": "as-far-from-land-as-possible",
+    "difficulty": "Medium",
+    "acRate": 52.5
+  },
+  {
+    "title": "Minimum Operations to Convert Number",
+    "slug": "minimum-operations-to-convert-number",
+    "difficulty": "Medium",
+    "acRate": 52.2
+  },
+  {
+    "title": "Course Schedule",
+    "slug": "course-schedule",
+    "difficulty": "Medium",
+    "acRate": 52
+  },
+  {
+    "title": "Shortest Path in Binary Matrix",
+    "slug": "shortest-path-in-binary-matrix",
+    "difficulty": "Medium",
+    "acRate": 52
+  },
+  {
+    "title": "Coloring A Border",
+    "slug": "coloring-a-border",
+    "difficulty": "Medium",
+    "acRate": 51.6
+  },
+  {
+    "title": "Jump Game IV",
+    "slug": "jump-game-iv",
+    "difficulty": "Hard",
+    "acRate": 51.1
+  },
+  {
+    "title": "Longest Cycle in a Graph",
+    "slug": "longest-cycle-in-a-graph",
+    "difficulty": "Hard",
+    "acRate": 51
+  },
+  {
+    "title": "Bulb Switcher II",
+    "slug": "bulb-switcher-ii",
+    "difficulty": "Medium",
+    "acRate": 50.6
+  },
+  {
+    "title": "Detonate the Maximum Bombs",
+    "slug": "detonate-the-maximum-bombs",
+    "difficulty": "Medium",
+    "acRate": 50.4
+  },
+  {
+    "title": "Count Unreachable Pairs of Nodes in an Undirected Graph",
+    "slug": "count-unreachable-pairs-of-nodes-in-an-undirected-graph",
+    "difficulty": "Medium",
+    "acRate": 50.2
+  },
+  {
+    "title": "Remove Invalid Parentheses",
+    "slug": "remove-invalid-parentheses",
+    "difficulty": "Hard",
+    "acRate": 50.1
+  },
+  {
+    "title": "Minimum Moves to Move a Box to Their Target Location",
+    "slug": "minimum-moves-to-move-a-box-to-their-target-location",
+    "difficulty": "Hard",
+    "acRate": 50
+  },
+  {
+    "title": "Nearest Exit from Entrance in Maze",
+    "slug": "nearest-exit-from-entrance-in-maze",
+    "difficulty": "Medium",
+    "acRate": 49
+  },
+  {
+    "title": "Minimum Number of Operations to Make X and Y Equal",
+    "slug": "minimum-number-of-operations-to-make-x-and-y-equal",
+    "difficulty": "Medium",
+    "acRate": 49
+  },
+  {
+    "title": "Coin Change",
+    "slug": "coin-change",
+    "difficulty": "Medium",
+    "acRate": 48.9
+  },
+  {
+    "title": "Properties Graph",
+    "slug": "properties-graph",
+    "difficulty": "Medium",
+    "acRate": 48.6
+  },
+  {
+    "title": "Find All People With Secret",
+    "slug": "find-all-people-with-secret",
+    "difficulty": "Hard",
+    "acRate": 48.4
+  },
+  {
+    "title": "Snakes and Ladders",
+    "slug": "snakes-and-ladders",
+    "difficulty": "Medium",
+    "acRate": 48.2
+  },
+  {
+    "title": "Shortest Path with Alternating Colors",
+    "slug": "shortest-path-with-alternating-colors",
+    "difficulty": "Medium",
+    "acRate": 48.2
+  },
+  {
+    "title": "Bus Routes",
+    "slug": "bus-routes",
+    "difficulty": "Hard",
+    "acRate": 47.5
+  },
+  {
+    "title": "K Highest Ranked Items Within a Price Range",
+    "slug": "k-highest-ranked-items-within-a-price-range",
+    "difficulty": "Medium",
+    "acRate": 47.1
+  },
+  {
+    "title": "Shortest Path in a Grid with Obstacles Elimination",
+    "slug": "shortest-path-in-a-grid-with-obstacles-elimination",
+    "difficulty": "Hard",
+    "acRate": 46.6
+  },
+  {
+    "title": "Find Edges in Shortest Paths",
+    "slug": "find-edges-in-shortest-paths",
+    "difficulty": "Hard",
+    "acRate": 46.6
+  },
+  {
+    "title": "Word Ladder",
+    "slug": "word-ladder",
+    "difficulty": "Hard",
+    "acRate": 46.3
+  },
+  {
+    "title": "Water and Jug Problem",
+    "slug": "water-and-jug-problem",
+    "difficulty": "Medium",
+    "acRate": 46.2
+  },
+  {
+    "title": "Surrounded Regions",
+    "slug": "surrounded-regions",
+    "difficulty": "Medium",
+    "acRate": 46
+  },
+  {
+    "title": "Maximum Width of Binary Tree",
+    "slug": "maximum-width-of-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 46
+  },
+  {
+    "title": "Minimize Malware Spread II",
+    "slug": "minimize-malware-spread-ii",
+    "difficulty": "Hard",
+    "acRate": 46
+  },
+  {
+    "title": "Operations on Tree",
+    "slug": "operations-on-tree",
+    "difficulty": "Medium",
+    "acRate": 45.8
+  },
+  {
+    "title": "Minimum Operations to Equalize Binary String",
+    "slug": "minimum-operations-to-equalize-binary-string",
+    "difficulty": "Hard",
+    "acRate": 45.1
+  },
+  {
+    "title": "Minimize the Maximum Edge Weight of Graph",
+    "slug": "minimize-the-maximum-edge-weight-of-graph",
+    "difficulty": "Medium",
+    "acRate": 44.7
+  },
+  {
+    "title": "Minimum Jumps to Reach End via Prime Teleportation",
+    "slug": "minimum-jumps-to-reach-end-via-prime-teleportation",
+    "difficulty": "Medium",
+    "acRate": 44.5
+  },
+  {
+    "title": "Validate Binary Tree Nodes",
+    "slug": "validate-binary-tree-nodes",
+    "difficulty": "Medium",
+    "acRate": 44.2
+  },
+  {
+    "title": "Minimize Malware Spread",
+    "slug": "minimize-malware-spread",
+    "difficulty": "Hard",
+    "acRate": 43.4
+  },
+  {
+    "title": "Minimum Height Trees",
+    "slug": "minimum-height-trees",
+    "difficulty": "Medium",
+    "acRate": 42.7
+  },
+  {
+    "title": "Cheapest Flights Within K Stops",
+    "slug": "cheapest-flights-within-k-stops",
+    "difficulty": "Medium",
+    "acRate": 42.4
+  },
+  {
+    "title": "K-Similar Strings",
+    "slug": "k-similar-strings",
+    "difficulty": "Hard",
+    "acRate": 41.2
+  },
+  {
+    "title": "Shortest Cycle in a Graph",
+    "slug": "shortest-cycle-in-a-graph",
+    "difficulty": "Hard",
+    "acRate": 40.4
+  },
+  {
+    "title": "Kth Ancestor of a Tree Node",
+    "slug": "kth-ancestor-of-a-tree-node",
+    "difficulty": "Hard",
+    "acRate": 39.4
+  },
+  {
+    "title": "Minimum Threshold Path With Limited Heavy Edges",
+    "slug": "minimum-threshold-path-with-limited-heavy-edges",
+    "difficulty": "Hard",
+    "acRate": 39.1
+  },
+  {
+    "title": "Escape the Spreading Fire",
+    "slug": "escape-the-spreading-fire",
+    "difficulty": "Hard",
+    "acRate": 39
+  },
+  {
+    "title": "Frog Position After T Seconds",
+    "slug": "frog-position-after-t-seconds",
+    "difficulty": "Hard",
+    "acRate": 38.8
+  },
+  {
+    "title": "Escape a Large Maze",
+    "slug": "escape-a-large-maze",
+    "difficulty": "Hard",
+    "acRate": 37
+  },
+  {
+    "title": "Cut Off Trees for Golf Event",
+    "slug": "cut-off-trees-for-golf-event",
+    "difficulty": "Hard",
+    "acRate": 36.7
+  },
+  {
+    "title": "Redundant Connection II",
+    "slug": "redundant-connection-ii",
+    "difficulty": "Hard",
+    "acRate": 36.5
+  },
+  {
+    "title": "Maximum Number of Moves to Kill All Pawns",
+    "slug": "maximum-number-of-moves-to-kill-all-pawns",
+    "difficulty": "Hard",
+    "acRate": 34
+  },
+  {
+    "title": "Minimum Time to Break Locks I",
+    "slug": "minimum-time-to-break-locks-i",
+    "difficulty": "Medium",
+    "acRate": 33
+  },
+  {
+    "title": "Maximum Partition Factor",
+    "slug": "maximum-partition-factor",
+    "difficulty": "Hard",
+    "acRate": 32.3
+  },
+  {
+    "title": "Minimum Jumps to Reach Home",
+    "slug": "minimum-jumps-to-reach-home",
+    "difficulty": "Medium",
+    "acRate": 31
+  },
+  {
+    "title": "Zuma Game",
+    "slug": "zuma-game",
+    "difficulty": "Hard",
+    "acRate": 29.4
+  },
+  {
+    "title": "Disconnect Path in a Binary Matrix by at Most One Flip",
+    "slug": "disconnect-path-in-a-binary-matrix-by-at-most-one-flip",
+    "difficulty": "Medium",
+    "acRate": 28.1
+  },
+  {
+    "title": "Word Ladder II",
+    "slug": "word-ladder-ii",
+    "difficulty": "Hard",
+    "acRate": 27.9
+  },
+  {
+    "title": "Minimum Moves to Clean the Classroom",
+    "slug": "minimum-moves-to-clean-the-classroom",
+    "difficulty": "Medium",
+    "acRate": 27.1
+  },
+  {
+    "title": "Check if the Rectangle Corner Is Reachable",
+    "slug": "check-if-the-rectangle-corner-is-reachable",
+    "difficulty": "Hard",
+    "acRate": 25.2
+  },
+  {
+    "title": "Minimum Number of Visited Cells in a Grid",
+    "slug": "minimum-number-of-visited-cells-in-a-grid",
+    "difficulty": "Hard",
+    "acRate": 24.1
+  },
+  {
+    "title": "Grid Teleportation Traversal",
+    "slug": "grid-teleportation-traversal",
+    "difficulty": "Medium",
+    "acRate": 23.8
+  },
+  {
+    "title": "Minimum Reverse Operations",
+    "slug": "minimum-reverse-operations",
+    "difficulty": "Hard",
+    "acRate": 17.3
+  }
+]

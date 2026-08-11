@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Find the Duplicate Number",
+    "slug": "find-the-duplicate-number",
+    "difficulty": "Medium",
+    "acRate": 64.7
+  },
+  {
+    "title": "Happy Number",
+    "slug": "happy-number",
+    "difficulty": "Easy",
+    "acRate": 60.1
+  },
+  {
+    "title": "Linked List Cycle II",
+    "slug": "linked-list-cycle-ii",
+    "difficulty": "Medium",
+    "acRate": 58.8
+  },
+  {
+    "title": "Linked List Cycle",
+    "slug": "linked-list-cycle",
+    "difficulty": "Easy",
+    "acRate": 54.9
+  },
+  {
+    "title": "Prison Cells After N Days",
+    "slug": "prison-cells-after-n-days",
+    "difficulty": "Medium",
+    "acRate": 39.3
+  },
+  {
+    "title": "Circular Array Loop",
+    "slug": "circular-array-loop",
+    "difficulty": "Medium",
+    "acRate": 38.1
+  }
+]

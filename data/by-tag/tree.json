@@ -1,0 +1,1190 @@
+[
+  {
+    "title": "Binary Search Tree to Greater Sum Tree",
+    "slug": "binary-search-tree-to-greater-sum-tree",
+    "difficulty": "Medium",
+    "acRate": 88.4
+  },
+  {
+    "title": "Range Sum of BST",
+    "slug": "range-sum-of-bst",
+    "difficulty": "Easy",
+    "acRate": 87.6
+  },
+  {
+    "title": "Count Nodes Equal to Average of Subtree",
+    "slug": "count-nodes-equal-to-average-of-subtree",
+    "difficulty": "Medium",
+    "acRate": 86.8
+  },
+  {
+    "title": "Reverse Odd Levels of Binary Tree",
+    "slug": "reverse-odd-levels-of-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 86.7
+  },
+  {
+    "title": "Deepest Leaves Sum",
+    "slug": "deepest-leaves-sum",
+    "difficulty": "Medium",
+    "acRate": 86.6
+  },
+  {
+    "title": "Maximum Binary Tree",
+    "slug": "maximum-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 86.4
+  },
+  {
+    "title": "Balance a Binary Search Tree",
+    "slug": "balance-a-binary-search-tree",
+    "difficulty": "Medium",
+    "acRate": 86.3
+  },
+  {
+    "title": "Sum of Nodes with Even-Valued Grandparent",
+    "slug": "sum-of-nodes-with-even-valued-grandparent",
+    "difficulty": "Medium",
+    "acRate": 86
+  },
+  {
+    "title": "Find a Corresponding Node of a Binary Tree in a Clone of That Tree",
+    "slug": "find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree",
+    "difficulty": "Easy",
+    "acRate": 85.8
+  },
+  {
+    "title": "Root Equals Sum of Children",
+    "slug": "root-equals-sum-of-children",
+    "difficulty": "Easy",
+    "acRate": 85.1
+  },
+  {
+    "title": "Construct Binary Search Tree from Preorder Traversal",
+    "slug": "construct-binary-search-tree-from-preorder-traversal",
+    "difficulty": "Medium",
+    "acRate": 84.5
+  },
+  {
+    "title": "Find Elements in a Contaminated Binary Tree",
+    "slug": "find-elements-in-a-contaminated-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 84.2
+  },
+  {
+    "title": "Create Binary Tree From Descriptions",
+    "slug": "create-binary-tree-from-descriptions",
+    "difficulty": "Medium",
+    "acRate": 83.9
+  },
+  {
+    "title": "Recover a Tree From Preorder Traversal",
+    "slug": "recover-a-tree-from-preorder-traversal",
+    "difficulty": "Hard",
+    "acRate": 83.2
+  },
+  {
+    "title": "Search in a Binary Search Tree",
+    "slug": "search-in-a-binary-search-tree",
+    "difficulty": "Easy",
+    "acRate": 83
+  },
+  {
+    "title": "All Possible Full Binary Trees",
+    "slug": "all-possible-full-binary-trees",
+    "difficulty": "Medium",
+    "acRate": 82.8
+  },
+  {
+    "title": "Evaluate Boolean Binary Tree",
+    "slug": "evaluate-boolean-binary-tree",
+    "difficulty": "Easy",
+    "acRate": 82.4
+  },
+  {
+    "title": "N-ary Tree Postorder Traversal",
+    "slug": "n-ary-tree-postorder-traversal",
+    "difficulty": "Easy",
+    "acRate": 81.2
+  },
+  {
+    "title": "Binary Tree Inorder Traversal",
+    "slug": "binary-tree-inorder-traversal",
+    "difficulty": "Easy",
+    "acRate": 80.5
+  },
+  {
+    "title": "All Elements in Two Binary Search Trees",
+    "slug": "all-elements-in-two-binary-search-trees",
+    "difficulty": "Medium",
+    "acRate": 80.4
+  },
+  {
+    "title": "Invert Binary Tree",
+    "slug": "invert-binary-tree",
+    "difficulty": "Easy",
+    "acRate": 80.3
+  },
+  {
+    "title": "Lowest Common Ancestor of Deepest Leaves",
+    "slug": "lowest-common-ancestor-of-deepest-leaves",
+    "difficulty": "Medium",
+    "acRate": 79.5
+  },
+  {
+    "title": "Merge Two Binary Trees",
+    "slug": "merge-two-binary-trees",
+    "difficulty": "Easy",
+    "acRate": 79.1
+  },
+  {
+    "title": "Increasing Order Search Tree",
+    "slug": "increasing-order-search-tree",
+    "difficulty": "Easy",
+    "acRate": 79.1
+  },
+  {
+    "title": "Binary Tree Postorder Traversal",
+    "slug": "binary-tree-postorder-traversal",
+    "difficulty": "Easy",
+    "acRate": 78.8
+  },
+  {
+    "title": "Construct Quad Tree",
+    "slug": "construct-quad-tree",
+    "difficulty": "Medium",
+    "acRate": 78.6
+  },
+  {
+    "title": "Maximum Depth of Binary Tree",
+    "slug": "maximum-depth-of-binary-tree",
+    "difficulty": "Easy",
+    "acRate": 78.5
+  },
+  {
+    "title": "Maximum Difference Between Node and Ancestor",
+    "slug": "maximum-difference-between-node-and-ancestor",
+    "difficulty": "Medium",
+    "acRate": 78.2
+  },
+  {
+    "title": "Construct Binary Tree from Preorder and Postorder Traversal",
+    "slug": "construct-binary-tree-from-preorder-and-postorder-traversal",
+    "difficulty": "Medium",
+    "acRate": 78.1
+  },
+  {
+    "title": "Smallest Subtree with all the Deepest Nodes",
+    "slug": "smallest-subtree-with-all-the-deepest-nodes",
+    "difficulty": "Medium",
+    "acRate": 77.7
+  },
+  {
+    "title": "Distribute Coins in Binary Tree",
+    "slug": "distribute-coins-in-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 77.3
+  },
+  {
+    "title": "Kth Smallest Element in a BST",
+    "slug": "kth-smallest-element-in-a-bst",
+    "difficulty": "Medium",
+    "acRate": 77.2
+  },
+  {
+    "title": "Delete Leaves With a Given Value",
+    "slug": "delete-leaves-with-a-given-value",
+    "difficulty": "Medium",
+    "acRate": 77.2
+  },
+  {
+    "title": "Binary Search Tree Iterator",
+    "slug": "binary-search-tree-iterator",
+    "difficulty": "Medium",
+    "acRate": 76.9
+  },
+  {
+    "title": "N-ary Tree Preorder Traversal",
+    "slug": "n-ary-tree-preorder-traversal",
+    "difficulty": "Easy",
+    "acRate": 76.9
+  },
+  {
+    "title": "Sum of Root To Leaf Binary Numbers",
+    "slug": "sum-of-root-to-leaf-binary-numbers",
+    "difficulty": "Easy",
+    "acRate": 76.7
+  },
+  {
+    "title": "Binary Tree Preorder Traversal",
+    "slug": "binary-tree-preorder-traversal",
+    "difficulty": "Easy",
+    "acRate": 76.4
+  },
+  {
+    "title": "Convert Sorted Array to Binary Search Tree",
+    "slug": "convert-sorted-array-to-binary-search-tree",
+    "difficulty": "Easy",
+    "acRate": 76
+  },
+  {
+    "title": "Minimum Score After Removals on a Tree",
+    "slug": "minimum-score-after-removals-on-a-tree",
+    "difficulty": "Hard",
+    "acRate": 76
+  },
+  {
+    "title": "Cousins in Binary Tree II",
+    "slug": "cousins-in-binary-tree-ii",
+    "difficulty": "Medium",
+    "acRate": 76
+  },
+  {
+    "title": "Path In Zigzag Labelled Binary Tree",
+    "slug": "path-in-zigzag-labelled-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 75.8
+  },
+  {
+    "title": "Average of Levels in Binary Tree",
+    "slug": "average-of-levels-in-binary-tree",
+    "difficulty": "Easy",
+    "acRate": 75.1
+  },
+  {
+    "title": "Minimum Number of Operations to Sort a Binary Tree by Level",
+    "slug": "minimum-number-of-operations-to-sort-a-binary-tree-by-level",
+    "difficulty": "Medium",
+    "acRate": 74.2
+  },
+  {
+    "title": "Maximum Number of K-Divisible Components",
+    "slug": "maximum-number-of-k-divisible-components",
+    "difficulty": "Hard",
+    "acRate": 74
+  },
+  {
+    "title": "Count Good Nodes in Binary Tree",
+    "slug": "count-good-nodes-in-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 73.9
+  },
+  {
+    "title": "Maximum Depth of N-ary Tree",
+    "slug": "maximum-depth-of-n-ary-tree",
+    "difficulty": "Easy",
+    "acRate": 73.7
+  },
+  {
+    "title": "Insert into a Binary Search Tree",
+    "slug": "insert-into-a-binary-search-tree",
+    "difficulty": "Medium",
+    "acRate": 73.6
+  },
+  {
+    "title": "Binary Tree Level Order Traversal",
+    "slug": "binary-tree-level-order-traversal",
+    "difficulty": "Medium",
+    "acRate": 73.3
+  },
+  {
+    "title": "Univalued Binary Tree",
+    "slug": "univalued-binary-tree",
+    "difficulty": "Easy",
+    "acRate": 73.3
+  },
+  {
+    "title": "Maximize the Number of Target Nodes After Connecting Trees II",
+    "slug": "maximize-the-number-of-target-nodes-after-connecting-trees-ii",
+    "difficulty": "Hard",
+    "acRate": 73.1
+  },
+  {
+    "title": "Count Complete Tree Nodes",
+    "slug": "count-complete-tree-nodes",
+    "difficulty": "Medium",
+    "acRate": 72.9
+  },
+  {
+    "title": "Binary Tree Pruning",
+    "slug": "binary-tree-pruning",
+    "difficulty": "Medium",
+    "acRate": 72.6
+  },
+  {
+    "title": "Find Bottom Left Tree Value",
+    "slug": "find-bottom-left-tree-value",
+    "difficulty": "Medium",
+    "acRate": 72.5
+  },
+  {
+    "title": "Delete Nodes And Return Forest",
+    "slug": "delete-nodes-and-return-forest",
+    "difficulty": "Medium",
+    "acRate": 72.5
+  },
+  {
+    "title": "Number of Ways to Assign Edge Weights II",
+    "slug": "number-of-ways-to-assign-edge-weights-ii",
+    "difficulty": "Hard",
+    "acRate": 71.9
+  },
+  {
+    "title": "Convert BST to Greater Tree",
+    "slug": "convert-bst-to-greater-tree",
+    "difficulty": "Medium",
+    "acRate": 71.8
+  },
+  {
+    "title": "Number of Good Leaf Nodes Pairs",
+    "slug": "number-of-good-leaf-nodes-pairs",
+    "difficulty": "Medium",
+    "acRate": 71.8
+  },
+  {
+    "title": "N-ary Tree Level Order Traversal",
+    "slug": "n-ary-tree-level-order-traversal",
+    "difficulty": "Medium",
+    "acRate": 71.6
+  },
+  {
+    "title": "Flatten Binary Tree to Linked List",
+    "slug": "flatten-binary-tree-to-linked-list",
+    "difficulty": "Medium",
+    "acRate": 71.3
+  },
+  {
+    "title": "Lowest Common Ancestor of a Binary Search Tree",
+    "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+    "difficulty": "Medium",
+    "acRate": 71.2
+  },
+  {
+    "title": "Maximum Subgraph Score in a Tree",
+    "slug": "maximum-subgraph-score-in-a-tree",
+    "difficulty": "Hard",
+    "acRate": 71.1
+  },
+  {
+    "title": "Binary Tree Right Side View",
+    "slug": "binary-tree-right-side-view",
+    "difficulty": "Medium",
+    "acRate": 70.9
+  },
+  {
+    "title": "Construct String from Binary Tree",
+    "slug": "construct-string-from-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 70.9
+  },
+  {
+    "title": "Maximum Binary Tree II",
+    "slug": "maximum-binary-tree-ii",
+    "difficulty": "Medium",
+    "acRate": 70.8
+  },
+  {
+    "title": "Sum Root to Leaf Numbers",
+    "slug": "sum-root-to-leaf-numbers",
+    "difficulty": "Medium",
+    "acRate": 70.3
+  },
+  {
+    "title": "Leaf-Similar Trees",
+    "slug": "leaf-similar-trees",
+    "difficulty": "Easy",
+    "acRate": 70.3
+  },
+  {
+    "title": "Maximum Level Sum of a Binary Tree",
+    "slug": "maximum-level-sum-of-a-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 70
+  },
+  {
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "slug": "lowest-common-ancestor-of-a-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 69.9
+  },
+  {
+    "title": "Employee Importance",
+    "slug": "employee-importance",
+    "difficulty": "Medium",
+    "acRate": 69.7
+  },
+  {
+    "title": "Most Frequent Subtree Sum",
+    "slug": "most-frequent-subtree-sum",
+    "difficulty": "Medium",
+    "acRate": 69.6
+  },
+  {
+    "title": "Flip Equivalent Binary Trees",
+    "slug": "flip-equivalent-binary-trees",
+    "difficulty": "Medium",
+    "acRate": 69.5
+  },
+  {
+    "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+    "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+    "difficulty": "Medium",
+    "acRate": 69.4
+  },
+  {
+    "title": "Construct Binary Tree from Inorder and Postorder Traversal",
+    "slug": "construct-binary-tree-from-inorder-and-postorder-traversal",
+    "difficulty": "Medium",
+    "acRate": 69.4
+  },
+  {
+    "title": "Find the Maximum Sum of Node Values",
+    "slug": "find-the-maximum-sum-of-node-values",
+    "difficulty": "Hard",
+    "acRate": 69.4
+  },
+  {
+    "title": "Maximize the Number of Target Nodes After Connecting Trees I",
+    "slug": "maximize-the-number-of-target-nodes-after-connecting-trees-i",
+    "difficulty": "Medium",
+    "acRate": 69.4
+  },
+  {
+    "title": "Binary Tree Paths",
+    "slug": "binary-tree-paths",
+    "difficulty": "Easy",
+    "acRate": 69.1
+  },
+  {
+    "title": "Binary Tree Level Order Traversal II",
+    "slug": "binary-tree-level-order-traversal-ii",
+    "difficulty": "Medium",
+    "acRate": 68.8
+  },
+  {
+    "title": "Pseudo-Palindromic Paths in a Binary Tree",
+    "slug": "pseudo-palindromic-paths-in-a-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 68.4
+  },
+  {
+    "title": "All Nodes Distance K in Binary Tree",
+    "slug": "all-nodes-distance-k-in-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 68
+  },
+  {
+    "title": "Throne Inheritance",
+    "slug": "throne-inheritance",
+    "difficulty": "Medium",
+    "acRate": 67.8
+  },
+  {
+    "title": "Same Tree",
+    "slug": "same-tree",
+    "difficulty": "Easy",
+    "acRate": 67.7
+  },
+  {
+    "title": "Populating Next Right Pointers in Each Node",
+    "slug": "populating-next-right-pointers-in-each-node",
+    "difficulty": "Medium",
+    "acRate": 67.6
+  },
+  {
+    "title": "Count Subtrees With Max Distance Between Cities",
+    "slug": "count-subtrees-with-max-distance-between-cities",
+    "difficulty": "Hard",
+    "acRate": 67.5
+  },
+  {
+    "title": "Longest ZigZag Path in a Binary Tree",
+    "slug": "longest-zigzag-path-in-a-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 67.3
+  },
+  {
+    "title": "Even Odd Tree",
+    "slug": "even-odd-tree",
+    "difficulty": "Medium",
+    "acRate": 67.3
+  },
+  {
+    "title": "Most Profitable Path in a Tree",
+    "slug": "most-profitable-path-in-a-tree",
+    "difficulty": "Medium",
+    "acRate": 67.3
+  },
+  {
+    "title": "Convert Sorted List to Binary Search Tree",
+    "slug": "convert-sorted-list-to-binary-search-tree",
+    "difficulty": "Medium",
+    "acRate": 67.2
+  },
+  {
+    "title": "Print Binary Tree",
+    "slug": "print-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 66.8
+  },
+  {
+    "title": "Trim a Binary Search Tree",
+    "slug": "trim-a-binary-search-tree",
+    "difficulty": "Medium",
+    "acRate": 66.8
+  },
+  {
+    "title": "Find Largest Value in Each Tree Row",
+    "slug": "find-largest-value-in-each-tree-row",
+    "difficulty": "Medium",
+    "acRate": 66.4
+  },
+  {
+    "title": "Binary Tree Tilt",
+    "slug": "binary-tree-tilt",
+    "difficulty": "Easy",
+    "acRate": 66.3
+  },
+  {
+    "title": "Diameter of Binary Tree",
+    "slug": "diameter-of-binary-tree",
+    "difficulty": "Easy",
+    "acRate": 66.1
+  },
+  {
+    "title": "Flatten Nested List Iterator",
+    "slug": "flatten-nested-list-iterator",
+    "difficulty": "Medium",
+    "acRate": 65.8
+  },
+  {
+    "title": "Amount of Time for Binary Tree to Be Infected",
+    "slug": "amount-of-time-for-binary-tree-to-be-infected",
+    "difficulty": "Medium",
+    "acRate": 65.8
+  },
+  {
+    "title": "Sum of Distances in Tree",
+    "slug": "sum-of-distances-in-tree",
+    "difficulty": "Hard",
+    "acRate": 65.7
+  },
+  {
+    "title": "Minimum Edge Toggles on a Tree",
+    "slug": "minimum-edge-toggles-on-a-tree",
+    "difficulty": "Hard",
+    "acRate": 65.6
+  },
+  {
+    "title": "Minimum Fuel Cost to Report to the Capital",
+    "slug": "minimum-fuel-cost-to-report-to-the-capital",
+    "difficulty": "Medium",
+    "acRate": 65.4
+  },
+  {
+    "title": "Complete Binary Tree Inserter",
+    "slug": "complete-binary-tree-inserter",
+    "difficulty": "Medium",
+    "acRate": 65.2
+  },
+  {
+    "title": "Binary Tree Zigzag Level Order Traversal",
+    "slug": "binary-tree-zigzag-level-order-traversal",
+    "difficulty": "Medium",
+    "acRate": 64.3
+  },
+  {
+    "title": "Add One Row to Tree",
+    "slug": "add-one-row-to-tree",
+    "difficulty": "Medium",
+    "acRate": 64.2
+  },
+  {
+    "title": "Unique Binary Search Trees",
+    "slug": "unique-binary-search-trees",
+    "difficulty": "Medium",
+    "acRate": 64.1
+  },
+  {
+    "title": "Number of Ways to Assign Edge Weights I",
+    "slug": "number-of-ways-to-assign-edge-weights-i",
+    "difficulty": "Medium",
+    "acRate": 64
+  },
+  {
+    "title": "Minimum Time to Collect All Apples in a Tree",
+    "slug": "minimum-time-to-collect-all-apples-in-a-tree",
+    "difficulty": "Medium",
+    "acRate": 63.8
+  },
+  {
+    "title": "Two Sum IV - Input is a BST",
+    "slug": "two-sum-iv-input-is-a-bst",
+    "difficulty": "Easy",
+    "acRate": 63.6
+  },
+  {
+    "title": "Unique Binary Search Trees II",
+    "slug": "unique-binary-search-trees-ii",
+    "difficulty": "Medium",
+    "acRate": 63.1
+  },
+  {
+    "title": "Sum of Left Leaves",
+    "slug": "sum-of-left-leaves",
+    "difficulty": "Easy",
+    "acRate": 63
+  },
+  {
+    "title": "Path Sum II",
+    "slug": "path-sum-ii",
+    "difficulty": "Medium",
+    "acRate": 62.7
+  },
+  {
+    "title": "K-th Largest Perfect Subtree Size in Binary Tree",
+    "slug": "k-th-largest-perfect-subtree-size-in-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 62.5
+  },
+  {
+    "title": "Symmetric Tree",
+    "slug": "symmetric-tree",
+    "difficulty": "Easy",
+    "acRate": 61.8
+  },
+  {
+    "title": "Minimum Distance Between BST Nodes",
+    "slug": "minimum-distance-between-bst-nodes",
+    "difficulty": "Easy",
+    "acRate": 61.7
+  },
+  {
+    "title": "Kth Largest Element in a Stream",
+    "slug": "kth-largest-element-in-a-stream",
+    "difficulty": "Easy",
+    "acRate": 61.5
+  },
+  {
+    "title": "Smallest String Starting From Leaf",
+    "slug": "smallest-string-starting-from-leaf",
+    "difficulty": "Medium",
+    "acRate": 61.4
+  },
+  {
+    "title": "Serialize and Deserialize Binary Tree",
+    "slug": "serialize-and-deserialize-binary-tree",
+    "difficulty": "Hard",
+    "acRate": 61.1
+  },
+  {
+    "title": "Find Duplicate Subtrees",
+    "slug": "find-duplicate-subtrees",
+    "difficulty": "Medium",
+    "acRate": 60.8
+  },
+  {
+    "title": "Cycle Length Queries in a Tree",
+    "slug": "cycle-length-queries-in-a-tree",
+    "difficulty": "Hard",
+    "acRate": 60.8
+  },
+  {
+    "title": "Reachable Nodes With Restrictions",
+    "slug": "reachable-nodes-with-restrictions",
+    "difficulty": "Medium",
+    "acRate": 60.7
+  },
+  {
+    "title": "Recover Binary Search Tree",
+    "slug": "recover-binary-search-tree",
+    "difficulty": "Medium",
+    "acRate": 60.6
+  },
+  {
+    "title": "Time Needed to Inform All Employees",
+    "slug": "time-needed-to-inform-all-employees",
+    "difficulty": "Medium",
+    "acRate": 60.6
+  },
+  {
+    "title": "Serialize and Deserialize BST",
+    "slug": "serialize-and-deserialize-bst",
+    "difficulty": "Medium",
+    "acRate": 59.9
+  },
+  {
+    "title": "Minimum Absolute Difference in BST",
+    "slug": "minimum-absolute-difference-in-bst",
+    "difficulty": "Easy",
+    "acRate": 59.7
+  },
+  {
+    "title": "Cousins in Binary Tree",
+    "slug": "cousins-in-binary-tree",
+    "difficulty": "Easy",
+    "acRate": 59.7
+  },
+  {
+    "title": "Check Completeness of a Binary Tree",
+    "slug": "check-completeness-of-a-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 59.4
+  },
+  {
+    "title": "Find Mode in Binary Search Tree",
+    "slug": "find-mode-in-binary-search-tree",
+    "difficulty": "Easy",
+    "acRate": 59.2
+  },
+  {
+    "title": "Balanced Binary Tree",
+    "slug": "balanced-binary-tree",
+    "difficulty": "Easy",
+    "acRate": 59
+  },
+  {
+    "title": "Kth Largest Sum in a Binary Tree",
+    "slug": "kth-largest-sum-in-a-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 59
+  },
+  {
+    "title": "Make Costs of Paths Equal in a Binary Tree",
+    "slug": "make-costs-of-paths-equal-in-a-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 59
+  },
+  {
+    "title": "Populating Next Right Pointers in Each Node II",
+    "slug": "populating-next-right-pointers-in-each-node-ii",
+    "difficulty": "Medium",
+    "acRate": 58
+  },
+  {
+    "title": "Pythagorean Distance Nodes in a Tree",
+    "slug": "pythagorean-distance-nodes-in-a-tree",
+    "difficulty": "Medium",
+    "acRate": 58
+  },
+  {
+    "title": "Find Minimum Diameter After Merging Two Trees",
+    "slug": "find-minimum-diameter-after-merging-two-trees",
+    "difficulty": "Hard",
+    "acRate": 57
+  },
+  {
+    "title": "Step-By-Step Directions From a Binary Tree Node to Another",
+    "slug": "step-by-step-directions-from-a-binary-tree-node-to-another",
+    "difficulty": "Medium",
+    "acRate": 56.5
+  },
+  {
+    "title": "Number of Good Paths",
+    "slug": "number-of-good-paths",
+    "difficulty": "Hard",
+    "acRate": 56.5
+  },
+  {
+    "title": "Count Pairs of Connectable Servers in a Weighted Tree Network",
+    "slug": "count-pairs-of-connectable-servers-in-a-weighted-tree-network",
+    "difficulty": "Medium",
+    "acRate": 56.5
+  },
+  {
+    "title": "Maximum Profit from Trading Stocks with Discounts",
+    "slug": "maximum-profit-from-trading-stocks-with-discounts",
+    "difficulty": "Hard",
+    "acRate": 56.5
+  },
+  {
+    "title": "House Robber III",
+    "slug": "house-robber-iii",
+    "difficulty": "Medium",
+    "acRate": 56.2
+  },
+  {
+    "title": "Maximum Product of Splitted Binary Tree",
+    "slug": "maximum-product-of-splitted-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 55.8
+  },
+  {
+    "title": "Number of Nodes in the Sub-Tree With the Same Label",
+    "slug": "number-of-nodes-in-the-sub-tree-with-the-same-label",
+    "difficulty": "Medium",
+    "acRate": 55.6
+  },
+  {
+    "title": "Path Sum",
+    "slug": "path-sum",
+    "difficulty": "Easy",
+    "acRate": 55.5
+  },
+  {
+    "title": "Insufficient Nodes in Root to Leaf Paths",
+    "slug": "insufficient-nodes-in-root-to-leaf-paths",
+    "difficulty": "Medium",
+    "acRate": 55.5
+  },
+  {
+    "title": "Delete Node in a BST",
+    "slug": "delete-node-in-a-bst",
+    "difficulty": "Medium",
+    "acRate": 55.2
+  },
+  {
+    "title": "Count the Number of Good Nodes",
+    "slug": "count-the-number-of-good-nodes",
+    "difficulty": "Medium",
+    "acRate": 55
+  },
+  {
+    "title": "Height of Binary Tree After Subtree Removal Queries",
+    "slug": "height-of-binary-tree-after-subtree-removal-queries",
+    "difficulty": "Hard",
+    "acRate": 54.9
+  },
+  {
+    "title": "Total Sum of Interaction Cost in Tree Groups",
+    "slug": "total-sum-of-interaction-cost-in-tree-groups",
+    "difficulty": "Hard",
+    "acRate": 54.6
+  },
+  {
+    "title": "Vertical Order Traversal of a Binary Tree",
+    "slug": "vertical-order-traversal-of-a-binary-tree",
+    "difficulty": "Hard",
+    "acRate": 54.5
+  },
+  {
+    "title": "Number of Ways to Reorder Array to Get Same BST",
+    "slug": "number-of-ways-to-reorder-array-to-get-same-bst",
+    "difficulty": "Hard",
+    "acRate": 54.2
+  },
+  {
+    "title": "Longest Path With Different Adjacent Characters",
+    "slug": "longest-path-with-different-adjacent-characters",
+    "difficulty": "Hard",
+    "acRate": 54
+  },
+  {
+    "title": "Create Components With Same Value",
+    "slug": "create-components-with-same-value",
+    "difficulty": "Hard",
+    "acRate": 54
+  },
+  {
+    "title": "Minimum Depth of Binary Tree",
+    "slug": "minimum-depth-of-binary-tree",
+    "difficulty": "Easy",
+    "acRate": 53.5
+  },
+  {
+    "title": "Logical OR of Two Binary Grids Represented as Quad-Trees",
+    "slug": "logical-or-of-two-binary-grids-represented-as-quad-trees",
+    "difficulty": "Medium",
+    "acRate": 53.2
+  },
+  {
+    "title": "Binary Tree Coloring Game",
+    "slug": "binary-tree-coloring-game",
+    "difficulty": "Medium",
+    "acRate": 53.1
+  },
+  {
+    "title": "Count Nodes With the Highest Score",
+    "slug": "count-nodes-with-the-highest-score",
+    "difficulty": "Medium",
+    "acRate": 52.8
+  },
+  {
+    "title": "Find Subtree Sizes After Changes",
+    "slug": "find-subtree-sizes-after-changes",
+    "difficulty": "Medium",
+    "acRate": 52.8
+  },
+  {
+    "title": "Flip Binary Tree To Match Preorder Traversal",
+    "slug": "flip-binary-tree-to-match-preorder-traversal",
+    "difficulty": "Medium",
+    "acRate": 52.1
+  },
+  {
+    "title": "Subtree of Another Tree",
+    "slug": "subtree-of-another-tree",
+    "difficulty": "Easy",
+    "acRate": 52
+  },
+  {
+    "title": "Linked List in Binary Tree",
+    "slug": "linked-list-in-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 52
+  },
+  {
+    "title": "Count Paths That Can Form a Palindrome in a Tree",
+    "slug": "count-paths-that-can-form-a-palindrome-in-a-tree",
+    "difficulty": "Hard",
+    "acRate": 52
+  },
+  {
+    "title": "Count Ways to Build Rooms in an Ant Colony",
+    "slug": "count-ways-to-build-rooms-in-an-ant-colony",
+    "difficulty": "Hard",
+    "acRate": 51.9
+  },
+  {
+    "title": "Count Non Adjacent Subsets in a Rooted Tree",
+    "slug": "count-non-adjacent-subsets-in-a-rooted-tree",
+    "difficulty": "Hard",
+    "acRate": 51.8
+  },
+  {
+    "title": "Count Number of Possible Root Nodes",
+    "slug": "count-number-of-possible-root-nodes",
+    "difficulty": "Hard",
+    "acRate": 48.9
+  },
+  {
+    "title": "Maximum Sum BST in Binary Tree",
+    "slug": "maximum-sum-bst-in-binary-tree",
+    "difficulty": "Hard",
+    "acRate": 48.6
+  },
+  {
+    "title": "Smallest Missing Genetic Value in Each Subtree",
+    "slug": "smallest-missing-genetic-value-in-each-subtree",
+    "difficulty": "Hard",
+    "acRate": 48.3
+  },
+  {
+    "title": "Minimize the Total Price of the Trips",
+    "slug": "minimize-the-total-price-of-the-trips",
+    "difficulty": "Hard",
+    "acRate": 48.2
+  },
+  {
+    "title": "Binary Tree Cameras",
+    "slug": "binary-tree-cameras",
+    "difficulty": "Hard",
+    "acRate": 48.1
+  },
+  {
+    "title": "Verify Preorder Serialization of a Binary Tree",
+    "slug": "verify-preorder-serialization-of-a-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 47.7
+  },
+  {
+    "title": "Maximum Score After Applying Operations on a Tree",
+    "slug": "maximum-score-after-applying-operations-on-a-tree",
+    "difficulty": "Medium",
+    "acRate": 47.6
+  },
+  {
+    "title": "Minimum Weighted Subgraph With the Required Paths II",
+    "slug": "minimum-weighted-subgraph-with-the-required-paths-ii",
+    "difficulty": "Hard",
+    "acRate": 47.6
+  },
+  {
+    "title": "Minimum Edge Weight Equilibrium Queries in a Tree",
+    "slug": "minimum-edge-weight-equilibrium-queries-in-a-tree",
+    "difficulty": "Hard",
+    "acRate": 47.5
+  },
+  {
+    "title": "Path Sum III",
+    "slug": "path-sum-iii",
+    "difficulty": "Medium",
+    "acRate": 46.6
+  },
+  {
+    "title": "Second Minimum Node In a Binary Tree",
+    "slug": "second-minimum-node-in-a-binary-tree",
+    "difficulty": "Easy",
+    "acRate": 46.3
+  },
+  {
+    "title": "Number Of Ways To Reconstruct A Tree",
+    "slug": "number-of-ways-to-reconstruct-a-tree",
+    "difficulty": "Hard",
+    "acRate": 46.2
+  },
+  {
+    "title": "Maximum Width of Binary Tree",
+    "slug": "maximum-width-of-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 46
+  },
+  {
+    "title": "Operations on Tree",
+    "slug": "operations-on-tree",
+    "difficulty": "Medium",
+    "acRate": 45.8
+  },
+  {
+    "title": "Closest Nodes Queries in a Binary Search Tree",
+    "slug": "closest-nodes-queries-in-a-binary-search-tree",
+    "difficulty": "Medium",
+    "acRate": 44.8
+  },
+  {
+    "title": "Tree of Coprimes",
+    "slug": "tree-of-coprimes",
+    "difficulty": "Hard",
+    "acRate": 44.7
+  },
+  {
+    "title": "Longest Univalue Path",
+    "slug": "longest-univalue-path",
+    "difficulty": "Medium",
+    "acRate": 44.3
+  },
+  {
+    "title": "Validate Binary Tree Nodes",
+    "slug": "validate-binary-tree-nodes",
+    "difficulty": "Medium",
+    "acRate": 44.2
+  },
+  {
+    "title": "Maximum Good Subtree Score",
+    "slug": "maximum-good-subtree-score",
+    "difficulty": "Hard",
+    "acRate": 44.1
+  },
+  {
+    "title": "Binary Tree Maximum Path Sum",
+    "slug": "binary-tree-maximum-path-sum",
+    "difficulty": "Hard",
+    "acRate": 42.6
+  },
+  {
+    "title": "Sum of Perfect Square Ancestors",
+    "slug": "sum-of-perfect-square-ancestors",
+    "difficulty": "Hard",
+    "acRate": 42.6
+  },
+  {
+    "title": "Subtree Inversion Sum",
+    "slug": "subtree-inversion-sum",
+    "difficulty": "Hard",
+    "acRate": 41.6
+  },
+  {
+    "title": "Shortest Path in a Weighted Tree",
+    "slug": "shortest-path-in-a-weighted-tree",
+    "difficulty": "Hard",
+    "acRate": 41.5
+  },
+  {
+    "title": "Minimum Increments to Equalize Leaf Paths",
+    "slug": "minimum-increments-to-equalize-leaf-paths",
+    "difficulty": "Medium",
+    "acRate": 40.9
+  },
+  {
+    "title": "Collect Coins in a Tree",
+    "slug": "collect-coins-in-a-tree",
+    "difficulty": "Hard",
+    "acRate": 39.7
+  },
+  {
+    "title": "Merge BSTs to Create Single BST",
+    "slug": "merge-bsts-to-create-single-bst",
+    "difficulty": "Hard",
+    "acRate": 39.6
+  },
+  {
+    "title": "Kth Ancestor of a Tree Node",
+    "slug": "kth-ancestor-of-a-tree-node",
+    "difficulty": "Hard",
+    "acRate": 39.4
+  },
+  {
+    "title": "Frog Position After T Seconds",
+    "slug": "frog-position-after-t-seconds",
+    "difficulty": "Hard",
+    "acRate": 38.8
+  },
+  {
+    "title": "Find Number of Coins to Place in Tree Nodes",
+    "slug": "find-number-of-coins-to-place-in-tree-nodes",
+    "difficulty": "Hard",
+    "acRate": 37.2
+  },
+  {
+    "title": "Palindromic Path Queries in a Tree",
+    "slug": "palindromic-path-queries-in-a-tree",
+    "difficulty": "Hard",
+    "acRate": 37.2
+  },
+  {
+    "title": "Count Valid Paths in a Tree",
+    "slug": "count-valid-paths-in-a-tree",
+    "difficulty": "Hard",
+    "acRate": 37
+  },
+  {
+    "title": "Maximum Points After Collecting Coins From All Nodes",
+    "slug": "maximum-points-after-collecting-coins-from-all-nodes",
+    "difficulty": "Hard",
+    "acRate": 36.6
+  },
+  {
+    "title": "Validate Binary Search Tree",
+    "slug": "validate-binary-search-tree",
+    "difficulty": "Medium",
+    "acRate": 36.2
+  },
+  {
+    "title": "Difference Between Maximum and Minimum Price Sum",
+    "slug": "difference-between-maximum-and-minimum-price-sum",
+    "difficulty": "Hard",
+    "acRate": 34.1
+  },
+  {
+    "title": "Maximize Sum of Weights after Edge Removals",
+    "slug": "maximize-sum-of-weights-after-edge-removals",
+    "difficulty": "Hard",
+    "acRate": 32.6
+  },
+  {
+    "title": "Time Taken to Mark All Nodes",
+    "slug": "time-taken-to-mark-all-nodes",
+    "difficulty": "Hard",
+    "acRate": 29.1
+  },
+  {
+    "title": "Kth Smallest Path XOR Sum",
+    "slug": "kth-smallest-path-xor-sum",
+    "difficulty": "Hard",
+    "acRate": 29.1
+  },
+  {
+    "title": "Find Weighted Median Node in Tree",
+    "slug": "find-weighted-median-node-in-tree",
+    "difficulty": "Hard",
+    "acRate": 26.4
+  },
+  {
+    "title": "Longest Special Path",
+    "slug": "longest-special-path",
+    "difficulty": "Hard",
+    "acRate": 22.9
+  },
+  {
+    "title": "Check if DFS Strings Are Palindromes",
+    "slug": "check-if-dfs-strings-are-palindromes",
+    "difficulty": "Hard",
+    "acRate": 20.8
+  },
+  {
+    "title": "Longest Special Path II",
+    "slug": "longest-special-path-ii",
+    "difficulty": "Hard",
+    "acRate": 19.2
+  }
+]

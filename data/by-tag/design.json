@@ -1,0 +1,596 @@
+[
+  {
+    "title": "Design Parking System",
+    "slug": "design-parking-system",
+    "difficulty": "Easy",
+    "acRate": 87.2
+  },
+  {
+    "title": "Encode and Decode TinyURL",
+    "slug": "encode-and-decode-tinyurl",
+    "difficulty": "Medium",
+    "acRate": 86.6
+  },
+  {
+    "title": "Subrectangle Queries",
+    "slug": "subrectangle-queries",
+    "difficulty": "Medium",
+    "acRate": 86.4
+  },
+  {
+    "title": "Find Elements in a Contaminated Binary Tree",
+    "slug": "find-elements-in-a-contaminated-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 84.2
+  },
+  {
+    "title": "Design an Ordered Stream",
+    "slug": "design-an-ordered-stream",
+    "difficulty": "Easy",
+    "acRate": 82.7
+  },
+  {
+    "title": "Design a Stack With Increment Operation",
+    "slug": "design-a-stack-with-increment-operation",
+    "difficulty": "Medium",
+    "acRate": 79.9
+  },
+  {
+    "title": "Number of Recent Calls",
+    "slug": "number-of-recent-calls",
+    "difficulty": "Easy",
+    "acRate": 78.9
+  },
+  {
+    "title": "Design Browser History",
+    "slug": "design-browser-history",
+    "difficulty": "Medium",
+    "acRate": 78.4
+  },
+  {
+    "title": "Binary Search Tree Iterator",
+    "slug": "binary-search-tree-iterator",
+    "difficulty": "Medium",
+    "acRate": 76.9
+  },
+  {
+    "title": "Design Neighbor Sum Service",
+    "slug": "design-neighbor-sum-service",
+    "difficulty": "Easy",
+    "acRate": 76
+  },
+  {
+    "title": "Design Underground System",
+    "slug": "design-underground-system",
+    "difficulty": "Medium",
+    "acRate": 74.6
+  },
+  {
+    "title": "Design Spreadsheet",
+    "slug": "design-spreadsheet",
+    "difficulty": "Medium",
+    "acRate": 73.5
+  },
+  {
+    "title": "Range Sum Query - Immutable",
+    "slug": "range-sum-query-immutable",
+    "difficulty": "Easy",
+    "acRate": 73.1
+  },
+  {
+    "title": "Iterator for Combination",
+    "slug": "iterator-for-combination",
+    "difficulty": "Medium",
+    "acRate": 72.7
+  },
+  {
+    "title": "My Calendar III",
+    "slug": "my-calendar-iii",
+    "difficulty": "Hard",
+    "acRate": 72.1
+  },
+  {
+    "title": "Smallest Number in Infinite Set",
+    "slug": "smallest-number-in-infinite-set",
+    "difficulty": "Medium",
+    "acRate": 70.7
+  },
+  {
+    "title": "Implement Stack using Queues",
+    "slug": "implement-stack-using-queues",
+    "difficulty": "Easy",
+    "acRate": 70.5
+  },
+  {
+    "title": "Implement Queue using Stacks",
+    "slug": "implement-queue-using-stacks",
+    "difficulty": "Easy",
+    "acRate": 70.2
+  },
+  {
+    "title": "Implement Trie (Prefix Tree)",
+    "slug": "implement-trie-prefix-tree",
+    "difficulty": "Medium",
+    "acRate": 69.9
+  },
+  {
+    "title": "Online Stock Span",
+    "slug": "online-stock-span",
+    "difficulty": "Medium",
+    "acRate": 69.6
+  },
+  {
+    "title": "Simple Bank System",
+    "slug": "simple-bank-system",
+    "difficulty": "Medium",
+    "acRate": 69.6
+  },
+  {
+    "title": "Design HashSet",
+    "slug": "design-hashset",
+    "difficulty": "Easy",
+    "acRate": 68.4
+  },
+  {
+    "title": "Throne Inheritance",
+    "slug": "throne-inheritance",
+    "difficulty": "Medium",
+    "acRate": 67.8
+  },
+  {
+    "title": "Seat Reservation Manager",
+    "slug": "seat-reservation-manager",
+    "difficulty": "Medium",
+    "acRate": 67.4
+  },
+  {
+    "title": "Maximum Frequency Stack",
+    "slug": "maximum-frequency-stack",
+    "difficulty": "Hard",
+    "acRate": 67
+  },
+  {
+    "title": "Design HashMap",
+    "slug": "design-hashmap",
+    "difficulty": "Easy",
+    "acRate": 66.8
+  },
+  {
+    "title": "Apply Discount Every n Orders",
+    "slug": "apply-discount-every-n-orders",
+    "difficulty": "Medium",
+    "acRate": 65.9
+  },
+  {
+    "title": "Flatten Nested List Iterator",
+    "slug": "flatten-nested-list-iterator",
+    "difficulty": "Medium",
+    "acRate": 65.8
+  },
+  {
+    "title": "Design Graph With Shortest Path Calculator",
+    "slug": "design-graph-with-shortest-path-calculator",
+    "difficulty": "Hard",
+    "acRate": 65.5
+  },
+  {
+    "title": "Complete Binary Tree Inserter",
+    "slug": "complete-binary-tree-inserter",
+    "difficulty": "Medium",
+    "acRate": 65.2
+  },
+  {
+    "title": "Design Circular Deque",
+    "slug": "design-circular-deque",
+    "difficulty": "Medium",
+    "acRate": 64.9
+  },
+  {
+    "title": "Design SQL",
+    "slug": "design-sql",
+    "difficulty": "Medium",
+    "acRate": 63.7
+  },
+  {
+    "title": "My Calendar II",
+    "slug": "my-calendar-ii",
+    "difficulty": "Medium",
+    "acRate": 63.4
+  },
+  {
+    "title": "Design Ride Sharing System",
+    "slug": "design-ride-sharing-system",
+    "difficulty": "Medium",
+    "acRate": 63.4
+  },
+  {
+    "title": "Product of the Last K Numbers",
+    "slug": "product-of-the-last-k-numbers",
+    "difficulty": "Medium",
+    "acRate": 63
+  },
+  {
+    "title": "Design Movie Rental System",
+    "slug": "design-movie-rental-system",
+    "difficulty": "Hard",
+    "acRate": 62.2
+  },
+  {
+    "title": "Peeking Iterator",
+    "slug": "peeking-iterator",
+    "difficulty": "Medium",
+    "acRate": 61.8
+  },
+  {
+    "title": "Kth Largest Element in a Stream",
+    "slug": "kth-largest-element-in-a-stream",
+    "difficulty": "Easy",
+    "acRate": 61.5
+  },
+  {
+    "title": "Finding Pairs With a Certain Sum",
+    "slug": "finding-pairs-with-a-certain-sum",
+    "difficulty": "Medium",
+    "acRate": 61.5
+  },
+  {
+    "title": "Sequentially Ordinal Rank Tracker",
+    "slug": "sequentially-ordinal-rank-tracker",
+    "difficulty": "Hard",
+    "acRate": 61.3
+  },
+  {
+    "title": "Serialize and Deserialize Binary Tree",
+    "slug": "serialize-and-deserialize-binary-tree",
+    "difficulty": "Hard",
+    "acRate": 61.1
+  },
+  {
+    "title": "Data Stream as Disjoint Intervals",
+    "slug": "data-stream-as-disjoint-intervals",
+    "difficulty": "Hard",
+    "acRate": 60.5
+  },
+  {
+    "title": "Shuffle an Array",
+    "slug": "shuffle-an-array",
+    "difficulty": "Medium",
+    "acRate": 59.9
+  },
+  {
+    "title": "Serialize and Deserialize BST",
+    "slug": "serialize-and-deserialize-bst",
+    "difficulty": "Medium",
+    "acRate": 59.9
+  },
+  {
+    "title": "Design Skiplist",
+    "slug": "design-skiplist",
+    "difficulty": "Hard",
+    "acRate": 59.7
+  },
+  {
+    "title": "RLE Iterator",
+    "slug": "rle-iterator",
+    "difficulty": "Medium",
+    "acRate": 59.5
+  },
+  {
+    "title": "Range Sum Query 2D - Immutable",
+    "slug": "range-sum-query-2d-immutable",
+    "difficulty": "Medium",
+    "acRate": 58.8
+  },
+  {
+    "title": "Design Authentication Manager",
+    "slug": "design-authentication-manager",
+    "difficulty": "Medium",
+    "acRate": 58.7
+  },
+  {
+    "title": "Min Stack",
+    "slug": "min-stack",
+    "difficulty": "Medium",
+    "acRate": 58.5
+  },
+  {
+    "title": "My Calendar I",
+    "slug": "my-calendar-i",
+    "difficulty": "Medium",
+    "acRate": 58.4
+  },
+  {
+    "title": "Design Front Middle Back Queue",
+    "slug": "design-front-middle-back-queue",
+    "difficulty": "Medium",
+    "acRate": 58.4
+  },
+  {
+    "title": "Implement Magic Dictionary",
+    "slug": "implement-magic-dictionary",
+    "difficulty": "Medium",
+    "acRate": 58.1
+  },
+  {
+    "title": "Map Sum Pairs",
+    "slug": "map-sum-pairs",
+    "difficulty": "Medium",
+    "acRate": 57.3
+  },
+  {
+    "title": "Design a Number Container System",
+    "slug": "design-a-number-container-system",
+    "difficulty": "Medium",
+    "acRate": 57.1
+  },
+  {
+    "title": "Insert Delete GetRandom O(1)",
+    "slug": "insert-delete-getrandom-o1",
+    "difficulty": "Medium",
+    "acRate": 55.5
+  },
+  {
+    "title": "Longest Uploaded Prefix",
+    "slug": "longest-uploaded-prefix",
+    "difficulty": "Medium",
+    "acRate": 55.4
+  },
+  {
+    "title": "Design Circular Queue",
+    "slug": "design-circular-queue",
+    "difficulty": "Medium",
+    "acRate": 55.2
+  },
+  {
+    "title": "Find Median from Data Stream",
+    "slug": "find-median-from-data-stream",
+    "difficulty": "Hard",
+    "acRate": 54.9
+  },
+  {
+    "title": "Online Election",
+    "slug": "online-election",
+    "difficulty": "Medium",
+    "acRate": 53.1
+  },
+  {
+    "title": "Detect Squares",
+    "slug": "detect-squares",
+    "difficulty": "Medium",
+    "acRate": 52.9
+  },
+  {
+    "title": "Design a Food Rating System",
+    "slug": "design-a-food-rating-system",
+    "difficulty": "Medium",
+    "acRate": 52.9
+  },
+  {
+    "title": "Stream of Characters",
+    "slug": "stream-of-characters",
+    "difficulty": "Hard",
+    "acRate": 52.7
+  },
+  {
+    "title": "Find Consecutive Integers from a Data Stream",
+    "slug": "find-consecutive-integers-from-a-data-stream",
+    "difficulty": "Medium",
+    "acRate": 51.6
+  },
+  {
+    "title": "Design a Text Editor",
+    "slug": "design-a-text-editor",
+    "difficulty": "Hard",
+    "acRate": 51.4
+  },
+  {
+    "title": "Design Event Manager",
+    "slug": "design-event-manager",
+    "difficulty": "Medium",
+    "acRate": 50.9
+  },
+  {
+    "title": "Design Memory Allocator",
+    "slug": "design-memory-allocator",
+    "difficulty": "Medium",
+    "acRate": 50.5
+  },
+  {
+    "title": "Time Based Key-Value Store",
+    "slug": "time-based-key-value-store",
+    "difficulty": "Medium",
+    "acRate": 50.1
+  },
+  {
+    "title": "LFU Cache",
+    "slug": "lfu-cache",
+    "difficulty": "Hard",
+    "acRate": 50
+  },
+  {
+    "title": "Stock Price Fluctuation ",
+    "slug": "stock-price-fluctuation",
+    "difficulty": "Medium",
+    "acRate": 49.2
+  },
+  {
+    "title": "Design Add and Search Words Data Structure",
+    "slug": "design-add-and-search-words-data-structure",
+    "difficulty": "Medium",
+    "acRate": 48.9
+  },
+  {
+    "title": "Design Task Manager",
+    "slug": "design-task-manager",
+    "difficulty": "Medium",
+    "acRate": 48.7
+  },
+  {
+    "title": "LRU Cache",
+    "slug": "lru-cache",
+    "difficulty": "Medium",
+    "acRate": 47.8
+  },
+  {
+    "title": "Tweet Counts Per Frequency",
+    "slug": "tweet-counts-per-frequency",
+    "difficulty": "Medium",
+    "acRate": 46.5
+  },
+  {
+    "title": "Design an ATM Machine",
+    "slug": "design-an-atm-machine",
+    "difficulty": "Medium",
+    "acRate": 45.9
+  },
+  {
+    "title": "Operations on Tree",
+    "slug": "operations-on-tree",
+    "difficulty": "Medium",
+    "acRate": 45.8
+  },
+  {
+    "title": "Range Module",
+    "slug": "range-module",
+    "difficulty": "Hard",
+    "acRate": 45.4
+  },
+  {
+    "title": "Design Twitter",
+    "slug": "design-twitter",
+    "difficulty": "Medium",
+    "acRate": 45.3
+  },
+  {
+    "title": "All O`one Data Structure",
+    "slug": "all-oone-data-structure",
+    "difficulty": "Hard",
+    "acRate": 44.5
+  },
+  {
+    "title": "Design Exam Scores Tracker",
+    "slug": "design-exam-scores-tracker",
+    "difficulty": "Medium",
+    "acRate": 44.4
+  },
+  {
+    "title": "Range Frequency Queries",
+    "slug": "range-frequency-queries",
+    "difficulty": "Medium",
+    "acRate": 44
+  },
+  {
+    "title": "Exam Room",
+    "slug": "exam-room",
+    "difficulty": "Medium",
+    "acRate": 43.7
+  },
+  {
+    "title": "Range Sum Query - Mutable",
+    "slug": "range-sum-query-mutable",
+    "difficulty": "Medium",
+    "acRate": 43.6
+  },
+  {
+    "title": "Walking Robot Simulation II",
+    "slug": "walking-robot-simulation-ii",
+    "difficulty": "Medium",
+    "acRate": 43.1
+  },
+  {
+    "title": "Design Auction System",
+    "slug": "design-auction-system",
+    "difficulty": "Medium",
+    "acRate": 41.9
+  },
+  {
+    "title": "Fancy Sequence",
+    "slug": "fancy-sequence",
+    "difficulty": "Hard",
+    "acRate": 41.6
+  },
+  {
+    "title": "Prefix and Suffix Search",
+    "slug": "prefix-and-suffix-search",
+    "difficulty": "Hard",
+    "acRate": 41.1
+  },
+  {
+    "title": "Online Majority Element In Subarray",
+    "slug": "online-majority-element-in-subarray",
+    "difficulty": "Hard",
+    "acRate": 40.9
+  },
+  {
+    "title": "Kth Ancestor of a Tree Node",
+    "slug": "kth-ancestor-of-a-tree-node",
+    "difficulty": "Hard",
+    "acRate": 39.4
+  },
+  {
+    "title": "Implement Router",
+    "slug": "implement-router",
+    "difficulty": "Medium",
+    "acRate": 39
+  },
+  {
+    "title": "Finding MK Average",
+    "slug": "finding-mk-average",
+    "difficulty": "Hard",
+    "acRate": 38.9
+  },
+  {
+    "title": "Encrypt and Decrypt Strings",
+    "slug": "encrypt-and-decrypt-strings",
+    "difficulty": "Hard",
+    "acRate": 38.7
+  },
+  {
+    "title": "Insert Delete GetRandom O(1) - Duplicates allowed",
+    "slug": "insert-delete-getrandom-o1-duplicates-allowed",
+    "difficulty": "Hard",
+    "acRate": 36.9
+  },
+  {
+    "title": "Snapshot Array",
+    "slug": "snapshot-array",
+    "difficulty": "Medium",
+    "acRate": 36.8
+  },
+  {
+    "title": "Count Integers in Intervals",
+    "slug": "count-integers-in-intervals",
+    "difficulty": "Hard",
+    "acRate": 36.2
+  },
+  {
+    "title": "Dinner Plate Stacks",
+    "slug": "dinner-plate-stacks",
+    "difficulty": "Hard",
+    "acRate": 33.9
+  },
+  {
+    "title": "Design Bitset",
+    "slug": "design-bitset",
+    "difficulty": "Medium",
+    "acRate": 32.9
+  },
+  {
+    "title": "Frequency Tracker",
+    "slug": "frequency-tracker",
+    "difficulty": "Medium",
+    "acRate": 31.5
+  },
+  {
+    "title": "Design Linked List",
+    "slug": "design-linked-list",
+    "difficulty": "Medium",
+    "acRate": 30.7
+  },
+  {
+    "title": "Booking Concert Tickets in Groups",
+    "slug": "booking-concert-tickets-in-groups",
+    "difficulty": "Hard",
+    "acRate": 20
+  }
+]

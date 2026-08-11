@@ -1,0 +1,212 @@
+[
+  {
+    "title": "Queries on a Permutation With Key",
+    "slug": "queries-on-a-permutation-with-key",
+    "difficulty": "Medium",
+    "acRate": 85
+  },
+  {
+    "title": "Queue Reconstruction by Height",
+    "slug": "queue-reconstruction-by-height",
+    "difficulty": "Medium",
+    "acRate": 74.9
+  },
+  {
+    "title": "Count Number of Teams",
+    "slug": "count-number-of-teams",
+    "difficulty": "Medium",
+    "acRate": 70.2
+  },
+  {
+    "title": "Count Good Triplets in an Array",
+    "slug": "count-good-triplets-in-an-array",
+    "difficulty": "Hard",
+    "acRate": 65.3
+  },
+  {
+    "title": "Find the Longest Valid Obstacle Course at Each Position",
+    "slug": "find-the-longest-valid-obstacle-course-at-each-position",
+    "difficulty": "Hard",
+    "acRate": 62.5
+  },
+  {
+    "title": "Number of Integers With Popcount-Depth Equal to K II",
+    "slug": "number-of-integers-with-popcount-depth-equal-to-k-ii",
+    "difficulty": "Hard",
+    "acRate": 58.5
+  },
+  {
+    "title": "Longest Uploaded Prefix",
+    "slug": "longest-uploaded-prefix",
+    "difficulty": "Medium",
+    "acRate": 55.4
+  },
+  {
+    "title": "Minimum Number of Moves to Make Palindrome",
+    "slug": "minimum-number-of-moves-to-make-palindrome",
+    "difficulty": "Hard",
+    "acRate": 53
+  },
+  {
+    "title": "Number of Longest Increasing Subsequence",
+    "slug": "number-of-longest-increasing-subsequence",
+    "difficulty": "Medium",
+    "acRate": 52.5
+  },
+  {
+    "title": "Find Building Where Alice and Bob Can Meet",
+    "slug": "find-building-where-alice-and-bob-can-meet",
+    "difficulty": "Hard",
+    "acRate": 52.5
+  },
+  {
+    "title": "Maximum Area Rectangle With Point Constraints I",
+    "slug": "maximum-area-rectangle-with-point-constraints-i",
+    "difficulty": "Medium",
+    "acRate": 52.3
+  },
+  {
+    "title": "Number of Pairs Satisfying Inequality",
+    "slug": "number-of-pairs-satisfying-inequality",
+    "difficulty": "Hard",
+    "acRate": 47.8
+  },
+  {
+    "title": "The Skyline Problem",
+    "slug": "the-skyline-problem",
+    "difficulty": "Hard",
+    "acRate": 45.8
+  },
+  {
+    "title": "Count of Smaller Numbers After Self",
+    "slug": "count-of-smaller-numbers-after-self",
+    "difficulty": "Hard",
+    "acRate": 43.9
+  },
+  {
+    "title": "Range Sum Query - Mutable",
+    "slug": "range-sum-query-mutable",
+    "difficulty": "Medium",
+    "acRate": 43.6
+  },
+  {
+    "title": "Create Sorted Array through Instructions",
+    "slug": "create-sorted-array-through-instructions",
+    "difficulty": "Hard",
+    "acRate": 42.2
+  },
+  {
+    "title": "Minimum Possible Integer After at Most K Adjacent Swaps On Digits",
+    "slug": "minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits",
+    "difficulty": "Hard",
+    "acRate": 41.8
+  },
+  {
+    "title": "Shortest Path in a Weighted Tree",
+    "slug": "shortest-path-in-a-weighted-tree",
+    "difficulty": "Hard",
+    "acRate": 41.5
+  },
+  {
+    "title": "Block Placement Queries",
+    "slug": "block-placement-queries",
+    "difficulty": "Hard",
+    "acRate": 41.4
+  },
+  {
+    "title": "Online Majority Element In Subarray",
+    "slug": "online-majority-element-in-subarray",
+    "difficulty": "Hard",
+    "acRate": 40.9
+  },
+  {
+    "title": "Count of Range Sum",
+    "slug": "count-of-range-sum",
+    "difficulty": "Hard",
+    "acRate": 39.6
+  },
+  {
+    "title": "Count Number of Rectangles Containing Each Point",
+    "slug": "count-number-of-rectangles-containing-each-point",
+    "difficulty": "Medium",
+    "acRate": 37.9
+  },
+  {
+    "title": "Reverse Pairs",
+    "slug": "reverse-pairs",
+    "difficulty": "Hard",
+    "acRate": 34.9
+  },
+  {
+    "title": "Count Increasing Quadruplets",
+    "slug": "count-increasing-quadruplets",
+    "difficulty": "Hard",
+    "acRate": 34.5
+  },
+  {
+    "title": "Maximum Sum Queries",
+    "slug": "maximum-sum-queries",
+    "difficulty": "Hard",
+    "acRate": 31.2
+  },
+  {
+    "title": "Distribute Elements Into Two Arrays II",
+    "slug": "distribute-elements-into-two-arrays-ii",
+    "difficulty": "Hard",
+    "acRate": 31.2
+  },
+  {
+    "title": "Sum of Beautiful Subsequences",
+    "slug": "sum-of-beautiful-subsequences",
+    "difficulty": "Hard",
+    "acRate": 31
+  },
+  {
+    "title": "Peaks in Array",
+    "slug": "peaks-in-array",
+    "difficulty": "Hard",
+    "acRate": 27.9
+  },
+  {
+    "title": "Make Array Empty",
+    "slug": "make-array-empty",
+    "difficulty": "Hard",
+    "acRate": 27.1
+  },
+  {
+    "title": "Longest Increasing Subsequence II",
+    "slug": "longest-increasing-subsequence-ii",
+    "difficulty": "Hard",
+    "acRate": 26.5
+  },
+  {
+    "title": "Maximum Balanced Subsequence Sum",
+    "slug": "maximum-balanced-subsequence-sum",
+    "difficulty": "Hard",
+    "acRate": 26.1
+  },
+  {
+    "title": "Maximum Area Rectangle With Point Constraints II",
+    "slug": "maximum-area-rectangle-with-point-constraints-ii",
+    "difficulty": "Hard",
+    "acRate": 23.6
+  },
+  {
+    "title": "Subarrays Distinct Element Sum of Squares II",
+    "slug": "subarrays-distinct-element-sum-of-squares-ii",
+    "difficulty": "Hard",
+    "acRate": 23.3
+  },
+  {
+    "title": "Booking Concert Tickets in Groups",
+    "slug": "booking-concert-tickets-in-groups",
+    "difficulty": "Hard",
+    "acRate": 20
+  },
+  {
+    "title": "Alternating Groups III",
+    "slug": "alternating-groups-iii",
+    "difficulty": "Hard",
+    "acRate": 19.7
+  }
+]

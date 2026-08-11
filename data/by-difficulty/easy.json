@@ -1,0 +1,7647 @@
+[
+  {
+    "title": "Two Sum",
+    "slug": "two-sum",
+    "acRate": 58,
+    "tags": [
+      "array",
+      "hash-table"
+    ]
+  },
+  {
+    "title": "Palindrome Number",
+    "slug": "palindrome-number",
+    "acRate": 60.9,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Roman to Integer",
+    "slug": "roman-to-integer",
+    "acRate": 67,
+    "tags": [
+      "hash-table",
+      "math",
+      "string"
+    ]
+  },
+  {
+    "title": "Longest Common Prefix",
+    "slug": "longest-common-prefix",
+    "acRate": 48.2,
+    "tags": [
+      "array",
+      "string",
+      "trie"
+    ]
+  },
+  {
+    "title": "Valid Parentheses",
+    "slug": "valid-parentheses",
+    "acRate": 44.7,
+    "tags": [
+      "string",
+      "stack",
+      "bracket-sequences"
+    ]
+  },
+  {
+    "title": "Merge Two Sorted Lists",
+    "slug": "merge-two-sorted-lists",
+    "acRate": 68.7,
+    "tags": [
+      "linked-list",
+      "recursion"
+    ]
+  },
+  {
+    "title": "Remove Duplicates from Sorted Array",
+    "slug": "remove-duplicates-from-sorted-array",
+    "acRate": 63.5,
+    "tags": [
+      "array",
+      "two-pointers"
+    ]
+  },
+  {
+    "title": "Remove Element",
+    "slug": "remove-element",
+    "acRate": 62.3,
+    "tags": [
+      "array",
+      "two-pointers"
+    ]
+  },
+  {
+    "title": "Find the Index of the First Occurrence in a String",
+    "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+    "acRate": 47.1,
+    "tags": [
+      "two-pointers",
+      "string",
+      "string-matching",
+      "z-algorithm",
+      "knuth-morris-pratt-algorithm",
+      "boyer-moore-string-search-algorithm"
+    ]
+  },
+  {
+    "title": "Search Insert Position",
+    "slug": "search-insert-position",
+    "acRate": 52,
+    "tags": [
+      "array",
+      "binary-search"
+    ]
+  },
+  {
+    "title": "Length of Last Word",
+    "slug": "length-of-last-word",
+    "acRate": 59.5,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Plus One",
+    "slug": "plus-one",
+    "acRate": 50.4,
+    "tags": [
+      "array",
+      "math"
+    ]
+  },
+  {
+    "title": "Add Binary",
+    "slug": "add-binary",
+    "acRate": 58.5,
+    "tags": [
+      "math",
+      "string",
+      "bit-manipulation",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Sqrt(x)",
+    "slug": "sqrtx",
+    "acRate": 42.2,
+    "tags": [
+      "math",
+      "binary-search",
+      "newtons-method"
+    ]
+  },
+  {
+    "title": "Climbing Stairs",
+    "slug": "climbing-stairs",
+    "acRate": 54.3,
+    "tags": [
+      "math",
+      "dynamic-programming",
+      "memoization"
+    ]
+  },
+  {
+    "title": "Remove Duplicates from Sorted List",
+    "slug": "remove-duplicates-from-sorted-list",
+    "acRate": 57.3,
+    "tags": [
+      "linked-list"
+    ]
+  },
+  {
+    "title": "Merge Sorted Array",
+    "slug": "merge-sorted-array",
+    "acRate": 55.5,
+    "tags": [
+      "array",
+      "two-pointers",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Binary Tree Inorder Traversal",
+    "slug": "binary-tree-inorder-traversal",
+    "acRate": 80.5,
+    "tags": [
+      "stack",
+      "tree",
+      "depth-first-search",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Same Tree",
+    "slug": "same-tree",
+    "acRate": 67.7,
+    "tags": [
+      "tree",
+      "depth-first-search",
+      "breadth-first-search",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Symmetric Tree",
+    "slug": "symmetric-tree",
+    "acRate": 61.8,
+    "tags": [
+      "tree",
+      "depth-first-search",
+      "breadth-first-search",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Maximum Depth of Binary Tree",
+    "slug": "maximum-depth-of-binary-tree",
+    "acRate": 78.5,
+    "tags": [
+      "tree",
+      "depth-first-search",
+      "breadth-first-search",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Convert Sorted Array to Binary Search Tree",
+    "slug": "convert-sorted-array-to-binary-search-tree",
+    "acRate": 76,
+    "tags": [
+      "array",
+      "divide-and-conquer",
+      "tree",
+      "binary-search-tree",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Balanced Binary Tree",
+    "slug": "balanced-binary-tree",
+    "acRate": 59,
+    "tags": [
+      "tree",
+      "depth-first-search",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Minimum Depth of Binary Tree",
+    "slug": "minimum-depth-of-binary-tree",
+    "acRate": 53.5,
+    "tags": [
+      "tree",
+      "depth-first-search",
+      "breadth-first-search",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Path Sum",
+    "slug": "path-sum",
+    "acRate": 55.5,
+    "tags": [
+      "tree",
+      "depth-first-search",
+      "breadth-first-search",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Pascal's Triangle",
+    "slug": "pascals-triangle",
+    "acRate": 79.3,
+    "tags": [
+      "array",
+      "dynamic-programming"
+    ]
+  },
+  {
+    "title": "Pascal's Triangle II",
+    "slug": "pascals-triangle-ii",
+    "acRate": 67.9,
+    "tags": [
+      "array",
+      "dynamic-programming"
+    ]
+  },
+  {
+    "title": "Best Time to Buy and Sell Stock",
+    "slug": "best-time-to-buy-and-sell-stock",
+    "acRate": 57.2,
+    "tags": [
+      "array",
+      "dynamic-programming"
+    ]
+  },
+  {
+    "title": "Valid Palindrome",
+    "slug": "valid-palindrome",
+    "acRate": 54,
+    "tags": [
+      "two-pointers",
+      "string"
+    ]
+  },
+  {
+    "title": "Single Number",
+    "slug": "single-number",
+    "acRate": 78.1,
+    "tags": [
+      "array",
+      "bit-manipulation"
+    ]
+  },
+  {
+    "title": "Linked List Cycle",
+    "slug": "linked-list-cycle",
+    "acRate": 54.9,
+    "tags": [
+      "hash-table",
+      "linked-list",
+      "two-pointers",
+      "floyds-cycle-finding-algorithm"
+    ]
+  },
+  {
+    "title": "Binary Tree Preorder Traversal",
+    "slug": "binary-tree-preorder-traversal",
+    "acRate": 76.4,
+    "tags": [
+      "stack",
+      "tree",
+      "depth-first-search",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Binary Tree Postorder Traversal",
+    "slug": "binary-tree-postorder-traversal",
+    "acRate": 78.8,
+    "tags": [
+      "stack",
+      "tree",
+      "depth-first-search",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Intersection of Two Linked Lists",
+    "slug": "intersection-of-two-linked-lists",
+    "acRate": 64.4,
+    "tags": [
+      "hash-table",
+      "linked-list",
+      "two-pointers"
+    ]
+  },
+  {
+    "title": "Excel Sheet Column Title",
+    "slug": "excel-sheet-column-title",
+    "acRate": 47.3,
+    "tags": [
+      "math",
+      "string"
+    ]
+  },
+  {
+    "title": "Majority Element",
+    "slug": "majority-element",
+    "acRate": 66.5,
+    "tags": [
+      "array",
+      "hash-table",
+      "divide-and-conquer",
+      "sorting",
+      "counting",
+      "boyer-moore-majority-vote-algorithm"
+    ]
+  },
+  {
+    "title": "Excel Sheet Column Number",
+    "slug": "excel-sheet-column-number",
+    "acRate": 68.2,
+    "tags": [
+      "math",
+      "string"
+    ]
+  },
+  {
+    "title": "Combine Two Tables",
+    "slug": "combine-two-tables",
+    "acRate": 79.9,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Employees Earning More Than Their Managers",
+    "slug": "employees-earning-more-than-their-managers",
+    "acRate": 73.7,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Duplicate Emails",
+    "slug": "duplicate-emails",
+    "acRate": 74.2,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Customers Who Never Order",
+    "slug": "customers-who-never-order",
+    "acRate": 72.2,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Reverse Bits",
+    "slug": "reverse-bits",
+    "acRate": 69.1,
+    "tags": [
+      "divide-and-conquer",
+      "bit-manipulation"
+    ]
+  },
+  {
+    "title": "Number of 1 Bits",
+    "slug": "number-of-1-bits",
+    "acRate": 77.3,
+    "tags": [
+      "divide-and-conquer",
+      "bit-manipulation"
+    ]
+  },
+  {
+    "title": "Valid Phone Numbers",
+    "slug": "valid-phone-numbers",
+    "acRate": 30.5,
+    "tags": [
+      "shell"
+    ]
+  },
+  {
+    "title": "Tenth Line",
+    "slug": "tenth-line",
+    "acRate": 37.4,
+    "tags": [
+      "shell"
+    ]
+  },
+  {
+    "title": "Delete Duplicate Emails",
+    "slug": "delete-duplicate-emails",
+    "acRate": 66.5,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Rising Temperature",
+    "slug": "rising-temperature",
+    "acRate": 51.9,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Happy Number",
+    "slug": "happy-number",
+    "acRate": 60.1,
+    "tags": [
+      "hash-table",
+      "math",
+      "two-pointers",
+      "floyds-cycle-finding-algorithm"
+    ]
+  },
+  {
+    "title": "Remove Linked List Elements",
+    "slug": "remove-linked-list-elements",
+    "acRate": 55.2,
+    "tags": [
+      "linked-list",
+      "recursion"
+    ]
+  },
+  {
+    "title": "Isomorphic Strings",
+    "slug": "isomorphic-strings",
+    "acRate": 48.9,
+    "tags": [
+      "hash-table",
+      "string"
+    ]
+  },
+  {
+    "title": "Reverse Linked List",
+    "slug": "reverse-linked-list",
+    "acRate": 80.9,
+    "tags": [
+      "linked-list",
+      "recursion"
+    ]
+  },
+  {
+    "title": "Contains Duplicate",
+    "slug": "contains-duplicate",
+    "acRate": 64.6,
+    "tags": [
+      "array",
+      "hash-table",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Contains Duplicate II",
+    "slug": "contains-duplicate-ii",
+    "acRate": 51.8,
+    "tags": [
+      "array",
+      "hash-table",
+      "sliding-window"
+    ]
+  },
+  {
+    "title": "Implement Stack using Queues",
+    "slug": "implement-stack-using-queues",
+    "acRate": 70.5,
+    "tags": [
+      "stack",
+      "design",
+      "queue"
+    ]
+  },
+  {
+    "title": "Invert Binary Tree",
+    "slug": "invert-binary-tree",
+    "acRate": 80.3,
+    "tags": [
+      "tree",
+      "depth-first-search",
+      "breadth-first-search",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Summary Ranges",
+    "slug": "summary-ranges",
+    "acRate": 54.6,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Power of Two",
+    "slug": "power-of-two",
+    "acRate": 50.4,
+    "tags": [
+      "math",
+      "bit-manipulation",
+      "recursion"
+    ]
+  },
+  {
+    "title": "Implement Queue using Stacks",
+    "slug": "implement-queue-using-stacks",
+    "acRate": 70.2,
+    "tags": [
+      "stack",
+      "design",
+      "queue"
+    ]
+  },
+  {
+    "title": "Palindrome Linked List",
+    "slug": "palindrome-linked-list",
+    "acRate": 58.6,
+    "tags": [
+      "linked-list",
+      "two-pointers",
+      "stack",
+      "recursion"
+    ]
+  },
+  {
+    "title": "Valid Anagram",
+    "slug": "valid-anagram",
+    "acRate": 68.5,
+    "tags": [
+      "hash-table",
+      "string",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Binary Tree Paths",
+    "slug": "binary-tree-paths",
+    "acRate": 69.1,
+    "tags": [
+      "string",
+      "backtracking",
+      "tree",
+      "depth-first-search",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Add Digits",
+    "slug": "add-digits",
+    "acRate": 69.2,
+    "tags": [
+      "math",
+      "simulation",
+      "number-theory"
+    ]
+  },
+  {
+    "title": "Ugly Number",
+    "slug": "ugly-number",
+    "acRate": 44,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Missing Number",
+    "slug": "missing-number",
+    "acRate": 72.5,
+    "tags": [
+      "array",
+      "hash-table",
+      "math",
+      "binary-search",
+      "bit-manipulation",
+      "sorting"
+    ]
+  },
+  {
+    "title": "First Bad Version",
+    "slug": "first-bad-version",
+    "acRate": 47.5,
+    "tags": [
+      "binary-search",
+      "interactive"
+    ]
+  },
+  {
+    "title": "Move Zeroes",
+    "slug": "move-zeroes",
+    "acRate": 64.2,
+    "tags": [
+      "array",
+      "two-pointers"
+    ]
+  },
+  {
+    "title": "Word Pattern",
+    "slug": "word-pattern",
+    "acRate": 44.5,
+    "tags": [
+      "hash-table",
+      "string"
+    ]
+  },
+  {
+    "title": "Nim Game",
+    "slug": "nim-game",
+    "acRate": 60.3,
+    "tags": [
+      "math",
+      "brainteaser",
+      "minimax-algorithm",
+      "game-theory",
+      "nim-game",
+      "impartial-game"
+    ]
+  },
+  {
+    "title": "Range Sum Query - Immutable",
+    "slug": "range-sum-query-immutable",
+    "acRate": 73.1,
+    "tags": [
+      "array",
+      "design",
+      "prefix-sum"
+    ]
+  },
+  {
+    "title": "Power of Three",
+    "slug": "power-of-three",
+    "acRate": 51.4,
+    "tags": [
+      "math",
+      "recursion"
+    ]
+  },
+  {
+    "title": "Counting Bits",
+    "slug": "counting-bits",
+    "acRate": 80.8,
+    "tags": [
+      "dynamic-programming",
+      "bit-manipulation"
+    ]
+  },
+  {
+    "title": "Power of Four",
+    "slug": "power-of-four",
+    "acRate": 52.5,
+    "tags": [
+      "math",
+      "bit-manipulation",
+      "recursion"
+    ]
+  },
+  {
+    "title": "Reverse String",
+    "slug": "reverse-string",
+    "acRate": 81.2,
+    "tags": [
+      "two-pointers",
+      "string"
+    ]
+  },
+  {
+    "title": "Reverse Vowels of a String",
+    "slug": "reverse-vowels-of-a-string",
+    "acRate": 62,
+    "tags": [
+      "two-pointers",
+      "string"
+    ]
+  },
+  {
+    "title": "Intersection of Two Arrays",
+    "slug": "intersection-of-two-arrays",
+    "acRate": 78.2,
+    "tags": [
+      "array",
+      "hash-table",
+      "two-pointers",
+      "binary-search",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Intersection of Two Arrays II",
+    "slug": "intersection-of-two-arrays-ii",
+    "acRate": 60.2,
+    "tags": [
+      "array",
+      "hash-table",
+      "two-pointers",
+      "binary-search",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Valid Perfect Square",
+    "slug": "valid-perfect-square",
+    "acRate": 45.1,
+    "tags": [
+      "math",
+      "binary-search"
+    ]
+  },
+  {
+    "title": "Guess Number Higher or Lower",
+    "slug": "guess-number-higher-or-lower",
+    "acRate": 58.1,
+    "tags": [
+      "binary-search",
+      "interactive"
+    ]
+  },
+  {
+    "title": "Ransom Note",
+    "slug": "ransom-note",
+    "acRate": 66.3,
+    "tags": [
+      "hash-table",
+      "string",
+      "counting"
+    ]
+  },
+  {
+    "title": "First Unique Character in a String",
+    "slug": "first-unique-character-in-a-string",
+    "acRate": 66.1,
+    "tags": [
+      "hash-table",
+      "string",
+      "queue",
+      "counting"
+    ]
+  },
+  {
+    "title": "Find the Difference",
+    "slug": "find-the-difference",
+    "acRate": 60.6,
+    "tags": [
+      "hash-table",
+      "string",
+      "bit-manipulation",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Is Subsequence",
+    "slug": "is-subsequence",
+    "acRate": 49.3,
+    "tags": [
+      "two-pointers",
+      "string",
+      "dynamic-programming"
+    ]
+  },
+  {
+    "title": "Binary Watch",
+    "slug": "binary-watch",
+    "acRate": 66.1,
+    "tags": [
+      "backtracking",
+      "bit-manipulation"
+    ]
+  },
+  {
+    "title": "Sum of Left Leaves",
+    "slug": "sum-of-left-leaves",
+    "acRate": 63,
+    "tags": [
+      "tree",
+      "depth-first-search",
+      "breadth-first-search",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Convert a Number to Hexadecimal",
+    "slug": "convert-a-number-to-hexadecimal",
+    "acRate": 54.7,
+    "tags": [
+      "math",
+      "string",
+      "bit-manipulation"
+    ]
+  },
+  {
+    "title": "Longest Palindrome",
+    "slug": "longest-palindrome",
+    "acRate": 56.2,
+    "tags": [
+      "hash-table",
+      "string",
+      "greedy"
+    ]
+  },
+  {
+    "title": "Fizz Buzz",
+    "slug": "fizz-buzz",
+    "acRate": 75.8,
+    "tags": [
+      "math",
+      "string",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Third Maximum Number",
+    "slug": "third-maximum-number",
+    "acRate": 40.1,
+    "tags": [
+      "array",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Add Strings",
+    "slug": "add-strings",
+    "acRate": 52.2,
+    "tags": [
+      "math",
+      "string",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Number of Segments in a String",
+    "slug": "number-of-segments-in-a-string",
+    "acRate": 37.6,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Arranging Coins",
+    "slug": "arranging-coins",
+    "acRate": 48.5,
+    "tags": [
+      "math",
+      "binary-search"
+    ]
+  },
+  {
+    "title": "Find All Numbers Disappeared in an Array",
+    "slug": "find-all-numbers-disappeared-in-an-array",
+    "acRate": 64.5,
+    "tags": [
+      "array",
+      "hash-table"
+    ]
+  },
+  {
+    "title": "Assign Cookies",
+    "slug": "assign-cookies",
+    "acRate": 55.4,
+    "tags": [
+      "array",
+      "two-pointers",
+      "greedy",
+      "sorting",
+      "quicksort"
+    ]
+  },
+  {
+    "title": "Repeated Substring Pattern",
+    "slug": "repeated-substring-pattern",
+    "acRate": 48.6,
+    "tags": [
+      "string",
+      "string-matching",
+      "z-algorithm",
+      "knuth-morris-pratt-algorithm"
+    ]
+  },
+  {
+    "title": "Hamming Distance",
+    "slug": "hamming-distance",
+    "acRate": 77,
+    "tags": [
+      "bit-manipulation"
+    ]
+  },
+  {
+    "title": "Island Perimeter",
+    "slug": "island-perimeter",
+    "acRate": 74.3,
+    "tags": [
+      "array",
+      "depth-first-search",
+      "breadth-first-search",
+      "matrix"
+    ]
+  },
+  {
+    "title": "Number Complement",
+    "slug": "number-complement",
+    "acRate": 70.5,
+    "tags": [
+      "bit-manipulation"
+    ]
+  },
+  {
+    "title": "License Key Formatting",
+    "slug": "license-key-formatting",
+    "acRate": 46.4,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Max Consecutive Ones",
+    "slug": "max-consecutive-ones",
+    "acRate": 65.9,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Construct the Rectangle",
+    "slug": "construct-the-rectangle",
+    "acRate": 64.8,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Teemo Attacking",
+    "slug": "teemo-attacking",
+    "acRate": 58,
+    "tags": [
+      "array",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Next Greater Element I",
+    "slug": "next-greater-element-i",
+    "acRate": 76.7,
+    "tags": [
+      "array",
+      "hash-table",
+      "stack",
+      "monotonic-stack"
+    ]
+  },
+  {
+    "title": "Keyboard Row",
+    "slug": "keyboard-row",
+    "acRate": 74.3,
+    "tags": [
+      "array",
+      "hash-table",
+      "string"
+    ]
+  },
+  {
+    "title": "Find Mode in Binary Search Tree",
+    "slug": "find-mode-in-binary-search-tree",
+    "acRate": 59.2,
+    "tags": [
+      "tree",
+      "depth-first-search",
+      "binary-search-tree",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Base 7",
+    "slug": "base-7",
+    "acRate": 55.1,
+    "tags": [
+      "math",
+      "string"
+    ]
+  },
+  {
+    "title": "Relative Ranks",
+    "slug": "relative-ranks",
+    "acRate": 75.1,
+    "tags": [
+      "array",
+      "sorting",
+      "heap-priority-queue"
+    ]
+  },
+  {
+    "title": "Perfect Number",
+    "slug": "perfect-number",
+    "acRate": 49.8,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Fibonacci Number",
+    "slug": "fibonacci-number",
+    "acRate": 74.5,
+    "tags": [
+      "math",
+      "dynamic-programming",
+      "recursion",
+      "memoization"
+    ]
+  },
+  {
+    "title": "Game Play Analysis I",
+    "slug": "game-play-analysis-i",
+    "acRate": 76.6,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Detect Capital",
+    "slug": "detect-capital",
+    "acRate": 56.9,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Longest Uncommon Subsequence I",
+    "slug": "longest-uncommon-subsequence-i",
+    "acRate": 62.5,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Minimum Absolute Difference in BST",
+    "slug": "minimum-absolute-difference-in-bst",
+    "acRate": 59.7,
+    "tags": [
+      "tree",
+      "depth-first-search",
+      "breadth-first-search",
+      "binary-search-tree",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Reverse String II",
+    "slug": "reverse-string-ii",
+    "acRate": 54.3,
+    "tags": [
+      "two-pointers",
+      "string"
+    ]
+  },
+  {
+    "title": "Diameter of Binary Tree",
+    "slug": "diameter-of-binary-tree",
+    "acRate": 66.1,
+    "tags": [
+      "tree",
+      "depth-first-search",
+      "binary-tree",
+      "dp-on-trees"
+    ]
+  },
+  {
+    "title": "Student Attendance Record I",
+    "slug": "student-attendance-record-i",
+    "acRate": 50.4,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Reverse Words in a String III",
+    "slug": "reverse-words-in-a-string-iii",
+    "acRate": 84.1,
+    "tags": [
+      "two-pointers",
+      "string"
+    ]
+  },
+  {
+    "title": "Maximum Depth of N-ary Tree",
+    "slug": "maximum-depth-of-n-ary-tree",
+    "acRate": 73.7,
+    "tags": [
+      "tree",
+      "depth-first-search",
+      "breadth-first-search"
+    ]
+  },
+  {
+    "title": "Array Partition",
+    "slug": "array-partition",
+    "acRate": 82.1,
+    "tags": [
+      "array",
+      "greedy",
+      "sorting",
+      "counting-sort"
+    ]
+  },
+  {
+    "title": "Binary Tree Tilt",
+    "slug": "binary-tree-tilt",
+    "acRate": 66.3,
+    "tags": [
+      "tree",
+      "depth-first-search",
+      "binary-tree",
+      "dp-on-trees"
+    ]
+  },
+  {
+    "title": "Reshape the Matrix",
+    "slug": "reshape-the-matrix",
+    "acRate": 65.4,
+    "tags": [
+      "array",
+      "matrix",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Subtree of Another Tree",
+    "slug": "subtree-of-another-tree",
+    "acRate": 52,
+    "tags": [
+      "tree",
+      "depth-first-search",
+      "string-matching",
+      "binary-tree",
+      "hash-function"
+    ]
+  },
+  {
+    "title": "Distribute Candies",
+    "slug": "distribute-candies",
+    "acRate": 71.5,
+    "tags": [
+      "array",
+      "hash-table"
+    ]
+  },
+  {
+    "title": "Employee Bonus",
+    "slug": "employee-bonus",
+    "acRate": 77.9,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Find Customer Referee",
+    "slug": "find-customer-referee",
+    "acRate": 73.3,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Customer Placing the Largest Number of Orders",
+    "slug": "customer-placing-the-largest-number-of-orders",
+    "acRate": 64.6,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "N-ary Tree Preorder Traversal",
+    "slug": "n-ary-tree-preorder-traversal",
+    "acRate": 76.9,
+    "tags": [
+      "stack",
+      "tree",
+      "depth-first-search"
+    ]
+  },
+  {
+    "title": "N-ary Tree Postorder Traversal",
+    "slug": "n-ary-tree-postorder-traversal",
+    "acRate": 81.2,
+    "tags": [
+      "stack",
+      "tree",
+      "depth-first-search"
+    ]
+  },
+  {
+    "title": "Longest Harmonious Subsequence",
+    "slug": "longest-harmonious-subsequence",
+    "acRate": 65,
+    "tags": [
+      "array",
+      "hash-table",
+      "sliding-window",
+      "sorting",
+      "counting"
+    ]
+  },
+  {
+    "title": "Big Countries",
+    "slug": "big-countries",
+    "acRate": 68.7,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Classes With at Least 5 Students",
+    "slug": "classes-with-at-least-5-students",
+    "acRate": 64.6,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Range Addition II",
+    "slug": "range-addition-ii",
+    "acRate": 59.1,
+    "tags": [
+      "array",
+      "math"
+    ]
+  },
+  {
+    "title": "Minimum Index Sum of Two Lists",
+    "slug": "minimum-index-sum-of-two-lists",
+    "acRate": 60.3,
+    "tags": [
+      "array",
+      "hash-table",
+      "string"
+    ]
+  },
+  {
+    "title": "Can Place Flowers",
+    "slug": "can-place-flowers",
+    "acRate": 29.3,
+    "tags": [
+      "array",
+      "greedy"
+    ]
+  },
+  {
+    "title": "Sales Person",
+    "slug": "sales-person",
+    "acRate": 66.3,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Triangle Judgement",
+    "slug": "triangle-judgement",
+    "acRate": 75.1,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Merge Two Binary Trees",
+    "slug": "merge-two-binary-trees",
+    "acRate": 79.1,
+    "tags": [
+      "tree",
+      "depth-first-search",
+      "breadth-first-search",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Biggest Single Number",
+    "slug": "biggest-single-number",
+    "acRate": 71.9,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Not Boring Movies",
+    "slug": "not-boring-movies",
+    "acRate": 75.2,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Swap Sex of Employees",
+    "slug": "swap-sex-of-employees",
+    "acRate": 84.8,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Maximum Product of Three Numbers",
+    "slug": "maximum-product-of-three-numbers",
+    "acRate": 48.2,
+    "tags": [
+      "array",
+      "math",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Average of Levels in Binary Tree",
+    "slug": "average-of-levels-in-binary-tree",
+    "acRate": 75.1,
+    "tags": [
+      "tree",
+      "depth-first-search",
+      "breadth-first-search",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Maximum Average Subarray I",
+    "slug": "maximum-average-subarray-i",
+    "acRate": 48.8,
+    "tags": [
+      "array",
+      "sliding-window"
+    ]
+  },
+  {
+    "title": "Set Mismatch",
+    "slug": "set-mismatch",
+    "acRate": 43.4,
+    "tags": [
+      "array",
+      "hash-table",
+      "bit-manipulation",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Two Sum IV - Input is a BST",
+    "slug": "two-sum-iv-input-is-a-bst",
+    "acRate": 63.6,
+    "tags": [
+      "hash-table",
+      "two-pointers",
+      "tree",
+      "depth-first-search",
+      "breadth-first-search",
+      "binary-search-tree",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Robot Return to Origin",
+    "slug": "robot-return-to-origin",
+    "acRate": 78.2,
+    "tags": [
+      "string",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Image Smoother",
+    "slug": "image-smoother",
+    "acRate": 69.5,
+    "tags": [
+      "array",
+      "matrix"
+    ]
+  },
+  {
+    "title": "Second Minimum Node In a Binary Tree",
+    "slug": "second-minimum-node-in-a-binary-tree",
+    "acRate": 46.3,
+    "tags": [
+      "tree",
+      "depth-first-search",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Longest Continuous Increasing Subsequence",
+    "slug": "longest-continuous-increasing-subsequence",
+    "acRate": 52.3,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Valid Palindrome II",
+    "slug": "valid-palindrome-ii",
+    "acRate": 44.6,
+    "tags": [
+      "two-pointers",
+      "string",
+      "greedy"
+    ]
+  },
+  {
+    "title": "Baseball Game",
+    "slug": "baseball-game",
+    "acRate": 81,
+    "tags": [
+      "array",
+      "stack",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Binary Number with Alternating Bits",
+    "slug": "binary-number-with-alternating-bits",
+    "acRate": 70,
+    "tags": [
+      "bit-manipulation"
+    ]
+  },
+  {
+    "title": "Count Binary Substrings",
+    "slug": "count-binary-substrings",
+    "acRate": 70.5,
+    "tags": [
+      "two-pointers",
+      "string"
+    ]
+  },
+  {
+    "title": "Degree of an Array",
+    "slug": "degree-of-an-array",
+    "acRate": 58.6,
+    "tags": [
+      "array",
+      "hash-table"
+    ]
+  },
+  {
+    "title": "Search in a Binary Search Tree",
+    "slug": "search-in-a-binary-search-tree",
+    "acRate": 83,
+    "tags": [
+      "tree",
+      "binary-search-tree",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Kth Largest Element in a Stream",
+    "slug": "kth-largest-element-in-a-stream",
+    "acRate": 61.5,
+    "tags": [
+      "tree",
+      "design",
+      "binary-search-tree",
+      "heap-priority-queue",
+      "binary-tree",
+      "data-stream"
+    ]
+  },
+  {
+    "title": "Binary Search",
+    "slug": "binary-search",
+    "acRate": 61.3,
+    "tags": [
+      "array",
+      "binary-search"
+    ]
+  },
+  {
+    "title": "Design HashSet",
+    "slug": "design-hashset",
+    "acRate": 68.4,
+    "tags": [
+      "array",
+      "hash-table",
+      "linked-list",
+      "design",
+      "hash-function"
+    ]
+  },
+  {
+    "title": "Design HashMap",
+    "slug": "design-hashmap",
+    "acRate": 66.8,
+    "tags": [
+      "array",
+      "hash-table",
+      "linked-list",
+      "design",
+      "hash-function"
+    ]
+  },
+  {
+    "title": "To Lower Case",
+    "slug": "to-lower-case",
+    "acRate": 85.1,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "1-bit and 2-bit Characters",
+    "slug": "1-bit-and-2-bit-characters",
+    "acRate": 49.7,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Find Pivot Index",
+    "slug": "find-pivot-index",
+    "acRate": 63.5,
+    "tags": [
+      "array",
+      "prefix-sum"
+    ]
+  },
+  {
+    "title": "Self Dividing Numbers",
+    "slug": "self-dividing-numbers",
+    "acRate": 81.1,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Flood Fill",
+    "slug": "flood-fill",
+    "acRate": 68.8,
+    "tags": [
+      "array",
+      "depth-first-search",
+      "breadth-first-search",
+      "matrix"
+    ]
+  },
+  {
+    "title": "Find Smallest Letter Greater Than Target",
+    "slug": "find-smallest-letter-greater-than-target",
+    "acRate": 59.5,
+    "tags": [
+      "array",
+      "binary-search"
+    ]
+  },
+  {
+    "title": "Min Cost Climbing Stairs",
+    "slug": "min-cost-climbing-stairs",
+    "acRate": 68.6,
+    "tags": [
+      "array",
+      "dynamic-programming"
+    ]
+  },
+  {
+    "title": "Largest Number At Least Twice of Others",
+    "slug": "largest-number-at-least-twice-of-others",
+    "acRate": 53,
+    "tags": [
+      "array",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Shortest Completing Word",
+    "slug": "shortest-completing-word",
+    "acRate": 63.6,
+    "tags": [
+      "array",
+      "hash-table",
+      "string"
+    ]
+  },
+  {
+    "title": "Prime Number of Set Bits in Binary Representation",
+    "slug": "prime-number-of-set-bits-in-binary-representation",
+    "acRate": 79,
+    "tags": [
+      "math",
+      "bit-manipulation",
+      "primality-test"
+    ]
+  },
+  {
+    "title": "Toeplitz Matrix",
+    "slug": "toeplitz-matrix",
+    "acRate": 69.8,
+    "tags": [
+      "array",
+      "matrix"
+    ]
+  },
+  {
+    "title": "Jewels and Stones",
+    "slug": "jewels-and-stones",
+    "acRate": 89.6,
+    "tags": [
+      "hash-table",
+      "string"
+    ]
+  },
+  {
+    "title": "Minimum Distance Between BST Nodes",
+    "slug": "minimum-distance-between-bst-nodes",
+    "acRate": 61.7,
+    "tags": [
+      "tree",
+      "depth-first-search",
+      "breadth-first-search",
+      "binary-search-tree",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Rotate String",
+    "slug": "rotate-string",
+    "acRate": 66.7,
+    "tags": [
+      "string",
+      "string-matching"
+    ]
+  },
+  {
+    "title": "Unique Morse Code Words",
+    "slug": "unique-morse-code-words",
+    "acRate": 83.7,
+    "tags": [
+      "array",
+      "hash-table",
+      "string"
+    ]
+  },
+  {
+    "title": "Number of Lines To Write String",
+    "slug": "number-of-lines-to-write-string",
+    "acRate": 73,
+    "tags": [
+      "array",
+      "string"
+    ]
+  },
+  {
+    "title": "Largest Triangle Area",
+    "slug": "largest-triangle-area",
+    "acRate": 72.1,
+    "tags": [
+      "array",
+      "math",
+      "geometry",
+      "polygons"
+    ]
+  },
+  {
+    "title": "Most Common Word",
+    "slug": "most-common-word",
+    "acRate": 45.3,
+    "tags": [
+      "array",
+      "hash-table",
+      "string",
+      "counting"
+    ]
+  },
+  {
+    "title": "Shortest Distance to a Character",
+    "slug": "shortest-distance-to-a-character",
+    "acRate": 72.9,
+    "tags": [
+      "array",
+      "two-pointers",
+      "string"
+    ]
+  },
+  {
+    "title": "Goat Latin",
+    "slug": "goat-latin",
+    "acRate": 70.1,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Positions of Large Groups",
+    "slug": "positions-of-large-groups",
+    "acRate": 54.2,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Flipping an Image",
+    "slug": "flipping-an-image",
+    "acRate": 83.9,
+    "tags": [
+      "array",
+      "two-pointers",
+      "bit-manipulation",
+      "matrix",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Rectangle Overlap",
+    "slug": "rectangle-overlap",
+    "acRate": 47,
+    "tags": [
+      "math",
+      "geometry"
+    ]
+  },
+  {
+    "title": "Backspace String Compare",
+    "slug": "backspace-string-compare",
+    "acRate": 50.2,
+    "tags": [
+      "two-pointers",
+      "string",
+      "stack",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Buddy Strings",
+    "slug": "buddy-strings",
+    "acRate": 34.2,
+    "tags": [
+      "hash-table",
+      "string"
+    ]
+  },
+  {
+    "title": "Lemonade Change",
+    "slug": "lemonade-change",
+    "acRate": 59.4,
+    "tags": [
+      "array",
+      "greedy"
+    ]
+  },
+  {
+    "title": "Transpose Matrix",
+    "slug": "transpose-matrix",
+    "acRate": 77,
+    "tags": [
+      "array",
+      "matrix",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Binary Gap",
+    "slug": "binary-gap",
+    "acRate": 74.4,
+    "tags": [
+      "bit-manipulation"
+    ]
+  },
+  {
+    "title": "Leaf-Similar Trees",
+    "slug": "leaf-similar-trees",
+    "acRate": 70.3,
+    "tags": [
+      "tree",
+      "depth-first-search",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Middle of the Linked List",
+    "slug": "middle-of-the-linked-list",
+    "acRate": 82.3,
+    "tags": [
+      "linked-list",
+      "two-pointers"
+    ]
+  },
+  {
+    "title": "Projection Area of 3D Shapes",
+    "slug": "projection-area-of-3d-shapes",
+    "acRate": 76.5,
+    "tags": [
+      "array",
+      "math",
+      "geometry",
+      "matrix"
+    ]
+  },
+  {
+    "title": "Uncommon Words from Two Sentences",
+    "slug": "uncommon-words-from-two-sentences",
+    "acRate": 75.8,
+    "tags": [
+      "hash-table",
+      "string",
+      "counting"
+    ]
+  },
+  {
+    "title": "Fair Candy Swap",
+    "slug": "fair-candy-swap",
+    "acRate": 65.4,
+    "tags": [
+      "array",
+      "hash-table",
+      "binary-search",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Surface Area of 3D Shapes",
+    "slug": "surface-area-of-3d-shapes",
+    "acRate": 71.2,
+    "tags": [
+      "array",
+      "math",
+      "geometry",
+      "matrix"
+    ]
+  },
+  {
+    "title": "Monotonic Array",
+    "slug": "monotonic-array",
+    "acRate": 62.6,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Increasing Order Search Tree",
+    "slug": "increasing-order-search-tree",
+    "acRate": 79.1,
+    "tags": [
+      "stack",
+      "tree",
+      "depth-first-search",
+      "binary-search-tree",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Sort Array By Parity",
+    "slug": "sort-array-by-parity",
+    "acRate": 76.6,
+    "tags": [
+      "array",
+      "two-pointers",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Smallest Range I",
+    "slug": "smallest-range-i",
+    "acRate": 73.9,
+    "tags": [
+      "array",
+      "math"
+    ]
+  },
+  {
+    "title": "X of a Kind in a Deck of Cards",
+    "slug": "x-of-a-kind-in-a-deck-of-cards",
+    "acRate": 30.5,
+    "tags": [
+      "array",
+      "hash-table",
+      "math",
+      "counting",
+      "number-theory",
+      "euclidean-algorithm",
+      "greatest-common-divisor"
+    ]
+  },
+  {
+    "title": "Reverse Only Letters",
+    "slug": "reverse-only-letters",
+    "acRate": 68.9,
+    "tags": [
+      "two-pointers",
+      "string"
+    ]
+  },
+  {
+    "title": "Sort Array By Parity II",
+    "slug": "sort-array-by-parity-ii",
+    "acRate": 71.3,
+    "tags": [
+      "array",
+      "two-pointers",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Long Pressed Name",
+    "slug": "long-pressed-name",
+    "acRate": 33.1,
+    "tags": [
+      "two-pointers",
+      "string"
+    ]
+  },
+  {
+    "title": "Unique Email Addresses",
+    "slug": "unique-email-addresses",
+    "acRate": 68,
+    "tags": [
+      "array",
+      "hash-table",
+      "string"
+    ]
+  },
+  {
+    "title": "Number of Recent Calls",
+    "slug": "number-of-recent-calls",
+    "acRate": 78.9,
+    "tags": [
+      "design",
+      "queue",
+      "data-stream"
+    ]
+  },
+  {
+    "title": "Range Sum of BST",
+    "slug": "range-sum-of-bst",
+    "acRate": 87.6,
+    "tags": [
+      "tree",
+      "depth-first-search",
+      "binary-search-tree",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Valid Mountain Array",
+    "slug": "valid-mountain-array",
+    "acRate": 35.7,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "DI String Match",
+    "slug": "di-string-match",
+    "acRate": 81.2,
+    "tags": [
+      "array",
+      "two-pointers",
+      "string",
+      "greedy"
+    ]
+  },
+  {
+    "title": "Delete Columns to Make Sorted",
+    "slug": "delete-columns-to-make-sorted",
+    "acRate": 78.2,
+    "tags": [
+      "array",
+      "string",
+      "longest-increasing-subsequence"
+    ]
+  },
+  {
+    "title": "Verifying an Alien Dictionary",
+    "slug": "verifying-an-alien-dictionary",
+    "acRate": 56.1,
+    "tags": [
+      "array",
+      "hash-table",
+      "string"
+    ]
+  },
+  {
+    "title": "N-Repeated Element in Size 2N Array",
+    "slug": "n-repeated-element-in-size-2n-array",
+    "acRate": 80,
+    "tags": [
+      "array",
+      "hash-table",
+      "pigeonhole-principle"
+    ]
+  },
+  {
+    "title": "Univalued Binary Tree",
+    "slug": "univalued-binary-tree",
+    "acRate": 73.3,
+    "tags": [
+      "tree",
+      "depth-first-search",
+      "breadth-first-search",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Largest Perimeter Triangle",
+    "slug": "largest-perimeter-triangle",
+    "acRate": 62.4,
+    "tags": [
+      "array",
+      "math",
+      "greedy",
+      "sorting",
+      "quicksort",
+      "polygons"
+    ]
+  },
+  {
+    "title": "Squares of a Sorted Array",
+    "slug": "squares-of-a-sorted-array",
+    "acRate": 74.1,
+    "tags": [
+      "array",
+      "two-pointers",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Add to Array-Form of Integer",
+    "slug": "add-to-array-form-of-integer",
+    "acRate": 45.6,
+    "tags": [
+      "array",
+      "math"
+    ]
+  },
+  {
+    "title": "Cousins in Binary Tree",
+    "slug": "cousins-in-binary-tree",
+    "acRate": 59.7,
+    "tags": [
+      "tree",
+      "depth-first-search",
+      "breadth-first-search",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Find the Town Judge",
+    "slug": "find-the-town-judge",
+    "acRate": 51,
+    "tags": [
+      "array",
+      "hash-table",
+      "graph"
+    ]
+  },
+  {
+    "title": "Available Captures for Rook",
+    "slug": "available-captures-for-rook",
+    "acRate": 72,
+    "tags": [
+      "array",
+      "matrix",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Find Common Characters",
+    "slug": "find-common-characters",
+    "acRate": 74.8,
+    "tags": [
+      "array",
+      "hash-table",
+      "string"
+    ]
+  },
+  {
+    "title": "Maximize Sum Of Array After K Negations",
+    "slug": "maximize-sum-of-array-after-k-negations",
+    "acRate": 54.2,
+    "tags": [
+      "array",
+      "greedy",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Complement of Base 10 Integer",
+    "slug": "complement-of-base-10-integer",
+    "acRate": 63.4,
+    "tags": [
+      "bit-manipulation"
+    ]
+  },
+  {
+    "title": "Partition Array Into Three Parts With Equal Sum",
+    "slug": "partition-array-into-three-parts-with-equal-sum",
+    "acRate": 43,
+    "tags": [
+      "array",
+      "greedy"
+    ]
+  },
+  {
+    "title": "Binary Prefix Divisible By 5",
+    "slug": "binary-prefix-divisible-by-5",
+    "acRate": 53.7,
+    "tags": [
+      "array",
+      "bit-manipulation"
+    ]
+  },
+  {
+    "title": "Remove Outermost Parentheses",
+    "slug": "remove-outermost-parentheses",
+    "acRate": 87.4,
+    "tags": [
+      "string",
+      "stack",
+      "bracket-sequences"
+    ]
+  },
+  {
+    "title": "Sum of Root To Leaf Binary Numbers",
+    "slug": "sum-of-root-to-leaf-binary-numbers",
+    "acRate": 76.7,
+    "tags": [
+      "tree",
+      "depth-first-search",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Divisor Game",
+    "slug": "divisor-game",
+    "acRate": 72.4,
+    "tags": [
+      "math",
+      "dynamic-programming",
+      "brainteaser",
+      "game-theory",
+      "impartial-game"
+    ]
+  },
+  {
+    "title": "Matrix Cells in Distance Order",
+    "slug": "matrix-cells-in-distance-order",
+    "acRate": 74.5,
+    "tags": [
+      "array",
+      "math",
+      "geometry",
+      "sorting",
+      "matrix"
+    ]
+  },
+  {
+    "title": "Valid Boomerang",
+    "slug": "valid-boomerang",
+    "acRate": 40.1,
+    "tags": [
+      "array",
+      "math",
+      "geometry"
+    ]
+  },
+  {
+    "title": "Last Stone Weight",
+    "slug": "last-stone-weight",
+    "acRate": 66.7,
+    "tags": [
+      "array",
+      "heap-priority-queue"
+    ]
+  },
+  {
+    "title": "Remove All Adjacent Duplicates In String",
+    "slug": "remove-all-adjacent-duplicates-in-string",
+    "acRate": 73.8,
+    "tags": [
+      "string",
+      "stack"
+    ]
+  },
+  {
+    "title": "Actors and Directors Who Cooperated At Least Three Times",
+    "slug": "actors-and-directors-who-cooperated-at-least-three-times",
+    "acRate": 71.3,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Height Checker",
+    "slug": "height-checker",
+    "acRate": 81.9,
+    "tags": [
+      "array",
+      "sorting",
+      "counting-sort",
+      "bubble-sort"
+    ]
+  },
+  {
+    "title": "Product Sales Analysis I",
+    "slug": "product-sales-analysis-i",
+    "acRate": 86.1,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Greatest Common Divisor of Strings",
+    "slug": "greatest-common-divisor-of-strings",
+    "acRate": 54.3,
+    "tags": [
+      "math",
+      "string",
+      "euclidean-algorithm",
+      "greatest-common-divisor"
+    ]
+  },
+  {
+    "title": "Project Employees I",
+    "slug": "project-employees-i",
+    "acRate": 67.2,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Occurrences After Bigram",
+    "slug": "occurrences-after-bigram",
+    "acRate": 64,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Sales Analysis III",
+    "slug": "sales-analysis-iii",
+    "acRate": 48.1,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Duplicate Zeros",
+    "slug": "duplicate-zeros",
+    "acRate": 53.9,
+    "tags": [
+      "array",
+      "two-pointers"
+    ]
+  },
+  {
+    "title": "Distribute Candies to People",
+    "slug": "distribute-candies-to-people",
+    "acRate": 67.8,
+    "tags": [
+      "math",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Defanging an IP Address",
+    "slug": "defanging-an-ip-address",
+    "acRate": 90.1,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Print in Order",
+    "slug": "print-in-order",
+    "acRate": 73.3,
+    "tags": [
+      "concurrency"
+    ]
+  },
+  {
+    "title": "Relative Sort Array",
+    "slug": "relative-sort-array",
+    "acRate": 75.4,
+    "tags": [
+      "array",
+      "hash-table",
+      "sorting",
+      "counting-sort",
+      "quicksort",
+      "bubble-sort"
+    ]
+  },
+  {
+    "title": "Number of Equivalent Domino Pairs",
+    "slug": "number-of-equivalent-domino-pairs",
+    "acRate": 60.7,
+    "tags": [
+      "array",
+      "hash-table",
+      "counting"
+    ]
+  },
+  {
+    "title": "N-th Tribonacci Number",
+    "slug": "n-th-tribonacci-number",
+    "acRate": 63.1,
+    "tags": [
+      "math",
+      "dynamic-programming",
+      "memoization"
+    ]
+  },
+  {
+    "title": "User Activity for the Past 30 Days I",
+    "slug": "user-activity-for-the-past-30-days-i",
+    "acRate": 51.4,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Article Views I",
+    "slug": "article-views-i",
+    "acRate": 76.8,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Day of the Year",
+    "slug": "day-of-the-year",
+    "acRate": 50.2,
+    "tags": [
+      "math",
+      "string"
+    ]
+  },
+  {
+    "title": "Find Words That Can Be Formed by Characters",
+    "slug": "find-words-that-can-be-formed-by-characters",
+    "acRate": 71.7,
+    "tags": [
+      "array",
+      "hash-table",
+      "string",
+      "counting"
+    ]
+  },
+  {
+    "title": "Prime Arrangements",
+    "slug": "prime-arrangements",
+    "acRate": 61.8,
+    "tags": [
+      "math",
+      "primality-test",
+      "sieve-theory",
+      "prime-number-sieve"
+    ]
+  },
+  {
+    "title": "Reformat Department Table",
+    "slug": "reformat-department-table",
+    "acRate": 76.4,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Distance Between Bus Stops",
+    "slug": "distance-between-bus-stops",
+    "acRate": 56.8,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Day of the Week",
+    "slug": "day-of-the-week",
+    "acRate": 59.5,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Maximum Number of Balloons",
+    "slug": "maximum-number-of-balloons",
+    "acRate": 64.3,
+    "tags": [
+      "hash-table",
+      "string",
+      "counting"
+    ]
+  },
+  {
+    "title": "Minimum Absolute Difference",
+    "slug": "minimum-absolute-difference",
+    "acRate": 75.2,
+    "tags": [
+      "array",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Unique Number of Occurrences",
+    "slug": "unique-number-of-occurrences",
+    "acRate": 78.9,
+    "tags": [
+      "array",
+      "hash-table"
+    ]
+  },
+  {
+    "title": "Queries Quality and Percentage",
+    "slug": "queries-quality-and-percentage",
+    "acRate": 54.3,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Minimum Cost to Move Chips to The Same Position",
+    "slug": "minimum-cost-to-move-chips-to-the-same-position",
+    "acRate": 73.1,
+    "tags": [
+      "array",
+      "math",
+      "greedy"
+    ]
+  },
+  {
+    "title": "Split a String in Balanced Strings",
+    "slug": "split-a-string-in-balanced-strings",
+    "acRate": 87.6,
+    "tags": [
+      "string",
+      "greedy",
+      "counting"
+    ]
+  },
+  {
+    "title": "Check If It Is a Straight Line",
+    "slug": "check-if-it-is-a-straight-line",
+    "acRate": 40.2,
+    "tags": [
+      "array",
+      "math",
+      "geometry"
+    ]
+  },
+  {
+    "title": "Average Selling Price",
+    "slug": "average-selling-price",
+    "acRate": 37.7,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Cells with Odd Values in a Matrix",
+    "slug": "cells-with-odd-values-in-a-matrix",
+    "acRate": 79.9,
+    "tags": [
+      "array",
+      "math",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Shift 2D Grid",
+    "slug": "shift-2d-grid",
+    "acRate": 74.5,
+    "tags": [
+      "array",
+      "matrix",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Minimum Time Visiting All Points",
+    "slug": "minimum-time-visiting-all-points",
+    "acRate": 84.8,
+    "tags": [
+      "array",
+      "math",
+      "geometry"
+    ]
+  },
+  {
+    "title": "Find Winner on a Tic Tac Toe Game",
+    "slug": "find-winner-on-a-tic-tac-toe-game",
+    "acRate": 54.7,
+    "tags": [
+      "array",
+      "hash-table",
+      "matrix",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Students and Examinations",
+    "slug": "students-and-examinations",
+    "acRate": 61.7,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Subtract the Product and Sum of Digits of an Integer",
+    "slug": "subtract-the-product-and-sum-of-digits-of-an-integer",
+    "acRate": 86.6,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Element Appearing More Than 25% In Sorted Array",
+    "slug": "element-appearing-more-than-25-in-sorted-array",
+    "acRate": 61.3,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Convert Binary Number in a Linked List to Integer",
+    "slug": "convert-binary-number-in-a-linked-list-to-integer",
+    "acRate": 82.4,
+    "tags": [
+      "linked-list",
+      "math"
+    ]
+  },
+  {
+    "title": "Find Numbers with Even Number of Digits",
+    "slug": "find-numbers-with-even-number-of-digits",
+    "acRate": 79.9,
+    "tags": [
+      "array",
+      "math"
+    ]
+  },
+  {
+    "title": "Replace Elements with Greatest Element on Right Side",
+    "slug": "replace-elements-with-greatest-element-on-right-side",
+    "acRate": 72.5,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Find N Unique Integers Sum up to Zero",
+    "slug": "find-n-unique-integers-sum-up-to-zero",
+    "acRate": 78.4,
+    "tags": [
+      "array",
+      "math"
+    ]
+  },
+  {
+    "title": "Decrypt String from Alphabet to Integer Mapping",
+    "slug": "decrypt-string-from-alphabet-to-integer-mapping",
+    "acRate": 80.7,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Decompress Run-Length Encoded List",
+    "slug": "decompress-run-length-encoded-list",
+    "acRate": 86.3,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Convert Integer to the Sum of Two No-Zero Integers",
+    "slug": "convert-integer-to-the-sum-of-two-no-zero-integers",
+    "acRate": 59.2,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Maximum 69 Number",
+    "slug": "maximum-69-number",
+    "acRate": 84.6,
+    "tags": [
+      "math",
+      "greedy"
+    ]
+  },
+  {
+    "title": "List the Products Ordered in a Period",
+    "slug": "list-the-products-ordered-in-a-period",
+    "acRate": 72,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Rank Transform of an Array",
+    "slug": "rank-transform-of-an-array",
+    "acRate": 74,
+    "tags": [
+      "array",
+      "hash-table",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Remove Palindromic Subsequences",
+    "slug": "remove-palindromic-subsequences",
+    "acRate": 77.2,
+    "tags": [
+      "two-pointers",
+      "string"
+    ]
+  },
+  {
+    "title": "The K Weakest Rows in a Matrix",
+    "slug": "the-k-weakest-rows-in-a-matrix",
+    "acRate": 74.5,
+    "tags": [
+      "array",
+      "binary-search",
+      "sorting",
+      "heap-priority-queue",
+      "matrix"
+    ]
+  },
+  {
+    "title": "Number of Steps to Reduce a Number to Zero",
+    "slug": "number-of-steps-to-reduce-a-number-to-zero",
+    "acRate": 85.9,
+    "tags": [
+      "math",
+      "bit-manipulation"
+    ]
+  },
+  {
+    "title": "Check If N and Its Double Exist",
+    "slug": "check-if-n-and-its-double-exist",
+    "acRate": 42,
+    "tags": [
+      "array",
+      "hash-table",
+      "two-pointers",
+      "binary-search",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Count Negative Numbers in a Sorted Matrix",
+    "slug": "count-negative-numbers-in-a-sorted-matrix",
+    "acRate": 79.7,
+    "tags": [
+      "array",
+      "binary-search",
+      "matrix"
+    ]
+  },
+  {
+    "title": "Sort Integers by The Number of 1 Bits",
+    "slug": "sort-integers-by-the-number-of-1-bits",
+    "acRate": 82.4,
+    "tags": [
+      "array",
+      "bit-manipulation",
+      "sorting",
+      "counting"
+    ]
+  },
+  {
+    "title": "Number of Days Between Two Dates",
+    "slug": "number-of-days-between-two-dates",
+    "acRate": 53.2,
+    "tags": [
+      "math",
+      "string"
+    ]
+  },
+  {
+    "title": "How Many Numbers Are Smaller Than the Current Number",
+    "slug": "how-many-numbers-are-smaller-than-the-current-number",
+    "acRate": 87.5,
+    "tags": [
+      "array",
+      "hash-table",
+      "sorting",
+      "counting-sort"
+    ]
+  },
+  {
+    "title": "Increasing Decreasing String",
+    "slug": "increasing-decreasing-string",
+    "acRate": 77.3,
+    "tags": [
+      "hash-table",
+      "string",
+      "counting"
+    ]
+  },
+  {
+    "title": "Generate a String With Characters That Have Odd Counts",
+    "slug": "generate-a-string-with-characters-that-have-odd-counts",
+    "acRate": 78.6,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Replace Employee ID With The Unique Identifier",
+    "slug": "replace-employee-id-with-the-unique-identifier",
+    "acRate": 83.7,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Find a Corresponding Node of a Binary Tree in a Clone of That Tree",
+    "slug": "find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree",
+    "acRate": 85.8,
+    "tags": [
+      "tree",
+      "depth-first-search",
+      "breadth-first-search",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Lucky Numbers in a Matrix",
+    "slug": "lucky-numbers-in-a-matrix",
+    "acRate": 80.2,
+    "tags": [
+      "array",
+      "matrix"
+    ]
+  },
+  {
+    "title": "Find the Distance Value Between Two Arrays",
+    "slug": "find-the-distance-value-between-two-arrays",
+    "acRate": 72.1,
+    "tags": [
+      "array",
+      "two-pointers",
+      "binary-search",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Create Target Array in the Given Order",
+    "slug": "create-target-array-in-the-given-order",
+    "acRate": 86.6,
+    "tags": [
+      "array",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Find Lucky Integer in an Array",
+    "slug": "find-lucky-integer-in-an-array",
+    "acRate": 75.6,
+    "tags": [
+      "array",
+      "hash-table",
+      "counting"
+    ]
+  },
+  {
+    "title": "Count Largest Group",
+    "slug": "count-largest-group",
+    "acRate": 74.7,
+    "tags": [
+      "hash-table",
+      "math",
+      "counting"
+    ]
+  },
+  {
+    "title": "Minimum Subsequence in Non-Increasing Order",
+    "slug": "minimum-subsequence-in-non-increasing-order",
+    "acRate": 74,
+    "tags": [
+      "array",
+      "greedy",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Top Travellers",
+    "slug": "top-travellers",
+    "acRate": 57.6,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "String Matching in an Array",
+    "slug": "string-matching-in-an-array",
+    "acRate": 69.8,
+    "tags": [
+      "array",
+      "string",
+      "string-matching"
+    ]
+  },
+  {
+    "title": "Minimum Value to Get Positive Step by Step Sum",
+    "slug": "minimum-value-to-get-positive-step-by-step-sum",
+    "acRate": 64.8,
+    "tags": [
+      "array",
+      "prefix-sum"
+    ]
+  },
+  {
+    "title": "Reformat The String",
+    "slug": "reformat-the-string",
+    "acRate": 52.2,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Maximum Score After Splitting a String",
+    "slug": "maximum-score-after-splitting-a-string",
+    "acRate": 65.1,
+    "tags": [
+      "string",
+      "prefix-sum"
+    ]
+  },
+  {
+    "title": "Kids With the Greatest Number of Candies",
+    "slug": "kids-with-the-greatest-number-of-candies",
+    "acRate": 88,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Destination City",
+    "slug": "destination-city",
+    "acRate": 79.5,
+    "tags": [
+      "array",
+      "hash-table",
+      "string"
+    ]
+  },
+  {
+    "title": "Check If All 1's Are at Least Length K Places Away",
+    "slug": "check-if-all-1s-are-at-least-length-k-places-away",
+    "acRate": 64.3,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Consecutive Characters",
+    "slug": "consecutive-characters",
+    "acRate": 60.4,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Number of Students Doing Homework at a Given Time",
+    "slug": "number-of-students-doing-homework-at-a-given-time",
+    "acRate": 76.2,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Check If a Word Occurs As a Prefix of Any Word in a Sentence",
+    "slug": "check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence",
+    "acRate": 68.8,
+    "tags": [
+      "two-pointers",
+      "string",
+      "string-matching"
+    ]
+  },
+  {
+    "title": "Make Two Arrays Equal by Reversing Subarrays",
+    "slug": "make-two-arrays-equal-by-reversing-subarrays",
+    "acRate": 75.8,
+    "tags": [
+      "array",
+      "hash-table",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Maximum Product of Two Elements in an Array",
+    "slug": "maximum-product-of-two-elements-in-an-array",
+    "acRate": 84.9,
+    "tags": [
+      "array",
+      "sorting",
+      "heap-priority-queue"
+    ]
+  },
+  {
+    "title": "Shuffle the Array",
+    "slug": "shuffle-the-array",
+    "acRate": 88.7,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Final Prices With a Special Discount in a Shop",
+    "slug": "final-prices-with-a-special-discount-in-a-shop",
+    "acRate": 84.3,
+    "tags": [
+      "array",
+      "stack",
+      "monotonic-stack"
+    ]
+  },
+  {
+    "title": "Running Sum of 1d Array",
+    "slug": "running-sum-of-1d-array",
+    "acRate": 87.1,
+    "tags": [
+      "array",
+      "prefix-sum"
+    ]
+  },
+  {
+    "title": "Group Sold Products By The Date",
+    "slug": "group-sold-products-by-the-date",
+    "acRate": 78.2,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "XOR Operation in an Array",
+    "slug": "xor-operation-in-an-array",
+    "acRate": 87.8,
+    "tags": [
+      "math",
+      "bit-manipulation"
+    ]
+  },
+  {
+    "title": "Average Salary Excluding the Minimum and Maximum Salary",
+    "slug": "average-salary-excluding-the-minimum-and-maximum-salary",
+    "acRate": 63.6,
+    "tags": [
+      "array",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Path Crossing",
+    "slug": "path-crossing",
+    "acRate": 62.7,
+    "tags": [
+      "hash-table",
+      "string"
+    ]
+  },
+  {
+    "title": "Can Make Arithmetic Progression From Sequence",
+    "slug": "can-make-arithmetic-progression-from-sequence",
+    "acRate": 68.7,
+    "tags": [
+      "array",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Reformat Date",
+    "slug": "reformat-date",
+    "acRate": 68.8,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Number of Good Pairs",
+    "slug": "number-of-good-pairs",
+    "acRate": 89.9,
+    "tags": [
+      "array",
+      "hash-table",
+      "math",
+      "counting"
+    ]
+  },
+  {
+    "title": "Find Users With Valid E-Mails",
+    "slug": "find-users-with-valid-e-mails",
+    "acRate": 35.4,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Water Bottles",
+    "slug": "water-bottles",
+    "acRate": 72.6,
+    "tags": [
+      "math",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Count Odd Numbers in an Interval Range",
+    "slug": "count-odd-numbers-in-an-interval-range",
+    "acRate": 54.8,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Patients With a Condition",
+    "slug": "patients-with-a-condition",
+    "acRate": 39.1,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Shuffle String",
+    "slug": "shuffle-string",
+    "acRate": 85.5,
+    "tags": [
+      "array",
+      "string"
+    ]
+  },
+  {
+    "title": "Count Good Triplets",
+    "slug": "count-good-triplets",
+    "acRate": 85.5,
+    "tags": [
+      "array",
+      "enumeration"
+    ]
+  },
+  {
+    "title": "Kth Missing Positive Number",
+    "slug": "kth-missing-positive-number",
+    "acRate": 63.8,
+    "tags": [
+      "array",
+      "binary-search"
+    ]
+  },
+  {
+    "title": "Make The String Great",
+    "slug": "make-the-string-great",
+    "acRate": 68.7,
+    "tags": [
+      "string",
+      "stack"
+    ]
+  },
+  {
+    "title": "Three Consecutive Odds",
+    "slug": "three-consecutive-odds",
+    "acRate": 69.3,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Thousand Separator",
+    "slug": "thousand-separator",
+    "acRate": 53.8,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Most Visited Sector in  a Circular Track",
+    "slug": "most-visited-sector-in-a-circular-track",
+    "acRate": 60,
+    "tags": [
+      "array",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Detect Pattern of Length M Repeated K or More Times",
+    "slug": "detect-pattern-of-length-m-repeated-k-or-more-times",
+    "acRate": 44.1,
+    "tags": [
+      "array",
+      "enumeration"
+    ]
+  },
+  {
+    "title": "Matrix Diagonal Sum",
+    "slug": "matrix-diagonal-sum",
+    "acRate": 84.6,
+    "tags": [
+      "array",
+      "matrix"
+    ]
+  },
+  {
+    "title": "Replace All ?'s to Avoid Consecutive Repeating Characters",
+    "slug": "replace-all-s-to-avoid-consecutive-repeating-characters",
+    "acRate": 45.4,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Customer Who Visited but Did Not Make Any Transactions",
+    "slug": "customer-who-visited-but-did-not-make-any-transactions",
+    "acRate": 68.3,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Special Positions in a Binary Matrix",
+    "slug": "special-positions-in-a-binary-matrix",
+    "acRate": 72.7,
+    "tags": [
+      "array",
+      "matrix"
+    ]
+  },
+  {
+    "title": "Bank Account Summary II",
+    "slug": "bank-account-summary-ii",
+    "acRate": 83,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Sum of All Odd Length Subarrays",
+    "slug": "sum-of-all-odd-length-subarrays",
+    "acRate": 84.1,
+    "tags": [
+      "array",
+      "math",
+      "prefix-sum"
+    ]
+  },
+  {
+    "title": "Rearrange Spaces Between Words",
+    "slug": "rearrange-spaces-between-words",
+    "acRate": 44.3,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Crawler Log Folder",
+    "slug": "crawler-log-folder",
+    "acRate": 71.7,
+    "tags": [
+      "array",
+      "string",
+      "stack"
+    ]
+  },
+  {
+    "title": "Design Parking System",
+    "slug": "design-parking-system",
+    "acRate": 87.2,
+    "tags": [
+      "design",
+      "simulation",
+      "counting"
+    ]
+  },
+  {
+    "title": "Special Array With X Elements Greater Than or Equal X",
+    "slug": "special-array-with-x-elements-greater-than-or-equal-x",
+    "acRate": 66.9,
+    "tags": [
+      "array",
+      "binary-search",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Maximum Nesting Depth of the Parentheses",
+    "slug": "maximum-nesting-depth-of-the-parentheses",
+    "acRate": 85,
+    "tags": [
+      "string",
+      "stack",
+      "bracket-sequences"
+    ]
+  },
+  {
+    "title": "Mean of Array After Removing Some Elements",
+    "slug": "mean-of-array-after-removing-some-elements",
+    "acRate": 72.1,
+    "tags": [
+      "array",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Largest Substring Between Two Equal Characters",
+    "slug": "largest-substring-between-two-equal-characters",
+    "acRate": 68.4,
+    "tags": [
+      "hash-table",
+      "string"
+    ]
+  },
+  {
+    "title": "Slowest Key",
+    "slug": "slowest-key",
+    "acRate": 59.7,
+    "tags": [
+      "array",
+      "string"
+    ]
+  },
+  {
+    "title": "Percentage of Users Attended a Contest",
+    "slug": "percentage-of-users-attended-a-contest",
+    "acRate": 60.9,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Sort Array by Increasing Frequency",
+    "slug": "sort-array-by-increasing-frequency",
+    "acRate": 81,
+    "tags": [
+      "array",
+      "hash-table",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Widest Vertical Area Between Two Points Containing No Points",
+    "slug": "widest-vertical-area-between-two-points-containing-no-points",
+    "acRate": 87.1,
+    "tags": [
+      "array",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Check Array Formation Through Concatenation",
+    "slug": "check-array-formation-through-concatenation",
+    "acRate": 57.5,
+    "tags": [
+      "array",
+      "hash-table"
+    ]
+  },
+  {
+    "title": "Get Maximum in Generated Array",
+    "slug": "get-maximum-in-generated-array",
+    "acRate": 51.6,
+    "tags": [
+      "array",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Defuse the Bomb",
+    "slug": "defuse-the-bomb",
+    "acRate": 79.4,
+    "tags": [
+      "array",
+      "sliding-window"
+    ]
+  },
+  {
+    "title": "Design an Ordered Stream",
+    "slug": "design-an-ordered-stream",
+    "acRate": 82.7,
+    "tags": [
+      "array",
+      "hash-table",
+      "design",
+      "data-stream"
+    ]
+  },
+  {
+    "title": "Average Time of Process per Machine",
+    "slug": "average-time-of-process-per-machine",
+    "acRate": 66.9,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Check If Two String Arrays are Equivalent",
+    "slug": "check-if-two-string-arrays-are-equivalent",
+    "acRate": 86.2,
+    "tags": [
+      "array",
+      "string"
+    ]
+  },
+  {
+    "title": "Fix Names in a Table",
+    "slug": "fix-names-in-a-table",
+    "acRate": 60.6,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Maximum Repeating Substring",
+    "slug": "maximum-repeating-substring",
+    "acRate": 42.1,
+    "tags": [
+      "string",
+      "dynamic-programming",
+      "string-matching"
+    ]
+  },
+  {
+    "title": "Richest Customer Wealth",
+    "slug": "richest-customer-wealth",
+    "acRate": 88.8,
+    "tags": [
+      "array",
+      "matrix"
+    ]
+  },
+  {
+    "title": "Goal Parser Interpretation",
+    "slug": "goal-parser-interpretation",
+    "acRate": 88.2,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Invalid Tweets",
+    "slug": "invalid-tweets",
+    "acRate": 85.2,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Count the Number of Consistent Strings",
+    "slug": "count-the-number-of-consistent-strings",
+    "acRate": 88.5,
+    "tags": [
+      "array",
+      "hash-table",
+      "string",
+      "bit-manipulation",
+      "counting"
+    ]
+  },
+  {
+    "title": "Count of Matches in Tournament",
+    "slug": "count-of-matches-in-tournament",
+    "acRate": 86.5,
+    "tags": [
+      "math",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Daily Leads and Partners",
+    "slug": "daily-leads-and-partners",
+    "acRate": 86.8,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Reformat Phone Number",
+    "slug": "reformat-phone-number",
+    "acRate": 67.8,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Number of Students Unable to Eat Lunch",
+    "slug": "number-of-students-unable-to-eat-lunch",
+    "acRate": 79.9,
+    "tags": [
+      "array",
+      "stack",
+      "queue",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Determine if String Halves Are Alike",
+    "slug": "determine-if-string-halves-are-alike",
+    "acRate": 78.8,
+    "tags": [
+      "string",
+      "counting"
+    ]
+  },
+  {
+    "title": "Maximum Units on a Truck",
+    "slug": "maximum-units-on-a-truck",
+    "acRate": 75.2,
+    "tags": [
+      "array",
+      "greedy",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Calculate Money in Leetcode Bank",
+    "slug": "calculate-money-in-leetcode-bank",
+    "acRate": 82.5,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Decode XORed Array",
+    "slug": "decode-xored-array",
+    "acRate": 87.5,
+    "tags": [
+      "array",
+      "bit-manipulation"
+    ]
+  },
+  {
+    "title": "Number Of Rectangles That Can Form The Largest Square",
+    "slug": "number-of-rectangles-that-can-form-the-largest-square",
+    "acRate": 79.5,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Find Followers Count",
+    "slug": "find-followers-count",
+    "acRate": 69.6,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "The Number of Employees Which Report to Each Employee",
+    "slug": "the-number-of-employees-which-report-to-each-employee",
+    "acRate": 53.7,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Find the Highest Altitude",
+    "slug": "find-the-highest-altitude",
+    "acRate": 84.6,
+    "tags": [
+      "array",
+      "prefix-sum"
+    ]
+  },
+  {
+    "title": "Latest Time by Replacing Hidden Digits",
+    "slug": "latest-time-by-replacing-hidden-digits",
+    "acRate": 44,
+    "tags": [
+      "string",
+      "greedy"
+    ]
+  },
+  {
+    "title": "Find Total Time Spent by Each Employee",
+    "slug": "find-total-time-spent-by-each-employee",
+    "acRate": 86.4,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Maximum Number of Balls in a Box",
+    "slug": "maximum-number-of-balls-in-a-box",
+    "acRate": 75,
+    "tags": [
+      "hash-table",
+      "math",
+      "counting"
+    ]
+  },
+  {
+    "title": "Sum of Unique Elements",
+    "slug": "sum-of-unique-elements",
+    "acRate": 80.2,
+    "tags": [
+      "array",
+      "hash-table",
+      "counting"
+    ]
+  },
+  {
+    "title": "Check if Array Is Sorted and Rotated",
+    "slug": "check-if-array-is-sorted-and-rotated",
+    "acRate": 57.6,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Recyclable and Low Fat Products",
+    "slug": "recyclable-and-low-fat-products",
+    "acRate": 88.6,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Minimum Changes To Make Alternating Binary String",
+    "slug": "minimum-changes-to-make-alternating-binary-string",
+    "acRate": 67.9,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Longest Nice Substring",
+    "slug": "longest-nice-substring",
+    "acRate": 64.6,
+    "tags": [
+      "hash-table",
+      "string",
+      "divide-and-conquer",
+      "bit-manipulation",
+      "sliding-window"
+    ]
+  },
+  {
+    "title": "Merge Strings Alternately",
+    "slug": "merge-strings-alternately",
+    "acRate": 82.1,
+    "tags": [
+      "two-pointers",
+      "string"
+    ]
+  },
+  {
+    "title": "Count Items Matching a Rule",
+    "slug": "count-items-matching-a-rule",
+    "acRate": 85.4,
+    "tags": [
+      "array",
+      "string"
+    ]
+  },
+  {
+    "title": "Find Nearest Point That Has the Same X or Y Coordinate",
+    "slug": "find-nearest-point-that-has-the-same-x-or-y-coordinate",
+    "acRate": 70.1,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Check if Binary String Has at Most One Segment of Ones",
+    "slug": "check-if-binary-string-has-at-most-one-segment-of-ones",
+    "acRate": 49.3,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Primary Department for Each Employee",
+    "slug": "primary-department-for-each-employee",
+    "acRate": 75.1,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Check if One String Swap Can Make Strings Equal",
+    "slug": "check-if-one-string-swap-can-make-strings-equal",
+    "acRate": 49.5,
+    "tags": [
+      "hash-table",
+      "string",
+      "counting"
+    ]
+  },
+  {
+    "title": "Find Center of Star Graph",
+    "slug": "find-center-of-star-graph",
+    "acRate": 86.6,
+    "tags": [
+      "graph"
+    ]
+  },
+  {
+    "title": "Rearrange Products Table",
+    "slug": "rearrange-products-table",
+    "acRate": 85.5,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Second Largest Digit in a String",
+    "slug": "second-largest-digit-in-a-string",
+    "acRate": 55.1,
+    "tags": [
+      "hash-table",
+      "string"
+    ]
+  },
+  {
+    "title": "Maximum Ascending Subarray Sum",
+    "slug": "maximum-ascending-subarray-sum",
+    "acRate": 66.3,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Number of Different Integers in a String",
+    "slug": "number-of-different-integers-in-a-string",
+    "acRate": 40.5,
+    "tags": [
+      "hash-table",
+      "string"
+    ]
+  },
+  {
+    "title": "Determine Color of a Chessboard Square",
+    "slug": "determine-color-of-a-chessboard-square",
+    "acRate": 80.1,
+    "tags": [
+      "math",
+      "string"
+    ]
+  },
+  {
+    "title": "Truncate Sentence",
+    "slug": "truncate-sentence",
+    "acRate": 87,
+    "tags": [
+      "array",
+      "string"
+    ]
+  },
+  {
+    "title": "Sign of the Product of an Array",
+    "slug": "sign-of-the-product-of-an-array",
+    "acRate": 64.7,
+    "tags": [
+      "array",
+      "math"
+    ]
+  },
+  {
+    "title": "Minimum Operations to Make the Array Increasing",
+    "slug": "minimum-operations-to-make-the-array-increasing",
+    "acRate": 82.3,
+    "tags": [
+      "array",
+      "greedy"
+    ]
+  },
+  {
+    "title": "Check if the Sentence Is Pangram",
+    "slug": "check-if-the-sentence-is-pangram",
+    "acRate": 84.3,
+    "tags": [
+      "hash-table",
+      "string"
+    ]
+  },
+  {
+    "title": "Sum of Digits in Base K",
+    "slug": "sum-of-digits-in-base-k",
+    "acRate": 79.2,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Replace All Digits with Characters",
+    "slug": "replace-all-digits-with-characters",
+    "acRate": 82.9,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Minimum Distance to the Target Element",
+    "slug": "minimum-distance-to-the-target-element",
+    "acRate": 64.3,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Maximum Population Year",
+    "slug": "maximum-population-year",
+    "acRate": 64.5,
+    "tags": [
+      "array",
+      "counting",
+      "prefix-sum"
+    ]
+  },
+  {
+    "title": "Sorting the Sentence",
+    "slug": "sorting-the-sentence",
+    "acRate": 84.2,
+    "tags": [
+      "string",
+      "sorting",
+      "bubble-sort"
+    ]
+  },
+  {
+    "title": "Sum of All Subset XOR Totals",
+    "slug": "sum-of-all-subset-xor-totals",
+    "acRate": 90.1,
+    "tags": [
+      "array",
+      "math",
+      "backtracking",
+      "bit-manipulation",
+      "combinatorics",
+      "enumeration"
+    ]
+  },
+  {
+    "title": "Longer Contiguous Segments of Ones than Zeros",
+    "slug": "longer-contiguous-segments-of-ones-than-zeros",
+    "acRate": 62.7,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Calculate Special Bonus",
+    "slug": "calculate-special-bonus",
+    "acRate": 57.1,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Substrings of Size Three with Distinct Characters",
+    "slug": "substrings-of-size-three-with-distinct-characters",
+    "acRate": 77,
+    "tags": [
+      "hash-table",
+      "string",
+      "sliding-window",
+      "counting"
+    ]
+  },
+  {
+    "title": "Check if Word Equals Summation of Two Words",
+    "slug": "check-if-word-equals-summation-of-two-words",
+    "acRate": 75.4,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Determine Whether Matrix Can Be Obtained By Rotation",
+    "slug": "determine-whether-matrix-can-be-obtained-by-rotation",
+    "acRate": 68.5,
+    "tags": [
+      "array",
+      "matrix"
+    ]
+  },
+  {
+    "title": "The Latest Login in 2020",
+    "slug": "the-latest-login-in-2020",
+    "acRate": 77,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Check if All the Integers in a Range Are Covered",
+    "slug": "check-if-all-the-integers-in-a-range-are-covered",
+    "acRate": 51.3,
+    "tags": [
+      "array",
+      "hash-table",
+      "prefix-sum"
+    ]
+  },
+  {
+    "title": "Redistribute Characters to Make All Strings Equal",
+    "slug": "redistribute-characters-to-make-all-strings-equal",
+    "acRate": 66.9,
+    "tags": [
+      "hash-table",
+      "string",
+      "counting"
+    ]
+  },
+  {
+    "title": "Largest Odd Number in String",
+    "slug": "largest-odd-number-in-string",
+    "acRate": 67.9,
+    "tags": [
+      "math",
+      "string",
+      "greedy"
+    ]
+  },
+  {
+    "title": "Remove One Element to Make the Array Strictly Increasing",
+    "slug": "remove-one-element-to-make-the-array-strictly-increasing",
+    "acRate": 30.7,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Maximum Product Difference Between Two Pairs",
+    "slug": "maximum-product-difference-between-two-pairs",
+    "acRate": 83.1,
+    "tags": [
+      "array",
+      "sorting",
+      "quicksort"
+    ]
+  },
+  {
+    "title": "Build Array from Permutation",
+    "slug": "build-array-from-permutation",
+    "acRate": 91.1,
+    "tags": [
+      "array",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Count Square Sum Triples",
+    "slug": "count-square-sum-triples",
+    "acRate": 77.2,
+    "tags": [
+      "math",
+      "enumeration"
+    ]
+  },
+  {
+    "title": "Concatenation of Array",
+    "slug": "concatenation-of-array",
+    "acRate": 90.1,
+    "tags": [
+      "array",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Maximum Number of Words You Can Type",
+    "slug": "maximum-number-of-words-you-can-type",
+    "acRate": 82.9,
+    "tags": [
+      "hash-table",
+      "string"
+    ]
+  },
+  {
+    "title": "Check if All Characters Have Equal Number of Occurrences",
+    "slug": "check-if-all-characters-have-equal-number-of-occurrences",
+    "acRate": 79.6,
+    "tags": [
+      "hash-table",
+      "string",
+      "counting"
+    ]
+  },
+  {
+    "title": "Sum of Digits of String After Convert",
+    "slug": "sum-of-digits-of-string-after-convert",
+    "acRate": 74.8,
+    "tags": [
+      "string",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Three Divisors",
+    "slug": "three-divisors",
+    "acRate": 64.7,
+    "tags": [
+      "math",
+      "enumeration",
+      "number-theory",
+      "prime-factorization",
+      "sieve-theory"
+    ]
+  },
+  {
+    "title": "Delete Characters to Make Fancy String",
+    "slug": "delete-characters-to-make-fancy-string",
+    "acRate": 74,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Check If String Is a Prefix of Array",
+    "slug": "check-if-string-is-a-prefix-of-array",
+    "acRate": 52.9,
+    "tags": [
+      "array",
+      "two-pointers",
+      "string"
+    ]
+  },
+  {
+    "title": "Employees With Missing Information",
+    "slug": "employees-with-missing-information",
+    "acRate": 73.4,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Number of Strings That Appear as Substrings in Word",
+    "slug": "number-of-strings-that-appear-as-substrings-in-word",
+    "acRate": 86.2,
+    "tags": [
+      "array",
+      "string"
+    ]
+  },
+  {
+    "title": "Find if Path Exists in Graph",
+    "slug": "find-if-path-exists-in-graph",
+    "acRate": 55.7,
+    "tags": [
+      "depth-first-search",
+      "breadth-first-search",
+      "union-find",
+      "graph"
+    ]
+  },
+  {
+    "title": "Minimum Time to Type Word Using Special Typewriter",
+    "slug": "minimum-time-to-type-word-using-special-typewriter",
+    "acRate": 78.9,
+    "tags": [
+      "string",
+      "greedy"
+    ]
+  },
+  {
+    "title": "Employees Whose Manager Left the Company",
+    "slug": "employees-whose-manager-left-the-company",
+    "acRate": 48.9,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Find Greatest Common Divisor of Array",
+    "slug": "find-greatest-common-divisor-of-array",
+    "acRate": 83.5,
+    "tags": [
+      "array",
+      "math",
+      "number-theory",
+      "euclidean-algorithm",
+      "greatest-common-divisor"
+    ]
+  },
+  {
+    "title": "Minimum Difference Between Highest and Lowest of K Scores",
+    "slug": "minimum-difference-between-highest-and-lowest-of-k-scores",
+    "acRate": 66.4,
+    "tags": [
+      "array",
+      "sliding-window",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Find the Middle Index in Array",
+    "slug": "find-the-middle-index-in-array",
+    "acRate": 70.3,
+    "tags": [
+      "array",
+      "prefix-sum"
+    ]
+  },
+  {
+    "title": "Count Special Quadruplets",
+    "slug": "count-special-quadruplets",
+    "acRate": 64.9,
+    "tags": [
+      "array",
+      "hash-table",
+      "enumeration"
+    ]
+  },
+  {
+    "title": "Reverse Prefix of Word",
+    "slug": "reverse-prefix-of-word",
+    "acRate": 86.5,
+    "tags": [
+      "two-pointers",
+      "string",
+      "stack"
+    ]
+  },
+  {
+    "title": "Count Number of Pairs With Absolute Difference K",
+    "slug": "count-number-of-pairs-with-absolute-difference-k",
+    "acRate": 85.4,
+    "tags": [
+      "array",
+      "hash-table",
+      "counting"
+    ]
+  },
+  {
+    "title": "Final Value of Variable After Performing Operations",
+    "slug": "final-value-of-variable-after-performing-operations",
+    "acRate": 90.6,
+    "tags": [
+      "array",
+      "string",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Maximum Difference Between Increasing Elements",
+    "slug": "maximum-difference-between-increasing-elements",
+    "acRate": 66.7,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Convert 1D Array Into 2D Array",
+    "slug": "convert-1d-array-into-2d-array",
+    "acRate": 72.4,
+    "tags": [
+      "array",
+      "matrix",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Minimum Moves to Convert String",
+    "slug": "minimum-moves-to-convert-string",
+    "acRate": 58.2,
+    "tags": [
+      "string",
+      "greedy"
+    ]
+  },
+  {
+    "title": "Two Out of Three",
+    "slug": "two-out-of-three",
+    "acRate": 77.7,
+    "tags": [
+      "array",
+      "hash-table",
+      "bit-manipulation"
+    ]
+  },
+  {
+    "title": "Minimum Number of Moves to Seat Everyone",
+    "slug": "minimum-number-of-moves-to-seat-everyone",
+    "acRate": 87.1,
+    "tags": [
+      "array",
+      "greedy",
+      "sorting",
+      "counting-sort"
+    ]
+  },
+  {
+    "title": "Check if Numbers Are Ascending in a Sentence",
+    "slug": "check-if-numbers-are-ascending-in-a-sentence",
+    "acRate": 73.5,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Number of Valid Words in a Sentence",
+    "slug": "number-of-valid-words-in-a-sentence",
+    "acRate": 31.4,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Kth Distinct String in an Array",
+    "slug": "kth-distinct-string-in-an-array",
+    "acRate": 82.2,
+    "tags": [
+      "array",
+      "hash-table",
+      "string",
+      "counting"
+    ]
+  },
+  {
+    "title": "Smallest Index With Equal Value",
+    "slug": "smallest-index-with-equal-value",
+    "acRate": 73.5,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Count Vowel Substrings of a String",
+    "slug": "count-vowel-substrings-of-a-string",
+    "acRate": 73.4,
+    "tags": [
+      "hash-table",
+      "string"
+    ]
+  },
+  {
+    "title": "Check Whether Two Strings are Almost Equivalent",
+    "slug": "check-whether-two-strings-are-almost-equivalent",
+    "acRate": 64.4,
+    "tags": [
+      "hash-table",
+      "string",
+      "counting"
+    ]
+  },
+  {
+    "title": "Time Needed to Buy Tickets",
+    "slug": "time-needed-to-buy-tickets",
+    "acRate": 73.1,
+    "tags": [
+      "array",
+      "queue",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Two Furthest Houses With Different Colors",
+    "slug": "two-furthest-houses-with-different-colors",
+    "acRate": 71.7,
+    "tags": [
+      "array",
+      "greedy"
+    ]
+  },
+  {
+    "title": "Count Common Words With One Occurrence",
+    "slug": "count-common-words-with-one-occurrence",
+    "acRate": 73.7,
+    "tags": [
+      "array",
+      "hash-table",
+      "string",
+      "counting"
+    ]
+  },
+  {
+    "title": "Find Target Indices After Sorting Array",
+    "slug": "find-target-indices-after-sorting-array",
+    "acRate": 78.3,
+    "tags": [
+      "array",
+      "binary-search",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Finding 3-Digit Even Numbers",
+    "slug": "finding-3-digit-even-numbers",
+    "acRate": 78.6,
+    "tags": [
+      "array",
+      "hash-table",
+      "recursion",
+      "sorting",
+      "enumeration"
+    ]
+  },
+  {
+    "title": "Find Subsequence of Length K With the Largest Sum",
+    "slug": "find-subsequence-of-length-k-with-the-largest-sum",
+    "acRate": 57.3,
+    "tags": [
+      "array",
+      "hash-table",
+      "sorting",
+      "heap-priority-queue"
+    ]
+  },
+  {
+    "title": "Rings and Rods",
+    "slug": "rings-and-rods",
+    "acRate": 81.6,
+    "tags": [
+      "hash-table",
+      "string"
+    ]
+  },
+  {
+    "title": "Find First Palindromic String in the Array",
+    "slug": "find-first-palindromic-string-in-the-array",
+    "acRate": 84,
+    "tags": [
+      "array",
+      "two-pointers",
+      "string"
+    ]
+  },
+  {
+    "title": "Maximum Number of Words Found in Sentences",
+    "slug": "maximum-number-of-words-found-in-sentences",
+    "acRate": 86.7,
+    "tags": [
+      "array",
+      "string"
+    ]
+  },
+  {
+    "title": "A Number After a Double Reversal",
+    "slug": "a-number-after-a-double-reversal",
+    "acRate": 82.7,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Check if All A's Appears Before All B's",
+    "slug": "check-if-all-as-appears-before-all-bs",
+    "acRate": 73.3,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Capitalize the Title",
+    "slug": "capitalize-the-title",
+    "acRate": 68.4,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Check if Every Row and Column Contains All Numbers",
+    "slug": "check-if-every-row-and-column-contains-all-numbers",
+    "acRate": 54.3,
+    "tags": [
+      "array",
+      "hash-table",
+      "matrix"
+    ]
+  },
+  {
+    "title": "Divide a String Into Groups of Size k",
+    "slug": "divide-a-string-into-groups-of-size-k",
+    "acRate": 76.9,
+    "tags": [
+      "string",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Minimum Cost of Buying Candies With Discount",
+    "slug": "minimum-cost-of-buying-candies-with-discount",
+    "acRate": 71.6,
+    "tags": [
+      "array",
+      "greedy",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Count Elements With Strictly Smaller and Greater Elements ",
+    "slug": "count-elements-with-strictly-smaller-and-greater-elements",
+    "acRate": 60.2,
+    "tags": [
+      "array",
+      "sorting",
+      "counting"
+    ]
+  },
+  {
+    "title": "Keep Multiplying Found Values by Two",
+    "slug": "keep-multiplying-found-values-by-two",
+    "acRate": 75,
+    "tags": [
+      "array",
+      "hash-table",
+      "sorting",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Minimum Sum of Four Digit Number After Splitting Digits",
+    "slug": "minimum-sum-of-four-digit-number-after-splitting-digits",
+    "acRate": 86.3,
+    "tags": [
+      "math",
+      "greedy",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Sort Even and Odd Indices Independently",
+    "slug": "sort-even-and-odd-indices-independently",
+    "acRate": 63.5,
+    "tags": [
+      "array",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Count Operations to Obtain Zero",
+    "slug": "count-operations-to-obtain-zero",
+    "acRate": 79.8,
+    "tags": [
+      "math",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Count Equal and Divisible Pairs in an Array",
+    "slug": "count-equal-and-divisible-pairs-in-an-array",
+    "acRate": 83.8,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Count Integers With Even Digit Sum",
+    "slug": "count-integers-with-even-digit-sum",
+    "acRate": 70.8,
+    "tags": [
+      "math",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Counting Words With a Given Prefix",
+    "slug": "counting-words-with-a-given-prefix",
+    "acRate": 84.4,
+    "tags": [
+      "array",
+      "string",
+      "string-matching"
+    ]
+  },
+  {
+    "title": "Most Frequent Number Following Key In an Array",
+    "slug": "most-frequent-number-following-key-in-an-array",
+    "acRate": 59.7,
+    "tags": [
+      "array",
+      "hash-table",
+      "counting"
+    ]
+  },
+  {
+    "title": "Cells in a Range on an Excel Sheet",
+    "slug": "cells-in-a-range-on-an-excel-sheet",
+    "acRate": 84.1,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Find All K-Distant Indices in an Array",
+    "slug": "find-all-k-distant-indices-in-an-array",
+    "acRate": 77.2,
+    "tags": [
+      "array",
+      "two-pointers"
+    ]
+  },
+  {
+    "title": "Divide Array Into Equal Pairs",
+    "slug": "divide-array-into-equal-pairs",
+    "acRate": 79.2,
+    "tags": [
+      "array",
+      "hash-table",
+      "bit-manipulation",
+      "counting"
+    ]
+  },
+  {
+    "title": "Count Hills and Valleys in an Array",
+    "slug": "count-hills-and-valleys-in-an-array",
+    "acRate": 69.1,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Find the Difference of Two Arrays",
+    "slug": "find-the-difference-of-two-arrays",
+    "acRate": 81.6,
+    "tags": [
+      "array",
+      "hash-table"
+    ]
+  },
+  {
+    "title": "Minimum Bit Flips to Convert Number",
+    "slug": "minimum-bit-flips-to-convert-number",
+    "acRate": 87.9,
+    "tags": [
+      "bit-manipulation"
+    ]
+  },
+  {
+    "title": "Minimum Number of Operations to Convert Time",
+    "slug": "minimum-number-of-operations-to-convert-time",
+    "acRate": 66.5,
+    "tags": [
+      "string",
+      "greedy"
+    ]
+  },
+  {
+    "title": "Largest Number After Digit Swaps by Parity",
+    "slug": "largest-number-after-digit-swaps-by-parity",
+    "acRate": 65.5,
+    "tags": [
+      "sorting",
+      "heap-priority-queue"
+    ]
+  },
+  {
+    "title": "Add Two Integers",
+    "slug": "add-two-integers",
+    "acRate": 88.1,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Root Equals Sum of Children",
+    "slug": "root-equals-sum-of-children",
+    "acRate": 85.1,
+    "tags": [
+      "tree",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Find Closest Number to Zero",
+    "slug": "find-closest-number-to-zero",
+    "acRate": 48.1,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Calculate Digit Sum of a String",
+    "slug": "calculate-digit-sum-of-a-string",
+    "acRate": 68,
+    "tags": [
+      "string",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Intersection of Multiple Arrays",
+    "slug": "intersection-of-multiple-arrays",
+    "acRate": 68.7,
+    "tags": [
+      "array",
+      "hash-table",
+      "sorting",
+      "counting"
+    ]
+  },
+  {
+    "title": "Count Prefixes of a Given String",
+    "slug": "count-prefixes-of-a-given-string",
+    "acRate": 74.3,
+    "tags": [
+      "array",
+      "string"
+    ]
+  },
+  {
+    "title": "Remove Digit From Number to Maximize Result",
+    "slug": "remove-digit-from-number-to-maximize-result",
+    "acRate": 48.8,
+    "tags": [
+      "string",
+      "greedy",
+      "enumeration"
+    ]
+  },
+  {
+    "title": "Largest 3-Same-Digit Number in String",
+    "slug": "largest-3-same-digit-number-in-string",
+    "acRate": 72.7,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Find the K-Beauty of a Number",
+    "slug": "find-the-k-beauty-of-a-number",
+    "acRate": 63.7,
+    "tags": [
+      "math",
+      "string",
+      "sliding-window"
+    ]
+  },
+  {
+    "title": "Find Resultant Array After Removing Anagrams",
+    "slug": "find-resultant-array-after-removing-anagrams",
+    "acRate": 70,
+    "tags": [
+      "array",
+      "hash-table",
+      "string",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Percentage of Letter in String",
+    "slug": "percentage-of-letter-in-string",
+    "acRate": 75.3,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Check if Number Has Equal Digit Count and Digit Value",
+    "slug": "check-if-number-has-equal-digit-count-and-digit-value",
+    "acRate": 73.2,
+    "tags": [
+      "hash-table",
+      "string",
+      "counting"
+    ]
+  },
+  {
+    "title": "Rearrange Characters to Make Target String",
+    "slug": "rearrange-characters-to-make-target-string",
+    "acRate": 63.1,
+    "tags": [
+      "hash-table",
+      "string",
+      "counting"
+    ]
+  },
+  {
+    "title": "Min Max Game",
+    "slug": "min-max-game",
+    "acRate": 64.5,
+    "tags": [
+      "array",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Strong Password Checker II",
+    "slug": "strong-password-checker-ii",
+    "acRate": 55.6,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Calculate Amount Paid in Taxes",
+    "slug": "calculate-amount-paid-in-taxes",
+    "acRate": 69.4,
+    "tags": [
+      "array",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Greatest English Letter in Upper and Lower Case",
+    "slug": "greatest-english-letter-in-upper-and-lower-case",
+    "acRate": 72.8,
+    "tags": [
+      "hash-table",
+      "string",
+      "enumeration"
+    ]
+  },
+  {
+    "title": "Count Asterisks",
+    "slug": "count-asterisks",
+    "acRate": 83.5,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Check if Matrix Is X-Matrix",
+    "slug": "check-if-matrix-is-x-matrix",
+    "acRate": 66.9,
+    "tags": [
+      "array",
+      "matrix"
+    ]
+  },
+  {
+    "title": "Decode the Message",
+    "slug": "decode-the-message",
+    "acRate": 85.9,
+    "tags": [
+      "hash-table",
+      "string"
+    ]
+  },
+  {
+    "title": "Evaluate Boolean Binary Tree",
+    "slug": "evaluate-boolean-binary-tree",
+    "acRate": 82.4,
+    "tags": [
+      "tree",
+      "depth-first-search",
+      "binary-tree"
+    ]
+  },
+  {
+    "title": "Minimum Amount of Time to Fill Cups",
+    "slug": "minimum-amount-of-time-to-fill-cups",
+    "acRate": 60.5,
+    "tags": [
+      "array",
+      "greedy",
+      "sorting",
+      "heap-priority-queue"
+    ]
+  },
+  {
+    "title": "Maximum Number of Pairs in Array",
+    "slug": "maximum-number-of-pairs-in-array",
+    "acRate": 76.2,
+    "tags": [
+      "array",
+      "hash-table",
+      "counting"
+    ]
+  },
+  {
+    "title": "Best Poker Hand",
+    "slug": "best-poker-hand",
+    "acRate": 61.9,
+    "tags": [
+      "array",
+      "hash-table",
+      "counting"
+    ]
+  },
+  {
+    "title": "First Letter to Appear Twice",
+    "slug": "first-letter-to-appear-twice",
+    "acRate": 75.1,
+    "tags": [
+      "hash-table",
+      "string",
+      "bit-manipulation",
+      "counting"
+    ]
+  },
+  {
+    "title": "Number of Unique Subjects Taught by Each Teacher",
+    "slug": "number-of-unique-subjects-taught-by-each-teacher",
+    "acRate": 89.3,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Make Array Zero by Subtracting Equal Amounts",
+    "slug": "make-array-zero-by-subtracting-equal-amounts",
+    "acRate": 73.9,
+    "tags": [
+      "array",
+      "hash-table",
+      "greedy",
+      "sorting",
+      "heap-priority-queue",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Merge Similar Items",
+    "slug": "merge-similar-items",
+    "acRate": 77.7,
+    "tags": [
+      "array",
+      "hash-table",
+      "sorting",
+      "ordered-set"
+    ]
+  },
+  {
+    "title": "Number of Arithmetic Triplets",
+    "slug": "number-of-arithmetic-triplets",
+    "acRate": 85.6,
+    "tags": [
+      "array",
+      "hash-table",
+      "two-pointers",
+      "enumeration"
+    ]
+  },
+  {
+    "title": "Largest Local Values in a Matrix",
+    "slug": "largest-local-values-in-a-matrix",
+    "acRate": 87.7,
+    "tags": [
+      "array",
+      "matrix"
+    ]
+  },
+  {
+    "title": "Minimum Recolors to Get K Consecutive Black Blocks",
+    "slug": "minimum-recolors-to-get-k-consecutive-black-blocks",
+    "acRate": 68.9,
+    "tags": [
+      "string",
+      "sliding-window"
+    ]
+  },
+  {
+    "title": "Minimum Hours of Training to Win a Competition",
+    "slug": "minimum-hours-of-training-to-win-a-competition",
+    "acRate": 42.7,
+    "tags": [
+      "array",
+      "greedy"
+    ]
+  },
+  {
+    "title": "Longest Subsequence With Limited Sum",
+    "slug": "longest-subsequence-with-limited-sum",
+    "acRate": 73.8,
+    "tags": [
+      "array",
+      "binary-search",
+      "greedy",
+      "sorting",
+      "prefix-sum"
+    ]
+  },
+  {
+    "title": "Find Subarrays With Equal Sum",
+    "slug": "find-subarrays-with-equal-sum",
+    "acRate": 67.3,
+    "tags": [
+      "array",
+      "hash-table"
+    ]
+  },
+  {
+    "title": "Check Distances Between Same Letters",
+    "slug": "check-distances-between-same-letters",
+    "acRate": 71.5,
+    "tags": [
+      "array",
+      "hash-table",
+      "string"
+    ]
+  },
+  {
+    "title": "Most Frequent Even Element",
+    "slug": "most-frequent-even-element",
+    "acRate": 54.1,
+    "tags": [
+      "array",
+      "hash-table",
+      "counting"
+    ]
+  },
+  {
+    "title": "Count Days Spent Together",
+    "slug": "count-days-spent-together",
+    "acRate": 48.4,
+    "tags": [
+      "math",
+      "string"
+    ]
+  },
+  {
+    "title": "Smallest Even Multiple",
+    "slug": "smallest-even-multiple",
+    "acRate": 88.5,
+    "tags": [
+      "math",
+      "number-theory"
+    ]
+  },
+  {
+    "title": "Sort the People",
+    "slug": "sort-the-people",
+    "acRate": 84.8,
+    "tags": [
+      "array",
+      "hash-table",
+      "string",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Remove Letter To Equalize Frequency",
+    "slug": "remove-letter-to-equalize-frequency",
+    "acRate": 19.6,
+    "tags": [
+      "hash-table",
+      "string",
+      "counting"
+    ]
+  },
+  {
+    "title": "Number of Common Factors",
+    "slug": "number-of-common-factors",
+    "acRate": 80.3,
+    "tags": [
+      "math",
+      "enumeration",
+      "number-theory",
+      "euclidean-algorithm",
+      "greatest-common-divisor"
+    ]
+  },
+  {
+    "title": "The Employee That Worked on the Longest Task",
+    "slug": "the-employee-that-worked-on-the-longest-task",
+    "acRate": 51.7,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Number of Valid Clock Times",
+    "slug": "number-of-valid-clock-times",
+    "acRate": 48.2,
+    "tags": [
+      "string",
+      "enumeration"
+    ]
+  },
+  {
+    "title": "Largest Positive Integer That Exists With Its Negative",
+    "slug": "largest-positive-integer-that-exists-with-its-negative",
+    "acRate": 74.5,
+    "tags": [
+      "array",
+      "hash-table",
+      "two-pointers",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Determine if Two Events Have Conflict",
+    "slug": "determine-if-two-events-have-conflict",
+    "acRate": 53.5,
+    "tags": [
+      "array",
+      "string"
+    ]
+  },
+  {
+    "title": "Odd String Difference",
+    "slug": "odd-string-difference",
+    "acRate": 62.2,
+    "tags": [
+      "array",
+      "hash-table",
+      "string"
+    ]
+  },
+  {
+    "title": "Average Value of Even Numbers That Are Divisible by Three",
+    "slug": "average-value-of-even-numbers-that-are-divisible-by-three",
+    "acRate": 63.5,
+    "tags": [
+      "array",
+      "math"
+    ]
+  },
+  {
+    "title": "Apply Operations to an Array",
+    "slug": "apply-operations-to-an-array",
+    "acRate": 74.8,
+    "tags": [
+      "array",
+      "two-pointers",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Number of Distinct Averages",
+    "slug": "number-of-distinct-averages",
+    "acRate": 59.1,
+    "tags": [
+      "array",
+      "hash-table",
+      "two-pointers",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Convert the Temperature",
+    "slug": "convert-the-temperature",
+    "acRate": 90.4,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Number of Unequal Triplets in Array",
+    "slug": "number-of-unequal-triplets-in-array",
+    "acRate": 73.5,
+    "tags": [
+      "array",
+      "hash-table",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Minimum Cuts to Divide a Circle",
+    "slug": "minimum-cuts-to-divide-a-circle",
+    "acRate": 56.6,
+    "tags": [
+      "math",
+      "geometry"
+    ]
+  },
+  {
+    "title": "Find the Pivot Integer",
+    "slug": "find-the-pivot-integer",
+    "acRate": 83.7,
+    "tags": [
+      "math",
+      "prefix-sum"
+    ]
+  },
+  {
+    "title": "Circular Sentence",
+    "slug": "circular-sentence",
+    "acRate": 70.1,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Maximum Value of a String in an Array",
+    "slug": "maximum-value-of-a-string-in-an-array",
+    "acRate": 74.4,
+    "tags": [
+      "array",
+      "string"
+    ]
+  },
+  {
+    "title": "Delete Greatest Value in Each Row",
+    "slug": "delete-greatest-value-in-each-row",
+    "acRate": 80.5,
+    "tags": [
+      "array",
+      "sorting",
+      "heap-priority-queue",
+      "matrix",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Count Pairs Of Similar Strings",
+    "slug": "count-pairs-of-similar-strings",
+    "acRate": 73.8,
+    "tags": [
+      "array",
+      "hash-table",
+      "string",
+      "bit-manipulation",
+      "counting"
+    ]
+  },
+  {
+    "title": "Maximum Enemy Forts That Can Be Captured",
+    "slug": "maximum-enemy-forts-that-can-be-captured",
+    "acRate": 41.7,
+    "tags": [
+      "array",
+      "two-pointers"
+    ]
+  },
+  {
+    "title": "Shortest Distance to Target String in a Circular Array",
+    "slug": "shortest-distance-to-target-string-in-a-circular-array",
+    "acRate": 65,
+    "tags": [
+      "array",
+      "string"
+    ]
+  },
+  {
+    "title": "Count the Digits That Divide a Number",
+    "slug": "count-the-digits-that-divide-a-number",
+    "acRate": 86.1,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Categorize Box According to Criteria",
+    "slug": "categorize-box-according-to-criteria",
+    "acRate": 40.6,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Maximum Count of Positive Integer and Negative Integer",
+    "slug": "maximum-count-of-positive-integer-and-negative-integer",
+    "acRate": 74.2,
+    "tags": [
+      "array",
+      "binary-search",
+      "counting"
+    ]
+  },
+  {
+    "title": "Difference Between Element Sum and Digit Sum of an Array",
+    "slug": "difference-between-element-sum-and-digit-sum-of-an-array",
+    "acRate": 85.4,
+    "tags": [
+      "array",
+      "math"
+    ]
+  },
+  {
+    "title": "Minimum Common Value",
+    "slug": "minimum-common-value",
+    "acRate": 60.7,
+    "tags": [
+      "array",
+      "hash-table",
+      "two-pointers",
+      "binary-search"
+    ]
+  },
+  {
+    "title": "Alternating Digit Sum",
+    "slug": "alternating-digit-sum",
+    "acRate": 69.6,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Count Distinct Numbers on Board",
+    "slug": "count-distinct-numbers-on-board",
+    "acRate": 61.8,
+    "tags": [
+      "array",
+      "hash-table",
+      "math",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Separate the Digits in an Array",
+    "slug": "separate-the-digits-in-an-array",
+    "acRate": 85.8,
+    "tags": [
+      "array",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Take Gifts From the Richest Pile",
+    "slug": "take-gifts-from-the-richest-pile",
+    "acRate": 75.5,
+    "tags": [
+      "array",
+      "heap-priority-queue",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Find the Array Concatenation Value",
+    "slug": "find-the-array-concatenation-value",
+    "acRate": 72.1,
+    "tags": [
+      "array",
+      "two-pointers",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Maximum Difference by Remapping a Digit",
+    "slug": "maximum-difference-by-remapping-a-digit",
+    "acRate": 75.5,
+    "tags": [
+      "math",
+      "greedy"
+    ]
+  },
+  {
+    "title": "Merge Two 2D Arrays by Summing Values",
+    "slug": "merge-two-2d-arrays-by-summing-values",
+    "acRate": 81.7,
+    "tags": [
+      "array",
+      "hash-table",
+      "two-pointers"
+    ]
+  },
+  {
+    "title": "Left and Right Sum Differences",
+    "slug": "left-and-right-sum-differences",
+    "acRate": 89.7,
+    "tags": [
+      "array",
+      "prefix-sum"
+    ]
+  },
+  {
+    "title": "Split With Minimum Sum",
+    "slug": "split-with-minimum-sum",
+    "acRate": 73.8,
+    "tags": [
+      "math",
+      "greedy",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Pass the Pillow",
+    "slug": "pass-the-pillow",
+    "acRate": 56.6,
+    "tags": [
+      "math",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Count the Number of Vowel Strings in Range",
+    "slug": "count-the-number-of-vowel-strings-in-range",
+    "acRate": 74.5,
+    "tags": [
+      "array",
+      "string",
+      "counting"
+    ]
+  },
+  {
+    "title": "Distribute Money to Maximum Children",
+    "slug": "distribute-money-to-maximum-children",
+    "acRate": 20.7,
+    "tags": [
+      "math",
+      "greedy"
+    ]
+  },
+  {
+    "title": "Number of Even and Odd Bits",
+    "slug": "number-of-even-and-odd-bits",
+    "acRate": 74,
+    "tags": [
+      "bit-manipulation"
+    ]
+  },
+  {
+    "title": "K Items With the Maximum Sum",
+    "slug": "k-items-with-the-maximum-sum",
+    "acRate": 60.3,
+    "tags": [
+      "math",
+      "greedy"
+    ]
+  },
+  {
+    "title": "Form Smallest Number From Two Digit Arrays",
+    "slug": "form-smallest-number-from-two-digit-arrays",
+    "acRate": 55.3,
+    "tags": [
+      "array",
+      "hash-table",
+      "enumeration"
+    ]
+  },
+  {
+    "title": "Find the Longest Balanced Substring of a Binary String",
+    "slug": "find-the-longest-balanced-substring-of-a-binary-string",
+    "acRate": 46.9,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Prime In Diagonal",
+    "slug": "prime-in-diagonal",
+    "acRate": 39,
+    "tags": [
+      "array",
+      "math",
+      "matrix",
+      "number-theory"
+    ]
+  },
+  {
+    "title": "Array Prototype Last",
+    "slug": "array-prototype-last",
+    "acRate": 74.7,
+    "tags": []
+  },
+  {
+    "title": "Counter",
+    "slug": "counter",
+    "acRate": 82.4,
+    "tags": []
+  },
+  {
+    "title": "Sleep",
+    "slug": "sleep",
+    "acRate": 87.3,
+    "tags": []
+  },
+  {
+    "title": "Array Reduce Transformation",
+    "slug": "array-reduce-transformation",
+    "acRate": 85.5,
+    "tags": []
+  },
+  {
+    "title": "Function Composition",
+    "slug": "function-composition",
+    "acRate": 86.8,
+    "tags": []
+  },
+  {
+    "title": "Filter Elements from Array",
+    "slug": "filter-elements-from-array",
+    "acRate": 85.5,
+    "tags": []
+  },
+  {
+    "title": "Apply Transform Over Each Element in Array",
+    "slug": "apply-transform-over-each-element-in-array",
+    "acRate": 86.2,
+    "tags": []
+  },
+  {
+    "title": "Find the Width of Columns of a Grid",
+    "slug": "find-the-width-of-columns-of-a-grid",
+    "acRate": 70.6,
+    "tags": [
+      "array",
+      "matrix"
+    ]
+  },
+  {
+    "title": "Row With Maximum Ones",
+    "slug": "row-with-maximum-ones",
+    "acRate": 74.6,
+    "tags": [
+      "array",
+      "matrix"
+    ]
+  },
+  {
+    "title": "Find the Maximum Divisibility Score",
+    "slug": "find-the-maximum-divisibility-score",
+    "acRate": 52.2,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Generate Fibonacci Sequence",
+    "slug": "generate-fibonacci-sequence",
+    "acRate": 83.6,
+    "tags": []
+  },
+  {
+    "title": "Calculate Delayed Arrival Time",
+    "slug": "calculate-delayed-arrival-time",
+    "acRate": 75.6,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Sum Multiples",
+    "slug": "sum-multiples",
+    "acRate": 86.4,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Maximum Sum With Exactly K Elements ",
+    "slug": "maximum-sum-with-exactly-k-elements",
+    "acRate": 80.2,
+    "tags": [
+      "array",
+      "greedy"
+    ]
+  },
+  {
+    "title": "Determine the Winner of a Bowling Game",
+    "slug": "determine-the-winner-of-a-bowling-game",
+    "acRate": 38,
+    "tags": [
+      "array",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Counter II",
+    "slug": "counter-ii",
+    "acRate": 81.2,
+    "tags": []
+  },
+  {
+    "title": "Allow One Function Call",
+    "slug": "allow-one-function-call",
+    "acRate": 86.6,
+    "tags": []
+  },
+  {
+    "title": "Create Hello World Function",
+    "slug": "create-hello-world-function",
+    "acRate": 81.9,
+    "tags": []
+  },
+  {
+    "title": "Find the Distinct Difference Array",
+    "slug": "find-the-distinct-difference-array",
+    "acRate": 76.8,
+    "tags": [
+      "array",
+      "hash-table"
+    ]
+  },
+  {
+    "title": "Chunk Array",
+    "slug": "chunk-array",
+    "acRate": 84.5,
+    "tags": []
+  },
+  {
+    "title": "Number of Senior Citizens",
+    "slug": "number-of-senior-citizens",
+    "acRate": 81.2,
+    "tags": [
+      "array",
+      "string"
+    ]
+  },
+  {
+    "title": "Find the Losers of the Circular Game",
+    "slug": "find-the-losers-of-the-circular-game",
+    "acRate": 50.5,
+    "tags": [
+      "array",
+      "hash-table",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Array Wrapper",
+    "slug": "array-wrapper",
+    "acRate": 89,
+    "tags": []
+  },
+  {
+    "title": "Minimum String Length After Removing Substrings",
+    "slug": "minimum-string-length-after-removing-substrings",
+    "acRate": 77.2,
+    "tags": [
+      "string",
+      "stack",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Lexicographically Smallest Palindrome",
+    "slug": "lexicographically-smallest-palindrome",
+    "acRate": 81.6,
+    "tags": [
+      "two-pointers",
+      "string",
+      "greedy"
+    ]
+  },
+  {
+    "title": "Return Length of Arguments Passed",
+    "slug": "return-length-of-arguments-passed",
+    "acRate": 94.4,
+    "tags": []
+  },
+  {
+    "title": "To Be Or Not To Be",
+    "slug": "to-be-or-not-to-be",
+    "acRate": 63.4,
+    "tags": []
+  },
+  {
+    "title": "Buy Two Chocolates",
+    "slug": "buy-two-chocolates",
+    "acRate": 68.4,
+    "tags": [
+      "array",
+      "greedy",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Remove Trailing Zeros From a String",
+    "slug": "remove-trailing-zeros-from-a-string",
+    "acRate": 79.9,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Timeout Cancellation",
+    "slug": "timeout-cancellation",
+    "acRate": 89.6,
+    "tags": []
+  },
+  {
+    "title": "Minimize String Length",
+    "slug": "minimize-string-length",
+    "acRate": 79.7,
+    "tags": [
+      "hash-table",
+      "string"
+    ]
+  },
+  {
+    "title": "Semi-Ordered Permutation",
+    "slug": "semi-ordered-permutation",
+    "acRate": 64.5,
+    "tags": [
+      "array",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Add Two Promises",
+    "slug": "add-two-promises",
+    "acRate": 91.7,
+    "tags": []
+  },
+  {
+    "title": "Sort By",
+    "slug": "sort-by",
+    "acRate": 83,
+    "tags": []
+  },
+  {
+    "title": "Interval Cancellation",
+    "slug": "interval-cancellation",
+    "acRate": 85,
+    "tags": []
+  },
+  {
+    "title": "Calculator with Method Chaining",
+    "slug": "calculator-with-method-chaining",
+    "acRate": 76.9,
+    "tags": []
+  },
+  {
+    "title": "Is Object Empty",
+    "slug": "is-object-empty",
+    "acRate": 82,
+    "tags": []
+  },
+  {
+    "title": "Check if The Number is Fascinating",
+    "slug": "check-if-the-number-is-fascinating",
+    "acRate": 53.3,
+    "tags": [
+      "hash-table",
+      "math"
+    ]
+  },
+  {
+    "title": "Neither Minimum nor Maximum",
+    "slug": "neither-minimum-nor-maximum",
+    "acRate": 76.5,
+    "tags": [
+      "array",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Total Distance Traveled",
+    "slug": "total-distance-traveled",
+    "acRate": 41.7,
+    "tags": [
+      "math",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Find Maximum Number of String Pairs",
+    "slug": "find-maximum-number-of-string-pairs",
+    "acRate": 82.4,
+    "tags": [
+      "array",
+      "hash-table",
+      "string",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Number of Beautiful Pairs",
+    "slug": "number-of-beautiful-pairs",
+    "acRate": 53.1,
+    "tags": [
+      "array",
+      "hash-table",
+      "math",
+      "counting",
+      "number-theory"
+    ]
+  },
+  {
+    "title": "Longest Even Odd Subarray With Threshold",
+    "slug": "longest-even-odd-subarray-with-threshold",
+    "acRate": 32.5,
+    "tags": [
+      "array",
+      "sliding-window"
+    ]
+  },
+  {
+    "title": "Longest Alternating Subarray",
+    "slug": "longest-alternating-subarray",
+    "acRate": 35.5,
+    "tags": [
+      "array",
+      "enumeration"
+    ]
+  },
+  {
+    "title": "Find the Maximum Achievable Number",
+    "slug": "find-the-maximum-achievable-number",
+    "acRate": 91.6,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Sum of Squares of Special Elements ",
+    "slug": "sum-of-squares-of-special-elements",
+    "acRate": 82.4,
+    "tags": [
+      "array",
+      "enumeration"
+    ]
+  },
+  {
+    "title": "Check if Array is Good",
+    "slug": "check-if-array-is-good",
+    "acRate": 57.3,
+    "tags": [
+      "array",
+      "hash-table",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Split Strings by Separator",
+    "slug": "split-strings-by-separator",
+    "acRate": 76.5,
+    "tags": [
+      "array",
+      "string"
+    ]
+  },
+  {
+    "title": "Number of Employees Who Met the Target",
+    "slug": "number-of-employees-who-met-the-target",
+    "acRate": 87.9,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Account Balance After Rounded Purchase",
+    "slug": "account-balance-after-rounded-purchase",
+    "acRate": 58,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Faulty Keyboard",
+    "slug": "faulty-keyboard",
+    "acRate": 80.6,
+    "tags": [
+      "string",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Max Pair Sum in an Array",
+    "slug": "max-pair-sum-in-an-array",
+    "acRate": 61.2,
+    "tags": [
+      "array",
+      "hash-table"
+    ]
+  },
+  {
+    "title": "Count Pairs Whose Sum is Less than Target",
+    "slug": "count-pairs-whose-sum-is-less-than-target",
+    "acRate": 87.8,
+    "tags": [
+      "array",
+      "two-pointers",
+      "binary-search",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Check if a String Is an Acronym of Words",
+    "slug": "check-if-a-string-is-an-acronym-of-words",
+    "acRate": 83.1,
+    "tags": [
+      "array",
+      "string"
+    ]
+  },
+  {
+    "title": "Furthest Point From Origin",
+    "slug": "furthest-point-from-origin",
+    "acRate": 77.2,
+    "tags": [
+      "string",
+      "counting"
+    ]
+  },
+  {
+    "title": "Check if Strings Can be Made Equal With Operations I",
+    "slug": "check-if-strings-can-be-made-equal-with-operations-i",
+    "acRate": 61.9,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "  Count Symmetric Integers",
+    "slug": "count-symmetric-integers",
+    "acRate": 83.2,
+    "tags": [
+      "math",
+      "enumeration"
+    ]
+  },
+  {
+    "title": "Points That Intersect With Cars",
+    "slug": "points-that-intersect-with-cars",
+    "acRate": 73.6,
+    "tags": [
+      "array",
+      "hash-table",
+      "prefix-sum"
+    ]
+  },
+  {
+    "title": "Minimum Right Shifts to Sort the Array",
+    "slug": "minimum-right-shifts-to-sort-the-array",
+    "acRate": 57.6,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Sum of Values at Indices With K Set Bits",
+    "slug": "sum-of-values-at-indices-with-k-set-bits",
+    "acRate": 85.8,
+    "tags": [
+      "array",
+      "bit-manipulation"
+    ]
+  },
+  {
+    "title": "Maximum Odd Binary Number",
+    "slug": "maximum-odd-binary-number",
+    "acRate": 83,
+    "tags": [
+      "math",
+      "string",
+      "greedy"
+    ]
+  },
+  {
+    "title": "Minimum Operations to Collect Elements",
+    "slug": "minimum-operations-to-collect-elements",
+    "acRate": 62.3,
+    "tags": [
+      "array",
+      "hash-table",
+      "bit-manipulation"
+    ]
+  },
+  {
+    "title": "Maximum Value of an Ordered Triplet I",
+    "slug": "maximum-value-of-an-ordered-triplet-i",
+    "acRate": 58.1,
+    "tags": [
+      "array",
+      "prefix-sum"
+    ]
+  },
+  {
+    "title": "Create a DataFrame from List",
+    "slug": "create-a-dataframe-from-list",
+    "acRate": 80.9,
+    "tags": []
+  },
+  {
+    "title": "Get the Size of a DataFrame",
+    "slug": "get-the-size-of-a-dataframe",
+    "acRate": 84.8,
+    "tags": []
+  },
+  {
+    "title": "Display the First Three Rows",
+    "slug": "display-the-first-three-rows",
+    "acRate": 93,
+    "tags": []
+  },
+  {
+    "title": "Select Data",
+    "slug": "select-data",
+    "acRate": 78.4,
+    "tags": []
+  },
+  {
+    "title": "Create a New Column",
+    "slug": "create-a-new-column",
+    "acRate": 90.2,
+    "tags": []
+  },
+  {
+    "title": "Drop Duplicate Rows",
+    "slug": "drop-duplicate-rows",
+    "acRate": 85.1,
+    "tags": []
+  },
+  {
+    "title": "Drop Missing Data",
+    "slug": "drop-missing-data",
+    "acRate": 64.7,
+    "tags": []
+  },
+  {
+    "title": "Modify Columns",
+    "slug": "modify-columns",
+    "acRate": 92.3,
+    "tags": []
+  },
+  {
+    "title": "Rename Columns",
+    "slug": "rename-columns",
+    "acRate": 85.3,
+    "tags": []
+  },
+  {
+    "title": "Change Data Type",
+    "slug": "change-data-type",
+    "acRate": 87.3,
+    "tags": []
+  },
+  {
+    "title": "Fill Missing Data",
+    "slug": "fill-missing-data",
+    "acRate": 72.6,
+    "tags": []
+  },
+  {
+    "title": "Reshape Data: Concatenate",
+    "slug": "reshape-data-concatenate",
+    "acRate": 90.4,
+    "tags": []
+  },
+  {
+    "title": "Reshape Data: Pivot",
+    "slug": "reshape-data-pivot",
+    "acRate": 82.9,
+    "tags": []
+  },
+  {
+    "title": "Reshape Data: Melt",
+    "slug": "reshape-data-melt",
+    "acRate": 85.9,
+    "tags": []
+  },
+  {
+    "title": "Method Chaining",
+    "slug": "method-chaining",
+    "acRate": 76.2,
+    "tags": []
+  },
+  {
+    "title": "Divisible and Non-divisible Sums Difference",
+    "slug": "divisible-and-non-divisible-sums-difference",
+    "acRate": 91.1,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Last Visited Integers",
+    "slug": "last-visited-integers",
+    "acRate": 62.6,
+    "tags": [
+      "array",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Longest Unequal Adjacent Groups Subsequence I",
+    "slug": "longest-unequal-adjacent-groups-subsequence-i",
+    "acRate": 66.8,
+    "tags": [
+      "array",
+      "string",
+      "dynamic-programming",
+      "greedy"
+    ]
+  },
+  {
+    "title": "Find Indices With Index and Value Difference I",
+    "slug": "find-indices-with-index-and-value-difference-i",
+    "acRate": 60.1,
+    "tags": [
+      "array",
+      "two-pointers"
+    ]
+  },
+  {
+    "title": "Minimum Sum of Mountain Triplets I",
+    "slug": "minimum-sum-of-mountain-triplets-i",
+    "acRate": 67.9,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Subarrays Distinct Element Sum of Squares I",
+    "slug": "subarrays-distinct-element-sum-of-squares-i",
+    "acRate": 80.5,
+    "tags": [
+      "array",
+      "hash-table",
+      "segment-tree"
+    ]
+  },
+  {
+    "title": "Find the K-or of an Array",
+    "slug": "find-the-k-or-of-an-array",
+    "acRate": 73.1,
+    "tags": [
+      "array",
+      "bit-manipulation"
+    ]
+  },
+  {
+    "title": "Find Champion I",
+    "slug": "find-champion-i",
+    "acRate": 73.1,
+    "tags": [
+      "array",
+      "matrix"
+    ]
+  },
+  {
+    "title": "Distribute Candies Among Children I",
+    "slug": "distribute-candies-among-children-i",
+    "acRate": 76.7,
+    "tags": [
+      "math",
+      "combinatorics",
+      "enumeration"
+    ]
+  },
+  {
+    "title": "Maximum Strong Pair XOR I",
+    "slug": "maximum-strong-pair-xor-i",
+    "acRate": 76.4,
+    "tags": [
+      "array",
+      "hash-table",
+      "bit-manipulation",
+      "trie",
+      "sliding-window"
+    ]
+  },
+  {
+    "title": "Make Three Strings Equal",
+    "slug": "make-three-strings-equal",
+    "acRate": 45.3,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Find Words Containing Character",
+    "slug": "find-words-containing-character",
+    "acRate": 90.4,
+    "tags": [
+      "array",
+      "string"
+    ]
+  },
+  {
+    "title": "Matrix Similarity After Cyclic Shifts",
+    "slug": "matrix-similarity-after-cyclic-shifts",
+    "acRate": 74.4,
+    "tags": [
+      "array",
+      "math",
+      "matrix",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Find the Peaks",
+    "slug": "find-the-peaks",
+    "acRate": 75.1,
+    "tags": [
+      "array",
+      "enumeration"
+    ]
+  },
+  {
+    "title": "Find Common Elements Between Two Arrays",
+    "slug": "find-common-elements-between-two-arrays",
+    "acRate": 84.7,
+    "tags": [
+      "array",
+      "hash-table"
+    ]
+  },
+  {
+    "title": "Count Tested Devices After Test Operations",
+    "slug": "count-tested-devices-after-test-operations",
+    "acRate": 78.5,
+    "tags": [
+      "array",
+      "simulation",
+      "counting"
+    ]
+  },
+  {
+    "title": "Find Missing and Repeated Values",
+    "slug": "find-missing-and-repeated-values",
+    "acRate": 83,
+    "tags": [
+      "array",
+      "hash-table",
+      "math",
+      "matrix"
+    ]
+  },
+  {
+    "title": "Count the Number of Incremovable Subarrays I",
+    "slug": "count-the-number-of-incremovable-subarrays-i",
+    "acRate": 56.4,
+    "tags": [
+      "array",
+      "two-pointers",
+      "binary-search",
+      "enumeration"
+    ]
+  },
+  {
+    "title": "Minimum Number Game",
+    "slug": "minimum-number-game",
+    "acRate": 85.7,
+    "tags": [
+      "array",
+      "sorting",
+      "heap-priority-queue",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Check if Bitwise OR Has Trailing Zeros",
+    "slug": "check-if-bitwise-or-has-trailing-zeros",
+    "acRate": 71.6,
+    "tags": [
+      "array",
+      "bit-manipulation"
+    ]
+  },
+  {
+    "title": "Smallest Missing Integer Greater Than Sequential Prefix Sum",
+    "slug": "smallest-missing-integer-greater-than-sequential-prefix-sum",
+    "acRate": 49.2,
+    "tags": [
+      "array",
+      "hash-table",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Maximum Area of Longest Diagonal Rectangle",
+    "slug": "maximum-area-of-longest-diagonal-rectangle",
+    "acRate": 46,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Count Elements With Maximum Frequency",
+    "slug": "count-elements-with-maximum-frequency",
+    "acRate": 79.7,
+    "tags": [
+      "array",
+      "hash-table",
+      "counting"
+    ]
+  },
+  {
+    "title": "Divide an Array Into Subarrays With Minimum Cost I",
+    "slug": "divide-an-array-into-subarrays-with-minimum-cost-i",
+    "acRate": 80.6,
+    "tags": [
+      "array",
+      "sorting",
+      "enumeration"
+    ]
+  },
+  {
+    "title": "Minimum Number of Pushes to Type Word I",
+    "slug": "minimum-number-of-pushes-to-type-word-i",
+    "acRate": 77.4,
+    "tags": [
+      "math",
+      "string",
+      "greedy"
+    ]
+  },
+  {
+    "title": "Number of Changing Keys",
+    "slug": "number-of-changing-keys",
+    "acRate": 81,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Type of Triangle",
+    "slug": "type-of-triangle",
+    "acRate": 44,
+    "tags": [
+      "array",
+      "math",
+      "sorting",
+      "polygons"
+    ]
+  },
+  {
+    "title": "Ant on the Boundary",
+    "slug": "ant-on-the-boundary",
+    "acRate": 74.3,
+    "tags": [
+      "array",
+      "simulation",
+      "prefix-sum"
+    ]
+  },
+  {
+    "title": "Modify the Matrix",
+    "slug": "modify-the-matrix",
+    "acRate": 69,
+    "tags": [
+      "array",
+      "matrix"
+    ]
+  },
+  {
+    "title": "Maximum Number of Operations With the Same Score I",
+    "slug": "maximum-number-of-operations-with-the-same-score-i",
+    "acRate": 52.9,
+    "tags": [
+      "array",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Count Prefix and Suffix Pairs I",
+    "slug": "count-prefix-and-suffix-pairs-i",
+    "acRate": 77.7,
+    "tags": [
+      "array",
+      "string",
+      "trie",
+      "rolling-hash",
+      "string-matching",
+      "hash-function"
+    ]
+  },
+  {
+    "title": "Split the Array",
+    "slug": "split-the-array",
+    "acRate": 61.8,
+    "tags": [
+      "array",
+      "hash-table",
+      "counting"
+    ]
+  },
+  {
+    "title": "Minimum Operations to Exceed Threshold Value I",
+    "slug": "minimum-operations-to-exceed-threshold-value-i",
+    "acRate": 87,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Distribute Elements Into Two Arrays I",
+    "slug": "distribute-elements-into-two-arrays-i",
+    "acRate": 73.8,
+    "tags": [
+      "array",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Apple Redistribution into Boxes",
+    "slug": "apple-redistribution-into-boxes",
+    "acRate": 78.4,
+    "tags": [
+      "array",
+      "greedy",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Find the Sum of Encrypted Integers",
+    "slug": "find-the-sum-of-encrypted-integers",
+    "acRate": 75.4,
+    "tags": [
+      "array",
+      "math"
+    ]
+  },
+  {
+    "title": "Existence of a Substring in a String and Its Reverse",
+    "slug": "existence-of-a-substring-in-a-string-and-its-reverse",
+    "acRate": 66.8,
+    "tags": [
+      "hash-table",
+      "string"
+    ]
+  },
+  {
+    "title": "Maximum Length Substring With Two Occurrences",
+    "slug": "maximum-length-substring-with-two-occurrences",
+    "acRate": 66.1,
+    "tags": [
+      "hash-table",
+      "string",
+      "sliding-window"
+    ]
+  },
+  {
+    "title": "Shortest Subarray With OR at Least K I",
+    "slug": "shortest-subarray-with-or-at-least-k-i",
+    "acRate": 45,
+    "tags": [
+      "array",
+      "bit-manipulation",
+      "sliding-window"
+    ]
+  },
+  {
+    "title": "Harshad Number",
+    "slug": "harshad-number",
+    "acRate": 83.5,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Longest Strictly Increasing or Strictly Decreasing Subarray",
+    "slug": "longest-strictly-increasing-or-strictly-decreasing-subarray",
+    "acRate": 64.9,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Score of a String",
+    "slug": "score-of-a-string",
+    "acRate": 91.3,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Latest Time You Can Obtain After Replacing Characters",
+    "slug": "latest-time-you-can-obtain-after-replacing-characters",
+    "acRate": 35.5,
+    "tags": [
+      "string",
+      "enumeration"
+    ]
+  },
+  {
+    "title": "Count the Number of Special Characters I",
+    "slug": "count-the-number-of-special-characters-i",
+    "acRate": 77.3,
+    "tags": [
+      "hash-table",
+      "string"
+    ]
+  },
+  {
+    "title": "Make a Square with the Same Color",
+    "slug": "make-a-square-with-the-same-color",
+    "acRate": 53,
+    "tags": [
+      "array",
+      "matrix",
+      "enumeration"
+    ]
+  },
+  {
+    "title": "Find the Integer Added to Array I",
+    "slug": "find-the-integer-added-to-array-i",
+    "acRate": 82.7,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Valid Word",
+    "slug": "valid-word",
+    "acRate": 50.8,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Check if Grid Satisfies Conditions",
+    "slug": "check-if-grid-satisfies-conditions",
+    "acRate": 45.9,
+    "tags": [
+      "array",
+      "matrix"
+    ]
+  },
+  {
+    "title": "Permutation Difference between Two Strings",
+    "slug": "permutation-difference-between-two-strings",
+    "acRate": 88,
+    "tags": [
+      "hash-table",
+      "string"
+    ]
+  },
+  {
+    "title": "Special Array I",
+    "slug": "special-array-i",
+    "acRate": 81.6,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Find the XOR of Numbers Which Appear Twice",
+    "slug": "find-the-xor-of-numbers-which-appear-twice",
+    "acRate": 79.3,
+    "tags": [
+      "array",
+      "hash-table",
+      "bit-manipulation"
+    ]
+  },
+  {
+    "title": "Find the Number of Good Pairs I",
+    "slug": "find-the-number-of-good-pairs-i",
+    "acRate": 86.7,
+    "tags": [
+      "array",
+      "hash-table"
+    ]
+  },
+  {
+    "title": "Minimum Number of Chairs in a Waiting Room",
+    "slug": "minimum-number-of-chairs-in-a-waiting-room",
+    "acRate": 79.6,
+    "tags": [
+      "string",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Clear Digits",
+    "slug": "clear-digits",
+    "acRate": 82.7,
+    "tags": [
+      "string",
+      "stack",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Find the Child Who Has the Ball After K Seconds",
+    "slug": "find-the-child-who-has-the-ball-after-k-seconds",
+    "acRate": 62.2,
+    "tags": [
+      "math",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Count Pairs That Form a Complete Day I",
+    "slug": "count-pairs-that-form-a-complete-day-i",
+    "acRate": 77.9,
+    "tags": [
+      "array",
+      "hash-table",
+      "counting"
+    ]
+  },
+  {
+    "title": "Find Minimum Operations to Make All Elements Divisible by Three",
+    "slug": "find-minimum-operations-to-make-all-elements-divisible-by-three",
+    "acRate": 90.6,
+    "tags": [
+      "array",
+      "math"
+    ]
+  },
+  {
+    "title": "Minimum Average of Smallest and Largest Elements",
+    "slug": "minimum-average-of-smallest-and-largest-elements",
+    "acRate": 85.5,
+    "tags": [
+      "array",
+      "two-pointers",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Maximum Height of a Triangle",
+    "slug": "maximum-height-of-a-triangle",
+    "acRate": 44.7,
+    "tags": [
+      "array",
+      "enumeration"
+    ]
+  },
+  {
+    "title": "Alternating Groups I",
+    "slug": "alternating-groups-i",
+    "acRate": 69.4,
+    "tags": [
+      "array",
+      "sliding-window"
+    ]
+  },
+  {
+    "title": "Find the Encrypted String",
+    "slug": "find-the-encrypted-string",
+    "acRate": 68.4,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Lexicographically Smallest String After a Swap",
+    "slug": "lexicographically-smallest-string-after-a-swap",
+    "acRate": 54.9,
+    "tags": [
+      "string",
+      "greedy"
+    ]
+  },
+  {
+    "title": "Find the Winning Player in Coin Game",
+    "slug": "find-the-winning-player-in-coin-game",
+    "acRate": 54,
+    "tags": [
+      "math",
+      "simulation",
+      "game-theory"
+    ]
+  },
+  {
+    "title": "Number of Bit Changes to Make Two Integers Equal",
+    "slug": "number-of-bit-changes-to-make-two-integers-equal",
+    "acRate": 63.4,
+    "tags": [
+      "bit-manipulation"
+    ]
+  },
+  {
+    "title": "Find if Digit Game Can Be Won",
+    "slug": "find-if-digit-game-can-be-won",
+    "acRate": 81.7,
+    "tags": [
+      "array",
+      "math"
+    ]
+  },
+  {
+    "title": "Find the Number of Winning Players",
+    "slug": "find-the-number-of-winning-players",
+    "acRate": 60.9,
+    "tags": [
+      "array",
+      "hash-table",
+      "counting"
+    ]
+  },
+  {
+    "title": "Design Neighbor Sum Service",
+    "slug": "design-neighbor-sum-service",
+    "acRate": 76,
+    "tags": [
+      "array",
+      "hash-table",
+      "design",
+      "matrix",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Snake in Matrix",
+    "slug": "snake-in-matrix",
+    "acRate": 82.5,
+    "tags": [
+      "array",
+      "string",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Count Substrings That Satisfy K-Constraint I",
+    "slug": "count-substrings-that-satisfy-k-constraint-i",
+    "acRate": 79.4,
+    "tags": [
+      "string",
+      "sliding-window"
+    ]
+  },
+  {
+    "title": "Final Array State After K Multiplication Operations I",
+    "slug": "final-array-state-after-k-multiplication-operations-i",
+    "acRate": 86.9,
+    "tags": [
+      "array",
+      "math",
+      "heap-priority-queue",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Find the Key of the Numbers",
+    "slug": "find-the-key-of-the-numbers",
+    "acRate": 76.7,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Check if Two Chessboard Squares Have the Same Color",
+    "slug": "check-if-two-chessboard-squares-have-the-same-color",
+    "acRate": 72.2,
+    "tags": [
+      "math",
+      "string"
+    ]
+  },
+  {
+    "title": "Convert Date to Binary",
+    "slug": "convert-date-to-binary",
+    "acRate": 88.5,
+    "tags": [
+      "math",
+      "string"
+    ]
+  },
+  {
+    "title": "Find Indices of Stable Mountains",
+    "slug": "find-indices-of-stable-mountains",
+    "acRate": 87.2,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "The Two Sneaky Numbers of Digitville",
+    "slug": "the-two-sneaky-numbers-of-digitville",
+    "acRate": 89.8,
+    "tags": [
+      "array",
+      "hash-table",
+      "math"
+    ]
+  },
+  {
+    "title": "Minimum Element After Replacement With Digit Sum",
+    "slug": "minimum-element-after-replacement-with-digit-sum",
+    "acRate": 89.6,
+    "tags": [
+      "array",
+      "math"
+    ]
+  },
+  {
+    "title": "Find the K-th Character in String Game I",
+    "slug": "find-the-k-th-character-in-string-game-i",
+    "acRate": 81.6,
+    "tags": [
+      "math",
+      "bit-manipulation",
+      "recursion",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Construct the Minimum Bitwise Array I",
+    "slug": "construct-the-minimum-bitwise-array-i",
+    "acRate": 85,
+    "tags": [
+      "array",
+      "bit-manipulation"
+    ]
+  },
+  {
+    "title": "Find X-Sum of All K-Long Subarrays I",
+    "slug": "find-x-sum-of-all-k-long-subarrays-i",
+    "acRate": 76.1,
+    "tags": [
+      "array",
+      "hash-table",
+      "sliding-window",
+      "heap-priority-queue"
+    ]
+  },
+  {
+    "title": "Find the Original Typed String I",
+    "slug": "find-the-original-typed-string-i",
+    "acRate": 72.1,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Check Balanced String",
+    "slug": "check-balanced-string",
+    "acRate": 83.1,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Smallest Divisible Digit Product I",
+    "slug": "smallest-divisible-digit-product-i",
+    "acRate": 73.1,
+    "tags": [
+      "math",
+      "enumeration"
+    ]
+  },
+  {
+    "title": "Adjacent Increasing Subarrays Detection I",
+    "slug": "adjacent-increasing-subarrays-detection-i",
+    "acRate": 48,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Make Array Elements Equal to Zero",
+    "slug": "make-array-elements-equal-to-zero",
+    "acRate": 68.1,
+    "tags": [
+      "array",
+      "simulation",
+      "prefix-sum"
+    ]
+  },
+  {
+    "title": "Stone Removal Game",
+    "slug": "stone-removal-game",
+    "acRate": 42.9,
+    "tags": [
+      "math",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Minimum Positive Sum Subarray ",
+    "slug": "minimum-positive-sum-subarray",
+    "acRate": 45.5,
+    "tags": [
+      "array",
+      "sliding-window",
+      "prefix-sum"
+    ]
+  },
+  {
+    "title": "Smallest Number With All Set Bits",
+    "slug": "smallest-number-with-all-set-bits",
+    "acRate": 80.1,
+    "tags": [
+      "math",
+      "bit-manipulation"
+    ]
+  },
+  {
+    "title": "Minimum Operations to Make Array Values Equal to K",
+    "slug": "minimum-operations-to-make-array-values-equal-to-k",
+    "acRate": 73.2,
+    "tags": [
+      "array",
+      "hash-table"
+    ]
+  },
+  {
+    "title": "Transformed Array",
+    "slug": "transformed-array",
+    "acRate": 70.6,
+    "tags": [
+      "array",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Button with Longest Push Time",
+    "slug": "button-with-longest-push-time",
+    "acRate": 41.1,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Count Subarrays of Length Three With a Condition",
+    "slug": "count-subarrays-of-length-three-with-a-condition",
+    "acRate": 61.4,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Minimum Number of Operations to Make Elements in Array Distinct",
+    "slug": "minimum-number-of-operations-to-make-elements-in-array-distinct",
+    "acRate": 71.3,
+    "tags": [
+      "array",
+      "hash-table"
+    ]
+  },
+  {
+    "title": "Minimum Operations to Make Columns Strictly Increasing",
+    "slug": "minimum-operations-to-make-columns-strictly-increasing",
+    "acRate": 72.8,
+    "tags": [
+      "array",
+      "greedy",
+      "matrix"
+    ]
+  },
+  {
+    "title": "Substring Matching Pattern",
+    "slug": "substring-matching-pattern",
+    "acRate": 29.2,
+    "tags": [
+      "string",
+      "string-matching"
+    ]
+  },
+  {
+    "title": "Maximum Subarray With Equal Products",
+    "slug": "maximum-subarray-with-equal-products",
+    "acRate": 47.3,
+    "tags": [
+      "array",
+      "math",
+      "sliding-window",
+      "enumeration",
+      "number-theory"
+    ]
+  },
+  {
+    "title": "Zigzag Grid Traversal With Skip",
+    "slug": "zigzag-grid-traversal-with-skip",
+    "acRate": 65.7,
+    "tags": [
+      "array",
+      "matrix",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Maximum Difference Between Adjacent Elements in a Circular Array",
+    "slug": "maximum-difference-between-adjacent-elements-in-a-circular-array",
+    "acRate": 75.6,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Sum of Variable Length Subarrays",
+    "slug": "sum-of-variable-length-subarrays",
+    "acRate": 85.9,
+    "tags": [
+      "array",
+      "prefix-sum"
+    ]
+  },
+  {
+    "title": "Count Partitions with Even Sum Difference",
+    "slug": "count-partitions-with-even-sum-difference",
+    "acRate": 85.1,
+    "tags": [
+      "array",
+      "math",
+      "prefix-sum"
+    ]
+  },
+  {
+    "title": "Find Valid Emails",
+    "slug": "find-valid-emails",
+    "acRate": 43.3,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Find Valid Pair of Adjacent Digits in String",
+    "slug": "find-valid-pair-of-adjacent-digits-in-string",
+    "acRate": 61.2,
+    "tags": [
+      "hash-table",
+      "string",
+      "counting"
+    ]
+  },
+  {
+    "title": "Maximum Difference Between Even and Odd Frequency I",
+    "slug": "maximum-difference-between-even-and-odd-frequency-i",
+    "acRate": 60.8,
+    "tags": [
+      "hash-table",
+      "string",
+      "counting"
+    ]
+  },
+  {
+    "title": "Sum of Good Numbers",
+    "slug": "sum-of-good-numbers",
+    "acRate": 69.9,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Find Special Substring of Length K",
+    "slug": "find-special-substring-of-length-k",
+    "acRate": 35.3,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Check If Digits Are Equal in String After Operations I",
+    "slug": "check-if-digits-are-equal-in-string-after-operations-i",
+    "acRate": 82.5,
+    "tags": [
+      "math",
+      "string",
+      "simulation",
+      "combinatorics",
+      "number-theory"
+    ]
+  },
+  {
+    "title": "Find Products with Valid Serial Numbers",
+    "slug": "find-products-with-valid-serial-numbers",
+    "acRate": 28.8,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Transform Array by Parity",
+    "slug": "transform-array-by-parity",
+    "acRate": 89.9,
+    "tags": [
+      "array",
+      "sorting",
+      "counting"
+    ]
+  },
+  {
+    "title": "Find the Largest Almost Missing Integer",
+    "slug": "find-the-largest-almost-missing-integer",
+    "acRate": 37.5,
+    "tags": [
+      "array",
+      "hash-table"
+    ]
+  },
+  {
+    "title": "Fruits Into Baskets II",
+    "slug": "fruits-into-baskets-ii",
+    "acRate": 70.3,
+    "tags": [
+      "array",
+      "binary-search",
+      "segment-tree",
+      "simulation",
+      "ordered-set"
+    ]
+  },
+  {
+    "title": "Unique 3-Digit Even Numbers",
+    "slug": "unique-3-digit-even-numbers",
+    "acRate": 70.4,
+    "tags": [
+      "array",
+      "hash-table",
+      "recursion",
+      "enumeration"
+    ]
+  },
+  {
+    "title": "Maximum Unique Subarray Sum After Deletion",
+    "slug": "maximum-unique-subarray-sum-after-deletion",
+    "acRate": 40.5,
+    "tags": [
+      "array",
+      "hash-table",
+      "greedy"
+    ]
+  },
+  {
+    "title": "Maximum Containers on a Ship",
+    "slug": "maximum-containers-on-a-ship",
+    "acRate": 74.8,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Reverse Degree of a String",
+    "slug": "reverse-degree-of-a-string",
+    "acRate": 88.9,
+    "tags": [
+      "string",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Minimum Cost to Reach Every Position",
+    "slug": "minimum-cost-to-reach-every-position",
+    "acRate": 83.7,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Minimum Pair Removal to Sort Array I",
+    "slug": "minimum-pair-removal-to-sort-array-i",
+    "acRate": 65.3,
+    "tags": [
+      "array",
+      "hash-table",
+      "linked-list",
+      "heap-priority-queue",
+      "simulation",
+      "doubly-linked-list",
+      "ordered-set"
+    ]
+  },
+  {
+    "title": "Minimum Operations to Make Array Sum Divisible by K",
+    "slug": "minimum-operations-to-make-array-sum-divisible-by-k",
+    "acRate": 92.3,
+    "tags": [
+      "array",
+      "math"
+    ]
+  },
+  {
+    "title": "Find Closest Person",
+    "slug": "find-closest-person",
+    "acRate": 89,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Maximum Product of Two Digits",
+    "slug": "maximum-product-of-two-digits",
+    "acRate": 75.7,
+    "tags": [
+      "math",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Find Most Frequent Vowel and Consonant",
+    "slug": "find-most-frequent-vowel-and-consonant",
+    "acRate": 89.3,
+    "tags": [
+      "hash-table",
+      "string",
+      "counting"
+    ]
+  },
+  {
+    "title": "Minimum Deletions for At Most K Distinct Characters",
+    "slug": "minimum-deletions-for-at-most-k-distinct-characters",
+    "acRate": 73.3,
+    "tags": [
+      "hash-table",
+      "string",
+      "greedy",
+      "sorting",
+      "counting"
+    ]
+  },
+  {
+    "title": "Smallest Index With Digit Sum Equal to Index",
+    "slug": "smallest-index-with-digit-sum-equal-to-index",
+    "acRate": 80.5,
+    "tags": [
+      "array",
+      "math"
+    ]
+  },
+  {
+    "title": "Find Minimum Log Transportation Cost",
+    "slug": "find-minimum-log-transportation-cost",
+    "acRate": 42.7,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Find Books with No Available Copies",
+    "slug": "find-books-with-no-available-copies",
+    "acRate": 54.5,
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "title": "Generate Tag for Video Caption",
+    "slug": "generate-tag-for-video-caption",
+    "acRate": 32.7,
+    "tags": [
+      "string",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Check if Any Element Has Prime Frequency",
+    "slug": "check-if-any-element-has-prime-frequency",
+    "acRate": 62.2,
+    "tags": [
+      "array",
+      "hash-table",
+      "math",
+      "counting",
+      "number-theory"
+    ]
+  },
+  {
+    "title": "Hexadecimal and Hexatrigesimal Conversion",
+    "slug": "hexadecimal-and-hexatrigesimal-conversion",
+    "acRate": 81,
+    "tags": [
+      "math",
+      "string"
+    ]
+  },
+  {
+    "title": "Coupon Code Validator",
+    "slug": "coupon-code-validator",
+    "acRate": 64.7,
+    "tags": [
+      "array",
+      "hash-table",
+      "string",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Check Divisibility by Digit Sum and Product",
+    "slug": "check-divisibility-by-digit-sum-and-product",
+    "acRate": 69.6,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Earliest Finish Time for Land and Water Rides I",
+    "slug": "earliest-finish-time-for-land-and-water-rides-i",
+    "acRate": 73,
+    "tags": [
+      "array",
+      "two-pointers",
+      "binary-search",
+      "greedy",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Trionic Array I",
+    "slug": "trionic-array-i",
+    "acRate": 49.5,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Flip Square Submatrix Vertically",
+    "slug": "flip-square-submatrix-vertically",
+    "acRate": 79.1,
+    "tags": [
+      "array",
+      "two-pointers",
+      "matrix"
+    ]
+  },
+  {
+    "title": "GCD of Odd and Even Sums",
+    "slug": "gcd-of-odd-and-even-sums",
+    "acRate": 89.9,
+    "tags": [
+      "math",
+      "number-theory"
+    ]
+  },
+  {
+    "title": "Find The Least Frequent Digit",
+    "slug": "find-the-least-frequent-digit",
+    "acRate": 69.7,
+    "tags": [
+      "array",
+      "hash-table",
+      "math",
+      "counting"
+    ]
+  },
+  {
+    "title": "Restore Finishing Order",
+    "slug": "restore-finishing-order",
+    "acRate": 91.4,
+    "tags": [
+      "array",
+      "hash-table"
+    ]
+  },
+  {
+    "title": "Minimum Operations to Equalize Array",
+    "slug": "minimum-operations-to-equalize-array",
+    "acRate": 60.9,
+    "tags": [
+      "array",
+      "bit-manipulation",
+      "brainteaser"
+    ]
+  },
+  {
+    "title": "Smallest Absent Positive Greater Than Average",
+    "slug": "smallest-absent-positive-greater-than-average",
+    "acRate": 34.5,
+    "tags": [
+      "array",
+      "hash-table"
+    ]
+  },
+  {
+    "title": "Earliest Time to Finish One Task",
+    "slug": "earliest-time-to-finish-one-task",
+    "acRate": 84.9,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Maximize Sum of At Most K Distinct Elements",
+    "slug": "maximize-sum-of-at-most-k-distinct-elements",
+    "acRate": 76.7,
+    "tags": [
+      "array",
+      "hash-table",
+      "greedy",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Bitwise OR of Even Numbers in an Array",
+    "slug": "bitwise-or-of-even-numbers-in-an-array",
+    "acRate": 85.3,
+    "tags": [
+      "array",
+      "bit-manipulation",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Majority Frequency Characters",
+    "slug": "majority-frequency-characters",
+    "acRate": 67.3,
+    "tags": [
+      "hash-table",
+      "string",
+      "counting"
+    ]
+  },
+  {
+    "title": "Compute Decimal Representation",
+    "slug": "compute-decimal-representation",
+    "acRate": 64.9,
+    "tags": [
+      "array",
+      "math"
+    ]
+  },
+  {
+    "title": "Compute Alternating Sum",
+    "slug": "compute-alternating-sum",
+    "acRate": 90.3,
+    "tags": [
+      "array",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Equal Score Substrings",
+    "slug": "equal-score-substrings",
+    "acRate": 57,
+    "tags": [
+      "string",
+      "prefix-sum"
+    ]
+  },
+  {
+    "title": "Sum of Elements With Frequency Divisible by K",
+    "slug": "sum-of-elements-with-frequency-divisible-by-k",
+    "acRate": 78.4,
+    "tags": [
+      "array",
+      "hash-table",
+      "counting"
+    ]
+  },
+  {
+    "title": "Smallest Missing Multiple of K",
+    "slug": "smallest-missing-multiple-of-k",
+    "acRate": 62.9,
+    "tags": [
+      "array",
+      "hash-table"
+    ]
+  },
+  {
+    "title": "Remove Zeros in Decimal Representation",
+    "slug": "remove-zeros-in-decimal-representation",
+    "acRate": 76.6,
+    "tags": [
+      "math",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Find Missing Elements",
+    "slug": "find-missing-elements",
+    "acRate": 88.6,
+    "tags": [
+      "array",
+      "hash-table",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Minimum Moves to Equal Array Elements III",
+    "slug": "minimum-moves-to-equal-array-elements-iii",
+    "acRate": 82.4,
+    "tags": [
+      "array",
+      "math"
+    ]
+  },
+  {
+    "title": "Minimum Distance Between Three Equal Elements I",
+    "slug": "minimum-distance-between-three-equal-elements-i",
+    "acRate": 73.4,
+    "tags": [
+      "array",
+      "hash-table"
+    ]
+  },
+  {
+    "title": "Maximize Expression of Three Elements",
+    "slug": "maximize-expression-of-three-elements",
+    "acRate": 73,
+    "tags": [
+      "array",
+      "greedy",
+      "sorting",
+      "enumeration"
+    ]
+  },
+  {
+    "title": "Minimum Number of Flips to Reverse Binary String",
+    "slug": "minimum-number-of-flips-to-reverse-binary-string",
+    "acRate": 77,
+    "tags": [
+      "math",
+      "two-pointers",
+      "string",
+      "bit-manipulation"
+    ]
+  },
+  {
+    "title": "Concatenate Non-Zero Digits and Multiply by Sum I",
+    "slug": "concatenate-non-zero-digits-and-multiply-by-sum-i",
+    "acRate": 66.2,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Sort Integers by Binary Reflection",
+    "slug": "sort-integers-by-binary-reflection",
+    "acRate": 61.3,
+    "tags": [
+      "array",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Absolute Difference Between Maximum and Minimum K Elements",
+    "slug": "absolute-difference-between-maximum-and-minimum-k-elements",
+    "acRate": 75.8,
+    "tags": [
+      "array",
+      "sorting"
+    ]
+  },
+  {
+    "title": "Mirror Distance of an Integer",
+    "slug": "mirror-distance-of-an-integer",
+    "acRate": 91.4,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Find Users with High Token Usage",
+    "slug": "find-users-with-high-token-usage",
+    "acRate": 57.1,
+    "tags": []
+  },
+  {
+    "title": "Reverse String Prefix",
+    "slug": "reverse-string-prefix",
+    "acRate": 89.5,
+    "tags": [
+      "two-pointers",
+      "string"
+    ]
+  },
+  {
+    "title": "Largest Even Number",
+    "slug": "largest-even-number",
+    "acRate": 69.3,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Count Residue Prefixes",
+    "slug": "count-residue-prefixes",
+    "acRate": 65.9,
+    "tags": [
+      "hash-table",
+      "string"
+    ]
+  },
+  {
+    "title": "Vowel-Consonant Score",
+    "slug": "vowel-consonant-score",
+    "acRate": 53.8,
+    "tags": [
+      "string",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Reverse Letters Then Special Characters in a String",
+    "slug": "reverse-letters-then-special-characters-in-a-string",
+    "acRate": 82.4,
+    "tags": [
+      "two-pointers",
+      "string",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Count Monobit Integers",
+    "slug": "count-monobit-integers",
+    "acRate": 66.7,
+    "tags": [
+      "bit-manipulation",
+      "enumeration"
+    ]
+  },
+  {
+    "title": "Count Dominant Indices",
+    "slug": "count-dominant-indices",
+    "acRate": 66.2,
+    "tags": [
+      "array",
+      "enumeration"
+    ]
+  },
+  {
+    "title": "Weighted Word Mapping",
+    "slug": "weighted-word-mapping",
+    "acRate": 90.6,
+    "tags": [
+      "array",
+      "string",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Toggle Light Bulbs",
+    "slug": "toggle-light-bulbs",
+    "acRate": 71.9,
+    "tags": [
+      "array",
+      "hash-table",
+      "sorting",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Smallest Pair With Different Frequencies",
+    "slug": "smallest-pair-with-different-frequencies",
+    "acRate": 69.4,
+    "tags": [
+      "array",
+      "hash-table",
+      "counting"
+    ]
+  },
+  {
+    "title": "Trim Trailing Vowels",
+    "slug": "trim-trailing-vowels",
+    "acRate": 77.6,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Minimum Capacity Box",
+    "slug": "minimum-capacity-box",
+    "acRate": 72.4,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "First Unique Even Element",
+    "slug": "first-unique-even-element",
+    "acRate": 66.3,
+    "tags": [
+      "array",
+      "hash-table",
+      "counting"
+    ]
+  },
+  {
+    "title": "Count Commas in Range",
+    "slug": "count-commas-in-range",
+    "acRate": 69.3,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Construct Uniform Parity Array I",
+    "slug": "construct-uniform-parity-array-i",
+    "acRate": 76.7,
+    "tags": [
+      "array",
+      "math"
+    ]
+  },
+  {
+    "title": "Minimum Absolute Difference Between Two Values",
+    "slug": "minimum-absolute-difference-between-two-values",
+    "acRate": 66.9,
+    "tags": [
+      "array",
+      "enumeration"
+    ]
+  },
+  {
+    "title": "First Matching Character From Both Ends",
+    "slug": "first-matching-character-from-both-ends",
+    "acRate": 81.5,
+    "tags": [
+      "two-pointers",
+      "string"
+    ]
+  },
+  {
+    "title": "Traffic Signal Color",
+    "slug": "traffic-signal-color",
+    "acRate": 83.9,
+    "tags": [
+      "math",
+      "string",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Find the Degree of Each Vertex",
+    "slug": "find-the-degree-of-each-vertex",
+    "acRate": 92.7,
+    "tags": [
+      "array",
+      "graph",
+      "matrix"
+    ]
+  },
+  {
+    "title": "Smallest Stable Index I",
+    "slug": "smallest-stable-index-i",
+    "acRate": 68.6,
+    "tags": [
+      "array",
+      "prefix-sum"
+    ]
+  },
+  {
+    "title": "Valid Digit Number",
+    "slug": "valid-digit-number",
+    "acRate": 70.6,
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "title": "Valid Elements in an Array",
+    "slug": "valid-elements-in-an-array",
+    "acRate": 57.4,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Count Indices With Opposite Parity",
+    "slug": "count-indices-with-opposite-parity",
+    "acRate": 82,
+    "tags": [
+      "array"
+    ]
+  },
+  {
+    "title": "Score Validator",
+    "slug": "score-validator",
+    "acRate": 73.7,
+    "tags": [
+      "array",
+      "string",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Concatenate Array With Reverse",
+    "slug": "concatenate-array-with-reverse",
+    "acRate": 91.7,
+    "tags": [
+      "array",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Check Adjacent Digit Differences",
+    "slug": "check-adjacent-digit-differences",
+    "acRate": 78,
+    "tags": [
+      "string"
+    ]
+  },
+  {
+    "title": "Minimum Swaps to Move Zeros to End",
+    "slug": "minimum-swaps-to-move-zeros-to-end",
+    "acRate": 60.6,
+    "tags": [
+      "array",
+      "two-pointers"
+    ]
+  },
+  {
+    "title": "Limit Occurrences in Sorted Array",
+    "slug": "limit-occurrences-in-sorted-array",
+    "acRate": 73.4,
+    "tags": [
+      "array",
+      "two-pointers"
+    ]
+  },
+  {
+    "title": "Digit Frequency Score",
+    "slug": "digit-frequency-score",
+    "acRate": 91.7,
+    "tags": [
+      "hash-table",
+      "math"
+    ]
+  },
+  {
+    "title": "Exactly One Consecutive Set Bits Pair",
+    "slug": "exactly-one-consecutive-set-bits-pair",
+    "acRate": 50.9,
+    "tags": [
+      "bit-manipulation"
+    ]
+  },
+  {
+    "title": "Sum of Compatible Numbers in Range I",
+    "slug": "sum-of-compatible-numbers-in-range-i",
+    "acRate": 59,
+    "tags": [
+      "dynamic-programming",
+      "bit-manipulation",
+      "enumeration"
+    ]
+  },
+  {
+    "title": "Check Good Integer",
+    "slug": "check-good-integer",
+    "acRate": 83.2,
+    "tags": []
+  },
+  {
+    "title": "Create Grid With Exactly One Path",
+    "slug": "create-grid-with-exactly-one-path",
+    "acRate": 75.6,
+    "tags": []
+  },
+  {
+    "title": "Unique Middle Element",
+    "slug": "unique-middle-element",
+    "acRate": 72.3,
+    "tags": []
+  },
+  {
+    "title": "Sum of Integers with Maximum Digit Range",
+    "slug": "sum-of-integers-with-maximum-digit-range",
+    "acRate": 73,
+    "tags": []
+  },
+  {
+    "title": "Number of Elapsed Seconds Between Two Times",
+    "slug": "number-of-elapsed-seconds-between-two-times",
+    "acRate": 82.2,
+    "tags": []
+  },
+  {
+    "title": "Rearrange String to Avoid Character Pair",
+    "slug": "rearrange-string-to-avoid-character-pair",
+    "acRate": 78.2,
+    "tags": []
+  },
+  {
+    "title": "Even Number of Knight Moves",
+    "slug": "even-number-of-knight-moves",
+    "acRate": 74.9,
+    "tags": []
+  },
+  {
+    "title": "Largest Integer With Given Digit Sum",
+    "slug": "largest-integer-with-given-digit-sum",
+    "acRate": 61.2,
+    "tags": []
+  },
+  {
+    "title": "Count Valid Prefixes",
+    "slug": "count-valid-prefixes",
+    "acRate": 78,
+    "tags": []
+  },
+  {
+    "title": "Maximize Pair Strength Using GCD",
+    "slug": "maximize-pair-strength-using-gcd",
+    "acRate": 48.2,
+    "tags": []
+  }
+]

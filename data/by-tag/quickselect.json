@@ -1,0 +1,50 @@
+[
+  {
+    "title": "K Closest Points to Origin",
+    "slug": "k-closest-points-to-origin",
+    "difficulty": "Medium",
+    "acRate": 69.3
+  },
+  {
+    "title": "Kth Largest Element in an Array",
+    "slug": "kth-largest-element-in-an-array",
+    "difficulty": "Medium",
+    "acRate": 69.2
+  },
+  {
+    "title": "Top K Frequent Elements",
+    "slug": "top-k-frequent-elements",
+    "difficulty": "Medium",
+    "acRate": 67.1
+  },
+  {
+    "title": "Find Kth Largest XOR Coordinate Value",
+    "slug": "find-kth-largest-xor-coordinate-value",
+    "difficulty": "Medium",
+    "acRate": 64.6
+  },
+  {
+    "title": "Find the Kth Largest Integer in the Array",
+    "slug": "find-the-kth-largest-integer-in-the-array",
+    "difficulty": "Medium",
+    "acRate": 48.2
+  },
+  {
+    "title": "Query Kth Smallest Trimmed Number",
+    "slug": "query-kth-smallest-trimmed-number",
+    "difficulty": "Medium",
+    "acRate": 48
+  },
+  {
+    "title": "Wiggle Sort II",
+    "slug": "wiggle-sort-ii",
+    "difficulty": "Medium",
+    "acRate": 38
+  },
+  {
+    "title": "Count Elements With at Least K Greater Values",
+    "slug": "count-elements-with-at-least-k-greater-values",
+    "difficulty": "Medium",
+    "acRate": 32
+  }
+]

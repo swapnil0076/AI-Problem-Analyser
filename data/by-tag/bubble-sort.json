@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Sorting the Sentence",
+    "slug": "sorting-the-sentence",
+    "difficulty": "Easy",
+    "acRate": 84.2
+  },
+  {
+    "title": "Height Checker",
+    "slug": "height-checker",
+    "difficulty": "Easy",
+    "acRate": 81.9
+  },
+  {
+    "title": "Relative Sort Array",
+    "slug": "relative-sort-array",
+    "difficulty": "Easy",
+    "acRate": 75.4
+  },
+  {
+    "title": "Sort Colors",
+    "slug": "sort-colors",
+    "difficulty": "Medium",
+    "acRate": 70.2
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "title": "Find Greatest Common Divisor of Array",
+    "slug": "find-greatest-common-divisor-of-array",
+    "difficulty": "Easy",
+    "acRate": 83.5
+  },
+  {
+    "title": "Number of Common Factors",
+    "slug": "number-of-common-factors",
+    "difficulty": "Easy",
+    "acRate": 80.3
+  },
+  {
+    "title": "Simplified Fractions",
+    "slug": "simplified-fractions",
+    "difficulty": "Medium",
+    "acRate": 70.1
+  },
+  {
+    "title": "Fraction Addition and Subtraction",
+    "slug": "fraction-addition-and-subtraction",
+    "difficulty": "Medium",
+    "acRate": 66.6
+  },
+  {
+    "title": "Find the Number of Subsequences With Equal GCD",
+    "slug": "find-the-number-of-subsequences-with-equal-gcd",
+    "difficulty": "Hard",
+    "acRate": 66.3
+  },
+  {
+    "title": "Check If It Is a Good Array",
+    "slug": "check-if-it-is-a-good-array",
+    "difficulty": "Hard",
+    "acRate": 65.8
+  },
+  {
+    "title": "Minimum Deletions to Make Array Divisible",
+    "slug": "minimum-deletions-to-make-array-divisible",
+    "difficulty": "Hard",
+    "acRate": 61.7
+  },
+  {
+    "title": "Sorted GCD Pair Queries",
+    "slug": "sorted-gcd-pair-queries",
+    "difficulty": "Hard",
+    "acRate": 58.5
+  },
+  {
+    "title": "Distinct Prime Factors of Product of Array",
+    "slug": "distinct-prime-factors-of-product-of-array",
+    "difficulty": "Medium",
+    "acRate": 55.1
+  },
+  {
+    "title": "Minimum Number of Operations to Make All Array Elements Equal to 1",
+    "slug": "minimum-number-of-operations-to-make-all-array-elements-equal-to-1",
+    "difficulty": "Medium",
+    "acRate": 54.7
+  },
+  {
+    "title": "Greatest Common Divisor of Strings",
+    "slug": "greatest-common-divisor-of-strings",
+    "difficulty": "Easy",
+    "acRate": 54.3
+  },
+  {
+    "title": "GCD Sort of an Array",
+    "slug": "gcd-sort-of-an-array",
+    "difficulty": "Hard",
+    "acRate": 50.7
+  },
+  {
+    "title": "Number of Different Subsequences GCDs",
+    "slug": "number-of-different-subsequences-gcds",
+    "difficulty": "Hard",
+    "acRate": 46.8
+  },
+  {
+    "title": "Water and Jug Problem",
+    "slug": "water-and-jug-problem",
+    "difficulty": "Medium",
+    "acRate": 46.2
+  },
+  {
+    "title": "Check if Point Is Reachable",
+    "slug": "check-if-point-is-reachable",
+    "difficulty": "Hard",
+    "acRate": 45.3
+  },
+  {
+    "title": "Greatest Common Divisor Traversal",
+    "slug": "greatest-common-divisor-traversal",
+    "difficulty": "Hard",
+    "acRate": 41.6
+  },
+  {
+    "title": "Reaching Points",
+    "slug": "reaching-points",
+    "difficulty": "Hard",
+    "acRate": 34.6
+  },
+  {
+    "title": "Ugly Number III",
+    "slug": "ugly-number-iii",
+    "difficulty": "Medium",
+    "acRate": 31.8
+  },
+  {
+    "title": "Count Connected Components in LCM Graph",
+    "slug": "count-connected-components-in-lcm-graph",
+    "difficulty": "Hard",
+    "acRate": 31.7
+  },
+  {
+    "title": "Max Points on a Line",
+    "slug": "max-points-on-a-line",
+    "difficulty": "Hard",
+    "acRate": 31.2
+  },
+  {
+    "title": "Count Array Pairs Divisible by K",
+    "slug": "count-array-pairs-divisible-by-k",
+    "difficulty": "Hard",
+    "acRate": 31
+  },
+  {
+    "title": "X of a Kind in a Deck of Cards",
+    "slug": "x-of-a-kind-in-a-deck-of-cards",
+    "difficulty": "Easy",
+    "acRate": 30.5
+  }
+]

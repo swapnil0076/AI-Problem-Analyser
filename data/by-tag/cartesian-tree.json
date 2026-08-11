@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Maximum Binary Tree",
+    "slug": "maximum-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 86.4
+  },
+  {
+    "title": "Minimum Cost Tree From Leaf Values",
+    "slug": "minimum-cost-tree-from-leaf-values",
+    "difficulty": "Medium",
+    "acRate": 67.9
+  },
+  {
+    "title": "Maximum Score of a Good Subarray",
+    "slug": "maximum-score-of-a-good-subarray",
+    "difficulty": "Hard",
+    "acRate": 64.2
+  },
+  {
+    "title": "Maximum Subarray Min-Product",
+    "slug": "maximum-subarray-min-product",
+    "difficulty": "Medium",
+    "acRate": 40.8
+  }
+]

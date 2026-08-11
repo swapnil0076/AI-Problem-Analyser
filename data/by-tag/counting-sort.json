@@ -1,0 +1,56 @@
+[
+  {
+    "title": "How Many Numbers Are Smaller Than the Current Number",
+    "slug": "how-many-numbers-are-smaller-than-the-current-number",
+    "difficulty": "Easy",
+    "acRate": 87.5
+  },
+  {
+    "title": "Minimum Number of Moves to Seat Everyone",
+    "slug": "minimum-number-of-moves-to-seat-everyone",
+    "difficulty": "Easy",
+    "acRate": 87.1
+  },
+  {
+    "title": "Array Partition",
+    "slug": "array-partition",
+    "difficulty": "Easy",
+    "acRate": 82.1
+  },
+  {
+    "title": "Height Checker",
+    "slug": "height-checker",
+    "difficulty": "Easy",
+    "acRate": 81.9
+  },
+  {
+    "title": "Maximum Ice Cream Bars",
+    "slug": "maximum-ice-cream-bars",
+    "difficulty": "Medium",
+    "acRate": 77.3
+  },
+  {
+    "title": "Relative Sort Array",
+    "slug": "relative-sort-array",
+    "difficulty": "Easy",
+    "acRate": 75.4
+  },
+  {
+    "title": "Smallest Palindromic Rearrangement I",
+    "slug": "smallest-palindromic-rearrangement-i",
+    "difficulty": "Medium",
+    "acRate": 74.5
+  },
+  {
+    "title": "Sort an Array",
+    "slug": "sort-an-array",
+    "difficulty": "Medium",
+    "acRate": 55.8
+  },
+  {
+    "title": "H-Index",
+    "slug": "h-index",
+    "difficulty": "Medium",
+    "acRate": 41.8
+  }
+]

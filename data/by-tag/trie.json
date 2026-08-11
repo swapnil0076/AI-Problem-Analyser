@@ -1,0 +1,278 @@
+[
+  {
+    "title": "Remove Sub-Folders from the Filesystem",
+    "slug": "remove-sub-folders-from-the-filesystem",
+    "difficulty": "Medium",
+    "acRate": 78.6
+  },
+  {
+    "title": "Count Prefix and Suffix Pairs I",
+    "slug": "count-prefix-and-suffix-pairs-i",
+    "difficulty": "Easy",
+    "acRate": 77.7
+  },
+  {
+    "title": "Delete Duplicate Folders in System",
+    "slug": "delete-duplicate-folders-in-system",
+    "difficulty": "Hard",
+    "acRate": 77.2
+  },
+  {
+    "title": "Maximum Strong Pair XOR I",
+    "slug": "maximum-strong-pair-xor-i",
+    "difficulty": "Easy",
+    "acRate": 76.4
+  },
+  {
+    "title": "Lexicographical Numbers",
+    "slug": "lexicographical-numbers",
+    "difficulty": "Medium",
+    "acRate": 76.3
+  },
+  {
+    "title": "Words Within Two Edits of Dictionary",
+    "slug": "words-within-two-edits-of-dictionary",
+    "difficulty": "Medium",
+    "acRate": 73.3
+  },
+  {
+    "title": "Implement Trie (Prefix Tree)",
+    "slug": "implement-trie-prefix-tree",
+    "difficulty": "Medium",
+    "acRate": 69.9
+  },
+  {
+    "title": "Replace Words",
+    "slug": "replace-words",
+    "difficulty": "Medium",
+    "acRate": 68.9
+  },
+  {
+    "title": "Camelcase Matching",
+    "slug": "camelcase-matching",
+    "difficulty": "Medium",
+    "acRate": 65.9
+  },
+  {
+    "title": "Search Suggestions System",
+    "slug": "search-suggestions-system",
+    "difficulty": "Medium",
+    "acRate": 65.2
+  },
+  {
+    "title": "Find the Length of the Longest Common Prefix",
+    "slug": "find-the-length-of-the-longest-common-prefix",
+    "difficulty": "Medium",
+    "acRate": 62.4
+  },
+  {
+    "title": "Short Encoding of Words",
+    "slug": "short-encoding-of-words",
+    "difficulty": "Medium",
+    "acRate": 61
+  },
+  {
+    "title": "Sum of Prefix Scores of Strings",
+    "slug": "sum-of-prefix-scores-of-strings",
+    "difficulty": "Hard",
+    "acRate": 60.9
+  },
+  {
+    "title": "Top K Frequent Words",
+    "slug": "top-k-frequent-words",
+    "difficulty": "Medium",
+    "acRate": 60.5
+  },
+  {
+    "title": "Partition String ",
+    "slug": "partition-string",
+    "difficulty": "Medium",
+    "acRate": 59.5
+  },
+  {
+    "title": "Maximum XOR With an Element From Array",
+    "slug": "maximum-xor-with-an-element-from-array",
+    "difficulty": "Hard",
+    "acRate": 59.2
+  },
+  {
+    "title": "Minimum Cost to Convert String II",
+    "slug": "minimum-cost-to-convert-string-ii",
+    "difficulty": "Hard",
+    "acRate": 59.2
+  },
+  {
+    "title": "Implement Magic Dictionary",
+    "slug": "implement-magic-dictionary",
+    "difficulty": "Medium",
+    "acRate": 58.1
+  },
+  {
+    "title": "Map Sum Pairs",
+    "slug": "map-sum-pairs",
+    "difficulty": "Medium",
+    "acRate": 57.3
+  },
+  {
+    "title": "Extra Characters in a String",
+    "slug": "extra-characters-in-a-string",
+    "difficulty": "Medium",
+    "acRate": 57.2
+  },
+  {
+    "title": "Word Break II",
+    "slug": "word-break-ii",
+    "difficulty": "Hard",
+    "acRate": 56
+  },
+  {
+    "title": "Longest Word in Dictionary",
+    "slug": "longest-word-in-dictionary",
+    "difficulty": "Medium",
+    "acRate": 55.3
+  },
+  {
+    "title": "K Divisible Elements Subarrays",
+    "slug": "k-divisible-elements-subarrays",
+    "difficulty": "Medium",
+    "acRate": 55.1
+  },
+  {
+    "title": "Maximum XOR of Two Numbers in an Array",
+    "slug": "maximum-xor-of-two-numbers-in-an-array",
+    "difficulty": "Medium",
+    "acRate": 53.7
+  },
+  {
+    "title": "Distinct Echo Substrings",
+    "slug": "distinct-echo-substrings",
+    "difficulty": "Hard",
+    "acRate": 53.5
+  },
+  {
+    "title": "Stream of Characters",
+    "slug": "stream-of-characters",
+    "difficulty": "Hard",
+    "acRate": 52.7
+  },
+  {
+    "title": "Longest Common Suffix Queries",
+    "slug": "longest-common-suffix-queries",
+    "difficulty": "Hard",
+    "acRate": 52.6
+  },
+  {
+    "title": "Shortest Uncommon Substring in an Array",
+    "slug": "shortest-uncommon-substring-in-an-array",
+    "difficulty": "Medium",
+    "acRate": 50.9
+  },
+  {
+    "title": "Number of Matching Subsequences",
+    "slug": "number-of-matching-subsequences",
+    "difficulty": "Medium",
+    "acRate": 50.6
+  },
+  {
+    "title": "Concatenated Words",
+    "slug": "concatenated-words",
+    "difficulty": "Hard",
+    "acRate": 49.9
+  },
+  {
+    "title": "Word Break",
+    "slug": "word-break",
+    "difficulty": "Medium",
+    "acRate": 49.8
+  },
+  {
+    "title": "Design Add and Search Words Data Structure",
+    "slug": "design-add-and-search-words-data-structure",
+    "difficulty": "Medium",
+    "acRate": 48.9
+  },
+  {
+    "title": "Longest Common Prefix",
+    "slug": "longest-common-prefix",
+    "difficulty": "Easy",
+    "acRate": 48.2
+  },
+  {
+    "title": "Number of Valid Words for Each Puzzle",
+    "slug": "number-of-valid-words-for-each-puzzle",
+    "difficulty": "Hard",
+    "acRate": 48.1
+  },
+  {
+    "title": "Maximum Genetic Difference Query",
+    "slug": "maximum-genetic-difference-query",
+    "difficulty": "Hard",
+    "acRate": 47.9
+  },
+  {
+    "title": "Count Pairs With XOR in a Range",
+    "slug": "count-pairs-with-xor-in-a-range",
+    "difficulty": "Hard",
+    "acRate": 46.6
+  },
+  {
+    "title": "K-th Smallest in Lexicographical Order",
+    "slug": "k-th-smallest-in-lexicographical-order",
+    "difficulty": "Hard",
+    "acRate": 46.5
+  },
+  {
+    "title": "Prefix and Suffix Search",
+    "slug": "prefix-and-suffix-search",
+    "difficulty": "Hard",
+    "acRate": 41.1
+  },
+  {
+    "title": "Word Search II",
+    "slug": "word-search-ii",
+    "difficulty": "Hard",
+    "acRate": 38.8
+  },
+  {
+    "title": "Encrypt and Decrypt Strings",
+    "slug": "encrypt-and-decrypt-strings",
+    "difficulty": "Hard",
+    "acRate": 38.7
+  },
+  {
+    "title": "Palindrome Pairs",
+    "slug": "palindrome-pairs",
+    "difficulty": "Hard",
+    "acRate": 37.5
+  },
+  {
+    "title": "Maximum Subarray XOR with Bounded Range",
+    "slug": "maximum-subarray-xor-with-bounded-range",
+    "difficulty": "Hard",
+    "acRate": 33.5
+  },
+  {
+    "title": "Maximum Strong Pair XOR II",
+    "slug": "maximum-strong-pair-xor-ii",
+    "difficulty": "Hard",
+    "acRate": 32.8
+  },
+  {
+    "title": "Count Prefix and Suffix Pairs II",
+    "slug": "count-prefix-and-suffix-pairs-ii",
+    "difficulty": "Hard",
+    "acRate": 28.5
+  },
+  {
+    "title": "Longest Common Prefix of K Strings After Removal",
+    "slug": "longest-common-prefix-of-k-strings-after-removal",
+    "difficulty": "Hard",
+    "acRate": 23.9
+  },
+  {
+    "title": "Minimum Number of Valid Strings to Form Target I",
+    "slug": "minimum-number-of-valid-strings-to-form-target-i",
+    "difficulty": "Medium",
+    "acRate": 22.3
+  }
+]

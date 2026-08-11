@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Count the Number of Arrays with K Matching Adjacent Elements",
+    "slug": "count-the-number-of-arrays-with-k-matching-adjacent-elements",
+    "difficulty": "Hard",
+    "acRate": 58.2
+  },
+  {
+    "title": "Count the Number of Ideal Arrays",
+    "slug": "count-the-number-of-ideal-arrays",
+    "difficulty": "Hard",
+    "acRate": 56.9
+  },
+  {
+    "title": "Count Ways to Make Array With Product",
+    "slug": "count-ways-to-make-array-with-product",
+    "difficulty": "Hard",
+    "acRate": 55.4
+  },
+  {
+    "title": "Number of Ways to Reorder Array to Get Same BST",
+    "slug": "number-of-ways-to-reorder-array-to-get-same-bst",
+    "difficulty": "Hard",
+    "acRate": 54.2
+  },
+  {
+    "title": "Count Ways to Build Rooms in an Ant Colony",
+    "slug": "count-ways-to-build-rooms-in-an-ant-colony",
+    "difficulty": "Hard",
+    "acRate": 51.9
+  },
+  {
+    "title": "Minimum Number of Operations to Make String Sorted",
+    "slug": "minimum-number-of-operations-to-make-string-sorted",
+    "difficulty": "Hard",
+    "acRate": 50.5
+  },
+  {
+    "title": "Fancy Sequence",
+    "slug": "fancy-sequence",
+    "difficulty": "Hard",
+    "acRate": 41.6
+  },
+  {
+    "title": "Count the Number of Infection Sequences",
+    "slug": "count-the-number-of-infection-sequences",
+    "difficulty": "Hard",
+    "acRate": 38.3
+  },
+  {
+    "title": "Count Anagrams",
+    "slug": "count-anagrams",
+    "difficulty": "Hard",
+    "acRate": 38.1
+  },
+  {
+    "title": "Count K-Subsequences of a String With Maximum Beauty",
+    "slug": "count-k-subsequences-of-a-string-with-maximum-beauty",
+    "difficulty": "Hard",
+    "acRate": 30.2
+  }
+]

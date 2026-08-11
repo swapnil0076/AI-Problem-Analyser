@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Find Positive Integer Solution for a Given Equation",
+    "slug": "find-positive-integer-solution-for-a-given-equation",
+    "difficulty": "Medium",
+    "acRate": 70.1
+  },
+  {
+    "title": "Guess Number Higher or Lower",
+    "slug": "guess-number-higher-or-lower",
+    "difficulty": "Easy",
+    "acRate": 58.1
+  },
+  {
+    "title": "First Bad Version",
+    "slug": "first-bad-version",
+    "difficulty": "Easy",
+    "acRate": 47.5
+  },
+  {
+    "title": "Find in Mountain Array",
+    "slug": "find-in-mountain-array",
+    "difficulty": "Hard",
+    "acRate": 41.9
+  },
+  {
+    "title": "Guess the Word",
+    "slug": "guess-the-word",
+    "difficulty": "Hard",
+    "acRate": 36.6
+  }
+]

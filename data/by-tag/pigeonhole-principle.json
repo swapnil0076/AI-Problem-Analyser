@@ -1,0 +1,32 @@
+[
+  {
+    "title": "N-Repeated Element in Size 2N Array",
+    "slug": "n-repeated-element-in-size-2n-array",
+    "difficulty": "Easy",
+    "acRate": 80
+  },
+  {
+    "title": "Find the Duplicate Number",
+    "slug": "find-the-duplicate-number",
+    "difficulty": "Medium",
+    "acRate": 64.7
+  },
+  {
+    "title": "Smallest Integer Divisible by K",
+    "slug": "smallest-integer-divisible-by-k",
+    "difficulty": "Medium",
+    "acRate": 54.2
+  },
+  {
+    "title": "Maximum Gap",
+    "slug": "maximum-gap",
+    "difficulty": "Medium",
+    "acRate": 52.8
+  },
+  {
+    "title": "Continuous Subarray Sum",
+    "slug": "continuous-subarray-sum",
+    "difficulty": "Medium",
+    "acRate": 31.6
+  }
+]

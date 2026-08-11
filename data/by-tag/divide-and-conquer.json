@@ -1,0 +1,350 @@
+[
+  {
+    "title": "Maximum Binary Tree",
+    "slug": "maximum-binary-tree",
+    "difficulty": "Medium",
+    "acRate": 86.4
+  },
+  {
+    "title": "Balance a Binary Search Tree",
+    "slug": "balance-a-binary-search-tree",
+    "difficulty": "Medium",
+    "acRate": 86.3
+  },
+  {
+    "title": "Special Binary String",
+    "slug": "special-binary-string",
+    "difficulty": "Hard",
+    "acRate": 79.4
+  },
+  {
+    "title": "Construct Quad Tree",
+    "slug": "construct-quad-tree",
+    "difficulty": "Medium",
+    "acRate": 78.6
+  },
+  {
+    "title": "Construct Binary Tree from Preorder and Postorder Traversal",
+    "slug": "construct-binary-tree-from-preorder-and-postorder-traversal",
+    "difficulty": "Medium",
+    "acRate": 78.1
+  },
+  {
+    "title": "Number of 1 Bits",
+    "slug": "number-of-1-bits",
+    "difficulty": "Easy",
+    "acRate": 77.3
+  },
+  {
+    "title": "Convert Sorted Array to Binary Search Tree",
+    "slug": "convert-sorted-array-to-binary-search-tree",
+    "difficulty": "Easy",
+    "acRate": 76
+  },
+  {
+    "title": "Count Subarrays With Majority Element I",
+    "slug": "count-subarrays-with-majority-element-i",
+    "difficulty": "Medium",
+    "acRate": 75.7
+  },
+  {
+    "title": "XOR After Range Multiplication Queries I",
+    "slug": "xor-after-range-multiplication-queries-i",
+    "difficulty": "Medium",
+    "acRate": 73.3
+  },
+  {
+    "title": "Fill a Special Grid",
+    "slug": "fill-a-special-grid",
+    "difficulty": "Medium",
+    "acRate": 70.9
+  },
+  {
+    "title": "Beautiful Array",
+    "slug": "beautiful-array",
+    "difficulty": "Medium",
+    "acRate": 70.3
+  },
+  {
+    "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+    "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+    "difficulty": "Medium",
+    "acRate": 69.4
+  },
+  {
+    "title": "Construct Binary Tree from Inorder and Postorder Traversal",
+    "slug": "construct-binary-tree-from-inorder-and-postorder-traversal",
+    "difficulty": "Medium",
+    "acRate": 69.4
+  },
+  {
+    "title": "K Closest Points to Origin",
+    "slug": "k-closest-points-to-origin",
+    "difficulty": "Medium",
+    "acRate": 69.3
+  },
+  {
+    "title": "Kth Largest Element in an Array",
+    "slug": "kth-largest-element-in-an-array",
+    "difficulty": "Medium",
+    "acRate": 69.2
+  },
+  {
+    "title": "Reverse Bits",
+    "slug": "reverse-bits",
+    "difficulty": "Easy",
+    "acRate": 69.1
+  },
+  {
+    "title": "Convert Sorted List to Binary Search Tree",
+    "slug": "convert-sorted-list-to-binary-search-tree",
+    "difficulty": "Medium",
+    "acRate": 67.2
+  },
+  {
+    "title": "Top K Frequent Elements",
+    "slug": "top-k-frequent-elements",
+    "difficulty": "Medium",
+    "acRate": 67.1
+  },
+  {
+    "title": "Majority Element",
+    "slug": "majority-element",
+    "difficulty": "Easy",
+    "acRate": 66.5
+  },
+  {
+    "title": "Longest Balanced Subarray I",
+    "slug": "longest-balanced-subarray-i",
+    "difficulty": "Medium",
+    "acRate": 65.7
+  },
+  {
+    "title": "Count Good Triplets in an Array",
+    "slug": "count-good-triplets-in-an-array",
+    "difficulty": "Hard",
+    "acRate": 65.3
+  },
+  {
+    "title": "Sort List",
+    "slug": "sort-list",
+    "difficulty": "Medium",
+    "acRate": 65.1
+  },
+  {
+    "title": "Count Subarrays With Majority Element II",
+    "slug": "count-subarrays-with-majority-element-ii",
+    "difficulty": "Hard",
+    "acRate": 64.8
+  },
+  {
+    "title": "Find Kth Largest XOR Coordinate Value",
+    "slug": "find-kth-largest-xor-coordinate-value",
+    "difficulty": "Medium",
+    "acRate": 64.6
+  },
+  {
+    "title": "Longest Nice Substring",
+    "slug": "longest-nice-substring",
+    "difficulty": "Easy",
+    "acRate": 64.6
+  },
+  {
+    "title": "Merge k Sorted Lists",
+    "slug": "merge-k-sorted-lists",
+    "difficulty": "Hard",
+    "acRate": 60.3
+  },
+  {
+    "title": "Number of Integers With Popcount-Depth Equal to K II",
+    "slug": "number-of-integers-with-popcount-depth-equal-to-k-ii",
+    "difficulty": "Hard",
+    "acRate": 58.5
+  },
+  {
+    "title": "Search a 2D Matrix II",
+    "slug": "search-a-2d-matrix-ii",
+    "difficulty": "Medium",
+    "acRate": 57.9
+  },
+  {
+    "title": "Sort an Array",
+    "slug": "sort-an-array",
+    "difficulty": "Medium",
+    "acRate": 55.8
+  },
+  {
+    "title": "Number of Ways to Reorder Array to Get Same BST",
+    "slug": "number-of-ways-to-reorder-array-to-get-same-bst",
+    "difficulty": "Hard",
+    "acRate": 54.2
+  },
+  {
+    "title": "Maximum Subarray",
+    "slug": "maximum-subarray",
+    "difficulty": "Medium",
+    "acRate": 53.7
+  },
+  {
+    "title": "Logical OR of Two Binary Grids Represented as Quad-Trees",
+    "slug": "logical-or-of-two-binary-grids-represented-as-quad-trees",
+    "difficulty": "Medium",
+    "acRate": 53.2
+  },
+  {
+    "title": "Minimum Cost to Partition a Binary String",
+    "slug": "minimum-cost-to-partition-a-binary-string",
+    "difficulty": "Hard",
+    "acRate": 52.7
+  },
+  {
+    "title": "Maximum Sum Circular Subarray",
+    "slug": "maximum-sum-circular-subarray",
+    "difficulty": "Medium",
+    "acRate": 51.1
+  },
+  {
+    "title": "Sum of K-Digit Numbers in a Range",
+    "slug": "sum-of-k-digit-numbers-in-a-range",
+    "difficulty": "Hard",
+    "acRate": 50.9
+  },
+  {
+    "title": "Find the Kth Largest Integer in the Array",
+    "slug": "find-the-kth-largest-integer-in-the-array",
+    "difficulty": "Medium",
+    "acRate": 48.2
+  },
+  {
+    "title": "Query Kth Smallest Trimmed Number",
+    "slug": "query-kth-smallest-trimmed-number",
+    "difficulty": "Medium",
+    "acRate": 48
+  },
+  {
+    "title": "Number of Pairs Satisfying Inequality",
+    "slug": "number-of-pairs-satisfying-inequality",
+    "difficulty": "Hard",
+    "acRate": 47.8
+  },
+  {
+    "title": "XOR After Range Multiplication Queries II",
+    "slug": "xor-after-range-multiplication-queries-ii",
+    "difficulty": "Hard",
+    "acRate": 47.5
+  },
+  {
+    "title": "Median of Two Sorted Arrays",
+    "slug": "median-of-two-sorted-arrays",
+    "difficulty": "Hard",
+    "acRate": 47.3
+  },
+  {
+    "title": "Longest Substring with At Least K Repeating Characters",
+    "slug": "longest-substring-with-at-least-k-repeating-characters",
+    "difficulty": "Medium",
+    "acRate": 46.5
+  },
+  {
+    "title": "The Skyline Problem",
+    "slug": "the-skyline-problem",
+    "difficulty": "Hard",
+    "acRate": 45.8
+  },
+  {
+    "title": "Count of Smaller Numbers After Self",
+    "slug": "count-of-smaller-numbers-after-self",
+    "difficulty": "Hard",
+    "acRate": 43.9
+  },
+  {
+    "title": "Range Sum Query - Mutable",
+    "slug": "range-sum-query-mutable",
+    "difficulty": "Medium",
+    "acRate": 43.6
+  },
+  {
+    "title": "Create Sorted Array through Instructions",
+    "slug": "create-sorted-array-through-instructions",
+    "difficulty": "Hard",
+    "acRate": 42.2
+  },
+  {
+    "title": "Count of Range Sum",
+    "slug": "count-of-range-sum",
+    "difficulty": "Hard",
+    "acRate": 39.6
+  },
+  {
+    "title": "Wiggle Sort II",
+    "slug": "wiggle-sort-ii",
+    "difficulty": "Medium",
+    "acRate": 38
+  },
+  {
+    "title": "Super Pow",
+    "slug": "super-pow",
+    "difficulty": "Medium",
+    "acRate": 37.3
+  },
+  {
+    "title": "Palindromic Path Queries in a Tree",
+    "slug": "palindromic-path-queries-in-a-tree",
+    "difficulty": "Hard",
+    "acRate": 37.2
+  },
+  {
+    "title": "Reverse Pairs",
+    "slug": "reverse-pairs",
+    "difficulty": "Hard",
+    "acRate": 34.9
+  },
+  {
+    "title": "Minimum Partition Score",
+    "slug": "minimum-partition-score",
+    "difficulty": "Hard",
+    "acRate": 33.9
+  },
+  {
+    "title": "Longest Balanced Subarray II",
+    "slug": "longest-balanced-subarray-ii",
+    "difficulty": "Hard",
+    "acRate": 33.8
+  },
+  {
+    "title": "Count Elements With at Least K Greater Values",
+    "slug": "count-elements-with-at-least-k-greater-values",
+    "difficulty": "Medium",
+    "acRate": 32
+  },
+  {
+    "title": "Longest Increasing Subsequence II",
+    "slug": "longest-increasing-subsequence-ii",
+    "difficulty": "Hard",
+    "acRate": 26.5
+  },
+  {
+    "title": "Maximize Subarray Sum After Removing All Occurrences of One Element",
+    "slug": "maximize-subarray-sum-after-removing-all-occurrences-of-one-element",
+    "difficulty": "Hard",
+    "acRate": 22.9
+  },
+  {
+    "title": "Threshold Majority Queries",
+    "slug": "threshold-majority-queries",
+    "difficulty": "Hard",
+    "acRate": 22
+  },
+  {
+    "title": "Number of Pairs After Increment",
+    "slug": "number-of-pairs-after-increment",
+    "difficulty": "Hard",
+    "acRate": 21.3
+  },
+  {
+    "title": "Maximum Sum of Subsequence With Non-adjacent Elements",
+    "slug": "maximum-sum-of-subsequence-with-non-adjacent-elements",
+    "difficulty": "Hard",
+    "acRate": 15.7
+  }
+]
