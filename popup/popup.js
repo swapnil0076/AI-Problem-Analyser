@@ -2,8 +2,13 @@
 
 // ─── Model Definitions ────────────────────────────────────────────────────────
 const MODELS = {
+  nvidia: [
+    { value: 'google/gemma-4-31b-it',          label: 'Gemma 4 31B (NVIDIA, default)' },
+    { value: 'meta/llama-3.1-405b-instruct',   label: 'Llama 3.1 405B (NVIDIA)' },
+    { value: 'nvidia/nemotron-4-340b-instruct',label: 'Nemotron 4 340B (NVIDIA)' },
+  ],
   inferx: [
-    { value: 'deepseek-v4-flash', label: 'DeepSeek V4 Flash (fast, default)' },
+    { value: 'deepseek-v4-flash', label: 'DeepSeek V4 Flash (fast)' },
     { value: 'deepseek-v3',       label: 'DeepSeek V3' },
   ],
   openai: [
@@ -19,25 +24,26 @@ const MODELS = {
 };
 
 const API_KEY_LINKS = {
+  nvidia: 'https://build.nvidia.com',
   inferx: 'https://inferx.net',
   openai: 'https://platform.openai.com/api-keys',
   gemini: 'https://aistudio.google.com/app/apikey',
 };
 
 const API_KEY_PLACEHOLDERS = {
+  nvidia: 'nvapi-...',
   inferx: 'ix_...',
   openai: 'sk-...',
   gemini: 'AIza...',
-};
-
 const API_KEY_PREFIXES = {
+  nvidia: 'nvapi-',
   inferx: 'ix_',
   openai: 'sk-',
   gemini: 'AIza',
 };
 
 // ─── State ────────────────────────────────────────────────────────────────────
-let currentProvider = 'inferx';
+let currentProvider = 'nvidia';
 
 // ─── DOM References ───────────────────────────────────────────────────────────
 const providerBtns   = document.querySelectorAll('.provider-btn');
@@ -224,11 +230,11 @@ chrome.storage.onChanged.addListener((changes, area) => {
 
 // ─── Load Saved Settings on Open ─────────────────────────────────────────────
 chrome.storage.local.get(
-  { apiKey: '', provider: 'inferx', model: 'deepseek-v4-flash' },
+  { apiKey: DEFAULT_NVIDIA_KEY, provider: 'nvidia', model: 'google/gemma-4-31b-it' },
   ({ apiKey, provider, model }) => {
     setProvider(provider);
     if (modelSelect && model) modelSelect.value = model;
-    if (apiKeyInput && apiKey) apiKeyInput.value = apiKey;
+    if (apiKeyInput) apiKeyInput.value = apiKey || DEFAULT_NVIDIA_KEY;
     loadTokenStats();
   }
 );

@@ -232,7 +232,9 @@ async function fetchProblemData(titleSlug) {
 // ─── LLM Callers ─────────────────────────────────────────────────────────────
 
 async function callLLM(prompt, settings) {
-  if (settings.provider === 'openai') {
+  if (settings.provider === 'nvidia') {
+    return callNvidia(prompt, settings);
+  } else if (settings.provider === 'openai') {
     return callOpenAI(prompt, settings);
   } else if (settings.provider === 'gemini') {
     return callGemini(prompt, settings);
@@ -240,6 +242,55 @@ async function callLLM(prompt, settings) {
     return callInferX(prompt, settings);
   }
   throw new Error(`Unknown provider: ${settings.provider}`);
+}
+
+/**
+ * NVIDIA Integrate API — OpenAI-compatible endpoint hosting high-parameter models.
+ * Base URL: https://integrate.api.nvidia.com/v1/chat/completions
+ */
+async function callNvidia(prompt, { apiKey, model }) {
+  if (!apiKey) {
+    throw new Error('NVIDIA API key required. Please enter your API key in extension settings.');
+  }
+  const effectiveModel = model || 'google/gemma-4-31b-it';
+
+  const resp = await fetch('https://integrate.api.nvidia.com/v1/chat/completions', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Accept': 'application/json',
+      'Authorization': `Bearer ${apiKey}`,
+    },
+    body: JSON.stringify({
+      messages: [
+        {
+          role: 'system',
+          content:
+            'You are an expert algorithm analyst. Always respond with valid JSON only — no markdown, no extra text.',
+        },
+        { role: 'user', content: prompt },
+      ],
+      model: effectiveModel,
+      chat_template_kwargs: { enable_thinking: true },
+      max_tokens: 4096,
+      temperature: 0.2,
+      top_p: 0.95,
+    }),
+  });
+
+  if (!resp.ok) {
+    const err = await resp.json().catch(() => ({}));
+    throw new Error(err.detail ?? err.message ?? `NVIDIA HTTP ${resp.status}`);
+  }
+
+  const data = await resp.json();
+  const text = data.choices?.[0]?.message?.content ?? '';
+  const usage = {
+    promptTokens: data.usage?.prompt_tokens ?? 0,
+    completionTokens: data.usage?.completion_tokens ?? 0,
+    totalTokens: data.usage?.total_tokens ?? 0,
+  };
+  return { text, usage };
 }
 
 /**
@@ -420,7 +471,11 @@ function parseAnalysisResponse(raw) {
 async function getSettings() {
   return new Promise(resolve => {
     chrome.storage.local.get(
-      { apiKey: '', provider: 'inferx', model: 'deepseek-v4-flash' },
+      {
+        apiKey: '',
+        provider: 'nvidia',
+        model: 'google/gemma-4-31b-it',
+      },
       resolve
     );
   });

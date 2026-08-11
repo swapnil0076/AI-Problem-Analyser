@@ -12,7 +12,8 @@
   ],
 
   "host_permissions": [
-    "https://leetcode.com/*"
+    "https://leetcode.com/*",
+    "https://integrate.api.nvidia.com/*"
   ],
 
   "background": {

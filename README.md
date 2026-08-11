@@ -179,9 +179,10 @@ Scraped once from LeetCode's public GraphQL API using `scripts/scrape-leetcode.j
 
 | Provider | Models | Notes |
 |----------|--------|-------|
-| **InferX** | DeepSeek V4 Flash ⭐, DeepSeek V3 | Default — fast + cheap |
-| OpenAI | GPT-4o Mini, GPT-4o, GPT-4 Turbo | Reliable JSON output |
-| Gemini | Gemini 1.5 Flash, 1.5 Pro, 2.0 Flash | Good for long problems |
+| **NVIDIA** | Gemma 4 31B ⭐, Llama 3.1 405B, Nemotron 4 340B | Default — fast high-parameter inference |
+| **InferX** | DeepSeek V4 Flash, DeepSeek V3 | OpenAI-compatible endpoint |
+| **OpenAI** | GPT-4o Mini, GPT-4o, GPT-4 Turbo | Reliable JSON output |
+| **Gemini** | Gemini 1.5 Flash, 1.5 Pro, 2.0 Flash | Good for long problems |
 
 ---
 

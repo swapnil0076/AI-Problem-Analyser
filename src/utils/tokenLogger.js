@@ -7,6 +7,11 @@
 
 // Model pricing per 1,000,000 tokens (USD)
 const PRICING = {
+  // NVIDIA Integrate API
+  'google/gemma-4-31b-it':          { input: 0.20, output: 0.40 },
+  'meta/llama-3.1-405b-instruct':    { input: 1.00, output: 1.00 },
+  'nvidia/nemotron-4-340b-instruct': { input: 0.50, output: 1.00 },
+
   // InferX / DeepSeek
   'deepseek-v4-flash': { input: 0.14, output: 0.28 },
   'deepseek-v3':       { input: 0.27, output: 1.10 },
