@@ -60,6 +60,17 @@ function renderResults(data) {
   // Cache indicator
   toggle('cache-badge', !!data._fromCache);
 
+  // Token usage indicator
+  const tokenBadge = document.getElementById('token-badge');
+  if (tokenBadge && data.usage && data.usage.totalTokens > 0) {
+    const { promptTokens, completionTokens, totalTokens } = data.usage;
+    tokenBadge.textContent = `⚡ ${totalTokens} tokens`;
+    tokenBadge.title = `Prompt: ${promptTokens} tokens | Output: ${completionTokens} tokens | Total: ${totalTokens} tokens`;
+    tokenBadge.classList.remove('hidden');
+  } else if (tokenBadge) {
+    tokenBadge.classList.add('hidden');
+  }
+
   // Approach
   set('approach-name', data.approach?.name ?? '—');
   set('approach-desc', data.approach?.description ?? '');

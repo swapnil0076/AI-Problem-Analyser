@@ -185,6 +185,28 @@ Scraped once from LeetCode's public GraphQL API using `scripts/scrape-leetcode.j
 
 ---
 
+## Token Usage & Efficiency (Average per Analysis)
+
+Every analysis tracks and displays exact live token usage directly in the side panel (e.g. `⚡ 480 tokens`).
+
+### Average Token Breakdown
+
+| Metric | Average Tokens | Details |
+|--------|---------------|---------|
+| **Prompt Input (In)** | **300 – 400 tokens** | System prompt, 800-char sliced problem statement, solution code, schema |
+| **Output Response (Out)** | **120 – 180 tokens** | JSON response: approach, TC, SC, rating, 2 suggestions, optimal complexity |
+| **Total per Analysis** | **~450 – 550 tokens** | **Average total tokens consumed per analysis call** |
+
+### Estimated Cost per 1,000 Analyses
+
+| Provider | Model | Est. Cost / 1k Analyses | Analyses per $1.00 |
+|----------|-------|-------------------------|-------------------|
+| **InferX** | DeepSeek V4 Flash | ~$0.07 | **~14,000 analyses** |
+| **OpenAI** | GPT-4o Mini | ~$0.10 | **~10,000 analyses** |
+| **Google** | Gemini 1.5 Flash | ~$0.08 | **~12,500 analyses** |
+
+---
+
 ## Recommendation Engine
 
 Located in `src/utils/recommendations.js`. Scoring algorithm:

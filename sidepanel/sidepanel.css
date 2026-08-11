@@ -273,13 +273,32 @@ html, body {
   flex: 1;
 }
 
-/* ── Cache Badge ─────────────────────────────────────────────────────────── */
+/* ── Badges Row ───────────────────────────────────────────────────────────── */
+.badges-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
 .cache-badge {
   font-size: 10px;
   font-weight: 600;
   color: var(--blue);
   background: rgba(59, 130, 246, 0.1);
   border: 1px solid rgba(59, 130, 246, 0.25);
+  border-radius: 50px;
+  padding: 3px 10px;
+  text-align: center;
+  letter-spacing: 0.3px;
+}
+
+.token-badge {
+  font-size: 10px;
+  font-weight: 600;
+  color: #a78bfa;
+  background: rgba(167, 139, 250, 0.1);
+  border: 1px solid rgba(167, 139, 250, 0.25);
   border-radius: 50px;
   padding: 3px 10px;
   text-align: center;

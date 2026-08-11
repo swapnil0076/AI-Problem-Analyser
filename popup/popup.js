@@ -168,6 +168,7 @@ function loadHistory() {
           ${entry.timeComplexity ? `<span class="history-meta-tag">T: ${entry.timeComplexity}</span>` : ''}
           ${entry.spaceComplexity ? `<span class="history-meta-tag">S: ${entry.spaceComplexity}</span>` : ''}
           ${entry.efficiencyRating ? `<span class="history-meta-tag">${entry.efficiencyRating}/10</span>` : ''}
+          ${entry.usage?.totalTokens ? `<span class="history-meta-tag">⚡ ${entry.usage.totalTokens}t</span>` : ''}
         </div>
         <div class="history-item-date">${formatDate(entry.timestamp)}</div>
       `;

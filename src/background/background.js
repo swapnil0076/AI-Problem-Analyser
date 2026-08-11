@@ -107,15 +107,15 @@ async function handleAnalysis({ titleSlug, code, language }, tab) {
 
   // 5. Build prompt & call LLM
   const prompt = buildAnalysisPrompt({ problemData, code, language });
-  let rawResponse;
+  let llmResult;
   try {
-    rawResponse = await callLLM(prompt, settings);
+    llmResult = await callLLM(prompt, settings);
   } catch (err) {
     throw new Error(`AI call failed: ${err.message}`);
   }
 
   // 6. Parse JSON from LLM response
-  const analysis = parseAnalysisResponse(rawResponse);
+  const analysis = parseAnalysisResponse(llmResult.text);
 
   // 7. Get local recommendations (instant — reads bundled JSON files)
   const tags = problemData?.topicTags ?? [];
@@ -137,6 +137,7 @@ async function handleAnalysis({ titleSlug, code, language }, tab) {
     difficulty: problemData?.difficulty ?? 'Unknown',
     language,
     code,
+    usage: llmResult.usage ?? { promptTokens: 0, completionTokens: 0, totalTokens: 0 },
     recommendations,
     timestamp: Date.now(),
   };
@@ -266,7 +267,13 @@ async function callInferX(prompt, { apiKey, model }) {
     // Success
     if (resp.ok) {
       const data = await resp.json();
-      return data.choices?.[0]?.message?.content ?? '';
+      const text = data.choices?.[0]?.message?.content ?? '';
+      const usage = {
+        promptTokens: data.usage?.prompt_tokens ?? 0,
+        completionTokens: data.usage?.completion_tokens ?? 0,
+        totalTokens: data.usage?.total_tokens ?? 0,
+      };
+      return { text, usage };
     }
 
     // Rate limited — retry with backoff
@@ -329,7 +336,13 @@ async function callOpenAI(prompt, { apiKey, model }) {
   }
 
   const data = await resp.json();
-  return data.choices?.[0]?.message?.content ?? '';
+  const text = data.choices?.[0]?.message?.content ?? '';
+  const usage = {
+    promptTokens: data.usage?.prompt_tokens ?? 0,
+    completionTokens: data.usage?.completion_tokens ?? 0,
+    totalTokens: data.usage?.total_tokens ?? 0,
+  };
+  return { text, usage };
 }
 
 async function callGemini(prompt, { apiKey, model }) {
@@ -355,7 +368,14 @@ async function callGemini(prompt, { apiKey, model }) {
   }
 
   const data = await resp.json();
-  return data.candidates?.[0]?.content?.parts?.[0]?.text ?? '';
+  const text = data.candidates?.[0]?.content?.parts?.[0]?.text ?? '';
+  const meta = data.usageMetadata ?? {};
+  const usage = {
+    promptTokens: meta.promptTokenCount ?? 0,
+    completionTokens: meta.candidatesTokenCount ?? 0,
+    totalTokens: meta.totalTokenCount ?? ((meta.promptTokenCount ?? 0) + (meta.candidatesTokenCount ?? 0)),
+  };
+  return { text, usage };
 }
 
 // ─── Response Parser ──────────────────────────────────────────────────────────
@@ -426,6 +446,7 @@ async function appendHistory(entry) {
         timeComplexity: entry.timeComplexity?.notation,
         spaceComplexity: entry.spaceComplexity?.notation,
         efficiencyRating: entry.efficiencyRating,
+        usage: entry.usage,
         timestamp: entry.timestamp,
       };
       const updated = [slim, ...analysisHistory].slice(0, MAX_HISTORY);
