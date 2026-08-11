@@ -76,8 +76,17 @@ async function handleAnalysis({ titleSlug, code, language }, tab) {
 
   // 2. Check local cache
   const cacheKey = `cache:${titleSlug}:${simpleHash(code)}`;
-  const cached = await getCached(cacheKey);
+  let cached = await getCached(cacheKey);
   if (cached) {
+    if (!cached.recommendations || cached.recommendations.length === 0) {
+      cached.recommendations = await getRecommendations(
+        titleSlug,
+        [],
+        cached.difficulty ?? '',
+        6
+      ).catch(() => []);
+      await setCached(cacheKey, cached);
+    }
     await setAnalysisState({ ...cached, _status: 'complete', _fromCache: true });
     return cached;
   }
@@ -109,13 +118,16 @@ async function handleAnalysis({ titleSlug, code, language }, tab) {
   const analysis = parseAnalysisResponse(rawResponse);
 
   // 7. Get local recommendations (instant — reads bundled JSON files)
-  const tags = (problemData?.topicTags ?? []).map(t => t.slug);
+  const tags = problemData?.topicTags ?? [];
   const recommendations = await getRecommendations(
     titleSlug,
     tags,
     problemData?.difficulty ?? '',
     6
-  ).catch(() => []);
+  ).catch(err => {
+    console.warn('[BG] Recommendations error:', err);
+    return [];
+  });
 
   const result = {
     ...analysis,
@@ -174,7 +186,7 @@ async function fetchProblemData(titleSlug) {
         title
         difficulty
         content
-        topicTags { name }
+        topicTags { name slug }
         stats
         exampleTestcases
       }
