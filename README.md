@@ -185,9 +185,9 @@ Scraped once from LeetCode's public GraphQL API using `scripts/scrape-leetcode.j
 
 ---
 
-## Token Usage & Efficiency (Average per Analysis)
+## Token Usage & Efficiency (System Token Logger)
 
-Every analysis tracks and displays exact live token usage directly in the side panel (e.g. `⚡ 480 tokens`).
+The extension includes a structured **Token Logger System** (`src/utils/tokenLogger.js`) that tracks per-call token breakdown, calculates exact model costs, maintains cumulative stats in local storage, and logs color-coded metrics to the Chrome DevTools console.
 
 ### Average Token Breakdown
 
@@ -204,6 +204,19 @@ Every analysis tracks and displays exact live token usage directly in the side p
 | **InferX** | DeepSeek V4 Flash | ~$0.07 | **~14,000 analyses** |
 | **OpenAI** | GPT-4o Mini | ~$0.10 | **~10,000 analyses** |
 | **Google** | Gemini 1.5 Flash | ~$0.08 | **~12,500 analyses** |
+
+### DevTools Background Console Output
+Whenever an analysis is triggered, `tokenLogger.js` prints a formatted log in the extension service worker console:
+```text
+📊 [Token Logger] two-sum — 470 tokens ($0.00003)
+  Problem:          two-sum
+  Provider / Model: inferx (deepseek-v4-flash)
+  Input (Prompt):    320 tokens
+  Output (Response): 150 tokens
+  Total Analysis:    470 tokens
+  Estimated Cost:    $0.00003
+  Cumulative Total:  1,410 tokens across 3 calls (Avg: 470 tokens/call, Est. Total: $0.00010)
+```
 
 ---
 

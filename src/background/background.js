@@ -11,6 +11,7 @@
 
 import { buildAnalysisPrompt, isLanguageSupported } from '../utils/prompt.js';
 import { getRecommendations } from '../utils/recommendations.js';
+import { recordAndLogTokenUsage, getTokenStats } from '../utils/tokenLogger.js';
 
 const LEETCODE_GRAPHQL = 'https://leetcode.com/graphql';
 const CACHE_TTL_MS = 24 * 60 * 60 * 1000; // 24 hours
@@ -55,6 +56,12 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
       prefetchProblemData(message.payload.titleSlug);
       sendResponse({ success: true });
       break;
+
+    case 'GET_TOKEN_STATS':
+      getTokenStats()
+        .then(stats => sendResponse({ success: true, data: stats }))
+        .catch(err => sendResponse({ success: false, error: err.message }));
+      return true;
 
     default:
       break;
@@ -113,6 +120,14 @@ async function handleAnalysis({ titleSlug, code, language }, tab) {
   } catch (err) {
     throw new Error(`AI call failed: ${err.message}`);
   }
+
+  // Record and print structured token analysis log in background console
+  const tokenStats = await recordAndLogTokenUsage({
+    provider: settings.provider,
+    model: settings.model,
+    usage: llmResult.usage,
+    titleSlug,
+  }).catch(err => console.warn('[BG] Token logger error:', err));
 
   // 6. Parse JSON from LLM response
   const analysis = parseAnalysisResponse(llmResult.text);

@@ -198,6 +198,30 @@ function formatDate(ts) {
     ' ' + d.toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit' });
 }
 
+// ─── Token Logger Stats ──────────────────────────────────────────────────────
+function loadTokenStats() {
+  chrome.storage.local.get({
+    tokenLoggerStats: { totalTokens: 0, totalAnalyses: 0, avgTokens: 0 }
+  }, ({ tokenLoggerStats }) => {
+    const avgEl   = document.getElementById('stat-avg-tokens');
+    const totalEl = document.getElementById('stat-total-tokens');
+    const callsEl = document.getElementById('stat-total-calls');
+
+    if (avgEl)   avgEl.textContent   = tokenLoggerStats.avgTokens ? `${tokenLoggerStats.avgTokens}t` : '0t';
+    if (totalEl) totalEl.textContent = tokenLoggerStats.totalTokens > 999 
+      ? `${(tokenLoggerStats.totalTokens / 1000).toFixed(1)}k` 
+      : `${tokenLoggerStats.totalTokens}t`;
+    if (callsEl) callsEl.textContent = tokenLoggerStats.totalAnalyses ?? 0;
+  });
+}
+
+// Listen for tokenLoggerStats changes
+chrome.storage.onChanged.addListener((changes, area) => {
+  if (area === 'local' && changes.tokenLoggerStats) {
+    loadTokenStats();
+  }
+});
+
 // ─── Load Saved Settings on Open ─────────────────────────────────────────────
 chrome.storage.local.get(
   { apiKey: '', provider: 'inferx', model: 'deepseek-v4-flash' },
@@ -205,5 +229,6 @@ chrome.storage.local.get(
     setProvider(provider);
     if (modelSelect && model) modelSelect.value = model;
     if (apiKeyInput && apiKey) apiKeyInput.value = apiKey;
+    loadTokenStats();
   }
 );

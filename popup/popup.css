@@ -272,6 +272,46 @@ body {
 }
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
+/* Token Stats Box */
+.token-stats-box {
+  background: rgba(124, 58, 237, 0.06);
+  border: 1px solid rgba(124, 58, 237, 0.2);
+  border-radius: var(--radius);
+  padding: 10px 12px;
+}
+.token-stats-title {
+  font-size: 11px;
+  font-weight: 600;
+  color: #a78bfa;
+  margin-bottom: 8px;
+}
+.token-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+  text-align: center;
+}
+.token-stat-item {
+  display: flex;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.25);
+  padding: 6px 4px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+.token-stat-val {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-1);
+}
+.token-stat-lbl {
+  font-size: 9px;
+  color: var(--text-3);
+  margin-top: 2px;
+  text-transform: uppercase;
+}
+
 /* Info Box */
 .info-box {
   background: var(--bg-card);
