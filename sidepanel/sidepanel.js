@@ -31,6 +31,9 @@ function ratingTier(score) {
 // ─── State Management ─────────────────────────────────────────────────────────
 const STATES = ['state-empty', 'state-loading', 'state-unsupported', 'state-error', 'state-results'];
 
+/** Stores current analysis payload so the Dry Run button can reference it */
+let _currentAnalysis = null;
+
 function showState(id) {
   STATES.forEach(s => {
     const el = document.getElementById(s);
@@ -170,9 +173,39 @@ function renderResults(data) {
     recCard.classList.add('hidden');
   }
 
+  // Store current analysis for Dry Run button
+  _currentAnalysis = data;
+
   showState('state-results');
 }
 
+// ─── Dry Run Button ───────────────────────────────────────────────────────────
+document.getElementById('dry-run-btn')?.addEventListener('click', async () => {
+  if (!_currentAnalysis) return;
+
+  const { titleSlug, code, language, problemTitle } = _currentAnalysis;
+  if (!code || !language) return;
+
+  // Save the request for the dryrun window to pick up and trace locally
+  await chrome.storage.local.set({
+    latestDryRunReq: {
+      titleSlug: titleSlug || '',
+      problemTitle: problemTitle || titleSlug || 'Problem',
+      code,
+      language,
+      timestamp: Date.now(),
+    }
+  });
+
+  // Open the dry run popup window (700 × 720 px)
+  const dryRunUrl = chrome.runtime.getURL('dryrun/dryrun.html');
+  chrome.windows.create({
+    url:    dryRunUrl,
+    type:   'popup',
+    width:  700,
+    height: 720,
+  });
+});
 function renderError(message) {
   set('error-message', message ?? 'An unexpected error occurred.');
   showState('state-error');

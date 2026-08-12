@@ -8,13 +8,10 @@
 // Model pricing per 1,000,000 tokens (USD)
 const PRICING = {
   // NVIDIA Integrate API
-  'google/gemma-4-31b-it':          { input: 0.20, output: 0.40 },
+  'meta/llama-3.3-70b-instruct':     { input: 0.35, output: 0.40 },
+  'meta/llama-3.1-70b-instruct':      { input: 0.35, output: 0.40 },
   'meta/llama-3.1-405b-instruct':    { input: 1.00, output: 1.00 },
   'nvidia/nemotron-4-340b-instruct': { input: 0.50, output: 1.00 },
-
-  // InferX / DeepSeek
-  'deepseek-v4-flash': { input: 0.14, output: 0.28 },
-  'deepseek-v3':       { input: 0.27, output: 1.10 },
 
   // OpenAI
   'gpt-4o-mini':       { input: 0.15, output: 0.60 },
@@ -31,7 +28,7 @@ const PRICING = {
  * Calculate estimated cost in USD for a given model & token count.
  */
 export function calculateCost(model, promptTokens, completionTokens) {
-  const rates = PRICING[model] ?? PRICING['deepseek-v4-flash'];
+  const rates = PRICING[model] ?? PRICING['meta/llama-3.3-70b-instruct'];
   const inputCost  = (promptTokens / 1_000_000) * rates.input;
   const outputCost = (completionTokens / 1_000_000) * rates.output;
   return inputCost + outputCost;

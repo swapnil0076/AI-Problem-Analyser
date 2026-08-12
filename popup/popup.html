@@ -43,49 +43,26 @@
     <!-- Settings Tab -->
     <div class="tab-content" id="content-settings">
 
-      <!-- Provider Selection -->
-      <div class="form-group">
-        <label class="form-label">AI Provider</label>
-        <div class="provider-grid">
-          <button class="provider-btn active" id="provider-nvidia" data-provider="nvidia">
-            <span class="provider-logo">🟢</span>
-            <span class="provider-name">NVIDIA</span>
-          </button>
-          <button class="provider-btn" id="provider-inferx" data-provider="inferx">
-            <span class="provider-logo">🔷</span>
-            <span class="provider-name">InferX</span>
-          </button>
-          <button class="provider-btn" id="provider-openai" data-provider="openai">
-            <span class="provider-logo">⚡</span>
-            <span class="provider-name">OpenAI</span>
-          </button>
-          <button class="provider-btn" id="provider-gemini" data-provider="gemini">
-            <span class="provider-logo">✦</span>
-            <span class="provider-name">Gemini</span>
-          </button>
-        </div>
-      </div>
-
       <!-- Model Selection -->
       <div class="form-group">
         <label class="form-label" for="model-select">Model</label>
         <select class="form-select" id="model-select">
-          <!-- Populated by JS based on provider -->
+          <!-- Populated by JS -->
         </select>
       </div>
 
       <!-- API Key -->
       <div class="form-group">
         <label class="form-label" for="api-key-input">
-          API Key
-          <span class="label-hint" id="api-key-hint">Your key is stored locally and never leaves your browser.</span>
+          NVIDIA API Key
+          <span class="label-hint">Stored locally — never leaves your browser.</span>
         </label>
         <div class="input-wrapper">
           <input
             class="form-input"
             type="password"
             id="api-key-input"
-            placeholder="sk-..."
+            placeholder="nvapi-..."
             autocomplete="off"
             spellcheck="false"
           />
@@ -96,7 +73,7 @@
             </svg>
           </button>
         </div>
-        <a class="get-key-link" id="get-key-link" href="#" target="_blank">Get an API key →</a>
+        <a class="get-key-link" id="get-key-link" href="https://build.nvidia.com" target="_blank">Get a free NVIDIA API key →</a>
       </div>
 
       <!-- Save Button -->

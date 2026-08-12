@@ -4,7 +4,7 @@
  * Handles:
  * 1. Opening the Chrome Side Panel
  * 2. Fetching problem data from LeetCode's internal GraphQL API
- * 3. Calling OpenAI, Gemini, or InferX (DeepSeek) with the analysis prompt
+ * 3. Calling NVIDIA, OpenAI, or Gemini with the analysis prompt
  * 4. Caching results in chrome.storage.local
  * 5. Saving analysis history (last 20 entries)
  */
@@ -167,6 +167,8 @@ async function handleAnalysis({ titleSlug, code, language }, tab) {
   return result;
 }
 
+
+
 // ─── Problem Data Pre-fetcher ─────────────────────────────────────────────────
 
 const PROBLEM_CACHE_TTL = 60 * 60 * 1000; // 1 hour
@@ -238,8 +240,6 @@ async function callLLM(prompt, settings) {
     return callOpenAI(prompt, settings);
   } else if (settings.provider === 'gemini') {
     return callGemini(prompt, settings);
-  } else if (settings.provider === 'inferx') {
-    return callInferX(prompt, settings);
   }
   throw new Error(`Unknown provider: ${settings.provider}`);
 }
@@ -252,123 +252,63 @@ async function callNvidia(prompt, { apiKey, model }) {
   if (!apiKey) {
     throw new Error('NVIDIA API key required. Please enter your API key in extension settings.');
   }
-  const effectiveModel = model || 'google/gemma-4-31b-it';
+  const primaryModel = (model && model !== 'google/gemma-4-31b-it') ? model : 'meta/llama-3.3-70b-instruct';
+  const fallbackModel = 'meta/llama-3.1-70b-instruct';
 
-  const resp = await fetch('https://integrate.api.nvidia.com/v1/chat/completions', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'Accept': 'application/json',
-      'Authorization': `Bearer ${apiKey}`,
-    },
-    body: JSON.stringify({
-      messages: [
-        {
-          role: 'system',
-          content:
-            'You are an expert algorithm analyst. Always respond with valid JSON only — no markdown, no extra text.',
-        },
-        { role: 'user', content: prompt },
-      ],
-      model: effectiveModel,
-      chat_template_kwargs: { enable_thinking: true },
-      max_tokens: 4096,
-      temperature: 0.2,
-      top_p: 0.95,
-    }),
-  });
-
-  if (!resp.ok) {
-    const err = await resp.json().catch(() => ({}));
-    throw new Error(err.detail ?? err.message ?? `NVIDIA HTTP ${resp.status}`);
-  }
-
-  const data = await resp.json();
-  const text = data.choices?.[0]?.message?.content ?? '';
-  const usage = {
-    promptTokens: data.usage?.prompt_tokens ?? 0,
-    completionTokens: data.usage?.completion_tokens ?? 0,
-    totalTokens: data.usage?.total_tokens ?? 0,
-  };
-  return { text, usage };
-}
-
-/**
- * InferX — OpenAI-compatible endpoint hosting DeepSeek models.
- * Base URL: https://model.inferx.net/endpoints/v1
- *
- * Includes exponential backoff for HTTP 429 (rate limit).
- * Respects the Retry-After header if present.
- */
-async function callInferX(prompt, { apiKey, model }) {
-  const effectiveModel = model || 'deepseek-v4-flash';
-  const MAX_RETRIES = 3;
-  const BASE_DELAY_MS = 1000; // 1s, 2s, 4s
-
-  const body = JSON.stringify({
-    model: effectiveModel,
-    messages: [
-      {
-        role: 'system',
-        content:
-          'You are an expert algorithm analyst. Always respond with valid JSON only — no markdown, no extra text.',
-      },
-      { role: 'user', content: prompt },
-    ],
-    temperature: 0.2,
-    max_tokens: 1200,
-    response_format: { type: 'json_object' },
-  });
-
-  for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
-    const resp = await fetch('https://model.inferx.net/endpoints/v1/chat/completions', {
+  async function makeRequest(targetModel) {
+    const resp = await fetch('https://integrate.api.nvidia.com/v1/chat/completions', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        Authorization: `Bearer ${apiKey}`,
+        'Accept': 'application/json',
+        'Authorization': `Bearer ${apiKey}`,
       },
-      body,
+      body: JSON.stringify({
+        messages: [
+          {
+            role: 'system',
+            content:
+              'You are an expert algorithm analyst. Always respond with valid JSON only — no markdown, no extra text.',
+          },
+          { role: 'user', content: prompt },
+        ],
+        model: targetModel,
+        max_tokens: 4096,
+        temperature: 0.2,
+        top_p: 0.95,
+      }),
     });
 
-    // Success
-    if (resp.ok) {
-      const data = await resp.json();
-      const text = data.choices?.[0]?.message?.content ?? '';
-      const usage = {
-        promptTokens: data.usage?.prompt_tokens ?? 0,
-        completionTokens: data.usage?.completion_tokens ?? 0,
-        totalTokens: data.usage?.total_tokens ?? 0,
-      };
-      return { text, usage };
+    if (!resp.ok) {
+      const err = await resp.json().catch(() => ({}));
+      const msg = err.detail ?? err.message ?? `NVIDIA HTTP ${resp.status}`;
+      throw new Error(msg);
     }
 
-    // Rate limited — retry with backoff
-    if (resp.status === 429 && attempt < MAX_RETRIES) {
-      // Honour Retry-After header if server provides it (in seconds)
-      const retryAfter = resp.headers.get('Retry-After');
-      const waitMs = retryAfter
-        ? Math.min(parseFloat(retryAfter) * 1000, 30_000) // cap at 30s
-        : BASE_DELAY_MS * Math.pow(2, attempt);           // 1s, 2s, 4s
-
-      console.warn(
-        `[BG] InferX rate limited (attempt ${attempt + 1}/${MAX_RETRIES}). Retrying in ${waitMs}ms...`
-      );
-      await new Promise(res => setTimeout(res, waitMs));
-      continue;
-    }
-
-    // Other error — surface immediately
-    const err = await resp.json().catch(() => ({}));
-    if (resp.status === 429) {
-      throw new Error(
-        'InferX rate limit reached. Please wait a moment and try again.'
-      );
-    }
-    throw new Error(err.error?.message ?? `InferX HTTP ${resp.status}`);
+    const data = await resp.json();
+    const text = data.choices?.[0]?.message?.content ?? '';
+    const usage = {
+      promptTokens: data.usage?.prompt_tokens ?? 0,
+      completionTokens: data.usage?.completion_tokens ?? 0,
+      totalTokens: data.usage?.total_tokens ?? 0,
+    };
+    return { text, usage };
   }
 
-  // Exhausted all retries
-  throw new Error('InferX rate limit reached after 3 retries. Please try again in a few seconds.');
+  try {
+    return await makeRequest(primaryModel);
+  } catch (err) {
+    // If auth failed, don't retry fallback
+    if (err.message.includes('401') || err.message.includes('403') || err.message.includes('key')) {
+      throw err;
+    }
+    // Retry with fallback model if primary model endpoint fails
+    if (primaryModel !== fallbackModel) {
+      console.warn(`[BG] Primary model ${primaryModel} failed (${err.message}). Retrying with ${fallbackModel}...`);
+      return await makeRequest(fallbackModel);
+    }
+    throw err;
+  }
 }
 
 
@@ -460,7 +400,7 @@ function parseAnalysisResponse(raw) {
     if (jsonMatch) {
       try {
         return JSON.parse(jsonMatch[0]);
-      } catch (_) {}
+      } catch (_) { }
     }
     throw new Error('Could not parse AI response. Try again.');
   }
@@ -471,12 +411,22 @@ function parseAnalysisResponse(raw) {
 async function getSettings() {
   return new Promise(resolve => {
     chrome.storage.local.get(
-      {
-        apiKey: '',
-        provider: 'nvidia',
-        model: 'google/gemma-4-31b-it',
-      },
-      resolve
+      { apiKey: '', model: 'meta/llama-3.3-70b-instruct' },
+      settings => {
+        // Extension is now NVIDIA-only. Clear any stale key from a previous provider
+        if (settings.apiKey && !settings.apiKey.startsWith('nvapi-')) {
+          settings.apiKey = '';
+          chrome.storage.local.set({ apiKey: '', provider: 'nvidia' });
+        }
+        // Migrate stale invalid model strings
+        if (!settings.model || settings.model === 'google/gemma-4-31b-it') {
+          settings.model = 'meta/llama-3.3-70b-instruct';
+          chrome.storage.local.set({ model: settings.model });
+        }
+        // Always force provider to nvidia
+        settings.provider = 'nvidia';
+        resolve(settings);
+      }
     );
   });
 }

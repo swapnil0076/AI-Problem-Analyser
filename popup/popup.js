@@ -1,88 +1,35 @@
 'use strict';
 
+// ─── PASTE YOUR NVIDIA API KEY HERE ──────────────────────────────────────────
+// Get your free key at: https://build.nvidia.com
+// It starts with "nvapi-"
+const DEFAULT_NVIDIA_KEY = 'nvapi-PASTE_YOUR_KEY_HERE';
+// ─────────────────────────────────────────────────────────────────────────────
+
 // ─── Model Definitions ────────────────────────────────────────────────────────
-const MODELS = {
-  nvidia: [
-    { value: 'google/gemma-4-31b-it',          label: 'Gemma 4 31B (NVIDIA, default)' },
-    { value: 'meta/llama-3.1-405b-instruct',   label: 'Llama 3.1 405B (NVIDIA)' },
-    { value: 'nvidia/nemotron-4-340b-instruct',label: 'Nemotron 4 340B (NVIDIA)' },
-  ],
-  inferx: [
-    { value: 'deepseek-v4-flash', label: 'DeepSeek V4 Flash (fast)' },
-    { value: 'deepseek-v3',       label: 'DeepSeek V3' },
-  ],
-  openai: [
-    { value: 'gpt-4o-mini',  label: 'GPT-4o Mini (fast, cheap)' },
-    { value: 'gpt-4o',       label: 'GPT-4o (best quality)' },
-    { value: 'gpt-4-turbo',  label: 'GPT-4 Turbo' },
-  ],
-  gemini: [
-    { value: 'gemini-1.5-flash',  label: 'Gemini 1.5 Flash (fast)' },
-    { value: 'gemini-1.5-pro',    label: 'Gemini 1.5 Pro (best quality)' },
-    { value: 'gemini-2.0-flash',  label: 'Gemini 2.0 Flash' },
-  ],
-};
-
-const API_KEY_LINKS = {
-  nvidia: 'https://build.nvidia.com',
-  inferx: 'https://inferx.net',
-  openai: 'https://platform.openai.com/api-keys',
-  gemini: 'https://aistudio.google.com/app/apikey',
-};
-
-const API_KEY_PLACEHOLDERS = {
-  nvidia: 'nvapi-...',
-  inferx: 'ix_...',
-  openai: 'sk-...',
-  gemini: 'AIza...',
-const API_KEY_PREFIXES = {
-  nvidia: 'nvapi-',
-  inferx: 'ix_',
-  openai: 'sk-',
-  gemini: 'AIza',
-};
-
-// ─── State ────────────────────────────────────────────────────────────────────
-let currentProvider = 'nvidia';
+const MODELS = [
+  { value: 'meta/llama-3.3-70b-instruct',     label: 'Llama 3.3 70B (default)' },
+  { value: 'meta/llama-3.1-70b-instruct',     label: 'Llama 3.1 70B' },
+  { value: 'meta/llama-3.1-405b-instruct',    label: 'Llama 3.1 405B' },
+  { value: 'nvidia/nemotron-4-340b-instruct',  label: 'Nemotron 4 340B' },
+];
 
 // ─── DOM References ───────────────────────────────────────────────────────────
-const providerBtns   = document.querySelectorAll('.provider-btn');
-const modelSelect    = document.getElementById('model-select');
-const apiKeyInput    = document.getElementById('api-key-input');
-const toggleKeyBtn   = document.getElementById('toggle-key-visibility');
-const getKeyLink     = document.getElementById('get-key-link');
-const saveBtn        = document.getElementById('save-btn');
-const statusMsg      = document.getElementById('status-msg');
-const tabBtns        = document.querySelectorAll('.tab-btn');
-const historyList    = document.getElementById('history-list');
-const historyEmpty   = document.getElementById('history-empty');
+const modelSelect     = document.getElementById('model-select');
+const apiKeyInput     = document.getElementById('api-key-input');
+const toggleKeyBtn    = document.getElementById('toggle-key-visibility');
+const saveBtn         = document.getElementById('save-btn');
+const statusMsg       = document.getElementById('status-msg');
+const tabBtns         = document.querySelectorAll('.tab-btn');
+const historyList     = document.getElementById('history-list');
+const historyEmpty    = document.getElementById('history-empty');
 const clearHistoryBtn = document.getElementById('clear-history-btn');
 
-// ─── Provider Switching ───────────────────────────────────────────────────────
-function setProvider(provider) {
-  currentProvider = provider;
-
-  providerBtns.forEach(btn => {
-    btn.classList.toggle('active', btn.dataset.provider === provider);
-  });
-
-  populateModelSelect(provider);
-
-  if (getKeyLink) {
-    getKeyLink.href = API_KEY_LINKS[provider] ?? '#';
-    const providerLabel = { inferx: 'InferX', openai: 'OpenAI', gemini: 'Gemini' }[provider] ?? provider;
-    getKeyLink.textContent = `Get a ${providerLabel} API key →`;
-  }
-
-  if (apiKeyInput) {
-    apiKeyInput.placeholder = API_KEY_PLACEHOLDERS[provider] ?? 'API key...';
-  }
-}
-
-function populateModelSelect(provider) {
+// ─── Populate Model Dropdown ──────────────────────────────────────────────────
+function populateModelSelect() {
   if (!modelSelect) return;
   modelSelect.innerHTML = '';
-  (MODELS[provider] ?? []).forEach(m => {
+  MODELS.forEach(m => {
     const opt = document.createElement('option');
     opt.value = m.value;
     opt.textContent = m.label;
@@ -90,13 +37,7 @@ function populateModelSelect(provider) {
   });
 }
 
-providerBtns.forEach(btn => {
-  btn.addEventListener('click', () => {
-    setProvider(btn.dataset.provider);
-    // Clear API key field when switching providers
-    if (apiKeyInput) apiKeyInput.value = '';
-  });
-});
+populateModelSelect();
 
 // ─── Key Visibility Toggle ────────────────────────────────────────────────────
 toggleKeyBtn?.addEventListener('click', () => {
@@ -126,20 +67,17 @@ saveBtn?.addEventListener('click', () => {
   const model  = modelSelect?.value;
 
   if (!apiKey) {
-    showStatus('Please enter an API key.', 'error');
+    showStatus('Please enter an NVIDIA API key.', 'error');
     return;
   }
 
-  // Basic format validation
-  const expectedPrefix = API_KEY_PREFIXES[currentProvider];
-  if (expectedPrefix && !apiKey.startsWith(expectedPrefix)) {
-    const providerLabel = { inferx: 'InferX', openai: 'OpenAI', gemini: 'Gemini' }[currentProvider] ?? currentProvider;
-    showStatus(`${providerLabel} keys start with "${expectedPrefix}". Check your key.`, 'error');
+  if (!apiKey.startsWith('nvapi-')) {
+    showStatus('NVIDIA keys start with "nvapi-". Check your key.', 'error');
     return;
   }
 
   chrome.storage.local.set(
-    { apiKey, provider: currentProvider, model },
+    { apiKey, provider: 'nvidia', model },
     () => {
       showStatus('✓ Settings saved!', 'success');
       setTimeout(() => statusMsg?.classList.add('hidden'), 2500);
@@ -214,8 +152,8 @@ function loadTokenStats() {
     const callsEl = document.getElementById('stat-total-calls');
 
     if (avgEl)   avgEl.textContent   = tokenLoggerStats.avgTokens ? `${tokenLoggerStats.avgTokens}t` : '0t';
-    if (totalEl) totalEl.textContent = tokenLoggerStats.totalTokens > 999 
-      ? `${(tokenLoggerStats.totalTokens / 1000).toFixed(1)}k` 
+    if (totalEl) totalEl.textContent = tokenLoggerStats.totalTokens > 999
+      ? `${(tokenLoggerStats.totalTokens / 1000).toFixed(1)}k`
       : `${tokenLoggerStats.totalTokens}t`;
     if (callsEl) callsEl.textContent = tokenLoggerStats.totalAnalyses ?? 0;
   });
@@ -230,10 +168,15 @@ chrome.storage.onChanged.addListener((changes, area) => {
 
 // ─── Load Saved Settings on Open ─────────────────────────────────────────────
 chrome.storage.local.get(
-  { apiKey: DEFAULT_NVIDIA_KEY, provider: 'nvidia', model: 'google/gemma-4-31b-it' },
-  ({ apiKey, provider, model }) => {
-    setProvider(provider);
+  { apiKey: '', provider: 'nvidia', model: 'meta/llama-3.3-70b-instruct' },
+  ({ apiKey, model }) => {
+    const validModelValues = MODELS.map(m => m.value);
+    if (!validModelValues.includes(model)) {
+      model = 'meta/llama-3.3-70b-instruct';
+      chrome.storage.local.set({ model });
+    }
     if (modelSelect && model) modelSelect.value = model;
+    // Show the saved key, or fall back to the hardcoded default as a starting point
     if (apiKeyInput) apiKeyInput.value = apiKey || DEFAULT_NVIDIA_KEY;
     loadTokenStats();
   }

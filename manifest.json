@@ -8,7 +8,8 @@
     "storage",
     "scripting",
     "activeTab",
-    "sidePanel"
+    "sidePanel",
+    "windows"
   ],
 
   "host_permissions": [
@@ -50,6 +51,10 @@
     },
     {
       "resources": ["data/*", "data/by-tag/*", "data/by-difficulty/*"],
+      "matches": ["<all_urls>"]
+    },
+    {
+      "resources": ["dryrun/*"],
       "matches": ["<all_urls>"]
     }
   ],

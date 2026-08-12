@@ -120,6 +120,76 @@
         <p class="approach-desc" id="approach-desc">—</p>
       </div>
 
+      <!-- ── Dry Run Button ─────────────────────────────────────────── -->
+      <button class="dry-run-trigger-btn" id="dry-run-btn">
+        <span class="dry-run-btn-icon">▶</span>
+        <span>Dry Run My Code</span>
+        <span class="dry-run-btn-sub">Step-by-step trace of your code</span>
+      </button>
+
+      <!-- ── Dry Run Panel ──────────────────────────────────────────── -->
+      <div class="dry-run-panel hidden" id="dry-run-panel">
+
+        <!-- Dry Run Loading -->
+        <div class="dry-run-loading hidden" id="dry-run-loading">
+          <div class="pulse-ring"></div>
+          <span>Tracing your code...</span>
+        </div>
+
+        <!-- Dry Run Error -->
+        <div class="dry-run-error hidden" id="dry-run-error">
+          <span>⚠</span>
+          <span id="dry-run-error-msg">Something went wrong.</span>
+        </div>
+
+        <!-- Dry Run Content -->
+        <div class="dry-run-content hidden" id="dry-run-content">
+
+          <!-- Header row: algorithm name + correct/wrong badge -->
+          <div class="dry-run-header">
+            <span class="dry-run-algo" id="dry-run-algo">—</span>
+            <span class="dry-run-status-badge" id="dry-run-status-badge"></span>
+          </div>
+
+          <!-- Input used -->
+          <div class="dry-run-input-row">
+            <span class="dry-run-input-label">Input:</span>
+            <span class="dry-run-input-val" id="dry-run-input">—</span>
+          </div>
+
+          <!-- Step Card -->
+          <div class="step-card" id="step-card">
+            <div class="step-counter-row">
+              <span class="step-counter" id="step-counter">Step 1 / 1</span>
+              <span class="step-ok-badge" id="step-ok-badge"></span>
+            </div>
+
+            <!-- Variable state pills -->
+            <div class="step-vars" id="step-vars"></div>
+
+            <!-- Action text -->
+            <div class="step-action" id="step-action">—</div>
+
+            <!-- Note (key insight or bug explanation) -->
+            <div class="step-note" id="step-note"></div>
+          </div>
+
+          <!-- Navigation Controls -->
+          <div class="dry-run-controls">
+            <button class="dry-run-nav-btn" id="dry-run-prev" title="Previous step">‹ Prev</button>
+            <button class="dry-run-play-btn" id="dry-run-play" title="Play / Pause">▶ Play</button>
+            <button class="dry-run-nav-btn" id="dry-run-next" title="Next step">Next ›</button>
+          </div>
+
+          <!-- Result row -->
+          <div class="dry-run-result-row">
+            <span class="dry-run-result-label">Output:</span>
+            <span class="dry-run-result-val" id="dry-run-result">—</span>
+          </div>
+
+        </div>
+      </div>
+
       <!-- Complexity Row -->
       <div class="complexity-row">
         <div class="card complexity-card" id="card-tc">

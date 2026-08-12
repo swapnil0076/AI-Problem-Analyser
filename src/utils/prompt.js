@@ -65,3 +65,5 @@ Reason through: (1) pattern/approach, (2) time complexity tracing each loop/call
 Then output ONLY this JSON (no markdown, no extra text):
 {"approach":{"name":"<pattern>","description":"<2 sentences>"},"timeComplexity":{"notation":"O(...)","explanation":"<1 sentence>"},"spaceComplexity":{"notation":"O(...)","explanation":"<1 sentence>"},"efficiencyRating":<1-10>,"suggestions":["<specific fix 1>","<specific fix 2>"],"confidence":"<high|medium|low>","optimalComplexity":{"time":"O(...)","space":"O(...)"}}`;
 }
+
+

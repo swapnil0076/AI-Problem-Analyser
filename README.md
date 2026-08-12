@@ -1,6 +1,6 @@
 # LeetCode AI Analyzer — Chrome Extension
 
-A Chrome extension that reads your LeetCode solution, sends it to an AI (InferX/DeepSeek, OpenAI, or Gemini), and returns analysis in a clean side panel — including **approach identification, time/space complexity, efficiency rating, improvement suggestions, and recommended next problems**.
+A Chrome extension that reads your LeetCode solution, sends it to an AI (NVIDIA, OpenAI, or Gemini), and returns analysis in a clean side panel — including **approach identification, time/space complexity, efficiency rating, improvement suggestions, and recommended next problems**.
 
 ---
 
@@ -15,7 +15,7 @@ A Chrome extension that reads your LeetCode solution, sends it to an AI (InferX/
 | 💡 **Suggestions** | 2–3 specific, actionable improvements |
 | 🔗 **Recommended Problems** | 6 similar problems from local DB (instant, no API call) |
 | ⚡ **Pre-fetch** | Problem data fetched on page load — not on Analyze click |
-| 🔷 **InferX / DeepSeek** | Default provider — fast, cheap DeepSeek V4 Flash |
+| 🟢 **NVIDIA** | Default provider — high-parameter Gemma 4 31B reasoning |
 
 ---
 
@@ -63,13 +63,15 @@ Extension/
 
 ---
 
-## Setup
+## Setup & Development
 
 ### 1. Get an API Key
 
+You need an API key from one of the supported AI providers:
+
 | Provider | Where to get key | Key format |
 |----------|-----------------|------------|
-| **InferX** (default) | https://inferx.net | `ix_...` |
+| **NVIDIA** (default) | https://build.nvidia.com | `nvapi-...` |
 | OpenAI | https://platform.openai.com/api-keys | `sk-...` |
 | Gemini | https://aistudio.google.com/app/apikey | `AIza...` |
 
@@ -83,7 +85,7 @@ Extension/
 ### 3. Configure Your API Key
 
 1. Click the extension icon in your toolbar
-2. **InferX** is pre-selected (fastest, cheapest)
+2. **NVIDIA** is pre-selected (fast, high quality)
 3. Paste your API key → **Save Settings**
 
 ### 4. Use It
@@ -107,7 +109,7 @@ User clicks Analyze → code read from Monaco API (bridge.js)
                     ↓
             background.js finds cached problem data (skips GraphQL!)
                     ↓
-            Compact prompt sent to InferX/OpenAI/Gemini
+            Compact prompt sent to NVIDIA/OpenAI/Gemini
                     ↓
             Recommendations read from local data/ (instant, no API)
                     ↓
@@ -123,29 +125,29 @@ User clicks Analyze → code read from Monaco API (bridge.js)
 
 ---
 
-## Architecture
+## Architecture Flow
 
 ```
-leetcode.com/problems/<slug>
-        │
-        ├── content.js (injected)   → floating button + pre-fetch signal
-        └── bridge.js (page ctx)    → reads window.monaco editor
-                │ postMessage
-                ↓
-        content.js → chrome.runtime.sendMessage
-                │
-                ↓
-        background.js (service worker)
-                ├── Memory cache: problem data (1h TTL)
-                ├── LeetCode /graphql → problem title, tags, difficulty
-                ├── InferX / OpenAI / Gemini → LLM analysis
-                ├── data/by-tag/*.json → recommendations (local, instant)
-                ├── chrome.storage.local → 24h analysis cache + history
-                └── latestAnalysis storage → triggers sidepanel render
-                │
-                ↓
-        sidepanel.js (storage.onChanged listener)
-                └── renders 5 states: empty / loading / error / unsupported / results
+leetcode.com (browser page)
+    ├── content.js (injects bridge.js into page context)
+    │     ├── bridge.js → extracts solution code from Monaco Editor API
+    │     ├── floating button ("AI Analyze") injected into page
+    │     └── fires PREFETCH_PROBLEM message on load
+    │
+    ↓ (chrome.runtime.sendMessage)
+    │
+background.js (Service Worker)
+    ├── handles PREFETCH_PROBLEM / ANALYZE_CODE
+    │     └── handleAnalysis()
+    │           ├── LeetCode /graphql → problem title, tags, difficulty
+    │           ├── NVIDIA / OpenAI / Gemini → LLM analysis
+    │           ├── data/by-tag/*.json → recommendations (local, instant)
+    │           ├── chrome.storage.local → 24h analysis cache + history
+    │           └── latestAnalysis storage → triggers sidepanel render
+    │
+    ↓
+sidepanel.js (storage.onChanged listener)
+    └── renders 5 states: empty / loading / error / unsupported / results
 ```
 
 ---
@@ -180,7 +182,6 @@ Scraped once from LeetCode's public GraphQL API using `scripts/scrape-leetcode.j
 | Provider | Models | Notes |
 |----------|--------|-------|
 | **NVIDIA** | Gemma 4 31B ⭐, Llama 3.1 405B, Nemotron 4 340B | Default — fast high-parameter inference |
-| **InferX** | DeepSeek V4 Flash, DeepSeek V3 | OpenAI-compatible endpoint |
 | **OpenAI** | GPT-4o Mini, GPT-4o, GPT-4 Turbo | Reliable JSON output |
 | **Gemini** | Gemini 1.5 Flash, 1.5 Pro, 2.0 Flash | Good for long problems |
 
@@ -202,7 +203,7 @@ The extension includes a structured **Token Logger System** (`src/utils/tokenLog
 
 | Provider | Model | Est. Cost / 1k Analyses | Analyses per $1.00 |
 |----------|-------|-------------------------|-------------------|
-| **InferX** | DeepSeek V4 Flash | ~$0.07 | **~14,000 analyses** |
+| **NVIDIA** | Gemma 4 31B | ~$0.13 | **~7,600 analyses** |
 | **OpenAI** | GPT-4o Mini | ~$0.10 | **~10,000 analyses** |
 | **Google** | Gemini 1.5 Flash | ~$0.08 | **~12,500 analyses** |
 
@@ -211,7 +212,7 @@ Whenever an analysis is triggered, `tokenLogger.js` prints a formatted log in th
 ```text
 📊 [Token Logger] two-sum — 470 tokens ($0.00003)
   Problem:          two-sum
-  Provider / Model: inferx (deepseek-v4-flash)
+  Provider / Model: nvidia (google/gemma-4-31b-it)
   Input (Prompt):    320 tokens
   Output (Response): 150 tokens
   Total Analysis:    470 tokens
