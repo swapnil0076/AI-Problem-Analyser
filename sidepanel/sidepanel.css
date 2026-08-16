@@ -539,51 +539,192 @@ html, body {
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Dry Run Trigger Button ───────────────────────────────────────────────── */
-.dry-run-trigger-btn {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  width: 100%;
-  padding: 13px 16px;
-  background: linear-gradient(135deg, rgba(124,58,237,0.08), rgba(59,130,246,0.06));
-  border: 1px solid rgba(124,58,237,0.35);
-  border-radius: var(--radius-md);
-  cursor: pointer;
-  color: var(--text-1);
-  font-family: var(--font-sans);
-  font-size: 13px;
-  font-weight: 600;
-  text-align: left;
-  transition: all 0.2s;
+/* ── Dry Run Diagram & Logic Flowchart Card ──────────────────────────────── */
+.diagram-card {
+  background: linear-gradient(180deg, #161b22 0%, #12161c 100%);
+  border: 1px solid rgba(124, 58, 237, 0.28);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
   position: relative;
   overflow: hidden;
 }
-.dry-run-trigger-btn::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(135deg, rgba(124,58,237,0.15), rgba(59,130,246,0.1));
-  opacity: 0;
-  transition: opacity 0.2s;
-}
-.dry-run-trigger-btn:hover::before { opacity: 1; }
-.dry-run-trigger-btn:hover { border-color: rgba(124,58,237,0.6); }
-.dry-run-trigger-btn:active { transform: scale(0.99); }
 
-.dry-run-btn-icon {
-  font-size: 16px;
-  background: linear-gradient(135deg, #a78bfa, #60a5fa);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  flex-shrink: 0;
-}
-
-.dry-run-btn-sub {
-  font-size: 10px;
-  color: var(--text-3);
-  font-weight: 400;
+.diagram-tag {
+  font-size: 9px;
+  font-weight: 700;
+  color: #a78bfa;
+  background: rgba(124, 58, 237, 0.12);
+  border: 1px solid rgba(124, 58, 237, 0.3);
+  border-radius: 50px;
+  padding: 2px 8px;
   margin-left: auto;
-  flex-shrink: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
+
+.diagram-viewport {
+  position: relative;
+  background: #0d1117;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 14px;
+  margin-bottom: 12px;
+  min-height: 200px;
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* Skeleton Loading state */
+.diagram-skeleton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 10px;
+  gap: 10px;
+}
+
+.skeleton-node {
+  width: 190px;
+  height: 38px;
+  background: linear-gradient(90deg, #161b22 25%, #21262d 50%, #161b22 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+.skeleton-line {
+  width: 2px;
+  height: 20px;
+  background: #30363d;
+}
+
+.skeleton-label {
+  font-size: 11px;
+  color: var(--text-2);
+  margin-top: 6px;
+  animation: pulseText 1.5s infinite ease-in-out;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+@keyframes pulseText {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+/* SVG Flowchart Elements */
+.diagram-canvas {
+  width: 100%;
+  animation: fadeIn 0.35s ease;
+}
+
+.flowchart-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.flow-node {
+  cursor: pointer;
+  transition: transform 0.15s ease, filter 0.15s ease;
+}
+
+.flow-node:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.2);
+}
+
+.flow-node.active rect,
+.flow-node.active polygon {
+  stroke: #60a5fa !important;
+  stroke-width: 2px !important;
+}
+
+/* Execution Steps List */
+.diagram-steps-wrapper {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+}
+
+.diagram-steps-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.diagram-steps-title {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-2);
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+}
+
+.diagram-steps-count {
+  font-size: 10px;
+  font-family: var(--font-mono);
+  color: #a78bfa;
+}
+
+.diagram-steps-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.diagram-step-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 6px 8px;
+  background: rgba(22, 27, 34, 0.8);
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  font-size: 11.5px;
+  transition: all 0.15s ease;
+}
+
+.diagram-step-item:hover {
+  background: rgba(124, 58, 237, 0.08);
+  border-color: rgba(124, 58, 237, 0.25);
+}
+
+.diagram-step-num {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 700;
+  color: #93c5fd;
+  background: rgba(59, 130, 246, 0.15);
+  padding: 1px 5px;
+  border-radius: 4px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.diagram-step-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.diagram-step-title {
+  color: var(--text-1);
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.diagram-step-detail {
+  color: var(--text-2);
+  font-size: 10px;
+  font-family: var(--font-mono);
+  line-height: 1.4;
+}
+

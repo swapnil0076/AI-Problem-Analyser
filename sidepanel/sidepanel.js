@@ -1,11 +1,4 @@
-/**
- * sidepanel.js — Side panel UI controller.
- *
- * Listens to chrome.storage.onChanged for 'latestAnalysis'
- * (set by background.js) and renders the appropriate state.
- */
-
-'use strict';
+import { generateFlowchart } from '../src/utils/flowchartGenerator.js';
 
 // ─── Complexity Color Classifier ──────────────────────────────────────────────
 function complexityColor(notation) {
@@ -173,39 +166,84 @@ function renderResults(data) {
     recCard.classList.add('hidden');
   }
 
-  // Store current analysis for Dry Run button
-  _currentAnalysis = data;
+  // Render Dry Run Flowchart Diagram
+  renderFlowchart(data);
 
+  _currentAnalysis = data;
   showState('state-results');
 }
 
-// ─── Dry Run Button ───────────────────────────────────────────────────────────
-document.getElementById('dry-run-btn')?.addEventListener('click', async () => {
-  if (!_currentAnalysis) return;
+// ─── Flowchart Renderer ───────────────────────────────────────────────────────
+function renderFlowchart(data) {
+  const skeleton = document.getElementById('diagram-skeleton');
+  const canvas = document.getElementById('diagram-canvas');
+  const tag = document.getElementById('diagram-tag');
+  const stepsList = document.getElementById('diagram-steps-list');
+  const stepsCount = document.getElementById('diagram-steps-count');
 
-  const { titleSlug, code, language, problemTitle } = _currentAnalysis;
-  if (!code || !language) return;
+  if (!canvas || !skeleton) return;
 
-  // Save the request for the dryrun window to pick up and trace locally
-  await chrome.storage.local.set({
-    latestDryRunReq: {
-      titleSlug: titleSlug || '',
-      problemTitle: problemTitle || titleSlug || 'Problem',
-      code,
-      language,
-      timestamp: Date.now(),
+  // Show skeleton loading state
+  skeleton.classList.remove('hidden');
+  canvas.classList.add('hidden');
+
+  if (tag) {
+    tag.textContent = data.approach?.name || 'Algorithm Flow';
+  }
+
+  // Generate SVG & execution path asynchronously
+  setTimeout(() => {
+    try {
+      const { svg, steps } = generateFlowchart({
+        code: data.code || '',
+        language: data.language || '',
+        pattern: data.approach || {},
+        problemData: {
+          title: data.problemTitle || data.titleSlug || '',
+          difficulty: data.difficulty || '',
+        },
+      });
+
+      canvas.innerHTML = svg;
+      skeleton.classList.add('hidden');
+      canvas.classList.remove('hidden');
+
+      // Populate execution path steps
+      if (stepsList) {
+        stepsList.innerHTML = '';
+        if (stepsCount) stepsCount.textContent = `${steps.length} steps`;
+
+        steps.forEach(step => {
+          const li = document.createElement('li');
+          li.className = 'diagram-step-item';
+          li.dataset.step = step.stepNum;
+          li.innerHTML = `
+            <span class="diagram-step-num">Step ${step.stepNum}</span>
+            <div class="diagram-step-content">
+              <div class="diagram-step-title">${step.title}</div>
+              ${step.detail ? `<div class="diagram-step-detail">${step.detail}</div>` : ''}
+            </div>
+          `;
+
+          // Interactive highlight between step list & diagram node
+          li.addEventListener('mouseenter', () => {
+            canvas.querySelectorAll('.flow-node').forEach(n => {
+              n.classList.toggle('active', n.dataset.step === String(step.stepNum));
+            });
+          });
+          li.addEventListener('mouseleave', () => {
+            canvas.querySelectorAll('.flow-node').forEach(n => n.classList.remove('active'));
+          });
+
+          stepsList.appendChild(li);
+        });
+      }
+    } catch (err) {
+      console.warn('[SidePanel] Flowchart render error:', err);
+      skeleton.classList.add('hidden');
     }
-  });
-
-  // Open the dry run popup window (700 × 720 px)
-  const dryRunUrl = chrome.runtime.getURL('dryrun/dryrun.html');
-  chrome.windows.create({
-    url:    dryRunUrl,
-    type:   'popup',
-    width:  700,
-    height: 720,
-  });
-});
+  }, 100);
+}
 function renderError(message) {
   set('error-message', message ?? 'An unexpected error occurred.');
   showState('state-error');

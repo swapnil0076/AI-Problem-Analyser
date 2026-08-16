@@ -120,73 +120,37 @@
         <p class="approach-desc" id="approach-desc">—</p>
       </div>
 
-      <!-- ── Dry Run Button ─────────────────────────────────────────── -->
-      <button class="dry-run-trigger-btn" id="dry-run-btn">
-        <span class="dry-run-btn-icon">▶</span>
-        <span>Dry Run My Code</span>
-        <span class="dry-run-btn-sub">Step-by-step trace of your code</span>
-      </button>
-
-      <!-- ── Dry Run Panel ──────────────────────────────────────────── -->
-      <div class="dry-run-panel hidden" id="dry-run-panel">
-
-        <!-- Dry Run Loading -->
-        <div class="dry-run-loading hidden" id="dry-run-loading">
-          <div class="pulse-ring"></div>
-          <span>Tracing your code...</span>
+      <!-- ── Dry Run Diagram & Logic Flowchart ────────────────────────── -->
+      <div class="card diagram-card" id="card-diagram">
+        <div class="card-header">
+          <span class="card-icon">🔀</span>
+          <span class="card-label">Dry Run Flowchart</span>
+          <span class="diagram-tag" id="diagram-tag">Algorithm Flow</span>
         </div>
 
-        <!-- Dry Run Error -->
-        <div class="dry-run-error hidden" id="dry-run-error">
-          <span>⚠</span>
-          <span id="dry-run-error-msg">Something went wrong.</span>
+        <!-- Diagram Viewport / Canvas -->
+        <div class="diagram-viewport" id="diagram-viewport">
+          <!-- Skeleton Loading State (while rendering) -->
+          <div class="diagram-skeleton" id="diagram-skeleton">
+            <div class="skeleton-node node-1"></div>
+            <div class="skeleton-line line-1"></div>
+            <div class="skeleton-node node-2"></div>
+            <div class="skeleton-line line-2"></div>
+            <div class="skeleton-node node-3"></div>
+            <p class="skeleton-label">Rendering logic flow diagram…</p>
+          </div>
+
+          <!-- Interactive SVG Diagram Canvas -->
+          <div class="diagram-canvas hidden" id="diagram-canvas"></div>
         </div>
 
-        <!-- Dry Run Content -->
-        <div class="dry-run-content hidden" id="dry-run-content">
-
-          <!-- Header row: algorithm name + correct/wrong badge -->
-          <div class="dry-run-header">
-            <span class="dry-run-algo" id="dry-run-algo">—</span>
-            <span class="dry-run-status-badge" id="dry-run-status-badge"></span>
+        <!-- Execution Steps List -->
+        <div class="diagram-steps-wrapper" id="diagram-steps-wrapper">
+          <div class="diagram-steps-header">
+            <span class="diagram-steps-title">Execution Trace Steps</span>
+            <span class="diagram-steps-count" id="diagram-steps-count"></span>
           </div>
-
-          <!-- Input used -->
-          <div class="dry-run-input-row">
-            <span class="dry-run-input-label">Input:</span>
-            <span class="dry-run-input-val" id="dry-run-input">—</span>
-          </div>
-
-          <!-- Step Card -->
-          <div class="step-card" id="step-card">
-            <div class="step-counter-row">
-              <span class="step-counter" id="step-counter">Step 1 / 1</span>
-              <span class="step-ok-badge" id="step-ok-badge"></span>
-            </div>
-
-            <!-- Variable state pills -->
-            <div class="step-vars" id="step-vars"></div>
-
-            <!-- Action text -->
-            <div class="step-action" id="step-action">—</div>
-
-            <!-- Note (key insight or bug explanation) -->
-            <div class="step-note" id="step-note"></div>
-          </div>
-
-          <!-- Navigation Controls -->
-          <div class="dry-run-controls">
-            <button class="dry-run-nav-btn" id="dry-run-prev" title="Previous step">‹ Prev</button>
-            <button class="dry-run-play-btn" id="dry-run-play" title="Play / Pause">▶ Play</button>
-            <button class="dry-run-nav-btn" id="dry-run-next" title="Next step">Next ›</button>
-          </div>
-
-          <!-- Result row -->
-          <div class="dry-run-result-row">
-            <span class="dry-run-result-label">Output:</span>
-            <span class="dry-run-result-val" id="dry-run-result">—</span>
-          </div>
-
+          <ol class="diagram-steps-list" id="diagram-steps-list"></ol>
         </div>
       </div>
 
@@ -261,6 +225,6 @@
 
   </main>
 
-  <script src="sidepanel.js"></script>
+  <script type="module" src="sidepanel.js"></script>
 </body>
 </html>
