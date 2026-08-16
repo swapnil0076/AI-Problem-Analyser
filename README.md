@@ -6,6 +6,14 @@ Includes **algorithmic approach detection**, **Big-O time/space complexity**, **
 
 ---
 
+## 🎬 Demo Video
+
+> 📹 **Watch the extension in action:** Instant static code analysis, 2D Dry Run Flowcharts, and standalone popup screen window.
+>
+> 🎥 **[▶ Watch Full Demo Video (`assets/demo.mp4`)](./assets/demo.mp4)**
+
+---
+
 ## ✨ Features & Capabilities
 
 | Feature | Description |
