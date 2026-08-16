@@ -530,12 +530,12 @@ async function getSettings() {
     chrome.storage.local.get(
       { apiKey: '', provider: 'openrouter', model: 'dots-studio/dots-3-note-preview:free' },
       settings => {
-        // Migrate stale invalid model strings from previous NVIDIA provider
+        // Migrate stale invalid model strings
         const validModels = [
           'dots-studio/dots-3-note-preview:free',
-          'meta/llama-3.3-70b-instruct:free',
-          'google/gemma-3-27b-it:free',
-          'mistralai/mistral-7b-instruct:free',
+          'google/gemma-4-26b-a4b-it:free',
+          'liquid/lfm-2.5-2.6b:free',
+          'nvidia/nemotron-3.5-lightning:free',
         ];
         if (!settings.model || !validModels.includes(settings.model)) {
           settings.model = 'dots-studio/dots-3-note-preview:free';

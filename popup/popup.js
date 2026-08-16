@@ -9,9 +9,9 @@ const DEFAULT_OPENROUTER_KEY = ''; // Add your key here or enter it in the popup
 // ─── Model Definitions ────────────────────────────────────────────────────────
 const MODELS = [
   { value: 'dots-studio/dots-3-note-preview:free', label: 'DoTS-3 Note Preview (free)' },
-  { value: 'meta/llama-3.3-70b-instruct:free', label: 'Llama 3.3 70B (free)' },
-  { value: 'google/gemma-3-27b-it:free', label: 'Gemma 3 27B (free)' },
-  { value: 'mistralai/mistral-7b-instruct:free', label: 'Mistral 7B (free)' },
+  { value: 'google/gemma-4-26b-a4b-it:free', label: 'Google Gemma 4 26B (free)' },
+  { value: 'liquid/lfm-2.5-2.6b:free', label: 'LiquidAI LFM 2.5 (free)' },
+  { value: 'nvidia/nemotron-3.5-lightning:free', label: 'NVIDIA Nemotron 3.5 (free)' },
 ];
 
 // ─── DOM References ───────────────────────────────────────────────────────────
