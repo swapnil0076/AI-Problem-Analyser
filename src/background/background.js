@@ -279,7 +279,8 @@ async function callOpenRouter(prompt, { apiKey, model }) {
       messages: [
         { role: 'user', content: prompt },
       ],
-      max_tokens: 1500,  // Generous budget: reasoning model needs room for both thinking + JSON output
+      max_tokens: 2000,  // This model reasons heavily in content before JSON — needs room
+      response_format: { type: 'json_object' }, // Force direct JSON output, no preamble
       // Note: do NOT set reasoning.max_tokens — it shares the pool with content and starves output
     }),
   });

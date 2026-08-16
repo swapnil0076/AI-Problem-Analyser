@@ -53,40 +53,26 @@ function stripHtml(html) {
  * @returns {string}
  */
 export function buildAnalysisPromptWithHints({ problemData, code, language, hints }) {
-  const langNote  = LANGUAGE_NOTES[language?.toLowerCase()] ?? language;
-  const title     = problemData?.title ?? 'Unknown';
+  const langNote   = LANGUAGE_NOTES[language?.toLowerCase()] ?? language;
+  const title      = problemData?.title ?? 'Unknown';
   const difficulty = problemData?.difficulty ?? '';
-  const tags      = (problemData?.topicTags ?? []).map(t => t.name).join(', ');
-  // Very short problem context — 200 chars is enough since hints carry the analysis
-  const stmt      = stripHtml(problemData?.content ?? '').slice(0, 200);
-
+  const tags       = (problemData?.topicTags ?? []).map(t => t.name).join(', ');
+  const stmt       = stripHtml(problemData?.content ?? '').slice(0, 200);
   const { pattern, complexity, structures } = hints;
 
-  // Serialize local analysis results into the prompt
-  const hintsBlock = [
-    `Pattern detected : ${pattern.name} (confidence: ${pattern.confidence})`,
-    `Time estimate    : ${complexity.time}${complexity.hasSort ? ' (sort present)' : ''}`,
-    `Space estimate   : ${complexity.space}`,
-    `Loop depth       : ${complexity.loopDepth}`,
-    `Recursion        : ${complexity.hasRecursion ? 'yes' : 'no'}${complexity.hasMemo ? ' (memoized)' : ''}`,
-    `Data structures  : ${structures.join(', ')}`,
-  ].join('\n');
+  return `Fill this JSON for the LeetCode solution below. Your response must begin with { and end with }. No other text.
 
-  return `LeetCode solution analyzer. Local static analysis already ran — verify and output JSON.
+{"approach":{"name":"FILL","description":"FILL 2 sentences"},"timeComplexity":{"notation":"FILL e.g. O(n)","explanation":"FILL 1 sentence"},"spaceComplexity":{"notation":"FILL","explanation":"FILL 1 sentence"},"efficiencyRating":FILL_1_to_10,"suggestions":["FILL specific fix 1","FILL specific fix 2"],"confidence":"FILL high|medium|low","optimalComplexity":{"time":"FILL","space":"FILL"}}
 
-Problem: ${title} (${difficulty})${tags ? ` [${tags}]` : ''}
-${stmt}
+Problem: ${title} (${difficulty})${tags ? ` [${tags}]` : ''} — ${stmt}
 
-Code [${langNote}]:
-\`\`\`${language}
-${code}
-\`\`\`
+Code [${langNote}]: ${code}
 
-── Local analysis results (verify these, correct if wrong) ──
-${hintsBlock}
-
-Based on the code and the above hints, output ONLY this JSON (no markdown, no extra text):
-{"approach":{"name":"<pattern>","description":"<2 sentences>"},"timeComplexity":{"notation":"O(...)","explanation":"<1 sentence>"},"spaceComplexity":{"notation":"O(...)","explanation":"<1 sentence>"},"efficiencyRating":<1-10>,"suggestions":["<fix1>","<fix2>"],"confidence":"<high|medium|low>","optimalComplexity":{"time":"O(...)","space":"O(...)"}}`;
+Local static analysis (verify, correct if wrong):
+- Pattern: ${pattern.name} (${pattern.confidence} confidence)
+- Time: ${complexity.time}${complexity.hasSort ? ', sort detected' : ''}, loop depth ${complexity.loopDepth}
+- Space: ${complexity.space}, recursion: ${complexity.hasRecursion ? 'yes' : 'no'}${complexity.hasMemo ? ' memoized' : ''}
+- Structures: ${structures.join(', ')}`;
 }
 
 // ─── Fallback: Full Reasoning Prompt (no hints) ───────────────────────────────
@@ -96,22 +82,17 @@ Based on the code and the above hints, output ONLY this JSON (no markdown, no ex
  * Token-optimized version (400-char problem statement, compact schema).
  */
 export function buildAnalysisPrompt({ problemData, code, language }) {
-  const langNote  = LANGUAGE_NOTES[language?.toLowerCase()] ?? language;
-  const stmt      = stripHtml(problemData?.content ?? '').slice(0, 400);
-  const title     = problemData?.title ?? 'Unknown';
+  const langNote   = LANGUAGE_NOTES[language?.toLowerCase()] ?? language;
+  const stmt       = stripHtml(problemData?.content ?? '').slice(0, 300);
+  const title      = problemData?.title ?? 'Unknown';
   const difficulty = problemData?.difficulty ?? '';
-  const tags      = (problemData?.topicTags ?? []).map(t => t.name).join(', ');
+  const tags       = (problemData?.topicTags ?? []).map(t => t.name).join(', ');
 
-  return `Analyze this LeetCode solution. Output ONLY valid JSON, no markdown.
+  return `Fill this JSON for the LeetCode solution below. Your response must begin with { and end with }. No other text.
 
-Problem: ${title} (${difficulty})${tags ? ` [${tags}]` : ''}
-${stmt}
+{"approach":{"name":"FILL","description":"FILL 2 sentences"},"timeComplexity":{"notation":"FILL e.g. O(n)","explanation":"FILL 1 sentence"},"spaceComplexity":{"notation":"FILL","explanation":"FILL 1 sentence"},"efficiencyRating":FILL_1_to_10,"suggestions":["FILL specific fix 1","FILL specific fix 2"],"confidence":"FILL high|medium|low","optimalComplexity":{"time":"FILL","space":"FILL"}}
 
-Code [${langNote}]:
-\`\`\`${language}
-${code}
-\`\`\`
+Problem: ${title} (${difficulty})${tags ? ` [${tags}]` : ''} — ${stmt}
 
-JSON schema (fill every field):
-{"approach":{"name":"<pattern>","description":"<2 sentences>"},"timeComplexity":{"notation":"O(...)","explanation":"<1 sentence>"},"spaceComplexity":{"notation":"O(...)","explanation":"<1 sentence>"},"efficiencyRating":<1-10>,"suggestions":["<fix1>","<fix2>"],"confidence":"<high|medium|low>","optimalComplexity":{"time":"O(...)","space":"O(...)"}}`;
+Code [${langNote}]: ${code}`;
 }
