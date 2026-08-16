@@ -25,7 +25,60 @@ Includes **algorithmic approach detection**, **Big-O time/space complexity**, **
 
 ## 🔀 Dry Run Flowchart & Visual Trace
 
-The extension includes a built-in **Algorithmic Flowchart Generator** (`src/utils/flowchartGenerator.js`):
+The extension includes a built-in **Algorithmic Flowchart Generator** (`src/utils/flowchartGenerator.js`) that produces interactive, dark-themed 2D logic diagrams and execution paths for any algorithm pattern.
+
+### 🌟 Example: Longest Common Prefix (Prefix Scanning)
+
+```mermaid
+flowchart TD
+  A["Loop strings: for i = 1 to strs.length - 1"]
+  B["Check if strs[i] starts with prefix"]
+  C{"Does strs[i] match prefix?"}
+  D["Move to next string (i++)"]
+  E["Trim prefix: prefix = prefix[0..len-2]"]
+  F["All strings matched prefix (Return)"]
+
+  A --> B
+  A -- "Loop finishes" --> F
+  B --> C
+  C -- "Yes" --> D
+  C -- "No" --> E
+  E -. "Loop back" .-> A
+
+  classDef default fill:#161b22,stroke:#484f58,stroke-width:1.5px,color:#e6edf3;
+  classDef decision fill:#121820,stroke:#484f58,stroke-width:1.5px,color:#e6edf3;
+  classDef term fill:#062e20,stroke:#10b981,stroke-width:1.5px,color:#f0fdf4;
+  class C decision;
+  class D,F term;
+```
+
+```
+                        ┌──────────────────────────────────────────────┐
+                        │ Loop strings: for i = 1 to strs.length - 1   │
+                        └──────────────┬──────────────────────┬────────┘
+                                       │                      │ (Loop finishes)
+                        ┌──────────────┴───────────────┐      ▼
+                        ▼                              │   ┌────────────────────────────────┐
+┌──────────────────────────────────────────────┐       │   │   All strings matched prefix   │
+│ Check if strs[i] starts with prefix          │       │   └────────────────────────────────┘
+└──────────────────────┬───────────────────────┘       │
+                       ▼                               │
+                      ╱ ╲                              │
+                     ╱   ╲                             │
+                    │ Does strs[i] match prefix?       │
+                     ╲   ╱                             │
+                      ╲ ╱                              │
+                       │                               │
+                [Yes]  │                     [No]      │
+                       ▼                               ▼
+┌──────────────────────────────────────────────┐     ┌──────────────────────────────────┐
+│ Move to next string (i++)                    │     │ Trim prefix: prefix = prefix...  │
+└──────────────────────────────────────────────┘     └────────────────┬─────────────────┘
+                                                                      │
+                                                                      └─────── (Loop back) ───► (Loop top)
+```
+
+### 🌟 Example: Two Sum (Hash Map Lookup)
 
 ```
                   ┌─────────────────────────────────────┐
@@ -54,8 +107,8 @@ The extension includes a built-in **Algorithmic Flowchart Generator** (`src/util
 ```
 
 - **In-Panel View**: Embedded directly below the Approach card with a shimmer skeleton loading state.
-- **Interactive Trace Steps**: Numbered execution pills below the diagram. Hovering over any step highlights its corresponding node on the flowchart!
-- **Standalone Screen Window**: Clicking `⛶` expands the diagram into a standalone popup window with zoom controls (`50%` to `250%`).
+- **Interactive Trace Steps**: Numbered execution pills along the bottom. Hovering over any step highlights its corresponding node in the flowchart!
+- **Standalone Screen Window**: Clicking `⛶` opens a dedicated **960 × 780 px popup window** with interactive zoom (`50%` to `250%`) and horizontal execution cards.
 
 ---
 
