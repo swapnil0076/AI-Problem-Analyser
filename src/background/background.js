@@ -139,6 +139,7 @@ async function handleAnalysis({ titleSlug, code, language }, tab) {
   }).catch(err => console.warn('[BG] Token logger error:', err));
 
   // 6. Parse JSON from LLM response
+  console.log('[BG] Raw LLM response:', llmResult.text); // diagnostic — remove after fix
   const analysis = parseAnalysisResponse(llmResult.text);
 
   // 7. Get local recommendations (instant — reads bundled JSON files)
@@ -278,8 +279,8 @@ async function callOpenRouter(prompt, { apiKey, model }) {
       messages: [
         { role: 'user', content: prompt },
       ],
-      max_tokens: 900,           // JSON output ~300 tokens; 900 gives safe headroom
-      reasoning: { max_tokens: 150 }, // Hints pre-computed locally — LLM just confirms
+      max_tokens: 1500,  // Generous budget: reasoning model needs room for both thinking + JSON output
+      // Note: do NOT set reasoning.max_tokens — it shares the pool with content and starves output
     }),
   });
 
@@ -290,7 +291,23 @@ async function callOpenRouter(prompt, { apiKey, model }) {
   }
 
   const data = await resp.json();
-  const text = data.choices?.[0]?.message?.content ?? '';
+  console.log('[BG] Full API response:', JSON.stringify({
+    finish_reason: data.choices?.[0]?.finish_reason,
+    content: data.choices?.[0]?.message?.content,
+    usage: data.usage,
+  }));
+
+  // Some reasoning models return empty content with text in reasoning_details
+  const message = data.choices?.[0]?.message ?? {};
+  const text =
+    (message.content && message.content.trim())
+      ? message.content.trim()
+      : (message.reasoning_details?.[0]?.text?.trim() ?? '');
+
+  const finishReason = data.choices?.[0]?.finish_reason;
+  if (finishReason && finishReason !== 'stop') {
+    console.warn(`[BG] finish_reason: "${finishReason}" — response may be truncated`);
+  }
   const usage = {
     promptTokens: data.usage?.prompt_tokens ?? 0,
     completionTokens: data.usage?.completion_tokens ?? 0,
