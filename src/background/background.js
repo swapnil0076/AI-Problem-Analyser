@@ -278,7 +278,7 @@ async function callOpenRouter(prompt, { apiKey, model }) {
       messages: [
         { role: 'user', content: prompt },
       ],
-      max_tokens: 600,          // JSON output is ~200-300 tokens
+      max_tokens: 900,           // JSON output ~300 tokens; 900 gives safe headroom
       reasoning: { max_tokens: 150 }, // Hints pre-computed locally — LLM just confirms
     }),
   });
@@ -442,23 +442,67 @@ async function callGemini(prompt, { apiKey, model }) {
 // ─── Response Parser ──────────────────────────────────────────────────────────
 
 function parseAnalysisResponse(raw) {
-  try {
-    const parsed = JSON.parse(raw);
-    // Validate required fields
-    if (!parsed.approach || !parsed.timeComplexity || !parsed.spaceComplexity) {
-      throw new Error('Incomplete response schema');
-    }
-    return parsed;
-  } catch (e) {
-    // Try to extract JSON from response if model added extra text
-    const jsonMatch = raw.match(/\{[\s\S]*\}/);
-    if (jsonMatch) {
-      try {
-        return JSON.parse(jsonMatch[0]);
-      } catch (_) { }
-    }
-    throw new Error('Could not parse AI response. Try again.');
+  if (!raw || typeof raw !== 'string') {
+    throw new Error('Empty response from AI. Try again.');
   }
+
+  // Strip markdown code fences the model sometimes wraps JSON in
+  let text = raw
+    .replace(/^```(?:json)?\s*/i, '')
+    .replace(/\s*```\s*$/, '')
+    .trim();
+
+  // Attempt 1: direct parse
+  try {
+    const parsed = JSON.parse(text);
+    if (parsed.approach && parsed.timeComplexity && parsed.spaceComplexity) return parsed;
+  } catch (_) { }
+
+  // Attempt 2: extract the outermost {...} block (handles leading/trailing text)
+  const brace = text.indexOf('{');
+  const lastBrace = text.lastIndexOf('}');
+  if (brace !== -1 && lastBrace !== -1 && lastBrace > brace) {
+    try {
+      const slice = text.slice(brace, lastBrace + 1);
+      const parsed = JSON.parse(slice);
+      if (parsed.approach && parsed.timeComplexity && parsed.spaceComplexity) return parsed;
+    } catch (_) { }
+  }
+
+  // Attempt 3: repair truncated JSON — find last complete field and close the object
+  if (brace !== -1) {
+    try {
+      let partial = text.slice(brace);
+      // Remove trailing incomplete key/value (last comma or unclosed string)
+      partial = partial
+        .replace(/,\s*"[^"]*"?\s*:\s*[^,}\]]*$/, '') // trailing incomplete key:value
+        .replace(/,\s*$/, '')                          // trailing comma
+        .replace(/"[^"]*$/, '')                        // unclosed string
+        .trim();
+
+      // Close any unclosed brackets/braces
+      const opens = (partial.match(/\[/g) ?? []).length - (partial.match(/\]/g) ?? []).length;
+      const braces = (partial.match(/\{/g) ?? []).length - (partial.match(/\}/g) ?? []).length;
+      partial += ']'.repeat(Math.max(0, opens)) + '}'.repeat(Math.max(0, braces));
+
+      const parsed = JSON.parse(partial);
+      if (parsed.approach) {
+        // Fill any missing required fields with safe defaults
+        parsed.timeComplexity  ??= { notation: 'O(?)', explanation: 'Could not determine.' };
+        parsed.spaceComplexity ??= { notation: 'O(?)', explanation: 'Could not determine.' };
+        parsed.efficiencyRating ??= 5;
+        parsed.suggestions     ??= [];
+        parsed.confidence      ??= 'low';
+        parsed.optimalComplexity ??= { time: 'O(?)', space: 'O(?)' };
+        console.warn('[BG] Repaired truncated JSON response');
+        return parsed;
+      }
+    } catch (_) { }
+  }
+
+  // All attempts failed — log raw for debugging
+  console.error('[BG] Could not parse AI response. Raw output:\n', raw);
+  throw new Error('Could not parse AI response. Try again.');
 }
 
 // ─── Storage Helpers ──────────────────────────────────────────────────────────
