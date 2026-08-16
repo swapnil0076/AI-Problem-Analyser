@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dry Run Visualizer</title>
+  <title>Dry Run Logic Flowchart — LeetCode AI Analyzer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="dryrun.css" />
@@ -12,110 +12,45 @@
   <!-- Header -->
   <header class="dr-header">
     <div class="dr-brand">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-        <path d="M5 3l14 9-14 9V3z" fill="url(#g1)"/>
-        <defs>
-          <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" style="stop-color:#7c3aed"/>
-            <stop offset="100%" style="stop-color:#3b82f6"/>
-          </linearGradient>
-        </defs>
-      </svg>
-      <span class="dr-brand-name">Dry Run Visualizer</span>
+      <div class="dr-icon-badge">🔀</div>
+      <div class="dr-title-group">
+        <h1 class="dr-problem-title" id="dr-problem-title">Logic Flowchart</h1>
+        <span class="dr-difficulty-badge" id="dr-diff-badge"></span>
+      </div>
+      <span class="dr-pattern-tag" id="dr-pattern-tag">Algorithm Flow</span>
     </div>
-    <div class="dr-meta">
-      <span class="dr-algo-name" id="dr-algo-name">—</span>
-      <span class="dr-correctness-badge" id="dr-correctness-badge"></span>
+
+    <!-- Zoom & Viewport Controls -->
+    <div class="dr-controls-group">
+      <div class="dr-zoom-pill">
+        <button class="dr-zoom-btn" id="dr-zoom-out" title="Zoom Out">−</button>
+        <span class="dr-zoom-val" id="dr-zoom-val">100%</span>
+        <button class="dr-zoom-btn" id="dr-zoom-in" title="Zoom In">+</button>
+        <button class="dr-zoom-btn reset" id="dr-zoom-reset" title="Reset Zoom">⟲ Reset</button>
+      </div>
     </div>
   </header>
 
-  <!-- Main -->
+  <!-- Main Canvas Viewport -->
   <main class="dr-main">
-
-    <!-- Loading State -->
-    <div class="dr-state" id="dr-loading">
-      <div class="dr-spinner"></div>
-      <p class="dr-state-title">Tracing your code…</p>
-      <p class="dr-state-sub">Executing your code step by step locally</p>
+    <div class="dr-canvas-viewport" id="dr-viewport">
+      <div class="dr-canvas-wrapper" id="dr-canvas-wrapper">
+        <div class="dr-svg-container" id="dr-svg-container">
+          <!-- Rendered Flowchart SVG -->
+        </div>
+      </div>
     </div>
 
-    <!-- Error State -->
-    <div class="dr-state hidden" id="dr-error">
-      <div class="dr-state-icon error">✕</div>
-      <p class="dr-state-title">Trace Failed</p>
-      <p class="dr-state-sub" id="dr-error-msg">Something went wrong.</p>
-      <button class="dr-retry-btn" id="dr-retry-btn">Try Again</button>
-    </div>
-
-    <!-- Content -->
-    <div class="dr-content hidden" id="dr-content">
-
-      <!-- Input + Result strip -->
-      <div class="dr-io-strip">
-        <div class="dr-io-item">
-          <span class="dr-io-label">Input</span>
-          <span class="dr-io-val" id="dr-input">—</span>
-        </div>
-        <div class="dr-io-sep">→</div>
-        <div class="dr-io-item">
-          <span class="dr-io-label">Output</span>
-          <span class="dr-io-val output" id="dr-result">—</span>
-        </div>
+    <!-- Execution Path Trace Footer -->
+    <footer class="dr-footer">
+      <div class="dr-footer-header">
+        <span class="dr-footer-title">Execution Trace Steps</span>
+        <span class="dr-steps-count" id="dr-steps-count"></span>
       </div>
-
-      <!-- Progress bar -->
-      <div class="dr-progress-track">
-        <div class="dr-progress-fill" id="dr-progress-fill"></div>
-        <div class="dr-step-dots" id="dr-step-dots"></div>
+      <div class="dr-steps-grid" id="dr-steps-grid">
+        <!-- Interactive Steps rendered here -->
       </div>
-
-      <!-- Step Card -->
-      <div class="dr-step-card" id="dr-step-card">
-
-        <!-- Step header -->
-        <div class="dr-step-header">
-          <span class="dr-step-num" id="dr-step-num">Step 1</span>
-          <span class="dr-step-total" id="dr-step-total">of 1</span>
-          <span class="dr-step-badge" id="dr-step-badge"></span>
-        </div>
-
-        <!-- Variable state pills -->
-        <div class="dr-vars-grid" id="dr-vars-grid"></div>
-
-        <!-- Action -->
-        <div class="dr-action-block">
-          <span class="dr-action-label">Action</span>
-          <div class="dr-action-text" id="dr-action-text">—</div>
-        </div>
-
-        <!-- Note / Bug explanation -->
-        <div class="dr-note-block" id="dr-note-block">
-          <span class="dr-note-label" id="dr-note-label">Note</span>
-          <div class="dr-note-text" id="dr-note-text"></div>
-        </div>
-
-      </div>
-
-      <!-- Controls -->
-      <div class="dr-controls">
-        <button class="dr-btn-nav" id="dr-first-btn" title="Go to first step">⏮</button>
-        <button class="dr-btn-nav" id="dr-prev-btn" title="Previous step">‹ Prev</button>
-        <button class="dr-btn-play" id="dr-play-btn">▶ Play</button>
-        <button class="dr-btn-nav" id="dr-next-btn" title="Next step">Next ›</button>
-        <button class="dr-btn-nav" id="dr-last-btn" title="Go to last step">⏭</button>
-      </div>
-
-      <!-- Speed control -->
-      <div class="dr-speed-row">
-        <span class="dr-speed-label">Speed</span>
-        <div class="dr-speed-btns">
-          <button class="dr-speed-btn active" data-ms="2000">Slow</button>
-          <button class="dr-speed-btn" data-ms="1200">Normal</button>
-          <button class="dr-speed-btn" data-ms="600">Fast</button>
-        </div>
-      </div>
-
-    </div>
+    </footer>
   </main>
 
   <script type="module" src="dryrun.js"></script>

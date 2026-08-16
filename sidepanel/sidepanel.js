@@ -249,92 +249,39 @@ function renderFlowchart(data) {
   }, 100);
 }
 
-// ─── Fullscreen Modal Controller ──────────────────────────────────────────────
+// ─── Flowchart Fullscreen / Popup Window Controller ───────────────────────────
 let _currentSvg = '';
 let _currentSteps = [];
-let _zoomScale = 1.0;
 
-function openDiagramModal() {
-  if (!_currentSvg) return;
-  const modal = document.getElementById('diagram-modal');
-  const modalCanvas = document.getElementById('modal-diagram-canvas');
-  const modalTitle = document.getElementById('modal-problem-title');
-  const modalTag = document.getElementById('modal-diagram-tag');
-  const modalSteps = document.getElementById('modal-steps-container');
+async function openDiagramPopup() {
+  if (!_currentAnalysis && !_currentSvg) return;
 
-  if (!modal || !modalCanvas) return;
+  // Save current diagram payload for the popup window
+  await chrome.storage.local.set({
+    latestDiagramReq: {
+      problemTitle: _currentAnalysis?.problemTitle || _currentAnalysis?.titleSlug || 'Logic Flowchart',
+      difficulty: _currentAnalysis?.difficulty || '',
+      approach: _currentAnalysis?.approach || {},
+      code: _currentAnalysis?.code || '',
+      language: _currentAnalysis?.language || '',
+      svg: _currentSvg,
+      steps: _currentSteps,
+      timestamp: Date.now()
+    }
+  });
 
-  if (modalTitle && _currentAnalysis) {
-    modalTitle.textContent = _currentAnalysis.problemTitle || _currentAnalysis.titleSlug || 'Logic Flowchart';
-  }
-  if (modalTag && _currentAnalysis) {
-    modalTag.textContent = _currentAnalysis.approach?.name || 'Algorithm Flow';
-  }
-
-  modalCanvas.innerHTML = _currentSvg;
-  _zoomScale = 1.0;
-  updateModalZoom();
-
-  // Populate footer steps
-  if (modalSteps && _currentSteps.length > 0) {
-    modalSteps.innerHTML = '';
-    _currentSteps.forEach(step => {
-      const pill = document.createElement('div');
-      pill.className = 'modal-step-pill';
-      pill.innerHTML = `<strong>Step ${step.stepNum}</strong> <span>${step.title}</span>`;
-      modalSteps.appendChild(pill);
-    });
-  }
-
-  modal.classList.remove('hidden');
-  document.body.style.overflow = 'hidden';
+  // Open standalone popup window (960 × 780 px)
+  const popupUrl = chrome.runtime.getURL('dryrun/dryrun.html');
+  chrome.windows.create({
+    url: popupUrl,
+    type: 'popup',
+    width: 960,
+    height: 780,
+  });
 }
 
-function closeDiagramModal() {
-  const modal = document.getElementById('diagram-modal');
-  if (modal) {
-    modal.classList.add('hidden');
-    document.body.style.overflow = '';
-  }
-}
-
-function updateModalZoom() {
-  const wrapper = document.getElementById('modal-canvas-wrapper');
-  const val = document.getElementById('modal-zoom-val');
-  if (wrapper) {
-    wrapper.style.transform = `scale(${_zoomScale})`;
-  }
-  if (val) {
-    val.textContent = `${Math.round(_zoomScale * 100)}%`;
-  }
-}
-
-// Fullscreen Button & Modal Events
-document.getElementById('diagram-fullscreen-btn')?.addEventListener('click', openDiagramModal);
-document.getElementById('diagram-modal-close')?.addEventListener('click', closeDiagramModal);
-document.getElementById('diagram-modal-backdrop')?.addEventListener('click', closeDiagramModal);
-
-document.getElementById('modal-zoom-in')?.addEventListener('click', () => {
-  _zoomScale = Math.min(2.5, _zoomScale + 0.2);
-  updateModalZoom();
-});
-
-document.getElementById('modal-zoom-out')?.addEventListener('click', () => {
-  _zoomScale = Math.max(0.5, _zoomScale - 0.2);
-  updateModalZoom();
-});
-
-document.getElementById('modal-zoom-reset')?.addEventListener('click', () => {
-  _zoomScale = 1.0;
-  updateModalZoom();
-});
-
-// Close modal on Escape key
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape') {
-    closeDiagramModal();
-  }
-});
+// Fullscreen Expand Button opens the standalone popup window on screen
+document.getElementById('diagram-fullscreen-btn')?.addEventListener('click', openDiagramPopup);
 
 function renderError(message) {
   set('error-message', message ?? 'An unexpected error occurred.');
