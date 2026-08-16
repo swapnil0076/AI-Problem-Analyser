@@ -222,16 +222,18 @@ html, body {
 
 .flow-node {
   cursor: pointer;
-  transition: transform 0.15s ease, filter 0.15s ease;
+  transition: filter 0.15s ease;
 }
 
-.flow-node:hover {
-  transform: translateY(-2px);
-  filter: brightness(1.25);
+.flow-node:hover rect,
+.flow-node:hover polygon {
+  filter: brightness(1.35);
+  stroke: #38bdf8 !important;
 }
 
 .flow-node.active rect,
 .flow-node.active polygon {
+  filter: brightness(1.4);
   stroke: #38bdf8 !important;
   stroke-width: 2px !important;
 }
@@ -290,9 +292,8 @@ html, body {
 }
 
 .dr-step-card:hover {
-  background: rgba(124, 58, 237, 0.1);
-  border-color: rgba(124, 58, 237, 0.4);
-  transform: translateY(-2px);
+  background: rgba(124, 58, 237, 0.14);
+  border-color: rgba(124, 58, 237, 0.45);
 }
 
 .dr-step-tag {

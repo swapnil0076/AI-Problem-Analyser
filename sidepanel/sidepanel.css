@@ -636,17 +636,19 @@ html, body {
 
 .flow-node {
   cursor: pointer;
-  transition: transform 0.15s ease, filter 0.15s ease;
+  transition: filter 0.15s ease;
 }
 
-.flow-node:hover {
-  transform: translateY(-2px);
-  filter: brightness(1.2);
+.flow-node:hover rect,
+.flow-node:hover polygon {
+  filter: brightness(1.35);
+  stroke: #60a5fa !important;
 }
 
 .flow-node.active rect,
 .flow-node.active polygon {
-  stroke: #60a5fa !important;
+  filter: brightness(1.4);
+  stroke: #38bdf8 !important;
   stroke-width: 2px !important;
 }
 
