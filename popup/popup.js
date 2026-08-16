@@ -1,28 +1,28 @@
 'use strict';
 
-// ─── PASTE YOUR NVIDIA API KEY HERE ──────────────────────────────────────────
-// Get your free key at: https://build.nvidia.com
-// It starts with "nvapi-"
-const DEFAULT_NVIDIA_KEY = 'nvapi-PASTE_YOUR_KEY_HERE';
+// ─── PASTE YOUR OPENROUTER API KEY HERE ──────────────────────────────────────
+// Get your free key at: https://openrouter.ai/keys
+// It starts with "sk-or-v1-"
+const DEFAULT_OPENROUTER_KEY = ''; // Add your key here or enter it in the popup
 // ─────────────────────────────────────────────────────────────────────────────
 
 // ─── Model Definitions ────────────────────────────────────────────────────────
 const MODELS = [
-  { value: 'meta/llama-3.3-70b-instruct',     label: 'Llama 3.3 70B (default)' },
-  { value: 'meta/llama-3.1-70b-instruct',     label: 'Llama 3.1 70B' },
-  { value: 'meta/llama-3.1-405b-instruct',    label: 'Llama 3.1 405B' },
-  { value: 'nvidia/nemotron-4-340b-instruct',  label: 'Nemotron 4 340B' },
+  { value: 'dots-studio/dots-3-note-preview:free', label: 'DoTS-3 Note Preview (free)' },
+  { value: 'meta/llama-3.3-70b-instruct:free', label: 'Llama 3.3 70B (free)' },
+  { value: 'google/gemma-3-27b-it:free', label: 'Gemma 3 27B (free)' },
+  { value: 'mistralai/mistral-7b-instruct:free', label: 'Mistral 7B (free)' },
 ];
 
 // ─── DOM References ───────────────────────────────────────────────────────────
-const modelSelect     = document.getElementById('model-select');
-const apiKeyInput     = document.getElementById('api-key-input');
-const toggleKeyBtn    = document.getElementById('toggle-key-visibility');
-const saveBtn         = document.getElementById('save-btn');
-const statusMsg       = document.getElementById('status-msg');
-const tabBtns         = document.querySelectorAll('.tab-btn');
-const historyList     = document.getElementById('history-list');
-const historyEmpty    = document.getElementById('history-empty');
+const modelSelect = document.getElementById('model-select');
+const apiKeyInput = document.getElementById('api-key-input');
+const toggleKeyBtn = document.getElementById('toggle-key-visibility');
+const saveBtn = document.getElementById('save-btn');
+const statusMsg = document.getElementById('status-msg');
+const tabBtns = document.querySelectorAll('.tab-btn');
+const historyList = document.getElementById('history-list');
+const historyEmpty = document.getElementById('history-empty');
 const clearHistoryBtn = document.getElementById('clear-history-btn');
 
 // ─── Populate Model Dropdown ──────────────────────────────────────────────────
@@ -64,20 +64,20 @@ tabBtns.forEach(btn => {
 // ─── Save Settings ────────────────────────────────────────────────────────────
 saveBtn?.addEventListener('click', () => {
   const apiKey = apiKeyInput?.value.trim();
-  const model  = modelSelect?.value;
+  const model = modelSelect?.value;
 
   if (!apiKey) {
-    showStatus('Please enter an NVIDIA API key.', 'error');
+    showStatus('Please enter an OpenRouter API key.', 'error');
     return;
   }
 
-  if (!apiKey.startsWith('nvapi-')) {
-    showStatus('NVIDIA keys start with "nvapi-". Check your key.', 'error');
+  if (!apiKey.startsWith('sk-or-v1-')) {
+    showStatus('OpenRouter keys start with "sk-or-v1-". Check your key.', 'error');
     return;
   }
 
   chrome.storage.local.set(
-    { apiKey, provider: 'nvidia', model },
+    { apiKey, provider: 'openrouter', model },
     () => {
       showStatus('✓ Settings saved!', 'success');
       setTimeout(() => statusMsg?.classList.add('hidden'), 2500);
@@ -147,11 +147,11 @@ function loadTokenStats() {
   chrome.storage.local.get({
     tokenLoggerStats: { totalTokens: 0, totalAnalyses: 0, avgTokens: 0 }
   }, ({ tokenLoggerStats }) => {
-    const avgEl   = document.getElementById('stat-avg-tokens');
+    const avgEl = document.getElementById('stat-avg-tokens');
     const totalEl = document.getElementById('stat-total-tokens');
     const callsEl = document.getElementById('stat-total-calls');
 
-    if (avgEl)   avgEl.textContent   = tokenLoggerStats.avgTokens ? `${tokenLoggerStats.avgTokens}t` : '0t';
+    if (avgEl) avgEl.textContent = tokenLoggerStats.avgTokens ? `${tokenLoggerStats.avgTokens}t` : '0t';
     if (totalEl) totalEl.textContent = tokenLoggerStats.totalTokens > 999
       ? `${(tokenLoggerStats.totalTokens / 1000).toFixed(1)}k`
       : `${tokenLoggerStats.totalTokens}t`;
@@ -168,16 +168,23 @@ chrome.storage.onChanged.addListener((changes, area) => {
 
 // ─── Load Saved Settings on Open ─────────────────────────────────────────────
 chrome.storage.local.get(
-  { apiKey: '', provider: 'nvidia', model: 'meta/llama-3.3-70b-instruct' },
+  { apiKey: '', provider: 'openrouter', model: 'dots-studio/dots-3-note-preview:free' },
   ({ apiKey, model }) => {
     const validModelValues = MODELS.map(m => m.value);
     if (!validModelValues.includes(model)) {
-      model = 'meta/llama-3.3-70b-instruct';
+      model = 'dots-studio/dots-3-note-preview:free';
       chrome.storage.local.set({ model });
     }
     if (modelSelect && model) modelSelect.value = model;
-    // Show the saved key, or fall back to the hardcoded default as a starting point
-    if (apiKeyInput) apiKeyInput.value = apiKey || DEFAULT_NVIDIA_KEY;
+
+    // If no key is saved yet, auto-persist the default so the background
+    // script always has a key — fixes "Missing Authentication header" on first run.
+    if (!apiKey) {
+      apiKey = DEFAULT_OPENROUTER_KEY;
+      chrome.storage.local.set({ apiKey, provider: 'openrouter' });
+    }
+
+    if (apiKeyInput) apiKeyInput.value = apiKey;
     loadTokenStats();
   }
 );

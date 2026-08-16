@@ -4,12 +4,14 @@
  * Handles:
  * 1. Opening the Chrome Side Panel
  * 2. Fetching problem data from LeetCode's internal GraphQL API
- * 3. Calling NVIDIA, OpenAI, or Gemini with the analysis prompt
- * 4. Caching results in chrome.storage.local
- * 5. Saving analysis history (last 20 entries)
+ * 3. Running local agent tools (codeAnalyzer) — zero API cost pre-analysis
+ * 4. Calling the LLM with pre-analyzed hints (drastically fewer reasoning tokens)
+ * 5. Caching results in chrome.storage.local
+ * 6. Saving analysis history (last 20 entries)
  */
 
-import { buildAnalysisPrompt, isLanguageSupported } from '../utils/prompt.js';
+import { buildAnalysisPrompt, buildAnalysisPromptWithHints, isLanguageSupported } from '../utils/prompt.js';
+import { analyzeCode } from '../utils/codeAnalyzer.js';
 import { getRecommendations } from '../utils/recommendations.js';
 import { recordAndLogTokenUsage, getTokenStats } from '../utils/tokenLogger.js';
 
@@ -112,8 +114,15 @@ async function handleAnalysis({ titleSlug, code, language }, tab) {
     throw new Error('No API key configured. Open the extension popup to add your API key.');
   }
 
-  // 5. Build prompt & call LLM
-  const prompt = buildAnalysisPrompt({ problemData, code, language });
+  // 5a. Run local agent tools — zero tokens, instant static analysis
+  const hints = analyzeCode(code, language, problemData?.topicTags ?? []);
+  console.log('[BG] Local analysis:', JSON.stringify(hints, null, 2));
+
+  // 5b. Build short "confirm + format" prompt using pre-analyzed hints
+  //     LLM reasoning drops from ~2,300 tokens → ~150 tokens
+  const prompt = buildAnalysisPromptWithHints({ problemData, code, language, hints });
+
+  // 5c. Call LLM with reduced reasoning budget
   let llmResult;
   try {
     llmResult = await callLLM(prompt, settings);
@@ -234,7 +243,9 @@ async function fetchProblemData(titleSlug) {
 // ─── LLM Callers ─────────────────────────────────────────────────────────────
 
 async function callLLM(prompt, settings) {
-  if (settings.provider === 'nvidia') {
+  if (settings.provider === 'openrouter') {
+    return callOpenRouter(prompt, settings);
+  } else if (settings.provider === 'nvidia') {
     return callNvidia(prompt, settings);
   } else if (settings.provider === 'openai') {
     return callOpenAI(prompt, settings);
@@ -242,6 +253,50 @@ async function callLLM(prompt, settings) {
     return callGemini(prompt, settings);
   }
   throw new Error(`Unknown provider: ${settings.provider}`);
+}
+
+/**
+ * OpenRouter API — OpenAI-compatible endpoint routing to many models.
+ * Docs: https://openrouter.ai/docs
+ */
+async function callOpenRouter(prompt, { apiKey, model }) {
+  if (!apiKey) {
+    throw new Error('OpenRouter API key required. Please enter your API key in extension settings.');
+  }
+  const effectiveModel = model || 'dots-studio/dots-3-note-preview:free';
+
+  const resp = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${apiKey}`,
+      'HTTP-Referer': 'https://github.com/swapnil0076/AI-Problem-Analyser',
+      'X-Title': 'LeetCode AI Analyzer',
+    },
+    body: JSON.stringify({
+      model: effectiveModel,
+      messages: [
+        { role: 'user', content: prompt },
+      ],
+      max_tokens: 600,          // JSON output is ~200-300 tokens
+      reasoning: { max_tokens: 150 }, // Hints pre-computed locally — LLM just confirms
+    }),
+  });
+
+  if (!resp.ok) {
+    const err = await resp.json().catch(() => ({}));
+    const msg = err.error?.message ?? `OpenRouter HTTP ${resp.status}`;
+    throw new Error(msg);
+  }
+
+  const data = await resp.json();
+  const text = data.choices?.[0]?.message?.content ?? '';
+  const usage = {
+    promptTokens: data.usage?.prompt_tokens ?? 0,
+    completionTokens: data.usage?.completion_tokens ?? 0,
+    totalTokens: data.usage?.total_tokens ?? 0,
+  };
+  return { text, usage };
 }
 
 /**
@@ -411,20 +466,21 @@ function parseAnalysisResponse(raw) {
 async function getSettings() {
   return new Promise(resolve => {
     chrome.storage.local.get(
-      { apiKey: '', model: 'meta/llama-3.3-70b-instruct' },
+      { apiKey: '', provider: 'openrouter', model: 'dots-studio/dots-3-note-preview:free' },
       settings => {
-        // Extension is now NVIDIA-only. Clear any stale key from a previous provider
-        if (settings.apiKey && !settings.apiKey.startsWith('nvapi-')) {
-          settings.apiKey = '';
-          chrome.storage.local.set({ apiKey: '', provider: 'nvidia' });
-        }
-        // Migrate stale invalid model strings
-        if (!settings.model || settings.model === 'google/gemma-4-31b-it') {
-          settings.model = 'meta/llama-3.3-70b-instruct';
+        // Migrate stale invalid model strings from previous NVIDIA provider
+        const validModels = [
+          'dots-studio/dots-3-note-preview:free',
+          'meta/llama-3.3-70b-instruct:free',
+          'google/gemma-3-27b-it:free',
+          'mistralai/mistral-7b-instruct:free',
+        ];
+        if (!settings.model || !validModels.includes(settings.model)) {
+          settings.model = 'dots-studio/dots-3-note-preview:free';
           chrome.storage.local.set({ model: settings.model });
         }
-        // Always force provider to nvidia
-        settings.provider = 'nvidia';
+        // Ensure provider is always openrouter
+        settings.provider = 'openrouter';
         resolve(settings);
       }
     );

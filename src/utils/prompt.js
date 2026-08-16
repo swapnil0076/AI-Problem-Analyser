@@ -1,8 +1,12 @@
 /**
  * prompt.js — Language-aware prompt builder for LeetCode AI analysis.
  *
- * Optimized for speed: compact JSON schema inline, concise instructions.
- * Still uses chain-of-thought (reasoning BEFORE answer) to reduce Big-O hallucinations.
+ * Two prompt strategies:
+ *   buildAnalysisPromptWithHints() — used when local agent tools pre-analyzed the code.
+ *     The LLM only confirms/refines pre-computed facts and formats JSON.
+ *     Reasoning tokens: ~100 (down from ~2,300).
+ *
+ *   buildAnalysisPrompt() — fallback full prompt (no hints available).
  */
 
 const LANGUAGE_NOTES = {
@@ -38,32 +42,76 @@ function stripHtml(html) {
     .trim();
 }
 
+// ─── Primary: Hints-Based Prompt (used when local agent tools ran) ─────────────
+
 /**
- * Compact prompt — ~40% shorter than original while keeping chain-of-thought.
- * Inline JSON schema avoids the model re-reading a verbose description.
+ * Builds a short "confirm and format" prompt using pre-analyzed hints.
+ * The LLM doesn't reason from scratch — it just verifies and fills the JSON.
+ *
+ * @param {{ problemData, code, language, hints }} opts
+ *   hints = { pattern, complexity, structures } from analyzeCode()
+ * @returns {string}
  */
-export function buildAnalysisPrompt({ problemData, code, language }) {
-  const langNote = LANGUAGE_NOTES[language?.toLowerCase()] ?? `Language: ${language}`;
-  // Trim problem statement harder — 800 chars is enough for context
-  const stmt = stripHtml(problemData?.content ?? '').slice(0, 800);
-  const title = problemData?.title ?? 'Unknown';
+export function buildAnalysisPromptWithHints({ problemData, code, language, hints }) {
+  const langNote  = LANGUAGE_NOTES[language?.toLowerCase()] ?? language;
+  const title     = problemData?.title ?? 'Unknown';
   const difficulty = problemData?.difficulty ?? '';
-  const tags = (problemData?.topicTags ?? []).map(t => t.name).join(', ');
+  const tags      = (problemData?.topicTags ?? []).map(t => t.name).join(', ');
+  // Very short problem context — 200 chars is enough since hints carry the analysis
+  const stmt      = stripHtml(problemData?.content ?? '').slice(0, 200);
 
-  return `Expert algorithm analyst. Analyze this LeetCode solution, reason step-by-step, then output ONLY valid JSON.
+  const { pattern, complexity, structures } = hints;
 
-## Problem: ${title} (${difficulty})${tags ? `\nTags: ${tags}` : ''}
+  // Serialize local analysis results into the prompt
+  const hintsBlock = [
+    `Pattern detected : ${pattern.name} (confidence: ${pattern.confidence})`,
+    `Time estimate    : ${complexity.time}${complexity.hasSort ? ' (sort present)' : ''}`,
+    `Space estimate   : ${complexity.space}`,
+    `Loop depth       : ${complexity.loopDepth}`,
+    `Recursion        : ${complexity.hasRecursion ? 'yes' : 'no'}${complexity.hasMemo ? ' (memoized)' : ''}`,
+    `Data structures  : ${structures.join(', ')}`,
+  ].join('\n');
+
+  return `LeetCode solution analyzer. Local static analysis already ran — verify and output JSON.
+
+Problem: ${title} (${difficulty})${tags ? ` [${tags}]` : ''}
 ${stmt}
 
-## Solution [${langNote}]
+Code [${langNote}]:
 \`\`\`${language}
 ${code}
 \`\`\`
 
-Reason through: (1) pattern/approach, (2) time complexity tracing each loop/call, (3) space complexity counting aux structures + stack, (4) edge cases, (5) 2-3 specific improvements.
+── Local analysis results (verify these, correct if wrong) ──
+${hintsBlock}
 
-Then output ONLY this JSON (no markdown, no extra text):
-{"approach":{"name":"<pattern>","description":"<2 sentences>"},"timeComplexity":{"notation":"O(...)","explanation":"<1 sentence>"},"spaceComplexity":{"notation":"O(...)","explanation":"<1 sentence>"},"efficiencyRating":<1-10>,"suggestions":["<specific fix 1>","<specific fix 2>"],"confidence":"<high|medium|low>","optimalComplexity":{"time":"O(...)","space":"O(...)"}}`;
+Based on the code and the above hints, output ONLY this JSON (no markdown, no extra text):
+{"approach":{"name":"<pattern>","description":"<2 sentences>"},"timeComplexity":{"notation":"O(...)","explanation":"<1 sentence>"},"spaceComplexity":{"notation":"O(...)","explanation":"<1 sentence>"},"efficiencyRating":<1-10>,"suggestions":["<fix1>","<fix2>"],"confidence":"<high|medium|low>","optimalComplexity":{"time":"O(...)","space":"O(...)"}}`;
 }
 
+// ─── Fallback: Full Reasoning Prompt (no hints) ───────────────────────────────
 
+/**
+ * Fallback prompt — used only if local analysis is unavailable.
+ * Token-optimized version (400-char problem statement, compact schema).
+ */
+export function buildAnalysisPrompt({ problemData, code, language }) {
+  const langNote  = LANGUAGE_NOTES[language?.toLowerCase()] ?? language;
+  const stmt      = stripHtml(problemData?.content ?? '').slice(0, 400);
+  const title     = problemData?.title ?? 'Unknown';
+  const difficulty = problemData?.difficulty ?? '';
+  const tags      = (problemData?.topicTags ?? []).map(t => t.name).join(', ');
+
+  return `Analyze this LeetCode solution. Output ONLY valid JSON, no markdown.
+
+Problem: ${title} (${difficulty})${tags ? ` [${tags}]` : ''}
+${stmt}
+
+Code [${langNote}]:
+\`\`\`${language}
+${code}
+\`\`\`
+
+JSON schema (fill every field):
+{"approach":{"name":"<pattern>","description":"<2 sentences>"},"timeComplexity":{"notation":"O(...)","explanation":"<1 sentence>"},"spaceComplexity":{"notation":"O(...)","explanation":"<1 sentence>"},"efficiencyRating":<1-10>,"suggestions":["<fix1>","<fix2>"],"confidence":"<high|medium|low>","optimalComplexity":{"time":"O(...)","space":"O(...)"}}`;
+}
