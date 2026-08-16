@@ -126,6 +126,11 @@
           <span class="card-icon">🔀</span>
           <span class="card-label">Dry Run Flowchart</span>
           <span class="diagram-tag" id="diagram-tag">Algorithm Flow</span>
+          <button class="diagram-fullscreen-btn" id="diagram-fullscreen-btn" title="Expand to Fullscreen">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/>
+            </svg>
+          </button>
         </div>
 
         <!-- Diagram Viewport / Canvas -->
@@ -224,6 +229,35 @@
     </section>
 
   </main>
+
+  <!-- ── Fullscreen Diagram Lightbox Modal ──────────────────────────── -->
+  <div class="diagram-modal hidden" id="diagram-modal">
+    <div class="diagram-modal-backdrop" id="diagram-modal-backdrop"></div>
+    <div class="diagram-modal-dialog">
+      <div class="diagram-modal-header">
+        <div class="modal-title-group">
+          <span class="modal-title-icon">🔀</span>
+          <span class="modal-title" id="modal-problem-title">Logic Flowchart</span>
+          <span class="diagram-tag" id="modal-diagram-tag">Algorithm Flow</span>
+        </div>
+        <div class="modal-actions">
+          <button class="modal-btn-zoom" id="modal-zoom-out" title="Zoom Out">−</button>
+          <span class="modal-zoom-val" id="modal-zoom-val">100%</span>
+          <button class="modal-btn-zoom" id="modal-zoom-in" title="Zoom In">+</button>
+          <button class="modal-btn-zoom" id="modal-zoom-reset" title="Reset Zoom">Reset</button>
+          <button class="modal-btn-close" id="diagram-modal-close" title="Close Fullscreen (Esc)">✕</button>
+        </div>
+      </div>
+      <div class="diagram-modal-body" id="modal-body">
+        <div class="diagram-modal-canvas-wrapper" id="modal-canvas-wrapper">
+          <div class="diagram-modal-canvas" id="modal-diagram-canvas"></div>
+        </div>
+      </div>
+      <div class="diagram-modal-footer">
+        <div class="modal-steps-container" id="modal-steps-container"></div>
+      </div>
+    </div>
+  </div>
 
   <script type="module" src="sidepanel.js"></script>
 </body>

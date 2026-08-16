@@ -208,6 +208,10 @@ function renderFlowchart(data) {
       skeleton.classList.add('hidden');
       canvas.classList.remove('hidden');
 
+      // Store for modal
+      _currentSvg = svg;
+      _currentSteps = steps;
+
       // Populate execution path steps
       if (stepsList) {
         stepsList.innerHTML = '';
@@ -244,6 +248,94 @@ function renderFlowchart(data) {
     }
   }, 100);
 }
+
+// ─── Fullscreen Modal Controller ──────────────────────────────────────────────
+let _currentSvg = '';
+let _currentSteps = [];
+let _zoomScale = 1.0;
+
+function openDiagramModal() {
+  if (!_currentSvg) return;
+  const modal = document.getElementById('diagram-modal');
+  const modalCanvas = document.getElementById('modal-diagram-canvas');
+  const modalTitle = document.getElementById('modal-problem-title');
+  const modalTag = document.getElementById('modal-diagram-tag');
+  const modalSteps = document.getElementById('modal-steps-container');
+
+  if (!modal || !modalCanvas) return;
+
+  if (modalTitle && _currentAnalysis) {
+    modalTitle.textContent = _currentAnalysis.problemTitle || _currentAnalysis.titleSlug || 'Logic Flowchart';
+  }
+  if (modalTag && _currentAnalysis) {
+    modalTag.textContent = _currentAnalysis.approach?.name || 'Algorithm Flow';
+  }
+
+  modalCanvas.innerHTML = _currentSvg;
+  _zoomScale = 1.0;
+  updateModalZoom();
+
+  // Populate footer steps
+  if (modalSteps && _currentSteps.length > 0) {
+    modalSteps.innerHTML = '';
+    _currentSteps.forEach(step => {
+      const pill = document.createElement('div');
+      pill.className = 'modal-step-pill';
+      pill.innerHTML = `<strong>Step ${step.stepNum}</strong> <span>${step.title}</span>`;
+      modalSteps.appendChild(pill);
+    });
+  }
+
+  modal.classList.remove('hidden');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeDiagramModal() {
+  const modal = document.getElementById('diagram-modal');
+  if (modal) {
+    modal.classList.add('hidden');
+    document.body.style.overflow = '';
+  }
+}
+
+function updateModalZoom() {
+  const wrapper = document.getElementById('modal-canvas-wrapper');
+  const val = document.getElementById('modal-zoom-val');
+  if (wrapper) {
+    wrapper.style.transform = `scale(${_zoomScale})`;
+  }
+  if (val) {
+    val.textContent = `${Math.round(_zoomScale * 100)}%`;
+  }
+}
+
+// Fullscreen Button & Modal Events
+document.getElementById('diagram-fullscreen-btn')?.addEventListener('click', openDiagramModal);
+document.getElementById('diagram-modal-close')?.addEventListener('click', closeDiagramModal);
+document.getElementById('diagram-modal-backdrop')?.addEventListener('click', closeDiagramModal);
+
+document.getElementById('modal-zoom-in')?.addEventListener('click', () => {
+  _zoomScale = Math.min(2.5, _zoomScale + 0.2);
+  updateModalZoom();
+});
+
+document.getElementById('modal-zoom-out')?.addEventListener('click', () => {
+  _zoomScale = Math.max(0.5, _zoomScale - 0.2);
+  updateModalZoom();
+});
+
+document.getElementById('modal-zoom-reset')?.addEventListener('click', () => {
+  _zoomScale = 1.0;
+  updateModalZoom();
+});
+
+// Close modal on Escape key
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    closeDiagramModal();
+  }
+});
+
 function renderError(message) {
   set('error-message', message ?? 'An unexpected error occurred.');
   showState('state-error');
