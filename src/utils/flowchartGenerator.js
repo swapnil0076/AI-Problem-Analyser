@@ -30,233 +30,180 @@ function buildGraphModel(code, language, pattern, problemData) {
 
   // 1. Hash Map (Two Sum / Lookups)
   if (patName.includes('hash') || (c.includes('map') && c.includes('target')) || c.includes('twosum') || c.includes('two_sum')) {
-    return {
-      topNode: {
-        id: 'loop',
-        type: 'loop',
-        title: 'Loop through nums, using index i',
-        detail: 'Iterate through elements 0 ≤ i < n',
-        x: 240, y: 35, width: 220, height: 48
-      },
-      exitNode: {
-        id: 'exit',
-        type: 'terminal',
-        title: 'Loop finishes',
-        detail: '(Implicit: No solution found, should not happen)',
-        x: 400, y: 125, width: 200, height: 48
-      },
-      bodyNode: {
-        id: 'calc',
-        type: 'process',
-        title: 'Calculate complement = target - nums[i]',
-        detail: 'Compute required pair difference',
-        x: 130, y: 125, width: 210, height: 48
-      },
-      decisionNode: {
-        id: 'decision',
-        type: 'decision',
-        title: 'Check if complement is a key in number_map',
-        detail: 'Is complement found?',
-        x: 130, y: 240, size: 70
-      },
-      yesNode: {
-        id: 'return_found',
-        type: 'terminal',
-        title: 'Return [number_map[complement], i]',
-        detail: 'Pair found, return solution',
-        x: 130, y: 360, width: 210, height: 48
-      },
-      noNode: {
-        id: 'add_map',
-        type: 'process',
-        title: 'Add nums[i] and i to number_map',
-        detail: 'Store current number and continue',
-        x: 390, y: 360, width: 210, height: 48
-      },
-      nodes: [
-        { id: 'loop', title: 'Loop through nums', detail: 'Using index i (0 ≤ i < n)', type: 'loop' },
-        { id: 'calc', title: 'Calculate complement', detail: 'complement = target - nums[i]', type: 'process' },
-        { id: 'decision', title: 'Check complement in map', detail: 'number_map.has(complement)?', type: 'decision' },
-        { id: 'return_found', title: 'Return solution pair', detail: 'return [number_map[complement], i]', type: 'terminal' },
-        { id: 'add_map', title: 'Add nums[i] to map', detail: 'number_map[nums[i]] = i', type: 'process' },
-        { id: 'exit', title: 'Fallback exit', detail: 'Loop finishes without pair', type: 'terminal' }
-      ]
-    };
+    return createModel({
+      topTitle: 'Loop through nums, using index i',
+      topDetail: 'Iterate through elements 0 ≤ i < n',
+      exitTitle: '(Implicit: No solution found, should not happen)',
+      exitDetail: 'Loop finishes without finding match',
+      bodyTitle: 'Calculate complement = target - nums[i]',
+      bodyDetail: 'Compute required difference',
+      diamondTitle: 'Check if complement is a key in number_map',
+      yesTitle: 'Return [number_map[complement], i]',
+      yesDetail: 'Pair found, return solution indices',
+      noTitle: 'Add nums[i] and i to number_map',
+      noDetail: 'Store current number and continue loop'
+    });
   }
 
   // 2. Binary Search
   if (patName.includes('binary search') || (c.includes('mid') && c.includes('left') && c.includes('right')) || c.includes('search')) {
-    return {
-      topNode: {
-        id: 'loop',
-        type: 'loop',
-        title: 'While low ≤ high',
-        detail: 'Evaluate search interval midpoint',
-        x: 240, y: 35, width: 220, height: 48
-      },
-      exitNode: {
-        id: 'exit',
-        type: 'terminal',
-        title: 'Loop finishes',
-        detail: 'Return -1 (Target not found in array)',
-        x: 400, y: 125, width: 200, height: 48
-      },
-      bodyNode: {
-        id: 'mid',
-        type: 'process',
-        title: 'Calculate mid = low + (high - low) / 2',
-        detail: 'Check element at midpoint',
-        x: 130, y: 125, width: 210, height: 48
-      },
-      decisionNode: {
-        id: 'decision',
-        type: 'decision',
-        title: 'Check if nums[mid] == target',
-        detail: 'Is target at midpoint?',
-        x: 130, y: 240, size: 70
-      },
-      yesNode: {
-        id: 'return_found',
-        type: 'terminal',
-        title: 'Return mid (Target Found)',
-        detail: 'Found exact match index',
-        x: 130, y: 360, width: 210, height: 48
-      },
-      noNode: {
-        id: 'adjust',
-        type: 'process',
-        title: 'nums[mid] < target ? low = mid + 1 : high = mid - 1',
-        detail: 'Discard half of search space',
-        x: 390, y: 360, width: 210, height: 48
-      },
-      nodes: [
-        { id: 'loop', title: 'While low ≤ high', detail: 'Iterate search bounds', type: 'loop' },
-        { id: 'mid', title: 'Compute midpoint', detail: 'mid = (low + high) / 2', type: 'process' },
-        { id: 'decision', title: 'Compare nums[mid] to target', detail: 'Match check', type: 'decision' },
-        { id: 'return_found', title: 'Return index', detail: 'return mid', type: 'terminal' },
-        { id: 'adjust', title: 'Shift search boundary', detail: 'low = mid + 1 or high = mid - 1', type: 'process' },
-        { id: 'exit', title: 'Target not found', detail: 'return -1', type: 'terminal' }
-      ]
-    };
+    return createModel({
+      topTitle: 'While low ≤ high',
+      topDetail: 'Iterate search bounds',
+      exitTitle: 'Target not found in array',
+      exitDetail: 'Return -1 (Exhausted search space)',
+      bodyTitle: 'Calculate mid = low + (high - low) / 2',
+      bodyDetail: 'Inspect element at midpoint',
+      diamondTitle: 'Is nums[mid] == target?',
+      yesTitle: 'Return mid (Target Found)',
+      yesDetail: 'Found target element at index mid',
+      noTitle: 'nums[mid] < target ? low = mid + 1 : high = mid - 1',
+      noDetail: 'Discard half of the search interval'
+    });
   }
 
-  // 3. Two Pointers / General Scanning
-  if (patName.includes('two pointers') || (c.includes('left') && c.includes('right')) || c.includes('prefix')) {
-    return {
-      topNode: {
-        id: 'loop',
-        type: 'loop',
-        title: 'Loop: evaluate boundary pointers',
-        detail: 'Inspect elements at left and right',
-        x: 240, y: 35, width: 220, height: 48
-      },
-      exitNode: {
-        id: 'exit',
-        type: 'terminal',
-        title: 'Pointers meet / loop finishes',
-        detail: 'Return accumulated solution result',
-        x: 400, y: 125, width: 200, height: 48
-      },
-      bodyNode: {
-        id: 'inspect',
-        type: 'process',
-        title: 'Evaluate current pointer state',
-        detail: 'Compare elements or prefix match',
-        x: 130, y: 125, width: 210, height: 48
-      },
-      decisionNode: {
-        id: 'decision',
-        type: 'decision',
-        title: 'Target condition or mismatch?',
-        detail: 'Check invariant',
-        x: 130, y: 240, size: 70
-      },
-      yesNode: {
-        id: 'return_found',
-        type: 'terminal',
-        title: 'Return result or early exit',
-        detail: 'Optimal match found',
-        x: 130, y: 360, width: 210, height: 48
-      },
-      noNode: {
-        id: 'shift',
-        type: 'process',
-        title: 'Advance pointer & update state',
-        detail: 'left++ / right-- or trim prefix',
-        x: 390, y: 360, width: 210, height: 48
-      },
-      nodes: [
-        { id: 'loop', title: 'Iterate pointers', detail: 'Traverse array from bounds', type: 'loop' },
-        { id: 'inspect', title: 'Evaluate condition', detail: 'Check current elements', type: 'process' },
-        { id: 'decision', title: 'Decision check', detail: 'Condition satisfied?', type: 'decision' },
-        { id: 'return_found', title: 'Return result', detail: 'Return found answer', type: 'terminal' },
-        { id: 'shift', title: 'Advance pointer', detail: 'Update left/right', type: 'process' },
-        { id: 'exit', title: 'Finish traversal', detail: 'Return final state', type: 'terminal' }
-      ]
-    };
+  // 3. Two Pointers
+  if (patName.includes('two pointers') || (c.includes('left') && c.includes('right')) || c.includes('pointer')) {
+    return createModel({
+      topTitle: 'Loop: evaluate boundary pointers',
+      topDetail: 'Inspect elements at left and right',
+      exitTitle: 'Pointers meet / loop finishes',
+      exitDetail: 'Return accumulated solution result',
+      bodyTitle: 'Evaluate current pointer state',
+      bodyDetail: 'Compare elements at left and right',
+      diamondTitle: 'Is target condition satisfied?',
+      yesTitle: 'Return result or early exit',
+      yesDetail: 'Found optimal match or palindrome check passed',
+      noTitle: 'Advance pointer: left++ or right--',
+      noDetail: 'Adjust pointers inward based on condition'
+    });
   }
 
-  // 4. General Default 2D Branching Layout
+  // 4. Sliding Window
+  if (patName.includes('sliding window') || c.includes('window')) {
+    return createModel({
+      topTitle: 'Expand window: for right = 0..n-1',
+      topDetail: 'Include item[right] into current window',
+      exitTitle: 'All elements processed',
+      exitDetail: 'Return optimal max/min window size',
+      bodyTitle: 'Update window sum / frequency count',
+      bodyDetail: 'Track state of active window elements',
+      diamondTitle: 'Is window condition violated?',
+      yesTitle: 'Shrink window: left++',
+      yesDetail: 'Remove item[left] until constraint holds',
+      noTitle: 'Update best result = max(best, len)',
+      noDetail: 'Record optimal length and continue expand'
+    });
+  }
+
+  // 5. String / Character Scanning (e.g. Longest Common Prefix)
+  if (c.includes('prefix') || c.includes('indexof') || c.includes('charat') || patName.includes('character') || patName.includes('scanning')) {
+    return createModel({
+      topTitle: 'Loop strings: for i = 1 to strs.length - 1',
+      topDetail: 'Compare each string with prefix',
+      exitTitle: 'All strings matched prefix',
+      exitDetail: 'Return common prefix',
+      bodyTitle: 'Check if strs[i] starts with prefix',
+      bodyDetail: 'Evaluate substring matching at index 0',
+      diamondTitle: 'Does strs[i] match prefix?',
+      yesTitle: 'Move to next string (i++)',
+      yesDetail: 'Current word matches, advance iteration',
+      noTitle: 'Trim prefix: prefix = prefix[0..len-2]',
+      noDetail: 'Shorten prefix until matching or empty'
+    });
+  }
+
+  // 6. General Default 2D Branching Layout
+  return createModel({
+    topTitle: 'Loop through input elements',
+    topDetail: 'Iterate until termination condition',
+    exitTitle: 'Loop terminates normally',
+    exitDetail: 'Return final accumulated output',
+    bodyTitle: 'Process current element / state',
+    bodyDetail: 'Perform calculation or transformation',
+    diamondTitle: 'Is match or base condition met?',
+    yesTitle: 'Return target result value',
+    yesDetail: 'Condition satisfied, early return',
+    noTitle: 'Update state & advance iteration',
+    noDetail: 'Prepare next step and loop back'
+  });
+}
+
+function createModel(config) {
+  // Geometry coordinates with safe margins — NO overlaps!
+  // Canvas width: 620, height: 440
+  const topNode = {
+    id: 'top',
+    type: 'loop',
+    title: config.topTitle,
+    detail: config.topDetail,
+    x: 200, y: 38, width: 250, height: 46
+  };
+
+  const exitNode = {
+    id: 'exit',
+    type: 'terminal',
+    title: config.exitTitle,
+    detail: config.exitDetail,
+    x: 470, y: 130, width: 220, height: 46
+  };
+
+  const bodyNode = {
+    id: 'body',
+    type: 'process',
+    title: config.bodyTitle,
+    detail: config.bodyDetail,
+    x: 140, y: 130, width: 230, height: 46
+  };
+
+  const decisionNode = {
+    id: 'decision',
+    type: 'decision',
+    title: config.diamondTitle,
+    detail: config.diamondTitle,
+    x: 140, y: 245, size: 54
+  };
+
+  const yesNode = {
+    id: 'yes',
+    type: 'terminal',
+    title: config.yesTitle,
+    detail: config.yesDetail,
+    x: 140, y: 365, width: 230, height: 46
+  };
+
+  const noNode = {
+    id: 'no',
+    type: 'process',
+    title: config.noTitle,
+    detail: config.noDetail,
+    x: 440, y: 365, width: 240, height: 46
+  };
+
   return {
-    topNode: {
-      id: 'loop',
-      type: 'loop',
-      title: 'Loop through input elements',
-      detail: 'Iterate until termination condition',
-      x: 240, y: 35, width: 220, height: 48
-    },
-    exitNode: {
-      id: 'exit',
-      type: 'terminal',
-      title: 'Loop terminates',
-      detail: 'Return final accumulated output',
-      x: 400, y: 125, width: 200, height: 48
-    },
-    bodyNode: {
-      id: 'step',
-      type: 'process',
-      title: 'Process current element / state',
-      detail: 'Perform transformation or calculation',
-      x: 130, y: 125, width: 210, height: 48
-    },
-    decisionNode: {
-      id: 'decision',
-      type: 'decision',
-      title: 'Check branch / base condition',
-      detail: 'Is solution or edge met?',
-      x: 130, y: 240, size: 70
-    },
-    yesNode: {
-      id: 'return_found',
-      type: 'terminal',
-      title: 'Return target result',
-      detail: 'Condition met, return value',
-      x: 130, y: 360, width: 210, height: 48
-    },
-    noNode: {
-      id: 'update',
-      type: 'process',
-      title: 'Update state & advance iteration',
-      detail: 'Prepare next step and loop back',
-      x: 390, y: 360, width: 210, height: 48
-    },
+    topNode,
+    exitNode,
+    bodyNode,
+    decisionNode,
+    yesNode,
+    noNode,
     nodes: [
-      { id: 'loop', title: 'Loop iteration', detail: 'Iterate input collection', type: 'loop' },
-      { id: 'step', title: 'Process element', detail: 'Compute current step', type: 'process' },
-      { id: 'decision', title: 'Evaluate condition', detail: 'Branch check', type: 'decision' },
-      { id: 'return_found', title: 'Return result', detail: 'Early return if match', type: 'terminal' },
-      { id: 'update', title: 'Update state', detail: 'Accumulate and loop back', type: 'process' },
-      { id: 'exit', title: 'End traversal', detail: 'Return final result', type: 'terminal' }
+      { id: '1', title: config.topTitle, detail: config.topDetail, type: 'loop' },
+      { id: '2', title: config.bodyTitle, detail: config.bodyDetail, type: 'process' },
+      { id: '3', title: config.diamondTitle, detail: 'Decision branch', type: 'decision' },
+      { id: '4', title: config.yesTitle, detail: config.yesDetail, type: 'terminal' },
+      { id: '5', title: config.noTitle, detail: config.noDetail, type: 'process' },
+      { id: '6', title: config.exitTitle, detail: config.exitDetail, type: 'terminal' }
     ]
   };
 }
 
 /**
- * Renders the full 2D branching SVG with arrows, labels, and decision diamond.
+ * Renders the full 2D branching SVG with clean math-calculated arrows, labels, and decision diamond.
  */
 function renderBranchingSvg(model) {
   const { topNode, exitNode, bodyNode, decisionNode, yesNode, noNode } = model;
-  const viewBoxWidth = 530;
+  const viewBoxWidth = 600;
   const viewBoxHeight = 430;
 
   // Arrow markers and gradients
@@ -264,15 +211,11 @@ function renderBranchingSvg(model) {
     <defs>
       <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
         <stop offset="0%" stop-color="#161b22"/>
-        <stop offset="100%" stop-color="#0f1318"/>
+        <stop offset="100%" stop-color="#0e1217"/>
       </linearGradient>
       <linearGradient id="diamond-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#141c26"/>
-        <stop offset="100%" stop-color="#0b121a"/>
-      </linearGradient>
-      <linearGradient id="terminal-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#062e20"/>
-        <stop offset="100%" stop-color="#041f16"/>
+        <stop offset="0%" stop-color="#121820"/>
+        <stop offset="100%" stop-color="#0a0f14"/>
       </linearGradient>
 
       <!-- Arrow Marker -->
@@ -288,15 +231,15 @@ function renderBranchingSvg(model) {
   // Connector Paths
   const connectors = `
     <!-- Top to Body (Left path) -->
-    <path d="M ${topNode.x - 40} ${topNode.y + topNode.height / 2} L ${bodyNode.x} ${bodyNode.y - bodyNode.height / 2}" 
+    <path d="M ${topNode.x - 30} ${topNode.y + topNode.height / 2} L ${bodyNode.x} ${bodyNode.y - bodyNode.height / 2}" 
           stroke="#8b949e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
 
     <!-- Top to Exit (Right path) -->
-    <path d="M ${topNode.x + 40} ${topNode.y + topNode.height / 2} L ${exitNode.x} ${exitNode.y - exitNode.height / 2}" 
+    <path d="M ${topNode.x + topNode.width / 2 - 20} ${topNode.y + topNode.height / 2} L ${exitNode.x - exitNode.width / 2 + 30} ${exitNode.y - exitNode.height / 2}" 
           stroke="#8b949e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
     <!-- Exit Label Badge -->
-    <rect x="${(topNode.x + exitNode.x) / 2 - 28}" y="${(topNode.y + exitNode.y) / 2 - 5}" width="58" height="15" rx="3" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
-    <text x="${(topNode.x + exitNode.x) / 2 + 1}" y="${(topNode.y + exitNode.y) / 2 + 6}" fill="#c9d1d9" font-size="8.5" font-family="'Inter', sans-serif" font-weight="600" text-anchor="middle">Loop finishes</text>
+    <rect x="${(topNode.x + exitNode.x) / 2 - 22}" y="${(topNode.y + exitNode.y) / 2 - 4}" width="62" height="15" rx="3" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+    <text x="${(topNode.x + exitNode.x) / 2 + 9}" y="${(topNode.y + exitNode.y) / 2 + 7}" fill="#c9d1d9" font-size="8.5" font-family="'Inter', sans-serif" font-weight="600" text-anchor="middle">Loop finishes</text>
 
     <!-- Body to Decision Diamond -->
     <path d="M ${bodyNode.x} ${bodyNode.y + bodyNode.height / 2} L ${decisionNode.x} ${decisionNode.y - decisionNode.size}" 
@@ -310,19 +253,19 @@ function renderBranchingSvg(model) {
     <text x="${decisionNode.x}" y="${decisionNode.y + decisionNode.size + 25}" fill="#38bdf8" font-size="9" font-family="'Inter', sans-serif" font-weight="700" text-anchor="middle">Yes</text>
 
     <!-- Decision Diamond to No (Right) -->
-    <path d="M ${decisionNode.x + decisionNode.size * 1.3} ${decisionNode.y + 20} L ${noNode.x - noNode.width / 2 + 10} ${noNode.y - noNode.height / 2}" 
+    <path d="M ${decisionNode.x + decisionNode.size * 1.3} ${decisionNode.y + 15} L ${noNode.x - noNode.width / 2 + 10} ${noNode.y - noNode.height / 2}" 
           stroke="#8b949e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
     <!-- No Badge -->
-    <rect x="${decisionNode.x + decisionNode.size + 30}" y="${decisionNode.y + 48}" width="24" height="15" rx="3" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
-    <text x="${decisionNode.x + decisionNode.size + 42}" y="${decisionNode.y + 59}" fill="#8b949e" font-size="9" font-family="'Inter', sans-serif" font-weight="700" text-anchor="middle">No</text>
+    <rect x="${(decisionNode.x + noNode.x) / 2 - 25}" y="${(decisionNode.y + noNode.y) / 2 + 15}" width="24" height="15" rx="3" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+    <text x="${(decisionNode.x + noNode.x) / 2 - 13}" y="${(decisionNode.y + noNode.y) / 2 + 26}" fill="#8b949e" font-size="9" font-family="'Inter', sans-serif" font-weight="700" text-anchor="middle">No</text>
 
-    <!-- Loop Back: From No-Node (right) all the way back to Top Node -->
-    <path d="M ${noNode.x + noNode.width / 2 - 20} ${noNode.y - noNode.height / 2} C ${viewBoxWidth - 25} ${noNode.y - 40}, ${viewBoxWidth - 25} 60, ${topNode.x + topNode.width / 2} ${topNode.y + 5}" 
+    <!-- Loop Back: From No-Node (right) smoothly curving up along right margin back to Top Node -->
+    <path d="M ${noNode.x + noNode.width / 2 - 20} ${noNode.y - noNode.height / 2} C ${viewBoxWidth - 15} ${noNode.y - 60}, ${viewBoxWidth - 15} 55, ${topNode.x + topNode.width / 2} ${topNode.y}" 
           stroke="#8b949e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
   `;
 
   // Render SVG Nodes
-  const renderRect = (node, borderColor = '#30363d', glow = '') => `
+  const renderRect = (node, borderColor = '#30363d') => `
     <g class="flow-node" data-step="${node.id}" transform="translate(${node.x - node.width / 2}, ${node.y - node.height / 2})">
       <rect width="${node.width}" height="${node.height}" rx="4" fill="url(#card-grad)" stroke="${borderColor}" stroke-width="1.2"/>
       <text x="${node.width / 2}" y="${node.height / 2 + 4}" fill="#e6edf3" font-size="10.5" font-weight="500" font-family="'Inter', sans-serif" text-anchor="middle">${escapeXml(node.title)}</text>
@@ -332,28 +275,23 @@ function renderBranchingSvg(model) {
   const renderDiamond = (node) => {
     const s = node.size;
     const w = s * 1.35;
+    const [line1, line2] = splitTextIntoTwoLines(node.title, 22);
+
     return `
       <g class="flow-node node-diamond" data-step="${node.id}" transform="translate(${node.x}, ${node.y})">
         <polygon points="0,-${s} ${w},0 0,${s} -${w},0" fill="url(#diamond-grad)" stroke="#484f58" stroke-width="1.5"/>
-        <text x="0" y="-6" fill="#e6edf3" font-size="10" font-weight="500" text-anchor="middle" font-family="'Inter', sans-serif">Check if complement is a</text>
-        <text x="0" y="8" fill="#e6edf3" font-size="10" font-weight="500" text-anchor="middle" font-family="'Inter', sans-serif">key in number_map</text>
+        <text x="0" y="${line2 ? -5 : 4}" fill="#e6edf3" font-size="9.5" font-weight="500" text-anchor="middle" font-family="'Inter', sans-serif">${escapeXml(line1)}</text>
+        ${line2 ? `<text x="0" y="9" fill="#e6edf3" font-size="9.5" font-weight="500" text-anchor="middle" font-family="'Inter', sans-serif">${escapeXml(line2)}</text>` : ''}
       </g>
     `;
   };
-
-  const renderTerminal = (node) => `
-    <g class="flow-node node-terminal" data-step="${node.id}" transform="translate(${node.x - node.width / 2}, ${node.y - node.height / 2})">
-      <rect width="${node.width}" height="${node.height}" rx="4" fill="url(#card-grad)" stroke="#30363d" stroke-width="1.2"/>
-      <text x="${node.width / 2}" y="${node.height / 2 + 4}" fill="#e6edf3" font-size="10.5" font-weight="500" font-family="'Inter', sans-serif" text-anchor="middle">${escapeXml(node.title)}</text>
-    </g>
-  `;
 
   return `
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${viewBoxWidth} ${viewBoxHeight}" class="flowchart-svg" width="100%" height="auto">
       ${defs}
 
       <!-- Background Grid Subdued -->
-      <rect width="${viewBoxWidth}" height="${viewBoxHeight}" fill="#0d1117" rx="8"/>
+      <rect width="${viewBoxWidth}" height="${viewBoxHeight}" fill="#090d12" rx="8"/>
 
       <!-- Connectors Layer -->
       <g class="connectors-layer">
@@ -366,11 +304,26 @@ function renderBranchingSvg(model) {
         ${renderRect(exitNode, '#30363d')}
         ${renderRect(bodyNode, '#484f58')}
         ${renderDiamond(decisionNode)}
-        ${renderTerminal(yesNode)}
+        ${renderRect(yesNode, '#38bdf8')}
         ${renderRect(noNode, '#484f58')}
       </g>
     </svg>
   `;
+}
+
+function splitTextIntoTwoLines(text, maxCharsPerLine = 22) {
+  if (!text) return ['', ''];
+  const words = text.split(' ');
+  let line1 = '';
+  let line2 = '';
+  for (const w of words) {
+    if ((line1 + ' ' + w).trim().length <= maxCharsPerLine) {
+      line1 = (line1 + ' ' + w).trim();
+    } else {
+      line2 = (line2 + ' ' + w).trim();
+    }
+  }
+  return [line1, line2];
 }
 
 function escapeXml(unsafe) {
