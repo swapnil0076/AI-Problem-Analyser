@@ -3,25 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dry Run Logic Flowchart — LeetCode AI Analyzer</title>
+  <title>Dry Run Visualizer — AI Problem Analyser</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="dryrun.css" />
 </head>
 <body>
-  <!-- Header -->
+
+  <!-- ── Header ──────────────────────────────────────────────────────────────── -->
   <header class="dr-header">
     <div class="dr-brand">
-      <div class="dr-icon-badge">🔀</div>
+      <div class="dr-icon-badge">⚡</div>
       <div class="dr-title-group">
-        <h1 class="dr-problem-title" id="dr-problem-title">Logic Flowchart</h1>
+        <h1 class="dr-problem-title" id="dr-problem-title">Dry Run Visualizer</h1>
         <span class="dr-difficulty-badge" id="dr-diff-badge"></span>
       </div>
-      <span class="dr-pattern-tag" id="dr-pattern-tag">Algorithm Flow</span>
+      <span class="dr-pattern-tag" id="dr-pattern-tag">Execution Trace</span>
     </div>
 
-    <!-- Zoom & Viewport Controls -->
     <div class="dr-controls-group">
+      <!-- Zoom controls -->
       <div class="dr-zoom-pill">
         <button class="dr-zoom-btn" id="dr-zoom-out" title="Zoom Out">−</button>
         <span class="dr-zoom-val" id="dr-zoom-val">100%</span>
@@ -31,27 +32,94 @@
     </div>
   </header>
 
-  <!-- Main Canvas Viewport -->
+  <!-- ── Main 3-Column Layout ────────────────────────────────────────────────── -->
   <main class="dr-main">
-    <div class="dr-canvas-viewport" id="dr-viewport">
-      <div class="dr-canvas-wrapper" id="dr-canvas-wrapper">
-        <div class="dr-svg-container" id="dr-svg-container">
-          <!-- Rendered Flowchart SVG -->
+
+    <!-- LEFT: Input / Initialize Panel -->
+    <aside class="dr-panel dr-panel-left" id="dr-init-panel">
+      <div class="dr-panel-header">
+        <span class="dr-panel-label">[CODE GENERATED]</span>
+        <span class="dr-panel-label">[DRY RUN]</span>
+      </div>
+
+      <!-- Input Arguments Block -->
+      <div class="dr-var-block" id="dr-input-block">
+        <div class="dr-var-loading">Loading input…</div>
+      </div>
+
+      <!-- Divider -->
+      <div class="dr-panel-divider"></div>
+
+      <!-- Variable State -->
+      <div class="dr-var-block" id="dr-vars-block">
+        <!-- Populated by JS -->
+      </div>
+    </aside>
+
+    <!-- CENTRE: Execution Path (scrollable SVG canvas) -->
+    <section class="dr-canvas-section">
+      <div class="dr-canvas-viewport" id="dr-viewport">
+        <div class="dr-canvas-wrapper" id="dr-canvas-wrapper">
+          <div class="dr-svg-container" id="dr-svg-container">
+            <!-- Rendered flowchart SVG injected here -->
+            <div class="dr-loading-state" id="dr-loading">
+              <div class="dr-spinner"></div>
+              <span>Running trace…</span>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- Execution Path Trace Footer -->
-    <footer class="dr-footer">
-      <div class="dr-footer-header">
-        <span class="dr-footer-title">Execution Trace Steps</span>
-        <span class="dr-steps-count" id="dr-steps-count"></span>
+    <!-- RIGHT: Output / Result Panel -->
+    <aside class="dr-panel dr-panel-right" id="dr-result-panel">
+      <div class="dr-panel-header">
+        <span class="dr-panel-label">[EXECUTION RESULT]</span>
       </div>
-      <div class="dr-steps-grid" id="dr-steps-grid">
-        <!-- Interactive Steps rendered here -->
+
+      <!-- Result value box -->
+      <div class="dr-result-box" id="dr-result-box">
+        <div class="dr-result-value" id="dr-result-value">—</div>
       </div>
-    </footer>
+
+      <!-- Infinite loop banner (hidden by default) -->
+      <div class="dr-infinite-banner hidden" id="dr-infinite-banner">
+        <div class="dr-infinite-icon">♾️</div>
+        <div class="dr-infinite-title">INFINITE LOOP</div>
+        <div class="dr-infinite-desc">Loop exceeded iteration limit<br>without terminating</div>
+      </div>
+
+      <!-- Divider -->
+      <div class="dr-panel-divider"></div>
+
+      <!-- Metadata -->
+      <div class="dr-meta-block" id="dr-meta-block">
+        <div class="dr-meta-row">
+          <span class="dr-meta-key">Steps</span>
+          <span class="dr-meta-val" id="dr-steps-count">—</span>
+        </div>
+        <div class="dr-meta-row">
+          <span class="dr-meta-key">Algorithm</span>
+          <span class="dr-meta-val" id="dr-algo-name">—</span>
+        </div>
+        <div class="dr-meta-row">
+          <span class="dr-meta-key">Status</span>
+          <span class="dr-meta-val" id="dr-status-val">—</span>
+        </div>
+      </div>
+    </aside>
   </main>
+
+  <!-- ── Footer: Execution Trace Cards ───────────────────────────────────────── -->
+  <footer class="dr-footer">
+    <div class="dr-footer-header">
+      <span class="dr-footer-title">Execution Trace</span>
+      <span class="dr-steps-badge" id="dr-steps-badge"></span>
+    </div>
+    <div class="dr-steps-grid" id="dr-steps-grid">
+      <!-- Interactive step cards rendered by JS -->
+    </div>
+  </footer>
 
   <script type="module" src="dryrun.js"></script>
 </body>

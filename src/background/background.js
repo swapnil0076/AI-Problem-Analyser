@@ -65,6 +65,12 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
         .catch(err => sendResponse({ success: false, error: err.message }));
       return true;
 
+    case 'CLEAR_PROBLEM_CACHE':
+      clearProblemCache(message.payload?.titleSlug)
+        .then(count => sendResponse({ success: true, cleared: count }))
+        .catch(err  => sendResponse({ success: false, error: err.message }));
+      return true;
+
     default:
       break;
   }
@@ -175,6 +181,28 @@ async function handleAnalysis({ titleSlug, code, language }, tab) {
   ]);
 
   return result;
+}
+
+// ─── Cache Clear Helper ────────────────────────────────────────────────────────
+
+/**
+ * Removes all cache entries for a given titleSlug from chrome.storage.local.
+ * Cache keys have the pattern: cache:{titleSlug}:{hash}
+ */
+async function clearProblemCache(titleSlug) {
+  if (!titleSlug) return 0;
+  return new Promise((resolve, reject) => {
+    chrome.storage.local.get(null, (allItems) => {
+      if (chrome.runtime.lastError) return reject(chrome.runtime.lastError);
+      const prefix = `cache:${titleSlug}:`;
+      const keysToRemove = Object.keys(allItems).filter(k => k.startsWith(prefix));
+      if (keysToRemove.length === 0) return resolve(0);
+      chrome.storage.local.remove(keysToRemove, () => {
+        console.log(`[BG] Cleared ${keysToRemove.length} cache entries for "${titleSlug}"`);
+        resolve(keysToRemove.length);
+      });
+    });
+  });
 }
 
 

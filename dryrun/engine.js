@@ -34,17 +34,36 @@ function traceJavaScript({ code, input }) {
 
     const worker = new Worker(workerUrl);
 
-    // Safety timeout — kill if code takes more than 4 seconds
+    // Safety timeout — kill if code takes more than 6 seconds
     const timer = setTimeout(() => {
       worker.terminate();
-      reject(new Error('Execution timed out. Your code may contain an infinite loop.'));
-    }, 4000);
+      // Resolve with an infinite-loop result (graceful, not an error)
+      resolve({
+        algorithm: 'Solution',
+        input: input || '—',
+        isCorrect: false,
+        failStep: null,
+        result: '♾️ Infinite Loop Detected',
+        infiniteLoop: true,
+        steps: [{
+          step: 1,
+          vars: {},
+          action: '♾️ Infinite Loop Detected',
+          note: 'Code execution timed out after 6 seconds',
+          ok: false,
+          type: 'infinite',
+          condition: null,
+          conditionValue: null,
+        }],
+      });
+    }, 6000);
 
     worker.onmessage = ({ data }) => {
       clearTimeout(timer);
       worker.terminate();
+      // data.error means a genuine parse/runtime error (not infinite loop)
       if (data.error) reject(new Error(data.error));
-      else             resolve(data);
+      else            resolve(data);
     };
 
     worker.onerror = (e) => {
@@ -56,3 +75,4 @@ function traceJavaScript({ code, input }) {
     worker.postMessage({ code, input });
   });
 }
+

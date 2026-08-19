@@ -3,12 +3,17 @@
 /**
  * worker.js — Web Worker for local step execution & code tracing.
  * Runs in its own sandbox thread. No double-escaping needed.
+ *
+ * Each step now carries:
+ *   { step, type, action, note, condition, conditionValue, vars, ok }
+ *
+ * type: 'init' | 'assign' | 'condition' | 'loop' | 'return' | 'infinite'
  */
 
-const MAX_STEPS  = 30;  // cap steps shown
-const MAX_ITERS  = 500; // hard cap on loop iterations (safety)
+const MAX_STEPS = 40;   // cap steps shown in the visual trace
+const MAX_ITERS = 200;  // hard cap on loop iterations (safety)
 
-self.onmessage = function({ data: { code, input } }) {
+self.onmessage = function ({ data: { code, input } }) {
   try {
     const result = executeTrace(code, input);
     self.postMessage(result);
@@ -19,27 +24,27 @@ self.onmessage = function({ data: { code, input } }) {
 
 // ── Main entry ─────────────────────────────────────────────────────────────────
 function executeTrace(code, input) {
-  // 1. Parse and transform the user's code
   const info = parseCode(code);
   if (!info) {
     return { error: 'Could not parse your code. Make sure it is a valid JavaScript function.' };
   }
 
-  // 2. Parse example input or generate sensible defaults
   const parsedArgs = parseInput(input);
   const args = getSampleArgs(info.params, parsedArgs);
 
-  // 3. Build the instrumented executor
-  const { steps, result, error } = runInstrumented(info, args);
+  const { steps, result, error, infiniteLoop } = runInstrumented(info, args);
 
   return {
     algorithm: info.funcName || 'Solution',
     input: input || JSON.stringify(args),
     steps,
-    result: error
-      ? ('❌ Runtime Error: ' + error)
-      : (result !== undefined ? JSON.stringify(result) : '(no return value)'),
-    isCorrect: !error,
+    infiniteLoop: infiniteLoop || false,
+    result: infiniteLoop
+      ? '♾️ Infinite Loop Detected'
+      : error
+        ? ('❌ Runtime Error: ' + error)
+        : (result !== undefined ? JSON.stringify(result) : '(no return value)'),
+    isCorrect: !error && !infiniteLoop,
     failStep: error ? findFirstFailStep(steps) : null,
   };
 }
@@ -75,34 +80,27 @@ function getSampleArgs(params, inputArgs) {
 
 // ── Code Parser ────────────────────────────────────────────────────────────────
 function parseCode(code) {
-  // Strip block and line comments
   let clean = (code || '').replace(/\/\*[\s\S]*?\*\//g, '').replace(/\/\/.*/g, '').trim();
-
-  // Strip basic TypeScript type annotations (e.g. x: number, : number)
   clean = clean.replace(/:\s*[A-Za-z0-9_<>\[\]|]+/g, '');
 
-  // 1. Match var/let/const name = function(params) or var name = (params) =>
-  let m = clean.match(/(?:var|let|const|this\.)\s*([a-zA-Z0-9_$]+)\s*=\s*(?:function)?\s*\(([^)]*)\)/);
-  if (m) {
+  let m = clean.match(/(?:var|let|const|this\.)?\s*([a-zA-Z0-9_$]+)\s*=\s*(?:function)?\s*\(([^)]*)\)/);
+  if (m && !['if','for','while','switch'].includes(m[1])) {
     const startIdx = clean.indexOf(m[0]);
     return { funcName: m[1], params: splitParams(m[2]), body: extractBody(clean.slice(startIdx)) };
   }
 
-  // 2. Match standard function declaration: function name(params)
   m = clean.match(/function\s+([a-zA-Z0-9_$]+)\s*\(([^)]*)\)/);
   if (m) {
     const startIdx = clean.indexOf(m[0]);
     return { funcName: m[1], params: splitParams(m[2]), body: extractBody(clean.slice(startIdx)) };
   }
 
-  // 3. Match class method or shorthand: reverse(params) { or name: function(params)
   m = clean.match(/(?:async\s+)?([a-zA-Z0-9_$]+)\s*\(([^)]*)\)\s*\{/);
   if (m && !['if','for','while','switch','catch','function'].includes(m[1])) {
     const startIdx = clean.indexOf(m[0]);
     return { funcName: m[1], params: splitParams(m[2]), body: extractBody(clean.slice(startIdx)) };
   }
 
-  // 4. Fallback: Use full clean snippet as body
   return { funcName: 'Solution', params: ['x', 'nums', 'target'], body: clean };
 }
 
@@ -125,38 +123,72 @@ function extractBody(code) {
 function runInstrumented(info, args) {
   const steps = [];
   let iterCount = 0;
+  let infiniteLoop = false;
 
-  function _S(vars, action, note, ok) {
+  /**
+   * Push a step into the trace.
+   * @param {object} vars     — snapshot of variables
+   * @param {string} action   — label shown on the node
+   * @param {string} note     — sub-label / value annotation
+   * @param {boolean} ok      — whether step succeeded
+   * @param {string} type     — 'init'|'assign'|'condition'|'loop'|'return'|'infinite'
+   * @param {string} [cond]   — the condition text (for diamonds)
+   * @param {*}      [condVal]— evaluated condition result
+   */
+  function _S(vars, action, note, ok, type, cond, condVal) {
     if (steps.length >= MAX_STEPS) return;
     steps.push({
-      step:   steps.length + 1,
-      vars:   safeClone(vars),
-      action: String(action),
-      note:   String(note || ''),
-      ok:     ok !== false,
+      step:           steps.length + 1,
+      vars:           safeClone(vars),
+      action:         String(action),
+      note:           String(note || ''),
+      ok:             ok !== false,
+      type:           type || 'assign',
+      condition:      cond  || null,
+      conditionValue: condVal !== undefined ? condVal : null,
     });
   }
 
   function _GUARD() {
-    if (++iterCount > MAX_ITERS) throw new Error(`Loop exceeded ${MAX_ITERS} iterations (infinite loop?)`);
+    if (++iterCount > MAX_ITERS) {
+      if (!infiniteLoop) {
+        infiniteLoop = true;
+        // Push a sentinel step so the renderer can draw the ♾️ node
+        steps.push({
+          step:           steps.length + 1,
+          vars:           {},
+          action:         '♾️ Infinite Loop Detected',
+          note:           `Loop ran > ${MAX_ITERS} iterations without terminating`,
+          ok:             false,
+          type:           'infinite',
+          condition:      null,
+          conditionValue: null,
+        });
+      }
+      // Throw to unwind the loop — caught below and swallowed
+      throw new Error('__INFINITE_LOOP__');
+    }
   }
 
   const transformed = transformBody(info.body, info.params);
-
   const paramList = info.params.join(', ');
   let result, error;
   try {
     const fn = new Function('_S', '_GUARD', paramList, transformed);
     result = fn(_S, _GUARD, ...args);
   } catch (err) {
-    error = err.message;
-    if (steps.length > 0) {
-      steps[steps.length - 1].ok   = false;
-      steps[steps.length - 1].note = '❌ Error: ' + error;
+    if (err.message === '__INFINITE_LOOP__') {
+      // Already pushed the infinite step — just let it fall through
+    } else {
+      error = err.message;
+      if (steps.length > 0) {
+        steps[steps.length - 1].ok   = false;
+        steps[steps.length - 1].note = '❌ Error: ' + error;
+      }
     }
   }
 
-  return { steps, result, error };
+  return { steps, result, error, infiniteLoop };
 }
 
 // ── Code Transformer ───────────────────────────────────────────────────────────
@@ -168,9 +200,7 @@ function transformBody(body, params) {
     const names = m[1].match(/\b([a-zA-Z_$][\w$]*)\s*(?:=|,|$)/g) || [];
     names.forEach(n => {
       const name = n.replace(/[\s=,]/g, '');
-      if (name && !['let','const','var'].includes(name)) {
-        declared.add(name);
-      }
+      if (name && !['let','const','var'].includes(name)) declared.add(name);
     });
   }
 
@@ -182,7 +212,7 @@ function transformBody(body, params) {
   const out   = [];
 
   const initSnap = '{' + params.map(p => p + ': (typeof ' + p + ' !== "undefined" ? ' + p + ' : undefined)').join(', ') + '}';
-  out.push('_S(' + initSnap + ', "Function started", "Input parameters initialized", true);');
+  out.push('_S(' + initSnap + ', "Function started", "Input parameters initialized", true, "init");');
 
   for (let i = 0; i < lines.length; i++) {
     const raw  = lines[i];
@@ -193,62 +223,88 @@ function transformBody(body, params) {
       continue;
     }
 
+    // ── Variable declarations ──────────────────────────────────────────────────
     if (/^(?:let|var|const)\s/.test(trim)) {
       out.push(raw);
       const names = [];
       const nm = trim.match(/\b([a-zA-Z_$][\w$]*)\s*=/g) || [];
       nm.forEach(n => { const v = n.replace(/[\s=]/g, ''); if (v && !['let','var','const'].includes(v)) names.push(v); });
       if (names.length > 0) {
-        const initSnap = '{' + names.map(n => n + ': (typeof ' + n + ' !== "undefined" ? ' + n + ' : undefined)').join(', ') + '}';
-        out.push('_S(' + initSnap + ', "Initialize: ' + names.join(', ') + '", "", true);');
+        const snap = '{' + names.map(n => n + ': (typeof ' + n + ' !== "undefined" ? ' + n + ' : undefined)').join(', ') + '}';
+        out.push('_S(' + snap + ', "Init: ' + escStr(names.join(', ')) + '", "", true, "init");');
       }
       continue;
     }
 
+    // ── While loop ────────────────────────────────────────────────────────────
     if (/^while\s*\(/.test(trim)) {
       const condMatch = trim.match(/^while\s*\((.+)\)\s*\{?$/);
       const cond = condMatch ? condMatch[1] : '...';
+      // Inject before the while — record the condition check each iteration
+      // We patch it so after each loop header we record condition + current values
       out.push(raw);
       out.push('_GUARD();');
-      out.push('_S(_snapVars([' + trackedNames.map(n => JSON.stringify(n)).join(',') + '], {' +
+      const snap = '_snapVars([' + trackedNames.map(n => JSON.stringify(n)).join(',') + '], {' +
         trackedNames.map(n => n + ': (typeof ' + n + ' !== "undefined" ? ' + n + ' : undefined)').join(', ') +
-        '}), "Loop: ' + escStr(cond) + '", "", true);');
+        '})';
+      out.push('_S(' + snap + ', "Loop: ' + escStr(cond) + '", "", true, "loop", ' + JSON.stringify(cond) + ', true);');
       continue;
     }
 
+    // ── For loop ──────────────────────────────────────────────────────────────
     if (/^for\s*\(/.test(trim)) {
+      const condMatch = trim.match(/^for\s*\(([^;]*);([^;]*);([^)]*)\)/);
+      const cond = condMatch ? condMatch[2].trim() : '...';
       out.push(raw);
       out.push('_GUARD();');
-      out.push('_S(_snapVars([' + trackedNames.map(n => JSON.stringify(n)).join(',') + '], {' +
+      const snap = '_snapVars([' + trackedNames.map(n => JSON.stringify(n)).join(',') + '], {' +
         trackedNames.map(n => n + ': (typeof ' + n + ' !== "undefined" ? ' + n + ' : undefined)').join(', ') +
-        '}), "For loop iteration", "", true);');
+        '})';
+      out.push('_S(' + snap + ', "For: ' + escStr(cond) + '", "", true, "loop", ' + JSON.stringify(cond) + ', true);');
       continue;
     }
 
+    // ── if/else-if condition ───────────────────────────────────────────────────
+    if (/^if\s*\(|^else\s+if\s*\(/.test(trim)) {
+      const condMatch = trim.match(/^(?:else\s+)?if\s*\((.+)\)\s*\{?$/);
+      const cond = condMatch ? condMatch[1] : '...';
+      out.push(raw);
+      const snap = '_snapVars([' + trackedNames.map(n => JSON.stringify(n)).join(',') + '], {' +
+        trackedNames.map(n => n + ': (typeof ' + n + ' !== "undefined" ? ' + n + ' : undefined)').join(', ') +
+        '})';
+      out.push('_S(' + snap + ', "Check: ' + escStr(cond) + '", "", true, "condition", ' + JSON.stringify(cond) + ');');
+      continue;
+    }
+
+    // ── Increment / decrement ─────────────────────────────────────────────────
     if (/\b[a-zA-Z_$][\w$]*\s*(?:\+\+|--)/.test(trim) && !trim.startsWith('if') && !trim.startsWith('while')) {
       out.push(raw);
       const varMatch = trim.match(/\b([a-zA-Z_$][\w$]*)\s*(?:\+\+|--)/);
       if (varMatch) {
         const vn = varMatch[1];
-        out.push('_S({' + vn + ': ' + vn + '}, "' + escStr(trim.replace(/;$/, '')) + '", "", true);');
+        out.push('_S({' + vn + ': ' + vn + '}, "' + escStr(trim.replace(/;$/, '')) + '", String(' + vn + '), true, "assign");');
       }
       continue;
     }
 
+    // ── Assignment ────────────────────────────────────────────────────────────
     if (/^[a-zA-Z_$][\w$ .\[\]]*\s*(?:\+|-|\*|\/)?=(?!=|>)/.test(trim) || /^\+\+[a-zA-Z]|^--[a-zA-Z]/.test(trim)) {
       out.push(raw);
       const varMatch = trim.match(/^([a-zA-Z_$][\w$]*)/);
       if (varMatch) {
         const vn = varMatch[1];
-        out.push('_S({' + vn + ': (typeof ' + vn + ' !== "undefined" ? ' + vn + ' : undefined)}, "' + escStr(trim.replace(/;$/, '')) + '", "", true);');
+        out.push('_S({' + vn + ': (typeof ' + vn + ' !== "undefined" ? ' + vn + ' : undefined)}, "' +
+          escStr(trim.replace(/;$/, '')) + '", (typeof ' + vn + ' !== "undefined" ? String(' + vn + ') : ""), true, "assign");');
       }
       continue;
     }
 
+    // ── Return ────────────────────────────────────────────────────────────────
     if (/^return\b/.test(trim)) {
-      out.push('_S(_snapVars([' + trackedNames.map(n => JSON.stringify(n)).join(',') + '], {' +
+      const snap = '_snapVars([' + trackedNames.map(n => JSON.stringify(n)).join(',') + '], {' +
         trackedNames.map(n => n + ': (typeof ' + n + ' !== "undefined" ? ' + n + ' : undefined)').join(', ') +
-        '}), "return", "Function complete", true);');
+        '})';
+      out.push('_S(' + snap + ', "' + escStr(trim.replace(/;$/, '')) + '", "Function complete", true, "return");');
       out.push(raw);
       continue;
     }
@@ -275,20 +331,12 @@ function parseInput(raw) {
   const lines = raw.trim().split('\n').filter(Boolean);
   return lines.map(line => {
     const t = line.trim();
-    try {
-      return JSON.parse(t);
-    } catch (_) {
-      return t.replace(/^"|"$/g, '');
-    }
+    try { return JSON.parse(t); } catch (_) { return t.replace(/^"|"$/g, ''); }
   });
 }
 
 function safeClone(obj) {
-  try {
-    return JSON.parse(JSON.stringify(obj));
-  } catch (_) {
-    return {};
-  }
+  try { return JSON.parse(JSON.stringify(obj)); } catch (_) { return {}; }
 }
 
 function findFirstFailStep(steps) {

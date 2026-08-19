@@ -53,8 +53,10 @@ function renderResults(data) {
     badge.className = `difficulty-badge ${d}`;
   }
 
-  // Cache indicator
-  toggle('cache-badge', !!data._fromCache);
+  // Cache indicator + re-analyze button
+  const isFromCache = !!data._fromCache;
+  toggle('cache-badge', !isFromCache);
+  toggle('reanalyze-btn', !isFromCache);
 
   // Token usage indicator
   const tokenBadge = document.getElementById('token-badge');
@@ -282,6 +284,64 @@ async function openDiagramPopup() {
 
 // Fullscreen Expand Button opens the standalone popup window on screen
 document.getElementById('diagram-fullscreen-btn')?.addEventListener('click', openDiagramPopup);
+
+// ─── Re-analyze Button ────────────────────────────────────────────────────────
+document.getElementById('reanalyze-btn')?.addEventListener('click', async () => {
+  const btn = document.getElementById('reanalyze-btn');
+  const titleSlug = _currentAnalysis?.titleSlug;
+
+  if (!titleSlug) return;
+
+  // Visual feedback
+  if (btn) {
+    btn.disabled = true;
+    btn.textContent = '⏳ Clearing cache…';
+  }
+
+  try {
+    await new Promise((resolve, reject) => {
+      chrome.runtime.sendMessage(
+        { type: 'CLEAR_PROBLEM_CACHE', payload: { titleSlug } },
+        (response) => {
+          if (chrome.runtime.lastError) return reject(chrome.runtime.lastError);
+          if (!response?.success) return reject(new Error(response?.error || 'Clear failed'));
+          resolve(response);
+        }
+      );
+    });
+
+    // Show friendly toast in the panel
+    showReanalyzeToast('✅ Cache cleared! Click "AI Analyze" on the page to run a fresh analysis.');
+  } catch (err) {
+    showReanalyzeToast(`❌ Failed to clear cache: ${err.message}`);
+  } finally {
+    if (btn) {
+      btn.disabled = false;
+      btn.textContent = '🔄 Re-analyze';
+    }
+  }
+});
+
+function showReanalyzeToast(message) {
+  // Reuse existing toast if present
+  let toast = document.getElementById('sp-toast');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'sp-toast';
+    toast.style.cssText = [
+      'position:fixed', 'bottom:16px', 'left:50%', 'transform:translateX(-50%)',
+      'background:#1f2937', 'color:#e5e7eb', 'padding:9px 16px',
+      'border-radius:8px', 'font-size:12px', 'font-family:Inter,sans-serif',
+      'box-shadow:0 4px 16px rgba(0,0,0,0.5)', 'border-left:3px solid #7c3aed',
+      'z-index:9999', 'max-width:280px', 'text-align:center',
+      'animation:fadeIn 0.25s ease',
+    ].join(';');
+    document.body.appendChild(toast);
+  }
+  toast.textContent = message;
+  clearTimeout(toast._timer);
+  toast._timer = setTimeout(() => toast.remove(), 5000);
+}
 
 function renderError(message) {
   set('error-message', message ?? 'An unexpected error occurred.');
