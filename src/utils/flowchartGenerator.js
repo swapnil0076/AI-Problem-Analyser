@@ -22,112 +22,168 @@ export function generateFlowchart({ code = '', language = '', pattern = {}, prob
 }
 
 /**
- * Builds a 2D layout graph model tailored to the detected pattern.
+ * Extracts real structural elements from the code:
+ *  - while/for loop condition
+ *  - First if condition (main decision diamond)
+ *  - Variable computation (e.g. mid = ...)
+ *  - Return values (early exit vs final)
+ */
+function extractCodeFlow(code) {
+  // Strip comments for cleaner matching
+  const clean = code
+    .replace(/\/\/[^\n]*/g, '')
+    .replace(/\/\*[\s\S]*?\*\//g, '')
+    // Strip Java class wrapper for analysis
+    .replace(/^\s*(?:public\s+)?class\s+\w+[^{]*\{/, '')
+    .replace(/\}\s*$/, '');
+
+  // While / for loop condition
+  const whileMatch = clean.match(/\bwhile\s*\(([^)]+)\)/);
+  const forMatch   = clean.match(/\bfor\s*\([^;]*;\s*([^;]+);/);
+  const loopCond   = (whileMatch?.[1] ?? forMatch?.[1] ?? '').trim() || null;
+
+  // First if condition inside loop body (main decision)
+  const ifMatches = [...clean.matchAll(/\bif\s*\(([^)]+)\)/g)].map(m => m[1].trim());
+  const mainCond  = ifMatches[0] ?? null;
+  const altCond   = ifMatches[1] ?? null;
+
+  // Variable computation line (mid / m / pointer updates)
+  const computeMatch = clean.match(/\b(?:let|var|const|int|long)\s+(\w+)\s*=\s*([^\n;{}]+)/);
+  const computeVar   = computeMatch?.[1] ?? '';
+  const computeExpr  = (computeMatch?.[2] ?? '').trim().slice(0, 36);
+
+  // Return statements — find early positive return and final/default return
+  const returns = [...clean.matchAll(/\breturn\s+([^;\n{}]+)/g)].map(m => m[1].trim());
+  const earlyRet = returns.find(r => !r.match(/^-?\s*1$|^null$|^false$|^-1$/));
+  const finalRet = returns.find(r =>  r.match(/^-?\s*1$|^null$|^false$|^-1$/)) ?? returns[returns.length - 1];
+
+  return {
+    loopCond,
+    mainCond,
+    altCond,
+    computeLabel: computeVar && computeExpr ? `${computeVar} = ${computeExpr}` : null,
+    earlyReturn:  earlyRet ? `return ${earlyRet}` : 'return result',
+    finalReturn:  finalRet ? `return ${finalRet}` : 'loop terminates',
+    ifMatches,
+  };
+}
+
+/**
+ * Builds a 2D layout graph model.
+ * Priority: extract real conditions from code → fall back to pattern templates.
  */
 function buildGraphModel(code, language, pattern, problemData) {
   const patName = (pattern.name || '').toLowerCase();
   const c = code.toLowerCase();
 
-  // 1. Hash Map (Two Sum / Lookups)
-  if (patName.includes('hash') || (c.includes('map') && c.includes('target')) || c.includes('twosum') || c.includes('two_sum')) {
+  // ── Extract real conditions from the actual code ──────────────────────────
+  const flow = extractCodeFlow(code);
+
+  // If we got meaningful conditions from the code, use them directly
+  if (flow.loopCond && flow.mainCond) {
     return createModel({
-      topTitle: 'Loop through nums, using index i',
-      topDetail: 'Iterate through elements 0 ≤ i < n',
-      exitTitle: '(Implicit: No solution found, should not happen)',
-      exitDetail: 'Loop finishes without finding match',
-      bodyTitle: 'Calculate complement = target - nums[i]',
-      bodyDetail: 'Compute required difference',
-      diamondTitle: 'Check if complement is a key in number_map',
-      yesTitle: 'Return [number_map[complement], i]',
-      yesDetail: 'Pair found, return solution indices',
-      noTitle: 'Add nums[i] and i to number_map',
-      noDetail: 'Store current number and continue loop'
+      topTitle:     flow.loopCond,
+      topDetail:    `Loop condition`,
+      exitTitle:    flow.finalReturn,
+      exitDetail:   'Loop exits — condition false',
+      bodyTitle:    flow.computeLabel || 'Process element',
+      bodyDetail:   flow.altCond ? `Check: ${flow.altCond.slice(0, 40)}` : '',
+      diamondTitle: flow.mainCond,
+      yesTitle:     flow.earlyReturn,
+      yesDetail:    'Condition met',
+      noTitle:      flow.altCond
+                      ? `${flow.altCond.slice(0, 38)}…`
+                      : 'Update state & continue',
+      noDetail:     'Advance iteration',
     });
   }
 
-  // 2. Binary Search
-  if (patName.includes('binary search') || (c.includes('mid') && c.includes('left') && c.includes('right')) || c.includes('search')) {
+  // ── Pattern-based fallbacks (when code can't be parsed) ───────────────────
+
+  // Binary Search
+  if (patName.includes('binary search') || (c.includes('mid') && c.includes('left') && c.includes('right'))) {
     return createModel({
-      topTitle: 'While low ≤ high',
+      topTitle: 'while l <= r',
       topDetail: 'Iterate search bounds',
-      exitTitle: 'Target not found in array',
-      exitDetail: 'Return -1 (Exhausted search space)',
-      bodyTitle: 'Calculate mid = low + (high - low) / 2',
+      exitTitle: 'return -1',
+      exitDetail: 'Target not found — exhausted search space',
+      bodyTitle: 'm = l + (r - l) / 2',
       bodyDetail: 'Inspect element at midpoint',
-      diamondTitle: 'Is nums[mid] == target?',
-      yesTitle: 'Return mid (Target Found)',
-      yesDetail: 'Found target element at index mid',
-      noTitle: 'nums[mid] < target ? low = mid + 1 : high = mid - 1',
-      noDetail: 'Discard half of the search interval'
+      diamondTitle: 'nums[m] == target?',
+      yesTitle: 'return m',
+      yesDetail: 'Found target at index m',
+      noTitle: 'l = m+1  or  r = m-1',
+      noDetail: 'Discard half of search interval',
     });
   }
 
-  // 3. Two Pointers
-  if (patName.includes('two pointers') || (c.includes('left') && c.includes('right')) || c.includes('pointer')) {
+  // Hash Map
+  if (patName.includes('hash') || (c.includes('map') && c.includes('target'))) {
     return createModel({
-      topTitle: 'Loop: evaluate boundary pointers',
-      topDetail: 'Inspect elements at left and right',
-      exitTitle: 'Pointers meet / loop finishes',
-      exitDetail: 'Return accumulated solution result',
-      bodyTitle: 'Evaluate current pointer state',
-      bodyDetail: 'Compare elements at left and right',
-      diamondTitle: 'Is target condition satisfied?',
-      yesTitle: 'Return result or early exit',
-      yesDetail: 'Found optimal match or palindrome check passed',
-      noTitle: 'Advance pointer: left++ or right--',
-      noDetail: 'Adjust pointers inward based on condition'
+      topTitle: 'for i in nums',
+      topDetail: 'Iterate through elements',
+      exitTitle: '(No solution found)',
+      exitDetail: 'Loop finishes without match',
+      bodyTitle: 'complement = target - nums[i]',
+      bodyDetail: 'Compute required difference',
+      diamondTitle: 'complement in map?',
+      yesTitle: 'return [map[complement], i]',
+      yesDetail: 'Pair found',
+      noTitle: 'map[nums[i]] = i',
+      noDetail: 'Store current number',
     });
   }
 
-  // 4. Sliding Window
+  // Two Pointers
+  if (patName.includes('two pointer') || (c.includes('left') && c.includes('right'))) {
+    return createModel({
+      topTitle: 'while left < right',
+      topDetail: 'Evaluate boundary pointers',
+      exitTitle: 'return result',
+      exitDetail: 'Pointers met — loop done',
+      bodyTitle: 'Evaluate pointer state',
+      bodyDetail: 'Compare elements at left & right',
+      diamondTitle: 'Target condition met?',
+      yesTitle: 'return result / early exit',
+      yesDetail: 'Optimal match found',
+      noTitle: 'left++  or  right--',
+      noDetail: 'Adjust pointers inward',
+    });
+  }
+
+  // Sliding Window
   if (patName.includes('sliding window') || c.includes('window')) {
     return createModel({
-      topTitle: 'Expand window: for right = 0..n-1',
-      topDetail: 'Include item[right] into current window',
-      exitTitle: 'All elements processed',
-      exitDetail: 'Return optimal max/min window size',
-      bodyTitle: 'Update window sum / frequency count',
-      bodyDetail: 'Track state of active window elements',
-      diamondTitle: 'Is window condition violated?',
-      yesTitle: 'Shrink window: left++',
-      yesDetail: 'Remove item[left] until constraint holds',
-      noTitle: 'Update best result = max(best, len)',
-      noDetail: 'Record optimal length and continue expand'
+      topTitle: 'for right = 0..n-1',
+      topDetail: 'Expand window right',
+      exitTitle: 'return best result',
+      exitDetail: 'All elements processed',
+      bodyTitle: 'Update window state',
+      bodyDetail: 'Track active window elements',
+      diamondTitle: 'Window constraint violated?',
+      yesTitle: 'left++ (shrink)',
+      yesDetail: 'Remove left element until valid',
+      noTitle: 'best = max(best, size)',
+      noDetail: 'Record optimal length',
     });
   }
 
-  // 5. String / Character Scanning (e.g. Longest Common Prefix)
-  if (c.includes('prefix') || c.includes('indexof') || c.includes('charat') || patName.includes('character') || patName.includes('scanning')) {
-    return createModel({
-      topTitle: 'Loop strings: for i = 1 to strs.length - 1',
-      topDetail: 'Compare each string with prefix',
-      exitTitle: 'All strings matched prefix',
-      exitDetail: 'Return common prefix',
-      bodyTitle: 'Check if strs[i] starts with prefix',
-      bodyDetail: 'Evaluate substring matching at index 0',
-      diamondTitle: 'Does strs[i] match prefix?',
-      yesTitle: 'Move to next string (i++)',
-      yesDetail: 'Current word matches, advance iteration',
-      noTitle: 'Trim prefix: prefix = prefix[0..len-2]',
-      noDetail: 'Shorten prefix until matching or empty'
-    });
-  }
-
-  // 6. General Default 2D Branching Layout
+  // Generic default
   return createModel({
-    topTitle: 'Loop through input elements',
-    topDetail: 'Iterate until termination condition',
-    exitTitle: 'Loop terminates normally',
-    exitDetail: 'Return final accumulated output',
-    bodyTitle: 'Process current element / state',
-    bodyDetail: 'Perform calculation or transformation',
-    diamondTitle: 'Is match or base condition met?',
-    yesTitle: 'Return target result value',
-    yesDetail: 'Condition satisfied, early return',
-    noTitle: 'Update state & advance iteration',
-    noDetail: 'Prepare next step and loop back'
+    topTitle:     flow.loopCond || 'Loop through input',
+    topDetail:    'Iterate until termination condition',
+    exitTitle:    flow.finalReturn || 'return result',
+    exitDetail:   'Return final accumulated output',
+    bodyTitle:    flow.computeLabel || 'Process current element',
+    bodyDetail:   'Perform calculation or transformation',
+    diamondTitle: flow.mainCond || 'Condition met?',
+    yesTitle:     flow.earlyReturn || 'return result',
+    yesDetail:    'Condition satisfied — early return',
+    noTitle:      'Update state & advance',
+    noDetail:     'Prepare next step and loop back',
   });
 }
+
 
 function createModel(config) {
   // Geometry coordinates with safe margins — NO overlaps!

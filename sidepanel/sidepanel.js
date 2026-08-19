@@ -258,6 +258,14 @@ let _currentSteps = [];
 async function openDiagramPopup() {
   if (!_currentAnalysis && !_currentSvg) return;
 
+  // Extract the first test case from LeetCode's exampleTestcases field.
+  // Format: each parameter on its own line, test cases are back-to-back.
+  // We take the first (paramCount) lines to get one complete test case.
+  const rawTestcases = _currentAnalysis?.exampleTestcases || '';
+  const tcLines = rawTestcases.split('\n').map(l => l.trim()).filter(Boolean);
+  // Heuristic: use at most 4 lines (covers functions with up to 4 params)
+  const firstTestCase = tcLines.slice(0, 4).join('\n');
+
   // Save current diagram payload for the popup window
   await chrome.storage.local.set({
     latestDiagramReq: {
@@ -266,6 +274,8 @@ async function openDiagramPopup() {
       approach: _currentAnalysis?.approach || {},
       code: _currentAnalysis?.code || '',
       language: _currentAnalysis?.language || '',
+      input: firstTestCase,
+      exampleTestcases: rawTestcases,
       svg: _currentSvg,
       steps: _currentSteps,
       timestamp: Date.now()

@@ -13,9 +13,9 @@
 const MAX_STEPS = 40;   // cap steps shown in the visual trace
 const MAX_ITERS = 200;  // hard cap on loop iterations (safety)
 
-self.onmessage = function ({ data: { code, input } }) {
+self.onmessage = function ({ data: { code, input, language } }) {
   try {
-    const result = executeTrace(code, input);
+    const result = executeTrace(code, input, language);
     self.postMessage(result);
   } catch (err) {
     self.postMessage({ error: err.message });
@@ -23,7 +23,10 @@ self.onmessage = function ({ data: { code, input } }) {
 };
 
 // ── Main entry ─────────────────────────────────────────────────────────────────
-function executeTrace(code, input) {
+function executeTrace(rawCode, input, language) {
+  // Transpile non-JS code to JavaScript before parsing
+  const code = transpileToJS(rawCode, language);
+
   const info = parseCode(code);
   if (!info) {
     return { error: 'Could not parse your code. Make sure it is a valid JavaScript function.' };
@@ -47,6 +50,160 @@ function executeTrace(code, input) {
     isCorrect: !error && !infiniteLoop,
     failStep: error ? findFirstFailStep(steps) : null,
   };
+}
+
+// ── Multi-Language Transpiler ──────────────────────────────────────────────
+
+/**
+ * Route code to the correct transpiler based on language.
+ * JS/TS pass through unchanged.
+ */
+function transpileToJS(code, language) {
+  const lang = (language || '').toLowerCase();
+  if (lang === 'java')                        return transpileJava(code);
+  if (lang === 'python' || lang === 'python3') return transpilePython(code);
+  if (lang === 'cpp' || lang === 'c++')        return transpileCpp(code);
+  return code; // javascript, typescript — no transformation
+}
+
+/**
+ * Java → JavaScript transpiler for LeetCode-style solutions.
+ *
+ * Handles:
+ *  - class Solution { } wrapper removal
+ *  - Method signature conversion: public int f(int[] a, int b) → function f(a, b)
+ *  - Typed variable declarations: int x = → let x =
+ *  - Integer division floor: l + (r-l)/2 → Math.floor(l + (r-l)/2)
+ *  - Common Java APIs: Arrays.sort, new int[], System.out.println
+ */
+function transpileJava(code) {
+  let js = code;
+
+  // 1. Remove outer class { ... } wrapper
+  js = js.replace(/^\s*(?:(?:public|private|abstract)\s+)?class\s+\w+(?:\s+(?:extends|implements)\s+[\w ,<>]+)?\s*\{/, '');
+  // Remove the final matching } (class closing brace) — find the last one
+  const lastClose = js.lastIndexOf('}');
+  if (lastClose > js.length * 0.4) js = js.slice(0, lastClose) + '\n' + js.slice(lastClose + 1);
+
+  // 2. Convert method signatures
+  //    "public int search(int[] nums, int target) {" → "function search(nums, target) {"
+  js = js.replace(
+    /\b(?:public|private|protected)\s+(?:static\s+)?(?:(?:int|long|short|boolean|double|float|void|char|String|Integer|Long|Boolean|List|Map|Set|ArrayList|LinkedList|HashMap|TreeMap|int\[\]|long\[\])(?:<[^>]+>)?(?:\[\])?)\s+(\w+)\s*\(([^)]*)\)/g,
+    (_, name, params) => {
+      const cleanParams = params
+        .split(',')
+        .map(p => {
+          const t = p.trim();
+          // Take the last word as the variable name (after removing the type)
+          const lastSpace = t.lastIndexOf(' ');
+          return lastSpace >= 0 ? t.slice(lastSpace + 1).trim() : t;
+        })
+        .filter(Boolean)
+        .join(', ');
+      return `function ${name}(${cleanParams})`;
+    }
+  );
+
+  // 3. Typed local variable declarations: "int x = ...", "long count = ..."
+  js = js.replace(
+    /\b(?:int|long|short|byte|double|float|boolean|char|String|Integer|Long|Boolean)(?:\[\])?\s+([a-zA-Z_]\w*)/g,
+    'let $1'
+  );
+
+  // 4. Integer division — wrap /.../2 or /\d with Math.floor
+  //    Pattern: anything = expr / integer_literal
+  //    Most common: let m = l + ((r - l) / 2)
+  js = js.replace(
+    /(let\s+\w+\s*=\s*)([^;\n]+?\/\s*\d+)([;\n])/g,
+    (match, decl, expr, end) => {
+      if (expr.includes('Math.floor')) return match;
+      return `${decl}Math.floor(${expr.trim()})${end}`;
+    }
+  );
+  // Also handle re-assignment: m = expr / 2;
+  js = js.replace(
+    /^(\s*(?!\/\/)([a-zA-Z_]\w*)\s*=\s*)([^=;\n][^;\n]*?\/\s*\d+)(;)/gm,
+    (match, assign, varName, expr, semi) => {
+      if (['let','const','var'].includes(varName.trim())) return match;
+      if (expr.includes('Math.floor')) return match;
+      return `${assign}Math.floor(${expr.trim()})${semi}`;
+    }
+  );
+
+  // 5. Common Java APIs
+  js = js.replace(/Arrays\.sort\((\w+)\)/g, '$1.sort((a,b)=>a-b)');
+  js = js.replace(/Collections\.sort\((\w+)\)/g, '$1.sort((a,b)=>a-b)');
+  js = js.replace(/System\.out\.println\s*\(/g, 'console.log(');
+  js = js.replace(/new\s+int\[([^\]]+)\]/g, 'new Array($1).fill(0)');
+  js = js.replace(/new\s+boolean\[([^\]]+)\]/g, 'new Array($1).fill(false)');
+  js = js.replace(/new\s+(?:ArrayList|LinkedList)(?:<[^>]+>)?\(\)/g, '[]');
+  js = js.replace(/new\s+(?:HashMap|TreeMap|HashSet|LinkedHashMap)(?:<[^>]+>)?\(\)/g, 'new Map()');
+  js = js.replace(/\.size\(\)/g, '.size');
+  js = js.replace(/\.get\(/g, '.get(');
+
+  // 6. Remove remaining Java-only keywords
+  js = js.replace(/\b(?:static|final|abstract|synchronized|volatile|transient)\s+/g, '');
+
+  return js.trim();
+}
+
+/**
+ * Python 3 → JavaScript transpiler.
+ * Handles: def, typed hints, range, print, len, append.
+ */
+function transpilePython(code) {
+  let js = code;
+
+  // class Solution: wrapper removal
+  js = js.replace(/^class\s+Solution\s*:\s*/m, '');
+
+  // def methodName(self, params) → function methodName(params)
+  js = js.replace(
+    /def\s+(\w+)\s*\(self(?:,\s*)?([^)]*)\)\s*(?:->\s*[^:]+)?:/g,
+    (_, name, params) => {
+      // Remove type annotations: "nums: List[int], target: int" → "nums, target"
+      const cleanParams = params
+        .split(',')
+        .map(p => p.trim().replace(/:\s*[^,=]+/, '').replace(/=\s*[^,]+/, '').trim())
+        .filter(Boolean)
+        .join(', ');
+      return `function ${name}(${cleanParams}) {`;
+    }
+  );
+
+  // Convert Python indented blocks to braced blocks (very basic)
+  // This is simplified — handles common cases only
+  js = js.replace(/:\s*\n/g, ' {\n');
+  js = js.replace(/\bTrue\b/g, 'true');
+  js = js.replace(/\bFalse\b/g, 'false');
+  js = js.replace(/\bNone\b/g, 'null');
+  js = js.replace(/\blen\(([^)]+)\)/g, '$1.length');
+  js = js.replace(/\brange\((\d+),\s*(\w+)\)/g, 'Array.from({length:$2-$1},(_,i)=>i+$1)');
+  js = js.replace(/\brange\((\w+)\)/g, 'Array.from({length:$1},(_,i)=>i)');
+  js = js.replace(/\.append\(/g, '.push(');
+  js = js.replace(/\bprint\(/g, 'console.log(');
+  js = js.replace(/\bint\(([^)]+)\)/g, 'Math.floor($1)');
+  js = js.replace(/\bself\./g, 'this.');
+  js = js.replace(/\bor\b/g, '||');
+  js = js.replace(/\band\b/g, '&&');
+  js = js.replace(/\bnot\s+/g, '!');
+
+  return js;
+}
+
+/** C++ → JS: minimal — handles simple array/loop patterns */
+function transpileCpp(code) {
+  let js = code;
+  // Remove class Solution and public:
+  js = js.replace(/class\s+Solution\s*\{[\s\S]*?public:/g, '');
+  js = js.replace(/\b(?:int|long|bool|double|float|auto|vector<[^>]+>|string)\s+([a-zA-Z_]\w*)/g, 'let $1');
+  js = js.replace(/\bstd::vector<[^>]+>\s*([a-zA-Z_]\w*)/g, 'let $1');
+  js = js.replace(/\.size\(\)/g, '.length');
+  js = js.replace(/\.push_back\(/g, '.push(');
+  js = js.replace(/cout\s*<<\s*/g, 'console.log(');
+  js = js.replace(/::/g, '.');
+  js = js.replace(/true/g, 'true').replace(/false/g, 'false');
+  return js.trim();
 }
 
 function getSampleArgs(params, inputArgs) {

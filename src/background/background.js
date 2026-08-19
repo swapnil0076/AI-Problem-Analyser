@@ -168,6 +168,7 @@ async function handleAnalysis({ titleSlug, code, language }, tab) {
     difficulty: problemData?.difficulty ?? 'Unknown',
     language,
     code,
+    exampleTestcases: problemData?.exampleTestcases ?? '',
     usage: llmResult.usage ?? { promptTokens: 0, completionTokens: 0, totalTokens: 0 },
     recommendations,
     timestamp: Date.now(),

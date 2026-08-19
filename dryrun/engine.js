@@ -6,9 +6,12 @@
  */
 
 export function runLocalTrace(req) {
-  const { language } = req;
+  const lang = (req.language || '').toLowerCase();
 
-  if (language !== 'javascript' && language !== 'typescript') {
+  // Only block non-algorithmic languages (SQL, shell) — everything else
+  // passes through to the worker which will transpile Java/Python/C++ to JS.
+  const BLOCKED = ['mysql', 'mssql', 'oraclesql', 'postgresql', 'bash', 'shell', 'powershell'];
+  if (BLOCKED.includes(lang)) {
     return Promise.resolve({
       algorithm: 'Local Trace',
       input: req.input || '—',
@@ -16,14 +19,14 @@ export function runLocalTrace(req) {
       failStep: null,
       result: '',
       steps: [],
-      _langError: language,
+      _langError: req.language,
     });
   }
 
   return traceJavaScript(req);
 }
 
-function traceJavaScript({ code, input }) {
+function traceJavaScript({ code, input, language }) {
   return new Promise((resolve, reject) => {
     let workerUrl;
     try {
@@ -72,7 +75,7 @@ function traceJavaScript({ code, input }) {
       reject(new Error(e.message || 'Worker execution error'));
     };
 
-    worker.postMessage({ code, input });
+    worker.postMessage({ code, input, language });
   });
 }
 
